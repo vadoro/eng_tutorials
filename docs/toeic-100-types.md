@@ -26,7 +26,7 @@
 | 1 | 품사 자리 | 1–8 | 5·6 | **T02 완료** |
 | 2 | 동사 ① 수 일치 | 9–12 | 5·6 | T03 (12번은 T01에서 다룸) |
 | 3 | 동사 ② 능동·수동 | 13–15 | 5·6 | T03 |
-| 4 | 동사 ③ 시제 | 16–20 | 5·6 | T04 |
+| 4 | 동사 ③ 시제 | 16–20 | 5·6 | **T04 완료** |
 | 5 | 문장 구조와 동사 자리 | 21–23 | 5·6 | T07 |
 | 6 | to부정사·동명사 | 24–27 | 5·6 | T07 |
 | 7 | 분사 | 28–30 | 5·6 | T08 |
@@ -83,11 +83,11 @@
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 16 | 시간 표현 단서 (last·ago → 과거, since·so far → 현재완료, next·soon → 미래) | She ___ here since 2020. → **has worked** | 빈출·오류 |
-| 17 | 시간·조건 부사절은 현재 시제로 미래를 나타냄 | When the shipment ___, we will call you. → **arrives** (will arrive ✗) | 빈출·오류 |
-| 18 | 미래완료·과거완료 (by + 미래 시점, before + 과거) | By next March, she ___ the course. → **will have completed** | 빈출 |
-| 19 | 요구·제안·주장 동사 뒤 that절의 동사원형 | We recommend that he ___ early. → **arrive** | 빈출 |
-| 20 | 시제와 짝인 부사 (already·yet·still, recently, shortly) | The lobby has ___ been renovated. → **recently** | 빈출 |
+| 16 | 시간 표현 단서 (last·ago → 과거, since·so far → 현재완료, next·soon → 미래) | She ___ here since 2020. → **has worked** | 빈출·오류 · **T04** |
+| 17 | 시간·조건 부사절은 현재 시제로 미래를 나타냄 | When the shipment ___, we will call you. → **arrives** (will arrive ✗) | 빈출·오류 · **T04** |
+| 18 | 미래완료·과거완료 (by + 미래 시점, before + 과거) | By next March, she ___ the course. → **will have completed** | 빈출 · **T04** |
+| 19 | 요구·제안·주장 동사 뒤 that절의 동사원형 | We recommend that he ___ early. → **arrive** | 빈출 · **T04** |
+| 20 | 시제와 짝인 부사 (already·yet·still, recently, shortly) | The lobby has ___ been renovated. → **recently** | 빈출 · **T04** |
 
 ### 5. 문장 구조와 동사 자리 (Part 5·6)
 
@@ -271,7 +271,7 @@
 | T01 | 관계대명사, 빈자리를 찾아라 | 12, 36–39 | **완료** |
 | T02 | 빈칸의 자리가 품사를 정한다 | 1–8 | **완료** |
 | T03 | 동사 ① 수 일치와 능동·수동 | 9–11, 13–15 | 다음 차례 |
-| T04 | 동사 ② 시제 | 16–20 | |
+| T04 | 시간선 위에 동사를 놓아라 | 16–20 | **완료** |
 | T05 | 접속사·전치사·접속부사 | 31–35 | |
 | T06 | 명사·관사·수량 표현 | 47–51 | |
 | T07 | 동사 자리와 to부정사·동명사 | 21–27 | |

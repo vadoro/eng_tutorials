@@ -68,5 +68,18 @@ window.EN_CATALOG = {
       thumb: 'parts-of-speech/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'verb-tense',
+      track: 'toeic',
+      title: '시간선 위에 동사를 놓아라',
+      topic: '시제 · 현재완료 · 미래완료 · 부사절 · 동사원형',
+      summary: '시제 문제를 해석 대신 시간 단서로 푸는 법. 단서를 시간선에 놓고 과거·현재완료·미래·완료형을 고르고, 부사절의 현재 시제와 요구·제안 that절의 동사원형 함정을 단서 → 시간선 → 모양 3단계로 익혀요.',
+      length: '6:26',
+      scenes: 12,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '시간선 시제 기계', '연습 문제 16', '퀴즈'],
+      types: [16, 17, 18, 19, 20],
+      thumb: 'verb-tense/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };
