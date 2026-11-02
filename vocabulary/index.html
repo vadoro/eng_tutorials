@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>낱말에도 단짝이 있다 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="토익 Part 5 어휘 문제를 짝(콜로케이션)으로 푸는 법. 동사 + 목적어 짝, 덩어리 표현, 모양이 비슷한 형용사, 부사의 짝, 헷갈리는 동사를 짝 찾기 → 짝 맞추기 → 함정 확인 3단계로 배우고, 틀린 카드가 더 빨리 돌아오는 짝 카드와 짝 사전으로 익혀요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 짝 · 빈칸에 들어갈 말 · 구조 단서(목적어 · 사람) · 덩어리 표현 · 빈칸 · 함정 */
+  --c-pt:#2266C4; --c-ans:#A86A00; --c-cue:#6A45C2; --c-chunk:#1F7A55; --c-gap:#C2346E; --c-trap:#C2531F;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  /* 사이트 공통 부품(퀴즈·연습 문제·핵심 정리)이 쓰는 색과 글꼴 */
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-pt); --en-cue:var(--c-cue); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-pt:#6EC8FF; --c-ans:#FFC15E; --c-cue:#C9A7FF; --c-chunk:#7FE0A8; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-pt:#6EC8FF; --c-ans:#FFC15E; --c-cue:#C9A7FF; --c-chunk:#7FE0A8; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab h3.mt{margin-top:16px}
+.lab p{margin:8px 0 0}
+.lab .seg + .seg{margin-top:6px}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{display:inline-flex;align-items:center;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;gap:4px;margin:10px 0 0;font-size:18px;font-weight:600;line-height:1.45}
+.mini{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--surface-2)}
+.mq{margin:0 0 8px;font-size:16px;font-weight:500}
+.lab > .mq{margin-top:4px;font-size:18px;font-weight:600}
+.blank{display:inline-block;width:3.6em;border-bottom:2px solid var(--text);vertical-align:-2px}
+.blank.sm{width:2.6em}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer}
+.mo button:hover{border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:8px 0 0!important;font-size:14px;color:var(--muted);min-height:0}
+.mr:empty{display:none}
+.gapq{margin:10px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.gapq li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.gapq .ph{font-weight:600;flex:1 1 13em;min-width:0}
+.gapq .mr{flex-basis:100%;margin:0!important}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)} .c-warn{color:var(--warn)} .c-ans{color:var(--c-ans)}
+.pick{display:grid;grid-template-columns:4.6em minmax(0,1fr);gap:8px;align-items:center;margin:8px 0}
+.pick > span{font-weight:700;font-size:14px;color:var(--muted)}
+select.sel{height:36px;padding:0 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);max-width:100%;min-width:0}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.frl{margin:6px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px;font-size:14.5px}
+.frl li{display:flex;align-items:center;flex-wrap:wrap;gap:0 6px;min-width:0}
+.frl .en-say,.hw .en-say{width:24px;height:24px;margin-right:0}
+.frl .en-say svg,.hw .en-say svg{width:13px;height:13px}
+.frl li.ex span[lang]{color:var(--muted);font-style:italic}
+.nosay{display:inline-block;width:24px;flex:none}
+
+/* ---------- 놀이터: 짝 카드 (라이트너 상자) ---------- */
+.deck{display:flex;flex-direction:column;gap:12px;outline:none}
+.dtop{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 14px}
+.dtop .lbl{font-size:12.5px;font-weight:600;color:var(--muted);margin-right:2px}
+.dtop > div{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.boxes{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px}
+.bx{position:relative;display:flex;flex-direction:column;align-items:center;padding:8px 2px 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);overflow:hidden;text-align:center;min-width:0}
+.bx > *{position:relative}
+.bx b{font-family:var(--mono);font-size:20px;line-height:1.25}
+.bx span{font-size:12.5px;font-weight:700}
+.bx small{font-size:11px;line-height:1.3;color:var(--muted)}
+.bx i{position:absolute;left:0;right:0;bottom:0;height:var(--h);background:color-mix(in srgb,var(--c-pt) 18%,transparent);transition:height .35s}
+.bx.done i{background:color-mix(in srgb,var(--ok) 24%,transparent)}
+.bx.on{border-color:var(--c-ans);box-shadow:inset 0 0 0 1.5px var(--c-ans)}
+.kmeta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:0;font-family:var(--mono);font-size:13px;color:var(--muted)}
+.ktype{padding:1px 10px;border-radius:999px;background:var(--surface-2);color:var(--text);font-family:var(--body);font-weight:600}
+.kbox{margin-left:auto}
+.kq{margin:2px 0 0;min-height:3.4em;font-size:clamp(18px,2.4vw,23px);line-height:1.7;font-weight:500}
+.kq.short{min-height:2em;font-size:clamp(23px,3.2vw,31px);font-weight:600}
+.kq mark{background:transparent;color:inherit;padding:0 2px;border-radius:4px}
+.kq mark.on{box-shadow:inset 0 -0.42em 0 color-mix(in srgb,var(--c-pt) 30%,transparent)}
+.ktag{font-size:15px;font-weight:500;color:var(--muted)}
+.kfill{padding:0 3px;font-weight:800;color:var(--c-ans);box-shadow:inset 0 -3px 0 currentColor}
+.kq .blank{width:3.4em;height:1.1em;vertical-align:-0.2em;border-bottom-width:2.5px}
+.kopts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.kopts button{min-height:52px;min-width:0;padding:6px 10px;border:1.5px solid var(--line);border-radius:12px;background:var(--surface-2);font-size:17px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;overflow-wrap:anywhere}
+.kopts button:hover:not(:disabled){border-color:var(--accent)}
+.kopts button:disabled{cursor:default}
+.kopts button.right{border-color:var(--ok);color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--surface))}
+.kopts button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.kopts button.off{opacity:.55}
+.kopts kbd{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+.kback{display:flex;flex-direction:column;gap:8px;padding:12px 14px;border-radius:10px;background:var(--surface-2);border-left:4px solid var(--ok)}
+.kback.no{border-left-color:var(--no)}
+.kphr{margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;font-size:19px}
+.kphr b{color:var(--c-ans)}
+.knotes{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px;font-size:14.5px;line-height:1.55;color:var(--muted)}
+.knotes b{color:var(--text);margin-right:4px}
+.knotes li.right b{color:var(--ok)}
+.kko{margin:0;display:flex;align-items:center;gap:6px;font-size:14.5px;color:var(--muted)}
+.ksched{margin:0;font-size:14.5px}
+.kact{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.kstat{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.btn[aria-pressed="true"]{background:var(--accent-soft)}
+.lnk{margin-left:auto;padding:0;border:0;background:none;color:var(--muted);font-size:13px;text-decoration:underline;cursor:pointer}
+
+/* ---------- 놀이터: 짝 사전 ---------- */
+.dictc h3{margin:0;font-size:17px}
+.dictc .dtop{margin:8px 0 2px}
+.dictc input[type="search"]{height:38px;flex:1 1 220px;max-width:380px;min-width:0;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2)}
+.dgrp h4{margin:16px 0 2px;font-size:14px;color:var(--accent)}
+.dict{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:0 20px}
+.dict > li{padding:8px 0;border-top:1px solid var(--line);min-width:0}
+.hw{margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px}
+.hw b{font-size:17px}
+.hw small{padding:0 5px;border:1px solid var(--line);border-radius:4px;font-size:11.5px;font-weight:700;color:var(--muted)}
+.hw em{font-style:normal;font-size:12px;font-weight:700;color:var(--c-trap)}
+.hw em i{font-style:normal}
+.dko{font-size:13.5px;color:var(--muted)}
+.frl span[lang]{font-weight:600}
+
+/* ---------- 놀이터 · 연습 문제 · 퀴즈 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:72ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;scroll-margin-top:12px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td.where{font-weight:700;color:var(--c-pt)}
+.sum td[lang] b{color:var(--c-ans)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .kopts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .boxes{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="vocabulary"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">TOEIC 어휘 · 짝 표현 · <span id="durLbl">4분 59초</span></p>
+    <h1>낱말에도 <em>단짝</em>이 있다</h1>
+    <p class="lead">conduct, attend, reserve, earn — 넷 다 동사원형이라 문법으로는 모두 빈칸에 들어갈 수 있어요. 이런 어휘 문제의 답은 빈칸과 늘 함께 다니는 말, 곧 <b>짝</b>이 정해요. 영상에서 짝을 찾고 · 맞추고 · 함정을 확인하는 3단계 풀이법을 배우고, 아래 짝 카드로 짝을 하나씩 쌓아 가요.</p>
+    <ul class="legend" aria-label="문장 색의 뜻">
+      <li><i style="background:var(--c-pt)"></i>짝 (빈칸과 함께 쓰이는 말)</li>
+      <li><i style="background:var(--c-ans)"></i>빈칸에 들어갈 말</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>빈칸</li>
+      <li><i style="background:var(--c-chunk)"></i>덩어리 표현</li>
+      <li><i style="background:var(--c-cue)"></i>구조 단서 (목적어 · 사람)</li>
+      <li><i style="background:var(--c-trap)"></i>함정 (닮은꼴 · 헷갈리는 동사)</li>
+    </ul>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">짝 카드</a><a href="#dictCard">짝 사전</a><a href="#drill">연습 문제</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="어휘 · 짝 표현 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="빈칸과 함께 쓰이는 짝 낱말을 하늘색으로 칠하고, 보기를 짝과 붙여 읽어 자연스러운 짝을 고르는 모습을 보여 주는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">짝 카드 — 틀린 카드는 더 빨리 돌아와요</h2>
+      <p>어휘는 규칙보다 양이에요. 카드 앞면의 빈칸에 들어갈 말을 네 보기 가운데 고르세요. 맞힌 카드는 다음 상자로 올라가 더 늦게, 틀린 카드는 상자 1로 내려가 3장 뒤에 다시 나와요(라이트너 상자). 막히면 <b>짝 찾기 힌트</b>로 짝을 칠해 보세요. 답하면 보기마다 짝 사전의 까닭이 나와요. 기록은 이 브라우저에만 남아요. 키보드: 1~4 고르기, H 힌트, Enter 다음 카드.</p>
+    </div>
+    <div class="card deck" id="deck" tabindex="-1">
+      <div class="dtop">
+        <div role="group" aria-label="유형"><span class="lbl">유형</span><span class="seg" id="kType"><button type="button" data-v="all" aria-pressed="true">전체</button><button type="button" data-v="59" aria-pressed="false">59 동사</button><button type="button" data-v="60" aria-pressed="false">60 덩어리</button><button type="button" data-v="61" aria-pressed="false">61 형용사</button><button type="button" data-v="62" aria-pressed="false">62 부사</button><button type="button" data-v="63" aria-pressed="false">63 동사 함정</button></span></div>
+        <div role="group" aria-label="앞면"><span class="lbl">앞면</span><span class="seg" id="kView"><button type="button" data-v="q" aria-pressed="true">문장</button><button type="button" data-v="short" aria-pressed="false">짝만</button></span></div>
+      </div>
+      <ol class="boxes" id="kBoxes" aria-label="상자별 카드 수"></ol>
+      <div id="kCard" aria-live="polite"></div>
+      <div class="kact"><button class="btn ghost" type="button" id="kHint" aria-pressed="false">짝 찾기 힌트 (H)</button><button class="btn" type="button" id="kNext" hidden>다음 카드 →</button><span class="kstat" id="kStat"></span><button class="lnk" type="button" id="kReset">기록 지우기</button></div>
+    </div>
+    <div class="card dictc" id="dictCard">
+      <h3 id="dictTitle">짝 사전</h3>
+      <p class="note">영상 · 카드 · 연습 문제에 나온 낱말과 그 짝을 유형별로 모았어요. 낱말이나 우리말 뜻으로 찾고, 스피커 단추로 발음을 들어 보세요(한 번 더 누르면 천천히). 이 사전이 이 튜토리얼의 규칙 엔진이에요.</p>
+      <div class="dtop"><input type="search" id="dQ" placeholder="찾기: survey, 마감, considerate …" aria-label="짝 사전에서 찾기"><span class="seg" id="dType" role="group" aria-label="사전 유형"><button type="button" data-v="all" aria-pressed="true">전체</button><button type="button" data-v="59" aria-pressed="false">59</button><button type="button" data-v="60" aria-pressed="false">60</button><button type="button" data-v="61" aria-pressed="false">61</button><button type="button" data-v="62" aria-pressed="false">62</button><button type="button" data-v="63" aria-pressed="false">63</button></span></div>
+      <p class="note" id="dCount" role="status"></p>
+      <div id="dict"></div>
+    </div>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">연습 문제</p>
+      <h2 id="drillTitle">토익 Part 5 형식으로 풀어 보기</h2>
+      <p>한 문제씩 풀어요. 막히면 <b>힌트</b>를 누르세요. 3단계 풀이법(짝 찾기 → 짝 맞추기 → 함정 확인)이 한 단계씩 열리고, 짝은 하늘색, 구조 단서(목적어 · 사람)는 보라색으로 칠해져요. 답을 고르면 보기마다 짝 사전의 까닭, 해석, 완성 문장의 발음이 나와요.</p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 원리 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 낱말이나 카드를 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 짝의 자리</h2>
+      <p>빈칸의 품사가 짝을 찾을 곳을 알려 주고, 짝과 함께 쓰는 보기가 답이에요. 닮은꼴과 헷갈리는 동사는 한 번 더 확인해요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">유형</th><th scope="col">짝은 어디에</th><th scope="col">예</th></tr></thead>
+        <tbody>
+          <tr><td>59 동사 + 목적어</td><td class="where">빈칸 뒤의 목적어</td><td lang="en"><b>conduct</b> a survey · <b>meet</b> a deadline · <b>address</b> an issue · <b>submit</b> a proposal</td></tr>
+          <tr><td>60 덩어리 표현</td><td class="where">빈칸 앞뒤 (통째로)</td><td lang="en"><b>take</b> effect · until further <b>notice</b> · in <b>charge</b> of · out of <b>stock</b> · <b>as</b> of</td></tr>
+          <tr><td>61 모양이 비슷한 형용사</td><td class="where">꾸밈 받는 명사 · 뒤의 전치사</td><td lang="en">a <b>considerable</b> amount · be <b>considerate</b> of others · be <b>reliant</b> on · <b>economic</b> growth</td></tr>
+          <tr><td>62 부사의 짝</td><td class="where">숫자 · 형용사(분사) · 동사</td><td lang="en"><b>approximately</b> 200 · <b>highly</b> qualified · respond <b>promptly</b> · <b>shortly</b> after</td></tr>
+          <tr><td>63 헷갈리는 동사</td><td class="where">뒤의 목적어 · 사람 · 방향</td><td lang="en">prices <b>rise</b> / <b>raise</b> prices · <b>tell</b> us that / <b>say</b> that · <b>lend</b> me / <b>borrow</b> from</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>3단계 풀이법</h3>
+        <dl>
+          <dt>① 짝 찾기</dt><dd>빈칸의 품사로 짝을 찾을 곳을 정해요. 동사 → 뒤의 목적어, 형용사 → 꾸밈 받는 명사, 부사 → 숫자 · 형용사 · 동사, 명사 → 앞뒤의 덩어리.</dd>
+          <dt>② 짝 맞추기</dt><dd>그 짝과 함께 쓰는 보기를 골라요. 한국어를 그대로 옮기지 않아요. <i lang="en">결정을 하다 → make a decision</i> (<i lang="en">do</i> ×).</dd>
+          <dt>③ 함정 확인</dt><dd>꼬리만 다른 닮은꼴(<i lang="en">considerable · considerate</i>), 뒤의 목적어 · 사람(<i lang="en">rise · raise, say · tell</i>), 빌리는 방향(<i lang="en">lend · borrow</i>), 품사(<i lang="en">affect · effect</i>)를 한 번 더 봐요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>용어</h3>
+        <dl>
+          <dt>짝 표현 <span>collocation</span></dt><dd>자주 함께 쓰이는 낱말 짝. <i lang="en">conduct a survey, heavy traffic</i>. 문법 규칙이 아니라 ‘얼마나 자연스럽게 함께 쓰느냐’의 문제예요.</dd>
+          <dt>덩어리 표현 <span>fixed expression</span></dt><dd>낱말 몇 개가 굳어 한 뜻이 된 말. <i lang="en">until further notice, in charge of</i>. 낱말 하나만 바꿔도 뜻이 달라져요(<i lang="en">out of stock</i> / <i lang="en">out of order</i>).</dd>
+          <dt>닮은꼴 <span>look-alike words</span></dt><dd>꼬리만 다르고 뜻은 다른 말. <i lang="en">reliable</i>(믿을 수 있는) / <i lang="en">reliant</i>(의존하는).</dd>
+          <dt>자동사 · 타동사 <span>intransitive · transitive</span></dt><dd>목적어 없이 쓰는 동사(<i lang="en">rise, lie, arise</i>)와 목적어가 꼭 있어야 하는 동사(<i lang="en">raise, lay</i>).</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>한국어와 다른 점 · 공부법</h3>
+        <dl>
+          <dt>‘하다’ 하나 ↔ 여러 동사</dt><dd>회의를 · 조사를 · 결정을 · 발표를 · 주문을 하다 → <i lang="en">hold · conduct · make · give · place</i>.</dd>
+          <dt>낱말 뜻은 짝이 정해요</dt><dd><i lang="en">meet a deadline</i> = 마감을 지키다(만나다 ×), <i lang="en">address an issue</i> = 문제를 다루다(주소 ×).</dd>
+          <dt>짝으로 외우기</dt><dd>낱말 하나 대신 짝 표현 통째로 외우고, 소리 내어 읽어요.</dd>
+          <dt>라이트너 상자 <span>Leitner system</span></dt><dd>맞힌 카드는 다음 상자로 올려 늦게, 틀린 카드는 상자 1로 내려 자주 다시 보는 반복 방법. 짝 카드가 이렇게 움직여요.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓ · ×, 직접 해 보기의 채점, 짝 카드의 정답과 까닭, 연습 문제의 힌트와 보기별 해설, 퀴즈의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 이 엔진은 손으로 고른 <b>짝 사전</b>이에요. 문제에 적어 둔 정답이 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>짝 표현은 문법처럼 딱 잘라 맞고 틀리는 규칙이 아니라, 원어민이 얼마나 자주 · 자연스럽게 함께 쓰느냐의 문제예요. 그래서 엔진은 조심스럽게 판정해요. 토익 비즈니스 영어에서 분명히 자연스러운 짝만 ✓, 함께 쓰지 않는다고 하나하나 확인한 조합과 분명한 규칙(품사가 다름, 자동사 뒤의 목적어, <i lang="en">tell</i> 뒤의 사람처럼 뒤의 구조, 빌리는 방향)에 걸린 것만 ×로 표시하고, 사전에 없는 조합은 판정하지 않아요(?). 실제로는 사전에 없는 짝도 쓰여요. 예를 들어 <i lang="en">hold a meeting</i> 말고 <i lang="en">have a meeting</i>, <i lang="en">reach a decision</i>도 자연스러워요. <i lang="en">effect</i>는 ‘(변화를) 이루다’라는 동사로도 쓰지만, 토익에서 자주 나오는 명사 쓰임만 다뤘어요. 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
+    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 짝 카드의 기록은 이 브라우저의 저장 공간에만 남고, 어디로도 보내지 않아요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="../shared/drill.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -38,7 +38,7 @@
 | 13 | 비교 | 52–53 | 5 | **T12 완료** |
 | 14 | 가정법·도치 | 54–55 | 5 | **T12 완료** |
 | 15 | 전치사 | 56–58 | 5·6 | **T11 완료** |
-| 16 | 어휘·짝 표현 | 59–63 | 5·6 | T13 |
+| 16 | 어휘·짝 표현 | 59–63 | 5·6 | **T13 완료** |
 | 17 | Part 6 글 단위 문제 | 64–66 | 6 | T14 |
 | 18 | Part 1 사진 묘사 | 67–69 | 1 | T15 |
 | 19 | Part 2 질의응답 | 70–77 | 2 | T15 |
@@ -190,11 +190,11 @@
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 59 | 동사 + 목적어 짝 | **implement** a plan, **conduct** a survey, **meet** a deadline | 빈출 |
-| 60 | 명사 표현·업무 관용구 | **place** an order, **take** effect, until further **notice**, out of **stock** | 빈출 |
-| 61 | 모양이 비슷한 형용사 | considerable / considerate, reliable / reliant, economic / economical | 빈출 |
-| 62 | 부사 어휘 (approximately + 숫자, highly + 형용사, promptly) | ___ 200 people attended. → **Approximately** | 빈출 |
-| 63 | 헷갈리는 동사 (rise/raise, say/tell, remind/remember, lend/borrow) | The company will ___ prices. → **raise** (rise ✗) | 빈출·오류 |
+| 59 | 동사 + 목적어 짝 | **implement** a plan, **conduct** a survey, **meet** a deadline | 빈출 · **T13** |
+| 60 | 명사 표현·업무 관용구 | **place** an order, **take** effect, until further **notice**, out of **stock** | 빈출 · **T13** |
+| 61 | 모양이 비슷한 형용사 | considerable / considerate, reliable / reliant, economic / economical | 빈출 · **T13** |
+| 62 | 부사 어휘 (approximately + 숫자, highly + 형용사, promptly) | ___ 200 people attended. → **Approximately** | 빈출 · **T13** |
+| 63 | 헷갈리는 동사 (rise/raise, say/tell, remind/remember, lend/borrow) | The company will ___ prices. → **raise** (rise ✗) | 빈출·오류 · **T13** |
 
 ### 17. Part 6 글 단위 문제
 
@@ -280,7 +280,7 @@
 | T10 | 가리키는 말이 줄을, 자리가 칸을 정한다 | 43–46 | **완료** |
 | T11 | 전치사, 그림으로 보고 짝으로 외워라 | 56–58 | **완료** |
 | T12 | 신호어가 짝을 부른다 | 52–55 | **완료** |
-| T13 | 어휘·짝 표현 | 59–63 | |
+| T13 | 낱말에도 단짝이 있다 | 59–63 | **완료** |
 | T14 | Part 6 글 단위 문제 | 64–66 | |
 | T15 | 듣기 ① 사진과 질의응답 (Part 1·2) | 67–77 | |
 | T16 | 듣기 ② 대화와 담화 (Part 3·4) | 78–88 | |

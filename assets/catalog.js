@@ -198,5 +198,18 @@ window.EN_CATALOG = {
       thumb: 'comparison-inversion/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'vocabulary',
+      track: 'toeic',
+      title: '낱말에도 단짝이 있다',
+      topic: '어휘 · 짝 표현(콜로케이션) · 닮은꼴 형용사 · 부사 · 헷갈리는 동사',
+      summary: '보기 네 개가 모두 문법적으로 들어갈 수 있는 어휘 문제는 빈칸의 짝이 답을 정해요. 짝 찾기 → 짝 맞추기 → 함정 확인 3단계로 풀고, 틀린 카드가 더 빨리 돌아오는 짝 카드로 짝을 쌓아요.',
+      length: '4:59',
+      scenes: 10,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '짝 카드 89장', '짝 사전', '연습 문제 16', '퀴즈'],
+      types: [59, 60, 61, 62, 63],
+      thumb: 'vocabulary/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };
