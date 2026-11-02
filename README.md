@@ -20,6 +20,7 @@
 | 토익 문법 | [빈자리가 있느냐 없느냐, 그것이 문제로다](relative-adverbs-noun-clauses/) | 6:34 · 12장면 | 대명사가 빠지면 빈자리 · 부사가 빠지면 완전한 문장, 한국어 ‘예약한 호텔 · 열리는 도시’와 which · where, 관계부사 = 전치사 + which, the way how, whoever · whatever, however + 형용사 · wherever · whenever, 명사절 that vs what, whether vs if, 의문사 명사절의 어순, 3단계 풀이법, 빈자리 탐지기 |
 | 토익 문법 | [가리키는 말이 줄을, 자리가 칸을 정한다](pronouns/) | 6:30 · 12장면 | 대명사는 화살표(가리키는 말), 대명사 표의 줄(사람·사물, 하나·여럿, 회사 → it)과 칸(주격·목적격·소유격·소유대명사, 한국어 조사와 비교), its와 it’s, 재귀대명사와 한국어 ‘자기’, one · another · the other, others와 the others, 되풀이 대신 that · those, 3단계 풀이법, 대명사 표 놀이터 |
 | 토익 문법 | [전치사, 그림으로 보고 짝으로 외워라](prepositions/) | 6:36 · 12장면 | 한국어 조사 하나와 전치사 여럿(까지 → by · until, 동안 → for · during), 시간의 at · on · in, 시간선 위의 by · until · for · during · within · since · in, 장소 그림(between · among · along · across · throughout · beyond), as · 숫자 앞 by · to · via · per · upon, 짝 카드, 3단계 풀이법, 까지 갈림길 |
+| 토익 문법 | [신호어가 짝을 부른다](comparison-inversion/) | 6:17 · 11장면 | 신호어가 짝을 부른다(as → 원급, than → 비교급, the + 범위 → 최상급), 한국어 ‘보다 · 가장’과 낱말 모양, 비교 표시는 한 번(more lighter ×), much · even · far(very ×), superior to, one of the + 최상급 + 복수 명사, The 비교급, the 비교급, 가정법은 한 칸 뒤로, if가 사라지는 Should · Had · Were 도치, 맨 앞 부정어 · only 도치와 so · neither, 3단계 풀이법, 신호어 스위치 |
 | 상황별 영어 회화 | 준비 중 | | 공항, 카페, 호텔 같은 장소의 대화 연습 |
 
 모든 튜토리얼에 자막과 음성 해설(한국어는 한국어 음성, 영어는 영어 음성), 발음 듣기, 장면별 ‘직접 해 보기’, 놀이터, 연습 문제, 퀴즈, 핵심 정리가 있습니다.
@@ -61,6 +62,7 @@ participles/            -ing냐 -ed냐, 주인에게 물어라 (토익 문법 T0
 relative-adverbs-noun-clauses/ 빈자리가 있느냐 없느냐, 그것이 문제로다 (토익 문법 T09)
 pronouns/               가리키는 말이 줄을, 자리가 칸을 정한다 (토익 문법 T10)
 prepositions/           전치사, 그림으로 보고 짝으로 외워라 (토익 문법 T11)
+comparison-inversion/   신호어가 짝을 부른다 (토익 문법 T12)
 docs/toeic-100-types.md 토익에서 자주 틀리는 100개 유형, 21개 카테고리, 튜토리얼 17개 계획
 CLAUDE.md               새 튜토리얼을 만들 때 지킬 규칙과 확인 목록
 ```

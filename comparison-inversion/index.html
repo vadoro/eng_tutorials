@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>신호어가 짝을 부른다 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="토익 Part 5의 비교(as … as · than · 최상급 · one of the · the 비교급 · superior to), 가정법(If + 과거 · If + had p.p.), 도치(Should · Had · Were, Only · Never · Not only, so · neither)를 ‘신호어가 짝을 부른다’는 원리와 신호어 → 짝 → 함정 3단계로 푸는 법. 인터랙티브 모션그래픽 영상, 신호어 스위치, 연습 문제로 배워요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 신호어 · 짝(답)·앞으로 나온 조동사 · 주어 · 범위·if절 · 빈칸 · 함정 */
+  --c-sig:#6A45C2; --c-p:#A86A00; --c-subj:#2266C4; --c-rng:#1F7A55; --c-gap:#C2346E; --c-trap:#C2531F;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  /* 사이트 공통 부품(퀴즈·연습 문제·핵심 정리)이 쓰는 색과 글꼴 */
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-subj); --en-cue:var(--c-sig); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-sig:#C9A7FF; --c-p:#FFC15E; --c-subj:#6EC8FF; --c-rng:#7FE0A8; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-sig:#C9A7FF; --c-p:#FFC15E; --c-subj:#6EC8FF; --c-rng:#7FE0A8; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.note{font-size:13.5px;color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:8px 0}
+.chk{display:inline-flex;align-items:center;gap:8px;font-weight:600;cursor:pointer}
+.chk input{width:18px;height:18px;accent-color:var(--accent)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.lab .seg + .seg{margin-top:6px}
+.seg button{display:inline-flex;align-items:center;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;gap:4px;margin:8px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.enline.small{font-size:15px;font-weight:500;color:var(--muted)}
+.arrow-down{margin:2px 0 0 10px!important;color:var(--muted);line-height:1}
+.mini{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--surface-2)}
+.mini .mq{margin:0 0 8px;font-size:16px;font-weight:500}
+.blank{display:inline-block;width:3.6em;border-bottom:2px solid var(--text);vertical-align:-2px}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer}
+.mo button:hover{border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:8px 0 0!important;font-size:14px;color:var(--muted);min-height:0}
+.mr:empty{display:none}
+.gapq{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.gapq li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.gapq .ph{font-weight:700;min-width:8.5em;font-size:16px}
+.gapq .mr{flex-basis:100%;margin:0!important}
+.gapq .ph.long{flex-basis:100%;min-width:0;font-size:15.5px;font-weight:500}
+.gapq .ph small{color:var(--muted);font-weight:500}
+.blank.sm{width:2.6em}
+.lab h3.mt{margin-top:16px}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)}
+.pick{display:grid;grid-template-columns:4.6em minmax(0,1fr);gap:8px;align-items:center;margin:8px 0}
+.pick > span{font-weight:700;font-size:14px;color:var(--muted)}
+select.sel{height:36px;padding:0 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);max-width:100%;min-width:0}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.pairs{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.pairs li{display:flex;flex-wrap:wrap;align-items:center;gap:2px 14px;padding:6px 10px;border-radius:9px;background:var(--surface-2)}
+.pairs .en1{display:inline-flex;align-items:center;font-weight:600;font-size:16px}
+.pairs .en1 b.v{color:var(--c-p);box-shadow:inset 0 -3px 0 currentColor}
+.pairs .ko1{color:var(--muted);font-size:14px}
+
+
+/* ---------- 놀이터: 신호어 스위치 ---------- */
+.sw{display:flex;flex-direction:column;gap:10px;outline:none}
+.cv-row{display:grid;grid-template-columns:5em minmax(0,1fr);gap:8px;align-items:center}
+.cv-lab{font-weight:700;font-size:14px;color:var(--muted)}
+.cv-kind{margin:0;font-size:13.5px;color:var(--muted)}
+.seg button:disabled{opacity:.45;cursor:not-allowed}
+#sStage{display:block;width:100%;aspect-ratio:1000/250;border-radius:10px;background:var(--stage)}
+.sko{display:flex;align-items:flex-start;gap:4px;margin:0;font-size:15px;line-height:1.55}
+.sko span[lang]{font-weight:600}
+.scands{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:8px}
+.scand{border:1.5px solid var(--line);border-radius:10px;background:var(--surface-2);padding:8px 12px;min-width:0}
+.scand.right{border-color:var(--ok)}
+.scand.wrong{border-color:color-mix(in srgb,var(--no) 40%,var(--line))}
+.scand.picked{box-shadow:0 0 0 2px var(--accent)}
+.schoose{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;width:100%;padding:2px 0;border:0;background:none;text-align:left;font-size:clamp(16px,2.2vw,19px);font-weight:600;line-height:1.45;cursor:pointer}
+.schoose b{font-family:var(--mono);font-weight:500;color:var(--muted)}
+.schoose small{font-size:13px;font-weight:600;color:var(--muted)}
+.scand.right .schoose span{color:var(--ok)}
+.scand.wrong .schoose span{text-decoration:line-through;text-decoration-color:var(--no)}
+.swhy{margin:4px 0 0;font-size:14px;color:var(--muted);line-height:1.55}
+.sok{color:var(--ok);font-weight:700} .sno{color:var(--no);font-weight:700}
+.cv-steps{margin:0;padding:10px 14px 10px 30px;border-radius:10px;background:var(--surface-2);display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.okeys{margin:0;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.gtop{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 14px}
+/* 네 칸 표는 휴대폰에서 표 안에서만 옆으로 밀어 봄 (페이지는 가로로 넘치지 않음) */
+@media (max-width:760px){ table.sum4{min-width:620px} }
+
+/* ---------- 놀이터 · 연습 문제 · 퀴즈 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.card h3{margin:0 0 4px;font-size:16px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td[lang]{font-weight:500}
+.sum td[lang] b{color:var(--c-p)}
+.sum td.pos{font-weight:700}
+.t-sig{color:var(--c-sig)} .t-p{color:var(--c-p)} .t-trap{color:var(--c-trap)} .t-rng{color:var(--c-rng)}
+.sum td[lang] i{font-style:normal;color:var(--c-sig);font-weight:600}
+.sum td.tr{color:var(--c-trap);font-size:14px}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .cv-row{grid-template-columns:minmax(0,1fr);gap:4px}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="comparison-inversion"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">TOEIC 문법 · 비교 · 가정법 · 도치 · <span id="durLbl">6분 17초</span></p>
+    <h1>신호어가 <em>짝</em>을 부른다</h1>
+    <p class="lead">as … as, than, the … in, superior to, If we had known, Should you have, Only after … — 비교·가정법·도치 문제에는 늘 답을 정하는 작은 낱말이 있어요. 이 튜토리얼에서는 그 낱말을 <b>신호어</b>라고 불러요. 신호어는 정해진 <b>짝</b>을 불러요. as는 원급을, than은 비교급을, 맨 앞의 Had는 숨은 if를, 맨 앞의 Only after는 ‘조동사 + 주어’ 어순을요. 한국어는 ‘~보다 · 가장’을 붙일 뿐 낱말 모양이 그대로이고, 어순이 뒤집히는 도치도 없어서 영어의 짝이 낯설어요. 영상 아래에는 신호어를 바꾸면 문장이 다시 짜이는 신호어 스위치, 토익 Part 5 연습 문제, 퀴즈가 이어져요.</p>
+    <ul class="legend" aria-label="문장 색의 뜻">
+      <li><i style="background:var(--c-sig)"></i>신호어</li>
+      <li><i style="background:var(--c-p)"></i>짝 · 답 · 앞으로 나온 조동사</li>
+      <li><i style="background:var(--c-subj)"></i>주어</li>
+      <li><i style="background:var(--c-rng)"></i>범위 · if절</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>빈칸</li>
+      <li><i style="background:var(--c-trap)"></i>함정</li>
+    </ul>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">놀이터</a><a href="#drill">연습 문제</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="비교·가정법·도치 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="as · than · the 같은 신호어가 원급 · 비교급 · 최상급을 부르고, 맨 앞의 Had · Should · Only after가 조동사를 주어 앞으로 끌어오는 모습을 문장 조각이 움직이며 보여 주는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">신호어 스위치</h2>
+      <p>같은 문장에서 <b>신호어만 바꿔</b> 보세요. as … as를 than으로, If + 과거를 If + had p.p.로, 보통 어순을 Only after …로 바꾸면 문장 조각이 미끄러지며 다시 짜이고, 빈칸에 와야 할 짝이 바뀌어요. 후보를 하나 골라 빈칸에 넣으면 규칙 엔진이 후보마다 맞고 틀린 까닭과 몇 단계(① 신호어 · ② 짝 · ③ 함정)에서 지워지는지 알려 줘요. 문장의 틀(신호어 종류, 가정법인지)은 틀마다 데이터에 적어 둔 것이에요.</p>
+    </div>
+    <div class="card sw" id="sw" tabindex="-1">
+      <div class="cv-row"><span class="cv-lab">갈래</span><div class="seg" id="sFam" role="group" aria-label="갈래 고르기"></div></div>
+      <div class="cv-row"><span class="cv-lab">신호어</span><div class="seg" id="sSig" role="group" aria-label="신호어 고르기"></div></div>
+      <div class="cv-row" id="sWordRow"><span class="cv-lab">낱말</span><div class="seg" id="sWord" role="group" aria-label="낱말 고르기"></div></div>
+      <div class="cv-row"><span class="cv-lab">방법</span><label class="chk"><input type="checkbox" id="sGuess" checked> 먼저 맞혀 보기</label></div>
+      <p class="cv-kind" id="sNote"></p>
+      <canvas id="sStage" role="img" aria-label="신호어에 보라색 밑줄, 빈칸에 분홍 점선이 있는 문장. 신호어를 바꾸면 문장 조각이 움직여요"></canvas>
+      <p class="sko" id="sKo" aria-live="polite"></p>
+      <div class="scands" id="sCands"></div>
+      <ol class="cv-steps" id="sSteps" hidden></ol>
+      <div class="gtop"><p class="okeys">키보드: ← → 신호어 · ↑ ↓ 갈래 · N 낱말 · 1~5 고르기</p><p class="okeys" id="sScore"></p></div>
+    </div>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">연습 문제</p>
+      <h2 id="drillTitle">토익 Part 5 형식으로 풀어 보기</h2>
+      <p>한 문제씩 풀어요. 막히면 <b>힌트</b>를 누르세요. 3단계 풀이법(신호어 → 짝 → 함정)이 한 단계씩 열리고, 신호어와 주어 같은 단서에 색이 칠해져요. 답을 고르면 보기마다 모양과 맞고 틀린 까닭(몇 단계에서 지워지는지), 해석, 완성 문장의 발음이 나와요.</p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 원리 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 문장 조각을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 신호어와 짝</h2>
+      <p>① 문장 속 신호어를 찾고, ② 신호어가 부르는 짝(모양 · 낱말 · 어순)을 맞추고, ③ 비슷해 보이는 함정을 지워요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum sum4">
+        <thead><tr><th scope="col">① 신호어 (비교)</th><th scope="col">② 짝</th><th scope="col">예</th><th scope="col">③ 함정</th></tr></thead>
+        <tbody>
+          <tr><td lang="en"><i>as</i> ___ <i>as</i></td><td class="pos t-p">원급</td><td lang="en">as <b>light</b> as · runs as <b>efficiently</b> as</td><td class="tr" lang="en">as more efficient as ×</td></tr>
+          <tr><td lang="en">___ <i>than</i></td><td class="pos t-p">비교급 (-er · more)</td><td lang="en"><b>lighter</b> than · <b>more reliable</b> than</td><td class="tr" lang="en">more lighter ×</td></tr>
+          <tr><td lang="en">___ + 비교급 + <i>than</i></td><td class="pos t-p">much · even · far · still · a lot</td><td lang="en"><b>much</b> larger than</td><td class="tr" lang="en">very larger ×</td></tr>
+          <tr><td lang="en"><i>less</i> ___ <i>than</i></td><td class="pos t-p">원급</td><td lang="en">less <b>expensive</b> than</td><td class="tr" lang="en">less more expensive ×</td></tr>
+          <tr><td lang="en"><i>the</i> ___ + <i>of · in · among · ever</i></td><td class="pos t-p">최상급</td><td lang="en">the <b>largest</b> order we have ever received</td><td class="tr" lang="en">the larger … ever ×</td></tr>
+          <tr><td lang="en"><i>one of the</i> + 최상급 ___</td><td class="pos t-p">복수 명사</td><td lang="en">one of the largest <b>suppliers</b></td><td class="tr" lang="en">one of the largest supplier ×</td></tr>
+          <tr><td lang="en"><i>The</i> 비교급 …, <i>the</i> ___</td><td class="pos t-p">the + 비교급</td><td lang="en">The <b>sooner</b> you register, the <b>more</b> you save.</td><td class="tr" lang="en">the most you save ×</td></tr>
+          <tr><td lang="en"><i>superior · inferior · prior · senior</i> ___</td><td class="pos t-p">to</td><td lang="en">far superior <b>to</b> that of its competitors</td><td class="tr" lang="en">superior than ×</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="sumwrap">
+      <table class="sum sum4">
+        <thead><tr><th scope="col">① 신호어 (가정법 · 도치)</th><th scope="col">② 짝</th><th scope="col">예</th><th scope="col">③ 함정</th></tr></thead>
+        <tbody>
+          <tr><td lang="en"><i>If</i> + 과거, ___</td><td class="pos t-p">would + 원형</td><td lang="en">If we had more staff, we <b>would finish</b> on time.</td><td class="tr" lang="en">will finish ×</td></tr>
+          <tr><td lang="en"><i>If</i> + had p.p., ___</td><td class="pos t-p">would have + p.p.</td><td lang="en">If we had known, we <b>would have called</b> you.</td><td class="tr" lang="en">had called ×</td></tr>
+          <tr><td lang="en">If ___, + <i>would</i> + 원형</td><td class="pos t-p">과거형 (be동사는 were)</td><td lang="en">If our budget <b>were</b> larger, we would …</td><td class="tr" lang="en">If … would be ×</td></tr>
+          <tr><td lang="en">맨 앞 ___ + 주어 …, 주절</td><td class="pos t-p">Should + 원형 · Had + p.p. · Were + 보어</td><td lang="en"><b>Should</b> you have any questions, … · <b>Had</b> we known, …</td><td class="tr" lang="en">If we known ×</td></tr>
+          <tr><td lang="en">맨 앞 <i>Only · Not until · Never · Rarely · Under no circumstances</i></td><td class="pos t-p">조동사 + 주어 + 동사</td><td lang="en">Only after the review <b>will we</b> announce the results.</td><td class="tr" lang="en">… we will announce ×</td></tr>
+          <tr><td lang="en">맨 앞 <i>Not only</i> (조동사가 없을 때)</td><td class="pos t-p">do · does · did + 주어 + 원형</td><td lang="en">Not only <b>did</b> the campaign <b>increase</b> sales, …</td><td class="tr" lang="en">did … increased ×</td></tr>
+          <tr><td lang="en"><i>and so · neither</i> ___ + 주어</td><td class="pos t-p">앞 절 동사에 맞는 조동사</td><td lang="en">…, and so <b>did</b> the marketing team.</td><td class="tr" lang="en">and so was ×</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>① 비교</h3>
+        <dl>
+          <dt>원급 <span>positive</span></dt><dd>낱말의 기본 모양. as … as 사이에 와요. <i lang="en">as light as · as efficiently as</i></dd>
+          <dt>비교급 <span>comparative</span></dt><dd>둘을 비교하는 모양. 짧은 낱말은 <i lang="en">-er</i>, 긴 낱말은 앞에 <i lang="en">more</i>. 짝은 <i lang="en">than</i>. <i lang="en">lighter · more reliable · better</i></dd>
+          <dt>최상급 <span>superlative</span></dt><dd>셋 이상 가운데 ‘가장’. <i lang="en">the -est · the most</i> + 범위(<i lang="en">of · in · among · ever</i>). <i lang="en">the lightest of the three</i></dd>
+          <dt>비교급 강조 <span>intensifier</span></dt><dd>‘훨씬’. <i lang="en">much · even · far · still · a lot</i> + 비교급. <i lang="en">very</i>는 원급만 꾸며요.</dd>
+          <dt>라틴어 비교급</dt><dd>-or로 끝나고 짝이 <i lang="en">to</i>예요. <i lang="en">superior to · inferior to · prior to · senior to · junior to</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>② 가정법</h3>
+        <dl>
+          <dt>가정법 <span>subjunctive · unreal conditional</span></dt><dd>사실과 반대로 상상하는 문장. 동사를 한 칸 과거로 보내요.</dd>
+          <dt>가정법 과거 <span>2nd conditional</span></dt><dd>지금 사실의 반대. <i lang="en">If + 과거, would + 원형.</i> <i lang="en">If we had more staff, we would finish on time.</i></dd>
+          <dt>가정법 과거완료 <span>3rd conditional</span></dt><dd>지난 일의 반대. <i lang="en">If + had p.p., would have + p.p.</i> <i lang="en">If we had known, we would have called.</i></dd>
+          <dt>직설법 조건문 <span>1st conditional</span></dt><dd>실제로 일어날 수 있는 일. <i lang="en">If + 현재, will + 원형.</i> <i lang="en">If we hire more staff, we will finish on time.</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>③ 도치</h3>
+        <dl>
+          <dt>도치 <span>inversion</span></dt><dd>조동사(또는 be동사)가 주어 앞으로 나와 어순이 뒤집히는 것. 질문할 때의 어순과 같아요.</dd>
+          <dt>if를 뺀 도치</dt><dd><i lang="en">If you should have → Should you have · If we had known → Had we known · If I were → Were I</i>. 이 셋뿐이에요.</dd>
+          <dt>부정어 도치</dt><dd>맨 앞에 <i lang="en">Only after · Only when · Not until · Not only · Never · Rarely · Seldom · Under no circumstances</i> → 조동사 + 주어. 조동사가 없으면 <i lang="en">do · does · did</i>를 데려오고 뒤의 동사는 원형.</dd>
+          <dt><i lang="en">so · neither</i> + 조동사 + 주어</dt><dd>‘~도 그래요 · ~도 안 그래요’. 앞 절의 동사가 일반동사면 <i lang="en">do</i> 쪽, be동사면 be동사, 조동사면 같은 조동사. <i lang="en">…, and so did the marketing team.</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>한국어와 다른 점</h3>
+        <dl>
+          <dt>비교는 조사, 영어는 낱말 모양</dt><dd>한국어: 저것<b>보다</b> 가볍다 · <b>가장</b> 가볍다(‘가볍다’는 그대로). 영어: <i lang="en">lighter than · the lightest</i>(낱말이 바뀌고 짝이 와요).</dd>
+          <dt>상상해도 현재 모양</dt><dd>한국어 ‘직원을 더 뽑는다면 끝낼 텐데’는 현재 모양이지만, 영어는 한 칸 과거로 → <i lang="en">If we hired …, we would finish …</i></dd>
+          <dt>복수 표시</dt><dd>‘가장 큰 업체 중 하나’에는 복수 표시가 없지만 영어는 <i lang="en">one of the largest suppliers</i>.</dd>
+          <dt>어순은 그대로</dt><dd>한국어는 ‘검토가 끝난 뒤에야 발표해요’처럼 강조해도 어순이 바뀌지 않아요. 영어는 <i lang="en">Only after the review will we announce …</i>처럼 조동사가 주어 앞으로 와요.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 실전 문제에서 지워지는 순서, 직접 해 보기의 채점, 신호어 스위치의 후보 판정과 풀이, 연습 문제의 힌트와 보기별 해설, 퀴즈 대부분의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 엔진은 ① 신호어가 만드는 자리(품사 · 강조어 · 짝 낱말 · 조동사 자리)에 맞는지 → ② 신호어가 부르는 짝(원급 · 비교급 · 최상급, 가정법의 시제, 도치 어순)과 맞는지 → ③ 이름난 함정(비교 표시 두 번, <i lang="en">very</i> + 비교급, <i lang="en">superior than</i>, if절의 <i lang="en">would</i>, If가 남은 도치, 조동사 뒤 과거형, 수 · 시제가 다른 조동사)인지 순서로 판정해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 문장의 틀(어떤 신호어인지, 빈칸의 품사, 가정법인지 직설법인지, 맨 앞에 부정어가 있는지)은 엔진이 문장을 읽고 알아내는 것이 아니라 문제마다 데이터에 적어 둔 것이에요. 실제 영어에는 <i lang="en">one of the larger cities</i>처럼 비교급을 쓰는 말도 있어서 그런 보기는 넣지 않았고, 둘 가운데 하나를 고르는 <i lang="en">the lighter of the two</i>는 다루지 않았어요. 가정법은 시험 기준으로 판정해요. <i lang="en">if</i> + 현재 뒤의 <i lang="en">would</i>, if절의 과거형이 실제 과거 일을 말하는 경우(<i lang="en">If he left at five, he will …</i>), 혼합 가정법(<i lang="en">If I had studied, I would be …</i>), 가정법의 <i lang="en">was</i>, <i lang="en">Were + 주어 + to부정사</i>는 다루지 않았어요. <i lang="en">Should</i> 도치의 주절에는 명령문 · <i lang="en">will</i> · <i lang="en">would</i>가 모두 올 수 있어서 그 자리는 문제로 내지 않았어요. 부정어 도치는 <i lang="en">only · not until · not only · never · rarely · seldom · under no circumstances</i>만 다루고, <i lang="en">no sooner … than · hardly … when · so + 형용사 + that</i> 도치는 넣지 않았어요. 신호어 스위치에서 어색한 낱말 짝(<i lang="en">less light</i> 같은)은 빼 두었어요. 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
+    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요. 품사(<a href="../parts-of-speech/index.html">T02</a>)와 시제(<a href="../verb-tense/index.html">T04</a>)를 먼저 보면 더 쉬워요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="../shared/drill.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

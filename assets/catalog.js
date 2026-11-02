@@ -185,5 +185,18 @@ window.EN_CATALOG = {
       thumb: 'prepositions/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'comparison-inversion',
+      track: 'toeic',
+      title: '신호어가 짝을 부른다',
+      topic: '비교 · 최상급 · 가정법 · 도치',
+      summary: 'as는 원급을, than은 비교급을, 맨 앞의 Had는 숨은 if를, 맨 앞의 Only after는 ‘조동사 + 주어’를 불러요. 문장 속 신호어 하나가 정하는 짝으로 비교·가정법·도치 문제를 신호어 → 짝 → 함정 3단계로 풀어요.',
+      length: '6:17',
+      scenes: 11,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '신호어 스위치', '연습 문제 16', '퀴즈'],
+      types: [52, 53, 54, 55],
+      thumb: 'comparison-inversion/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };
