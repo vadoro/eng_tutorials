@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>답은 지문에 있다, 다른 말로 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="토익 Part 7 독해(목적 · 세부 정보 · NOT · 추론 · 동의어 · 요청 · 문장 삽입 · 채팅 의도 · 양식 · 이중 · 삼중 지문)를 질문 먼저 → 근거 찾기 → 바꿔 말한 보기 3단계로 푸는 법. 인터랙티브 모션그래픽 영상, 근거 사냥 놀이터, 지문 연습 문제로 배워요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 질문 키워드 하늘 · 근거 보라 · 바꿔 말한 답 노랑 · 글 사이 연결 민트 · 함정 주황 · 넣을 자리 분홍 */
+  --c-key:#2266C4; --c-ev:#6A45C2; --c-para:#A86A00; --c-link:#1F7A55; --c-trap:#C2531F; --c-gap:#C2346E; --bar:#D6D3CA;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  /* 사이트 공통 부품(퀴즈·핵심 정리)이 쓰는 색과 글꼴 */
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-key); --en-cue:var(--c-ev); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-key:#6EC8FF; --c-ev:#C9A7FF; --c-para:#FFC15E; --c-link:#7FE0A8; --c-trap:#FF9F7A; --c-gap:#FF7AA8; --bar:#323C42;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-key:#6EC8FF; --c-ev:#C9A7FF; --c-para:#FFC15E; --c-link:#7FE0A8; --c-trap:#FF9F7A; --c-gap:#FF7AA8; --bar:#323C42;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+kbd{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:68ch;color:var(--muted);font-size:16px}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:12px 0 8px;font-size:16px}
+.lab h2 + h3{margin-top:0}
+.lab p{margin:8px 0 0}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{display:inline-flex;align-items:center;gap:4px;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer;text-align:left}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.seg.col{flex-direction:column;align-items:stretch;gap:5px}
+.seg.col button{border-radius:10px;padding:5px 12px;font-weight:500;line-height:1.45;display:block}
+.seg.col button small{font-weight:700;color:var(--muted);margin-right:4px}
+.enline{display:flex;align-items:center;gap:4px;margin:8px 0 0;font-size:16px;font-weight:600;line-height:1.45}
+.enline.small{font-size:15px;font-weight:500;color:var(--text)}
+.mini{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--surface-2)}
+.mini .mq{margin:0 0 8px;font-size:15.5px;font-weight:600}
+.mq.ins{font-weight:500;font-style:italic;color:var(--c-para)}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer;text-align:left}
+.mo.col{display:flex;flex-direction:column;align-items:stretch}
+.mo.col button{padding:6px 12px;font-weight:500;line-height:1.45}
+.mo button b{font-family:var(--mono);font-weight:500;color:var(--muted)}
+.mo button:hover{border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:8px 0 0!important;font-size:14px;color:var(--muted);min-height:0}
+.mr:empty{display:none}
+.evbox{margin:8px 0 0!important;padding:8px 10px;border-left:3px solid var(--c-ev);background:var(--surface);border-radius:0 8px 8px 0;font-size:14.5px}
+.evbox b{color:var(--c-ev);margin-right:6px}
+.gapq{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.gapq li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.gapq li > span[lang]{font-weight:500}
+.gapq .mr{flex-basis:100%;margin:0!important}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.trio{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.trio li{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;padding:6px 10px;border-radius:10px;background:var(--surface-2)}
+.trio li .enline{margin:0}
+.trio .ko{font-size:13.5px;color:var(--muted)}
+.cellpick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;margin:8px 0 0}
+.cellpick > span:first-child{display:none}
+.cellpick .ch{font-size:12.5px;font-weight:700;color:var(--muted);padding:2px 6px}
+.cellpick button{min-height:34px;padding:2px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface-2);font-size:14px;text-align:left;cursor:pointer}
+.cellpick button[aria-pressed="true"]{border-color:var(--c-para);box-shadow:0 0 0 1px var(--c-para)}
+.pt{padding:1px 9px;border:1px solid currentColor;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}
+.k-ok{color:var(--ok)} .k-trap{color:var(--c-trap)}
+
+/* ---------- 지문 (놀이터 · 연습 문제): 글을 위아래로 쌓고, 글 사이 연결은 왼쪽 여백의 선 ---------- */
+.pset{position:relative;display:flex;flex-direction:column;gap:16px;padding-left:22px}
+.pset svg.links{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+.doc{position:relative;padding:18px 16px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:16px;line-height:1.85;min-width:0}
+.doc-kind{position:absolute;top:-10px;left:14px;margin:0;padding:0 8px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.06em;line-height:1.7;color:var(--muted)}
+.doc .head{margin:0 0 8px}
+.doc .hd{display:block;font-family:var(--mono);font-size:13px;line-height:1.55;color:var(--muted)}
+.doc .hd.h0{color:var(--text);font-weight:500}
+.doc .par{margin:0 0 8px}
+.doc .par:last-child{margin-bottom:0}
+.u{border-radius:5px;transition:background .2s,box-shadow .2s}
+.u[role="button"]{cursor:pointer}
+.u[role="button"]:hover{background:color-mix(in srgb,var(--c-ev) 8%,transparent)}
+.u.ev{background:color-mix(in srgb,var(--c-ev) 14%,transparent);box-shadow:inset 0 -2px 0 var(--c-ev)}
+.u.keyu{background:color-mix(in srgb,var(--c-key) 12%,transparent);box-shadow:inset 0 -2px 0 var(--c-key)}
+.u.trap{background:color-mix(in srgb,var(--c-trap) 12%,transparent);box-shadow:inset 0 -2px 0 var(--c-trap)}
+.u.miss{background:color-mix(in srgb,var(--muted) 16%,transparent)}
+.u.ins{font-weight:600;box-shadow:inset 0 -2px 0 var(--c-para);background:color-mix(in srgb,var(--c-para) 12%,transparent)}
+.doc mark,.pdr-q mark,.pdr-ins mark,.hq-q mark,.hq-ins mark,.edr-opts mark,.hunt-opts mark{padding:0 2px;border-radius:3px;background:transparent;color:inherit}
+mark.mk-key{box-shadow:inset 0 -0.45em 0 color-mix(in srgb,var(--c-key) 30%,transparent);font-weight:600}
+mark.mk-cue{box-shadow:inset 0 -0.45em 0 color-mix(in srgb,var(--c-ev) 32%,transparent);font-weight:600}
+mark.mk-para{box-shadow:inset 0 -0.45em 0 color-mix(in srgb,var(--c-para) 34%,transparent);font-weight:600}
+mark.mk-trap{box-shadow:inset 0 -0.45em 0 color-mix(in srgb,var(--c-trap) 32%,transparent)}
+.bk.mk{display:inline-block;padding:0 6px;line-height:1.45;border:1.5px dashed var(--c-gap);border-radius:7px;color:var(--c-gap);font-family:var(--mono);font-size:.82em;font-weight:500;vertical-align:1px}
+/* 채팅 */
+.msg{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;margin:0 0 6px}
+.msg .av{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:700;color:var(--c-key);background:color-mix(in srgb,var(--c-key) 14%,transparent)}
+.msg.b .av{color:var(--c-ev);background:color-mix(in srgb,var(--c-ev) 14%,transparent)}
+.msg .meta{margin:0;font-size:12.5px;line-height:1.5;color:var(--muted)}
+.msg .meta b{color:var(--text);font-weight:600;margin-right:4px}
+.msg .bubble{display:inline-block;margin:2px 0 0;padding:4px 12px;border-radius:12px;background:var(--surface-2);line-height:1.6}
+/* 양식 · 표 */
+.ftwrap{overflow-x:auto}
+.ft{width:100%;border-collapse:collapse;font-size:15px;line-height:1.5}
+.ft th,.ft td{padding:6px 10px;border:1px solid var(--line);text-align:left;vertical-align:top}
+.ft thead th{background:var(--surface-2);font-size:13px;color:var(--muted)}
+.ft tbody th{font-weight:600;background:var(--surface-2);width:34%}
+.ft .colhl{box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--c-key) 55%,transparent)}
+.ft tr.u{border-radius:0}
+.ft tr.ev > *{background:color-mix(in srgb,var(--c-ev) 14%,transparent)}
+.ft tr.keyu > *{background:color-mix(in srgb,var(--c-key) 12%,transparent)}
+.ft tr.trap > *{background:color-mix(in srgb,var(--c-trap) 12%,transparent)}
+.ft tr.miss > *{background:color-mix(in srgb,var(--muted) 16%,transparent)}
+.ft tr.u[role="button"]:hover > *{background:color-mix(in srgb,var(--c-ev) 8%,transparent)}
+.doc .foot{display:block;margin:8px 0 0;font-size:14.5px;line-height:1.65}
+
+/* ---------- 놀이터: 근거 사냥 ---------- */
+.hunt{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:16px;outline:none;align-items:start}
+.hunt-top{grid-column:1/-1;display:flex;flex-direction:column;gap:8px}
+.arow{display:grid;grid-template-columns:4.2em minmax(0,1fr);gap:8px;align-items:center}
+.arow > span{font-weight:700;font-size:14px;color:var(--muted)}
+.arow .seg button small{font-weight:500;color:var(--muted);margin-left:2px}
+.arow .seg .st{font-weight:800}
+.st.clean,.st.luck{color:var(--ok)} .st.miss{color:var(--no)}
+.hunt-side{display:flex;flex-direction:column;gap:10px;min-width:0;position:sticky;top:12px}
+.hq{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.hq p{margin:0}
+.hq-meta{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.hq-q{margin-top:4px!important;font-size:16.5px;font-weight:600;line-height:1.55}
+.hq-ins{margin-top:6px!important;padding:6px 10px;border-radius:8px;background:color-mix(in srgb,var(--c-para) 12%,transparent);font-style:italic}
+.hq-ko{margin-top:4px!important;font-size:13.5px;color:var(--muted)}
+.hunt-meter{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0;padding:8px 14px;border:1.5px solid var(--warn);border-radius:12px;background:var(--surface)}
+.hunt-meter.one{border-color:var(--ok)}
+.hunt-meter b{font-family:var(--disp);font-size:28px;line-height:1;color:var(--warn);white-space:nowrap}
+.hunt-meter.one b{color:var(--ok)}
+.hunt-meter span{font-size:13px;color:var(--muted)}
+.hunt-opts{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.hunt-opts button{width:100%;display:grid;grid-template-columns:2.2em minmax(0,1fr);gap:4px;align-items:start;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-align:left;cursor:pointer;line-height:1.45}
+.hunt-opts button:hover:not(:disabled){border-color:var(--accent)}
+.hunt-opts button b{font-family:var(--mono);font-weight:500;color:var(--muted)}
+.hunt-opts button .why{grid-column:2;font-size:13px;color:var(--muted);line-height:1.5;margin-top:3px}
+.hunt-opts button.gone{background:var(--surface-2);cursor:default}
+.hunt-opts button.gone .o{color:var(--muted)}
+.hunt-opts button.right{border-color:var(--ok);box-shadow:0 0 0 1px var(--ok);cursor:default}
+.hunt-opts button.wrong{border-color:var(--no);cursor:default}
+.hunt-opts button.wrong .o{text-decoration:line-through}
+.hunt-verdict{margin:0;font-size:14.5px;min-height:1.4em}
+.hunt-verdict b{margin-right:4px}
+.hunt-ctrl{display:flex;flex-wrap:wrap;gap:6px}
+.hunt-ctrl button{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:13.5px;font-weight:600;cursor:pointer}
+.hunt-ctrl button:disabled{opacity:.45;cursor:default}
+.hunt-score{grid-column:1/-1;margin:0;font-size:14px;color:var(--muted)}
+.hunt-score table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px;table-layout:fixed}
+.hunt-score th:first-child{width:7.4em}
+.hunt-score th,.hunt-score td{padding:5px 6px;border:1px solid var(--line);text-align:center}
+.hunt-score thead th{background:var(--surface-2);font-weight:600}
+.hunt-score td.cur{box-shadow:inset 0 0 0 2px var(--accent)}
+.hunt-score .st{font-weight:700}
+
+/* ---------- 연습 문제: 지문 세트 하나씩 ---------- */
+.pdr .edr-card{display:flex;flex-direction:column;gap:12px}
+.pdr .edr-meta{margin:0}
+.pdr-dir{margin:0;font-size:14px;color:var(--muted)}
+.pdr-q{margin:0;font-size:16.5px;font-weight:600;line-height:1.55}
+.pdr-n{font-family:var(--mono);color:var(--muted);font-weight:500}
+.pdr-ins{margin:0;padding:6px 12px;border-radius:8px;background:color-mix(in srgb,var(--c-para) 12%,transparent);font-style:italic}
+.pdr .edr-opts.col{grid-template-columns:minmax(0,1fr)}
+.pdr .edr-steps,.pdr .edr-notes,.pdr .edr-verdict,.pdr .edr-acts{margin:0}
+.edr-notes .okk{color:var(--text)}
+.pdr-ko{display:flex;flex-direction:column;gap:6px;padding-top:10px;border-top:1px dashed var(--line);font-size:14.5px;color:var(--muted)}
+.pdr-ko p{margin:0;display:flex;align-items:flex-start;gap:6px}
+.pdr-ko b{color:var(--text);margin-right:4px}
+.pdr-ko .en{color:var(--text)}
+.pdr-gloss{margin:0;font-size:14px}
+.pdr-gloss summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.pdr-gloss h4{margin:12px 0 4px;font-size:14px;display:flex;align-items:center;gap:6px}
+.pdr-gloss ol{margin:4px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.pdr-gloss li span{display:block;color:var(--muted)}
+.pdr-gloss li span.en{color:var(--text)}
+.edr-dots .sep{width:10px}
+
+/* ---------- 블록 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:72ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td.kd{font-weight:700;white-space:nowrap}
+.sum td.kd small{display:block;font-family:var(--mono);font-weight:500;color:var(--muted)}
+.sum td[lang] b{color:var(--c-para)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .hunt{grid-template-columns:minmax(0,1fr)}
+  .hunt-side{position:static}
+  .arow{grid-template-columns:minmax(0,1fr)}
+  .doc{font-size:15px;padding:16px 12px 10px}
+  .pset{padding-left:18px}
+  .ft{font-size:14px}
+  .ft th,.ft td{padding:5px 7px}
+  .hunt-ctrl kbd{display:none}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="reading-part7"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">TOEIC 독해 · Part 7 · 목적 · 세부 정보 · 추론 · 동의어 · 연계 지문 · <span id="durLbl">6분 29초</span></p>
+    <h1>답은 지문에 있다, <em>다른 말로</em></h1>
+    <p class="lead">토익 Part 7은 이메일, 공지, 문자, 표 같은 글을 읽고 질문에 답하는 독해예요. 54문제나 되지만 글을 처음부터 다 해석할 필요는 없어요. 정답에는 늘 지문 속 근거 문장이 있고, 정답 보기는 그 근거를 다른 말로 바꿔 말해요. 거꾸로 지문 낱말을 그대로 쓴 보기는 함정일 때가 많아요. 질문 먼저 → 근거 찾기 → 바꿔 말한 보기, 3단계로 열두 가지 문제 유형을 풀어요. 영상 아래에는 근거 문장을 직접 눌러 찾는 근거 사냥 놀이터, 지문 세트 다섯 개의 연습 문제, 퀴즈가 이어져요.</p>
+    <ul class="legend" aria-label="색의 뜻">
+      <li><i style="background:var(--c-key)"></i>질문 키워드</li>
+      <li><i style="background:var(--c-ev)"></i>근거 문장</li>
+      <li><i style="background:var(--c-para)"></i>바꿔 말한 답</li>
+      <li><i style="background:var(--c-link)"></i>글 사이 연결</li>
+      <li><i style="background:var(--c-trap)"></i>함정</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>넣을 자리</li>
+    </ul>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">놀이터</a><a href="#drill">연습 문제</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="Part 7 독해 문제 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="이메일, 공지, 문자, 표 속에서 질문의 키워드로 근거 문장을 찾아 밑줄을 긋고, 근거를 다른 말로 바꿔 말한 보기를 고르며, 두세 글을 선으로 잇는 모습을 보여 주는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">근거 사냥</h2>
+      <p>보기를 고르기 전에 근거부터 찾아요. 질문을 읽고, 답의 근거가 되는 문장(문자는 메시지, 표는 줄)을 지문에서 누르세요. 규칙 엔진이 그 문장이 근거인지, 아니면 어느 보기의 함정이 나온 곳인지 알려 줘요. 근거가 두 글에 나뉜 연계 문제는 두 글에서 모두 찾아야 해요. 근거를 다 찾으면 글 사이에 선이 이어지고, 보기를 고르면 보기마다 근거와 어떤 관계인지(바꿔 말함 · 그대로 반복 · 지문에 없음 · 반대 · 다른 사람 · 다른 때 …) 보여 줘요. 키보드: Tab으로 문장에 가서 Enter · A~D 고르기 · H 힌트 · ← → 문제 · 0 다시.</p>
+    </div>
+    <div class="card hunt" id="hunt" tabindex="-1">
+      <div class="hunt-top">
+        <div class="arow"><span>지문</span><div class="seg" id="hSet" role="group" aria-label="지문 세트"></div></div>
+        <div class="arow"><span>문제</span><div class="seg" id="hQs" role="group" aria-label="문제"></div></div>
+      </div>
+      <div id="hText"></div>
+      <div class="hunt-side">
+        <div class="hq" id="hQ"></div>
+        <p class="hunt-meter" id="hMeter"></p>
+        <ol class="hunt-opts" id="hOpts" aria-label="보기"></ol>
+        <p class="hunt-verdict" id="hVerdict" role="status"></p>
+        <div class="hunt-ctrl"><button type="button" id="hHint">힌트 <kbd>H</kbd></button><button type="button" id="hReset">다시 <kbd>0</kbd></button></div>
+      </div>
+      <div class="hunt-score" id="hScore"></div>
+    </div>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">연습 문제</p>
+      <h2 id="drillTitle">토익 Part 7 형식으로 풀어 보기</h2>
+      <p>지문 세트 다섯(이메일 · 문자 · 강좌 안내표 · 웹 페이지와 이메일 · 글 세 개), 문제 열여섯. 한 문제씩 지문과 함께 풀어요. 막히면 <b>힌트</b>를 누르세요. 3단계 풀이법(질문 먼저 → 근거 찾기 → 바꿔 말한 보기)이 한 단계씩 열리고, 질문의 키워드(하늘), 근거 문장(보라), 바꿔 말한 말(노랑), 함정(주황)에 색이 칠해지고 연계 문제는 글 사이에 선이 이어져요. 답을 고르면 보기마다 몇 단계에서 왜 지워지는지, 해석, 발음이 나와요. 세트의 문제를 다 풀면 지문 전체 해석도 볼 수 있어요.</p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 원리 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 문장이나 칸, 자리를 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 Part 7</h2>
+      <p>질문의 모양이 근거가 있는 곳을 알려 줘요. 근거를 찾으면, 정답은 그 근거를 다른 말로 바꿔 말한 보기예요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">문제 유형</th><th scope="col">① 질문의 모양</th><th scope="col">② 근거가 있는 곳</th><th scope="col">③ 정답 · 함정</th></tr></thead>
+        <tbody>
+          <tr><td class="kd">주제 · 목적<small>89</small></td><td lang="en">Why was the e-mail written? · What is the purpose of …?</td><td>대개 첫 문단(<i lang="en">I am writing to …</i>)</td><td>글 전체의 목적을 바꿔 말한 보기 · 글에 나온 낱말 하나를 잡은 보기는 함정</td></tr>
+          <tr><td class="kd">세부 정보<small>90</small></td><td lang="en">When · How many · Why …?</td><td>키워드(날짜 · 숫자 · 이름 · 조건). 키워드도 바뀜: <i lang="en">July 18 = the first day</i></td><td>숫자 · 시각은 그대로일 때도 · 다른 사람 · 다른 때의 숫자는 함정</td></tr>
+          <tr><td class="kd">NOT · 사실 확인<small>91</small></td><td lang="en">What is NOT mentioned / indicated …?</td><td>보기마다 지문에서 하나씩</td><td>NOT은 끝까지 못 찾은 하나 · 바꿔 말한 것도 ‘있는 것’</td></tr>
+          <tr><td class="kd">추론<small>92</small></td><td lang="en">most likely · suggested · implied</td><td>단서 문장(<i lang="en">annual book sale</i>)</td><td>쓰여 있지 않지만 단서로 알 수 있는 것 · 지문을 넘어선 짐작은 ×</td></tr>
+          <tr><td class="kd">동의어<small>93</small></td><td lang="en">The word “hold” … is closest in meaning to</td><td>그 낱말이 있는 문장</td><td>문장 속 뜻(<i lang="en">hold the room → keep</i>) · 사전 첫 뜻 · 다른 문맥의 뜻은 함정</td></tr>
+          <tr><td class="kd">요청 · 지시<small>95</small></td><td lang="en">What is Mr. Kim asked to do?</td><td><i lang="en">please · Could you · I would like you to</i> 뒤</td><td>요청 문장을 바꿔 말한 보기 · 다른 사람이 할 일은 함정</td></tr>
+          <tr><td class="kd">문장 삽입<small>96</small></td><td lang="en">positions marked [1], [2], [3], and [4]</td><td>넣을 문장의 가리키는 말(<i lang="en">This panel</i>) ↔ 자리 앞 문장</td><td>짝이 맞고 넣어 읽어도 흐름이 이어지는 자리</td></tr>
+          <tr><td class="kd">의도 파악<small>97</small></td><td lang="en">At 10:14 A.M., what does Ms. Park mean when she writes “…”?</td><td>바로 앞 메시지</td><td>앞 메시지에 대한 대답의 뜻 · 말 그대로의 뜻은 함정</td></tr>
+          <tr><td class="kd">양식 · 표<small>98</small></td><td>청구서 · 일정표 · 신청서</td><td>질문에 맞는 줄 × 칸 하나</td><td>옆 줄 · 옆 칸의 값은 함정</td></tr>
+          <tr><td class="kd">이중 · 삼중 지문<small>99 · 100</small></td><td>글 둘 · 셋, 세트마다 다섯 문제</td><td>글마다 단서 하나씩 → 선으로 잇기</td><td>두 글을 합친 정보 · 한 글만 본 답(옛 정보)은 함정</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">지문의 말</th><th scope="col">보기의 말 (같은 뜻)</th><th scope="col">한국어</th></tr></thead>
+        <tbody>
+          <tr><td lang="en">fully booked</td><td lang="en"><b>no vacancies</b> · no rooms available</td><td>방이 다 참 = 빈방 없음</td></tr>
+          <tr><td lang="en">out of service</td><td lang="en"><b>cannot be used</b></td><td>운행하지 않음 = 쓸 수 없음</td></tr>
+          <tr><td lang="en">at no charge · included in the fee</td><td lang="en"><b>free</b> · at no extra cost</td><td>돈을 따로 받지 않음</td></tr>
+          <tr><td lang="en">reply · contact me</td><td lang="en"><b>respond</b> · get in touch with</td><td>답하다 · 연락하다</td></tr>
+          <tr><td lang="en">annual</td><td lang="en"><b>every year</b> → has held … in the past</td><td>해마다 → 전에도 했다</td></tr>
+          <tr><td lang="en">eight weeks · traveling for work</td><td lang="en"><b>about two months</b> · on a business trip</td><td>8주 = 두 달쯤 · 출장 중</td></tr>
+          <tr><td lang="en">helmets · 20 percent off</td><td lang="en"><b>safety gear</b> · a lower price</td><td>헬멧 = 안전 장비 · 20% 할인 = 더 싼 값</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>Part 7</h3>
+        <dl>
+          <dt>독해 <span>Reading Comprehension</span></dt><dd>읽기 100문제 가운데 54문제. 글 하나짜리 세트(<i lang="en">single passages</i>)와 글 둘 · 셋짜리 세트(<i lang="en">multiple passages</i>)가 나와요.</dd>
+          <dt>이중 · 삼중 지문 <span>double · triple passages</span></dt><dd>글 둘 · 셋을 함께 읽는 세트. 세트마다 다섯 문제이고, 두 글을 이어야 풀리는 문제가 꼭 있어요.</dd>
+          <dt>지시문 <span>directions</span></dt><dd><i lang="en">Questions 1–3 refer to the following e-mail.</i> 몇 번 문제가 어떤 글에 대한 것인지 알려 줘요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>3단계 풀이법</h3>
+        <dl>
+          <dt>① 질문 먼저</dt><dd>문제 유형(목적 · 세부 · NOT · 추론 …)과 키워드(이름 · 날짜 · 숫자)를 표시하고, 어디를 볼지 정해요.</dd>
+          <dt>② 근거 찾기</dt><dd>키워드를 지문에서 찾아 근거 문장에 밑줄. 연계 문제는 글 사이를 선으로 이어요.</dd>
+          <dt>③ 바꿔 말한 보기 <span>paraphrase</span></dt><dd>근거와 같은 뜻을 다른 말로 한 보기가 정답. 그대로 반복한 말 · 지문에 없는 말 · 반대 말을 지워요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>함정</h3>
+        <dl>
+          <dt>그대로 반복</dt><dd>지문 낱말(<i lang="en">city marathon</i>)이 들어 있지만 뜻이 다른 보기.</dd>
+          <dt>다른 사람 · 다른 때 · 다른 칸</dt><dd>지문에 있는 정보지만 질문이 묻는 사람 · 때 · 줄이 아니에요(<i lang="en">10 A.M.</i> = 다른 방문객).</dd>
+          <dt>옛 정보</dt><dd>연계 지문에서 한 글만 보면 맞지만 다른 글이 바꾼 정보(<i lang="en">Room B → Room D</i>).</dd>
+          <dt>사전 첫 뜻 · 말 그대로</dt><dd><i lang="en">hold = 잡다</i>로만 외운 뜻, <i lang="en">lifesaver = 인명 구조원</i>처럼 글자 그대로의 뜻.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>시간 쓰기 (조언)</h3>
+        <dl>
+          <dt>질문 먼저 읽기</dt><dd>무엇을 찾을지 알고 읽으면 필요한 곳만 읽어도 돼요. 글을 처음부터 다 해석하면 시간이 모자라기 쉬워요.</dd>
+          <dt>한 문제에 오래 머물지 않기</dt><dd>근거를 못 찾으면 표시해 두고 넘어가요. 뒤 문제의 근거를 찾다가 앞 문제의 근거를 만나기도 해요.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 보기의 이름표, 직접 해 보기의 채점, 근거 사냥의 판정과 기록, 연습 문제의 힌트와 보기별 해설, 퀴즈 대부분의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 엔진은 3단계 풀이법을 그대로 따라요. ① 문제 유형과 키워드로 어디를 볼지 정하고, ② 근거를 찾으면 근거가 아닌 곳(다른 사람 · 다른 때 · 다른 글 · 다른 칸 · 질문과 다른 내용)에서 온 보기를 지우고, ③ 근거와 견줘 그대로 반복 · 지문에 없음 · 반대 · 말 그대로 · 사전 첫 뜻을 지운 뒤 바꿔 말한 보기를 골라요. 문제에 적어 둔 정답이 엔진과 다르거나, 근거 · 출처 글자가 지문에 없거나, ‘그대로 반복’ 함정에 지문과 같은 낱말이 없거나, 정답 위치가 한쪽에 몰리면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 엔진은 영어 문장을 스스로 읽고 뜻을 알아내지 않아요. 근거가 어느 글의 어느 문장인지, 보기의 말이 어디서 왔는지, 근거와 보기가 같은 뜻인지(바꿔 말한 짝)는 문제마다 데이터에 적어 두었고, 엔진은 그것을 맞춰 봐요. 엔진이 직접 계산하는 것은 보기와 지문에 함께 나오는 낱말(그대로 반복), 근거와 보기의 출처가 같은 문장인지, 문장 삽입 자리의 짝, 근거가 몇 개의 글에 나뉘어 있는지예요. 실제 시험은 글 하나짜리 세트에 두세 문제(가끔 넷), 글 둘 · 셋짜리 세트에 다섯 문제가 나오지만, 여기서는 세트마다 셋이나 넷으로 줄였어요. 동의어 문제의 자리는 실제 시험처럼 ‘몇째 줄’까지 적지 않고 문단만 적었어요. 화면 너비에 따라 줄이 바뀌기 때문이에요. 시간 쓰기는 통계가 아니라 조언이에요. 예문과 지문은 토익 형식을 본떠 직접 만든 것이고, 회사와 사람 이름은 모두 지어낸 것이에요. 실제 시험 문제가 아니에요.</p>
+    <p>이웃 튜토리얼: 가리키는 말과 문장 넣기는 <a href="../part6-text/index.html">T14 Part 6</a>, 짝 표현과 어휘는 <a href="../vocabulary/index.html">T13 어휘</a>, 대명사(<i lang="en">it · they</i>)가 가리키는 것은 <a href="../pronouns/index.html">T10 대명사</a>에서 배워요. 음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

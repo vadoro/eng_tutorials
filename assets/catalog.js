@@ -250,5 +250,18 @@ window.EN_CATALOG = {
       thumb: 'listening-part3-4/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'reading-part7',
+      track: 'toeic',
+      title: '답은 지문에 있다, 다른 말로',
+      topic: '독해 Part 7 · 목적 · 세부 정보 · NOT · 추론 · 동의어 · 문장 삽입 · 채팅 의도 · 양식 · 이중 · 삼중 지문',
+      summary: '54문제나 되는 Part 7도 글을 다 해석할 필요는 없어요. 정답에는 늘 지문 속 근거 문장이 있고, 정답 보기는 그 근거를 다른 말로 바꿔 말해요. 질문 먼저 → 근거 찾기 → 바꿔 말한 보기 3단계로 열두 가지 문제 유형과 글 둘 · 셋을 잇는 연계 문제를 풀어요.',
+      length: '6:29',
+      scenes: 12,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '근거 사냥', '지문 연습 문제 16', '퀴즈'],
+      types: [89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100],
+      thumb: 'reading-part7/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };
