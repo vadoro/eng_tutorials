@@ -91,7 +91,14 @@
         return '<li><button type="button" data-go="' + i + '" class="' + c + (i === cur ? ' cur' : '') + '" aria-label="문제 ' + (i + 1) + (s.pick === null ? '' : s.pick === it.a ? ' 정답' : ' 오답') + '"' + (i === cur ? ' aria-current="step"' : '') + '>' + (i + 1) + '</button></li>';
       }).join('') + '</ol>';
     }
+    // 다시 그릴 때 초점이 사라지지 않게: 사용자가 연습 문제 안에서 조작하던 중이면 그대로 상자 안에 둠
+    // (단추가 새로 그려지면 브라우저는 초점을 body로 보내서, A~D·H·Enter 키가 더는 먹지 않게 됨)
     function render() {
+      var had = root.contains(document.activeElement);
+      draw();
+      if (had && !root.contains(document.activeElement)) root.focus({ preventScroll: true });
+    }
+    function draw() {
       var sc = score();
       if (cur < 0) {
         var wrong = items.map(function (_, i) { return i; }).filter(function (i) { return st[i].pick !== items[i].a; });

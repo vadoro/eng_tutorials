@@ -473,7 +473,7 @@ if (deep) { T = deep.t + 0.5; started = true; bigPlay.hidden = true; }   // 장�
 EN.say.wire(document, { before() { if (playing) pause(); } });
 pgInit();
 EN.drill({
-  root: $('drill'), items: RP.drillItems(),
+  root: $('drillRoot'), items: RP.drillItems(),
   done: (ok, total) => ok === total ? '모두 맞혔어요! 3단계 풀이법이 손에 익었네요.' : ok >= total * 0.75 ? '잘했어요. 틀린 문제는 힌트의 세 단계를 다시 따라가 보세요.' : '영상 09·10장을 다시 보고, 틀린 문제를 힌트와 함께 풀어 보세요.',
 });
 EN.quiz({
