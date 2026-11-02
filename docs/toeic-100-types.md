@@ -23,7 +23,7 @@
 
 | # | 카테고리 | 유형 | 파트 | 튜토리얼 |
 | --- | --- | --- | --- | --- |
-| 1 | 품사 자리 | 1–8 | 5·6 | T02 |
+| 1 | 품사 자리 | 1–8 | 5·6 | **T02 완료** |
 | 2 | 동사 ① 수 일치 | 9–12 | 5·6 | T03 (12번은 T01에서 다룸) |
 | 3 | 동사 ② 능동·수동 | 13–15 | 5·6 | T03 |
 | 4 | 동사 ③ 시제 | 16–20 | 5·6 | T04 |
@@ -53,14 +53,14 @@
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 1 | 관사·소유격·형용사 뒤 → 명사 | the ___ of the contract → **renewal** (renew ✗) | 빈출·오류 |
-| 2 | 명사 앞 → 형용사 | a ___ increase in sales → **significant** (significantly ✗) | 빈출·오류 |
-| 3 | 동사·형용사·문장을 꾸미는 자리 → 부사 (완전한 문장 앞뒤의 빈칸 포함) | Sales have ___ improved. → **steadily** | 빈출 |
-| 4 | be·remain·become 뒤 보어 → 형용사 | Prices will remain ___. → **competitive** (competitively ✗) | 빈출 |
-| 5 | 목적격 보어 → 형용사 | Please keep the files ___. → **secure** (securely ✗) | 빈출 |
-| 6 | 사람 명사 vs 행위·추상 명사 | an experienced ___ → **consultant** (consultation ✗) | 빈출 |
-| 7 | 명사 + 명사 (복합명사) | a customer ___ survey → **satisfaction** (satisfied ✗) | 빈출 |
-| 8 | 뒤에 목적어가 있으면 동명사, 없으면 명사 | by ___ the budget → **reviewing** (review ✗) | 빈출 |
+| 1 | 관사·소유격·형용사 뒤 → 명사 | the ___ of the contract → **renewal** (renew ✗) | 빈출·오류 · **T02** |
+| 2 | 명사 앞 → 형용사 | a ___ increase in sales → **significant** (significantly ✗) | 빈출·오류 · **T02** |
+| 3 | 동사·형용사·문장을 꾸미는 자리 → 부사 (완전한 문장 앞뒤의 빈칸 포함) | Sales have ___ improved. → **steadily** | 빈출 · **T02** |
+| 4 | be·remain·become 뒤 보어 → 형용사 | Prices will remain ___. → **competitive** (competitively ✗) | 빈출 · **T02** |
+| 5 | 목적격 보어 → 형용사 | Please keep the files ___. → **secure** (securely ✗) | 빈출 · **T02** |
+| 6 | 사람 명사 vs 행위·추상 명사 | an experienced ___ → **consultant** (consultation ✗) | 빈출 · **T02** |
+| 7 | 명사 + 명사 (복합명사) | a customer ___ survey → **satisfaction** (satisfied ✗) | 빈출 · **T02** |
+| 8 | 뒤에 목적어가 있으면 동명사, 없으면 명사 | by ___ the budget → **reviewing** (review ✗) | 빈출 · **T02** |
 
 ### 2. 동사 ① 수 일치 (Part 5·6)
 
@@ -269,8 +269,8 @@
 | 순서 | 튜토리얼 (가칭) | 다루는 유형 | 상태 |
 | --- | --- | --- | --- |
 | T01 | 관계대명사, 빈자리를 찾아라 | 12, 36–39 | **완료** |
-| T02 | 빈칸의 자리가 품사를 정한다 | 1–8 | 다음 차례 |
-| T03 | 동사 ① 수 일치와 능동·수동 | 9–11, 13–15 | |
+| T02 | 빈칸의 자리가 품사를 정한다 | 1–8 | **완료** |
+| T03 | 동사 ① 수 일치와 능동·수동 | 9–11, 13–15 | 다음 차례 |
 | T04 | 동사 ② 시제 | 16–20 | |
 | T05 | 접속사·전치사·접속부사 | 31–35 | |
 | T06 | 명사·관사·수량 표현 | 47–51 | |

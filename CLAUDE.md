@@ -26,7 +26,9 @@ docs/toeic-100-types.md 토익 문법 영역의 설계도: 자주 틀리는 100�
 ```
 
 지금 있는 튜토리얼
-- `relative-pronouns/` 관계대명사, 빈자리를 찾아라 (영역: `toeic`) — 첫 시범 튜토리얼. 새 튜토리얼의 출발점으로 복사해 씁니다.
+- `relative-pronouns/` 관계대명사, 빈자리를 찾아라 (영역: `toeic`, T01) — 첫 시범 튜토리얼. 놀이터는 ‘문장 합치기 실험실’.
+- `parts-of-speech/` 빈칸의 자리가 품사를 정한다 (영역: `toeic`, T02) — 놀이터는 ‘3초 품사 감각 훈련’과 ‘낱말 가족 사전’. 품사 색(명사 하늘 · 형용사 민트 · 부사 라임 · 동사 보라)을 씀.
+- 새 튜토리얼은 주제가 가까운 쪽을 복사해 시작합니다. 장면의 낱말 조각 그리기(lay · morph · drawTok)는 두 튜토리얼이 같은 방식이에요.
 
 영역(`catalog.js`의 `tracks`)
 - `toeic` 토익 문법 — 공개 중
@@ -150,5 +152,6 @@ docs/toeic-100-types.md 토익 문법 영역의 설계도: 자주 틀리는 100�
 
 ## 배포
 
-- 저장소 기본 브랜치의 루트를 GitHub Pages로 내보냅니다(Settings → Pages → Deploy from a branch → 기본 브랜치 / `(root)`). 주소: `https://vadoro.github.io/eng_tutorials/`
+- `main` 브랜치의 루트를 GitHub Pages로 내보냅니다(Settings → Pages → Deploy from a branch → `main` / `(root)`). 주소: `https://vadoro.github.io/eng_tutorials/`
+- **작업은 `main`에 바로 커밋하고 올립니다.** 별도의 브랜치는 주인이 필요하다고 할 때만 만듭니다.
 - 커밋 메시지는 한국어로, 무엇을 왜 바꿨는지 적습니다.

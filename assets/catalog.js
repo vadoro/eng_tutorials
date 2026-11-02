@@ -55,5 +55,18 @@ window.EN_CATALOG = {
       thumb: 'relative-pronouns/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'parts-of-speech',
+      track: 'toeic',
+      title: '빈칸의 자리가 품사를 정한다',
+      topic: '품사 자리 · 명사 · 형용사 · 부사',
+      summary: '같은 뿌리의 보기 네 개 중에서 고르는 품사 문제를 해석 없이 푸는 법. 낱말의 꼬리(접미사)와 빈칸의 자리, 보기 → 자리 → 꼬리 3단계 풀이법을 배워요.',
+      length: '6:22',
+      scenes: 12,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '3초 품사 감각 훈련', '낱말 가족 사전', '연습 문제 16', '퀴즈'],
+      types: [1, 2, 3, 4, 5, 6, 7, 8],
+      thumb: 'parts-of-speech/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };
