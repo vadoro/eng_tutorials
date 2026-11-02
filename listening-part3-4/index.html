@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>먼저 읽고, 바꿔 말한 답을 잡아라 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="토익 Part 3·4(대화와 담화) 듣기를 문제 먼저 읽기 → 신호어 듣기 → 바꿔 말한 보기 고르기 3단계로 푸는 법. 패러프레이즈, 문제 순서, 주제·장소·문제점·요청·다음 할 일, 화자 의도, 시각 정보, 세 사람 대화, Part 4 담화의 흐름을 인터랙티브 모션그래픽 영상, 근거 줄 찾기 놀이터, 세트형 듣기 연습 문제로 배워요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 문제 키워드 · 신호어 · 근거 줄 · 바꿔 말한 답 · 그대로 들린 낱말(함정) */
+  --c-kw:#2266C4; --c-sig:#6A45C2; --c-ev:#1F7A55; --c-ans:#A86A00; --c-trap:#C2531F;
+  /* 화자 표시 (세트에 나오는 차례대로) */
+  --spk1:#E2E7ED; --spk2:#C3D3E4; --spk3:#E8D9B8; --spk-ink:#22303C;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-kw); --en-cue:var(--c-sig); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-kw:#6EC8FF; --c-sig:#C9A7FF; --c-ev:#7FE0A8; --c-ans:#FFC15E; --c-trap:#FF9F7A;
+    --spk1:#E7ECF2; --spk2:#9DB4CC; --spk3:#D9C49A; --spk-ink:#10151C;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-kw:#6EC8FF; --c-sig:#C9A7FF; --c-ev:#7FE0A8; --c-ans:#FFC15E; --c-trap:#FF9F7A;
+  --spk1:#E7ECF2; --spk2:#9DB4CC; --spk3:#D9C49A; --spk-ink:#10151C;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+.honest{margin:4px 0 0;max-width:78ch;padding:10px 14px;border:1px solid var(--line);border-left:3px solid var(--warn);border-radius:10px;background:var(--surface);font-size:14px;color:var(--muted)}
+.honest b{color:var(--text)}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab h3.mt{margin-top:16px}
+.lab p{margin:8px 0 0}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{display:inline-flex;align-items:center;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer;text-align:left}
+.mo button:hover{border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mo.col{display:flex;flex-direction:column;align-items:stretch}
+.mo.col button{padding:6px 12px}
+.mr{margin:8px 0 0!important;font-size:14px;color:var(--muted)}
+.mr:empty{display:none}
+.mini{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--surface-2)}
+.mini .mq{margin:8px 0;font-size:16px;font-weight:600}
+.gapq{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.gapq li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.gapq .ph{font-weight:600;flex-basis:100%;font-size:15.5px}
+.gapq .mr{flex-basis:100%;margin:0!important}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.pick{display:grid;grid-template-columns:5.2em minmax(0,1fr);gap:8px;align-items:center;margin:8px 0}
+.pick > span{font-weight:700;font-size:14px;color:var(--muted)}
+select.sel{height:36px;padding:0 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);max-width:100%;min-width:0}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)}
+
+/* ---------- 듣기 단추와 대본 (직접 해 보기 · 놀이터 · 연습 문제가 함께 씀) ---------- */
+.lsn{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:8px 0}
+.lbtn{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 14px 0 10px;border:1px solid var(--accent);border-radius:999px;background:var(--surface);color:var(--accent);font-size:13.5px;font-weight:700;cursor:pointer}
+.lbtn svg{width:16px;height:16px;flex:none}
+.lbtn[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.lbtn.tog{border-color:var(--line);color:var(--text);font-weight:600}
+.lbtn.tog[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.lsn .vnote{flex-basis:100%;margin:0;font-size:12.5px;color:var(--muted)}
+.no-ltv .lbtn.say,.no-ltv .lline{display:none!important}
+.ln-list{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column;gap:4px}
+.ln{display:grid;grid-template-columns:auto auto minmax(0,1fr);gap:4px 8px;align-items:start;padding:6px 8px;border:1px solid transparent;border-radius:10px;transition:background .2s,border-color .2s}
+.ln .who{display:inline-grid;place-items:center;min-width:42px;height:24px;margin-top:1px;padding:0 7px;border-radius:12px;background:var(--spk1);color:var(--spk-ink);font-size:12px;font-weight:700;white-space:nowrap}
+.ln[data-k="1"] .who{background:var(--spk2)} .ln[data-k="2"] .who{background:var(--spk3)}
+.ln .wv{display:inline-flex;align-items:center;gap:2px;height:26px;width:24px}
+.ln .wv i{display:block;width:3px;height:5px;border-radius:2px;background:var(--line)}
+.ln.speaking{border-color:var(--accent);background:var(--accent-soft)}
+.ln.speaking .wv i{background:var(--accent);animation:wv .55s ease-in-out infinite alternate}
+.ln.speaking .wv i:nth-child(2){animation-delay:.12s} .ln.speaking .wv i:nth-child(3){animation-delay:.24s} .ln.speaking .wv i:nth-child(4){animation-delay:.36s} .ln.speaking .wv i:nth-child(5){animation-delay:.18s}
+@keyframes wv{from{height:5px}to{height:20px}}
+@media (prefers-reduced-motion: reduce){ .ln.speaking .wv i{animation:none;height:14px} }
+.ln .tx{min-width:0;font-size:15.5px;line-height:1.55}
+.ln .tx .ko{display:block;margin-top:2px;color:var(--muted);font-size:13.5px}
+.ln .hid{display:inline-block;height:10px;margin:7px 6px 0 0;border-radius:5px;background:var(--surface-2);border:1px solid var(--line)}
+.ln.ev{border-color:var(--c-ev);background:color-mix(in srgb,var(--c-ev) 10%,transparent)}
+.ln.pick-no{border-color:var(--no)}
+.lline{display:inline-grid;place-items:center;width:24px;height:24px;margin:0 4px 0 0;padding:0;vertical-align:-5px;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--accent);cursor:pointer}
+.lline svg{width:12px;height:12px;margin-left:1px}
+.lline:hover{border-color:var(--accent)}
+mark{background:transparent;color:inherit;border-radius:3px;padding:0 1px}
+mark.mk-cue{box-shadow:inset 0 -0.42em 0 color-mix(in srgb,var(--c-sig) 30%,transparent)}
+mark.mk-ans{box-shadow:inset 0 -0.42em 0 color-mix(in srgb,var(--c-ans) 34%,transparent)}
+mark.mk-trap{box-shadow:inset 0 -0.42em 0 color-mix(in srgb,var(--c-trap) 32%,transparent)}
+mark.mk-kw,mark.mk-name{box-shadow:inset 0 -0.42em 0 color-mix(in srgb,var(--c-kw) 28%,transparent)}
+mark.mk-ctx{box-shadow:inset 0 -0.42em 0 color-mix(in srgb,var(--c-ev) 30%,transparent)}
+canvas.gfx{display:block;width:100%;max-width:560px;height:auto;border-radius:10px;background:var(--stage)}
+
+/* ---------- 놀이터 ---------- */
+.ev-card{display:flex;flex-direction:column;gap:10px;outline:none}
+.ev-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:14px;align-items:start}
+.ev-side{display:flex;flex-direction:column;gap:8px;min-width:0}
+.ev-qtabs{display:flex;flex-wrap:wrap;gap:6px}
+.ev-qtabs button{min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-weight:700;font-size:13.5px;cursor:pointer}
+.ev-qtabs button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.ev-qtabs button.done::after{content:" ✓";color:var(--ok)}
+.ev-q{margin:0;font-size:16.5px;font-weight:600;line-height:1.5}
+.ev-qko{margin:0;font-size:13.5px;color:var(--muted)}
+.ev-opts{display:flex;flex-direction:column;gap:6px;margin:0;padding:0;list-style:none}
+.ev-opts button{width:100%;display:grid;grid-template-columns:2.2em minmax(0,1fr);gap:4px;align-items:start;padding:7px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-align:left;line-height:1.45;cursor:pointer}
+.ev-opts button b{font-family:var(--mono);font-weight:500;color:var(--muted)}
+.ev-opts button small{grid-column:2;font-size:12.5px;font-weight:700;color:var(--muted)}
+.ev-opts button.right{border-color:var(--ok);box-shadow:0 0 0 1px var(--ok)}
+.ev-opts button.wrong{border-color:var(--no)}
+.ev-opts button.wrong span{text-decoration:line-through;text-decoration-color:var(--no)}
+.ev-fb{margin:0;padding:10px 12px;border-radius:10px;background:var(--surface-2);font-size:14.5px;line-height:1.6}
+.ev-fb:empty{display:none}
+.ev-fb b.ok{color:var(--ok)} .ev-fb b.no{color:var(--no)}
+.ev-ask{margin:0;font-size:14px;font-weight:600;color:var(--accent)}
+.okeys{margin:0;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.gtop{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 14px}
+.ev-card .ln{cursor:pointer;text-align:left;width:100%;background:none;font:inherit;color:inherit}
+.ev-card .ln:hover{border-color:var(--line)}
+.ev-card .ln.found{border-color:var(--c-ev);background:color-mix(in srgb,var(--c-ev) 12%,transparent)}
+.ev-card .ln.miss{border-color:var(--no)}
+.it-quote{margin:0;padding:10px 14px;border-radius:10px;background:var(--stage);color:#FFC15E;font-size:clamp(17px,2.4vw,21px);font-weight:700}
+.it-sum{width:100%;border-collapse:collapse;font-size:14px}
+.it-sum th,.it-sum td{padding:6px 8px;border:1px solid var(--line);text-align:left;vertical-align:top}
+.it-sum thead th{background:var(--surface-2);font-size:13px;color:var(--muted)}
+
+/* ---------- 연습 문제: 세트 하나씩 (EN.drill과 같은 모양) ---------- */
+.ldr .edr-card{display:flex;flex-direction:column;gap:12px}
+.ldr .edr-meta,.ldr .edr-steps,.ldr .edr-notes,.ldr .edr-verdict,.ldr .edr-acts{margin:0}
+.ldr-dir{margin:0;font-size:14px;color:var(--muted);font-family:var(--mono)}
+.edr-dots .sep{width:10px}
+.ldr-qs{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
+.ldr-q{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);display:flex;flex-direction:column;gap:10px}
+.ldr-q.cur{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.ldr-q.ok{border-color:var(--ok)} .ldr-q.no{border-color:var(--no)}
+.ldr-qh{display:flex;align-items:baseline;gap:8px;margin:0;font-size:16.5px;font-weight:600;line-height:1.5}
+.ldr-qh .n{font-family:var(--mono);font-size:13px;color:var(--accent);flex:none}
+.ldr-qh button.go{margin-left:auto;flex:none;min-height:28px;padding:0 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:12.5px;font-weight:700;cursor:pointer}
+.ldr-qko{margin:-6px 0 0;font-size:13.5px;color:var(--muted)}
+.ldr-q .edr-opts button{font-size:15.5px}
+.ldr-q .edr-notes li span.ko{color:var(--muted);font-weight:400}
+.ldr-end table{margin:10px auto 0;border-collapse:collapse;font-size:14px}
+.ldr-end th,.ldr-end td{padding:5px 10px;border:1px solid var(--line)}
+
+/* ---------- 놀이터 · 연습 문제 · 퀴즈 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.card h3{margin:0 0 4px;font-size:16px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td.kd{font-weight:700;white-space:nowrap}
+.sum td .sg{color:var(--c-sig);font-weight:600}
+.sum td[lang] b{color:var(--c-ans)}
+.sum td span.tr{color:var(--c-trap);font-size:14px}
+.sum td.kd small{font-weight:500;color:var(--muted)}
+.sumwrap{overflow-x:auto}
+@media (max-width:760px){ table.sum4{min-width:640px} }
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .ev-grid{grid-template-columns:minmax(0,1fr)}
+  .ln{grid-template-columns:auto minmax(0,1fr)}
+  .ln .wv{display:none}
+  .ln .tx{font-size:15px}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="listening-part3-4"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">TOEIC 듣기 · Part 3 대화 · Part 4 담화 · <span id="durLbl">6분 26초</span></p>
+    <h1>먼저 읽고, <em>바꿔 말한</em> 답을 잡아라</h1>
+    <p class="lead">토익 Part 3은 두세 사람의 대화, Part 4는 한 사람의 담화(안내 방송 · 음성 메시지 · 광고 · 회의 · 관광 안내)를 듣고 세 문제씩 풀어요. 대화에서 ‘방이 다 찼어요(fully booked)’라고 들렸다면 정답 보기는 ‘빈방이 없다(No rooms are available)’처럼 <b>같은 뜻을 다른 말로</b> 해요. 오히려 들린 낱말이 그대로 들어간 보기가 함정이에요. 문제를 먼저 읽어 키워드를 잡고, 신호어(but · Could you · I'll) 뒤의 근거 줄을 듣고, 바꿔 말한 보기를 고르는 3단계로 풀어요. 영상 아래에는 근거 줄 찾기 놀이터, 세트 다섯 개의 듣기 연습 문제, 퀴즈가 이어져요.</p>
+    <ul class="legend" aria-label="색의 뜻">
+      <li><i style="background:var(--c-kw)"></i>문제 키워드</li>
+      <li><i style="background:var(--c-sig)"></i>신호어</li>
+      <li><i style="background:var(--c-ev)"></i>근거 줄</li>
+      <li><i style="background:var(--c-ans)"></i>바꿔 말한 답</li>
+      <li><i style="background:var(--c-trap)"></i>그대로 들린 낱말 · 함정</li>
+    </ul>
+    <p class="honest"><b>음성에 대해 솔직하게:</b> 녹음 파일 없이 브라우저에 들어 있는 영어 음성(speechSynthesis)으로 대화를 읽어요. 화자마다 다른 목소리(미국 · 영국 · 호주 영어를 먼저 찾음)를 고르지만, 기기마다 목소리가 다르고 목소리가 모자라면 높낮이만 바꿔 구별해요. 실제 시험 녹음의 억양, 속도, 음질을 그대로 들려주지는 못해요. 이 튜토리얼은 억양에 익숙해지는 연습이 아니라 <b>문제를 먼저 읽고, 신호어를 잡고, 바꿔 말한 보기를 고르는 전략</b>을 익히는 곳이에요. 억양 연습은 실제 기출 음원으로 따로 해 주세요.</p>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">놀이터</a><a href="#drill">연습 문제</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="Part 3·4 대화와 담화 듣기 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="대화 대본이 화자 표시와 소리 물결과 함께 한 줄씩 나타나고, 오른쪽 문제 칸에서 키워드, 신호어, 바꿔 말한 정답이 색으로 이어지며 보기가 하나씩 지워지는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">근거 줄 찾기</h2>
+      <p>대화를 들은 뒤, 문제마다 답을 증명하는 <b>근거 줄</b>을 대본에서 눌러 보세요. 규칙 엔진이 그 줄이 근거 줄인지, 정답이 그 줄을 어떻게 바꿔 말했는지 알려 줘요. 함정 보기의 출처가 된 줄이나 다른 문제의 근거 줄을 누르면 왜 아닌지도 알려 줘요. 보기를 눌러 답부터 골라도 돼요.</p>
+    </div>
+    <div class="card ev-card" id="ev" tabindex="-1">
+      <div class="seg" id="eSets" role="group" aria-label="대화 고르기"></div>
+      <div id="eListen"></div>
+      <canvas class="gfx" id="eGfx" hidden></canvas>
+      <div class="ev-grid">
+        <ol class="ln-list" id="eLines" aria-label="대본"></ol>
+        <div class="ev-side">
+          <div class="ev-qtabs" id="eTabs" role="group" aria-label="문제 고르기"></div>
+          <p class="ev-q" id="eQ" lang="en"></p>
+          <p class="ev-qko" id="eQko"></p>
+          <ul class="ev-opts" id="eOpts"></ul>
+          <p class="ev-ask" id="eAsk"></p>
+          <p class="ev-fb" id="eFb" role="status"></p>
+        </div>
+      </div>
+      <div class="gtop"><p class="okeys">키보드: ↑ ↓ 줄 옮기기 · Enter 이 줄이 근거 · 1~3 문제 · A~D 보기 · R 다시 듣기 · S 천천히</p><p class="okeys" id="eScore"></p></div>
+    </div>
+    <div class="bhead">
+      <h2>의도 파악 실험</h2>
+      <p>세 대화에 <b>똑같은 문장</b>이 나와요. 보기 넷도 똑같아요. 그런데 앞뒤 줄이 바뀌면 정답이 바뀌어요. 대화를 골라 듣고, 남자가 무슨 뜻으로 말했는지 골라 보세요.</p>
+    </div>
+    <div class="card ev-card" id="it" tabindex="-1">
+      <p class="it-quote" lang="en">“That's the third time this week.”</p>
+      <div class="seg" id="iCtx" role="group" aria-label="대화 고르기"></div>
+      <div id="iListen"></div>
+      <ol class="ln-list" id="iLines" aria-label="대본"></ol>
+      <p class="ev-q" id="iQ" lang="en"></p>
+      <ul class="ev-opts" id="iOpts"></ul>
+      <p class="ev-fb" id="iFb" role="status"></p>
+      <table class="it-sum" id="iSum" hidden></table>
+      <p class="okeys">키보드: ← → 대화 바꾸기 · A~D 보기 · R 다시 듣기 · S 천천히</p>
+    </div>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">연습 문제</p>
+      <h2 id="drillTitle">토익 Part 3·4 형식으로 풀어 보기</h2>
+      <p>실제 시험처럼 세트로 풀어요. 대화 다섯 개(Part 3 셋 · Part 4 둘), 모두 열다섯 문제예요. 먼저 세 문제를 읽고 <b>듣기</b>를 누르세요. 대본은 가려져 있고, 누가 말하는지만 보여요. 막히면 <b>힌트</b>를 누르세요. 3단계 풀이법(미리 읽기 → 신호 듣기 → 바꿔 말하기)이 한 단계씩 열리고, 두 번째 단계에서 근거 줄이 드러나요. 답하면 보기마다 대본과의 관계와 까닭, 해석이 나오고, 세 문제를 다 풀면 대본 전체와 해석이 보여요.</p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 원리 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 방이나 줄을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 문제 종류와 신호어</h2>
+      <p>① 문제를 먼저 읽어 키워드와 답의 자리를 잡고, ② 신호어 뒤의 근거 줄을 듣고, ③ 같은 뜻을 다른 말로 한 보기를 골라요. 그대로 들린 낱말은 의심해요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum sum4">
+        <thead><tr><th scope="col">묻는 것 (문제 모양)</th><th scope="col">① 답의 자리</th><th scope="col">② 신호</th><th scope="col">③ 바꿔 말하기 예 · 함정</th></tr></thead>
+        <tbody>
+          <tr><td class="kd">주제 · 목적<br><small lang="en">What … mainly discussing? · Why is … calling?</small></td><td>첫 부분</td><td class="sg" lang="en">I'm calling about · I'd like to · I need</td><td lang="en">reserve twenty rooms → <b>book accommodations for a group</b><br><span class="tr">To register for a medical convention ×</span></td></tr>
+          <tr><td class="kd">장소 · 직업<br><small lang="en">Where most likely …? · Who most likely is …?</small></td><td>대화 전체</td><td>단서 낱말 여럿</td><td lang="en">posters · printed · glossy paper · sample copy → <b>At a print shop</b><br><span class="tr">At an art gallery × (gallery 한 번)</span></td></tr>
+          <tr><td class="kd">문제점 · 걱정<br><small lang="en">What problem does … mention?</small></td><td>가운데</td><td class="sg" lang="en">but · unfortunately · I'm afraid · The problem is</td><td lang="en">fully booked → <b>No rooms are available</b><br><span class="tr">A room was booked under the wrong name ×</span></td></tr>
+          <tr><td class="kd">요청 · 제안<br><small lang="en">What does … ask / suggest?</small></td><td>가운데 · 끝</td><td class="sg" lang="en">Could you · Would you mind · Why don't you · I suggest</td><td lang="en">call us back → <b>Return a phone call</b><br><span class="tr">다른 사람의 요청 ×</span></td></tr>
+          <tr><td class="kd">다음에 할 일<br><small lang="en">What will … do next?</small></td><td>끝부분</td><td class="sg" lang="en">I'll · Let me · I'm going to</td><td lang="en">I'll send their phone number → <b>Send some contact information</b><br><span class="tr">이미 한 일(Let me check) ×</span></td></tr>
+          <tr><td class="kd">화자 의도<br><small lang="en">What does … mean when he says “…”?</small></td><td>따옴표 문장 앞뒤</td><td>앞 줄 + 뒤 줄</td><td lang="en">jammed again + That's the third time → <b>A machine keeps breaking down</b><br><span class="tr">낱말 뜻 그대로(third floor) ×</span></td></tr>
+          <tr><td class="kd">시각 정보<br><small lang="en">Look at the graphic. …</small></td><td>그림 + 대화</td><td>보기에 없는 쪽의 말</td><td lang="en">across from the elevator + 지도 → <b>Room 2</b><br><span class="tr">그대로 들린 Room 3 ×</span></td></tr>
+          <tr><td class="kd">세 사람 대화<br><small lang="en">What does Kenji offer to do?</small></td><td>이름이 나온 사람의 말</td><td>이름을 부르는 말 (Raj, could you …?)</td><td lang="en">I can record it → <b>Record some audio</b><br><span class="tr">Raj의 일(Edit a video) ×</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>① 미리 읽기</h3>
+        <dl>
+          <dt>문제 미리 읽기 <span>previewing</span></dt><dd>대화가 나오기 전에 세 문제와 보기를 읽고 키워드에 표시해요. 대화는 한 번만 들려줘요.</dd>
+          <dt>키워드 <span>keyword</span></dt><dd>누구에 대한 문제인지(<i lang="en">the man · the woman · Kenji</i>)와 무엇을 묻는지(<i lang="en">problem · suggest · do next</i>).</dd>
+          <dt>문제 순서</dt><dd>세 문제의 답은 대부분 대화 순서대로 나와요. 첫 문제 → 앞부분, 마지막 문제 → 끝부분.</dd>
+          <dt><i lang="en">most likely</i></dt><dd>‘가장 그럴듯한’. 대화에서 직접 말하지 않아 단서로 추론하는 문제(장소 · 직업 · 다음 할 일)에 붙어요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>② 신호 듣기</h3>
+        <dl>
+          <dt>신호어 <span>signal words</span></dt><dd>답이 곧 나온다고 알려 주는 말. 문제점 → <i lang="en">but · unfortunately · I'm afraid</i>, 요청 · 제안 → <i lang="en">Could you · Why don't you</i>, 다음 할 일 → <i lang="en">I'll · Let me</i>.</dd>
+          <dt>근거 줄 <span>evidence line</span></dt><dd>정답을 증명하는 대본의 한 줄. 정답은 이 줄을 바꿔 말한 것이에요.</dd>
+          <dt>화자 의도 <span>speaker's intent</span></dt><dd>따옴표 문장의 ‘속뜻’. 같은 문장도 앞 줄과 뒤 줄에 따라 불만 · 감탄 · 제안으로 뜻이 바뀌어요.</dd>
+          <dt>세 사람 대화</dt><dd>이름을 부르는 말(<i lang="en">Raj, could you …?</i>) 다음에 대답하는 사람이 그 이름의 주인이에요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>③ 바꿔 말하기</h3>
+        <dl>
+          <dt>패러프레이즈 <span>paraphrase</span></dt><dd>같은 뜻을 다른 말로 하기. <i lang="en">fully booked → no vacancies</i>, <i lang="en">call us back → return a call</i>. 구체적인 말은 넓은 말로 바뀌어요(<i lang="en">projector → equipment</i>).</dd>
+          <dt>그대로 들린 낱말 함정</dt><dd>대화의 낱말이 그대로 들어갔지만 뜻이 다른 보기. 들린 낱말은 먼저 의심해요.</dd>
+          <dt>시각 정보 <span>graphic</span></dt><dd>표 · 지도 · 일정표. 보기에 있는 말(방 이름)은 대화에 나오지 않고, 그림의 다른 칸(위치 · 시간)이 들려요. 들은 말과 그림을 합쳐야 답이 나와요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>Part 4 담화의 흐름</h3>
+        <dl>
+          <dt>음성 메시지 <span>voicemail</span></dt><dd>인사 · 이름 → 전화한 까닭 → 문제 · 부탁 → 연락 방법.</dd>
+          <dt>안내 방송 <span>announcement</span></dt><dd><i lang="en">Attention, …</i> → 바뀐 일 → 까닭 → 할 일.</dd>
+          <dt>광고 <span>advertisement</span></dt><dd>질문으로 끌기 → 상품 · 서비스 → 할인 · 혜택 → 방문 · 연락.</dd>
+          <dt>회의 발췌 · 관광 안내</dt><dd>회의: 주제 → 소식 → 계획 → 할 일 부탁. 관광: 환영 · 소개 → 일정 → 주의 사항.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 실전 문제에서 지워지는 순서, 직접 해 보기의 채점, 근거 줄 찾기와 의도 파악 실험의 판정, 연습 문제의 힌트와 보기별 해설, 퀴즈 대부분의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 엔진은 보기마다 적어 둔 대본과의 관계를 ① 문제 키워드(누구 · 언제)와 어긋남(다른 사람의 말 · 때가 다른 일) → ② 근거 줄과 안 맞음(나오지 않은 내용 · 대화와 반대) → ③ 바꿔 말하기 확인(그대로 들린 낱말 · 그림과 안 맞는 칸) 순서로 판정하고, 근거 줄을 함께 보여 줘요. 그림 문제의 답은 지도(맞은편 · 바로 옆)와 표(점심 바로 다음 줄)에서 다시 계산하고, 세 사람 대화의 이름은 이름을 부르는 말과 성별로 알아내요. 데이터가 엔진과 어긋나면(정답이 둘, 근거 줄에 없는 신호어, 대본에 없는 바꿔 말하기, 대화 순서가 아닌 세 문제, 몰린 정답 위치) 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 보기와 대본의 관계(바꿔 말한 정답인지, 그대로 들린 낱말 함정인지 등)는 엔진이 영어를 이해해 정하는 것이 아니라 보기마다 데이터에 적어 둔 것이에요. 엔진은 그 관계가 대본과 맞는지(낱말이 정말 들리는지, 말한 사람이 다른지, 그림에서 계산한 답과 같은지)만 확인해요. ‘세 문제는 대화 순서’와 ‘주제는 첫 부분 · 다음 할 일은 끝부분’은 시험의 일반적인 경향이고, 실제 시험에는 예외도 있어요. 화자 의도 문제의 뜻(불만 · 감탄)은 사람이 정해 둔 것이에요. 음성은 브라우저의 음성 합성이라 실제 시험의 억양 · 속도 · 녹음 품질과 달라요. 대화와 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요. 사람 이름과 회사 이름도 모두 지어낸 것이에요.</p>
+    <p>음성 해설과 발음 듣기도 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요. 바꿔 말하기 감각은 어휘 · 짝 표현(<a href="../vocabulary/index.html">T13</a>)과도 이어져요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/voices.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -224,5 +224,18 @@ window.EN_CATALOG = {
       thumb: 'part6-text/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'listening-part3-4',
+      track: 'toeic',
+      title: '먼저 읽고, 바꿔 말한 답을 잡아라',
+      topic: '듣기 Part 3·4 · 대화와 담화 · 패러프레이즈 · 의도 · 시각 정보',
+      summary: '대화에서 fully booked가 들리면 정답은 No rooms are available. Part 3·4의 정답은 들은 말을 바꿔 말해요. 문제를 먼저 읽고(키워드 · 순서), 신호어 뒤의 근거 줄을 듣고, 바꿔 말한 보기를 고르는 3단계로 풀어요. 화자마다 다른 목소리로 대화를 들어요.',
+      length: '6:27',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '근거 줄 찾기', '의도 파악 실험', '세트 연습 문제 15', '퀴즈'],
+      types: [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88],
+      thumb: 'listening-part3-4/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };
