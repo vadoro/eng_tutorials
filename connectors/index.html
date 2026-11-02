@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>접속사냐 전치사냐, 빈칸 뒤가 답한다 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="토익 Part 5 연결어 문제(접속사·전치사·접속부사)를 빈칸 뒤의 모양으로 푸는 법. 명사구냐 절이냐, 같은 뜻의 세 갈래, 뜻으로 고르는 접속사, 짝 접속사, 덩어리 전치사, 3단계 풀이법을 인터랙티브 모션그래픽 영상, 연결어 조립대, 연습 문제로 배워요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 연결어 갈래 색 (영상과 같은 뜻): 접속사·절 · 전치사·명사구 · 접속부사 · 동사, 그리고 빈칸·답·함정 */
+  --c-conj:#1F7A55; --c-prep:#2266C4; --c-adv:#6F7D00; --c-v:#6A45C2; --c-rel:#A86A00; --c-gap:#C2346E; --c-trap:#C2531F;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  /* 사이트 공통 부품(퀴즈·연습 문제·핵심 정리)이 쓰는 색과 글꼴: 명사구 표시는 하늘, 단서·동사는 보라 */
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-prep); --en-cue:var(--c-v); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-conj:#7FE0A8; --c-prep:#6EC8FF; --c-adv:#D4E157; --c-v:#C9A7FF; --c-rel:#FFC15E; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-conj:#7FE0A8; --c-prep:#6EC8FF; --c-adv:#D4E157; --c-v:#C9A7FF; --c-rel:#FFC15E; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{display:inline-flex;align-items:center;gap:4px;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;gap:4px;margin:8px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.enline.small{font-size:15px;font-weight:500;color:var(--text)}
+.mini{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--surface-2)}
+.mini .mq{margin:0 0 8px;font-size:16px;font-weight:500}
+.blank{display:inline-block;width:3.6em;border-bottom:2px solid var(--text);vertical-align:-2px}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer}
+.mo button:hover{border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:8px 0 0!important;font-size:14px;color:var(--muted);min-height:0}
+.mr:empty{display:none}
+.gapq{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.gapq li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.gapq li > span[lang]{font-weight:600;min-width:12em}
+.gapq .mr{flex-basis:100%;margin:0!important}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)}
+.pick{display:grid;grid-template-columns:4.6em minmax(0,1fr);gap:8px;align-items:center;margin:8px 0}
+.pick > span{font-weight:700;font-size:14px;color:var(--muted)}
+select.sel{height:36px;padding:0 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);max-width:100%;min-width:0}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.trio{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.trio li{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;padding:6px 10px;border-radius:10px;background:var(--surface-2)}
+.trio li .enline{margin:0}
+.trio .ko{flex-basis:100%;font-size:13.5px;color:var(--muted);padding-left:2px}
+.pt{padding:1px 9px;border:1px solid currentColor;border-radius:999px;font-size:12.5px;font-weight:700;white-space:nowrap}
+
+/* ---------- 갈래 색 ---------- */
+.k-conj,.k-pair{color:var(--c-conj)} .k-prep{color:var(--c-prep)} .k-adv{color:var(--c-adv)} .k-coord{color:var(--muted)}
+
+/* ---------- 놀이터: 연결어 조립대 ---------- */
+.asm{display:flex;flex-direction:column;gap:12px;outline:none}
+.arow{display:grid;grid-template-columns:4.8em minmax(0,1fr);gap:8px;align-items:start}
+.arow > span{font-weight:700;font-size:14px;color:var(--muted);padding-top:6px}
+.seg kbd,.pal kbd{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+.arel{margin:0;font-size:14px;color:var(--muted)}
+.arel b{color:var(--text)}
+.pal{display:flex;flex-wrap:wrap;gap:6px}
+.pal button{min-height:36px;padding:0 12px;border:1.5px solid currentColor;border-radius:10px;background:var(--surface);font-weight:700;font-size:15px;cursor:pointer}
+.pal button[aria-pressed="true"]{background:color-mix(in srgb,currentColor 16%,var(--surface));box-shadow:0 0 0 2px currentColor}
+.asm-out{padding:14px 16px;border:1.5px solid var(--line);border-radius:12px;background:var(--surface-2)}
+.asm-out.ok{border-color:var(--ok)} .asm-out.no{border-color:var(--no)}
+.asent{margin:0;font-size:clamp(17px,2.3vw,21px);line-height:2.2;font-weight:500}
+.asent .pc,.asent .bx{display:inline-block;line-height:1.5}
+.asent .pc{padding:1px 10px;border:2px solid currentColor;border-radius:9px;font-weight:800;background:color-mix(in srgb,currentColor 12%,transparent)}
+.asent .pc.empty{color:var(--c-gap);border-style:dashed;font-weight:600;font-size:.8em}
+.asent .pc.bad{color:var(--no);border-style:dashed;text-decoration:line-through}
+.asent .bx{padding:0 8px;border:1.5px solid;border-radius:8px}
+.asent .b-cl{border-color:var(--c-conj)} .asent .b-np{border-color:var(--c-prep)}
+.asent .stop{font-weight:800;color:var(--c-trap)}
+.asteps{margin:12px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px;font-size:14.5px}
+.asteps li{display:grid;grid-template-columns:22px 3.6em minmax(0,1fr);gap:6px;align-items:start}
+.asteps .ic{width:20px;height:20px;margin-top:2px}
+.asteps .ic svg{width:20px;height:20px;display:block}
+.asteps li.ok .ic{color:var(--ok)} .asteps li.no .ic{color:var(--no)} .asteps li.skip,.asteps li.wait{color:var(--muted)}
+.asteps b{color:var(--accent)}
+.ahint{display:flex;align-items:center;gap:6px;margin:10px 0 0;font-size:14px;color:var(--muted);min-height:1.4em}
+.afound{margin:0;font-size:14.5px}
+.agrid{width:100%;border-collapse:collapse;font-size:13.5px}
+.agrid th,.agrid td{padding:6px 8px;border:1px solid var(--line);text-align:center}
+.agrid thead th{background:var(--surface-2);color:var(--muted);font-weight:600}
+.agrid tbody th{text-align:left;font-weight:600}
+.agrid td{font-family:var(--mono)}
+.agrid td.some{color:var(--warn)} .agrid td.full{color:var(--ok);font-weight:700}
+.agrid td.cur{box-shadow:inset 0 0 0 2px var(--accent)}
+.dict{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:12px 18px}
+.dict h4{margin:0 0 6px;font-size:14px}
+.dict ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px}
+.dict li{display:flex;align-items:center;gap:4px;font-size:14.5px;flex-wrap:wrap}
+.dict li span{color:var(--muted);font-size:13px;margin-left:4px}
+.dict li em{font-style:normal;font-size:11px;font-weight:700;color:var(--c-prep);border:1px solid currentColor;border-radius:4px;padding:0 3px;cursor:help}
+.dict .en-say{width:24px;height:24px}
+.dict .en-say svg{width:13px;height:13px}
+
+/* ---------- 놀이터 · 연습 문제 · 퀴즈 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.card h3{margin:0 0 8px;font-size:15px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.lab .btn{margin-top:10px}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td.kd{font-weight:700;white-space:nowrap}
+.sum td[lang] b{color:var(--c-rel)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .arow{grid-template-columns:minmax(0,1fr)}
+  .arow > span{padding-top:0}
+  .agrid{font-size:12px}
+  .agrid th,.agrid td{padding:5px 4px}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="connectors"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">TOEIC 문법 · 접속사 · 전치사 · 접속부사 · <span id="durLbl">5분 52초</span></p>
+    <h1>접속사냐 전치사냐, <em>빈칸 뒤</em>가 답한다</h1>
+    <p class="lead">although와 despite는 뜻이 같아요. 그런데 토익 문제에서는 둘 중 하나만 답이 돼요. 무엇이 둘을 가를까요? 빈칸 뒤에 오는 말의 모양이에요. 명사구가 오면 전치사, 주어와 동사가 오면 접속사, 마침표 뒤에 쉼표와 함께 오면 접속부사. 영상 아래에는 두 생각을 직접 이어 보는 연결어 조립대, 토익 Part 5 연습 문제, 퀴즈가 이어져요.</p>
+    <ul class="legend" aria-label="색의 뜻">
+      <li><i style="background:var(--c-conj)"></i>접속사 · 절</li>
+      <li><i style="background:var(--c-prep)"></i>전치사 · 명사구</li>
+      <li><i style="background:var(--c-adv)"></i>접속부사</li>
+      <li><i style="background:var(--c-v)"></i>동사 · 단서</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>빈칸</li>
+      <li><i style="background:var(--c-trap)"></i>함정 · 부호</li>
+    </ul>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">놀이터</a><a href="#drill">연습 문제</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="연결어 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="접속사는 두 절을 잇고, 전치사는 명사구를 붙이고, 접속부사는 마침표 뒤에서 앞 문장을 가리키는 모습을 문장 조각으로 보여 주는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">연결어 조립대</h2>
+      <p>두 생각을 세 가지 틀로 이어 보세요. 틀은 빈칸 뒤의 모양이에요: 절이 오는 틀, 명사구가 오는 틀, 마침표 뒤 새 문장. 연결어 조각을 끼우면 규칙 엔진이 ① 뒤 → ② 갈래 → ③ 뜻 순서로 검사해요. 틀마다 맞는 연결어를 모두 찾아 아래 표를 채워 보세요. 키보드: 1~3 틀, ← → 연결어, ↑ ↓ 두 생각.</p>
+    </div>
+    <div class="card asm" id="asm" tabindex="-1">
+      <div class="arow"><span>두 생각</span><div class="seg" id="aScn" role="group" aria-label="두 생각"></div></div>
+      <p class="arel" id="aRel"></p>
+      <div class="arow"><span>틀</span><div class="seg" id="aFrame" role="group" aria-label="틀"></div></div>
+      <div class="arow"><span>연결어</span><div class="pal" id="aPal" role="group" aria-label="연결어 조각"></div></div>
+      <div class="asm-out" id="aOut" aria-live="polite">
+        <p class="asent" id="aSent" lang="en"></p>
+        <ol class="asteps" id="aSteps"></ol>
+        <p class="ahint" id="aHint"></p>
+      </div>
+      <p class="afound" id="aFound" role="status"></p>
+      <div class="sumwrap"><table class="agrid" id="aGrid" aria-label="찾은 연결어 수"></table></div>
+    </div>
+    <div class="card">
+      <h3>연결어 사전 <span class="note">갈래마다 모았어요. 스피커 단추를 누르면 발음을 들려줘요. ‘전치사도’ 표시는 전치사로도 쓰는 말이에요.</span></h3>
+      <div class="dict" id="dict"></div>
+    </div>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">연습 문제</p>
+      <h2 id="drillTitle">토익 Part 5 형식으로 풀어 보기</h2>
+      <p>한 문제씩 풀어요. 막히면 <b>힌트</b>를 누르세요. 3단계 풀이법(뒤 → 갈래 → 뜻)이 한 단계씩 열리고, 빈칸 뒤의 명사구와 절의 동사, 마침표 같은 단서에 색이 칠해져요. 답을 고르면 보기마다 갈래와 맞고 틀린 까닭, 해석, 완성 문장의 발음이 나와요.</p>
+    </div>
+    <div id="drillBox"><div id="drill"></div></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 원리 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 조각을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 연결어</h2>
+      <p>빈칸 뒤의 모양이 갈래를 정하고, 같은 갈래 안에서는 앞뒤 관계(뜻)가 답을 정해요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">빈칸 앞뒤 (신호)</th><th scope="col">갈래</th><th scope="col">예</th></tr></thead>
+        <tbody>
+          <tr><td>빈칸 뒤 명사(구) · -ing 덩어리</td><td class="kd k-prep">전치사</td><td lang="en"><b>despite</b> the rain · <b>due to</b> a problem · <b>prior to</b> the meeting</td></tr>
+          <tr><td>빈칸 뒤 주어 + 동사(절), 다른 절과 한 문장</td><td class="kd k-conj">접속사</td><td lang="en"><b>although</b> it rained · <b>unless</b> you register</td></tr>
+          <tr><td>빈칸 앞 마침표·세미콜론, 뒤 쉼표 + 문장</td><td class="kd k-adv">접속부사</td><td lang="en">It rained. <b>However</b>, the concert continued.</td></tr>
+          <tr><td>앞이나 뒤에 짝 낱말</td><td class="kd k-pair">짝 접속사</td><td lang="en"><b>either</b> A <b>or</b> B · <b>neither</b> A <b>nor</b> B · <b>not only</b> A <b>but also</b> B</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">뜻</th><th scope="col">접속사 + 절</th><th scope="col">전치사 + 명사구</th><th scope="col">접속부사 (마침표 뒤)</th></tr></thead>
+        <tbody>
+          <tr><td>대조·양보</td><td lang="en" class="k-conj">although · even though</td><td lang="en" class="k-prep">despite · in spite of</td><td lang="en" class="k-adv">however · nevertheless</td></tr>
+          <tr><td>이유 → 결과</td><td lang="en" class="k-conj">because · since</td><td lang="en" class="k-prep">because of · due to</td><td lang="en" class="k-adv">therefore · as a result</td></tr>
+          <tr><td>시간</td><td lang="en" class="k-conj">while · before</td><td lang="en" class="k-prep">during · prior to</td><td lang="en" class="k-adv">meanwhile</td></tr>
+          <tr><td>부정 조건</td><td lang="en" class="k-conj">unless</td><td lang="en" class="k-prep">without</td><td lang="en" class="k-adv">otherwise</td></tr>
+          <tr><td>추가</td><td>—</td><td lang="en" class="k-prep">in addition to</td><td lang="en" class="k-adv">moreover · in addition</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>용어</h3>
+        <dl>
+          <dt>절 <span>clause</span></dt><dd>주어와 동사가 함께 있는 덩어리. <i lang="en">it rained · the store was crowded</i></dd>
+          <dt>명사구 <span>noun phrase</span></dt><dd>명사를 중심으로 모인 덩어리. 동사가 없어요. <i lang="en">the heavy rain · a mechanical problem</i></dd>
+          <dt>동명사 <span>gerund</span></dt><dd>동사 + <i lang="en">-ing</i>로 명사처럼 쓰는 말. 전치사 뒤에 올 수 있어요. <i lang="en">despite being late</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>세 갈래 + 짝</h3>
+        <dl>
+          <dt>접속사 <span>conjunction</span></dt><dd>두 절을 한 문장으로 이어요. <i lang="en">although · because · unless · so that · whereas</i></dd>
+          <dt>전치사 <span>preposition</span></dt><dd>명사구를 문장에 붙여요. <i lang="en">despite · during · due to · prior to</i></dd>
+          <dt>접속부사 <span>conjunctive adverb</span></dt><dd>마침표·세미콜론 뒤에서 앞 문장을 가리켜요. 혼자서 두 절을 잇지 못해요. <i lang="en">however · therefore · moreover · otherwise</i></dd>
+          <dt>짝 접속사 <span>correlative conjunction</span></dt><dd>두 낱말이 짝을 이뤄요. <i lang="en">either … or · neither … nor · both … and · not only … but also</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>뜻으로 고르는 접속사</h3>
+        <dl>
+          <dt><i lang="en">unless</i></dt><dd>~하지 않으면 (= <i lang="en">if … not</i>)</dd>
+          <dt><i lang="en">once</i></dt><dd>일단 ~하면</dd>
+          <dt><i lang="en">as long as · provided that</i></dt><dd>~하는 한 · ~라면</dd>
+          <dt><i lang="en">so that</i></dt><dd>~하도록 (목적)</dd>
+          <dt><i lang="en">whereas</i></dt><dd>~인 반면 (두 사실을 맞댐)</dd>
+          <dt><i lang="en">even though</i></dt><dd>~이긴 하지만 (강한 대조)</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>함정</h3>
+        <dl>
+          <dt>덩어리 전치사</dt><dd><i lang="en">prior to · due to · on behalf of · in addition to · instead of</i> — 여러 낱말이 전치사 하나.</dd>
+          <dt>-ing 꼴 전치사</dt><dd><i lang="en">following</i>(~ 뒤에) · <i lang="en">including</i>(~을 포함해) · <i lang="en">regarding</i>(~에 관해) — 동사처럼 보여도 전치사.</dd>
+          <dt><i lang="en">in addition to</i> / <i lang="en">in addition</i></dt><dd>끝의 <i lang="en">to</i> 하나로 전치사 ↔ 접속부사가 바뀌어요.</dd>
+          <dt>쉼표로 잇기</dt><dd><i lang="en">Sales rose, however profits fell.</i> × → 마침표나 세미콜론으로 끊거나 접속사로 바꿔요.</dd>
+          <dt>두 갈래 다 되는 말</dt><dd><i lang="en">before · after · until · since</i> — 뒤에 명사구가 오면 전치사, 절이 오면 접속사.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓·×, 직접 해 보기의 채점, 연결어 조립대의 세 단계 검사, 연습 문제의 힌트와 보기별 해설, 퀴즈 일부의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 엔진은 연결어마다 갈래(접속사·전치사·접속부사)와 뜻(대조·이유·조건·시간…)을 사전에 적어 두고, 빈칸 앞뒤의 틀과 맞춰 봐요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 빈칸 앞뒤의 관계(대조인지 이유인지)는 엔진이 문장을 읽고 알아내는 것이 아니라 문제마다 정해 둔 것이에요. 같은 뜻 안의 작은 차이(<i lang="en">although</i>와 <i lang="en">whereas</i>, <i lang="en">while</i>의 두 뜻)는 가르지 않고, 접속부사는 문장 가운데(<i lang="en">…, however, …</i>)에도 오지만 토익 빈칸에 자주 나오는 자리(마침표·세미콜론 뒤)만 다뤘어요. <i lang="en">and · but · so</i> 같은 등위접속사는 짝 접속사 문제에서만 다루고, 짝 접속사 뒤 동사의 수는 영상에서 가볍게만 짚었어요. 접속사 뒤의 주어와 be동사를 줄인 꼴(<i lang="en">Although tired, …</i>)도 실제 영어에는 있지만, 여기서는 ‘접속사 뒤에는 주어 + 동사’로 단순하게 정했어요. 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
+    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="../shared/drill.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

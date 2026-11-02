@@ -81,5 +81,18 @@ window.EN_CATALOG = {
       thumb: 'verb-tense/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'connectors',
+      track: 'toeic',
+      title: '접속사냐 전치사냐, 빈칸 뒤가 답한다',
+      topic: '연결어 · 접속사 · 전치사 · 접속부사',
+      summary: '뜻이 같은 although와 despite 가운데 하나만 답이 되는 까닭. 빈칸 뒤가 명사구냐 절이냐로 갈래를 정하고, 뒤 → 갈래 → 뜻 3단계로 연결어 문제를 풀어요.',
+      length: '5:52',
+      scenes: 11,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '연결어 조립대', '연결어 사전', '연습 문제 16', '퀴즈'],
+      types: [31, 32, 33, 34, 35],
+      thumb: 'connectors/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };

@@ -30,7 +30,7 @@
 | 5 | 문장 구조와 동사 자리 | 21–23 | 5·6 | T07 |
 | 6 | to부정사·동명사 | 24–27 | 5·6 | T07 |
 | 7 | 분사 | 28–30 | 5·6 | T08 |
-| 8 | 연결어: 접속사·전치사·접속부사 | 31–35 | 5·6 | T05 |
+| 8 | 연결어: 접속사·전치사·접속부사 | 31–35 | 5·6 | **T05 완료** |
 | 9 | 관계사 | 36–40 | 5·6 | **T01 완료**(36–39) · T09(40) |
 | 10 | 명사절 | 41–42 | 5·6 | T09 |
 | 11 | 대명사 | 43–46 | 5·6 | T10 |
@@ -118,11 +118,11 @@
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 31 | 전치사 vs 접속사: 뒤에 명사냐, 주어 + 동사냐 | ___ the rain, the event continued. → **Despite** (Although ✗) | 빈출 |
-| 32 | 부사절 접속사의 뜻 (unless, once, as long as, whereas, so that) | ___ you register by Friday, the discount will not apply. → **Unless** | 빈출 |
-| 33 | 짝을 이루는 접속사 (either A or B, both A and B, not only A but also B) | You can apply **either** online ___ by phone. → **or** | 빈출 |
-| 34 | 접속부사는 두 절을 잇지 못함 (however, therefore, moreover) | Sales rose. ___, profits fell. → **However** (Although ✗) | 빈출 |
-| 35 | 여러 단어 전치사·분사형 전치사 (prior to, due to, on behalf of, following, including) | ___ the meeting, please read the agenda. → **Prior to** | 빈출 |
+| 31 | 전치사 vs 접속사: 뒤에 명사냐, 주어 + 동사냐 | ___ the rain, the event continued. → **Despite** (Although ✗) | 빈출 · **T05** |
+| 32 | 부사절 접속사의 뜻 (unless, once, as long as, whereas, so that) | ___ you register by Friday, the discount will not apply. → **Unless** | 빈출 · **T05** |
+| 33 | 짝을 이루는 접속사 (either A or B, both A and B, not only A but also B) | You can apply **either** online ___ by phone. → **or** | 빈출 · **T05** |
+| 34 | 접속부사는 두 절을 잇지 못함 (however, therefore, moreover) | Sales rose. ___, profits fell. → **However** (Although ✗) | 빈출 · **T05** |
+| 35 | 여러 단어 전치사·분사형 전치사 (prior to, due to, on behalf of, following, including) | ___ the meeting, please read the agenda. → **Prior to** | 빈출 · **T05** |
 
 ### 9. 관계사 (Part 5·6)
 
@@ -272,7 +272,7 @@
 | T02 | 빈칸의 자리가 품사를 정한다 | 1–8 | **완료** |
 | T03 | 동사 ① 수 일치와 능동·수동 | 9–11, 13–15 | 다음 차례 |
 | T04 | 시간선 위에 동사를 놓아라 | 16–20 | **완료** |
-| T05 | 접속사·전치사·접속부사 | 31–35 | |
+| T05 | 접속사냐 전치사냐, 빈칸 뒤가 답한다 | 31–35 | **완료** |
 | T06 | 명사·관사·수량 표현 | 47–51 | |
 | T07 | 동사 자리와 to부정사·동명사 | 21–27 | |
 | T08 | 분사 | 28–30 | |
