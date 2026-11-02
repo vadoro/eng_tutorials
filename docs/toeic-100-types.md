@@ -27,8 +27,8 @@
 | 2 | 동사 ① 수 일치 | 9–12 | 5·6 | **T03 완료** (12번은 T01에서 다룸) |
 | 3 | 동사 ② 능동·수동 | 13–15 | 5·6 | **T03 완료** |
 | 4 | 동사 ③ 시제 | 16–20 | 5·6 | **T04 완료** |
-| 5 | 문장 구조와 동사 자리 | 21–23 | 5·6 | T07 |
-| 6 | to부정사·동명사 | 24–27 | 5·6 | T07 |
+| 5 | 문장 구조와 동사 자리 | 21–23 | 5·6 | **T07 완료** |
+| 6 | to부정사·동명사 | 24–27 | 5·6 | **T07 완료** |
 | 7 | 분사 | 28–30 | 5·6 | **T08 완료** |
 | 8 | 연결어: 접속사·전치사·접속부사 | 31–35 | 5·6 | **T05 완료** |
 | 9 | 관계사 | 36–40 | 5·6 | **T01 완료**(36–39) · T09(40) |
@@ -93,18 +93,18 @@
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 21 | 동사가 비어 있으면 진짜 동사 (-ing·to부정사 ✗), 조동사·please 뒤 동사원형 | Please ___ the attached form. → **complete** | 빈출 |
-| 22 | 접속사 없이 동사 두 개 ✗ → 준동사 | Staff ___ the seminar will receive a manual. → **attending** (attend ✗) | 빈출 |
-| 23 | 타동사 vs 자동사 + 전치사 (discuss about ✗) | We will ___ the issue tomorrow. → **discuss** / respond **to**, comply **with** | 빈출·오류 |
+| 21 | 동사가 비어 있으면 진짜 동사 (-ing·to부정사 ✗), 조동사·please 뒤 동사원형 | Please ___ the attached form. → **complete** | 빈출 · **T07** |
+| 22 | 접속사 없이 동사 두 개 ✗ → 준동사 | Staff ___ the seminar will receive a manual. → **attending** (attend ✗) | 빈출 · **T07** |
+| 23 | 타동사 vs 자동사 + 전치사 (discuss about ✗) | We will ___ the issue tomorrow. → **discuss** / respond **to**, comply **with** | 빈출·오류 · **T07** |
 
 ### 6. to부정사·동명사 (Part 5·6)
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 24 | 동사가 고르는 목적어 (decide to / consider -ing) | We are considering ___ a new branch. → **opening** | 빈출·오류 |
-| 25 | to 다음 -ing가 오는 표현 | We look forward to ___ you. → **meeting** / be committed to **improving** | 빈출·오류 |
-| 26 | 형용사·명사 + to부정사 | Full-time staff are eligible ___ for the program. → **to apply** | 빈출 |
-| 27 | 목적어 + to부정사 / 원형 (encourage A to, have A do) | We encourage employees ___ the session. → **to attend** | 빈출 |
+| 24 | 동사가 고르는 목적어 (decide to / consider -ing) | We are considering ___ a new branch. → **opening** | 빈출·오류 · **T07** |
+| 25 | to 다음 -ing가 오는 표현 | We look forward to ___ you. → **meeting** / be committed to **improving** | 빈출·오류 · **T07** |
+| 26 | 형용사·명사 + to부정사 | Full-time staff are eligible ___ for the program. → **to apply** | 빈출 · **T07** |
+| 27 | 목적어 + to부정사 / 원형 (encourage A to, have A do) | We encourage employees ___ the session. → **to attend** | 빈출 · **T07** |
 
 ### 7. 분사 (Part 5·6)
 
@@ -274,7 +274,7 @@
 | T04 | 시간선 위에 동사를 놓아라 | 16–20 | **완료** |
 | T05 | 접속사냐 전치사냐, 빈칸 뒤가 답한다 | 31–35 | **완료** |
 | T06 | 명사 검문소를 통과하라 | 47–51 | **완료** |
-| T07 | 동사 자리와 to부정사·동명사 | 21–27 | |
+| T07 | 진짜 동사는 하나, 나머지는 to와 -ing | 21–27 | **완료** |
 | T08 | -ing냐 -ed냐, 주인에게 물어라 | 28–30 | **완료** |
 | T09 | 관계사 ②와 명사절 | 39(관계부사), 40–42 | |
 | T10 | 대명사 | 43–46 | |
