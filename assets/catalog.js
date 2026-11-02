@@ -16,7 +16,7 @@
  *   length    영상 길이 (분:초)
  *   scenes    장면 수
  *   features  카드에 칩으로 보여 줄 기능
- *   types     (토익 문법) 다루는 유형 번호 — docs/toeic-100-types.md의 100개 유형 번호
+ *   types     (토익) 다루는 유형 번호 — docs/toeic-100-types.md의 100개 유형 번호
  *   thumb     16:9 미리보기 그림 (사이트 루트 기준 경로)
  *   added     처음 올린 날짜 (YYYY-MM-DD)
  *
@@ -30,8 +30,8 @@ window.EN_CATALOG = {
   tracks: [
     {
       id: 'toeic',
-      title: '토익 문법',
-      summary: '토익 Part 5·6에서 자주 틀리는 문법 유형을 원리부터 풀이법까지. 유형마다 모션그래픽 영상, 직접 해 보기, 연습 문제가 함께 있어요.',
+      title: '토익',
+      summary: '토익에서 자주 틀리는 유형 100개를 튜토리얼 17개로. 문법(Part 5·6)부터 듣기(Part 1–4), 독해(Part 7)까지 원리와 풀이법을 모션그래픽 영상, 직접 해 보기, 연습 문제로 익혀요.',
       status: 'open',
     },
     {
