@@ -172,5 +172,18 @@ window.EN_CATALOG = {
       thumb: 'pronouns/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'prepositions',
+      track: 'toeic',
+      title: '전치사, 그림으로 보고 짝으로 외워라',
+      topic: '전치사 · 시간 · 장소 · by와 until · for와 during · 짝 표현',
+      summary: '한국어 ‘까지’가 by와 until로, ‘동안’이 for와 during으로 나뉘는 까닭. 시간과 장소는 시간선 · 공간 그림으로 보고, 앞 낱말이 고르는 전치사는 짝 카드로 외워요. 무엇 → 뒤의 명사 → 그림 · 짝 3단계로 풀어요.',
+      length: '6:36',
+      scenes: 12,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '까지 갈림길', '짝 카드', '연습 문제 16', '퀴즈'],
+      types: [56, 57, 58],
+      thumb: 'prepositions/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };
