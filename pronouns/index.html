@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>가리키는 말이 줄을, 자리가 칸을 정한다 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="토익 Part 5 대명사 문제를 원리로 푸는 법. 빈칸이 가리키는 말로 대명사 표의 줄을, 빈칸의 자리로 칸을 고르고, 재귀대명사 · one과 the other · that과 those 같은 짝 표현까지 3단계 풀이법으로 인터랙티브 모션그래픽 영상, 대명사 표 놀이터, 연습 문제로 배워요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 가리키는 말·줄 · 대명사(답) · 자리 단서·칸 · 짝 표현 · 빈칸 · 함정 */
+  --c-ante:#2266C4; --c-pr:#A86A00; --c-cue:#6A45C2; --c-pair:#1F7A55; --c-gap:#C2346E; --c-trap:#C2531F;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  /* 사이트 공통 부품(퀴즈·연습 문제·핵심 정리)이 쓰는 색과 글꼴 */
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-ante); --en-cue:var(--c-cue); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-ante:#6EC8FF; --c-pr:#FFC15E; --c-cue:#C9A7FF; --c-pair:#7FE0A8; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-ante:#6EC8FF; --c-pr:#FFC15E; --c-cue:#C9A7FF; --c-pair:#7FE0A8; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.note{font-size:13.5px;color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:8px 0}
+.chk{display:inline-flex;align-items:center;gap:8px;font-weight:600;cursor:pointer}
+.chk input{width:18px;height:18px;accent-color:var(--accent)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.lab .seg + .seg{margin-top:6px}
+.seg button{display:inline-flex;align-items:center;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;gap:4px;margin:8px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.enline.small{font-size:15px;font-weight:500;color:var(--muted)}
+.arrow-down{margin:2px 0 0 10px!important;color:var(--muted);line-height:1}
+.mini{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--surface-2)}
+.mini .mq{margin:0 0 8px;font-size:16px;font-weight:500}
+.blank{display:inline-block;width:3.6em;border-bottom:2px solid var(--text);vertical-align:-2px}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer}
+.mo button:hover{border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:8px 0 0!important;font-size:14px;color:var(--muted);min-height:0}
+.mr:empty{display:none}
+.gapq{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.gapq li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.gapq .ph{font-weight:700;min-width:8.5em;font-size:16px}
+.gapq .mr{flex-basis:100%;margin:0!important}
+.gapq .ph.long{flex-basis:100%;min-width:0;font-size:15.5px;font-weight:500}
+.gapq .ph small{color:var(--muted);font-weight:500}
+.blank.sm{width:2.6em}
+.lab h3.mt{margin-top:16px}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)} .c-act{color:var(--c-cue)} .c-pass{color:var(--c-gap)}
+.pick{display:grid;grid-template-columns:4.6em minmax(0,1fr);gap:8px;align-items:center;margin:8px 0}
+.pick > span{font-weight:700;font-size:14px;color:var(--muted)}
+select.sel{height:36px;padding:0 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);max-width:100%;min-width:0}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.pairs{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.pairs li{display:flex;flex-wrap:wrap;align-items:center;gap:2px 14px;padding:6px 10px;border-radius:9px;background:var(--surface-2)}
+.pairs .en1{display:inline-flex;align-items:center;font-weight:600;font-size:16px}
+.pairs .en1 b.v{color:var(--c-pr);box-shadow:inset 0 -3px 0 currentColor}
+.pairs .ko1{color:var(--muted);font-size:14px}
+
+.gapq .ko2{flex-basis:100%;font-size:13.5px;color:var(--muted)}
+.gapq .ph b.v{color:var(--c-pr)}
+.note s{color:var(--c-trap);text-decoration-color:var(--c-trap)}
+
+/* ---------- 놀이터: 대명사 표 놀이터 ---------- */
+.pg{display:flex;flex-direction:column;gap:10px;outline:none}
+.cv-row{display:grid;grid-template-columns:6.2em minmax(0,1fr);gap:8px;align-items:center}
+.cv-lab{font-weight:700;font-size:14px;color:var(--muted)}
+.row0{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}
+.btn.sm{height:34px;padding:0 14px;font-size:13.5px}
+.seg button:disabled{opacity:.4;cursor:not-allowed}
+#pStage{display:block;width:100%;aspect-ratio:1000/230;border-radius:10px;background:var(--stage)}
+.ptable{display:grid;grid-template-columns:minmax(0,1.2fr) repeat(5,minmax(0,1fr));gap:4px;align-items:stretch}
+.ptable .phd{padding:4px 2px;border-radius:6px;font-size:12.5px;font-weight:700;color:var(--muted);text-align:center;line-height:1.3}
+.ptable .plb{display:flex;align-items:center;padding:0 8px;border-radius:7px;font-size:13px;font-weight:600;color:var(--muted)}
+.ptable button{min-width:0;min-height:40px;padding:0 2px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);font-size:clamp(12px,1.7vw,16px);font-weight:600;white-space:nowrap;overflow:hidden;cursor:pointer}
+.ptable button:hover{border-color:var(--accent)}
+.ptable button.empty{color:var(--muted)}
+.ptable .plb.rowlit{background:color-mix(in srgb,var(--c-ante) 16%,transparent);color:var(--c-ante)}
+.ptable button.rowlit{box-shadow:inset 0 0 0 1.5px var(--c-ante)}
+.ptable .phd.collit{background:color-mix(in srgb,var(--c-cue) 16%,transparent);color:var(--c-cue)}
+.ptable button.collit{border-color:var(--c-cue)}
+.ptable button.right{background:color-mix(in srgb,var(--c-pr) 24%,var(--surface));border-color:var(--c-pr);box-shadow:inset 0 0 0 1.5px var(--c-pr);color:var(--text);font-weight:700}
+.ptable button.same{border-color:var(--ok);box-shadow:inset 0 0 0 1.5px var(--ok)}
+.ptable button.wrong{border-color:var(--no);box-shadow:inset 0 0 0 1.5px var(--no);color:var(--no);text-decoration:line-through}
+.pout{display:flex;flex-direction:column;gap:2px}
+.pout p{margin:4px 0 0}
+.pverdict{font-size:15px}
+.pverdict b{margin-right:6px}
+.pchecks{margin:4px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:2px;font-size:14.5px}
+.pchecks b{display:inline-block;min-width:3.2em}
+.pout .enline u{text-decoration:none;color:var(--c-pr);box-shadow:inset 0 -3px 0 currentColor}
+.cv-steps{margin:0;padding:10px 14px 10px 30px;border-radius:10px;background:var(--surface-2);display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.okeys{margin:0;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.gtop{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 14px}
+@media (max-width:560px){
+  .ptable{grid-template-columns:repeat(4,minmax(0,1fr)) minmax(0,1.4fr);gap:3px}
+  .ptable .plb,.ptable .pcorner{display:none}
+  .ptable .phd{font-size:11px;padding:2px 0}
+  .ptable button{font-size:12px;min-height:38px;letter-spacing:-.01em}
+}
+
+/* ---------- 놀이터 · 연습 문제 · 퀴즈 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.card h3{margin:0 0 4px;font-size:16px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td[lang]{font-weight:500}
+.sum td[lang] b{color:var(--c-pr)}
+.sum td.pos{font-weight:700}
+.t-ante{color:var(--c-ante)} .t-cue{color:var(--c-cue)} .t-pair{color:var(--c-pair)} .t-trap{color:var(--c-trap)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .cv-row{grid-template-columns:minmax(0,1fr);gap:4px}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="pronouns"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">TOEIC 문법 · 대명사 · <span id="durLbl">6분 30초</span></p>
+    <h1>가리키는 말이 <em>줄</em>을, 자리가 <em>칸</em>을 정한다</h1>
+    <p class="lead">they, them, their, theirs, themselves — 대명사 문제의 보기는 비슷해 보여도 두 가지 질문으로 갈려요. 빈칸이 누구를 가리키나(대명사 표의 줄)? 빈칸이 문장의 어느 자리에 있나(표의 칸)? 한국어는 대명사를 자주 빼고, ‘자기’ 하나로 her와 herself를 다 말해서 이 두 가지를 따로 고를 일이 드물어요. 여기에 짝 표현(-self, one과 the other, that과 those)을 더해 3단계로 풀어요. 영상 아래에는 대명사 표 놀이터, 토익 Part 5 연습 문제, 퀴즈가 이어져요.</p>
+    <ul class="legend" aria-label="문장 색의 뜻">
+      <li><i style="background:var(--c-ante)"></i>가리키는 말 · 표의 줄</li>
+      <li><i style="background:var(--c-pr)"></i>대명사 · 답</li>
+      <li><i style="background:var(--c-cue)"></i>자리 단서 · 표의 칸</li>
+      <li><i style="background:var(--c-pair)"></i>짝 표현 (같은 사람 · one · of · who)</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>빈칸</li>
+      <li><i style="background:var(--c-trap)"></i>함정</li>
+    </ul>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">놀이터</a><a href="#drill">연습 문제</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="대명사 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="대명사에서 가리키는 말로 화살표를 그리고, 대명사 표에서 가리키는 대상으로 줄을, 빈칸의 자리로 칸을 골라 알맞은 모양을 찾는 모습을 보여 주는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">대명사 표 놀이터</h2>
+      <p>가리키는 말과 문장을 고르면 빈칸이 있는 문장이 나와요. 아래 대명사 표에서 알맞은 칸을 눌러 보세요. 고르면 규칙 엔진이 빈칸에서 가리키는 말로 <b>화살표</b>를 그리고, 맞는 <b>줄</b>(가리키는 대상)과 <b>칸</b>(자리)을 표에 켜서 무엇이 맞고 무엇이 틀렸는지 알려 줘요. 같은 문장에서 가리키는 말만 바꾸면 줄이, 같은 가리키는 말로 문장만 바꾸면 칸이 바뀌는 모습을 확인해 보세요.</p>
+    </div>
+    <div class="card pg" id="pg" tabindex="-1">
+      <div class="cv-row"><span class="cv-lab">가리키는 말</span><div class="seg" id="pAnte" role="group" aria-label="가리키는 말 고르기"></div></div>
+      <div class="cv-row"><span class="cv-lab">문장 (자리)</span><div class="seg" id="pFrame" role="group" aria-label="문장 고르기"></div></div>
+      <div class="cv-row"><span class="cv-lab">방법</span><div class="row0"><label class="chk"><input type="checkbox" id="pGuess" checked> 먼저 맞혀 보기</label><button class="btn ghost sm" type="button" id="pNext">다른 문제 (N)</button></div></div>
+      <canvas id="pStage" role="img" aria-label="빈칸이 있는 문장. 고르면 빈칸에서 가리키는 말로 화살표가 그려지고, 가리키는 말의 줄과 빈칸 자리의 칸 이름이 나와요"></canvas>
+      <div class="ptable" id="pTable" role="group" aria-label="대명사 표: 줄은 가리키는 대상, 칸은 자리"></div>
+      <div class="pout" id="pOut" aria-live="polite"></div>
+      <ol class="cv-steps" id="pSteps" hidden></ol>
+      <div class="gtop"><p class="okeys">키보드: 방향키 칸 옮기기 · Enter 고르기 · N 다른 문제</p><p class="okeys" id="pScore"></p></div>
+    </div>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">연습 문제</p>
+      <h2 id="drillTitle">토익 Part 5 형식으로 풀어 보기</h2>
+      <p>한 문제씩 풀어요. 막히면 <b>힌트</b>를 누르세요. 3단계 풀이법(화살표 → 자리 → 짝)이 한 단계씩 열리고, 가리키는 말 · 자리 단서 · 짝 표현에 색이 칠해져요. 답을 고르면 보기마다 모양(주격 · 목적격 · 소유격 · 소유대명사 · 재귀대명사 · 부정대명사 · 지시대명사)과 맞고 틀린 까닭, 해석, 완성 문장의 발음이 나와요.</p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 원리 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 덩어리나 칸을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 대명사</h2>
+      <p>① 빈칸에서 가리키는 말로 화살표를 그려 표의 줄을 정하고, ② 빈칸의 자리로 칸을 정하고, ③ 주어와 같은 사람인지, 짝 표현(one · some · of · who)이 있는지 확인해요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">가리키는 말 · 자리 · 짝</th><th scope="col">고르는 말</th><th scope="col">예</th></tr></thead>
+        <tbody>
+          <tr><td>회사 · 기관 하나 (직원이 많아도)</td><td class="pos t-ante">it · its</td><td lang="en">Hanbit Electronics has moved <b>its</b> headquarters.</td></tr>
+          <tr><td>사람이든 사물이든 여럿</td><td class="pos t-ante">they · their</td><td lang="en">Staff members keep <b>their</b> belongings in the lockers.</td></tr>
+          <tr><td>동사 앞 (주어)</td><td class="pos t-cue">주격</td><td lang="en">Mr. Okafor and <b>I</b> will lead the session. (myself ×)</td></tr>
+          <tr><td>동사 · 전치사 뒤 (목적어)</td><td class="pos t-cue">목적격</td><td lang="en">Please send <b>us</b> your comments.</td></tr>
+          <tr><td>명사 앞 · own 앞</td><td class="pos t-cue">소유격</td><td lang="en"><b>their</b> office · on <b>her</b> own</td></tr>
+          <tr><td>홀로 (뒤에 명사 없이 누구의 것)</td><td class="pos t-cue">소유대명사</td><td lang="en">The final decision was <b>hers</b>.</td></tr>
+          <tr><td>목적어 = 주어 자신 · by + 혼자서</td><td class="pos t-pair">재귀대명사 -self</td><td lang="en">She introduced <b>herself</b>. · by <b>himself</b></td></tr>
+          <tr><td>강조 (직접)</td><td class="pos t-pair">재귀대명사 -self</td><td lang="en">Ms. Lopez will hand out the awards <b>herself</b>.</td></tr>
+          <tr><td>둘 가운데 남은 하나</td><td class="pos t-pair">one … the other</td><td lang="en">One is in Seoul, and <b>the other</b> is in Busan.</td></tr>
+          <tr><td>또 하나 · + 단수 명사</td><td class="pos t-pair">another</td><td lang="en">please suggest <b>another</b> date</td></tr>
+          <tr><td>정해진 나머지 전부 / 다른 몇몇</td><td class="pos t-pair">the others / others</td><td lang="en">one is broken, but <b>the others</b> work · Some …, while <b>others</b> …</td></tr>
+          <tr><td>+ 복수 명사</td><td class="pos t-pair">other</td><td lang="en"><b>other</b> hotels in the area</td></tr>
+          <tr><td>되풀이 대신 + of (하나 / 여럿)</td><td class="pos t-pair">that / those</td><td lang="en">lower than <b>that</b> of · higher than <b>those</b> of</td></tr>
+          <tr><td>~하는 사람들</td><td class="pos t-pair">those who</td><td lang="en"><b>Those</b> who register early …</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>① 가리키는 말과 줄</h3>
+        <dl>
+          <dt>대명사 <span>pronoun</span></dt><dd>앞에 나온 명사를 되풀이하지 않으려고 대신 쓰는 말. <i lang="en">she · it · they</i></dd>
+          <dt>가리키는 말 <span>antecedent · 선행사</span></dt><dd>대명사가 대신하는 말. 대명사에서 이 말로 화살표를 그려요. <i lang="en">Ms. Kim … her manager</i></dd>
+          <dt>인칭 <span>person</span></dt><dd>말하는 사람(1인칭 <i lang="en">I · we</i>), 듣는 사람(2인칭 <i lang="en">you</i>), 그 밖의 사람 · 사물(3인칭 <i lang="en">he · she · it · they</i>).</dd>
+          <dt>수 <span>number</span></dt><dd>하나(단수)인가, 여럿(복수)인가. 회사 · 기관은 하나 → <i lang="en">it</i>.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>② 자리와 칸</h3>
+        <dl>
+          <dt>주격 <span>subject form</span></dt><dd>동사 앞 주어 자리. <i lang="en">I · we · you · he · she · it · they</i></dd>
+          <dt>목적격 <span>object form</span></dt><dd>동사 · 전치사 뒤 목적어 자리. <i lang="en">me · us · him · her · it · them</i></dd>
+          <dt>소유격 <span>possessive determiner</span></dt><dd>명사 앞에서 ‘누구의’. 바로 뒤에 명사(또는 <i lang="en">own</i>)가 와요. <i lang="en">my · our · his · her · its · their</i></dd>
+          <dt>소유대명사 <span>possessive pronoun</span></dt><dd>홀로 ‘누구의 것’. 소유격 + 명사를 줄인 말. <i lang="en">mine · ours · yours · his · hers · theirs</i> (<i lang="en">it</i>에는 없음)</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>③ 짝 표현</h3>
+        <dl>
+          <dt>재귀대명사 <span>reflexive pronoun · -self</span></dt><dd>목적어가 주어 자신일 때, 강조(직접), <i lang="en">by oneself</i>(혼자서). 주어 자리에는 못 와요.</dd>
+          <dt>부정대명사 <span>indefinite pronoun</span></dt><dd>정해지지 않은 하나 · 나머지. <i lang="en">one … the other(둘) · another(또 하나) · the others(정해진 나머지 전부) · others(다른 몇몇)</i></dd>
+          <dt>서로 <span>reciprocal</span></dt><dd>주어가 서로에게 하는 일. <i lang="en">The two partners trust each other.</i></dd>
+          <dt>지시대명사 that · those <span>demonstrative</span></dt><dd>비교 문장에서 앞의 명사를 되풀이하지 않을 때 + of. <i lang="en">those who</i> = ~하는 사람들.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>한국어와 다른 점</h3>
+        <dl>
+          <dt>빠지는 대명사</dt><dd>‘김 씨는 보고서를 끝내고 매니저에게 보냈어요’처럼 한국어는 ‘그것을’ · ‘자기’를 자주 빼요. 영어는 빼지 않아요 → <i lang="en">sent it to her manager</i>.</dd>
+          <dt>‘자기’ 하나 → 영어 둘</dt><dd>자기를 소개했다 → <i lang="en">herself</i>. 자기 팀을 소개했다 → <i lang="en">her team</i>.</dd>
+          <dt>조사 대신 모양</dt><dd>그들은 · 그들을 · 그들의 · 그들의 것 → <i lang="en">they · them · their · theirs</i>. 영어는 낱말 자체가 바뀌어요.</dd>
+          <dt>하나와 여럿</dt><dd>‘직원’과 ‘직원들’을 꼭 나누지 않는 한국어와 달리, 영어 대명사는 <i lang="en">it</i>과 <i lang="en">they</i>를 꼭 나눠요.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 실전 문제에서 지워지는 순서, 직접 해 보기의 채점, 대명사 표 놀이터의 판정과 풀이, 3단계 판정기, 연습 문제의 힌트와 보기별 해설, 퀴즈의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 빈칸이 가리키는 말, 빈칸의 자리, 주어와 같은 사람인지, 무리가 정해져 있는지는 문제마다 정해 두었고, 규칙 엔진은 그 정보로 판정해요. 문장의 뜻을 스스로 알아내지는 않아요. 회사 · 기관은 토익(미국식 영어) 기준으로 <i lang="en">it · its</i>로만 받아요. 영국식 영어에서는 <i lang="en">they</i>로 받기도 해요. 성별을 모르는 한 사람을 가리키는 <i lang="en">they</i>, <i lang="en">each other</i>와 <i lang="en">one another</i>의 차이, <i lang="en">other</i> + 셀 수 없는 명사(<i lang="en">other information</i>)는 다루지 않았어요. 주어 자리의 <i lang="en">myself</i>(<i lang="en">Mr. Okafor and myself will …</i>)는 실제 말에서 쓰는 사람도 있지만, 시험 기준으로 틀린 것으로 봐요. <i lang="en">that · those</i>는 비교 문장의 되풀이 대신과 <i lang="en">those who</i>만 다뤘어요. 명사 쪽의 <i lang="en">another · other</i>는 <a href="../nouns-articles/index.html">T06 명사 · 관사</a>, 관계대명사 <i lang="en">who · which</i>는 <a href="../relative-pronouns/index.html">T01</a>에서 다뤄요. 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
+    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="../shared/drill.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

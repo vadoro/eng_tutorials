@@ -33,7 +33,7 @@
 | 8 | 연결어: 접속사·전치사·접속부사 | 31–35 | 5·6 | **T05 완료** |
 | 9 | 관계사 | 36–40 | 5·6 | **T01 완료**(36–39) · **T09 완료**(39 관계부사 · 40) |
 | 10 | 명사절 | 41–42 | 5·6 | **T09 완료** |
-| 11 | 대명사 | 43–46 | 5·6 | T10 |
+| 11 | 대명사 | 43–46 | 5·6 | **T10 완료** |
 | 12 | 명사·관사·수량 표현 | 47–51 | 5·6 | **T06 완료** |
 | 13 | 비교 | 52–53 | 5 | T12 |
 | 14 | 가정법·도치 | 54–55 | 5 | T12 |
@@ -145,10 +145,10 @@
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 43 | 인칭대명사의 격 (they·them·their·theirs) | Please send ___ your feedback. → **us** | 빈출·오류 |
-| 44 | 재귀대명사 (주어 = 목적어, by oneself) | She prepared the report **by herself**. | 빈출 |
-| 45 | 부정대명사 (one, another, the other, others) | One printer works, but **the other** does not. | 빈출 |
-| 46 | 대명사의 수와 that·those (회사 → its, 비교 대상 those of) | This year's sales are higher than ___ of last year. → **those** | 빈출·오류 |
+| 43 | 인칭대명사의 격 (they·them·their·theirs) | Please send ___ your feedback. → **us** | 빈출·오류 · **T10** |
+| 44 | 재귀대명사 (주어 = 목적어, by oneself) | She prepared the report **by herself**. | 빈출 · **T10** |
+| 45 | 부정대명사 (one, another, the other, others) | One printer works, but **the other** does not. | 빈출 · **T10** |
+| 46 | 대명사의 수와 that·those (회사 → its, 비교 대상 those of) | This year's sales are higher than ___ of last year. → **those** | 빈출·오류 · **T10** |
 
 ### 12. 명사·관사·수량 표현 (Part 5·6)
 
@@ -277,7 +277,7 @@
 | T07 | 진짜 동사는 하나, 나머지는 to와 -ing | 21–27 | **완료** |
 | T08 | -ing냐 -ed냐, 주인에게 물어라 | 28–30 | **완료** |
 | T09 | 빈자리가 있느냐 없느냐, 그것이 문제로다 | 39(관계부사), 40–42 | **완료** |
-| T10 | 대명사 | 43–46 | |
+| T10 | 가리키는 말이 줄을, 자리가 칸을 정한다 | 43–46 | **완료** |
 | T11 | 전치사 | 56–58 | |
 | T12 | 비교·가정법·도치 | 52–55 | |
 | T13 | 어휘·짝 표현 | 59–63 | |

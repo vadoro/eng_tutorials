@@ -159,5 +159,18 @@ window.EN_CATALOG = {
       thumb: 'relative-adverbs-noun-clauses/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'pronouns',
+      track: 'toeic',
+      title: '가리키는 말이 줄을, 자리가 칸을 정한다',
+      topic: '대명사 · 격 · 재귀대명사 · one · the other · that · those',
+      summary: 'they · them · their · theirs · themselves 가운데 하나를 고르는 법. 빈칸이 가리키는 말로 대명사 표의 줄을, 빈칸의 자리로 칸을 정하고, -self · the other · those of 같은 짝을 화살표 → 자리 → 짝 3단계로 확인해요.',
+      length: '6:30',
+      scenes: 12,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '대명사 표 놀이터', '연습 문제 16', '퀴즈'],
+      types: [43, 44, 45, 46],
+      thumb: 'pronouns/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };
