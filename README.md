@@ -17,6 +17,7 @@
 | 토익 문법 | [명사 검문소를 통과하라](nouns-articles/) | 6:02 · 11장면 | 한국어 ‘책 샀어’와 a book · the book · books, 명사 검문소의 세 문, 셀 수 있는 단수와 한정사, 셀 수 없는 명사(묶음의 이름), each · several · much의 짝, almost · most · most of, 숫자-하이픈과 another · other, 3단계 풀이법, 명사 검문소 놀이터 |
 | 토익 문법 | [진짜 동사는 하나, 나머지는 to와 -ing](infinitives-gerunds/) | 6:24 · 12장면 | 한 문장에 진짜 동사 하나, 동사 자리가 비었을 때와 동사가 둘일 때, 타동사·자동사(discuss about ×), to부정사를 고르는 동사·-ing를 고르는 동사, 전치사 to + -ing, 형용사·명사 + to, 목적어 + to·원형, 3단계 풀이법, 동사 옷 입히기 |
 | 토익 문법 | [-ing냐 -ed냐, 주인에게 물어라](participles/) | 6:36 · 12장면 | 명사를 꾸미는 분사, 하는 쪽 -ing · 당하는 쪽 -ed(관계 그림), 때가 아니라 관계(남은 좌석의 함정), 명사 뒤 분사구, 감정 분사와 한국어 ‘지루하다’, 분사구문의 주인, 접속사 + 분사, 3단계 풀이법, 주인 바꾸기 실험실 |
+| 토익 문법 | [빈자리가 있느냐 없느냐, 그것이 문제로다](relative-adverbs-noun-clauses/) | 6:34 · 12장면 | 대명사가 빠지면 빈자리 · 부사가 빠지면 완전한 문장, 한국어 ‘예약한 호텔 · 열리는 도시’와 which · where, 관계부사 = 전치사 + which, the way how, whoever · whatever, however + 형용사 · wherever · whenever, 명사절 that vs what, whether vs if, 의문사 명사절의 어순, 3단계 풀이법, 빈자리 탐지기 |
 | 상황별 영어 회화 | 준비 중 | | 공항, 카페, 호텔 같은 장소의 대화 연습 |
 
 모든 튜토리얼에 자막과 음성 해설(한국어는 한국어 음성, 영어는 영어 음성), 발음 듣기, 장면별 ‘직접 해 보기’, 놀이터, 연습 문제, 퀴즈, 핵심 정리가 있습니다.
@@ -55,6 +56,7 @@ connectors/             접속사냐 전치사냐, 빈칸 뒤가 답한다 (토�
 nouns-articles/         명사 검문소를 통과하라 (토익 문법 T06)
 infinitives-gerunds/    진짜 동사는 하나, 나머지는 to와 -ing (토익 문법 T07)
 participles/            -ing냐 -ed냐, 주인에게 물어라 (토익 문법 T08)
+relative-adverbs-noun-clauses/ 빈자리가 있느냐 없느냐, 그것이 문제로다 (토익 문법 T09)
 docs/toeic-100-types.md 토익에서 자주 틀리는 100개 유형, 21개 카테고리, 튜토리얼 17개 계획
 CLAUDE.md               새 튜토리얼을 만들 때 지킬 규칙과 확인 목록
 ```

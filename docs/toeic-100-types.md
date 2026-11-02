@@ -31,8 +31,8 @@
 | 6 | to부정사·동명사 | 24–27 | 5·6 | **T07 완료** |
 | 7 | 분사 | 28–30 | 5·6 | **T08 완료** |
 | 8 | 연결어: 접속사·전치사·접속부사 | 31–35 | 5·6 | **T05 완료** |
-| 9 | 관계사 | 36–40 | 5·6 | **T01 완료**(36–39) · T09(40) |
-| 10 | 명사절 | 41–42 | 5·6 | T09 |
+| 9 | 관계사 | 36–40 | 5·6 | **T01 완료**(36–39) · **T09 완료**(39 관계부사 · 40) |
+| 10 | 명사절 | 41–42 | 5·6 | **T09 완료** |
 | 11 | 대명사 | 43–46 | 5·6 | T10 |
 | 12 | 명사·관사·수량 표현 | 47–51 | 5·6 | **T06 완료** |
 | 13 | 비교 | 52–53 | 5 | T12 |
@@ -131,15 +131,15 @@
 | 36 | 선행사(사람/사물)와 격(주격·목적격·소유격) | the candidate ___ we interviewed → **whom** | 빈출 · **T01** |
 | 37 | what vs which·that (선행사가 있느냐) | ___ the client requested was an estimate. → **What** | 빈출 · **T01** |
 | 38 | 콤마·전치사 뒤 that ✗ | the agency with ___ we signed the contract → **which** | 빈출 · **T01** |
-| 39 | 관계대명사 vs 관계부사 (빈자리가 있느냐, 완전한 문장이냐) | The museum ___ we visited … → **which** (where ✗) | 빈출 · **T01**(일부) |
-| 40 | 복합관계사 (whoever, whatever, however + 형용사) | ___ arrives first should unlock the office. → **Whoever** | 빈출 |
+| 39 | 관계대명사 vs 관계부사 (빈자리가 있느냐, 완전한 문장이냐) | The museum ___ we visited … → **which** (where ✗) | 빈출 · **T01**(일부) · **T09** |
+| 40 | 복합관계사 (whoever, whatever, however + 형용사) | ___ arrives first should unlock the office. → **Whoever** | 빈출 · **T09** |
 
 ### 10. 명사절 (Part 5·6)
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 41 | 명사절 that vs what (뒤 문장이 완전하냐) | It is clear ___ we need more staff. → **that** / ___ we need is time. → **What** | 빈출 |
-| 42 | whether vs if, 의문사 명사절의 어순 | I don't know when the train **leaves**. (does the train leave ✗) | 빈출·오류 |
+| 41 | 명사절 that vs what (뒤 문장이 완전하냐) | It is clear ___ we need more staff. → **that** / ___ we need is time. → **What** | 빈출 · **T09** |
+| 42 | whether vs if, 의문사 명사절의 어순 | I don't know when the train **leaves**. (does the train leave ✗) | 빈출·오류 · **T09** |
 
 ### 11. 대명사 (Part 5·6)
 
@@ -276,7 +276,7 @@
 | T06 | 명사 검문소를 통과하라 | 47–51 | **완료** |
 | T07 | 진짜 동사는 하나, 나머지는 to와 -ing | 21–27 | **완료** |
 | T08 | -ing냐 -ed냐, 주인에게 물어라 | 28–30 | **완료** |
-| T09 | 관계사 ②와 명사절 | 39(관계부사), 40–42 | |
+| T09 | 빈자리가 있느냐 없느냐, 그것이 문제로다 | 39(관계부사), 40–42 | **완료** |
 | T10 | 대명사 | 43–46 | |
 | T11 | 전치사 | 56–58 | |
 | T12 | 비교·가정법·도치 | 52–55 | |

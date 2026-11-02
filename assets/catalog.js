@@ -146,5 +146,18 @@ window.EN_CATALOG = {
       thumb: 'participles/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'relative-adverbs-noun-clauses',
+      track: 'toeic',
+      title: '빈자리가 있느냐 없느냐, 그것이 문제로다',
+      topic: '관계부사 · 복합관계사 · 명사절 · that · what · whether',
+      summary: '관계대명사 튜토리얼의 빈자리를 넓혀, 빈칸 뒤 문장에 빈자리가 있나 없나로 관계부사 · whoever · however · that · what · whether를 가르는 법. 뒤 → 앞 → 함정 3단계로 풀어요.',
+      length: '6:34',
+      scenes: 12,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '빈자리 탐지기', '연습 문제 16', '퀴즈'],
+      types: [39, 40, 41, 42],
+      thumb: 'relative-adverbs-noun-clauses/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };

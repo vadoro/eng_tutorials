@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>빈자리가 있느냐 없느냐, 그것이 문제로다 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="토익 Part 5의 관계부사(where · when · why · how), 복합관계사(whoever · whatever · however · wherever · whenever), 명사절(that · what · whether · if, 의문사 명사절의 어순)을 ‘빈칸 뒤 문장에 빈자리가 있나, 없나?’라는 질문 하나로 푸는 법. 인터랙티브 모션그래픽 영상, 빈자리 탐지기, 연습 문제로 배워요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 문장 속 문법 역할 색 (영상과 같은 뜻, 관계대명사 튜토리얼과 같음) */
+  --c-ante:#2266C4; --c-rel:#A86A00; --c-gap:#C2346E; --c-cl:#1F7A55; --c-verb:#6A45C2; --c-trap:#C2531F;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  /* 사이트 공통 부품(퀴즈·연습 문제·핵심 정리)이 쓰는 색과 글꼴 */
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-ante); --en-cue:var(--c-verb); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-ante:#6EC8FF; --c-rel:#FFC15E; --c-gap:#FF7AA8; --c-cl:#7FE0A8; --c-verb:#C9A7FF; --c-trap:#FF9F7A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-ante:#6EC8FF; --c-rel:#FFC15E; --c-gap:#FF7AA8; --c-cl:#7FE0A8; --c-verb:#C9A7FF; --c-trap:#FF9F7A;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:68ch;color:var(--muted);font-size:16px}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{display:inline-flex;align-items:center;gap:4px;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;gap:4px;margin:8px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.enline.small{font-size:15px;font-weight:500;color:var(--text)}
+.mini{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--surface-2)}
+.mini .mq{margin:0 0 8px;font-size:16px;font-weight:500}
+.blank{display:inline-block;width:3.6em;border-bottom:2px solid var(--text);vertical-align:-2px}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer}
+.mo button:hover{border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:8px 0 0!important;font-size:14px;color:var(--muted);min-height:0}
+.mr:empty{display:none}
+.gapq{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.gapq li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.gapq li > span[lang]{font-weight:600;min-width:12em}
+.gapq .mr{flex-basis:100%;margin:0!important}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)}
+.pick{display:grid;grid-template-columns:4.6em minmax(0,1fr);gap:8px;align-items:center;margin:8px 0}
+.pick > span{font-weight:700;font-size:14px;color:var(--muted)}
+select.sel{height:36px;padding:0 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);max-width:100%;min-width:0}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict small{color:var(--muted);font-size:12.5px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+
+/* ---------- 역할 색 ---------- */
+.w-gap{color:var(--c-gap)} .w-full{color:var(--c-cl)} .w-both{color:var(--c-rel)}
+
+/* ---------- 놀이터: 빈자리 탐지기 ---------- */
+.det{display:flex;flex-direction:column;gap:12px;outline:none}
+.arow{display:grid;grid-template-columns:4.8em minmax(0,1fr);gap:8px;align-items:start}
+.arow > span{font-weight:700;font-size:14px;color:var(--muted);padding-top:6px}
+#dList button{min-width:36px;justify-content:center;font-family:var(--mono)}
+#dList button.done{border-color:var(--ok);color:var(--ok)}
+#dList button.done.clean{background:color-mix(in srgb,var(--ok) 14%,var(--surface-2))}
+#dList button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.dnav{display:flex;gap:6px;margin-left:auto}
+.dq{margin:0;padding:14px 16px;border:1.5px solid var(--line);border-radius:12px;background:var(--surface-2);font-size:clamp(17px,2.4vw,21px);line-height:2.3;font-weight:500}
+.dblank{display:inline-block;min-width:3.6em;padding:0 8px;line-height:1.5;border:2px dashed var(--c-gap);border-radius:8px;text-align:center;color:var(--c-rel);font-weight:800}
+.dblank.filled{border-style:solid;border-color:var(--c-rel);background:color-mix(in srgb,var(--c-rel) 12%,transparent)}
+.dblank.filled.bad{border-style:dashed;border-color:var(--no);color:var(--no);text-decoration:line-through;background:transparent}
+.dclause{padding:2px 2px;border-radius:8px;box-shadow:inset 0 -3px 0 color-mix(in srgb,var(--c-cl) 55%,transparent)}
+.dclause.g{box-shadow:inset 0 -3px 0 var(--c-gap)}
+.dclause.f{box-shadow:inset 0 -3px 0 var(--c-cl)}
+.dclause .w{display:inline-block}
+.caret{display:inline-flex;align-items:center;justify-content:center;width:22px;height:1.6em;margin:0 1px;padding:0;border:0;border-radius:6px;background:transparent;vertical-align:middle;cursor:pointer}
+.caret i{display:block;width:2px;height:1.1em;border-radius:1px;background:color-mix(in srgb,var(--muted) 55%,transparent)}
+.caret:hover i,.caret:focus-visible i{width:3px;background:var(--c-gap)}
+.caret:hover,.caret:focus-visible{background:color-mix(in srgb,var(--c-gap) 12%,transparent)}
+.caret.miss i{background:var(--no);width:3px}
+.caret:disabled{cursor:default}
+.caret:disabled:hover{background:transparent}
+.caret:disabled i{opacity:.35}
+.gapbox{display:inline-block;width:2.2em;height:1.3em;margin:0 4px;vertical-align:middle;border:2px dashed var(--c-gap);border-radius:7px;background:color-mix(in srgb,var(--c-gap) 14%,transparent)}
+.dstep{display:flex;flex-direction:column;gap:8px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.dstep > p{margin:0}
+.dhead{font-size:14.5px}
+.dhead b{color:var(--accent);margin-right:4px}
+.dacts{display:flex;flex-wrap:wrap;gap:6px}
+.dacts button{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:0 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface-2);font-weight:600;font-size:14px;cursor:pointer;text-align:left}
+.dacts button:hover:not(:disabled){border-color:var(--accent)}
+.dacts button.hit{border-color:var(--ok);color:var(--ok)}
+.dacts button.miss{border-color:var(--no);color:var(--no)}
+.dacts button:disabled{cursor:default}
+.dacts kbd{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+.dfb{margin:0;font-size:14.5px;line-height:1.6}
+.dfb:empty{display:none}
+.dfb.ok{color:var(--text)} .dfb.no{color:var(--no)}
+.dfb b{display:inline-block;margin-top:4px;font-size:14px}
+.cands{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:10px 16px}
+.cgrp{display:flex;flex-wrap:wrap;gap:6px;align-content:flex-start}
+.cgrp h4{flex-basis:100%;margin:0;font-size:13.5px}
+.cand{display:inline-flex;align-items:center;gap:4px;min-height:32px;padding:0 10px 0 6px;border:1.5px solid var(--line);border-radius:999px;background:var(--surface-2);font-weight:700;font-size:14px;cursor:pointer}
+.cand .ic{width:18px;height:18px;display:inline-flex}
+.cand .ic svg{width:18px;height:18px}
+.cand.ok{border-color:var(--ok);color:var(--ok)}
+.cand.no{color:var(--muted)}
+.cand.no .ic{color:var(--no)}
+.cand.warn{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 50%,var(--line))}
+.cand.cur{box-shadow:0 0 0 2px var(--accent)}
+.dwhy{margin:0;font-size:14px;color:var(--muted);min-height:1.4em}
+.dans{margin:0;display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.dans .enline{margin:2px 0 0}
+.dfill{font-size:13.5px;color:var(--muted)}
+.afound{margin:0;font-size:14.5px}
+
+/* ---------- 놀이터 · 연습 문제 · 퀴즈 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.card h3{margin:0 0 8px;font-size:15px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.lab .btn{margin-top:10px}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td.kd{font-weight:700;white-space:nowrap}
+.sum td[lang] b{color:var(--c-rel)}
+.sum th.g{color:var(--c-gap)} .sum th.f{color:var(--c-cl)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .sum td.kd{white-space:normal}
+  .arow{grid-template-columns:minmax(0,1fr)}
+  .arow > span{padding-top:0}
+  .dq{padding:10px 12px}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="relative-adverbs-noun-clauses"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">TOEIC 문법 · 관계부사 · 복합관계사 · 명사절 · <span id="durLbl">6분 34초</span></p>
+    <h1>빈자리가 있느냐 없느냐, <em>그것이 문제로다</em></h1>
+    <p class="lead">관계대명사 튜토리얼에서 관계사절에는 빈자리가 있다는 것을 배웠어요. 이번에는 그 빈자리 하나로 관계부사(<i lang="en">where · when · why</i>), 복합관계사(<i lang="en">whoever · however</i>), 명사절(<i lang="en">that · what · whether · if</i>)까지 풀어요. 질문은 하나예요. 빈칸 뒤 문장에 빈자리가 있나, 없나? 빈자리가 있으면 빠진 명사를 대신하는 말, 빠진 것이 없으면 부사·접속사가 와요. 관계대명사가 처음이라면 <a href="../relative-pronouns/index.html">관계대명사, 빈자리를 찾아라</a>를 먼저 보고 오세요.</p>
+    <ul class="legend" aria-label="색의 뜻">
+      <li><i style="background:var(--c-ante)"></i>선행사 · 명사 자리</li>
+      <li><i style="background:var(--c-rel)"></i>관계사 · 연결하는 말</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>빈자리</li>
+      <li><i style="background:var(--c-cl)"></i>완전한 절</li>
+      <li><i style="background:var(--c-verb)"></i>동사 · 단서</li>
+      <li><i style="background:var(--c-trap)"></i>함정 · 전치사</li>
+    </ul>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">놀이터</a><a href="#drill">연습 문제</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="관계부사·복합관계사·명사절 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="대명사가 빠진 자리에는 빈자리가 남고, 부사가 빠지면 완전한 문장이 남는 모습을 문장 조각으로 보여 주는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">빈자리 탐지기</h2>
+      <p>빈칸 뒤 절의 낱말 사이에는 세로 막대가 있어요. 빠진 말(주어·목적어)이 있다고 생각되는 자리를 누르거나, 빠진 것이 없으면 ‘빠진 것 없음’을 누르세요. 규칙 엔진이 맞는지 알려 주고, 이어서 빈칸 앞의 자리를 고르면 후보 16개가 어느 단계에서 왜 탈락하는지 보여 줘요. 빈자리가 있는지 없는지는 문장마다 데이터에 적어 둔 것이에요. 키보드: ← → 자리 옮기기, 0 빠진 것 없음, 1~3 빈칸 앞의 자리, ↑ ↓ 문장 바꾸기.</p>
+    </div>
+    <div class="card det" id="det" tabindex="-1">
+      <div class="arow"><span>문장</span><div class="seg" id="dList" role="group" aria-label="문장 고르기"></div></div>
+      <p class="dq" id="dQ" lang="en"></p>
+      <div class="dstep" id="dS1">
+        <p class="dhead"><b>① 뒤</b> 빈칸 뒤 절에서 빠진 자리를 누르세요.</p>
+        <div class="dacts"><button type="button" id="dNone"><kbd>0</kbd>빠진 것 없음 (완전한 문장)</button></div>
+        <p class="dfb" id="dF1" role="status"></p>
+      </div>
+      <div class="dstep" id="dS2" hidden>
+        <p class="dhead"><b>② 앞</b> 빈칸은 무슨 자리인가요?</p>
+        <div class="dacts" id="dFront" role="group" aria-label="빈칸 앞의 자리"></div>
+        <p class="dfb" id="dF2" role="status"></p>
+      </div>
+      <div class="dstep" id="dS3" hidden>
+        <p class="dhead"><b>③ 함정</b> 후보 16개를 규칙 엔진으로 판정했어요. 낱말을 누르면 까닭이 나와요.</p>
+        <div class="cands" id="dCands"></div>
+        <p class="dwhy" id="dWhy" role="status"></p>
+        <p class="dans" id="dAns"></p>
+      </div>
+      <div class="dacts"><p class="afound" id="dScore" role="status"></p><span class="dnav"><button type="button" id="dPrev" aria-label="이전 문장">← 이전</button><button type="button" id="dNext" aria-label="다음 문장">다음 →</button></span></div>
+    </div>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">연습 문제</p>
+      <h2 id="drillTitle">토익 Part 5 형식으로 풀어 보기</h2>
+      <p>한 문제씩 풀어요. 막히면 <b>힌트</b>를 누르세요. 3단계 풀이법(뒤 → 앞 → 함정)이 한 단계씩 열리고, 빈칸 뒤 절과 선행사, 전치사 같은 단서에 색이 칠해져요. 답을 고르면 보기마다 맞고 틀린 까닭(어느 단계에서 탈락하는지), 해석, 완성 문장의 발음이 나와요.</p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 원리 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 자리나 조각을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 관계사와 명사절</h2>
+      <p>① 빈칸 뒤에 빈자리가 있는지가 보기를 반으로 나누고, ② 빈칸 앞의 자리와 ③ 뜻·함정이 하나를 골라요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">② 빈칸 앞의 자리</th><th scope="col" class="g">① 빈자리 있음 (불완전한 문장)</th><th scope="col" class="f">① 빠진 것 없음 (완전한 문장)</th></tr></thead>
+        <tbody>
+          <tr><td class="kd">명사 뒤 · 관계사</td><td lang="en"><b>which</b> · <b>who</b> · <b>whom</b> · <b>that</b><br>the hotel <b>which</b> we reserved</td><td lang="en"><b>where</b> · <b>when</b> · <b>why</b> · 전치사 + <b>which</b><br>the city <b>where</b> the fair is held</td></tr>
+          <tr><td class="kd">명사 자리 · 명사절</td><td lang="en"><b>what</b> · <b>whoever</b> · <b>whatever</b> · <b>who</b><br><b>What</b> we need is more time.</td><td lang="en"><b>that</b> · <b>whether</b> · <b>if</b> · <b>when</b> · <b>where</b> · <b>why</b> · <b>how</b><br>It is clear <b>that</b> we need more staff.</td></tr>
+          <tr><td class="kd">문장 밖 · 부사절</td><td lang="en"><b>whoever</b> · <b>whatever</b> (누구든 · 무엇이든)<br><b>Whatever</b> you need, call us.</td><td lang="en"><b>however</b> + 형용사 · <b>wherever</b> · <b>whenever</b><br><b>However</b> busy we are, safety comes first.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">바꿔 쓰기</th><th scope="col">뜻</th><th scope="col">예</th></tr></thead>
+        <tbody>
+          <tr><td lang="en" class="kd">where = in · at which</td><td>장소</td><td lang="en">the city <b>in which</b> the fair is held</td></tr>
+          <tr><td lang="en" class="kd">when = on · in which</td><td>시간</td><td lang="en">the day <b>on which</b> the store opened</td></tr>
+          <tr><td lang="en" class="kd">why = for which</td><td>이유</td><td lang="en">the reason <b>for which</b> sales rose</td></tr>
+          <tr><td lang="en" class="kd">how = the way</td><td>방법 (the way how ×)</td><td lang="en"><b>the way</b> we work · <b>how</b> we work · the way <b>in which</b> we work</td></tr>
+          <tr><td lang="en" class="kd">whoever = anyone who</td><td>~하는 사람은 누구든</td><td lang="en"><b>Whoever</b> arrives first should unlock the office.</td></tr>
+          <tr><td lang="en" class="kd">whatever = anything that</td><td>~하는 것은 무엇이든</td><td lang="en">Take <b>whatever</b> you need.</td></tr>
+          <tr><td lang="en" class="kd">however = no matter how</td><td>아무리 ~해도</td><td lang="en"><b>However busy</b> we are, …</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>기본</h3>
+        <dl>
+          <dt>빈자리 <span>gap</span></dt><dd>절 안에서 주어나 목적어가 빠져 비어 있는 자리. 빈자리가 있는 문장을 <b>불완전한 문장</b>이라고 해요. <i lang="en">we reserved ▢</i></dd>
+          <dt>완전한 문장</dt><dd>주어와 동사, 동사에 필요한 말(목적어·보어)이 다 있는 문장. <i lang="en">the fair is held · we need more staff</i></dd>
+          <dt>관계부사 <span>relative adverb</span></dt><dd>선행사(장소·시간·이유)를 뒤에서 꾸미는 절을 열어요. 빠진 말이 부사라서 뒤에 완전한 문장이 와요. <i lang="en">where · when · why · how</i></dd>
+          <dt>복합관계사 <span>compound relative</span></dt><dd>관계사 + <i lang="en">-ever</i>. 선행사를 품고 있어 명사 뒤에 오지 않아요. <i lang="en">whoever · whatever</i>(뒤에 빈자리) · <i lang="en">however · wherever · whenever</i>(뒤에 완전한 문장)</dd>
+          <dt>명사절 <span>noun clause</span></dt><dd>문장 안에서 주어·목적어·보어 노릇을 하는 절. <i lang="en">that · what · whether · if</i>, 의문사가 이끌어요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>풀이 신호</h3>
+        <dl>
+          <dt>빈칸 바로 뒤 동사</dt><dd>주어가 빠졌어요 → 빈자리 쪽. <i lang="en">___ arrives first → Whoever</i></dd>
+          <dt>타동사·전치사 뒤가 빔</dt><dd>목적어가 빠졌어요 → 빈자리 쪽. <i lang="en">the hotel ___ we reserved → which</i></dd>
+          <dt>빈칸 바로 뒤 형용사</dt><dd><i lang="en">however</i> + 형용사 + 주어 + 동사. <i lang="en">However busy we are</i></dd>
+          <dt>빈칸 바로 뒤 <i lang="en">or not</i> · to부정사</dt><dd><i lang="en">whether</i>만. <i lang="en">whether or not · whether to go</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>함정</h3>
+        <dl>
+          <dt>장소 명사 + 빈자리</dt><dd><i lang="en">the museum which we visited</i> — 장소라도 빈자리가 있으면 <i lang="en">which</i>(where ×).</dd>
+          <dt>전치사 바로 뒤</dt><dd><i lang="en">the room in which</i> (in where ×, in that ×). <i lang="en">where</i> 안에 이미 전치사가 들어 있어요.</dd>
+          <dt><i lang="en">the way how</i></dt><dd>쓰지 않아요. <i lang="en">the way</i> 또는 <i lang="en">how</i> 하나만.</dd>
+          <dt><i lang="en">if</i>를 못 쓰는 자리</dt><dd>문장 맨 앞 주어 · 전치사 뒤 · <i lang="en">or not</i> 바로 앞 · to부정사 앞(보어 자리도) → <i lang="en">whether</i>.</dd>
+          <dt>의문사 명사절의 어순</dt><dd>질문이 문장 속에 들어가면 주어 + 동사. <i lang="en">I don’t know when the train leaves.</i> (does the train leave ×) 한국어는 ‘떠나는지’처럼 끝만 바뀌어요.</dd>
+          <dt>명사 뒤 + 완전한 문장의 <i lang="en">that</i></dt><dd><i lang="en">the fact that we need more staff</i> — <i lang="en">fact · news · idea</i> 같은 내용 명사 뒤에서 그 내용을 풀어 주는 동격의 <i lang="en">that</i>은 완전한 문장을 이끌어요.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓·×, 직접 해 보기의 채점, 빈자리 탐지기의 후보 판정, 연습 문제의 힌트와 보기별 해설, 퀴즈 일부의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 엔진은 ① 빈칸 뒤에 빈자리가 있는지 → ② 빈칸 앞이 명사 뒤·명사 자리·문장 밖 가운데 어디인지 → ③ 선행사와 뜻, 전치사·콤마, <i lang="en">if</i>를 못 쓰는 자리 순서로 판정해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 빈자리가 있는지, 빈칸이 어떤 자리인지, 절의 뜻(사실·여부·사람·물건·장소·시간…)은 엔진이 문장을 읽고 알아내는 것이 아니라 문제마다 데이터에 적어 둔 것이에요. 관계부사 자리에 쓰는 <i lang="en">that</i>(<i lang="en">the day that we met</i>)과 형용사 없이 쓴 <i lang="en">however</i>, ‘~하는 것’ 자리의 <i lang="en">whatever</i>는 실제 영어에 있지만 시험 답으로 고르지 않는 말(△)로 표시하고 보기에는 넣지 않았어요. <i lang="en">however + 형용사</i>는 형용사가 <i lang="en">however</i>와 함께 앞으로 나온 것으로 보고 나머지를 완전한 문장으로 다뤄요. ‘전치사 + which’는 문제마다 적어 둔 전치사와 같은지만 봐요. 접속사 <i lang="en">when · if</i>가 이끄는 부사절(<i lang="en">When you arrive, …</i>)은 연결어 튜토리얼(T05)의 몫이라 보기에 함께 넣지 않았고, <i lang="en">whomever · whichever</i>, 의문사 <i lang="en">which</i>(어느 것), 관계부사의 계속적 용법은 다루지 않았어요. 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
+    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지이고, 앞 꼭지는 <a href="../relative-pronouns/index.html">관계대명사, 빈자리를 찾아라</a>예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="../shared/drill.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
