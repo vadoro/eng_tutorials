@@ -56,7 +56,7 @@
     'summary:hover{background:var(--hover)}' +
     'summary svg{width:12px;height:12px;transition:transform .15s}' +
     'details[open] summary svg{transform:rotate(180deg)}' +
-    '.menu{position:absolute;right:0;top:calc(100% + 6px);width:min(320px,calc(100vw - 32px));margin:0;padding:6px;list-style:none;background:var(--bg);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);box-sizing:border-box}' +
+    '.menu{position:absolute;right:0;top:calc(100% + 6px);width:min(320px,calc(100vw - 32px));margin:0;padding:6px;list-style:none;background:var(--bg);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);box-sizing:border-box;max-height:calc(100vh - 80px);max-height:calc(100dvh - 80px);overflow-y:auto;overscroll-behavior:contain}' +
     '.menu .grp{padding:8px 10px 2px;font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--accent)}' +
     '.menu .grp em{font-style:normal;font-weight:500;color:var(--muted);margin-left:4px}' +
     '.menu a{display:block;padding:8px 10px;border-radius:8px}' +
@@ -89,6 +89,12 @@
   // 메뉴 밖을 누르거나 Esc를 누르면 닫기
   var det = shadow.querySelector('details');
   document.addEventListener('click', function (e) { if (det.open && !e.composedPath().includes(host)) det.open = false; });
+  // 튜토리얼이 많아 메뉴가 화면보다 길면 메뉴 안에서 스크롤하고, 열 때 지금 튜토리얼이 보이게
+  det.addEventListener('toggle', function () {
+    if (!det.open) return;
+    var m = shadow.querySelector('.menu'), c = shadow.querySelector('[aria-current=page]');
+    if (c && m.scrollHeight > m.clientHeight) m.scrollTop = Math.max(0, c.offsetTop - m.clientHeight / 2 + c.offsetHeight / 2);
+  });
   shadow.addEventListener('keydown', function (e) {
     // 바 안에서 누른 키가 튜토리얼의 단축키(스페이스 = 재생 등)로 넘어가지 않게
     e.stopPropagation();
