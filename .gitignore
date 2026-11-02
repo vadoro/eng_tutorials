@@ -1,0 +1,6 @@
+node_modules/
+dist/
+frames/
+.DS_Store
+# 렌더링한 영상은 확인용이라 저장소에 넣지 않습니다 (CLAUDE.md의 영상 참고)
+*/video/*.mp4
