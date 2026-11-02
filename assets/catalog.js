@@ -16,6 +16,7 @@
  *   length    영상 길이 (분:초)
  *   scenes    장면 수
  *   features  카드에 칩으로 보여 줄 기능
+ *   types     (토익 문법) 다루는 유형 번호 — docs/toeic-100-types.md의 100개 유형 번호
  *   thumb     16:9 미리보기 그림 (사이트 루트 기준 경로)
  *   added     처음 올린 날짜 (YYYY-MM-DD)
  *
@@ -50,6 +51,7 @@ window.EN_CATALOG = {
       length: '6:36',
       scenes: 12,
       features: ['음성 해설', '발음 듣기', '장면별 실습', '문장 합치기 놀이터', '연습 문제 16', '퀴즈'],
+      types: [12, 36, 37, 38, 39],
       thumb: 'relative-pronouns/docs/poster.jpg',
       added: '2026-11-02',
     },
