@@ -107,5 +107,18 @@ window.EN_CATALOG = {
       thumb: 'connectors/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'nouns-articles',
+      track: 'toeic',
+      title: '명사 검문소를 통과하라',
+      topic: '명사 · 관사 · 수량 표현 · almost · most of',
+      summary: '한국어 ‘책 샀어’가 영어에서는 a book · the book · books로 갈라지는 까닭. 셀 수 있나 → 하나인가 여럿인가 → 짝이 맞나, 명사 검문소의 세 문으로 관사와 수량 표현 문제를 풀어요.',
+      length: '6:02',
+      scenes: 11,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '명사 검문소 놀이터', '연습 문제 16', '퀴즈'],
+      types: [47, 48, 49, 50, 51],
+      thumb: 'nouns-articles/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };

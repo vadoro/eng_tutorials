@@ -34,7 +34,7 @@
 | 9 | 관계사 | 36–40 | 5·6 | **T01 완료**(36–39) · T09(40) |
 | 10 | 명사절 | 41–42 | 5·6 | T09 |
 | 11 | 대명사 | 43–46 | 5·6 | T10 |
-| 12 | 명사·관사·수량 표현 | 47–51 | 5·6 | T06 |
+| 12 | 명사·관사·수량 표현 | 47–51 | 5·6 | **T06 완료** |
 | 13 | 비교 | 52–53 | 5 | T12 |
 | 14 | 가정법·도치 | 54–55 | 5 | T12 |
 | 15 | 전치사 | 56–58 | 5·6 | T11 |
@@ -156,11 +156,11 @@
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 47 | 셀 수 있는 단수 명사에는 관사·한정사가 필요 | Please submit **an** application. (submit application ✗) | 오류 |
-| 48 | 셀 수 없는 명사 (information, equipment, advice, feedback, luggage) | ___ information → **much** (informations ✗, many ✗) | 빈출·오류 |
-| 49 | 수량 표현 + 명사의 수 (each·every + 단수, several·a few + 복수, much·little + 셀 수 없는 명사) | **several** candidates / **each** candidate | 빈출·오류 |
-| 50 | almost vs most vs most of | **almost all** employees / **most** employees / **most of the** employees | 빈출·오류 |
-| 51 | 숫자-하이픈 명사는 단수, another + 단수 / other + 복수 | a **three-day** workshop (three-days ✗) / **another** day | 빈출·오류 |
+| 47 | 셀 수 있는 단수 명사에는 관사·한정사가 필요 | Please submit **an** application. (submit application ✗) | 오류 · **T06** |
+| 48 | 셀 수 없는 명사 (information, equipment, advice, feedback, luggage) | ___ information → **much** (informations ✗, many ✗) | 빈출·오류 · **T06** |
+| 49 | 수량 표현 + 명사의 수 (each·every + 단수, several·a few + 복수, much·little + 셀 수 없는 명사) | **several** candidates / **each** candidate | 빈출·오류 · **T06** |
+| 50 | almost vs most vs most of | **almost all** employees / **most** employees / **most of the** employees | 빈출·오류 · **T06** |
+| 51 | 숫자-하이픈 명사는 단수, another + 단수 / other + 복수 | a **three-day** workshop (three-days ✗) / **another** day | 빈출·오류 · **T06** |
 
 ### 13. 비교 (Part 5)
 
@@ -273,7 +273,7 @@
 | T03 | 주어가 수를, 목적어가 태를 정한다 | 9–11, 13–15 | **완료** |
 | T04 | 시간선 위에 동사를 놓아라 | 16–20 | **완료** |
 | T05 | 접속사냐 전치사냐, 빈칸 뒤가 답한다 | 31–35 | **완료** |
-| T06 | 명사·관사·수량 표현 | 47–51 | |
+| T06 | 명사 검문소를 통과하라 | 47–51 | **완료** |
 | T07 | 동사 자리와 to부정사·동명사 | 21–27 | |
 | T08 | 분사 | 28–30 | |
 | T09 | 관계사 ②와 명사절 | 39(관계부사), 40–42 | |
