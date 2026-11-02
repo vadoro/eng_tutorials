@@ -120,5 +120,18 @@ window.EN_CATALOG = {
       thumb: 'nouns-articles/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'participles',
+      track: 'toeic',
+      title: '-ing냐 -ed냐, 주인에게 물어라',
+      topic: '분사 · 현재분사 · 과거분사 · 감정 분사 · 분사구문',
+      summary: '분사가 꾸미는 말(주인)이 그 일을 하는가, 당하는가? 이 한 질문으로 명사 앞뒤의 분사, 감정 분사(exciting · excited), 분사구문을 주인 → 질문 → 확인 3단계로 풀어요.',
+      length: '6:36',
+      scenes: 12,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '주인 바꾸기 실험실', '연습 문제 16', '퀴즈'],
+      types: [28, 29, 30],
+      thumb: 'participles/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };

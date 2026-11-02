@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>-ing냐 -ed냐, 주인에게 물어라 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="토익 Part 5 분사 문제를 원리로 푸는 법. 분사가 꾸미는 말(주인)이 그 일을 하는지 당하는지 물어 -ing와 -ed를 고르고, 감정 분사와 분사구문까지 3단계 풀이법으로 인터랙티브 모션그래픽 영상, 주인 바꾸기 실험실, 연습 문제로 배워요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 주인 · 분사(답) · 목적어·단서·하는 쪽 · 분사구 · 빈칸·당하는 쪽 · 함정 */
+  --c-own:#2266C4; --c-p:#A86A00; --c-obj:#6A45C2; --c-phr:#1F7A55; --c-gap:#C2346E; --c-trap:#C2531F;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  /* 사이트 공통 부품(퀴즈·연습 문제·핵심 정리)이 쓰는 색과 글꼴 */
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-own); --en-cue:var(--c-obj); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-own:#6EC8FF; --c-p:#FFC15E; --c-obj:#C9A7FF; --c-phr:#7FE0A8; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-own:#6EC8FF; --c-p:#FFC15E; --c-obj:#C9A7FF; --c-phr:#7FE0A8; --c-gap:#FF7AA8; --c-trap:#FF9F7A;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.note{font-size:13.5px;color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:8px 0}
+.chk{display:inline-flex;align-items:center;gap:8px;font-weight:600;cursor:pointer}
+.chk input{width:18px;height:18px;accent-color:var(--accent)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.lab .seg + .seg{margin-top:6px}
+.seg button{display:inline-flex;align-items:center;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;gap:4px;margin:8px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.enline.small{font-size:15px;font-weight:500;color:var(--muted)}
+.arrow-down{margin:2px 0 0 10px!important;color:var(--muted);line-height:1}
+.mini{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--surface-2)}
+.mini .mq{margin:0 0 8px;font-size:16px;font-weight:500}
+.blank{display:inline-block;width:3.6em;border-bottom:2px solid var(--text);vertical-align:-2px}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer}
+.mo button:hover{border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:8px 0 0!important;font-size:14px;color:var(--muted);min-height:0}
+.mr:empty{display:none}
+.gapq{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.gapq li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.gapq .ph{font-weight:700;min-width:8.5em;font-size:16px}
+.gapq .mr{flex-basis:100%;margin:0!important}
+.gapq .ph.long{flex-basis:100%;min-width:0;font-size:15.5px;font-weight:500}
+.gapq .ph small{color:var(--muted);font-weight:500}
+.blank.sm{width:2.6em}
+.lab h3.mt{margin-top:16px}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)} .c-act{color:var(--c-obj)} .c-pass{color:var(--c-gap)}
+.pick{display:grid;grid-template-columns:4.6em minmax(0,1fr);gap:8px;align-items:center;margin:8px 0}
+.pick > span{font-weight:700;font-size:14px;color:var(--muted)}
+select.sel{height:36px;padding:0 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);max-width:100%;min-width:0}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.pairs{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.pairs li{display:flex;flex-wrap:wrap;align-items:center;gap:2px 14px;padding:6px 10px;border-radius:9px;background:var(--surface-2)}
+.pairs .en1{display:inline-flex;align-items:center;font-weight:600;font-size:16px}
+.pairs .en1 b.v{color:var(--c-p);box-shadow:inset 0 -3px 0 currentColor}
+.pairs .ko1{color:var(--muted);font-size:14px}
+
+/* ---------- 놀이터: 주인 바꾸기 실험실 ---------- */
+.own{display:flex;flex-direction:column;gap:10px;outline:none}
+.cv-row{display:grid;grid-template-columns:5em minmax(0,1fr);gap:8px;align-items:center}
+.cv-lab{font-weight:700;font-size:14px;color:var(--muted)}
+.cv-kind{margin:0;font-size:13.5px;color:var(--muted)}
+#oStage{display:block;width:100%;aspect-ratio:1000/230;border-radius:10px;background:var(--stage)}
+.ofills{display:flex;flex-direction:column;gap:8px}
+.ofill{border:1.5px solid var(--line);border-radius:10px;background:var(--surface-2);padding:8px 12px}
+.ofill.right{border-color:var(--ok)}
+.ofill.wrong{border-color:var(--no)}
+.ofill.picked{box-shadow:0 0 0 2px var(--accent)}
+.ochoose{display:block;width:100%;padding:2px 0;border:0;background:none;text-align:left;font-size:clamp(16px,2.2vw,19px);font-weight:600;line-height:1.5;cursor:pointer}
+.ochoose:disabled{cursor:default;color:inherit}
+.ochoose b{margin-right:6px;font-family:var(--mono);color:var(--muted)}
+.ochoose u{text-decoration:none;color:var(--c-p);box-shadow:inset 0 -3px 0 currentColor}
+.ofill.wrong .ochoose span{text-decoration:line-through;text-decoration-color:var(--no)}
+.ofill.wrong .ochoose u{color:var(--no)}
+.owhy{display:flex;align-items:flex-start;gap:4px;margin:6px 0 0;font-size:14.5px;color:var(--muted)}
+.ofill.right .owhy{color:var(--ok)}
+.cv-steps{margin:0;padding:10px 14px 10px 30px;border-radius:10px;background:var(--surface-2);display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.okeys{margin:0;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.gtop{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 14px}
+
+/* ---------- 놀이터 · 연습 문제 · 퀴즈 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.card h3{margin:0 0 4px;font-size:16px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td[lang]{font-weight:500}
+.sum td[lang] b{color:var(--c-p)}
+.sum td.pos{font-weight:700}
+.t-act{color:var(--c-obj)} .t-pass{color:var(--c-gap)} .t-trap{color:var(--c-trap)} .t-phr{color:var(--c-phr)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .cv-row{grid-template-columns:minmax(0,1fr);gap:4px}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="participles"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">TOEIC 문법 · 분사 · <span id="durLbl">6분 36초</span></p>
+    <h1><em>-ing</em>냐 <em>-ed</em>냐, 주인에게 물어라</h1>
+    <p class="lead">the attached file, employees using the software, an exciting offer, Once approved — 분사 문제는 모양이 여러 가지여도 질문은 하나예요. 분사가 꾸미는 말(이 튜토리얼에서는 ‘주인’이라고 불러요)이 그 일을 하나요, 당하나요? 하는 쪽이면 -ing, 당하는 쪽이면 -ed. 감정이라면 일으키는 쪽이 -ing, 느끼는 쪽이 -ed예요. 한국어는 ‘지루하다’ 한 낱말로 둘 다 말하고, ‘남은 좌석’처럼 때를 따지는 말이 섞여 있어서 헷갈리기 쉬워요. 영상 아래에는 주인 바꾸기 실험실, 토익 Part 5 연습 문제, 퀴즈가 이어져요.</p>
+    <ul class="legend" aria-label="문장 색의 뜻">
+      <li><i style="background:var(--c-own)"></i>주인 (꾸밈받는 말 · 주절의 주어)</li>
+      <li><i style="background:var(--c-p)"></i>분사 · 답</li>
+      <li><i style="background:var(--c-obj)"></i>하는 쪽 · 목적어 · by 단서</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>당하는 쪽 · 빈칸</li>
+      <li><i style="background:var(--c-phr)"></i>분사구 · 분사구문</li>
+      <li><i style="background:var(--c-trap)"></i>함정</li>
+    </ul>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">놀이터</a><a href="#drill">연습 문제</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="분사 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="분사가 꾸미는 말(주인)을 찾고, 주인이 그 일을 하는 쪽인지 당하는 쪽인지 화살표 그림으로 물어 -ing와 -ed를 고르는 모습을 보여 주는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">주인 바꾸기 실험실</h2>
+      <p>동사와 주인을 고르면 <b>누가 하고 누가 당하는지</b> 화살표 그림이 나와요. 하늘색 고리가 주인이에요. 두 문장 가운데 맞는 쪽을 고르면, 규칙 엔진이 -ing와 -ed 각각이 왜 맞고 왜 틀린지 3단계 풀이와 함께 알려 줘요. 같은 동사라도 주인을 바꾸면 꼬리가 바뀌는 모습을 확인해 보세요. 자동사(remain, rise, exist)는 받는 쪽이 없어서 늘 -ing예요.</p>
+    </div>
+    <div class="card own" id="own" tabindex="-1">
+      <div class="cv-row"><span class="cv-lab">동사</span><div class="seg" id="oVerb" role="group" aria-label="동사 고르기"></div></div>
+      <div class="cv-row"><span class="cv-lab">주인</span><div class="seg" id="oOwner" role="group" aria-label="주인 고르기"></div></div>
+      <div class="cv-row"><span class="cv-lab">방법</span><label class="chk"><input type="checkbox" id="oGuess" checked> 먼저 맞혀 보기</label></div>
+      <p class="cv-kind" id="oKind"></p>
+      <canvas id="oStage" role="img" aria-label="하는 쪽에서 당하는 쪽으로 가는 화살표 그림. 주인에 하늘색 고리가 있어요"></canvas>
+      <div class="ofills" id="oFills" aria-live="polite"></div>
+      <ol class="cv-steps" id="oSteps" hidden></ol>
+      <p class="note" id="oKo"></p>
+      <div class="gtop"><p class="okeys">키보드: 1 · 2 고르기 · O 주인 바꾸기 · ← → 동사</p><p class="okeys" id="oScore"></p></div>
+    </div>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">연습 문제</p>
+      <h2 id="drillTitle">토익 Part 5 형식으로 풀어 보기</h2>
+      <p>한 문제씩 풀어요. 막히면 <b>힌트</b>를 누르세요. 3단계 풀이법(주인 → 질문 → 확인)이 한 단계씩 열리고, 주인·문장의 동사·빈칸 뒤 단서에 색이 칠해져요. 답을 고르면 보기마다 모양(현재분사·과거분사·동사·명사·부사)과 맞고 틀린 까닭, 해석, 완성 문장의 발음이 나와요.</p>
+    </div>
+    <div id="drillBox"><div id="drill"></div></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 원리 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 상자나 낱말을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 -ing와 -ed</h2>
+      <p>① 분사가 꾸미는 말(주인)을 찾고, ② 주인이 그 일을 하는지 당하는지(감정이면 일으키는지 느끼는지) 묻고, ③ 분사 뒤에 목적어가 있는지 확인해요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">주인과 자리</th><th scope="col">분사</th><th scope="col">예</th></tr></thead>
+        <tbody>
+          <tr><td>명사 앞 · 주인이 하는 쪽</td><td class="pos t-act">-ing</td><td lang="en">a <b>leading</b> supplier</td></tr>
+          <tr><td>명사 앞 · 주인이 당하는 쪽</td><td class="pos t-pass">-ed (p.p.)</td><td lang="en">the <b>enclosed</b> instructions · a <b>written</b> report</td></tr>
+          <tr><td>자동사 remain · rise · exist · emerge</td><td class="pos t-trap">늘 -ing</td><td lang="en">the <b>remaining</b> seats (remained ×)</td></tr>
+          <tr><td>명사 뒤 + 목적어</td><td class="pos t-act">-ing</td><td lang="en">employees <b>using</b> the new software</td></tr>
+          <tr><td>명사 뒤 + by · 시간 · 장소 표현</td><td class="pos t-pass">-ed</td><td lang="en">the report <b>prepared</b> by the sales team</td></tr>
+          <tr><td>감정을 일으키는 쪽 (대개 물건 · 일)</td><td class="pos t-act">-ing</td><td lang="en">an <b>exciting</b> offer · The results were <b>disappointing</b>.</td></tr>
+          <tr><td>감정을 느끼는 쪽 (대개 사람) · + in · with · about</td><td class="pos t-pass">-ed</td><td lang="en"><b>excited</b> customers · <b>interested</b> in the program</td></tr>
+          <tr><td>분사구문: 주인 = 콤마 뒤 주절의 주어</td><td class="pos t-phr">하면 -ing · 당하면 -ed</td><td lang="en"><b>Built</b> in 1920, the theater … · <b>Facing</b> a deadline, the team …</td></tr>
+          <tr><td>if · once · until · unless + 분사</td><td class="pos t-pass">대개 -ed</td><td lang="en"><b>once approved</b> · <b>if needed</b> · <b>until signed</b></td></tr>
+          <tr><td>before · after + 분사</td><td class="pos t-act">-ing</td><td lang="en"><b>before leaving</b> · <b>after reviewing</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>① 분사와 주인</h3>
+        <dl>
+          <dt>분사 <span>participle</span></dt><dd>동사에 -ing나 -ed를 붙여 형용사처럼 명사를 꾸미게 만든 모양. <i lang="en">the attached file</i></dd>
+          <dt>현재분사 <span>present participle · -ing</span></dt><dd>주인이 하는 쪽, 감정을 일으키는 쪽. 이름과 달리 ‘지금’이라는 뜻이 아니에요. <i lang="en">a leading company · an exciting offer</i></dd>
+          <dt>과거분사 <span>past participle · p.p.</span></dt><dd>주인이 당하는 쪽, 감정을 느끼는 쪽. ‘과거’라는 뜻이 아니에요. 모양이 다른 것도 있어요. <i lang="en">made · written · broken · built</i></dd>
+          <dt>주인 <span>이 튜토리얼에서 쓰는 말</span></dt><dd>분사가 꾸미거나 설명하는 말. 문법책에서는 분사의 ‘의미상 주어’라고도 해요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>② 분사의 자리</h3>
+        <dl>
+          <dt>명사 앞 <span>prenominal</span></dt><dd>분사 하나로 짧을 때. <i lang="en">the renovated lobby</i></dd>
+          <dt>명사 뒤 분사구 <span>reduced relative clause</span></dt><dd>뒤에 목적어나 전치사구가 붙어 길어질 때. 관계사절에서 <i lang="en">who are · that was</i>가 빠진 모양이에요. <i lang="en">employees (who are) using the software</i></dd>
+          <dt>보어 <span>complement</span></dt><dd>be · find 뒤에서 주어나 목적어를 설명해요. <i lang="en">The system was confusing. · I found it confusing.</i></dd>
+          <dt>분사구문 <span>participle clause</span></dt><dd>분사로 시작해 콤마 앞에 오는 덩어리. 주인은 주절의 주어(명령문이면 숨은 주어 <i lang="en">you</i>). <i lang="en">Founded in 1998, the company …</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>③ 감정 분사</h3>
+        <dl>
+          <dt>감정 동사 <span>emotion verbs</span></dt><dd>감정을 일으키는 동사. <i lang="en">excite · interest · bore · confuse · satisfy · disappoint · surprise · impress · encourage · please</i></dd>
+          <dt>일으키는 쪽 → -ing</dt><dd><i lang="en">a boring lecture · confusing instructions · surprising results</i></dd>
+          <dt>느끼는 쪽 → -ed</dt><dd><i lang="en">bored students · confused staff · surprised investors</i>. 뒤에 전치사가 자주 와요 → <i lang="en">interested in · satisfied with · excited about · pleased with</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>한국어와 다른 점</h3>
+        <dl>
+          <dt>때와 관계</dt><dd>한국어 ‘남은 · 첨부된’의 ‘-은 · -된’은 때를 함께 말하지만, 영어 -ing · -ed는 하는 쪽인지 당하는 쪽인지만 말해요. 그래서 ‘남은 좌석’ → <i lang="en">the remaining seats</i>(<i lang="en">remained</i> ×).</dd>
+          <dt>감정의 두 얼굴</dt><dd>한국어: 영화가 지루하다 · 나는 지루하다. 영어: <i lang="en">The movie was boring. · I was bored.</i> <i lang="en">I was boring</i>은 ‘나는 남을 지루하게 하는 사람이었다’예요.</dd>
+          <dt>숨은 주어</dt><dd>명령문(<i lang="en">Please use …</i>)에는 주어가 보이지 않지만, 분사구문의 주인은 숨은 주어 <i lang="en">you</i>예요. <i lang="en">When completing the form, use black ink.</i></dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 실전 문제에서 지워지는 순서, 직접 해 보기의 채점, 주인 바꾸기 실험실의 판정과 풀이, 연습 문제의 힌트와 보기별 해설, 퀴즈 대부분의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 주인과 동사의 관계(하는 쪽 · 당하는 쪽 · 자동사 · 감정을 일으키는 쪽 · 느끼는 쪽)는 문제마다 정해 두었고, 규칙 엔진은 그 정보로 판정해요. 문장의 뜻을 스스로 알아내지는 않아요. 자동사의 과거분사가 ‘다 끝난 상태’를 뜻하는 말(<i lang="en">fallen leaves · retired staff</i>)은 다루지 않았고, 규칙 엔진은 자동사의 -ed를 모두 틀린 것으로 봐요. <i lang="en">experienced · qualified · interesting</i>처럼 형용사로 굳은 낱말도 분사와 같은 규칙으로 설명했어요. before · after + -ing는 전치사 + 동명사로 보는 문법책도 있지만, 시험 풀이에서는 분사구문과 같은 방법으로 풀어요. 주인이 주절의 주어와 다른 분사구문(<i lang="en">Weather permitting, …</i>), <i lang="en">having + p.p. · being + p.p.</i>는 넣지 않았어요. 복합명사가 될 수 있는 명사 보기도 넣지 않았어요(복합명사는 <a href="../parts-of-speech/index.html">T02 품사</a>, 능동·수동은 <a href="../verb-agreement-voice/index.html">T03</a>에서 다뤄요). 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
+    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="../shared/drill.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
