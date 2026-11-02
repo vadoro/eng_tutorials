@@ -24,8 +24,8 @@
 | # | 카테고리 | 유형 | 파트 | 튜토리얼 |
 | --- | --- | --- | --- | --- |
 | 1 | 품사 자리 | 1–8 | 5·6 | **T02 완료** |
-| 2 | 동사 ① 수 일치 | 9–12 | 5·6 | T03 (12번은 T01에서 다룸) |
-| 3 | 동사 ② 능동·수동 | 13–15 | 5·6 | T03 |
+| 2 | 동사 ① 수 일치 | 9–12 | 5·6 | **T03 완료** (12번은 T01에서 다룸) |
+| 3 | 동사 ② 능동·수동 | 13–15 | 5·6 | **T03 완료** |
 | 4 | 동사 ③ 시제 | 16–20 | 5·6 | **T04 완료** |
 | 5 | 문장 구조와 동사 자리 | 21–23 | 5·6 | T07 |
 | 6 | to부정사·동명사 | 24–27 | 5·6 | T07 |
@@ -66,18 +66,18 @@
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 9 | 주어와 동사 사이의 수식어 건너뛰기 | The results of the survey ___ ready. → **are** | 빈출·오류 |
-| 10 | 수량 표현 주어 (a number of + 복수 / the number of + 단수 / each·every + 단수) | The number of applicants ___ increased. → **has** | 빈출·오류 |
-| 11 | 동명사·명사절·불가산 명사 주어는 단수 | Reviewing the reports ___ time. → **takes** | 빈출 |
+| 9 | 주어와 동사 사이의 수식어 건너뛰기 | The results of the survey ___ ready. → **are** | 빈출·오류 · **T03** |
+| 10 | 수량 표현 주어 (a number of + 복수 / the number of + 단수 / each·every + 단수) | The number of applicants ___ increased. → **has** | 빈출·오류 · **T03** |
+| 11 | 동명사·명사절·불가산 명사 주어는 단수 | Reviewing the reports ___ time. → **takes** | 빈출 · **T03** |
 | 12 | 주격 관계대명사 뒤 동사의 수 = 선행사의 수 | Employees who ___ the workshop … → **attend** | 빈출 · T01 |
 
 ### 3. 동사 ② 능동·수동 (Part 5·6)
 
 | # | 유형 | 예 · 함정 | 근거 |
 | --- | --- | --- | --- |
-| 13 | 목적어가 없으면 수동태 | The winners will be ___ next week. → **announced** | 빈출 |
-| 14 | 4·5형식 수동태 뒤에 남는 말 | She was given **a bonus**. / The plan is considered **essential**. | 빈출 |
-| 15 | 자동사는 수동태가 없음 (occur, arise, rise, take place) | A delay ___ yesterday. → **occurred** (was occurred ✗) | 빈출·오류 |
+| 13 | 목적어가 없으면 수동태 | The winners will be ___ next week. → **announced** | 빈출 · **T03** |
+| 14 | 4·5형식 수동태 뒤에 남는 말 | She was given **a bonus**. / The plan is considered **essential**. | 빈출 · **T03** |
+| 15 | 자동사는 수동태가 없음 (occur, arise, rise, take place) | A delay ___ yesterday. → **occurred** (was occurred ✗) | 빈출·오류 · **T03** |
 
 ### 4. 동사 ③ 시제 (Part 5·6)
 
@@ -270,7 +270,7 @@
 | --- | --- | --- | --- |
 | T01 | 관계대명사, 빈자리를 찾아라 | 12, 36–39 | **완료** |
 | T02 | 빈칸의 자리가 품사를 정한다 | 1–8 | **완료** |
-| T03 | 동사 ① 수 일치와 능동·수동 | 9–11, 13–15 | 다음 차례 |
+| T03 | 주어가 수를, 목적어가 태를 정한다 | 9–11, 13–15 | **완료** |
 | T04 | 시간선 위에 동사를 놓아라 | 16–20 | **완료** |
 | T05 | 접속사냐 전치사냐, 빈칸 뒤가 답한다 | 31–35 | **완료** |
 | T06 | 명사·관사·수량 표현 | 47–51 | |
