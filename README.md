@@ -22,6 +22,7 @@
 | 토익 문법 | [전치사, 그림으로 보고 짝으로 외워라](prepositions/) | 6:36 · 12장면 | 한국어 조사 하나와 전치사 여럿(까지 → by · until, 동안 → for · during), 시간의 at · on · in, 시간선 위의 by · until · for · during · within · since · in, 장소 그림(between · among · along · across · throughout · beyond), as · 숫자 앞 by · to · via · per · upon, 짝 카드, 3단계 풀이법, 까지 갈림길 |
 | 토익 문법 | [신호어가 짝을 부른다](comparison-inversion/) | 6:17 · 11장면 | 신호어가 짝을 부른다(as → 원급, than → 비교급, the + 범위 → 최상급), 한국어 ‘보다 · 가장’과 낱말 모양, 비교 표시는 한 번(more lighter ×), much · even · far(very ×), superior to, one of the + 최상급 + 복수 명사, The 비교급, the 비교급, 가정법은 한 칸 뒤로, if가 사라지는 Should · Had · Were 도치, 맨 앞 부정어 · only 도치와 so · neither, 3단계 풀이법, 신호어 스위치 |
 | 토익 문법 | [낱말에도 단짝이 있다](vocabulary/) | 4:59 · 10장면 | 어휘 문제는 짝이 답을 정한다(보기 넷이 모두 문법적으로 통과), 한국어 ‘하다’ 하나 ↔ hold · conduct · make · give · place, 동사 + 목적어 짝과 덩어리 표현(meet a deadline, until further notice, out of stock / out of order), 꼬리만 다른 형용사 여섯 쌍, 부사의 짝(approximately + 숫자, highly qualified, hard · hardly), 헷갈리는 동사(rise · raise, say · tell, lend · borrow), 3단계 풀이법, 짝 카드 89장(라이트너 상자) · 짝 사전 |
+| 토익 문법 | [한 문장으론 모른다, 앞뒤 문장이 답한다](part6-text/) | 6:16 · 11장면 | Part 6 형식(글 하나에 빈칸 넷), 문장 하나로는 여러 개 · 앞뒤 문장이 하나로, 한국어 현재형과 영어 will, 글을 쓴 날의 시간선, 접속부사와 두 문장의 관계 여섯, 한국어로 이어 읽기, 가리키는 말과 문장 넣기, 순서 · 같은 낱말 · also · 어긋남 함정, 뒤 문장 · 머리말의 단서와 가까운 과거형 함정, 3단계 풀이법, 문맥 손전등 |
 | 상황별 영어 회화 | 준비 중 | | 공항, 카페, 호텔 같은 장소의 대화 연습 |
 
 모든 튜토리얼에 자막과 음성 해설(한국어는 한국어 음성, 영어는 영어 음성), 발음 듣기, 장면별 ‘직접 해 보기’, 놀이터, 연습 문제, 퀴즈, 핵심 정리가 있습니다.
@@ -65,6 +66,7 @@ pronouns/               가리키는 말이 줄을, 자리가 칸을 정한다 (
 prepositions/           전치사, 그림으로 보고 짝으로 외워라 (토익 문법 T11)
 comparison-inversion/   신호어가 짝을 부른다 (토익 문법 T12)
 vocabulary/             낱말에도 단짝이 있다 (토익 문법 T13)
+part6-text/             한 문장으론 모른다, 앞뒤 문장이 답한다 (토익 문법 T14)
 docs/toeic-100-types.md 토익에서 자주 틀리는 100개 유형, 21개 카테고리, 튜토리얼 17개 계획
 CLAUDE.md               새 튜토리얼을 만들 때 지킬 규칙과 확인 목록
 ```

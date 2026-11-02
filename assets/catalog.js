@@ -211,5 +211,18 @@ window.EN_CATALOG = {
       thumb: 'vocabulary/docs/poster.jpg',
       added: '2026-11-02',
     },
+    {
+      slug: 'part6-text',
+      track: 'toeic',
+      title: '한 문장으론 모른다, 앞뒤 문장이 답한다',
+      topic: 'Part 6 · 글로 정하는 시제 · 접속부사 · 문장 넣기',
+      summary: '빈칸 문장만 보면 보기 두세 개가 다 맞아 보이는 Part 6 문제. 머리말의 날짜, 두 문장의 관계, 가리키는 말(this · these)로 보기를 하나로 줄여요. 빈칸 문장 → 앞뒤 문장 → 글 전체 3단계로 풀어요.',
+      length: '6:16',
+      scenes: 11,
+      features: ['음성 해설', '발음 듣기', '장면별 실습', '문맥 손전등', '지문 연습 문제 16', '퀴즈'],
+      types: [64, 65, 66],
+      thumb: 'part6-text/docs/poster.jpg',
+      added: '2026-11-02',
+    },
   ],
 };
