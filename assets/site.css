@@ -125,6 +125,10 @@ a { color: var(--accent); text-underline-offset: 3px; }
   .hero { padding-block: 30px 22px; }
   .hero p { font-size: 16px; }
 }
+/* 휴대폰에서는 위쪽 바가 두 줄로 늘지 않게 ‘만든 사람’ 링크를 바닥글에만 둠 */
+@media (max-width: 480px) {
+  .site-head nav a.nav-author { display: none; }
+}
 @media (prefers-reduced-motion: reduce) {
   .card, .site-head { transition: none; }
   .card:hover { transform: none; }
