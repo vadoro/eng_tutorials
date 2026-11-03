@@ -10,6 +10,7 @@
 index.html              사이트 첫 화면 (영역별 카드, assets/catalog.js를 읽어 그림)
 assets/catalog.js       영역(tracks)과 튜토리얼(tutorials) 목록 — 첫 화면과 상단 바가 함께 씀 (단일 출처)
 assets/site-bar.js      각 튜토리얼 위에 붙는 공통 상단 바 (섀도 DOM, 추출 화면에서는 안 붙음)
+assets/to-top.js        모든 페이지 오른쪽 아래의 ‘맨 위로’ 단추 (첫 화면 · 튜토리얼마다 site-bar.js 다음 줄에서 불러옴, 섀도 DOM, 추출 화면에서는 안 붙음)
 assets/site.css         첫 화면 디자인 토큰(밝은/어두운 테마)
 assets/favicon.svg      파비콘 — 청록 둥근 사각형에 흰 EN(글자는 도형으로 그려 글꼴과 무관)
 shared/narration.js     공통 부품: 음성 해설 EN.narration, 발음 듣기 EN.say, 한·영 나누기 EN.splitLang
