@@ -493,6 +493,7 @@
   CF.SPOKEN = SPOKEN;
   const SPOKEN_KEY = { size: 'size', temp: 'temp', milk: 'milk', shot: 'shot', room: 'room', receipt: 'receipt', togo: 'togo', more: 'more', pay: 'pay', ready: 'ready' };
   const REPAIR_RE = /\b(say that again|pardon|repeat|more slowly|slow down|sorry)\b/;
+  const YN_Q = { shot: 1, room: 1, receipt: 1 };
   CF.matchSpoken = function (raw, q, card) {
     if (typeof q === 'string') q = CF.Q[q];
     const w = CF.norm(raw), s = ' ' + w.join(' ') + ' ', heard = w.join(' ');
@@ -513,14 +514,25 @@
       return { ok: true, stage: 0, why: '음료 이름이 들렸고 카드와 맞아요.' + (ck.length ? ` 한 문장에 ${ck.join(' · ')}까지 말했어요.` : '') + (notes.length ? ' 알림: ' + notes.join(' ') : ''), note: notes.join(' '), heard, covered: cov, facts: f };
     }
     // 이름: 낯선 이름은 음성 인식이 다르게 적기 쉬워요 → 들린 말이 있으면 받아들이고 알림
+    //   단, 카드와 다른 이름(시뮬레이터의 다른 이름)이 또렷이 들리면 ② 카드와 다름
     if (q.intent === 'name') {
       const nm = String(C.name || '').toLowerCase();
       const got = nm && s.includes(' ' + nm + ' ');
-      return { ok: true, stage: 0, why: got ? '이름이 들렸어요.' : `음성 인식이 이름을 ‘${heard}’로 적었어요. 낯선 이름은 바리스타도 잘못 듣기 쉬워요. 철자를 불러 주면 좋아요 → ${String(C.name || 'Minji').toUpperCase().split('').join('-')}.`, heard };
+      const other = !got && CF.NAMES.find(n => n.toLowerCase() !== nm && s.includes(' ' + n.toLowerCase() + ' '));
+      if (other) return { ok: false, stage: 2, tag: 'fact', why: `카드와 달라요. 카드의 이름: ${C.name} · 들린 말: ${other}.`, heard };
+      const said = heard.replace(/^(it is|its|my name is|name is|i am|this is)\s+/, '') || heard;
+      return { ok: true, stage: 0, why: got ? '이름이 들렸어요.' : `음성 인식이 이름을 ‘${said}’로 적었어요. 낯선 이름은 바리스타도 잘못 듣기 쉬워요. 철자를 불러 주면 좋아요 → ${String(C.name || 'Minji').toUpperCase().split('').join('-')}.`, heard };
     }
     const M = SPOKEN[q.intent];
     if (!M) return { ok: false, stage: 0, why: '이 질문은 말로 대답하기를 지원하지 않아요.', heard };
     if (!M.mark.test(s)) return { ok: false, stage: 1, why: `열쇠 낱말 ${q.key.join(' … ')} → ${CF.sayOf(q.intent)}. 들린 말에 그 대답이 없어요.`, heard };
+    // 권하는 말(Yes · No 질문)에 yes · no 없이 다른 질문의 대답(Large, please. · To go, please.)만 들리면 ① — please 하나만 보고 ‘네’로 보지 않음
+    if (YN_Q[q.intent] && !/\b(yes|yeah|sure|no|nope)\b/.test(s)) {
+      const f = CF.parseSpoken(raw); delete f[q.intent];
+      if (/\b(card|cash)\b/.test(s)) f.pay = /\bcash\b/.test(s) ? 'cash' : 'card';
+      const k = Object.keys(f)[0];
+      if (k) return { ok: false, stage: 1, why: `열쇠 낱말 ${q.key.join(' … ')} → ${CF.sayOf(q.intent)}. 들린 말(${CF.factKo(k, f[k])})은 다른 질문의 대답처럼 들려요. → Yes, please. 또는 No, thanks.`, heard };
+    }
     const fr = M.fact(C), fk = SPOKEN_KEY[q.intent];
     if (!fr || !fr.test(s) || (M.not && M.not(C).test(s))) return { ok: false, stage: 2, tag: 'fact', why: fk && C[fk] != null ? `카드와 달라요. 카드의 사실(${CF.factKo(fk, C[fk])})이 들리지 않았어요.` : '대답에 필요한 사실이 들리지 않았어요.', heard };
     (M.lit || []).forEach(([r, n]) => { if (r.test(s)) notes.push(n); });
