@@ -566,6 +566,11 @@ function staffReply(q, a, C) {
 }
 function simAnswer(a, spoken) {
   if (SIM.done || !SIM.started) return;
+  // 컨시어지의 첫 부탁: 카드의 두 부탁(모닝콜 · 짐) 중 어느 쪽을 먼저 말해도 돼요 → 먼저 말한 쪽으로 차례를 바꿔요
+  if (SIM.qs[SIM.i] === 'cg_help') {
+    const F0 = a && HT.FRAME[a.f], w = spoken ? HT.wantOf(spoken) : F0 && F0.fact ? F0.fact.want : null;
+    if ((w === 'wake' || w === 'hold') && w !== (SIM.card.cgFirst === 'hold' ? 'hold' : 'wake')) { SIM.card.cgFirst = w; SIM.qs = HT.simQs(SIM.card); simPrep(); }
+  }
   const q = simQ(), C = simC(), L = SIM.log[SIM.i];
   const j = spoken ? HT.matchSpoken(spoken, q, C) : HT.judge(q, a, C);
   const model = HT.model(q, C);
@@ -883,7 +888,7 @@ const QS = (() => {
     { q: 'Front desk. How can I help you? — 1207호예요. 수건이 더 필요해요. 가장 알맞은 말은?', opts: towel.map(HT.text), a: 1,
       why: '전화 부탁은 방 번호 + 부탁을 질문으로 → Hi, this is room 1207. Could I get some extra towels, please? Give me는 명령처럼, I want는 조르는 말처럼 들려요. Two nights.는 며칠 묵는지 묻는 말의 대답이에요.',
       check: () => towel.map(a => j('cl_help', a, towelC)).join() === 'false,true,false,false' },
-    { q: '체크아웃한 뒤 오후까지 짐을 맡기고 싶어요. 어디로 갈까요? 그림을 누르거나 단추를 고르세요.', opts: ['A', 'B', 'C', 'D'], a: 2,
+    { q: '체크아웃한 뒤 오후 3시까지 짐을 맡기고 싶어요. 어디로 갈까요? 그림을 누르거나 단추를 고르세요.', opts: ['A', 'B', 'C', 'D'], a: 2,
       figure: placeFig('호텔의 네 곳. A 조식 식당 2층, B 객실 12층, C 컨시어지 1층, D 방 열쇠 · 안내 1층', ['breakfast', 'call', 'concierge', 'key'], ['2F', '12F', '1F', '1F']),
       why: '짐 맡기기 · 택시 · 모닝콜 같은 부탁은 컨시어지(concierge)에서 해요(호텔에 따라 프런트가 함께 맡기도 해요). → Could you hold my luggage until three?',
       check: () => HT.PLACES[5].id === 'concierge' && j('cg_help', o('cg_hold', '3:00'), { want: 'hold', hold: '3:00' }) },

@@ -640,6 +640,9 @@
   const SPK_PROB = [['nohot', /\bhot water\b/], ['ac', /\b(air conditioner|air conditioning|aircon|ac|a c)\b/], ['tv', /\b(tv|t v|television)\b/], ['wifi', /\b(wi fi|wifi|wi-fi|internet)\b/], ['outlet', /\b(outlet|socket)\b/], ['remote', /\bremote\b/], ['consent', /\bconsent\b/], ['remocon', /\b(remocon|remo con)\b/], ['locked', /\b(locked out|lock out|left my key)\b/], ['keycard', /\b(key ?card|key) (is not|does not|not) work/], ['noisy', /\b(noisy|noise|loud)\b/], ['cold', /\bcold\b/], ['notowel', /\btowels?\b/], ['notp', /\btoilet paper\b/]];
   const SPK_FIX = [['change', /\b(change rooms?|change my room|another room|different room|move rooms?)\b/], ['key', /\b(new key|new one|another key|new card|key card for me)\b/], ['bring:blanket', /\bblanket\b/], ['bring:batteries', /\bbatter(y|ies)\b/], ['bring:towels', /\bbring\b.*\btowels?\b/], ['bring:toiletpaper', /\bbring\b.*\btoilet paper\b/], ['send', /\b(send someone|send somebody|send a technician|look at it|check it|take a look|fix it|fix the)\b/]];
   const REPAIR_RE = /\b(say that again|pardon|repeat|more slowly|slow down|sorry what|sorry)\b/;
+  // 컨시어지에 한 부탁의 종류 (모닝콜 · 짐 · 택시 · 늦은 체크아웃)
+  const wantOf = s => /\b(wake|morning call)\b/.test(s) ? 'wake' : /\b(luggage|bags?|suitcases?|hold|keep|store)\b/.test(s) ? 'hold' : /\b(taxi|cab)\b/.test(s) ? 'taxi' : /\blate\b/.test(s) ? 'late' : null;
+  HT.wantOf = raw => wantOf(' ' + HT.canon(raw).join(' ') + ' ');
   const others = (list, me) => list.filter(n => n.toLowerCase() !== String(me || '').toLowerCase());
   HT.matchSpoken = function (raw, q, card) {
     if (typeof q === 'string') q = HT.Q[q];
@@ -747,7 +750,7 @@
         return pass('고른 것이 들렸어요.');
       }
       case 'ask': case 'waketime': case 'holdtime': {
-        const want = /\b(wake|morning call)\b/.test(s) ? 'wake' : /\b(luggage|bags?|suitcases?|hold|keep|store)\b/.test(s) ? 'hold' : /\b(taxi|cab)\b/.test(s) ? 'taxi' : /\blate\b/.test(s) ? 'late' : null;
+        const want = wantOf(s);
         const tr = nums.filter(r => r.length <= 4).map(toTime);
         if (q.intent === 'ask') {
           if (!want) return R(false, 1, `열쇠 낱말 ${q.key.join(' … ')} → 내가 부탁할 차례예요. 들린 말에 부탁이 없어요.`);
@@ -862,7 +865,8 @@
     if (c.thing === 'towels') qs.push('cl_count');
     qs.push('pr_help', 'pr_room', 'bf_room');
     if (c.bf === 'pay') qs.push('bf_charge');
-    qs.push('cg_help', 'cg_wtime', 'cg_more', 'cg_htime', 'co_out', 'co_room', 'co_mini', 'co_bill');
+    // 컨시어지: 카드의 두 부탁(모닝콜 · 짐) 중 손님이 먼저 말한 쪽부터(cgFirst, 시뮬레이터가 정함)
+    qs.push(...(c.cgFirst === 'hold' ? ['cg_help', 'cg_htime', 'cg_more', 'cg_wtime'] : ['cg_help', 'cg_wtime', 'cg_more', 'cg_htime']), 'co_out', 'co_room', 'co_mini', 'co_bill');
     return qs;
   };
   // 카드에 따라 바뀌는 말 (방 번호 · 합계 · 부탁할 차례)
@@ -870,8 +874,8 @@
     const q = HT.Q[id];
     if (id === 'k_any') return Object.assign({}, q, { en: `Here's your key card. You're in room ${c.room}, on ${HT.floorWords(HT.floorOf(c.room))}. Is there anything else I can help you with?`, ko: `카드 키 여기 있어요. ${c.room}호, ${HT.floorOf(c.room)}층이에요. 더 도와드릴 것이 있을까요?` });
     if (id === 'co_bill') { const t = HT.bill(c).total; return Object.assign({}, q, { en: `Here's your bill. Your total is ${HT.money(t)}.`, ko: `청구서 여기 있어요. 합계는 ${HT.priceKo(t)}예요.`, key: ['bill', HT.money(t)], total: t }); }
-    if (id === 'cg_help') return Object.assign({}, q, { fact: { want: 'wake' } });
-    if (id === 'cg_more') return Object.assign({}, q, { fact: { want: 'hold' } });
+    if (id === 'cg_help') return Object.assign({}, q, { fact: { want: c.cgFirst === 'hold' ? 'hold' : 'wake' } });
+    if (id === 'cg_more') return Object.assign({}, q, { fact: { want: c.cgFirst === 'hold' ? 'wake' : 'hold' } });
     return q;
   };
   HT.PLACE_OF = id => HT.Q[id].place;
@@ -888,7 +892,8 @@
     roomno: ['rn_its', 'rn_lit', 'nt_n'],
     count: ['ct_n', 'ct_bare', 'nt_n'],
     charge: ['ch_ok', 'g_permit', 'nt_n'],
-    ask: c => c.want === 'wake' ? ['cg_wake', 'cg_wakecmd', 'cg_hold'] : ['cg_hold', 'cg_keep', 'cg_wake'],
+    // 다른 틀은 카드에 없는 부탁(택시) — 카드의 다른 부탁(모닝콜 · 짐)은 먼저 말해도 되니 함정으로 쓰지 않아요
+    ask: c => c.want === 'wake' ? ['cg_wake', 'cg_wakecmd', 'cg_taxi'] : ['cg_hold', 'cg_keep', 'cg_taxi'],
     waketime: ['tm_at', 'tm_until', 'rn_its'],
     holdtime: ['tm_until', 'tm_at', 'rn_its'],
     co: ['co_yes', 'co_lit', 'mb_no'],
