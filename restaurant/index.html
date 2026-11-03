@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>식당, 질문의 모양이 대답을 정한다 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="상황별 영어 회화 튜토리얼: 식당. 서버는 짧은 질문을 아주 많이 해요. 질문의 모양이 대답을 정해요 — Yes/No 질문은 Yes · No + 한 마디(권하는 말이면 원하는 것을 바로), 고르는 질문(Still or sparkling?)은 고른 것 + please, 정보 질문(How would you like your steak?)은 정보 + please. 입구 · 음료와 주문 · 알레르기 · 서버 부르기 · 디저트와 포장 · 계산과 나눠 내기를 모양 잡기 → 틀에 내 정보 → 공손하게, 3단계 말하기 법으로 인터랙티브 모션그래픽 영상, 식당 시뮬레이터, 따라 말하기, 듣고 대답 고르기로 익혀요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 열쇠 낱말 · 대답 틀 · 내 정보 · 공손한 말 · 함정 · 빈칸 */
+  --c-key:#2266C4; --c-frame:#A86A00; --c-slot:#1F7A55; --c-pol:#6A45C2; --c-trap:#C2531F; --c-gap:#C2346E;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --paper:#F4F1E8; --ink:#1E2630;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-key); --en-cue:var(--c-pol); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-key:#6EC8FF; --c-frame:#FFC15E; --c-slot:#7FE0A8; --c-pol:#C9A7FF; --c-trap:#FF9F7A; --c-gap:#FF7AA8;
+    --paper:#E9E4D6; --ink:#1E2630;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-key:#6EC8FF; --c-frame:#FFC15E; --c-slot:#7FE0A8; --c-pol:#C9A7FF; --c-trap:#FF9F7A; --c-gap:#FF7AA8;
+  --paper:#E9E4D6; --ink:#1E2630;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+svg.pi{width:16px;height:16px;flex:none;vertical-align:-3px;margin-right:4px}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.steps3{display:flex;flex-wrap:wrap;gap:6px 10px;margin:4px 0 0;padding:0;list-style:none}
+.steps3 li{padding:4px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:14px;font-weight:600}
+.steps3 b{font-family:var(--mono);margin-right:4px;color:var(--accent)}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+.honest{margin:0;padding:10px 14px;border-left:4px solid var(--warn);border-radius:0 10px 10px 0;background:var(--surface);font-size:14px;color:var(--muted);max-width:84ch}
+.honest b{color:var(--text)}
+.voice-note{display:block;margin-top:4px;font-size:12.5px;font-family:var(--mono)}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.lab-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 12px}
+.lab-top h3{margin:0}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.lab .seg{margin-top:8px}
+.seg button{display:inline-flex;align-items:center;gap:4px;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button small{font-weight:500;color:var(--muted)}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;flex-wrap:wrap;gap:4px 6px;margin:10px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.lab .mo{margin-top:8px}
+.mo.mo-col{display:flex;flex-direction:column;align-items:stretch}
+.mo button{min-height:34px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer;text-align:left}
+.mo button:hover:not(:disabled){border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:0;font-size:14px;color:var(--muted)}
+.mr:empty{display:none}
+.ox{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.ox li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 10px;border-radius:10px;background:var(--surface-2)}
+.ox .ox-t{flex:1 1 14em;font-weight:600;font-size:15px}
+.ox .mo{flex-basis:100%}
+.ox .mr{flex-basis:100%}
+.lab h3.mt{margin-top:16px}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.qlist{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.qlist li{display:flex;align-items:flex-start;gap:8px;padding:6px 10px;border-radius:10px;background:var(--surface-2)}
+.qlist li > span{display:flex;flex-direction:column;font-weight:600}
+.qlist small{color:var(--muted);font-weight:400;font-size:13px}
+.mcard{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:4px 12px;margin:8px 0 0;padding:8px 12px;border-radius:10px;background:var(--paper);color:var(--ink);font-size:13.5px}
+.mcard div{display:flex;gap:6px}
+.mcard dt{color:#5B6168;font-weight:600}
+.mcard dd{margin:0;font-weight:700}
+.cv-row{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:8px;align-items:center;margin-top:8px}
+.cv-row .seg{margin-top:0}
+.cv-lab{font-weight:700;font-size:13.5px;color:var(--muted)}
+.lab .lmini{margin-top:10px}
+.lab .lmini .edr-card{padding:12px 14px}
+
+/* ---------- 듣기 단추 ---------- */
+.lp-play{display:inline-grid;place-items:center;flex:none;width:32px;height:32px;padding:0;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--accent);cursor:pointer}
+.lp-play svg{width:15px;height:15px;margin-left:2px}
+.lp-play:hover{border-color:var(--accent)}
+.lp-play.saying{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.lsn{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:0 0 12px}
+.lbtn{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 12px 0 10px;border:1px solid var(--accent);border-radius:999px;background:var(--surface);color:var(--accent);font-size:13.5px;font-weight:700;cursor:pointer}
+.lbtn svg{width:16px;height:16px;flex:none}
+.lbtn small{font-family:var(--mono);font-weight:500;opacity:.75}
+.lbtn[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.lbtn.tog{border-color:var(--line);color:var(--text);font-weight:600}
+.lbtn.tog[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.lbtn:disabled{opacity:.5;cursor:default}
+.ldr-now{font-size:13px;color:var(--muted)}
+.ldr-nosay{margin:0 0 10px;font-size:13.5px;color:var(--warn)}
+
+/* ---------- 역할 색 칠하기 ---------- */
+mark[class^="mk-"]{padding:0;border-radius:3px;background:transparent;color:inherit;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.mk-key{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-key) 30%, transparent)}
+mark.mk-frame{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-frame) 32%, transparent)}
+mark.mk-slot,mark.mk-ok{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-slot) 32%, transparent)}
+mark.mk-pol{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-pol) 30%, transparent)}
+mark.mk-trap{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-trap) 36%, transparent)}
+i.blank{display:inline-block;font-style:normal;padding:0 6px;border:1.5px dashed var(--c-gap);border-radius:5px;color:var(--c-gap);line-height:1.3}
+
+/* ---------- 듣고 대답 고르기 (공통 부품 .edr 모양 + 듣기 줄) ---------- */
+.ldr-hid{display:inline-block;height:.82em;vertical-align:-.06em;border-radius:3px;background:color-mix(in srgb, var(--text) 18%, transparent)}
+.adr-place{display:inline-flex;align-items:center;gap:2px;padding:1px 10px 1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-family:var(--body);font-weight:700}
+.adr-sit{margin:0 0 10px;padding:8px 12px;border-left:3px solid var(--c-slot);border-radius:0 10px 10px 0;background:var(--surface-2);font-size:15px}
+.adr-sit b{margin-right:8px;color:var(--c-slot)}
+.adr-ask{margin:4px 0 6px;font-size:13px;font-weight:700;color:var(--muted)}
+.adr-fast{margin-left:auto;padding:1px 8px;border-radius:999px;border:1px solid var(--c-trap);color:var(--c-trap);font-size:12.5px;font-weight:700;white-space:nowrap}
+.ldr-q{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 6px;padding:8px 12px;border-radius:10px;background:var(--surface-2);font-size:clamp(16px,2.1vw,19px);font-weight:500;line-height:1.6}
+.ldr-q > b{font-size:13px;color:var(--accent)}
+.ldr-q.now,.ldr-row.now .ldr-opt,.sim-bub.now{box-shadow:0 0 0 1px var(--accent);background:var(--accent-soft)}
+.ldr-opts{display:flex;flex-direction:column;gap:8px}
+.ldr-row{display:flex;align-items:center;gap:8px}
+.ldr-opt{flex:1;min-width:0;min-height:46px;padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);font-size:16px;line-height:1.55;text-align:left;cursor:pointer}
+.ldr-opt b{font-family:var(--mono);font-weight:500;color:var(--muted);margin-right:4px}
+.ldr-opt:hover:not(:disabled){border-color:var(--accent)}
+.ldr-opt:disabled{cursor:default}
+.ldr-row.right .ldr-opt{border-color:var(--ok);color:var(--ok);font-weight:600}
+.ldr-row.wrong .ldr-opt{border-color:var(--no);color:var(--no)}
+.ldr-row.wrong .ldr-t{text-decoration:line-through}
+.ldr-row.off .ldr-opt{opacity:.75}
+.ldr-ko{margin:12px 0 0;padding:10px 0 0;list-style:none;border-top:1px dashed var(--line);display:flex;flex-direction:column;gap:6px;font-size:14.5px}
+.ldr-ko li{display:flex;align-items:flex-start;gap:8px}
+.ldr-ko li > span{display:flex;flex-direction:column}
+.ldr-ko small{color:var(--muted);font-size:13.5px}
+.edr-btn svg{width:15px;height:15px;vertical-align:-2px}
+
+/* ---------- 놀이터: 호텔 숙박 시뮬레이터 ---------- */
+.sim{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:16px;align-items:start;outline:none}
+.sim-side{display:flex;flex-direction:column;gap:10px}
+.tcard{border-radius:12px;background:var(--paper);color:var(--ink);overflow:hidden;box-shadow:0 8px 20px -14px rgba(0,0,0,.6)}
+.tc-head{display:flex;align-items:center;gap:6px;margin:0;padding:8px 12px;background:#22324A;color:#fff;font-size:14px}
+.tc-head span{font-family:var(--mono);font-size:12px;opacity:.85}
+.tcard dl{margin:0;padding:8px 12px;display:flex;flex-direction:column;gap:4px}
+.tcard dl div{display:grid;grid-template-columns:6.4em minmax(0,1fr);gap:6px;font-size:14px}
+.tcard dt{color:#5B6168;font-weight:600}
+.tcard dd{margin:0;font-weight:700}
+.tc-foot{margin:0;padding:6px 12px 10px;font-size:12.5px;color:#5B6168;border-top:1px dashed rgba(30,38,48,.25)}
+.sim-prog{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.sim-prog li{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;border:1.5px solid var(--line);font-family:var(--mono);font-size:13px;color:var(--muted)}
+.sim-prog li.cur{border-color:var(--accent);color:var(--accent);font-weight:700}
+.sim-prog li.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+.sim-prog li.late{background:color-mix(in srgb, var(--warn) 70%, transparent);border-color:var(--warn);color:#fff}
+.sim-main{min-width:0;display:flex;flex-direction:column;gap:10px}
+.sim-start p{margin:0 0 12px;color:var(--muted)}
+.sim-officer{display:flex;align-items:flex-start;gap:10px}
+.sim-av{width:48px;height:48px;flex:none}
+.sim-bub{position:relative;flex:1;min-width:0;display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0;padding:10px 14px;border-radius:14px;background:var(--surface-2);border:1px solid color-mix(in srgb, var(--c-key) 40%, transparent);font-size:clamp(16px,2.1vw,19px);line-height:1.6}
+.sim-react{margin:0;padding:8px 12px;border-radius:10px;background:var(--surface-2);font-size:15px}
+.sim-react.ok{border-left:4px solid var(--ok)} .sim-react.no{border-left:4px solid var(--no)} .sim-react.repair{border-left:4px solid var(--c-pol)}
+.sim-react small{display:block;color:var(--muted);font-size:13.5px}
+.who{display:inline-block;margin-right:8px;padding:0 8px;border-radius:999px;background:color-mix(in srgb, var(--c-key) 18%, transparent);color:var(--c-key);font-size:12.5px;font-weight:700}
+.who.me{background:color-mix(in srgb, var(--c-trap) 16%, transparent);color:var(--c-trap)}
+.sim-lab{margin:4px 0 0;font-size:13px;font-weight:700;color:var(--muted)}
+.sim-lab small{font-family:var(--mono);font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chipf,.chips-s{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:4px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);font-size:15.5px;font-weight:600;cursor:pointer;text-align:left}
+.chipf{border-color:color-mix(in srgb, var(--c-frame) 55%, var(--line))}
+.chips-s{border-color:color-mix(in srgb, var(--c-slot) 55%, var(--line))}
+.chipf small,.chips-s small{font-family:var(--mono);font-weight:500;color:var(--muted)}
+.chipf[aria-pressed="true"]{background:color-mix(in srgb, var(--c-frame) 18%, var(--surface));border-color:var(--c-frame)}
+.chips-s[aria-pressed="true"]{background:color-mix(in srgb, var(--c-slot) 18%, var(--surface));border-color:var(--c-slot)}
+.sim-ans{display:flex;align-items:center;flex-wrap:wrap;gap:4px;min-height:48px;padding:8px 12px;border-radius:12px;border:1.5px dashed var(--line);font-size:17px;font-weight:600}
+.sim-why{padding:10px 12px;border-radius:10px;background:var(--surface-2);font-size:14.5px}
+.sim-why p{margin:0 0 4px;display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
+.sim-why.ok b{color:var(--ok)} .sim-why.no b{color:var(--no)}
+.sim-why small{color:var(--muted)}
+.sim-mic svg{width:17px;height:17px}
+.sim-mic.on{background:var(--no);border-color:var(--no);color:#fff}
+.sim-end{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:16px;align-items:start}
+.sim-score{margin:0 0 8px;font-size:17px}
+.sim-score b{font-family:var(--disp);font-size:26px;color:var(--accent)}
+.sim-log{margin:10px 0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:15px}
+.sim-log li{line-height:2}
+.sim-log .lp-play{width:28px;height:28px;vertical-align:middle;margin-right:4px}
+.tg-acts{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn svg{width:16px;height:16px}
+.okeys{margin:0;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+
+/* ---------- 따라 말하기 ---------- */
+.sh-mode{margin:0;padding:10px 14px;border-radius:10px;background:var(--surface);border:1px solid var(--line);font-size:14.5px}
+.sh-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:12px;align-items:start}
+.sh-grp{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.sh-grp h3{display:flex;align-items:center;gap:4px;margin:0 0 8px;font-size:16px}
+.sh-grp h3 span{margin-left:6px;font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted)}
+.sh-grp ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.sh-row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;align-items:center;padding:8px 10px;border-radius:10px;background:var(--surface-2)}
+.sh-btns{display:flex;gap:6px;grid-row:span 2;align-self:start}
+.sh-btns .lbtn{min-height:32px;padding:0 10px 0 8px;font-size:13px}
+.sh-btns .lbtn span{display:none}
+.sh-mic.on{background:var(--no);border-color:var(--no);color:#fff}
+.sh-t{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px}
+.sh-en{font-weight:600;font-size:16px}
+.sh-t small{flex-basis:100%;color:var(--muted);font-size:13px}
+.sh-who{font-size:12px;font-weight:700;padding:0 8px;border-radius:999px;background:color-mix(in srgb, var(--c-key) 18%, transparent);color:var(--c-key)}
+.sh-who.me{background:color-mix(in srgb, var(--c-trap) 16%, transparent);color:var(--c-trap)}
+.sh-res{grid-column:2;font-size:14px}
+.sh-res:empty{display:none}
+.sh-res p{margin:2px 0}
+.sh-cmp{font-size:16px;font-weight:600}
+.w-ok{color:var(--ok);box-shadow:inset 0 -2px 0 var(--ok)} .w-no{color:var(--c-trap);box-shadow:inset 0 -2px 0 var(--c-trap)}
+.sh-err{color:var(--no)}
+.sh-play{display:inline-flex;align-items:center;gap:6px}
+.sh-play svg{width:14px;height:14px}
+.sh-play.saying{border-color:var(--accent);color:var(--accent)}
+@media (min-width:761px){ .sh-btns .lbtn span{display:inline} }
+
+/* ---------- 식당 전용: 질문의 모양 · 메뉴판 · 계산서 · 한 줄 주문 · 끝 그림 ---------- */
+.shp{display:inline-flex;align-items:center;gap:2px;padding:1px 9px 1px 6px;border-radius:999px;font-family:var(--body);font-size:12.5px;font-weight:700;white-space:nowrap;vertical-align:1px}
+.shp svg.pi{width:15px;height:15px;margin-right:2px}
+.shp-yn{background:color-mix(in srgb, var(--c-key) 16%, transparent);color:var(--c-key)}
+.shp-or{background:color-mix(in srgb, var(--c-frame) 18%, transparent);color:var(--c-frame)}
+.shp-wh{background:color-mix(in srgb, var(--c-slot) 18%, transparent);color:var(--c-slot)}
+.shp-note{background:color-mix(in srgb, var(--c-pol) 16%, transparent);color:var(--c-pol)}
+.shapes3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:4px 0 0;padding:0;list-style:none;max-width:900px}
+.shapes3 li{padding:10px 12px;border-radius:12px;background:var(--surface);border:1px solid var(--line);font-size:14px}
+.shapes3 li b{display:flex;align-items:center;gap:4px;font-size:15px;margin-bottom:2px}
+.shapes3 li i{font-style:normal;color:var(--muted)}
+.mt8{margin-top:8px}
+.honest-mini{border-left:3px solid var(--warn);padding-left:8px}
+.rlist{margin:10px 0 0;padding:8px 12px;list-style:none;border-radius:10px;background:var(--paper);color:var(--ink);font-family:var(--mono);font-size:14px}
+.rlist li{display:flex;justify-content:space-between;gap:10px;padding:2px 0}
+.rlist li.tot{border-top:1.5px dashed rgba(30,38,48,.35);margin-top:4px;padding-top:6px;font-weight:700;font-family:var(--body)}
+.rlist li.tot b{color:#B8432B;font-family:var(--mono)}
+.read{color:var(--muted);font-size:14px;font-weight:600}
+.sim-build{display:flex;flex-direction:column;gap:6px;padding:10px 12px;border-radius:12px;border:1.5px solid color-mix(in srgb, var(--c-slot) 45%, var(--line));background:color-mix(in srgb, var(--c-slot) 6%, var(--surface))}
+.sim-build .cv-row{margin-top:2px}
+.chipf.chip-line{border-style:dashed;border-color:var(--c-slot);color:var(--c-slot)}
+.chipf.chip-req{border-color:color-mix(in srgb, var(--c-pol) 55%, var(--line))}
+.chipf.chip-req[aria-pressed="true"]{background:color-mix(in srgb, var(--c-pol) 16%, var(--surface));border-color:var(--c-pol)}
+.sim-prog li.skip{border-style:dashed;border-color:var(--c-slot);color:var(--c-slot);text-decoration:line-through}
+.sim-saved{margin:0 0 8px;font-size:15px}
+.sim-saved b{color:var(--c-slot)}
+.sim-bub .who{flex:none}
+.end-art{display:flex;flex-direction:column;align-items:center;gap:12px}
+.mnu{width:100%;border-radius:12px;background:var(--paper);color:var(--ink);overflow:hidden;box-shadow:0 8px 20px -14px rgba(0,0,0,.6);font-size:13px}
+.mnu p{margin:0}
+.mnu-h{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 12px;background:#2F5D4A;color:#F2E6C9;font-family:var(--mono);font-weight:700;font-size:13px}
+.mnu-h small{color:#CFE3D6;font-size:10.5px}
+.mnu ul{margin:0;padding:6px 12px 2px;list-style:none;display:flex;flex-direction:column;gap:2px}
+.mnu li{display:flex;align-items:center;gap:4px;padding:1px 4px;border-radius:6px;font-weight:700}
+.mnu li b{margin-left:auto;font-family:var(--mono);font-weight:600}
+.mnu li.on{background:rgba(31,122,85,.16);box-shadow:inset 0 0 0 1.5px #1F7A55}
+.mnu-n,.mnu-s,.mnu-sp,.mnu-k{padding:2px 12px;font-size:12px;color:#3A4250}
+.mnu-n{font-family:var(--mono);color:#5B6168}
+.mnu-sp{font-family:var(--mono);font-weight:700;color:#7A5A20}
+.mnu-k{padding-bottom:8px;color:#7A6A50}
+i.bdg{display:inline-grid;place-items:center;width:17px;height:17px;margin-left:2px;border-radius:50%;background:#D9CFB8;color:#5B4A30;font-style:normal;font-family:var(--mono);font-size:10.5px;font-weight:700;line-height:1}
+.rcpt{width:100%;max-width:300px;padding:12px 14px 14px;background:var(--paper);color:var(--ink);font-family:var(--mono);font-size:13px;border-radius:4px;box-shadow:0 8px 20px -14px rgba(0,0,0,.6)}
+.rcpt p{margin:0}
+.rc-h{text-align:center;font-weight:700;font-size:14px}
+.rc-g{text-align:center;font-size:11px;color:#5B6168;padding-bottom:6px;border-bottom:1.5px dashed rgba(30,38,48,.35)}
+.rcpt ul{margin:6px 0;padding:0;list-style:none}
+.rcpt li{display:flex;justify-content:space-between;gap:8px}
+.rc-t{display:flex;justify-content:space-between;font-weight:700;font-size:15px;border-top:1.5px solid rgba(30,38,48,.5);padding-top:4px}
+.rc-t b{color:#B8432B}
+.rc-fix{border-top:0!important;color:#1F7A55}
+.rc-fix b{color:#1F7A55!important}
+.rc-n{font-family:var(--body);font-size:12px;color:#5B6168;margin-top:6px!important}
+
+/* ---------- 블록 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px;scroll-margin-top:12px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td[lang]{font-weight:500}
+.sum td.k{font-weight:700;color:var(--c-key)}
+.sum td.pl{font-weight:700;white-space:nowrap}
+.sum b.f{color:var(--c-frame)} .sum b.s{color:var(--c-slot)} .sum b.p{color:var(--c-pol)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .sim{grid-template-columns:minmax(0,1fr)}
+  .sim-end{grid-template-columns:minmax(0,1fr)}
+  .end-art{flex-direction:row;justify-content:center;flex-wrap:wrap}
+  .shapes3{grid-template-columns:minmax(0,1fr)}
+  .cv-row{grid-template-columns:minmax(0,1fr);gap:4px}
+}
+@media (max-width:480px){ .okeys.kb{display:none} .chipf,.chips-s{font-size:14.5px;padding:4px 10px} }
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="restaurant"></script>
+<script src="../assets/to-top.js"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">상황별 영어 회화 · 식당 · <span id="durLbl">6분 34초</span></p>
+    <h1><em>식당</em>, 질문의 모양이 <em>대답을</em> 정한다</h1>
+    <p class="lead">식당에서는 서버가 짧은 질문을 아주 많이 해요. 물, 음료, 주문, 굽기, 곁들임, 알레르기, 디저트, 계산까지요. 그런데 질문에는 <b>모양</b>이 있어요. <b>Yes/No 질문</b>(<i lang="en">Are you ready to order?</i>)은 Yes · No에 한 마디를 더해요 — 권하는 말이면 원하는 것을 바로 말해도 돼요(<i lang="en">Can I get you something to drink? → Just water, please.</i>). <b>고르는 질문</b>(<i lang="en">Still or sparkling?</i>)과 <b>정보 질문</b>(<i lang="en">How would you like your steak?</i>)에는 <b>Yes.로 답할 수 없어요</b> — 고른 것, 정보 + please(<i lang="en">Sparkling, please. · Medium, please.</i>). 그래서 세 단계로 말해요. 질문 속 <b>열쇠 낱말과 모양</b>을 잡고, 짧은 <b>대답 틀</b>에 <b>내 정보</b>를 넣고, <b>공손하게</b> 끝내요. 사이다는 <i lang="en">cider</i>가 아니라 <i lang="en">a lemon-lime soda</i>, 계산은 <i lang="en">Calculate</i>가 아니라 <i lang="en">Could we get the check?</i>예요.</p>
+    <ol class="steps3" aria-label="3단계 말하기 법"><li><b>①</b>열쇠 낱말 + 질문의 모양 잡기</li><li><b>②</b>틀에 내 정보 넣기</li><li><b>③</b>공손하게 끝내기</li></ol>
+    <ul class="shapes3" aria-label="질문의 모양 세 가지">
+      <li><b class="shp shp-yn"><svg class="pi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8h10a4 4 0 0 1 0 8H7a4 4 0 0 1 0-8z"/><path d="M14.4 12a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0-5.2 0z" fill="currentColor" stroke="none"/></svg>Yes/No 질문 (스위치)</b><i>→ Yes · No + 한 마디. 권하는 말이면 원하는 것을 바로 말해도 돼요</i></li>
+      <li><b class="shp shp-or"><svg class="pi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21.5V14"/><path d="M12 14 6 8M12 14l6-6"/><path d="M6 8v4.4M6 8h4.4"/><path d="M18 8v4.4M18 8h-4.4"/></svg>고르는 질문 (갈림길)</b><i>→ 고른 것 + please. Yes ×</i></li>
+      <li><b class="shp shp-wh"><svg class="pi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 6.5h17v11h-17z"/><path d="M8 14h8"/></svg>정보 질문 (빈 상자)</b><i>→ 정보 + please. Yes ×</i></li>
+    </ul>
+    <ul class="legend" aria-label="문장 색의 뜻">
+      <li><i style="background:var(--c-key)"></i>열쇠 낱말 (무엇을 묻나 · or · how · which)</li>
+      <li><i style="background:var(--c-frame)"></i>대답 틀</li>
+      <li><i style="background:var(--c-slot)"></i>내 정보 (칸에 넣는 말)</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>빈칸</li>
+      <li><i style="background:var(--c-pol)"></i>공손한 말 (please · thank you · Could I · Excuse me · Sorry?)</li>
+      <li><i style="background:var(--c-trap)"></i>함정 (Yes만 하기 · 한국어 그대로 · 콩글리시 · 무례한 말 · 다른 질문의 대답)</li>
+    </ul>
+    <p class="honest"><b>먼저 알려 드려요.</b> 식당 이름(<i lang="en">Juniper Table</i>) · 메뉴 · 재료 · 값 · 계산서는 모두 지어낸 것이에요(실제 식당 · 체인과 상관없어요). 자리 안내를 기다리는지, 물이 무료인지, 테이블에서 계산하는지, 나눠 내는 법, 팁(tip)은 나라와 식당마다 달라요. 계산서에는 세금 · 봉사료를 넣지 않았어요. <b>알레르기가 있으면 메뉴 표시만 믿지 말고 직원에게 직접 말해요.</b> 이 튜토리얼은 말하기 연습이고 의학적인 조언이 아니에요. 소리는 녹음이 아니라 브라우저에 들어 있는 영어 음성(speechSynthesis)이라 기기마다 목소리가 다르고 실제 식당의 소리와도 달라요.<span class="voice-note"></span></p>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">식당 시뮬레이터</a><a href="#shadow">따라 말하기</a><a href="#drill">듣고 대답 고르기</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="식당 회화 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="식당 평면도의 일곱 곳에서 서버의 말풍선과 나의 대답 말풍선이 나타나고, 질문마다 모양 표시(스위치 · 갈림길 · 빈 상자)가 붙고, 고르는 질문에 Yes라고 한 대답에 줄이 그어지며, 한 줄 주문이 서버의 질문을 건너뛰게 하는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">식당 시뮬레이터 — 내 식사 카드로 입구부터 계산까지</h2>
+      <p>왼쪽 <b>식사 카드</b>가 오늘 저녁의 사실이에요(예약 · 인원과 자리 · 물과 음료 · 주문 · 알레르기 · 식사 중 부탁 · 남은 음식 · 디저트 · 계산). 그 아래 <b>메뉴판</b>에서 값과 알레르기 표시(P 땅콩 · S 새우 · M 우유 · N 견과류)를 볼 수 있어요. 서버의 말을 <b>듣기</b>(R) · <b>천천히</b>(S)로 듣고, 먼저 <b>질문의 모양</b>을 잡아요. 그다음 ① <b>대답 틀</b> 칩 가운데 하나를 고른 뒤 ② <b>내 정보</b> 칩을 넣어 대답해요. 틀 칩 가운데 하나만 맞고, 하나는 함정(Yes만 하기 · 한국어 그대로 · 콩글리시 · 무례한 말), 하나는 다른 질문의 대답이에요. 주문할 때는 <b>한 줄 주문</b>(L)으로 음식 · 굽기 · 곁들임 · 드레싱(알레르기까지)을 한 번에 말하면 서버가 그 질문을 건너뛰어요. 오늘의 스페셜 이름과 나온 음식은 서버가 말해 줘요 — 듣고 써야 해요. 식사 중 부탁이 둘이면 어느 쪽을 먼저 말해도 돼요. 규칙 엔진이 ①②③ 단계로 판정하면 서버가 반응하고, 왜 그런지와 모범 대답이 나와요. 브라우저가 음성 인식을 지원하면 마이크로 말해서 대답할 수도 있어요.</p>
+    </div>
+    <div class="card sim" id="sim" tabindex="-1">
+      <div class="sim-side"><div class="tcard" id="simCard"></div><div id="simMenu"></div><ol class="sim-prog" id="simProg" aria-label="질문 진행"></ol><button type="button" class="btn ghost" id="simNew">새 카드 만들기</button></div>
+      <div class="sim-main" id="simMain" aria-live="polite"></div>
+    </div>
+    <p class="okeys kb">키보드: R 듣기 · S 천천히 · T 대본 · 1~4 대답 틀 · A~C 내 정보 · 5~7 부탁(서버 부르기) · Enter 대답하기 · Backspace 지우기 · L 한 줄 주문(주문할 때) · M 말로 대답하기 · N 새 카드</p>
+  </section>
+
+  <section class="block" id="shadow" aria-labelledby="shTitle">
+    <div class="bhead">
+      <p class="eyebrow">따라 말하기</p>
+      <h2 id="shTitle">식당 표현 따라 말하기 — 28문장</h2>
+      <p>곳마다 서버에게 듣는 말과 내가 하는 말을 골랐어요. <b>듣기</b>로 한 번, <b>천천히</b>로 한 번 듣고 따라 말해 보세요. 마이크 단추를 누르면 내가 말한 문장을 원래 문장과 맞춰 봐요.</p>
+    </div>
+    <p class="sh-mode" id="shMode"></p>
+    <div class="sh-list" id="shList"></div>
+    <p class="honest"><b>음성 인식에 대해 정직하게 알려 드려요.</b> 맞춰 보는 것은 <b>낱말</b>뿐이에요. 발음이 좋은지 나쁜지는 판정하지 않아요. 크롬(Chrome) 같은 브라우저는 말을 글로 바꾸려고 소리를 브라우저 회사의 서버로 보내요. 이 사이트는 소리도 글도 저장하지 않아요. 녹음으로 연습할 때 녹음은 이 화면에만 잠깐 있다가 페이지를 닫으면 사라져요. 이름(Park 같은)은 음성 인식이 다르게 적기 쉬워요.</p>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">듣고 대답 고르기</p>
+      <h2 id="drillTitle">서버의 말을 듣고 내 대답 고르기 — 16문제</h2>
+      <p>식당의 일곱 곳과 ‘못 알아들었을 때’를 골고루 담았어요. 문제마다 <b>상황</b>이 한 줄 있고, 서버의 말은 소리로 먼저 들려줘요(<b>듣기</b> R · <b>천천히</b> S, 꼭 필요하면 <b>대본 보기</b> T). 대답 넷은 글로 보여요. 막히면 <b>힌트</b>(H)를 누르세요. ① 열쇠 낱말과 질문의 모양(서버의 말 옆에 모양 표시) → ② 틀과 내 정보 → ③ 공손한 말 순서로 색과 함께 열려요. 답하면 보기마다 규칙 엔진의 까닭, 해석, 대화 듣기가 나와요.</p>
+      <p class="honest">브라우저 음성이라 실제 식당의 말소리와 다르게 들릴 수 있어요. 잘 안 들리면 천천히 듣기를 켜 보세요. ‘아주 빠르게’ 표시가 있는 문제는 일부러 빠르게 읽어요.<span class="voice-note"></span></p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 모양 표시 · 굽기 띠의 칸 · 메뉴판의 줄 · 계산서의 줄을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 식당 영어</h2>
+      <p>① 열쇠 낱말로 무엇을 묻는지, 그리고 질문의 모양(Yes/No · 고르기 · 정보)을 잡고 ② 짧은 대답 틀에 내 정보(식사 카드와 맞게)를 넣고 ③ please · thank you · Could I …? · Excuse me로 공손하게 끝내요. 고르는 질문과 정보 질문에는 Yes만 하지 않아요. 권하는 Yes/No 질문에는 원하는 것을 바로 말해도 돼요. 못 알아들었으면 짐작하지 말고 되물어요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">곳</th><th scope="col">열쇠 낱말 · 모양</th><th scope="col">대답 틀</th></tr></thead>
+        <tbody>
+          <tr><td class="pl">1. 입구 · 자리 안내</td><td class="k" lang="en">reservation (Yes/No) · how many (정보) · inside or outside (고르기)</td><td lang="en"><b class="f">Yes, under</b> <b class="s">Park</b>. · <b class="s">Two</b>, <b class="p">please</b>. · <b class="f">A table for</b> <b class="s">two</b>, <b class="p">please</b>. · <b class="s">Outside</b>, <b class="p">please</b>.</td></tr>
+          <tr><td class="pl">2. 자리 · 음료</td><td class="k" lang="en">still or sparkling (고르기) · something to drink (Yes/No · 권하기)</td><td lang="en"><b class="s">Sparkling</b>, <b class="p">please</b>. · <b class="f">Just water,</b> <b class="p">please</b>. · <b class="p">Could I</b> <b class="f">get</b> <b class="s">a lemon-lime soda</b>, <b class="p">please</b>?</td></tr>
+          <tr><td class="pl">3. 주문</td><td class="k" lang="en">ready to order (Yes/No) · how would you like · which dressing (정보) · soup or salad (고르기)</td><td lang="en"><b class="f">Yes. I'll have the</b> <b class="s">ribeye steak</b>, <b class="p">please</b>. · <b class="s">Medium-rare</b>, <b class="p">please</b>. · <b class="s">Salad</b>, <b class="p">please</b>. · <b class="p">Could we</b> <b class="f">have a few more minutes?</b></td></tr>
+          <tr><td class="pl">4. 알레르기 · 요청</td><td class="k" lang="en">any food allergies (Yes/No) · (내가 먼저) Does it have …?</td><td lang="en"><b class="f">Yes, I'm allergic to</b> <b class="s">peanuts</b>. · <b class="f">Does the</b> <b class="s">house salad</b> <b class="f">have</b> <b class="s">nuts</b> <b class="f">in it?</b> · <b class="f">Yes, without</b> <b class="s">the walnuts</b>, <b class="p">please</b>. · <b class="f">Not too spicy,</b> <b class="p">please</b>.</td></tr>
+          <tr><td class="pl">5. 식사 중</td><td class="k" lang="en">How is everything (정보) · (내가 먼저) 부르기 · Here's your … (안내)</td><td lang="en"><b class="p">Excuse me</b>. <b class="p">Could I</b> <b class="f">get</b> <b class="s">some more water</b>, <b class="p">please</b>? · <b class="f">Great,</b> <b class="p">thank you</b>. · <b class="p">Excuse me</b>, <b class="f">this isn't what I ordered. I ordered the</b> <b class="s">ribeye steak</b>.</td></tr>
+          <tr><td class="pl">6. 디저트 · 포장</td><td class="k" lang="en">still working on (Yes/No) · some dessert (Yes/No · 권하기)</td><td lang="en"><b class="f">No, I'm done.</b> <b class="p">Could I</b> <b class="f">get a box for this?</b> · <b class="f">No,</b> <b class="p">thanks</b>. <b class="f">Just the check,</b> <b class="p">please</b>.</td></tr>
+          <tr><td class="pl">7. 계산</td><td class="k" lang="en">anything else (Yes/No) · together or separate · card or cash (고르기)</td><td lang="en"><b class="p">Could we</b> <b class="f">get the check?</b> · <b class="s">Separate</b>, <b class="p">please</b>. · <b class="p">Could we</b> <b class="f">split the bill?</b> · <b class="s">Card</b>, <b class="p">please</b>.</td></tr>
+          <tr><td class="pl">한 줄 주문</td><td class="k">음식 → 굽기 · 맵기 → with 곁들임 → 드레싱 → please</td><td lang="en"><b class="f">I'll have the</b> <b class="s">ribeye steak</b>, <b class="s">medium-rare</b>, <b class="f">with</b> <b class="s">a salad</b> <b class="f">and</b> <b class="s">Italian dressing</b>, <b class="p">please</b>.</td></tr>
+          <tr><td class="pl">못 알아들었을 때</td><td class="k">빠른 말 · 숫자 · 모르는 낱말</td><td lang="en"><b class="p">Sorry</b>, <b class="f">did you say</b> <b class="s">fifteen</b> <b class="f">minutes?</b> · <b class="p">Sorry</b>, <b class="f">still or sparkling?</b> · <b class="p">Sorry? Could you</b> <b class="f">say that again,</b> <b class="p">please</b>?</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>① 열쇠 낱말 + 질문의 모양 잡기</h3>
+        <dl>
+          <dt>Yes/No 질문 <span>yes/no question</span></dt><dd>Are you …? · Do you …? · Can I get you …? · Would you like …? → Yes · No + 한 마디. <i lang="en">Do you have a reservation? → Yes, under Park.</i> 권하는 말이면 원하는 것을 바로 말해도 돼요 → <i lang="en">Can I get you something to drink? → Just water, please.</i></dd>
+          <dt>고르는 질문 <span>choice question · A or B?</span></dt><dd>or가 들리면 둘 가운데 하나를 고르라는 말이에요. → 고른 것 + please. <i lang="en">Still or sparkling? → Sparkling, please.</i> Yes.로는 무엇을 골랐는지 알 수 없어요. 고르라고 할 때는 끝을 내려(↘) 말해요. 끝을 올리면(↗) 같은 낱말이 Yes/No 질문이 되기도 해요.</dd>
+          <dt>정보 질문 <span>wh-question</span></dt><dd>How many? · How would you like …? · Which …? · What can I get …? → 정보 + please. <i lang="en">How many? → Two, please.</i> Yes.로는 답이 안 돼요.</dd>
+          <dt>안내 · 내가 먼저 <span>statement</span></dt><dd>질문이 아니라 알려 주는 말 → 고맙다고 하거나, 내가 먼저 말할 차례예요. <i lang="en">Here's your grilled salmon.</i>(내가 시킨 음식인지 확인) · <i lang="en">Enjoy your meal!</i>(옆 테이블에 하는 인사 → 서버가 가까이 있으니 부를 수 있어요)</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>② 틀에 내 정보 넣기</h3>
+        <dl>
+          <dt>대답 틀 <span>frame</span></dt><dd>짧은 뼈대에 내 정보만 바꿔 넣어요. <i lang="en">___, please. · I'll have the ___, please. · I'm allergic to ___. · Could I get ___, please?</i></dd>
+          <dt>한 줄 주문 <span>one-line order</span></dt><dd>음식 → 굽기 · 맵기 → with 곁들임 → 드레싱 → without → please. 이미 말한 것은 서버가 다시 묻지 않아요(자주 쓰는 순서를 단순하게 줄인 규칙).</dd>
+          <dt>굽기 <span>doneness</span></dt><dd><i lang="en">rare · medium-rare · medium · medium-well · well-done</i>. ‘중간’을 옮긴 <i lang="en">middle</i>은 굽기를 말하는 낱말이 아니에요.</dd>
+          <dt>숫자와 값 <span>numbers</span></dt><dd>fifteen(뒤를 셈) · fifty(앞을 셈). 값은 점 앞 + 점 뒤 → <i lang="en">$14.50 → fourteen fifty · $28.50 each → twenty-eight fifty each</i>.</dd>
+          <dt>사실 + 내가 시킨 것 <span>wrong dish</span></dt><dd><i lang="en">Excuse me, this isn't what I ordered. I ordered the ribeye steak.</i> 따지지 않고 사실을 말하면 바로 바꿔 줘요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>③ 공손하게 끝내기</h3>
+        <dl>
+          <dt>please · thank you · Could I …?</dt><dd>짧은 대답에도 please. 부탁은 질문으로 → <i lang="en">Could I get some more water, please? · Could we get an extra plate?</i></dd>
+          <dt>서버 부르기 <span>Excuse me</span></dt><dd>눈을 맞추거나 손을 살짝 들고 → <i lang="en">Excuse me.</i> 많은 곳에서 서버가 먼저 와요. <i lang="en">Hey! · Waiter! · Here!</i>(‘여기요’ 그대로)와 박수 · 큰 소리는 무례하게 들려요(나라마다 달라요).</dd>
+          <dt>다시 묻기 <span>repair</span></dt><dd>못 알아들었으면 → <i lang="en">Sorry? Could you say that again, please?</i> 일부만 들렸으면 → <i lang="en">Sorry, still or sparkling?</i> 숫자가 헷갈리면 → <i lang="en">Sorry, did you say fifteen minutes?</i> <i lang="en">What?</i> 한 낱말은 퉁명스러워요.</dd>
+          <dt>무례하게 들리는 말 <span>blunt</span></dt><dd><i lang="en">Give me the menu. · I want steak. · Wait. · This is wrong! · Take it back.</i> → 명령하거나 조르거나 따지는 말처럼 들려요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>④ 한국어와 다른 점 · 콩글리시</h3>
+        <dl>
+          <dt>사이다</dt><dd>→ <i lang="en">a lemon-lime soda</i> (브랜드 이름으로 말하는 사람도 많아요). <i lang="en">cider</i>는 사과로 만든 음료이고, 영국에서는 보통 술이에요.</dd>
+          <dt>계산해 주세요</dt><dd>→ <i lang="en">Could we get the check, please?</i> (영국 <i lang="en">the bill</i>). <i lang="en">Calculate</i>는 셈을 한다는 뜻이에요. 많은 곳에서 테이블에서 계산해요.</dd>
+          <dt>더치페이</dt><dd>→ <i lang="en">Separate, please. · Could we split the bill? · Could we pay separately?</i> <i lang="en">Dutch pay</i> → 통하지 않아요.</dd>
+          <dt>땅콩 (알레르기) 있어요</dt><dd>→ <i lang="en">I'm allergic to peanuts. · I have a peanut allergy.</i> <i lang="en">I have peanut.</i>은 땅콩을 갖고 있다는 뜻이 돼요.</dd>
+          <dt>포장 · 남은 음식</dt><dd>→ <i lang="en">Could I get a box for this?</i> <i lang="en">Take out, please.</i>도 통하지만 보통 처음부터 가져갈 음식을 주문할 때 써요. <i lang="en">Packing</i>은 알아듣기 어려워요.</dd>
+          <dt>우리는 둘이에요</dt><dd><i lang="en">We are two.</i>도 알아듣지만 보통 → <i lang="en">Two, please. · A table for two, please.</i> (<i lang="en">two person</i> → <i lang="en">two people</i>)</dd>
+          <dt>물</dt><dd><i lang="en">still</i> = 그냥 물, <i lang="en">sparkling</i> = 탄산수, <i lang="en">tap water</i> = 수돗물(무료인 곳이 많지만 나라 · 식당마다 달라요).</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 실전 식사에서 지워지는 순서, 질문의 모양(적어 둔 모양과 글의 모양이 같은지도 점검), 한 줄 주문의 순서 판정과 서버가 건너뛰는 질문, 알레르기 확인(들어 있나 · 뺄 수 있나)과 서버의 대답, 직접 해 보기의 채점, 식당 시뮬레이터의 판정과 서버의 반응, 듣고 대답 고르기의 힌트와 보기별 해설, 퀴즈 대부분의 정답, 그리고 모든 값(메뉴판 · 계산서 · 나눠 낸 한 사람 몫 · 서버가 말하는 값)은 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 엔진은 소리를 듣지 않아요. 서버의 말마다 뜻 · 모양 · 열쇠 낱말을, 대답마다 틀과 칸의 정보를 적어 두었고, 엔진은 그것을 식사 카드(또는 상황)의 사실과 맞춰요. 대답 틀은 식당에서 자주 쓰는 것만 골랐고, 같은 뜻의 다른 자연스러운 대답도 많아요. 고르는 질문 · 정보 질문에 Yes · No만 하면 ①단계에서 걸러요. 권하는 Yes/No 질문에 원하는 것만 말하면 통과시켜요. 한 줄 주문의 순서와 메뉴마다 붙는 것(굽기 · 맵기 · 수프나 샐러드)은 단순하게 줄인 규칙이에요. <i lang="en">Hey! · Waiter! · Here! · Give me · I want · This is wrong!</i> 같은 말은 ③단계에서 ‘더 공손하게’로 봤어요 — 실제로는 말투와 표정으로도 공손함이 전해져요. 뜻이 통하지 않거나 다른 뜻이 되는 말(<i lang="en">cider · Calculate · Dutch pay · I have peanut. · Packing · middle</i>)은 ②단계에서 걸러요. 통하지만 더 흔한 말이 있는 말(<i lang="en">We are two. · two person · Take out · tap water · the bill</i>)은 통과시키고 알림을 붙여요. 말로 대답하기와 따라 말하기는 음성 인식이 글로 바꾼 낱말만 맞춰 봐요. 질문의 모양(yes · no만 했는지)은 같은 규칙으로 보고, 숫자는 15든 fifteen이든 같은 숫자로 맞추고, 발음과 공손함은 판정하지 않아요.</p>
+    <p>식당 이름 · 메뉴 · 재료 · 값 · 계산서는 모두 지어낸 것이고(실제 식당 · 체인과 상관없어요), 대화는 직접 만든 것이에요. 자리 안내, 물, 테이블에서 계산하기, 나눠 내기, 팁은 나라와 식당마다 달라요. 알레르기가 있으면 메뉴 표시만 믿지 말고 직원에게 직접 말해요(이 페이지는 말하기 연습이에요). 영어 소리는 모두 브라우저의 음성(speechSynthesis)이에요. 같은 형식의 회화 튜토리얼은 <a href="../airport/index.html">공항, 질문은 정해져 있다</a> · <a href="../cafe/index.html">카페, 주문에는 순서가 있다</a> · <a href="../hotel/index.html">호텔, 부탁은 질문으로 한다</a>이고, 숫자 듣기는 토익 듣기 튜토리얼 <a href="../listening-part1-2/index.html">T15</a> · <a href="../listening-part3-4/index.html">T16</a>에서도 다뤄요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 상황별 영어 회화 네 번째 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/voices.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
