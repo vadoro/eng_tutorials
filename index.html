@@ -14,9 +14,9 @@
 <body>
 <div class="wrap">
   <header class="site-head">
-    <a class="brand" href="index.html"><span class="mark" aria-hidden="true">EN</span>영어 튜토리얼</a>
-    <nav aria-label="사이트 안 이동">
-      <a href="#tracks">튜토리얼</a>
+    <a class="brand" href="index.html" aria-label="영어 튜토리얼 첫 화면"><span class="mark" aria-hidden="true">EN</span><span class="label">영어 튜토리얼</span></a>
+    <nav id="siteNav" aria-label="영역으로 바로 가기">
+      <a href="#tracks" class="nav-all">튜토리얼</a>
       <a href="#how">이용 방법</a>
     </nav>
   </header>
@@ -94,6 +94,47 @@
       (list.length ? '<ul class="shelf">' + list.map(card).join('') + '</ul>' : '<p class="placeholder"><b>곧 열려요.</b> 이 영역의 튜토리얼은 같은 형식으로 준비하고 있어요.</p>') +
       '</section>';
   }).join('');
+
+  // 위쪽 바의 영역 바로 가기 단추 — 영역마다 하나(catalog.js의 tracks 순서), 튜토리얼 수를 함께
+  var nav = document.getElementById('siteNav'), all = nav.querySelector('.nav-all');
+  all.insertAdjacentHTML('beforebegin', cat.tracks.map(function (k) {
+    var n = cat.tutorials.filter(function (t) { return t.track === k.id; }).length;
+    return '<a class="tk" href="#track-' + esc(k.id) + '" data-track="' + esc(k.id) + '" aria-label="' + esc(k.title) + (n ? ' — 튜토리얼 ' + n + '개' : ' — 준비 중') + '">' +
+      esc(k.short || k.title) + '<span class="n" aria-hidden="true">' + (n || '준비 중') + '</span></a>';
+  }).join(''));
+  all.remove();
+  var tks = [].slice.call(nav.querySelectorAll('a.tk'));
+  var mark = function (id) { tks.forEach(function (a) { if (a.getAttribute('data-track') === id) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); }); };
+  tks.forEach(function (a) { a.addEventListener('click', function () { mark(a.getAttribute('data-track')); }); });
+
+  // 지금 보고 있는 영역의 단추를 칠하고, 내려가면 바 아래에 선을 그어 내용과 나눔
+  var head = document.querySelector('.site-head'), secs = [].slice.call(main.querySelectorAll('.track'));
+  var idOf = function (s) { return s.id.replace(/^track-/, ''); };
+  var sync = function () {
+    head.classList.toggle('stuck', window.scrollY > 4);
+    var line = Math.min(window.innerHeight * 0.4, 280), id = '';
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top <= line) id = idOf(s); });
+    // 맨 아래까지 내려왔는데 마지막 영역의 머리가 화면에 있으면 그 영역
+    var last = secs[secs.length - 1];
+    if (last && window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2 && last.getBoundingClientRect().top < window.innerHeight) id = idOf(last);
+    mark(id);
+  };
+  var queued = false;
+  window.addEventListener('scroll', function () { if (queued) return; queued = true; requestAnimationFrame(function () { queued = false; sync(); }); }, { passive: true });
+  window.addEventListener('resize', sync);
+  sync();
+
+  // 다른 페이지에서 index.html#track-talk처럼 들어오면 그 영역으로. 글꼴 · 그림이 늦게 들어와 위쪽 카드 높이가 바뀌면
+  // 자리가 밀리므로, 방문자가 아직 스크롤하지 않았다면 다 들어온 뒤에 한 번 더 맞춤
+  var target = /^#track-/.test(location.hash) && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+  if (target) {
+    var moved = false;
+    var go = function () { if (!moved) { target.scrollIntoView({ behavior: 'instant', block: 'start' }); sync(); } };
+    ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (ev) { window.addEventListener(ev, function () { moved = true; }, { once: true, passive: true }); });
+    go();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(go);
+    window.addEventListener('load', go);
+  }
 })();
 </script>
 </body>
