@@ -37,8 +37,8 @@ window.EN_CATALOG = {
     {
       id: 'talk',
       title: '상황별 영어 회화',
-      summary: '공항, 카페, 호텔처럼 실제 장소에서 오가는 대화를 듣고 따라 말하며 익혀요.',
-      status: 'soon',
+      summary: '공항, 카페, 호텔처럼 실제 장소에서 오가는 대화를 듣고 따라 말하며 익혀요. 곳마다 거의 정해진 질문의 열쇠 낱말을 잡고, 짧은 대답 틀에 내 정보를 넣어 공손하게 답해요.',
+      status: 'open',
     },
   ],
   tutorials: [
@@ -262,6 +262,18 @@ window.EN_CATALOG = {
       types: [89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100],
       thumb: 'reading-part7/docs/poster.jpg',
       added: '2026-11-02',
+    },
+    {
+      slug: 'airport',
+      track: 'talk',
+      title: '공항, 질문은 정해져 있다',
+      topic: '공항 · 체크인 · 보안 검색 · 기내 · 입국 심사 · 수하물 · 세관',
+      summary: '공항 일곱 곳에서 듣는 질문은 거의 정해져 있어요. 열쇠 낱말로 무엇을 묻는지 잡고, 짧은 대답 틀에 내 정보를 넣고, 공손하게 끝내는 3단계로 말해요. 한국어를 그대로 옮긴 ‘My purpose is trip.’ 대신 ‘I\'m here for sightseeing.’, 그리고 못 알아들었을 때 다시 묻는 말까지 듣고 따라 말하며 익혀요.',
+      length: '6:30',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '입국 심사 시뮬레이터', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'airport/docs/poster.jpg',
+      added: '2026-11-03',
     },
   ],
 };
