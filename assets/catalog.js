@@ -290,5 +290,17 @@ window.EN_CATALOG = {
       thumb: 'cafe/docs/poster.jpg',
       added: '2026-11-03',
     },
+    {
+      slug: 'hotel',
+      track: 'talk',
+      title: '호텔, 부탁은 질문으로 한다',
+      topic: '호텔 · 체크인 · 방 번호와 시각 · 전화 부탁 · 문제 알리기 · 조식과 컨시어지 · 체크아웃',
+      summary: '공항과 카페에서는 주로 대답했지만, 호텔에서는 내가 먼저 부탁하고 문제를 알려요. 부탁은 질문으로(‘Give me towel.’ 대신 ‘Hi, this is room 1207. Could I get some extra towels, please?’), 문제는 사실 + 부탁으로. 2박 3일 = two nights, 1207 = twelve-oh-seven 같은 숫자와 콘센트 · 리모컨 · 서비스 같은 콩글리시, 청구서의 실수를 알리는 말까지 듣고 따라 말하며 익혀요.',
+      length: '6:32',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '호텔 숙박 시뮬레이터', '전화 한 줄', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'hotel/docs/poster.jpg',
+      added: '2026-11-03',
+    },
   ],
 };
