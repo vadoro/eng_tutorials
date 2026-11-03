@@ -176,7 +176,7 @@ Together or separate? → 고르는 질문. 더치페이를 옮긴 Dutch pay →
 
 45
 00:04:12,000 --> 00:04:17,000
-나눠 내면 서버가 나눈 값을 말해요 → That's $28.50 each. 계산은 테이블에서 할 때가 많아요.
+Separate → 따로 계산. 똑같이 나누려면 → Could you split it evenly? 서버 → That's $28.50 each.
 
 46
 00:04:17,000 --> 00:04:22,000
@@ -272,7 +272,7 @@ How would you like your steak cooked? ① 정보 질문 → (B) Yes, please. 탈
 
 69
 00:06:08,000 --> 00:06:12,000
-정답 (C) → Separate, please. 서버 → That's $26.00 each.
+정답 (C) → Separate, please. 똑같이 나눠 달라고 하면 → That's $26.00 each.
 
 70
 00:06:12,400 --> 00:06:18,000

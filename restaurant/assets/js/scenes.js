@@ -648,7 +648,7 @@
       [6, 12, 'Can I interest you in some dessert? → No, thanks. Just the check, please. 영국에서는 → the bill.'],
       [12, 18, '‘계산해 주세요’를 옮긴 Calculate → 셈을 한다는 뜻이라 알아듣기 어려워요. → Could we get the check, please?'],
       [18, 24, 'Together or separate? → 고르는 질문. 더치페이를 옮긴 Dutch pay → 통하지 않아요. → Separate, please.'],
-      [24, 29, `나눠 내면 서버가 나눈 값을 말해요 → That's ${EACH_D} each. 계산은 테이블에서 할 때가 많아요.`],
+      [24, 29, `Separate → 따로 계산. 똑같이 나누려면 → Could you split it evenly? 서버 → That's ${EACH_D} each.`],
       [29, 34, 'Card or cash? → Card, please. 팁은 나라와 식당마다 달라요. 꼭 내는 곳도, 거의 안 내는 곳도 있어요.'],
     ] },
     { id: 'oneline', n: '08', title: '한 번에 주문하기', sub: '한 줄 주문 · 서버가 건너뛰는 질문', d: 32, caps: [
@@ -678,7 +678,7 @@
       [33.5, 37.5, '③ (C) This is wrong! → 따지는 말이라 탈락. 정답 (B)'],
       [37.9, 42, '계산 → Will this be together or separate? ① (B) Yes. → 고르는 질문이라 탈락.'],
       [42, 46, '② (A) Dutch pay → 통하지 않는 콩글리시라 탈락.'],
-      [46, 50, `정답 (C) → Separate, please. 서버 → That's ${EACH_P} each.`],
+      [46, 50, `정답 (C) → Separate, please. 똑같이 나눠 달라고 하면 → That's ${EACH_P} each.`],
     ] },
     { id: 'summary', n: '11', title: '정리', sub: '곳 · 열쇠 낱말과 모양 · 대답 틀', d: 22, caps: [
       [0.4, 6, '정리해요. 질문을 들으면 먼저 모양을 잡아요 → Yes/No 질문, 고르는 질문, 정보 질문.'],
@@ -1256,7 +1256,7 @@
         const B = staff(g, qs, { x: LX, y: 160, w: 860, at: 18.4, u, roleAt: 19.2, size: 24, shape: 'or', shapeAt: 19.4 });
         answer(g, { x: LX, y: 160 + B.bh + 18, w: 860, A: dutch, B: u >= 21.6 ? sep : null, p: (u - 21.6) / 0.7, at: 19.8, u, size: 28, trapAt: 20.4, strikeAt: 20.5, verdict: u >= 22.4 ? { ok: true, at: 22.4 } : null, tag: ['더치페이 → 한국에서 만든 말', COL.trap, 20.8, 21.6], tagY: 160 + B.bh + 104 });
         fade(g, ramp(u, 22.8, 0.4), () => answer(g, { x: LX, y: 160 + B.bh + 120, w: 860, A: split, at: 22.8, u, size: 24, verdict: { ok: true, at: 23.4 } }));
-        fade(g, ramp(u, 18.6, 0.5), () => { panel(g, 960, 170, 240, 270, { fill: COL.panel, stroke: COL.faint }); icon(g, 'people', 1080, 270, 90, COL.soft, 1.6); txt(g, 'separate · split', 1080, 370, { size: 18, weight: 700, color: COL.clause, align: 'center' }); txt(g, '나눠 내기', 1080, 400, { size: 14, weight: 600, color: COL.muted, align: 'center' }); });
+        fade(g, ramp(u, 18.6, 0.5), () => { panel(g, 960, 170, 240, 270, { fill: COL.panel, stroke: COL.faint }); icon(g, 'people', 1080, 270, 90, COL.soft, 1.6); txt(g, 'separate · evenly', 1080, 370, { size: 18, weight: 700, color: COL.clause, align: 'center' }); txt(g, '따로 · 똑같이 나누기', 1080, 400, { size: 14, weight: 600, color: COL.muted, align: 'center' }); });
       });
       const inE = win(u, 24.2, 29.0);
       if (inE > 0.001 && u >= 24.0) fade(g, inE, () => {

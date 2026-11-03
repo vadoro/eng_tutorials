@@ -147,10 +147,14 @@
   // 서버가 계산한 대답
   RS.safeReply = function (items, allergy) {
     const s = RS.safe(items, allergy), A = RS.ALLERGENS[allergy], first = [].concat(items)[0], nm = id => RS.MENU[id].en.replace(/ dressing$/i, ' dressing');
+    // 이름이 복수인 음식(Peanut noodles) → come · don't · make them
+    const pl = id => /s$/i.test(RS.MENU[id].en);
     if (!A) return { en: '', ko: '', s };
-    if (!s.contains) return { en: `Thanks for letting me know. Good news — the ${nm(first).toLowerCase()} doesn't have any ${A.en}.`, ko: `알려 주셔서 고마워요. 다행히 ${RS.MENU[first].ko}에는 ${A.ko}${has(A.ko) ? '이' : '가'} 없어요.`, s };
+    if (!s.contains) return { en: `Thanks for letting me know. Good news — the ${nm(first).toLowerCase()} ${pl(first) ? 'don\'t' : 'doesn\'t'} have any ${A.en}.`, ko: `알려 주셔서 고마워요. 다행히 ${RS.MENU[first].ko}에는 ${A.ko}${has(A.ko) ? '이' : '가'} 없어요.`, s };
     const it = RS.MENU[s.item];
-    if (s.removable) return { en: `Thanks for letting me know. The ${it.en.toLowerCase()} comes with ${s.part.replace(/^the /, '')}, but we can make it without ${s.part === 'the cheese' || s.part === 'the ranch dressing' ? 'it' : 'them'}. Is that okay?`, ko: `알려 주셔서 고마워요. ${it.ko}에 ${eul(s.ko)} 넣지만, 빼고 만들 수 있어요. 괜찮으세요?`, s };
+    // 드레싱에 들어 있으면 → 다른 드레싱을 권해요
+    if (s.removable && /dressing$/i.test(it.en)) return { en: `Thanks for letting me know. The ${it.en.toLowerCase()} has ${A.en} in it. Would you like a different dressing?`, ko: `알려 주셔서 고마워요. ${it.ko}에는 ${A.ko}${has(A.ko) ? '이' : '가'} 들어 있어요. 다른 드레싱으로 드릴까요?`, s };
+    if (s.removable) return { en: `Thanks for letting me know. The ${it.en.toLowerCase()} ${pl(s.item) ? 'come' : 'comes'} with ${s.part.replace(/^the /, '')}, but we can make ${pl(s.item) ? `them without ${s.part}` : `it without ${s.part === 'the cheese' || s.part === 'the ranch dressing' ? 'it' : 'them'}`}. Is that okay?`, ko: `알려 주셔서 고마워요. ${it.ko}에 ${eul(s.ko)} 넣지만, 빼고 만들 수 있어요. 괜찮으세요?`, s };
     return { en: `I'm afraid ${s.part} can't be left out. Would you like to choose something else?`, ko: `죄송하지만 ${eul(s.ko)} 뺄 수 없어요. 다른 음식을 고르시겠어요?`, s };
   };
 
@@ -205,7 +209,8 @@
     done: I('yn', '아직 먹고 있는지 묻는 질문', '다 먹었으면 No, I\'m done. 남은 음식을 싸 가려면 Could I get a box for this?', c => c.box ? 'dn_box' : 'dn_fin', { turn: '다 먹었나', say: 'Are you still working on that? → 아직 드시는 중인지 묻는 Yes/No 질문이에요', yn: { yes: () => false } }),
     dessert: I('yn', '디저트를 권하는 질문', '원하면 Could I get the + 디저트? 아니면 No, thanks. Just the check, please.', c => c.dessert && c.dessert !== 'none' ? 'ds_could' : 'ds_no', { turn: '디저트', offer: true, yn: { yes: c => c.dessert == null ? null : c.dessert !== 'none', need: '무엇을 먹을지까지 말하면 서버가 다시 묻지 않아요 → Could I get the chocolate cake, please?' } }),
     checkreq: I('yn', '더 필요한 것이 있는지 묻는 질문(계산할 때)', 'Just the check, please. · Could we get the check, please?', 'cr_could', { turn: '계산 부탁', yn: { yes: () => null, need: '계산서를 바란다고 분명하게 말해요 → Just the check, please.' } }),
-    split: I('or', '함께 낼지 나눠 낼지 고르라는 질문', '고른 것 + please → Separate, please. · Together, please.', 'sp_pl', { turn: '나눠 내기', key: 'pay' }),
+    split: I('or', '함께 낼지 나눠 낼지 고르라는 질문', '고른 것 + please → Separate, please. · Together, please. 똑같이 나누려면 → Could you split it evenly, please?', 'sp_pl', { turn: '나눠 내기', key: 'pay' }),
+    even: I('yn', '똑같이 나눠 드릴지 묻는 질문', '똑같이 나누려면 Yes, please. 각자 먹은 것만 내려면 No, separate checks, please.', 'g_yesp', { turn: '똑같이 나누기', yn: { yes: c => c.pay == null ? null : c.pay === 'separate' } }),
     pay: I('or', '카드와 현금 가운데 고르라는 질문', '고른 것 + please → Card, please.', 'pm_pl', { turn: '내는 방법', key: 'paym' }),
     repair: I(null, '다시 묻는 말', '', 'rp_again'),
   };
@@ -256,6 +261,7 @@
   // 계산
   Q('ck_else', 'check', 'checkreq', 'Can I get you anything else?', '더 필요한 것 있으세요?', ['anything else'], { short: 'Anything else?' });
   Q('ck_split', 'check', 'split', 'Will this be together or separate?', '함께 계산하실까요, 따로 계산하실까요?', ['together or separate'], { choices: ['together', 'separate'], short: 'Together or separate?' });
+  Q('ck_even', 'check', 'even', 'Would you like me to split it evenly?', '똑같이 나눠 드릴까요?', ['split it evenly'], { short: 'Split it evenly?' });
   Q('ck_pay', 'check', 'pay', 'Here\'s your check. That\'s $28.50 each. Card or cash?', '계산서 여기 있어요. 한 분에 28달러 50센트예요. 카드로 하시겠어요, 현금으로 하시겠어요?', ['Card or cash'], { choices: ['card', 'cash'], fact: { amount: 2850 }, short: 'Card or cash?' });
   // 곳마다 대표 말 (영상 01장 지도 · 직접 해 보기)
   RS.ROUTE = {
@@ -503,9 +509,10 @@
   FR('cr_bill', 'checkreq', '{Could we} get the bill, {please}?', '계산서 좀 주시겠어요?', { fact: { checkreq: true }, note: 'bill도 통해요. 미국은 보통 check, 영국은 bill이라고 해요.' });
   FR('cr_calc', 'checkreq', 'Can I calculate?', '(어색한 말) 계산해도 돼요?', { fact: { checkreq: true }, tag: 'literal', why: '‘계산할게요’를 그대로 옮긴 calculate는 셈을 한다는 뜻이라 알아듣기 어려워요. 많은 곳에서 테이블에서 계산해요 → Could we get the check, please?' });
   FR('sp_pl', 'split', '___, {please}.', '___(으)로 해 주세요.', { slot: 'pay' });
-  FR('sp_split', 'split', '{Could we} split the bill, {please}?', '나눠서 계산해도 될까요?', { fact: { pay: 'separate' } });
+  // Separate, please. → 따로 계산(보통 각자 먹은 것). 똑같이 나누려면 이렇게 말하거나, 서버가 Would you like me to split it evenly?로 물어요
+  FR('sp_split', 'split', '{Could you} split it evenly, {please}?', '똑같이 나눠 주시겠어요?', { fact: { pay: 'separate', even: true } });
   FR('sp_sep', 'split', '{Could we} pay separately?', '따로 계산해도 될까요?', { fact: { pay: 'separate' } });
-  FR('sp_dutch', 'split', 'Dutch pay, {please}.', '(콩글리시) 더치페이요.', { fact: { pay: 'separate' }, tag: 'literal', why: '‘더치페이’는 한국에서 만든 말이라 영어로는 통하지 않아요. → Separate, please. · Could we split the bill?' });
+  FR('sp_dutch', 'split', 'Dutch pay, {please}.', '(콩글리시) 더치페이요.', { fact: { pay: 'separate' }, tag: 'literal', why: '‘더치페이’는 한국에서 만든 말이라 영어로는 통하지 않아요. → Separate, please. · Could you split it evenly?' });
   FR('pm_pl', 'pay', '___, {please}.', '___(으)로 할게요.', { slot: 'paym' });
   FR('pm_calc', 'pay', '___ calculate, {please}.', '(어색한 말) ___ 계산이요.', { slot: 'paym', tag: 'literal', why: '‘카드 계산이요’의 ‘계산’을 calculate로 옮기면 셈을 한다는 뜻이라 어색해요. → Card, please.' });
   FR('pm_conf', 'pay', '{Sorry}, was that ___ each?', '죄송한데, 한 사람에 ___였나요?', { slot: 'money', check: true });
@@ -593,7 +600,7 @@
   };
 
   /* ---------- 이미 답한 질문 (시뮬레이터의 서버가 건너뜀) ---------- */
-  const KEY2INTENT = { name: ['name'], party: ['party'], dish: ['ready', 'order'], cook: ['cook'], spice: ['spice'], starter: ['starter'], dressing: ['dressing'], allergy: ['allergy'], without: ['safe'], need: ['need'], need2: ['more'], checkreq: ['checkreq'] };
+  const KEY2INTENT = { name: ['name'], party: ['party'], dish: ['ready', 'order'], cook: ['cook'], spice: ['spice'], starter: ['starter'], dressing: ['dressing'], allergy: ['allergy'], without: ['safe'], need: ['need'], need2: ['more'], checkreq: ['checkreq'], even: ['even'] };
   RS.coveredBy = (facts, intent) => { const out = new Set(intent ? [intent] : []); Object.keys(facts).forEach(k => (KEY2INTENT[k] || []).forEach(i => out.add(i))); return [...out]; };
   RS.covered = (a, q) => { if (typeof q === 'string') q = RS.Q[q]; return RS.coveredBy(RS.factOf(a, q), q.intent); };
   RS.coveredKo = cov => cov.filter(i => !['ready', 'order', 'call', 'need', 'dessert', 'resv'].includes(i)).map(i => RS.INTENT_KO[i]).filter((x, i, a) => x && a.indexOf(x) === i);
@@ -836,6 +843,7 @@
     if (q.shape === 'or' && yesHeard && !bare) notes.push('고르는 질문에는 Yes 없이 고른 것만 말해도 돼요.');
     // 고르는 질문 · 정보 질문: 다른 질문의 대답만 들리면 ①
     const otherAns = (keys) => { for (const k of keys) { const v = find(k, s); if (v) return [k, v]; } return null; };
+    const EVEN_RE = /\b(evenly|equally|in half|down the middle|fifty fifty)\b/;
     const pickOr = (k, label) => {
       const v = find(k, s);
       if (!v) { const o = otherAns(Object.keys(SPK).filter(x => x !== k)); return o ? R(false, 1, `${shapeHead(q)}. 들린 말(${RS.factKo(RS.SLOT[o[0]] ? RS.SLOT[o[0]].key : o[0], o[1])})은 다른 질문의 대답처럼 들려요 → ${It.want}`) : keyMiss(); }
@@ -1014,7 +1022,16 @@
       }
       case 'split': {
         if (/\bdutch\b/.test(s)) return R(false, 2, RS.FRAME.sp_dutch.why, { tag: 'literal' });
-        return pickOr('pay', '고른 것');
+        const r = pickOr('pay', '고른 것');
+        if (r.ok && EVEN_RE.test(s)) r.covered = ['split', 'even'];
+        return r;
+      }
+      case 'even': {
+        const ev = EVEN_RE.test(s), no = (noHeard && !yesHeard) || /\b(separate checks?|by item|separately)\b/.test(s);
+        if (!yesHeard && !ev && !no && find('paym', s)) return R(false, 1, `${shapeHead(q)}. 들린 말은 다른 질문의 대답처럼 들려요 → ${It.want}`);
+        if (no && !ev) return C.pay === 'separate' ? R(false, 2, '카드와 달라요. 카드: 똑같이 나눠 내기 · 들린 말: 똑같이 나누지 않음.', { tag: 'fact' }) : pass('똑같이 나누지 않는다는 말이 들렸어요.');
+        if (!(yesHeard || ev || /\b(please|great|perfect|thank|thanks|fine|sounds good)\b/.test(s))) return keyMiss();
+        return pass('똑같이 나눠 달라는 말이 들렸어요.');
       }
       case 'pay': {
         if (/\bcalculate\b/.test(s)) notes.push(RS.FRAME.pm_calc.why);
@@ -1091,7 +1108,7 @@
     qs.push('ml_dish', 'ml_how', 'ml_pass', 'ml_what');
     if (c.need2) qs.push('ml_more');
     qs.push('ds_done', 'ds_offer', 'ck_else');
-    if (c.party > 1) qs.push('ck_split');
+    if (c.party > 1) { qs.push('ck_split'); if (c.pay === 'separate') qs.push('ck_even'); }
     qs.push('ck_pay');
     return qs;
   };
@@ -1137,6 +1154,7 @@
     dessert: c => c.dessert === 'none' ? ['ds_no', 'ds_calc', 'st_pl'] : ['ds_could', 'ds_give', 'ds_no'],
     checkreq: ['cr_could', 'cr_calc', 'pm_pl'],
     split: ['sp_pl', 'sp_dutch', 'pm_pl'],
+    even: ['g_yesp', 'g_no', 'pm_pl'],
     pay: ['pm_pl', 'pm_calc', 'sp_pl'],
   };
   RS.simFrames = (intent, c) => { const x = RS.SIM_FRAMES[intent]; return typeof x === 'function' ? x(c) : x ? x.slice() : null; };
@@ -1226,7 +1244,8 @@
       case 'done': return C.box ? 'Of course. I\'ll bring a box.' : 'I\'ll take that for you.';
       case 'dessert': return C.dessert === 'none' ? 'Sure.' : 'Great choice. I\'ll bring it right out.';
       case 'checkreq': return 'Sure, I\'ll be right back with your check.';
-      case 'split': return C.pay === 'separate' ? 'No problem. I\'ll split it evenly.' : 'Sure.';
+      case 'split': return f.even ? 'No problem. I\'ll split it evenly.' : C.pay === 'separate' ? null : 'Sure.';
+      case 'even': return 'No problem. I\'ll split it evenly.';
       default: return null;
     }
   };
@@ -1253,7 +1272,7 @@
     { q: 'ds_fast', sit: '서버가 아주 빠르게 말했어요. ‘… still …’만 들렸어요.', card: {}, a: 3, opts: [o('dn_box'), o('rp_water'), o('wa_pl', 'still'), o('rp_again')] },
     { q: 'ds_offer', sit: '디저트는 먹지 않고 이제 계산하고 싶어요.', card: { dessert: 'none' }, a: 0, opts: [o('ds_no'), o('ds_calc'), o('g_yesp'), o('ds_short', 'cake')] },
     { q: 'ck_else', sit: '디저트까지 다 먹었어요. 이제 계산서를 받고 싶어요.', card: {}, a: 1, opts: [o('cr_calc'), o('cr_could'), o('pm_pl', 'card'), o('rp_rude')] },
-    { q: 'ck_split', sit: '친구와 똑같이 나눠 내고 싶어요.', card: { pay: 'separate' }, a: 2, opts: [o('sp_dutch'), o('g_yes'), o('sp_pl', 'separate'), o('sp_pl', 'together')] },
+    { q: 'ck_split', sit: '친구와 따로 계산하고 싶어요.', card: { pay: 'separate' }, a: 2, opts: [o('sp_dutch'), o('g_yes'), o('sp_pl', 'separate'), o('sp_pl', 'together')] },
   ];
   RS.DRILL.forEach((it, i) => { it.n = i; it.Q = it.served ? RS.simQ('ml_dish', Object.assign({ dish: it.card.dish, served: it.served })) : RS.Q[it.q]; it.place = it.Q.place; });
   // 직접 해 보기의 짧은 문제 (00장 · 03장) — 연습 문제와 다른 상황
@@ -1386,7 +1405,7 @@
     SH('dessert', 'me', 'No, thanks. Just the check, please.', '아니요, 괜찮아요. 계산서만 주세요.'),
     SH('check', 'staff', 'Will this be together or separate?', '함께 계산하실까요, 따로 계산하실까요?'),
     SH('check', 'me', 'Separate, please.', '따로 해 주세요.'),
-    SH('check', 'me', 'Could we split the bill, please?', '나눠서 계산해도 될까요?'),
+    SH('check', 'me', 'Could you split it evenly, please?', '똑같이 나눠 주시겠어요?'),
     SH('check', 'me', 'Card, please.', '카드로 할게요.'),
   ];
 

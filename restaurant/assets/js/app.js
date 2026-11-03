@@ -385,7 +385,7 @@ const LABS = {
       <ul class="rlist">${B.items.map(it => `<li><span lang="en">${esc(it.en)}</span><b>${RS.money(it.c)}</b></li>`).join('')}<li class="tot"><span>합계 TOTAL</span><b>${RS.money(B.total)}</b></li>${c.party > 1 && c.pay === 'separate' ? `<li class="tot"><span>한 사람 EACH (÷ ${c.party})</span><b>${RS.money(RS.split(B, c.party).each)}</b></li>` : ''}</ul>
       <p class="enline">${lpBtn(staffSeq(q), '서버의 말 듣기')}<span lang="en">${esc(q.en)}</span> <small class="read">→ <span lang="en">${esc(RS.priceWords(q.fact.amount))}</span></small></p>
       ${m ? `<p class="note">서버가 먼저 묻는 말 → <span lang="en">Will this be together or separate?</span> (고르는 질문)</p><p class="enline">${lpBtn(meSeq(m), '맞는 대답 듣기')}<span lang="en">${segHTML(m)}</span></p>` : ''}
-      <p class="note">값은 지어낸 메뉴의 값이고, 세금 · 봉사료는 나라마다 달라서 빼고 계산했어요. 나눠 낼 때 한 사람 몫이 센트까지 똑같이 나뉘게 함께 온 사람의 음식을 골랐어요. 영상 · 계산서 · 서버의 말이 모두 같은 계산(<code>RS.bill</code> · <code>RS.split</code>)이에요.</p>${S.bill ? clearBtn : ''}`;
+      <p class="note"><span lang="en">Separate, please.</span> → 따로 계산(보통 각자 먹은 것만 내요). 똑같이 나누려면 → <span lang="en">Could you split it evenly, please?</span> 서버가 <span lang="en">Would you like me to split it evenly?</span>로 묻기도 해요.</p><p class="note">값은 지어낸 메뉴의 값이고, 세금 · 봉사료는 나라마다 달라서 빼고 계산했어요. 나눠 낼 때 한 사람 몫이 센트까지 똑같이 나뉘게 함께 온 사람의 음식을 골랐어요. 영상 · 계산서 · 서버의 말이 모두 같은 계산(<code>RS.bill</code> · <code>RS.split</code>)이에요.</p>${S.bill ? clearBtn : ''}`;
   },
   oneline: () => {
     const L = LAB.line, has = L.words.length, a = { f: 'line', line: { words: L.words.slice() } };
@@ -937,7 +937,7 @@ const QS = (() => {
     { q: '물이 더 필요해요. 서버가 옆 테이블에 인사하며 지나가요. 가장 알맞은 말은?', opts: call.map(RS.text), a: 0,
       why: '서버를 부를 때 → Excuse me. (눈을 맞추거나 손을 살짝 들어요.) 부탁은 질문으로 → Could I get some more water, please? Hey! · Waiter! · Here!(‘여기요’ 그대로)는 무례하게 들려요.',
       check: () => call.map(a => j('ml_pass', a, { need: 'water' })).join() === 'true,false,false,false' },
-    { q: `친구와 둘이 똑같이 나눠 내요(Separate, please.). 계산서에서 한 사람이 낼 값이 적힌 줄은? 그림 속 줄을 눌러도 돼요.`, opts: ['A', 'B', 'C', 'D'], a: 3,
+    { q: `친구와 둘이 똑같이 나눠 내요(Could you split it evenly?). 계산서에서 한 사람이 낼 값이 적힌 줄은? 그림 속 줄을 눌러도 돼요.`, opts: ['A', 'B', 'C', 'D'], a: 3,
       figure: checkFig(`계산서. A Ribeye steak ${RS.money(B.items[0].c)}, B Sparkling water ${RS.money(RS.MENU.sparkling.p)}, C TOTAL ${RS.money(B.total)}, D EACH ${RS.money(each)}`, D, [0, spIdx, 'total', 'each']),
       why: `합계 ${RS.money(B.total)} → 둘이 똑같이 나누면 한 사람 ${RS.money(each)}. 서버 → That's ${RS.money(each)} each. (값은 지어낸 것이고, 세금 · 팁은 나라마다 달라서 뺐어요.)`,
       check: () => each === 2850 && spIdx > 0 },
