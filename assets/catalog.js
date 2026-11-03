@@ -278,5 +278,17 @@ window.EN_CATALOG = {
       thumb: 'airport/docs/poster.jpg',
       added: '2026-11-03',
     },
+    {
+      slug: 'cafe',
+      track: 'talk',
+      title: '카페, 주문에는 순서가 있다',
+      topic: '카페 · 주문 · 크기와 온도 · 옵션 · 이름과 포장 · 계산 · 음료 받기',
+      summary: '카페 주문대의 질문은 거의 같고 순서도 정해져 있어요. 음료 → 크기 → 온도 → 옵션 → 이름 → 포장 → 계산 → 받기. 순서를 알면 빠른 말도 짐작되고, 한 문장에 순서대로 말하면 바리스타가 질문을 건너뛰어요. ‘Give me ice americano.’ 대신 ‘Can I get an iced americano?’, 사이즈업 · 샷 추가 · 포장 같은 콩글리시와 값 읽기까지 듣고 따라 말하며 익혀요.',
+      length: '6:36',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '카페 주문 시뮬레이터', '한 문장 주문', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'cafe/docs/poster.jpg',
+      added: '2026-11-03',
+    },
   ],
 };
