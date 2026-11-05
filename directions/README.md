@@ -53,6 +53,15 @@
 
 음성 해설은 자막의 `(A)`~`(D)`를 ‘에이 · 비 · 씨 · 디’로, `Yes/No`는 *Yes or No*로 읽어요. 자막 속 영어(*Take Exit 3.* · *fifteen*)는 영어 음성으로, 한국어 속 숫자(*15와 50*)는 한국어로 읽어요.
 
+**미리 만든 목소리(선택)**: `audio/narration/`에 VoiceStudio로 만든 음성 파일이 있으면 해설의 그 조각은 그 목소리(「튜토리얼 내레이터 (젊은 여성)」)로 읽고, 파일이 없는 조각은 브라우저 음성으로 읽어요. 기본은 한국어 조각만 그 목소리이고, 영어 조각(본보기 영어 문장)은 브라우저의 미국 영어 음성 그대로예요. 만드는 법(VoiceStudio가 있는 맥에서):
+
+```bash
+node tools/narration-pieces.cjs directions                 # 읽기 조각 목록 (자막을 고쳤을 때만, 클라우드에서도 됨)
+python3 tools/voicestudio-narration.py directions --limit 5  # 앞의 5개만 만들어 먼저 들어 보기
+python3 tools/voicestudio-narration.py directions           # 나머지 (이미 만든 파일은 건너뜀)
+python3 tools/voicestudio-narration.py directions --english # 영어 조각도 같은 목소리로 (선택)
+```
+
 ## 무엇이 규칙 계산인가요
 
 - **규칙 엔진** `assets/js/grammar.js`가 맞고 틀림과 까닭, 3단계 가운데 몇 단계에서 걸리는지를 정해요. 영상 속 지도 위의 모든 길 · 화살표 · 걷는 사람, 길 안내 영어와 그 한국어, 되짚는 조각과 판정, 상대가 고쳐 주는 말, ✓·×와 실전에서 지워지는 순서, 직접 해 보기 채점, 시뮬레이터의 판정 · 반응 · 걷는 길, 듣고 대답 고르기의 힌트와 보기별 해설, 퀴즈 정답이 여기서 나와요.
@@ -101,6 +110,7 @@ assets/js/scenes.js     영상 장면 12개, 장 목록과 자막, 단계 · 건
                         단계 띠(strip), 동네 지도(town: 이름표 · 걷는 사람 · 계산된 길 · 돌기 화살표 · 정류장 · 핀), 버스 노선 띠, 길 카드
 assets/js/app.js        플레이어, 직접 해 보기, 듣고 대답 고르기(DDrill), 길 찾기 시뮬레이터(지도 누르기 · 걷기), 따라 말하기(음성 인식 · 녹음), 퀴즈(지도 그림 문제), 영상 추출(EN_EXPORT)
 video/                  자막 원고(SRT)
+audio/narration/        음성 해설의 읽기 조각 목록(pieces.json) · 미리 만든 음성 파일 목록(clips.js) · 음성 파일(조각 id.mp3|m4a, 선택)
 docs/poster.jpg         사이트 카드 그림
 ```
 

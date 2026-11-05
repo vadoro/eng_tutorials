@@ -431,6 +431,7 @@ const NARR = (window.EN && EN.narration) ? EN.narration({
     [/Yes\/No/g, 'Yes or No'], [/\s\+\s/g, ', '], [/ = /g, ', '], [/ — /g, ', ']],
   rate: () => speed,
   holdBefore: 0.05,
+  clips: window.EN_CLIPS,   // 미리 만든 음성 파일(audio/narration/) — 있는 조각은 그 목소리로, 없는 조각은 브라우저 음성으로
 }) : { supported: false, reset() {}, hold: (T, next) => next, sync() {} };
 
 /* =========================================================

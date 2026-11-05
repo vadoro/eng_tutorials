@@ -18,6 +18,11 @@
  *    // 단추와 안내 문구 연결
  *    EN.narration.bind(narr, buttonEl, noteEl, { onEnable() { if (!started) play(); } });
  *
+ *    미리 만든 음성 파일(선택): clips: window.EN_CLIPS
+ *      { voice: '목소리 이름', base: 'audio/narration/', clips: { 조각id: ['파일', 초] } }
+ *      자막을 읽기 조각(한국어 · 영어)으로 나눈 뒤, 파일이 있는 조각은 그 파일을, 없는 조각은 브라우저 음성으로 읽어요.
+ *      조각 id는 EN.narration.pieceId(lang, text), 조각 목록은 narr.pieces() (tools/narration-pieces.cjs가 씀).
+ *
  * 2) EN.say(text, { slow }) — 영어 문장 하나를 영어 음성으로 읽습니다(발음 듣기 단추용).
  *    EN.say.supported 가 false이면 단추를 숨기세요. EN.say.stop()으로 멈춥니다.
  *
@@ -83,6 +88,18 @@
     return u;
   }
 
+  // 조각 id: 'lang|text'의 FNV-1a 32비트 (UTF-16 단위) → 'k1a2b3c4d' · 'e…' (미리 만든 음성 파일 이름)
+  var pieceId = function (lang, text) {
+    var s = lang + '|' + text, h = 0x811c9dc5;
+    for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
+    return (lang === 'en' ? 'e' : 'k') + ('0000000' + h.toString(16)).slice(-8);
+  };
+  // 미리 만든 음성 파일을 읽는 오디오 하나 (Safari처럼 사용자가 누를 때만 소리를 허락하는 브라우저 때문에, 단추를 누를 때 한 번 풀어 둠)
+  var AUD = null, SILENT = 'data:audio/wav;base64,UklGRsQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+  var audio = function () { if (!AUD && typeof window.Audio === 'function') { AUD = new window.Audio(); AUD.preload = 'auto'; } return AUD; };
+  // 잠금 풀기용 무음(0.01초)은 멈추지 않고 끝나게 둠 (곧바로 멈추면 Safari가 풀린 것으로 보지 않을 수 있어요)
+  var audioStop = function () { if (AUD) { AUD.onended = AUD.onerror = null; if (AUD.src === SILENT) return; try { AUD.pause(); } catch (e) { /* 이미 멈춤 */ } } };
+
   /* ---------- 음성 해설 ---------- */
   EN.narration = function (opts) {
     opts = opts || {};
@@ -90,30 +107,57 @@
     var read = (opts.read || []).concat(BASE_READ);
     var rate = opts.rate || function () { return 1; };
     var holdBefore = opts.holdBefore == null ? 0.05 : opts.holdBefore;
-    var n = { supported: SUPPORTED, on: false, busy: false, idx: -1, since: 0, len: 0, token: 0 };
+    var C = opts.clips && opts.clips.clips ? opts.clips : null, CLIPS = C ? C.clips : {}, BASE = C ? (C.base || '') : '';
+    var nClips = Object.keys(CLIPS).length, hasClips = nClips > 0 && typeof window.Audio === 'function';
+    var clipOf = function (p) { return hasClips ? CLIPS[pieceId(p.lang, p.text)] || null : null; };
+    var n = { supported: SUPPORTED || hasClips, on: false, busy: false, idx: -1, since: 0, len: 0, limit: 0, token: 0, clips: hasClips ? nClips : 0 };
+    EN.narration.last = n;
 
     n.line = function (text) {
       return read.reduce(function (s, r) { return s.replace(r[0], r[1]); }, String(text)).replace(/\s{2,}/g, ' ').trim();
     };
     n.reset = function () {
-      if (n.supported && n.on) synth.cancel();
-      n.busy = false; n.idx = -1; n.token++;
+      n.token++;
+      if (SUPPORTED && n.on) synth.cancel();
+      if (n.on) audioStop();
+      n.busy = false; n.idx = -1;
     };
     n.set = function (on) {
       n.on = !!on && n.supported;
-      if (n.on) { pickVoices(); n.idx = -1; }
-      else { if (n.supported) synth.cancel(); n.busy = false; n.idx = -1; n.token++; }
+      if (n.on) {
+        pickVoices(); n.idx = -1;
+        // 단추를 누른 지금(사용자의 동작 안에서) 오디오를 한 번 풀어 둠 → 나중에 영상이 흘러가며 파일을 읽을 수 있음
+        if (hasClips && audio()) { var a = AUD; a.src = SILENT; var pr = a.play(); if (pr && pr.catch) pr.catch(function () { /* 다음에 다시 시도 */ }); }
+      } else { n.token++; if (SUPPORTED) synth.cancel(); audioStop(); n.busy = false; n.idx = -1; }
       return n.on;
+    };
+    // 읽기 조각: 읽기 바꾸기 → 한·영 나누기 → 앞뒤 기호 다듬기 (음성 파일의 조각 id도 이 글로 정해요)
+    n.parts = function (text) {
+      return EN.splitLang(n.line(text)).map(function (p) { return { lang: p.lang, text: p.text.replace(/^[\s,.]+|[\s,]+$/g, '') }; })
+        .filter(function (p) { return /[A-Za-zÀ-ÿ0-9가-힣]/.test(p.text); });
+    };
+    // 모든 자막의 읽기 조각 (겹치지 않게, 처음 나온 차례대로) → 음성 파일을 미리 만들 목록
+    n.pieces = function () {
+      var seen = {}, out = [];
+      caps.forEach(function (c, ci) {
+        n.parts(c.text).forEach(function (p) {
+          var id = pieceId(p.lang, p.text);
+          if (!seen[id]) { seen[id] = 1; out.push({ id: id, lang: p.lang, text: p.text, cap: ci }); }
+        });
+      });
+      return out;
     };
     // 한국어·영어 조각을 차례로 읽음. 마지막 조각이 끝나면 busy를 내림
     n.speak = function (text) {
-      synth.cancel();
+      if (SUPPORTED) synth.cancel();
+      audioStop();
       var token = ++n.token;
-      var parts = EN.splitLang(n.line(text)).map(function (p) { return { lang: p.lang, text: p.text.replace(/^[\s,.]+|[\s,]+$/g, '') }; })
-        .filter(function (p) { return /[A-Za-zÀ-ÿ0-9가-힣]/.test(p.text); });
+      var parts = n.parts(text);
       if (!parts.length) { n.busy = false; return; }
       var r = clamp(1.05 * (rate() || 1), 0.6, 2);
-      n.busy = true; n.since = performance.now(); n.len = String(text).length;
+      n.busy = true; n.since = performance.now(); n.len = String(text).length; n.limit = 0;
+      if (parts.some(clipOf)) { speakClips(parts, token, r); return; }
+      if (!SUPPORTED) { n.busy = false; return; }
       parts.forEach(function (p, i) {
         var u = utter(p.text, p.lang, p.lang === 'en' ? clamp(r * 0.92, 0.6, 2) : r);
         if (i === parts.length - 1) u.onend = function () { if (n.token === token) n.busy = false; };
@@ -125,7 +169,7 @@
     n.hold = function (T, next) {
       if (!n.on || !n.busy) return next;
       // 끝났다는 신호(onend)가 오지 않는 브라우저를 위한 시간 제한
-      if (performance.now() - n.since > (n.len * 0.4 + 6) * 1000) { n.busy = false; return next; }
+      if (performance.now() - n.since > Math.max(n.len * 0.4 + 6, n.limit) * 1000) { n.busy = false; return next; }
       var c = caps[n.idx];
       if (!c) return next;
       return Math.min(next, Math.max(T, c.end - holdBefore));
@@ -137,15 +181,45 @@
       for (var k = 0; k < caps.length; k++) if (T >= caps[k].start && T < caps[k].end) { i = k; break; }
       if (i >= 0 && i !== n.idx) { n.idx = i; n.speak(caps[i].text); }
     };
+    // 조각을 차례로: 음성 파일이 있으면 파일로, 없으면 브라우저 음성으로 (파일을 못 읽으면 그 조각만 브라우저 음성으로)
+    function speakClips(parts, token, r) {
+      var i = 0;
+      n.limit = parts.reduce(function (s, p) { var c = clipOf(p); return s + (c ? (c[1] || 3) / clamp(rate() || 1, 0.5, 2) : p.text.length * 0.3 + 1); }, 0) + 6;
+      var tts = function (p) {
+        if (!SUPPORTED) { next(); return; }
+        var u = utter(p.text, p.lang, p.lang === 'en' ? clamp(r * 0.92, 0.6, 2) : r);
+        u.onend = u.onerror = function () { if (n.token === token) next(); };
+        synth.speak(u);
+      };
+      function next() {
+        if (n.token !== token) return;
+        if (i >= parts.length) { n.busy = false; return; }
+        var p = parts[i++], c = clipOf(p), a = c && audio();
+        if (!a) { tts(p); return; }
+        var done = false, fail = function () { if (done || n.token !== token) return; done = true; tts(p); };
+        a.onended = function () { if (done || n.token !== token) return; done = true; next(); };
+        a.onerror = fail;
+        a.src = BASE + c[0];
+        a.playbackRate = clamp(rate() || 1, 0.5, 2);
+        var pr = a.play();
+        if (pr && pr.catch) pr.catch(fail);
+      }
+      next();
+    }
     n.status = function () {
       var ko = VOICE.ko ? VOICE.ko.name : '기본 음성', en = VOICE.en ? VOICE.en.name : '기본 음성';
+      var all = n.pieces(), kc = 0, ec = 0, kn = 0, en0 = 0;
+      all.forEach(function (p) { var has = !!clipOf(p); if (p.lang === 'en') { en0++; if (has) ec++; } else { kn++; if (has) kc++; } });
+      if (hasClips && kc) ko = (C.voice || '미리 만든 음성') + (kc < kn ? ' (없는 조각은 ' + ko + ')' : '');
+      if (hasClips && ec) en = (C.voice || '미리 만든 음성') + (ec < en0 ? ' (없는 조각은 ' + en + ')' : '');
       return '음성 해설 켜짐 · 한국어 ' + ko + ', 영어 ' + en + '. 음성이 자막을 다 읽을 때까지 영상이 잠깐씩 기다려요.' +
-        (VOICE.ko && VOICE.en ? '' : ' 운영체제 설정에서 한국어·영어 음성을 추가하면 더 자연스러워요.');
+        (hasClips && kc ? '' : VOICE.ko && VOICE.en ? '' : ' 운영체제 설정에서 한국어·영어 음성을 추가하면 더 자연스러워요.');
     };
     return n;
   };
 
-  // 단추(aria-pressed)와 안내 문구를 연결. 음성을 쓸 수 없는 브라우저에서는 단추를 숨김
+  EN.narration.pieceId = pieceId;
+  // 단추(aria-pressed)와 안내 문구를 연결. 음성을 쓸 수 없는 브라우저에서는 단추를 숨김 (미리 만든 음성 파일이 있으면 보임)
   EN.narration.bind = function (n, btn, note, hooks) {
     hooks = hooks || {};
     if (!btn) return;

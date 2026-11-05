@@ -1,0 +1,1194 @@
+{
+ "slug": "directions",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 112,
+  "en": 85,
+  "koChars": 1903,
+  "enChars": 1750
+ },
+ "pieces": [
+  {
+   "id": "kd27239dd",
+   "lang": "ko",
+   "text": "길을 물을 때 묻는 말은 쉬워요. 어려운 것은 빠르고 긴 대답을 알아듣는 거예요.",
+   "cap": 0
+  },
+  {
+   "id": "ecfbbf9b2",
+   "lang": "en",
+   "text": "Where is train station?",
+   "cap": 1
+  },
+  {
+   "id": "ked338a6e",
+   "lang": "ko",
+   "text": "인사 없이 바로 물으면 퉁명스럽게 들려요.",
+   "cap": 1
+  },
+  {
+   "id": "kf730d12d",
+   "lang": "ko",
+   "text": "먼저",
+   "cap": 2
+  },
+  {
+   "id": "e6abea12b",
+   "lang": "en",
+   "text": "Excuse me.",
+   "cap": 2
+  },
+  {
+   "id": "k416d478d",
+   "lang": "ko",
+   "text": "그리고 묻는 틀, 곳 이름",
+   "cap": 2
+  },
+  {
+   "id": "ef9ddf223",
+   "lang": "en",
+   "text": "Could you tell me how to get to the train station?",
+   "cap": 2
+  },
+  {
+   "id": "k149ca8fa",
+   "lang": "ko",
+   "text": "대답은 길고 빨라요. 동작, 기준점, 도착 위치. 이 세 가지 조각으로 나눠서 들어요.",
+   "cap": 3
+  },
+  {
+   "id": "k25ef5f6a",
+   "lang": "ko",
+   "text": "들은 조각을 한 줄로 되짚어요",
+   "cap": 4
+  },
+  {
+   "id": "eabf86ef8",
+   "lang": "en",
+   "text": "So, I go straight for two blocks, turn left at the bank, and it's on my right?",
+   "cap": 4
+  },
+  {
+   "id": "ec0fa90be",
+   "lang": "en",
+   "text": "That's right!",
+   "cap": 5
+  },
+  {
+   "id": "kebd48530",
+   "lang": "ko",
+   "text": "들은 길은 되짚어 확인해요.",
+   "cap": 5
+  },
+  {
+   "id": "k102c1d52",
+   "lang": "ko",
+   "text": "길 묻기 대화를 일곱 단계로 나눠 봐요. 먼저 말을 걸고, 가려는 곳을 물어요.",
+   "cap": 6
+  },
+  {
+   "id": "k8bd3e7a7",
+   "lang": "ko",
+   "text": "그다음은 듣기예요. 동작 낱말, 기준점과 위치, 거리와 교통을 조각으로 들어요.",
+   "cap": 7
+  },
+  {
+   "id": "k5b7146a3",
+   "lang": "ko",
+   "text": "들은 조각을 한 줄로 되짚어 확인하고, 고맙다고 끝내요.",
+   "cap": 8
+  },
+  {
+   "id": "kb47259b0",
+   "lang": "ko",
+   "text": "보라 테두리는 내가 먼저 말하는 단계예요 , 말 걸기, 묻기, 되짚기.",
+   "cap": 9
+  },
+  {
+   "id": "k92991081",
+   "lang": "ko",
+   "text": "길을 알려 주는 방식은 나라와 사람마다 달라요. 휴대폰 지도가 있어도 물어보는 말은 쓸모가 있어요.",
+   "cap": 10
+  },
+  {
+   "id": "k588f47a7",
+   "lang": "ko",
+   "text": "모르는 사람에게 말을 걸 때",
+   "cap": 11
+  },
+  {
+   "id": "k57dde4ad",
+   "lang": "ko",
+   "text": "또는",
+   "cap": 11
+  },
+  {
+   "id": "e8e53ab73",
+   "lang": "en",
+   "text": "Sorry to bother you.",
+   "cap": 11
+  },
+  {
+   "id": "ed23ae9ab",
+   "lang": "en",
+   "text": "Hey!",
+   "cap": 11
+  },
+  {
+   "id": "kff021303",
+   "lang": "ko",
+   "text": "친구를 부르는 말처럼 들려요.",
+   "cap": 11
+  },
+  {
+   "id": "k22d64bbb",
+   "lang": "ko",
+   "text": "묻는 틀 셋",
+   "cap": 12
+  },
+  {
+   "id": "ef5ccc46f",
+   "lang": "en",
+   "text": "Could you tell me how to get to",
+   "cap": 12
+  },
+  {
+   "id": "k5e96d3c4",
+   "lang": "ko",
+   "text": "빈칸 ?",
+   "cap": 12
+  },
+  {
+   "id": "ee79a0c14",
+   "lang": "en",
+   "text": "Is there",
+   "cap": 12
+  },
+  {
+   "id": "kfff86221",
+   "lang": "ko",
+   "text": "빈칸",
+   "cap": 12
+  },
+  {
+   "id": "e32d60367",
+   "lang": "en",
+   "text": "near here?",
+   "cap": 12
+  },
+  {
+   "id": "e9bd5bdb2",
+   "lang": "en",
+   "text": "Where's the nearest",
+   "cap": 12
+  },
+  {
+   "id": "k9eb02b8f",
+   "lang": "ko",
+   "text": "길 좀 가르쳐 주세요",
+   "cap": 13
+  },
+  {
+   "id": "ed97f647c",
+   "lang": "en",
+   "text": "teach me the way?",
+   "cap": 13
+  },
+  {
+   "id": "k3ce8cfd5",
+   "lang": "ko",
+   "text": "알아듣지만, 수업에서 가르친다는 말이라 어색해요. 보통",
+   "cap": 13
+  },
+  {
+   "id": "e3c699f86",
+   "lang": "en",
+   "text": "tell me , show me.",
+   "cap": 13
+  },
+  {
+   "id": "k08f4e78c",
+   "lang": "ko",
+   "text": "곳 이름도 조심해요. 마트",
+   "cap": 14
+  },
+  {
+   "id": "eb69c5431",
+   "lang": "en",
+   "text": "supermarket, grocery store.",
+   "cap": 14
+  },
+  {
+   "id": "k76166d73",
+   "lang": "ko",
+   "text": "편의점",
+   "cap": 14
+  },
+  {
+   "id": "ea25d8c12",
+   "lang": "en",
+   "text": "convenience store.",
+   "cap": 14
+  },
+  {
+   "id": "eb0b33cea",
+   "lang": "en",
+   "text": "mart, a convenience",
+   "cap": 14
+  },
+  {
+   "id": "ke9e6a7e8",
+   "lang": "ko",
+   "text": "헷갈려요.",
+   "cap": 14
+  },
+  {
+   "id": "ke8ffbf42",
+   "lang": "ko",
+   "text": "지하철역",
+   "cap": 15
+  },
+  {
+   "id": "e98013eef",
+   "lang": "en",
+   "text": "subway station.",
+   "cap": 15
+  },
+  {
+   "id": "k7356516d",
+   "lang": "ko",
+   "text": "영국은",
+   "cap": 15
+  },
+  {
+   "id": "e6200f147",
+   "lang": "en",
+   "text": "underground",
+   "cap": 15
+  },
+  {
+   "id": "kbd0e328b",
+   "lang": "ko",
+   "text": "런던은",
+   "cap": 15
+  },
+  {
+   "id": "ef55b3a65",
+   "lang": "en",
+   "text": "the tube.",
+   "cap": 15
+  },
+  {
+   "id": "kcdc0d9b6",
+   "lang": "ko",
+   "text": "화장실",
+   "cap": 15
+  },
+  {
+   "id": "e4f4ed903",
+   "lang": "en",
+   "text": "restroom",
+   "cap": 15
+  },
+  {
+   "id": "ee00f775a",
+   "lang": "en",
+   "text": "toilets.",
+   "cap": 15
+  },
+  {
+   "id": "kd403a6c8",
+   "lang": "ko",
+   "text": "횡단보도",
+   "cap": 16
+  },
+  {
+   "id": "e5be7120f",
+   "lang": "en",
+   "text": "crosswalk.",
+   "cap": 16
+  },
+  {
+   "id": "ke2d7b933",
+   "lang": "ko",
+   "text": "사거리",
+   "cap": 16
+  },
+  {
+   "id": "e6e1225b3",
+   "lang": "en",
+   "text": "intersection.",
+   "cap": 16
+  },
+  {
+   "id": "k93e66f98",
+   "lang": "ko",
+   "text": "신호등",
+   "cap": 16
+  },
+  {
+   "id": "eb70614b6",
+   "lang": "en",
+   "text": "traffic lights.",
+   "cap": 16
+  },
+  {
+   "id": "k50637c93",
+   "lang": "ko",
+   "text": "주유소",
+   "cap": 16
+  },
+  {
+   "id": "ef9ed1727",
+   "lang": "en",
+   "text": "gas station",
+   "cap": 16
+  },
+  {
+   "id": "efd7609ba",
+   "lang": "en",
+   "text": "petrol station.",
+   "cap": 16
+  },
+  {
+   "id": "k1b87bba9",
+   "lang": "ko",
+   "text": "대답의 첫 조각 , 동작 낱말.",
+   "cap": 17
+  },
+  {
+   "id": "e64d80185",
+   "lang": "en",
+   "text": "go straight, keep going",
+   "cap": 17
+  },
+  {
+   "id": "k6abc9fa4",
+   "lang": "ko",
+   "text": "앞으로 쭉.",
+   "cap": 17
+  },
+  {
+   "id": "ec0fc84d3",
+   "lang": "en",
+   "text": "turn left, turn right",
+   "cap": 17
+  },
+  {
+   "id": "kd6d1ff23",
+   "lang": "ko",
+   "text": "돌아요.",
+   "cap": 17
+  },
+  {
+   "id": "e2d1766e1",
+   "lang": "en",
+   "text": "left , right",
+   "cap": 18
+  },
+  {
+   "id": "kd0cd8d76",
+   "lang": "ko",
+   "text": "걷는 사람이 바라보는 쪽이 기준이에요. 같은 사거리에서도 바라보는 쪽이 다르면 왼쪽이 달라져요.",
+   "cap": 18
+  },
+  {
+   "id": "e9bb9bd0f",
+   "lang": "en",
+   "text": "take the second left",
+   "cap": 19
+  },
+  {
+   "id": "k8c7994d4",
+   "lang": "ko",
+   "text": "두 번째로 나오는 왼쪽 길로 한 번 돌아요.",
+   "cap": 19
+  },
+  {
+   "id": "e02f63b3e",
+   "lang": "en",
+   "text": "turn left twice",
+   "cap": 19
+  },
+  {
+   "id": "k99e9a294",
+   "lang": "ko",
+   "text": "왼쪽으로 두 번 돌아요.",
+   "cap": 19
+  },
+  {
+   "id": "e58fdb351",
+   "lang": "en",
+   "text": "go past the post office",
+   "cap": 20
+  },
+  {
+   "id": "ka98a7696",
+   "lang": "ko",
+   "text": "우체국을 지나서 가요.",
+   "cap": 20
+  },
+  {
+   "id": "e42ff3b98",
+   "lang": "en",
+   "text": "cross the street",
+   "cap": 20
+  },
+  {
+   "id": "kf6440802",
+   "lang": "ko",
+   "text": "횡단보도에서 길을 건너요.",
+   "cap": 20
+  },
+  {
+   "id": "e094080de",
+   "lang": "en",
+   "text": "keep going until you get to the bank",
+   "cap": 21
+  },
+  {
+   "id": "kbc0a94b3",
+   "lang": "ko",
+   "text": "은행이 나올 때까지 쭉 가요. 그다음 돌아요.",
+   "cap": 21
+  },
+  {
+   "id": "ebd9660da",
+   "lang": "en",
+   "text": "turn left",
+   "cap": 22
+  },
+  {
+   "id": "k3d9121fe",
+   "lang": "ko",
+   "text": "왼쪽으로 도는 동작.",
+   "cap": 22
+  },
+  {
+   "id": "ebcd0113f",
+   "lang": "en",
+   "text": "on your left",
+   "cap": 22
+  },
+  {
+   "id": "kb51578bd",
+   "lang": "ko",
+   "text": "왼쪽에 있는 위치. 하나는 움직이고, 하나는 그 자리에 있어요.",
+   "cap": 22
+  },
+  {
+   "id": "k81f3e7c6",
+   "lang": "ko",
+   "text": "둘째 조각 , 기준점.",
+   "cap": 23
+  },
+  {
+   "id": "e390e2d38",
+   "lang": "en",
+   "text": "at the bank, at the lights, at the corner",
+   "cap": 23
+  },
+  {
+   "id": "kc2714272",
+   "lang": "ko",
+   "text": "그곳에서 돌아요.",
+   "cap": 23
+  },
+  {
+   "id": "k800d5486",
+   "lang": "ko",
+   "text": "셋째 조각 , 도착 위치.",
+   "cap": 24
+  },
+  {
+   "id": "e72d4b00f",
+   "lang": "en",
+   "text": "It's on your right.",
+   "cap": 24
+  },
+  {
+   "id": "ka4579a7b",
+   "lang": "ko",
+   "text": "걷는 사람의 오른쪽이에요.",
+   "cap": 24
+  },
+  {
+   "id": "e9514c0ee",
+   "lang": "en",
+   "text": "across from the park",
+   "cap": 25
+  },
+  {
+   "id": "k1b007480",
+   "lang": "ko",
+   "text": "공원 맞은편, 길 건너.",
+   "cap": 25
+  },
+  {
+   "id": "e603eb3b7",
+   "lang": "en",
+   "text": "next to the bank",
+   "cap": 25
+  },
+  {
+   "id": "k79a4e542",
+   "lang": "ko",
+   "text": "은행 바로 옆.",
+   "cap": 25
+  },
+  {
+   "id": "ea3534946",
+   "lang": "en",
+   "text": "between the café and the post office",
+   "cap": 26
+  },
+  {
+   "id": "ke8ba5eb6",
+   "lang": "ko",
+   "text": "카페와 우체국 사이.",
+   "cap": 26
+  },
+  {
+   "id": "e8f057e4a",
+   "lang": "en",
+   "text": "on the corner of",
+   "cap": 26
+  },
+  {
+   "id": "kaa20360a",
+   "lang": "ko",
+   "text": "두 길이 만나는 모퉁이.",
+   "cap": 26
+  },
+  {
+   "id": "e404ef1eb",
+   "lang": "en",
+   "text": "in front of",
+   "cap": 27
+  },
+  {
+   "id": "k8d3944c5",
+   "lang": "ko",
+   "text": "앞",
+   "cap": 27
+  },
+  {
+   "id": "e0b998efe",
+   "lang": "en",
+   "text": "behind",
+   "cap": 27
+  },
+  {
+   "id": "ka5438b0b",
+   "lang": "ko",
+   "text": "뒤.",
+   "cap": 27
+  },
+  {
+   "id": "e331b8114",
+   "lang": "en",
+   "text": "The bus stop is in front of the supermarket.",
+   "cap": 27
+  },
+  {
+   "id": "kfe133103",
+   "lang": "ko",
+   "text": "지도의 관계는 규칙 엔진이 계산해요. 맞은편과 바로 옆을 헷갈리면 엉뚱한 건물로 가요.",
+   "cap": 28
+  },
+  {
+   "id": "k377e54f3",
+   "lang": "ko",
+   "text": "거리는 시간으로 말할 때가 많아요",
+   "cap": 29
+  },
+  {
+   "id": "e3dd410d9",
+   "lang": "en",
+   "text": "It's about a five-minute walk.",
+   "cap": 29
+  },
+  {
+   "id": "k82a20657",
+   "lang": "ko",
+   "text": "미국에서는 블록으로도 말해요.",
+   "cap": 29
+  },
+  {
+   "id": "k026de8bd",
+   "lang": "ko",
+   "text": "멀면",
+   "cap": 30
+  },
+  {
+   "id": "e6a697e46",
+   "lang": "en",
+   "text": "It's too far to walk.",
+   "cap": 30
+  },
+  {
+   "id": "e18fb260c",
+   "lang": "en",
+   "text": "You should take the bus.",
+   "cap": 30
+  },
+  {
+   "id": "k68a40ce1",
+   "lang": "ko",
+   "text": "그러면 내가 물어요",
+   "cap": 30
+  },
+  {
+   "id": "eb123256f",
+   "lang": "en",
+   "text": "Which bus should I take?",
+   "cap": 30
+  },
+  {
+   "id": "k5adc36fa",
+   "lang": "ko",
+   "text": "15와 50",
+   "cap": 31
+  },
+  {
+   "id": "e321c045b",
+   "lang": "en",
+   "text": "fifteen",
+   "cap": 31
+  },
+  {
+   "id": "k1f516987",
+   "lang": "ko",
+   "text": "뒤를 세게",
+   "cap": 31
+  },
+  {
+   "id": "eb58319ec",
+   "lang": "en",
+   "text": "fifty",
+   "cap": 31
+  },
+  {
+   "id": "k1df1962f",
+   "lang": "ko",
+   "text": "앞을 세게 말해요. 번호를 잘못 들으면 반대쪽으로 가요.",
+   "cap": 31
+  },
+  {
+   "id": "e6f263976",
+   "lang": "en",
+   "text": "get off at the third stop",
+   "cap": 32
+  },
+  {
+   "id": "k15e219f5",
+   "lang": "ko",
+   "text": "세 번째 정류장에서 내려요.",
+   "cap": 32
+  },
+  {
+   "id": "e64450591",
+   "lang": "en",
+   "text": "first, second, third, fourth.",
+   "cap": 32
+  },
+  {
+   "id": "k0348844d",
+   "lang": "ko",
+   "text": "지하철에서 나올 때",
+   "cap": 33
+  },
+  {
+   "id": "ed98da148",
+   "lang": "en",
+   "text": "Take Exit 3.",
+   "cap": 33
+  },
+  {
+   "id": "k59f9384a",
+   "lang": "ko",
+   "text": "출구 번호도 숫자예요.",
+   "cap": 33
+  },
+  {
+   "id": "kfabe290b",
+   "lang": "ko",
+   "text": "나라마다 말하는 법이 달라요. 미국은 블록으로 세고, 영국에서는 이렇게도 말해요",
+   "cap": 34
+  },
+  {
+   "id": "edd10cbe9",
+   "lang": "en",
+   "text": "the second turning on the left.",
+   "cap": 34
+  },
+  {
+   "id": "k2bd9afa3",
+   "lang": "ko",
+   "text": "긴 대답은 한 번에 다 기억하기 어려워요. 그래서 들은 조각을 되짚어 확인해요.",
+   "cap": 35
+  },
+  {
+   "id": "k1f15f59b",
+   "lang": "ko",
+   "text": "틀",
+   "cap": 36
+  },
+  {
+   "id": "e59914ec4",
+   "lang": "en",
+   "text": "So",
+   "cap": 36
+  },
+  {
+   "id": "kf09a5ccc",
+   "lang": "ko",
+   "text": "빈칸 ? 빈칸에 들은 조각을 차례대로 넣어요. 그리고",
+   "cap": 36
+  },
+  {
+   "id": "e3975a8d5",
+   "lang": "en",
+   "text": "your , my.",
+   "cap": 36
+  },
+  {
+   "id": "kb86a18e2",
+   "lang": "ko",
+   "text": "틀린 조각이 있으면 상대는 그 조각만 고쳐 줘요",
+   "cap": 38
+  },
+  {
+   "id": "e6a2ec49b",
+   "lang": "en",
+   "text": "Not quite, turn left at the bank.",
+   "cap": 38
+  },
+  {
+   "id": "k48af15e9",
+   "lang": "ko",
+   "text": "한 조각만 확인해도 돼요",
+   "cap": 39
+  },
+  {
+   "id": "eb827469c",
+   "lang": "en",
+   "text": "So, I turn left at the bank?",
+   "cap": 39
+  },
+  {
+   "id": "k00f49ba7",
+   "lang": "ko",
+   "text": "들은 곳까지 확인하는 말이에요.",
+   "cap": 39
+  },
+  {
+   "id": "k72e4f091",
+   "lang": "ko",
+   "text": "되짚은 줄은 규칙 엔진이 지도의 길과 맞춰 봐요. 빠진 조각, 다른 방향, 다른 기준점, 순서를 찾아요.",
+   "cap": 40
+  },
+  {
+   "id": "k183aacd8",
+   "lang": "ko",
+   "text": "너무 빨라서 못 알아들었으면",
+   "cap": 41
+  },
+  {
+   "id": "e60fe1b43",
+   "lang": "en",
+   "text": "Sorry, could you say that again more slowly, please?",
+   "cap": 41
+  },
+  {
+   "id": "ka8a81605",
+   "lang": "ko",
+   "text": "일부만 들렸으면 그 부분만",
+   "cap": 42
+  },
+  {
+   "id": "e2183af46",
+   "lang": "en",
+   "text": "Sorry, left or right?",
+   "cap": 42
+  },
+  {
+   "id": "k8c52dd77",
+   "lang": "ko",
+   "text": "버스 번호가 안 들렸으면",
+   "cap": 42
+  },
+  {
+   "id": "e4623e303",
+   "lang": "en",
+   "text": "Sorry, which bus?",
+   "cap": 42
+  },
+  {
+   "id": "k160147eb",
+   "lang": "ko",
+   "text": "휴대폰 지도를 보여 주며",
+   "cap": 43
+  },
+  {
+   "id": "ea580522e",
+   "lang": "en",
+   "text": "Could you show me on the map, please?",
+   "cap": 43
+  },
+  {
+   "id": "k5c9fd5d7",
+   "lang": "ko",
+   "text": "모른다고 할 때도 있어요",
+   "cap": 44
+  },
+  {
+   "id": "e407429a2",
+   "lang": "en",
+   "text": "Sorry, I'm not from around here.",
+   "cap": 44
+  },
+  {
+   "id": "k0823e57b",
+   "lang": "ko",
+   "text": "그러면",
+   "cap": 44
+  },
+  {
+   "id": "e3999730f",
+   "lang": "en",
+   "text": "That's okay.",
+   "cap": 44
+  },
+  {
+   "id": "eefa4317e",
+   "lang": "en",
+   "text": "Thanks anyway.",
+   "cap": 44
+  },
+  {
+   "id": "e3729b2a4",
+   "lang": "en",
+   "text": "Okay.",
+   "cap": 45
+  },
+  {
+   "id": "ecb98ac7c",
+   "lang": "en",
+   "text": "Bye.",
+   "cap": 45
+  },
+  {
+   "id": "k98345685",
+   "lang": "ko",
+   "text": "무뚝뚝하게 들려요. 시간을 내 준 사람에게는",
+   "cap": 45
+  },
+  {
+   "id": "k9548e507",
+   "lang": "ko",
+   "text": "조각마다 따로 확인하면",
+   "cap": 46
+  },
+  {
+   "id": "eb9265322",
+   "lang": "en",
+   "text": "Straight for two blocks?",
+   "cap": 46
+  },
+  {
+   "id": "e7497efd9",
+   "lang": "en",
+   "text": "Yes.",
+   "cap": 46
+  },
+  {
+   "id": "ece4486f7",
+   "lang": "en",
+   "text": "Then left at the bank?",
+   "cap": 46
+  },
+  {
+   "id": "e5f7c51de",
+   "lang": "en",
+   "text": "And it's on my right?",
+   "cap": 46
+  },
+  {
+   "id": "ebbfa88df",
+   "lang": "en",
+   "text": "That's right.",
+   "cap": 46
+  },
+  {
+   "id": "k567be738",
+   "lang": "ko",
+   "text": "세 번 주고받아요. 한 줄로 되짚으면 한 번이면 돼요.",
+   "cap": 47
+  },
+  {
+   "id": "kdfe783c9",
+   "lang": "ko",
+   "text": "틀린 조각이 하나 있으면 , 상대는 맞은 조각은 다시 말하지 않고, 틀린 조각만 고쳐 줘요.",
+   "cap": 49
+  },
+  {
+   "id": "k6f938be4",
+   "lang": "ko",
+   "text": "세 번이 한 번으로 줄었어요. 조각의 순서는 들은 차례 그대로예요.",
+   "cap": 50
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 51
+  },
+  {
+   "id": "k15eb89ce",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말 잡기 , 물을 때는 곳 이름, 들을 때는 동작 , 기준점 , 위치 낱말.",
+   "cap": 52
+  },
+  {
+   "id": "k3c81e6d5",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기",
+   "cap": 53
+  },
+  {
+   "id": "kac4d274f",
+   "lang": "ko",
+   "text": "빈칸 , 빈칸",
+   "cap": 53
+  },
+  {
+   "id": "e7131a737",
+   "lang": "en",
+   "text": "and it's on my",
+   "cap": 53
+  },
+  {
+   "id": "k383245d4",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기",
+   "cap": 54
+  },
+  {
+   "id": "e3d87e3ac",
+   "lang": "en",
+   "text": "Excuse me, Sorry to bother you, Thank you so much, Thanks anyway.",
+   "cap": 54
+  },
+  {
+   "id": "k05c167b7",
+   "lang": "ko",
+   "text": "일곱 단계에 한 줄씩 적용했어요.",
+   "cap": 55
+  },
+  {
+   "id": "k4533e163",
+   "lang": "ko",
+   "text": "실전이에요. 길 카드 , 지금",
+   "cap": 56
+  },
+  {
+   "id": "e00adf532",
+   "lang": "en",
+   "text": "River Road",
+   "cap": 56
+  },
+  {
+   "id": "k00fc3093",
+   "lang": "ko",
+   "text": "가려는 곳은 지하철역. 지나가는 사람에게 말을 걸어요.",
+   "cap": 56
+  },
+  {
+   "id": "k43522a57",
+   "lang": "ko",
+   "text": "둘째, 씨",
+   "cap": 57
+  },
+  {
+   "id": "e68cf889c",
+   "lang": "en",
+   "text": "train station",
+   "cap": 57
+  },
+  {
+   "id": "kb4550685",
+   "lang": "ko",
+   "text": "카드는 지하철역이라 탈락.",
+   "cap": 57
+  },
+  {
+   "id": "kd1cb3732",
+   "lang": "ko",
+   "text": "셋째, 에이",
+   "cap": 58
+  },
+  {
+   "id": "eec257c01",
+   "lang": "en",
+   "text": "Subway station where?",
+   "cap": 58
+  },
+  {
+   "id": "kbf6537dc",
+   "lang": "ko",
+   "text": "퉁명스러워 탈락. 정답 비",
+   "cap": 58
+  },
+  {
+   "id": "kafadf6b2",
+   "lang": "ko",
+   "text": "첫째, 비 다시 묻기 , 이 사람은 몰라서 탈락.",
+   "cap": 59
+  },
+  {
+   "id": "kcf15ec96",
+   "lang": "ko",
+   "text": "둘째, 남은 둘에 틀린 정보는 없어요.",
+   "cap": 60
+  },
+  {
+   "id": "k77f09a40",
+   "lang": "ko",
+   "text": "무뚝뚝해서 탈락. 정답 씨",
+   "cap": 61
+  },
+  {
+   "id": "k55602d03",
+   "lang": "ko",
+   "text": "다음 사람",
+   "cap": 62
+  },
+  {
+   "id": "e21a7c842",
+   "lang": "en",
+   "text": "Go down this street and take the second right.",
+   "cap": 62
+  },
+  {
+   "id": "k47f15792",
+   "lang": "ko",
+   "text": "첫째, 에이",
+   "cap": 62
+  },
+  {
+   "id": "efb37dedf",
+   "lang": "en",
+   "text": "You're welcome",
+   "cap": 62
+  },
+  {
+   "id": "kfa74e09c",
+   "lang": "ko",
+   "text": "탈락.",
+   "cap": 62
+  },
+  {
+   "id": "k575d4ed3",
+   "lang": "ko",
+   "text": "둘째, 비",
+   "cap": 63
+  },
+  {
+   "id": "e302ca433",
+   "lang": "en",
+   "text": "turn right twice",
+   "cap": 63
+  },
+  {
+   "id": "kbd945ff1",
+   "lang": "ko",
+   "text": "두 번 돌면 다른 곳이라 탈락.",
+   "cap": 63
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 64
+  },
+  {
+   "id": "ed421fddf",
+   "lang": "en",
+   "text": "So, I take the second right, and it's on my right?",
+   "cap": 64
+  },
+  {
+   "id": "eecb39831",
+   "lang": "en",
+   "text": "You can't miss it.",
+   "cap": 65
+  },
+  {
+   "id": "k8982e596",
+   "lang": "ko",
+   "text": "셋째, 비",
+   "cap": 66
+  },
+  {
+   "id": "k8c444bfe",
+   "lang": "ko",
+   "text": "무뚝뚝해서 탈락.",
+   "cap": 66
+  },
+  {
+   "id": "ec97b1fc4",
+   "lang": "en",
+   "text": "Great, thank you so much!",
+   "cap": 67
+  },
+  {
+   "id": "kf1fcd75e",
+   "lang": "ko",
+   "text": "정리해요. 말을 걸 때",
+   "cap": 68
+  },
+  {
+   "id": "k178e1721",
+   "lang": "ko",
+   "text": "묻는 틀, 곳 이름",
+   "cap": 68
+  },
+  {
+   "id": "k2248b4b6",
+   "lang": "ko",
+   "text": "대답은 조각으로 , 동작, 기준점, 도착 위치.",
+   "cap": 69
+  },
+  {
+   "id": "e2c881d93",
+   "lang": "en",
+   "text": "turn left, on your left",
+   "cap": 69
+  },
+  {
+   "id": "kbe305d19",
+   "lang": "ko",
+   "text": "서로 달라요.",
+   "cap": 69
+  },
+  {
+   "id": "k858d85ee",
+   "lang": "ko",
+   "text": "들은 조각은 한 줄로 되짚어요",
+   "cap": 70
+  },
+  {
+   "id": "k2c036c2c",
+   "lang": "ko",
+   "text": "빈칸 ? 모른다고 하면",
+   "cap": 70
+  },
+  {
+   "id": "k8e06b883",
+   "lang": "ko",
+   "text": "아래 길 찾기 시뮬레이터에서 내 길 카드로 직접 물어보고 걸어가 보세요.",
+   "cap": 71
+  }
+ ]
+}

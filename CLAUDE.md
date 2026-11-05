@@ -18,10 +18,13 @@ shared/drill.js         공통 부품: 토익 Part 5 연습 문제 EN.drill (한
 shared/quiz.js          공통 부품: 퀴즈 EN.quiz
 shared/components.css   공통 부품 모양: 발음 단추(.en-say), 퀴즈(.enq), 연습 문제(.edr), 핵심 정리(.en-gloss)
 tools/render-video.cjs  공통 렌더러: EN_EXPORT 약속을 지킨 튜토리얼을 MP4·SRT·미리보기 그림으로
+tools/narration-pieces.cjs    음성 해설의 읽기 조각 목록 → <slug>/audio/narration/pieces.json (미리 만든 음성 파일을 쓸 때)
+tools/voicestudio-narration.py  VoiceStudio(주인의 맥, localhost:3900)로 조각마다 음성 파일을 만들고 clips.js를 씀 — 맥에서 실행
 <slug>/index.html       튜토리얼 본체. 폴더 안에서 완결됨
 <slug>/assets/js/       grammar.js(규칙 엔진·예문·문제) · scenes.js(장면·자막) · app.js(플레이어·실습·놀이터·퀴즈·추출)
 <slug>/docs/poster.jpg  카드 미리보기 그림 1280×720
 <slug>/video/*.srt      자막 원고. MP4는 커밋하지 않음 (아래 '영상')
+<slug>/audio/narration/ 미리 만든 음성 해설(선택): pieces.json(조각 목록) · clips.js(window.EN_CLIPS) · 조각 id.mp3|m4a — 지금은 directions만
 docs/toeic-100-types.md 토익 영역의 설계도: 자주 틀리는 100개 유형 → 21개 카테고리 → 튜토리얼 17개(T01–T17)와 제작 순서
 .nojekyll               GitHub Pages가 _로 시작하는 폴더도 그대로 내보내도록
 ```
@@ -139,6 +142,7 @@ docs/toeic-100-types.md 토익 영역의 설계도: 자주 틀리는 100개 유�
   - 단추: `EN.narration.bind(narr, 단추, 안내문, { onEnable() { if (!started) play(); } })` — 지원하지 않는 브라우저면 단추를 숨김
   - `**`, ①~⑤, →, …, ·, ___(빈칸), (A)~(D) 같은 기호 읽기는 부품이 처리합니다. `read`에는 그 튜토리얼의 약어만(예: `[/TOEIC/g, '토익']`).
   - 화면용 `×`는 ‘곱하기’로 읽히므로 자막에는 쓰지 않습니다(캔버스·해설 글에는 써도 됨).
+  - **미리 만든 음성 파일(선택)**: `clips: window.EN_CLIPS`(`<slug>/audio/narration/clips.js`, `index.html`에서 app.js 앞에 불러옴). 자막을 읽기 조각(`narr.parts` → 한국어 · 영어)으로 나눠, 조각 id(`EN.narration.pieceId(lang, text)`)의 파일이 있으면 그 파일을(`<audio>` 하나, V 단추를 누를 때 잠금을 풂 — Safari), 없으면 브라우저 음성으로 읽어요. 파일을 못 읽으면 그 조각만 브라우저 음성으로. 빈 목록이면 예전과 똑같아요. 만드는 법: `node tools/narration-pieces.cjs <slug>`(클라우드에서도 됨) → VoiceStudio가 있는 맥에서 `python3 tools/voicestudio-narration.py <slug>`(기본은 한국어 조각만 — 영어 조각은 학습용 본보기 발음이라 브라우저의 en-US 음성 그대로, `--english`로 영어 조각도 같은 목소리, `--limit 5`로 먼저 들어 보기, 이미 만든 파일은 건너뜀) → `<slug>/audio` 커밋. 자막을 고치면 조각 목록을 다시 만들고 스크립트를 다시 돌리면 바뀐 조각만 새로 만들어요(그 전까지 바뀐 조각은 브라우저 음성). MP4에는 아직 소리를 넣지 않아요.
 - **`EN.say(text, { slow, onend })`**, `EN.say.button(text, label)`, `EN.say.wire(root, { before })`, `EN.say.stop()` — 영어 음성으로 읽기. 음성을 쓸 수 없는 브라우저면 `<html class="no-say">`가 붙어 단추가 숨겨집니다.
 - **`EN.drill({ root, items, before, done })`** — 문제는 `{ q, opts, a, ko, tag, steps: [{ head, text, marks: [{ t, role }] }], notes }`. `q`의 빈칸은 `___`. `marks`의 role: `ante` · `cue` · `trap` · `verb`.
 - **`EN.quiz({ list, score, reset, done, questions })`** — 문제는 `{ q, opts, a, why }`, 그림 문제는 `figure`를 더합니다.

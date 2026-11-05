@@ -61,6 +61,7 @@ shared/drill.js         공통 부품: 토익 Part 5 연습 문제, 단계별 �
 shared/quiz.js          공통 부품: 퀴즈 (EN.quiz)
 shared/components.css   공통 부품 모양
 tools/render-video.cjs  어느 튜토리얼이든 MP4 · 자막 원고 · 미리보기 그림으로 내보내기
+tools/narration-pieces.cjs · tools/voicestudio-narration.py  음성 해설을 미리 만든 목소리(VoiceStudio)로 읽게 하기 (CLAUDE.md의 EN.narration)
 relative-pronouns/      관계대명사, 빈자리를 찾아라 (토익 문법 T01)
 parts-of-speech/        빈칸의 자리가 품사를 정한다 (토익 문법 T02)
 verb-agreement-voice/   주어가 수를, 목적어가 태를 정한다 (토익 문법 T03)
