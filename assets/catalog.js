@@ -314,5 +314,17 @@ window.EN_CATALOG = {
       thumb: 'restaurant/docs/poster.jpg',
       added: '2026-11-03',
     },
+    {
+      slug: 'directions',
+      track: 'talk',
+      title: '길 묻기, 들은 길은 되짚어 확인한다',
+      topic: '길 묻기 · 말 걸기 · 동작 낱말 · 기준점과 위치 · 거리와 교통 · 되짚기 · 다시 묻기',
+      summary: '길을 물을 때 묻는 말은 쉬워요. 어려운 것은 빠르고 긴 대답이에요. Excuse me로 말을 걸고 곳 이름을 말한 뒤(마트 → supermarket), 대답을 동작(turn left · take the second left) + 기준점(at the bank) + 도착 위치(on your right · across from the park) 조각으로 듣고, 한 줄로 되짚어 확인해요(So, I go straight for two blocks, turn left at the bank, and it\'s on my right?). turn left와 on your left, fifteen과 fifty, 모른다고 할 때의 Thanks anyway까지, 지어낸 동네 지도에서 듣고 찾아가며 익혀요.',
+      length: '6:33',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '길 찾기 시뮬레이터', '되짚기', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'directions/docs/poster.jpg',
+      added: '2026-11-05',
+    },
   ],
 };

@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>길 묻기, 들은 길은 되짚어 확인한다 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="상황별 영어 회화 튜토리얼: 길 묻기. 묻는 말은 쉬워요. 어려운 것은 빠르고 긴 대답이에요. Excuse me로 공손하게 말을 걸고 곳 이름을 말한 뒤(Could you tell me how to get to the train station?), 대답을 동작(go straight · turn left · take the second left) + 기준점(at the bank) + 도착 위치(it's on your right · across from the park) 조각으로 듣고, 한 줄로 되짚어 확인해요(So, I go straight for two blocks, turn left at the bank, and it's on my right?). 지어낸 동네 지도와 길 계산, 길 찾기 시뮬레이터, 따라 말하기, 듣고 대답 고르기로 익혀요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 열쇠 낱말 · 대답 틀 · 내 정보 · 공손한 말 · 함정 · 빈칸 */
+  --c-key:#2266C4; --c-frame:#A86A00; --c-slot:#1F7A55; --c-pol:#6A45C2; --c-trap:#C2531F; --c-gap:#C2346E;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --paper:#F4F1E8; --ink:#1E2630;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-key); --en-cue:var(--c-pol); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-key:#6EC8FF; --c-frame:#FFC15E; --c-slot:#7FE0A8; --c-pol:#C9A7FF; --c-trap:#FF9F7A; --c-gap:#FF7AA8;
+    --paper:#E9E4D6; --ink:#1E2630;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-key:#6EC8FF; --c-frame:#FFC15E; --c-slot:#7FE0A8; --c-pol:#C9A7FF; --c-trap:#FF9F7A; --c-gap:#FF7AA8;
+  --paper:#E9E4D6; --ink:#1E2630;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+svg.pi{width:16px;height:16px;flex:none;vertical-align:-3px;margin-right:4px}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.steps3{display:flex;flex-wrap:wrap;gap:6px 10px;margin:4px 0 0;padding:0;list-style:none}
+.steps3 li{padding:4px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:14px;font-weight:600}
+.steps3 b{font-family:var(--mono);margin-right:4px;color:var(--accent)}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+.honest{margin:0;padding:10px 14px;border-left:4px solid var(--warn);border-radius:0 10px 10px 0;background:var(--surface);font-size:14px;color:var(--muted);max-width:84ch}
+.honest b{color:var(--text)}
+.voice-note{display:block;margin-top:4px;font-size:12.5px;font-family:var(--mono)}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.lab-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 12px}
+.lab-top h3{margin:0}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.lab .seg{margin-top:8px}
+.seg button{display:inline-flex;align-items:center;gap:4px;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button small{font-weight:500;color:var(--muted)}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;flex-wrap:wrap;gap:4px 6px;margin:10px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.lab .mo{margin-top:8px}
+.mo.mo-col{display:flex;flex-direction:column;align-items:stretch}
+.mo button{min-height:34px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer;text-align:left}
+.mo button:hover:not(:disabled){border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:0;font-size:14px;color:var(--muted)}
+.mr:empty{display:none}
+.ox{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.ox li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 10px;border-radius:10px;background:var(--surface-2)}
+.ox .ox-t{flex:1 1 14em;font-weight:600;font-size:15px}
+.ox .mo{flex-basis:100%}
+.ox .mr{flex-basis:100%}
+.lab h3.mt{margin-top:16px}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.qlist{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.qlist li{display:flex;align-items:flex-start;gap:8px;padding:6px 10px;border-radius:10px;background:var(--surface-2)}
+.qlist li > span{display:flex;flex-direction:column;font-weight:600}
+.qlist small{color:var(--muted);font-weight:400;font-size:13px}
+.mcard{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:4px 12px;margin:8px 0 0;padding:8px 12px;border-radius:10px;background:var(--paper);color:var(--ink);font-size:13.5px}
+.mcard div{display:flex;gap:6px}
+.mcard dt{color:#5B6168;font-weight:600}
+.mcard dd{margin:0;font-weight:700}
+.cv-row{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:8px;align-items:center;margin-top:8px}
+.cv-row .seg{margin-top:0}
+.cv-lab{font-weight:700;font-size:13.5px;color:var(--muted)}
+.lab .lmini{margin-top:10px}
+.lab .lmini .edr-card{padding:12px 14px}
+
+/* ---------- 듣기 단추 ---------- */
+.lp-play{display:inline-grid;place-items:center;flex:none;width:32px;height:32px;padding:0;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--accent);cursor:pointer}
+.lp-play svg{width:15px;height:15px;margin-left:2px}
+.lp-play:hover{border-color:var(--accent)}
+.lp-play.saying{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.lsn{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:0 0 12px}
+.lbtn{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 12px 0 10px;border:1px solid var(--accent);border-radius:999px;background:var(--surface);color:var(--accent);font-size:13.5px;font-weight:700;cursor:pointer}
+.lbtn svg{width:16px;height:16px;flex:none}
+.lbtn small{font-family:var(--mono);font-weight:500;opacity:.75}
+.lbtn[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.lbtn.tog{border-color:var(--line);color:var(--text);font-weight:600}
+.lbtn.tog[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.lbtn:disabled{opacity:.5;cursor:default}
+.ldr-now{font-size:13px;color:var(--muted)}
+.ldr-nosay{margin:0 0 10px;font-size:13.5px;color:var(--warn)}
+
+/* ---------- 역할 색 칠하기 ---------- */
+mark[class^="mk-"]{padding:0;border-radius:3px;background:transparent;color:inherit;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.mk-key{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-key) 30%, transparent)}
+mark.mk-frame{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-frame) 32%, transparent)}
+mark.mk-slot,mark.mk-ok{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-slot) 32%, transparent)}
+mark.mk-pol{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-pol) 30%, transparent)}
+mark.mk-trap{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-trap) 36%, transparent)}
+i.blank{display:inline-block;font-style:normal;padding:0 6px;border:1.5px dashed var(--c-gap);border-radius:5px;color:var(--c-gap);line-height:1.3}
+
+/* ---------- 듣고 대답 고르기 (공통 부품 .edr 모양 + 듣기 줄) ---------- */
+.ldr-hid{display:inline-block;height:.82em;vertical-align:-.06em;border-radius:3px;background:color-mix(in srgb, var(--text) 18%, transparent)}
+.adr-place{display:inline-flex;align-items:center;gap:2px;padding:1px 10px 1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-family:var(--body);font-weight:700}
+.adr-sit{margin:0 0 10px;padding:8px 12px;border-left:3px solid var(--c-slot);border-radius:0 10px 10px 0;background:var(--surface-2);font-size:15px}
+.adr-sit b{margin-right:8px;color:var(--c-slot)}
+.adr-ask{margin:4px 0 6px;font-size:13px;font-weight:700;color:var(--muted)}
+.adr-fast{margin-left:auto;padding:1px 8px;border-radius:999px;border:1px solid var(--c-trap);color:var(--c-trap);font-size:12.5px;font-weight:700;white-space:nowrap}
+.ldr-q{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 6px;padding:8px 12px;border-radius:10px;background:var(--surface-2);font-size:clamp(16px,2.1vw,19px);font-weight:500;line-height:1.6}
+.ldr-q > b{font-size:13px;color:var(--accent)}
+.ldr-q.now,.ldr-row.now .ldr-opt,.sim-bub.now{box-shadow:0 0 0 1px var(--accent);background:var(--accent-soft)}
+.ldr-opts{display:flex;flex-direction:column;gap:8px}
+.ldr-row{display:flex;align-items:center;gap:8px}
+.ldr-opt{flex:1;min-width:0;min-height:46px;padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);font-size:16px;line-height:1.55;text-align:left;cursor:pointer}
+.ldr-opt b{font-family:var(--mono);font-weight:500;color:var(--muted);margin-right:4px}
+.ldr-opt:hover:not(:disabled){border-color:var(--accent)}
+.ldr-opt:disabled{cursor:default}
+.ldr-row.right .ldr-opt{border-color:var(--ok);color:var(--ok);font-weight:600}
+.ldr-row.wrong .ldr-opt{border-color:var(--no);color:var(--no)}
+.ldr-row.wrong .ldr-t{text-decoration:line-through}
+.ldr-row.off .ldr-opt{opacity:.75}
+.ldr-ko{margin:12px 0 0;padding:10px 0 0;list-style:none;border-top:1px dashed var(--line);display:flex;flex-direction:column;gap:6px;font-size:14.5px}
+.ldr-ko li{display:flex;align-items:flex-start;gap:8px}
+.ldr-ko li > span{display:flex;flex-direction:column}
+.ldr-ko small{color:var(--muted);font-size:13.5px}
+.edr-btn svg{width:15px;height:15px;vertical-align:-2px}
+
+/* ---------- 놀이터: 길 찾기 시뮬레이터 ---------- */
+.sim{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:16px;align-items:start;outline:none}
+.sim-side{display:flex;flex-direction:column;gap:10px}
+.tcard{border-radius:12px;background:var(--paper);color:var(--ink);overflow:hidden;box-shadow:0 8px 20px -14px rgba(0,0,0,.6)}
+.tc-head{display:flex;align-items:center;gap:6px;margin:0;padding:8px 12px;background:#22324A;color:#fff;font-size:14px}
+.tc-head span{font-family:var(--mono);font-size:12px;opacity:.85}
+.tcard dl{margin:0;padding:8px 12px;display:flex;flex-direction:column;gap:4px}
+.tcard dl div{display:grid;grid-template-columns:6.4em minmax(0,1fr);gap:6px;font-size:14px}
+.tcard dt{color:#5B6168;font-weight:600}
+.tcard dd{margin:0;font-weight:700}
+.tc-foot{margin:0;padding:6px 12px 10px;font-size:12.5px;color:#5B6168;border-top:1px dashed rgba(30,38,48,.25)}
+.sim-prog{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.sim-prog li{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;border:1.5px solid var(--line);font-family:var(--mono);font-size:13px;color:var(--muted)}
+.sim-prog li.cur{border-color:var(--accent);color:var(--accent);font-weight:700}
+.sim-prog li.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+.sim-prog li.late{background:color-mix(in srgb, var(--warn) 70%, transparent);border-color:var(--warn);color:#fff}
+.sim-main{min-width:0;display:flex;flex-direction:column;gap:10px}
+.sim-start p{margin:0 0 12px;color:var(--muted)}
+.sim-officer{display:flex;align-items:flex-start;gap:10px}
+.sim-av{width:48px;height:48px;flex:none}
+.sim-bub{position:relative;flex:1;min-width:0;display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0;padding:10px 14px;border-radius:14px;background:var(--surface-2);border:1px solid color-mix(in srgb, var(--c-key) 40%, transparent);font-size:clamp(16px,2.1vw,19px);line-height:1.6}
+.sim-react{margin:0;padding:8px 12px;border-radius:10px;background:var(--surface-2);font-size:15px}
+.sim-react.ok{border-left:4px solid var(--ok)} .sim-react.no{border-left:4px solid var(--no)} .sim-react.repair{border-left:4px solid var(--c-pol)}
+.sim-react small{display:block;color:var(--muted);font-size:13.5px}
+.who{display:inline-block;margin-right:8px;padding:0 8px;border-radius:999px;background:color-mix(in srgb, var(--c-key) 18%, transparent);color:var(--c-key);font-size:12.5px;font-weight:700}
+.who.me{background:color-mix(in srgb, var(--c-trap) 16%, transparent);color:var(--c-trap)}
+.sim-lab{margin:4px 0 0;font-size:13px;font-weight:700;color:var(--muted)}
+.sim-lab small{font-family:var(--mono);font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chipf,.chips-s{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:4px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);font-size:15.5px;font-weight:600;cursor:pointer;text-align:left}
+.chipf{border-color:color-mix(in srgb, var(--c-frame) 55%, var(--line))}
+.chips-s{border-color:color-mix(in srgb, var(--c-slot) 55%, var(--line))}
+.chipf small,.chips-s small{font-family:var(--mono);font-weight:500;color:var(--muted)}
+.chipf[aria-pressed="true"]{background:color-mix(in srgb, var(--c-frame) 18%, var(--surface));border-color:var(--c-frame)}
+.chips-s[aria-pressed="true"]{background:color-mix(in srgb, var(--c-slot) 18%, var(--surface));border-color:var(--c-slot)}
+.sim-ans{display:flex;align-items:center;flex-wrap:wrap;gap:4px;min-height:48px;padding:8px 12px;border-radius:12px;border:1.5px dashed var(--line);font-size:17px;font-weight:600}
+.sim-why{padding:10px 12px;border-radius:10px;background:var(--surface-2);font-size:14.5px}
+.sim-why p{margin:0 0 4px;display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
+.sim-why.ok b{color:var(--ok)} .sim-why.no b{color:var(--no)}
+.sim-why small{color:var(--muted)}
+.sim-mic svg{width:17px;height:17px}
+.sim-mic.on{background:var(--no);border-color:var(--no);color:#fff}
+.sim-end{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:16px;align-items:start}
+.sim-score{margin:0 0 8px;font-size:17px}
+.sim-score b{font-family:var(--disp);font-size:26px;color:var(--accent)}
+.sim-log{margin:10px 0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:15px}
+.sim-log li{line-height:2}
+.sim-log .lp-play{width:28px;height:28px;vertical-align:middle;margin-right:4px}
+.tg-acts{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn svg{width:16px;height:16px}
+.okeys{margin:0;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+
+/* ---------- 따라 말하기 ---------- */
+.sh-mode{margin:0;padding:10px 14px;border-radius:10px;background:var(--surface);border:1px solid var(--line);font-size:14.5px}
+.sh-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:12px;align-items:start}
+.sh-grp{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.sh-grp h3{display:flex;align-items:center;gap:4px;margin:0 0 8px;font-size:16px}
+.sh-grp h3 span{margin-left:6px;font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted)}
+.sh-grp ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.sh-row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;align-items:center;padding:8px 10px;border-radius:10px;background:var(--surface-2)}
+.sh-btns{display:flex;gap:6px;grid-row:span 2;align-self:start}
+.sh-btns .lbtn{min-height:32px;padding:0 10px 0 8px;font-size:13px}
+.sh-btns .lbtn span{display:none}
+.sh-mic.on{background:var(--no);border-color:var(--no);color:#fff}
+.sh-t{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px}
+.sh-en{font-weight:600;font-size:16px}
+.sh-t small{flex-basis:100%;color:var(--muted);font-size:13px}
+.sh-who{font-size:12px;font-weight:700;padding:0 8px;border-radius:999px;background:color-mix(in srgb, var(--c-key) 18%, transparent);color:var(--c-key)}
+.sh-who.me{background:color-mix(in srgb, var(--c-trap) 16%, transparent);color:var(--c-trap)}
+.sh-res{grid-column:2;font-size:14px}
+.sh-res:empty{display:none}
+.sh-res p{margin:2px 0}
+.sh-cmp{font-size:16px;font-weight:600}
+.w-ok{color:var(--ok);box-shadow:inset 0 -2px 0 var(--ok)} .w-no{color:var(--c-trap);box-shadow:inset 0 -2px 0 var(--c-trap)}
+.sh-err{color:var(--no)}
+.sh-play{display:inline-flex;align-items:center;gap:6px}
+.sh-play svg{width:14px;height:14px}
+.sh-play.saying{border-color:var(--accent);color:var(--accent)}
+@media (min-width:761px){ .sh-btns .lbtn span{display:inline} }
+
+
+/* ---------- 길 묻기 전용: 시뮬레이터 지도 · 이름표 · 단계 ---------- */
+.sim{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
+.sim-mapbox{display:flex;flex-direction:column;gap:6px;min-width:0}
+#simMap{display:block;width:100%;aspect-ratio:600/452;border-radius:12px;background:var(--stage);cursor:pointer;touch-action:manipulation}
+#simMap:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.sim-mapnote{margin:0;font-size:13.5px;color:var(--muted);min-height:1.5em}
+.sim-mapnote b{color:var(--text)}
+.sim-legend{display:flex;flex-wrap:wrap;gap:4px 12px;margin:0;padding:0;list-style:none;font-size:12.5px;color:var(--muted)}
+.sim-legend li{display:inline-flex;align-items:center;gap:3px}
+.sim-legend svg.pi{width:15px;height:15px;margin-right:1px;color:var(--text)}
+.lg-bus{display:inline-block;padding:0 4px;border-radius:3px;background:#3E6A8A;color:#fff;font-style:normal;font-family:var(--mono);font-size:10px;font-weight:700;line-height:1.5}
+.lg-light{display:inline-block;width:8px;height:14px;border-radius:2px;background:#0B0F14;box-shadow:inset 0 3px 0 -1px #FF6B6B,inset 0 -3px 0 -1px #7FE0A8}
+.lg-plain{display:inline-block;width:14px;height:11px;border-radius:3px;background:#232D39}
+.sim-bub.cue,.ldr-q.cue{color:var(--muted);font-style:normal}
+.ldr-q.cue span{font-size:15px}
+.chip-ck{border-color:color-mix(in srgb, var(--c-slot) 55%, var(--line))}
+.stages7{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 0;padding:0;list-style:none}
+.stages7 li{display:inline-flex;align-items:center;gap:2px;padding:3px 10px 3px 7px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:13px;font-weight:600}
+.stages7 li.me{border-color:color-mix(in srgb, var(--c-pol) 60%, var(--line));color:var(--c-pol)}
+.stages7 li b{font-family:var(--mono);margin-right:4px;color:var(--accent);font-weight:600}
+.chunks3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:4px 0 0;padding:0;list-style:none;max-width:900px}
+.chunks3 li{padding:10px 12px;border-radius:12px;background:var(--surface);border:1px solid var(--line);font-size:14px}
+.chunks3 li b{display:flex;align-items:center;gap:4px;font-size:15px;margin-bottom:2px;color:var(--c-key)}
+.chunks3 li i{font-style:normal;color:var(--muted)}
+.mt8{margin-top:8px}
+/* ---------- 블록 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px;scroll-margin-top:12px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td[lang]{font-weight:500}
+.sum td.k{font-weight:700;color:var(--c-key)}
+.sum td.pl{font-weight:700;white-space:nowrap}
+.sum b.f{color:var(--c-frame)} .sum b.s{color:var(--c-slot)} .sum b.p{color:var(--c-pol)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .sim{grid-template-columns:minmax(0,1fr)}
+  .sim-end{grid-template-columns:minmax(0,1fr)}
+  .end-art{flex-direction:row;justify-content:center;flex-wrap:wrap}
+  .chunks3{grid-template-columns:minmax(0,1fr)}
+  .cv-row{grid-template-columns:minmax(0,1fr);gap:4px}
+}
+@media (max-width:480px){ .okeys.kb{display:none} .chipf,.chips-s{font-size:14.5px;padding:4px 10px} }
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="directions"></script>
+<script src="../assets/to-top.js"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">상황별 영어 회화 · 길 묻기 · <span id="durLbl">6분 30초</span></p>
+    <h1><em>길 묻기</em>, 들은 길은 <em>되짚어</em> 확인한다</h1>
+    <p class="lead">길을 물을 때 묻는 말은 쉬워요. 어려운 것은 <b>빠르고 긴 대답</b>이에요. 그래서 세 가지를 해요. 먼저 <b>Excuse me</b>로 공손하게 말을 걸고 곳 이름을 말해요(<i lang="en">Excuse me, could you tell me how to get to the train station?</i>). 대답은 <b>조각</b>으로 들어요 — 동작(<i lang="en">go straight · turn left · take the second left</i>) + 기준점(<i lang="en">at the bank</i>) + 도착 위치(<i lang="en">it's on your right · across from the park</i>). 그리고 들은 조각을 한 줄로 <b>되짚어</b> 확인해요(<i lang="en">So, I go straight for two blocks, turn left at the bank, and it's on my right?</i>). 맞으면 <i lang="en">That's right!</i>, 틀린 조각이 있으면 상대가 그 조각만 고쳐 줘요(<i lang="en">Not quite — turn left at the bank.</i>). 마트는 <i lang="en">mart</i>가 아니라 <i lang="en">supermarket</i>, <i lang="en">turn left</i>(도는 동작)와 <i lang="en">on your left</i>(왼쪽에 있는 위치)는 달라요.</p>
+    <ol class="steps3" aria-label="3단계 말하기 법"><li><b>①</b>열쇠 낱말 잡기 (곳 이름 · 동작 · 기준점 · 위치)</li><li><b>②</b>틀에 내 정보 넣기 (묻는 틀 · So, ___?)</li><li><b>③</b>공손하게 끝내기 (Excuse me · Thanks anyway)</li></ol>
+    <ul class="chunks3" aria-label="대답의 조각 세 가지">
+      <li><b><svg class="pi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 20v-7a4 4 0 0 1 4-4h8"/><path d="M15 5.5 18.5 9 15 12.5"/></svg>동작</b><i lang="en">go straight · turn left · take the second left · cross · go past · until you get to</i></li>
+      <li><b><svg class="pi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10l9-6 9 6"/><path d="M5 10h14v9H5z"/><path d="M3.5 20h17"/><path d="M13.6 12.6c-.4-.5-1-.8-1.6-.8-.9 0-1.6.5-1.6 1.1 0 1.5 3.3.8 3.3 2.4 0 .7-.8 1.2-1.7 1.2-.7 0-1.3-.3-1.7-.8M12 11.2v.7M12 16.6v.7"/></svg>기준점</b><i lang="en">at the bank · at the lights · at the corner · onto Bell Street</i></li>
+      <li><b><svg class="pi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.8-6.5-10.5a6.5 6.5 0 0 1 13 0C18.5 15.2 12 21 12 21z"/><path d="M12 8a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z"/></svg>도착 위치</b><i lang="en">on your right · across from · next to · between · on the corner of</i></li>
+    </ul>
+    <ul class="legend" aria-label="문장 색의 뜻">
+      <li><i style="background:var(--c-key)"></i>열쇠 낱말 (곳 이름 · 동작 · 기준점 · 위치)</li>
+      <li><i style="background:var(--c-frame)"></i>대답 틀 (묻는 틀 · So, ___?)</li>
+      <li><i style="background:var(--c-slot)"></i>내 정보 (곳 이름 · 되짚는 조각)</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>빈칸</li>
+      <li><i style="background:var(--c-pol)"></i>공손한 말 (Excuse me · please · Thanks anyway)</li>
+      <li><i style="background:var(--c-trap)"></i>함정 (콩글리시 · 퉁명스러운 말 · 다른 방향 · 다른 기준점)</li>
+    </ul>
+    <p class="honest"><b>먼저 알려 드려요.</b> 동네(<i lang="en">Fernwood</i>) · 길 이름 · 가게 · 버스 노선은 모두 지어낸 것이에요. 길을 알려 주는 방식은 나라와 사람마다 달라요 — 미국 · 캐나다는 블록(<i lang="en">two blocks</i>)으로, 영국은 길 이름이나 <i lang="en">the second turning on the left</i>처럼 말하기도 하고, 거리는 미터 · 마일로 다르게 말해요. 휴대폰 지도가 있어도 길은 자주 묻게 되고, 그때 이 말들이 쓸모 있어요. 소리는 녹음이 아니라 브라우저에 들어 있는 영어 음성(speechSynthesis)이라 기기마다 목소리가 다르고 실제 거리의 소리와도 달라요.<span class="voice-note"></span></p>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">길 찾기 시뮬레이터</a><a href="#shadow">따라 말하기</a><a href="#drill">듣고 대답 고르기</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="길 묻기 회화 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="지어낸 동네 지도 위에서 걷는 사람이 계산된 길을 따라가고, 길을 알려 주는 사람의 말풍선이 동작 · 기준점 · 도착 위치 조각으로 칠해지며, 나의 되짚는 말풍선이 So, … ? 한 줄로 만들어지고, 틀린 조각에는 줄이 그어지는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">길 찾기 시뮬레이터 — 묻고, 듣고, 되짚고, 찾아가기</h2>
+      <p>왼쪽 <b>길 카드</b>가 지금의 사실이에요(지금 있는 곳 · 바라보는 쪽 · 가려는 곳 · 걸어서인지 버스인지). 지도의 노란 화살표가 나예요. <b>가려는 곳은 지도에 표시되지 않아요</b> — 듣고 찾아가야 해요. 지나가는 사람에게 ① <b>말 거는 말</b> 칩 + ② <b>묻는 틀</b> 칩 + ③ <b>곳 이름</b> 칩으로 말을 걸어요(곳 이름 칩에는 콩글리시도 섞여 있어요). 모른다고 하는 사람을 만날 수도 있어요. 길 안내를 <b>듣기</b>(R) · <b>천천히</b>(S)로 들은 뒤, 들은 조각을 차례로 눌러 <b>되짚어요</b> — 한 줄에 모두 넣어도, 한 조각씩 확인해도 돼요. 틀린 조각이 있으면 상대가 그 조각만 고쳐 주고, 다시 되짚으면 돼요. 확인이 끝나면 <b>지도에서 가려는 곳을 눌러요</b>(버스면 탈 정류장). 맞으면 걷는 사람이 그 길을 따라가요. 브라우저가 음성 인식을 지원하면 마이크로 말해서 대답하거나 되짚을 수도 있어요.</p>
+    </div>
+    <div class="card sim" id="sim" tabindex="-1">
+      <div class="sim-side"><div class="tcard" id="simCard"></div><div class="sim-mapbox"><canvas id="simMap" width="600" height="452" tabindex="0" role="img" aria-label="지어낸 동네 지도: 길 · 건물 아이콘 · 신호등 · 버스 정류장 · 지금 내가 선 곳(화살표). 가려는 곳은 표시되지 않아요"></canvas><p class="sim-mapnote" id="simMapNote"></p><ul class="sim-legend" id="simLegend" aria-label="지도의 이름표"></ul></div><ol class="sim-prog" id="simProg" aria-label="대화 진행"></ol><button type="button" class="btn ghost" id="simNew">새 카드 만들기</button></div>
+      <div class="sim-main" id="simMain" aria-live="polite"></div>
+    </div>
+    <p class="okeys kb">키보드: R 듣기 · S 천천히 · T 대본 · 5~8 말 거는 말 · 1~3 묻는 틀(대답 틀) · A~C 곳 이름 · 되짚기에서 1~9 조각 · Q · W · E 다시 묻기 · Enter 말하기 · Backspace 지우기(되짚기에서는 마지막 조각 하나) · M 말로 대답하기 · 지도에서 화살표 + Enter · N 새 카드</p>
+  </section>
+
+  <section class="block" id="shadow" aria-labelledby="shTitle">
+    <div class="bhead">
+      <p class="eyebrow">따라 말하기</p>
+      <h2 id="shTitle">길 묻기 표현 따라 말하기 — 28문장</h2>
+      <p>일곱 단계마다 상대에게 듣는 말과 내가 하는 말을 골랐어요. <b>듣기</b>로 한 번, <b>천천히</b>로 한 번 듣고 따라 말해 보세요. 마이크 단추를 누르면 내가 말한 문장을 원래 문장과 맞춰 봐요.</p>
+    </div>
+    <p class="sh-mode" id="shMode"></p>
+    <div class="sh-list" id="shList"></div>
+    <p class="honest"><b>음성 인식에 대해 정직하게 알려 드려요.</b> 맞춰 보는 것은 <b>낱말</b>뿐이에요. 발음이 좋은지 나쁜지는 판정하지 않아요. 크롬(Chrome) 같은 브라우저는 말을 글로 바꾸려고 소리를 브라우저 회사의 서버로 보내요. 이 사이트는 소리도 글도 저장하지 않아요. 녹음으로 연습할 때 녹음은 이 화면에만 잠깐 있다가 페이지를 닫으면 사라져요. 길 이름(Bell Street 같은)은 음성 인식이 다르게 적기도 해요.</p>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">듣고 대답 고르기</p>
+      <h2 id="drillTitle">상대의 말을 듣고 내 말 고르기 — 16문제</h2>
+      <p>일곱 단계와 ‘못 알아들었을 때’를 골고루 담았어요. 문제마다 <b>상황</b>이 한 줄 있고, 상대의 말은 소리로 먼저 들려줘요(<b>듣기</b> R · <b>천천히</b> S, 꼭 필요하면 <b>대본 보기</b> T). 지나가는 사람에게 내가 먼저 말을 거는 문제는 들을 말이 없어요. 보기 넷은 글로 보여요 — 되짚기 문제는 보기마다 한 조각만 달라요. 막히면 <b>힌트</b>(H)를 누르세요. ① 열쇠 낱말 → ② 틀과 내 정보 → ③ 공손한 말 순서로 색과 함께 열려요. 답하면 보기마다 규칙 엔진의 까닭, 해석, 대화 듣기가 나와요.</p>
+      <p class="honest">브라우저 음성이라 실제 거리의 말소리와 다르게 들릴 수 있어요. 잘 안 들리면 천천히 듣기를 켜 보세요. ‘아주 빠르게’ 표시가 있는 문제는 일부러 빠르게 읽어요.<span class="voice-note"></span></p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 지도의 화살표나 건물을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 길 묻기 영어</h2>
+      <p>① 열쇠 낱말 — 물을 때는 곳 이름, 들을 때는 동작 · 기준점 · 위치 낱말을 잡고 ② 묻는 틀에 곳 이름을, 되짚는 틀 <i lang="en">So, ___?</i>에 들은 조각을 넣고 ③ <i lang="en">Excuse me · please · Thank you so much · Thanks anyway</i>로 공손하게 끝내요. 못 알아들었으면 짐작하지 말고 되물어요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">단계</th><th scope="col">열쇠 낱말</th><th scope="col">틀 · 조각</th></tr></thead>
+        <tbody>
+          <tr><td class="pl">1. 말 걸기</td><td class="k" lang="en">(지나가는 사람) · Can I help you?</td><td lang="en"><b class="p">Excuse me</b>. · <b class="p">Sorry to bother you</b>. · <b class="f">Yes,</b> <b class="p">please</b>. <b class="f">I'm looking for</b> <b class="s">a pharmacy</b>.</td></tr>
+          <tr><td class="pl">2. 묻기</td><td class="k">곳 이름 (마트 → supermarket · 편의점 → convenience store)</td><td lang="en"><b class="p">Could you</b> <b class="f">tell me how to get to</b> <b class="s">the train station</b>? · <b class="f">Is there</b> <b class="s">a pharmacy</b> <b class="f">near here?</b> · <b class="f">Where's the nearest</b> <b class="s">supermarket</b>?</td></tr>
+          <tr><td class="pl">3. 동작 듣기</td><td class="k" lang="en">go straight · turn left · take the second left · cross · go past · until you get to</td><td lang="en"><b class="s">take the second left</b> (한 번) · <b class="s">turn left twice</b> (두 번)</td></tr>
+          <tr><td class="pl">4. 기준점 · 위치</td><td class="k" lang="en">at the bank · at the lights · on your right · across from · next to</td><td lang="en"><b class="s">turn left</b> (동작) · <b class="s">it's on your left</b> (위치) · <b class="s">across from the park</b> (맞은편) · <b class="s">next to the bank</b> (바로 옆)</td></tr>
+          <tr><td class="pl">5. 거리 · 교통</td><td class="k" lang="en">five-minute walk · too far to walk · the 15 bus · the third stop · Exit 3</td><td lang="en"><b class="f">Which bus should I take?</b> · <b class="s">fifteen</b> (15) · <b class="s">fifty</b> (50)</td></tr>
+          <tr><td class="pl">6. 되짚기</td><td class="k">동작 + 기준점 + 도착 위치 (your → my)</td><td lang="en"><b class="f">So, I</b> <b class="s">go straight for two blocks</b>, <b class="s">turn left at the bank</b>, <b class="f">and</b> <b class="s">it's on my right</b>?</td></tr>
+          <tr><td class="pl">7. 고맙다고 끝내기</td><td class="k" lang="en">That's right · not from around here</td><td lang="en"><b class="f">Great,</b> <b class="p">thank you so much</b>! · <b class="f">That's okay.</b> <b class="p">Thanks anyway</b>.</td></tr>
+          <tr><td class="pl">못 알아들었을 때</td><td class="k">빠른 말 · 한 부분 · 지도</td><td lang="en"><b class="p">Sorry, could you</b> <b class="f">say that again more slowly,</b> <b class="p">please</b>? · <b class="p">Sorry</b>, <b class="f">left or right?</b> · <b class="p">Could you</b> <b class="f">show me on the map?</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>① 열쇠 낱말 잡기</h3>
+        <dl>
+          <dt>곳 이름 <span>place</span></dt><dd>물을 때의 열쇠 낱말이에요. 하나뿐인 곳은 <i lang="en">the</i>(<i lang="en">the train station</i>), 여러 곳에 있는 곳은 <i lang="en">a</i>(<i lang="en">Is there a pharmacy near here?</i>). <i lang="en">the station</i>만 말하면 기차역인지 지하철역인지 되물을 수 있어요(<i lang="en">The train station or the subway station?</i> → 고르는 질문).</dd>
+          <dt>동작 <span>action</span></dt><dd><i lang="en">go straight · keep going · turn left · turn right · take the second left · cross the street · go past · until you get to</i>. <b>left · right는 걷는 사람이 바라보는 쪽</b>이 기준이에요.</dd>
+          <dt>기준점 <span>landmark</span></dt><dd>어디서 도는지 → <i lang="en">at the bank · at the lights(신호등) · at the corner · onto Bell Street</i>.</dd>
+          <dt>도착 위치 <span>position</span></dt><dd><i lang="en">on your right · across from(맞은편) · next to(바로 옆) · between A and B · on the corner of A and B · in front of · behind</i>.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>② 틀에 내 정보 넣기</h3>
+        <dl>
+          <dt>묻는 틀 <span>asking frame</span></dt><dd><i lang="en">Could you tell me how to get to ___? · Is there ___ near here? · Where's the nearest ___?</i></dd>
+          <dt>되짚는 틀 <span>check-back</span></dt><dd><i lang="en">So, ___, ___, and it's on my ___?</i> 들은 조각을 들은 차례대로, <i lang="en">your</i> → <i lang="en">my</i>로 바꿔 넣어요. 한 조각만 확인해도 돼요(<i lang="en">So, I take the second left?</i>).</dd>
+          <dt>고쳐 주는 말 <span>correction</span></dt><dd><i lang="en">Not quite — turn left at the bank.</i> 틀린 조각만 고쳐 줘요. 그 조각만 다시 되짚으면 돼요.</dd>
+          <dt>숫자 <span>numbers</span></dt><dd><i lang="en">fifteen</i>(뒤를 셈) · <i lang="en">fifty</i>(앞을 셈). <i lang="en">the third stop</i> = 세 번째 정류장. <i lang="en">Exit 3</i> = 3번 출구. <i lang="en">a five-minute walk</i> = 걸어서 5분.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>③ 공손하게 끝내기</h3>
+        <dl>
+          <dt>말 걸기 <span>Excuse me</span></dt><dd><i lang="en">Excuse me. · Sorry to bother you.</i> <i lang="en">Hey!</i>는 친구를 부르는 말처럼 들려요. Excuse me 없이 <i lang="en">Where is …?</i>로 바로 시작하면 퉁명스러워요.</dd>
+          <dt>고맙다는 말 <span>thanks</span></dt><dd><i lang="en">Great, thank you so much!</i> 모른다고 한 사람에게도 → <i lang="en">That's okay. Thanks anyway.</i> <i lang="en">Okay. Bye.</i>는 무뚝뚝하고, <i lang="en">You're welcome.</i>은 고맙다는 말을 들었을 때 하는 대답이에요.</dd>
+          <dt>다시 묻기 <span>repair</span></dt><dd><i lang="en">Sorry, could you say that again more slowly, please?</i> 일부만 들렸으면 → <i lang="en">Sorry, left or right? · Sorry, which bus?</i> 지도를 보여 주며 → <i lang="en">Could you show me on the map?</i> <i lang="en">What?</i> 한 낱말은 퉁명스러워요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>④ 한국어와 다른 점 · 콩글리시 · 영국 영어</h3>
+        <dl>
+          <dt>길 좀 가르쳐 주세요</dt><dd>→ <i lang="en">Could you tell me how to get to …? · Could you show me the way to …?</i> <i lang="en">teach me the way</i>는 알아듣지만 teach가 수업에서 가르치는 말이라 어색해요.</dd>
+          <dt>마트 · 편의점</dt><dd>→ <i lang="en">a supermarket · a grocery store</i> · <i lang="en">a convenience store</i>. <i lang="en">mart</i>(가게 이름에 붙는 말) · <i lang="en">a convenience</i>(편리함)는 헷갈려요.</dd>
+          <dt>지하철역 · 화장실 · 주유소</dt><dd>→ <i lang="en">subway station</i>(영국 <i lang="en">underground · the tube</i>) · <i lang="en">restroom · bathroom</i>(영국 <i lang="en">toilets</i>) · <i lang="en">gas station</i>(영국 <i lang="en">petrol station</i>). 영국 영어도 맞는 말이에요.</dd>
+          <dt>횡단보도 · 사거리 · 신호등</dt><dd>→ <i lang="en">crosswalk</i>(영국 <i lang="en">pedestrian crossing</i>) · <i lang="en">intersection</i> · <i lang="en">traffic lights · the lights</i>.</dd>
+          <dt>왼쪽으로 · 왼쪽에</dt><dd><i lang="en">turn left</i> → 도는 동작 · <i lang="en">on your left</i> → 있는 위치. <i lang="en">take the second left</i> → 두 번째 왼쪽 길로 한 번 · <i lang="en">turn left twice</i> → 두 번 돌기.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 지도의 길(어디서 돌고, 바라보는 쪽에 따라 왼쪽인지 오른쪽인지, 몇 번째 길인지, 도착하는 쪽), 건물 사이의 관계(맞은편 · 바로 옆 · 사이 · 모퉁이 · 뒤), 길 안내 영어와 되짚는 조각, 되짚은 줄의 판정(빠진 조각 · 다른 방향 · 다른 기준점 · 블록 수 · 순서 · <i lang="en">turn</i>과 <i lang="en">on</i> · 두 번 돌기 · 버스 번호와 정류장)과 상대가 고쳐 주는 말, 영상 속 ✓·×와 실전에서 지워지는 순서, 직접 해 보기의 채점, 시뮬레이터의 판정 · 반응 · 걷는 길, 듣고 대답 고르기의 힌트와 보기별 해설, 퀴즈의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 동네는 남북 길 넷 × 동서 길 셋의 바둑판이고, 길은 두 번까지만 돌아요. 블록 수는 ‘몇 번째 교차점에서 도는지’로 세었어요(지금 서 있는 블록의 끝 = 첫 교차점). 되짚기 판정은 낱말 조각(동작 · 기준점 · 위치 · 교통)을 들은 길과 맞춰 보는 것이지, 문장 전체를 이해하는 것은 아니에요. 같은 교차점을 가리키는 다른 이름표(은행 · 신호등 · 길 이름 · 몇 번째 길)는 모두 맞게 받아들여요. 엄격함의 기준은 ‘듣는 사람이 틀리다 · 헷갈린다 · 무례하다고 느낄 말만 거르고, 알아듣지만 더 흔한 말이 있으면 통과 + 알림’이에요(자세한 결정은 README). 말로 대답하기와 따라 말하기는 음성 인식이 글로 바꾼 낱말만 맞춰 보고, 숫자는 15든 fifteen이든 one-five든 같은 숫자로 맞추고, 발음과 공손함은 판정하지 않아요.</p>
+    <p>동네 · 길 이름 · 가게 · 버스 노선은 모두 지어낸 것이고, 대화는 직접 만든 것이에요. 길을 알려 주는 방식(블록 · 길 이름 · 미터 · 마일)은 나라와 사람마다 달라요. 영어 소리는 모두 브라우저의 음성(speechSynthesis)이에요. 같은 형식의 회화 튜토리얼은 <a href="../airport/index.html">공항, 질문은 정해져 있다</a> · <a href="../cafe/index.html">카페, 주문에는 순서가 있다</a> · <a href="../hotel/index.html">호텔, 부탁은 질문으로 한다</a> · <a href="../restaurant/index.html">식당, 질문의 모양이 대답을 정한다</a>이고, 전치사 그림(시간 · 장소)은 토익 문법 튜토리얼 <a href="../prepositions/index.html">T11</a>에서도 다뤄요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 상황별 영어 회화 다섯 번째 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/voices.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
