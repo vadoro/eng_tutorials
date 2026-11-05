@@ -650,7 +650,7 @@
       [24, 30, 'Okay. Bye. → 무뚝뚝하게 들려요. 시간을 내 준 사람에게는 → Thanks anyway.'],
     ] },
     { id: 'oneline', n: '08', title: '한 줄로 되짚기', sub: '조각마다 따로 확인하면 세 번 · 한 줄이면 한 번', d: 30, caps: [
-      [0.4, 6, '조각마다 따로 확인하면 → Straight for two blocks? Yes. Then left at the bank? Yes. On my right? Yes.'],
+      [0.4, 6, '조각마다 따로 확인하면 → Straight for two blocks? Yes. Then left at the bank? Yes. And it\'s on my right? That\'s right.'],
       [6, 12, '세 번 주고받아요. 한 줄로 되짚으면 한 번이면 돼요.'],
       [12, 18, 'So, I go straight for two blocks, turn left at the bank, and it\'s on my right? That\'s right!'],
       [18, 24, '틀린 조각이 하나 있으면 → 상대는 맞은 조각은 다시 말하지 않고, 틀린 조각만 고쳐 줘요.'],

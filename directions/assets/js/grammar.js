@@ -615,6 +615,8 @@
         case 'turnVsOn': en = `Almost — you don't turn there. It's just on your ${c.dir}.`; ko = `거의 맞아요 — 거기서는 돌지 않아요. ${dk(c.dir)}에 있어요.`; why = `on your ${c.dir} → ${dk(c.dir)}에 있다(위치). turn ${s.dir} → ${dk(s.dir)}으로 돈다(동작). 마지막에는 돌지 않고, 그곳이 ${dk(c.dir)}에 있어요.`; break;
         case 'onVsTurn': en = `Not quite — you turn ${c.dir} there.`; ko = `아니에요 — 거기서 ${dk(c.dir)}으로 돌아요.`; why = `turn ${c.dir} → 돈다(동작)를 on my ${s.dir} → 있다(위치)로 되짚었어요.`; break;
         case 'twice': en = `Not quite — you only turn once. Take the ${ordW(c.nth)} ${c.dir}.`; ko = `아니에요 — 한 번만 돌아요. ${DR.ordKo(c.nth)} ${dk(c.dir)} 길로요.`; why = `take the ${ordW(c.nth)} ${c.dir} → ${DR.ordKo(c.nth)}로 나오는 ${dk(c.dir)} 길로 한 번 돌아요. turn ${s.dir} twice → ${dk(s.dir)}으로 두 번 돌기라서 다른 곳에 가요.`; break;
+        case 'twice2': { const ka = DR.chunkKo(Object.assign({ k: 'turn', dir: x.a.dir }, fixId(null, x.a))), kb = DR.chunkKo(Object.assign({ k: 'turn', dir: x.b.dir }, fixId(null, x.b)));
+          en = `Not quite — ${youTurn(x.a, null)} first. Then ${youTurn(x.b, null)}.`; ko = `아니에요 — 두 번 돌지만 같은 쪽이 아니에요.`; why = `두 번 도는 길이지만 방향이 달라요. 들은 길: ${ka} → ${kb} · 되짚은 말: turn ${s.dir} twice (${dk(s.dir)}으로 두 번 돌기).`; break; }
         case 'cross': en = `Not quite — cross ${c.street}.`; ko = `아니에요 — 길(${c.street})을 건너요.`; why = `건너는 길이 달라요. 들은 길: ${c.street} · 되짚은 말: ${s.street || 'the street'}.`; break;
         case 'rel': { const r = c.rels[0]; en = `Not quite — it's ${DR.REL[r.rel].en(r.of)}.`; ko = `아니에요 — ${DR.REL[r.rel].ko(r.of)}에 있어요.`; why = `위치 관계가 달라요. 지도: ${c.rels.map(x => DR.REL[x.rel].en(x.of)).join(' · ')} · 되짚은 말: ${DR.REL[s.rel] ? DR.REL[s.rel].en(s.of) : said}.`; break; }
         case 'num': en = `Not quite — the number ${c.num} bus. ${cap(DR.digitWords(c.num))}.`; ko = `아니에요 — ${c.num}번 버스예요.`; why = `버스 번호가 달라요. 들은 길: ${c.num} (${numWord(c.num)}) · 되짚은 말: ${s.num} (${numWord(s.num)}). ${c.num === 15 || s.num === 15 ? 'fifteen → 뒤(TEEN)를 세게, fifty → 앞(FIF)을 세게.' : ''}`.trim(); break;
@@ -647,17 +649,27 @@
     let ptr = 0;
     for (let si = 0; si < S.length; si++) {
       const s = S[si];
-      if (s.k === 'twice') { const i = core.findIndex((c, j) => j >= ptr && c.k === 'turn'); return bad('twice', i < 0 ? core.findIndex(c => c.k === 'turn') : i, s); }
+      if (s.k === 'twice') {
+        // 남은 돌기 둘이 모두 그쪽이면 맞는 말(turn left twice = 왼쪽, 또 왼쪽). 아니면 → 몇 번 · 어느 쪽으로 도는지 고쳐 줘요
+        const ts = core.map((c, j) => [c, j]).filter(([c, j]) => j >= ptr && c.k === 'turn');
+        if (ts.length >= 2 && ts[0][0].dir === s.dir && ts[1][0].dir === s.dir) { used.push(ts[0][1], ts[1][1]); ptr = ts[1][1] + 1; continue; }
+        if (ts.length >= 2) return bad('twice2', ts[0][1], s, { a: ts[0][0], b: ts[1][0] });
+        return bad('twice', ts.length ? ts[0][1] : core.findIndex(c => c.k === 'turn'), s);
+      }
       if (s.k === 'go') {
         // 블록 수(또는 길 끝까지)가 맞는 구간을 먼저 (뒤 구간만 확인해도 돼요)
         const fits = c => s.end ? !!c.end : (s.n == null || c.n === s.n);
         let i = core.findIndex((c, j) => j >= ptr && c.k === 'go' && fits(c));
         if (i < 0) {
           // 앞 구간의 말을 뒤에서 했으면 → 순서
-          const back = core.findIndex((c, j) => j < ptr && c.k === 'go' && fits(c));
+          const back = core.findIndex((c, j) => j < ptr && !used.includes(j) && c.k === 'go' && fits(c));
           if (back >= 0) return bad('order', back, s, { a: core[back], b: used.length ? core[used[used.length - 1]] : null });
           i = core.findIndex((c, j) => j >= ptr && c.k === 'go');
-          if (i < 0) { if (core.some((c, j) => j < ptr && c.k === 'go')) return bad('order', ptr, s, orderPair(s)); continue; }
+          if (i < 0) {
+            // 앞 구간의 블록 수와도 맞지 않으면 → 들은 길에 없는 조각 (블록 수가 맞는 앞 구간이면 위에서 순서로 봐요)
+            if (core.some((c, j) => j < ptr && c.k === 'go')) return bad('extra', -1, s);
+            continue;
+          }
           return bad('go', i, s);
         }
         used.push(i); ptr = i + 1; continue;
@@ -666,15 +678,18 @@
         const cand = core.map((c, j) => [c, j]).filter(([c, j]) => j >= ptr && c.k === 'turn');
         if (!cand.length) {
           const side = core.find(c => c.k === 'side'), sideI = core.indexOf(side);
-          if (side && sideI >= ptr && s.dir === side.dir && !s.lm && !s.nth && !S.slice(si + 1).some(x => x.k === 'side')) return bad('turnVsOn', sideI, s);
-          const back = core.map((c, j) => [c, j]).filter(([c, j]) => j < ptr && c.k === 'turn' && sameTurnAt(s, c));
+          // 이름표가 없거나, 방금 돈 곳의 이름표면(turn left at the bank → turn right at the bank) → 돌기와 위치를 헷갈림
+          const atUsed = used.some(u => core[u].k === 'turn' && sameTurnAt(s, core[u]) === true);
+          if (side && sideI >= ptr && s.dir === side.dir && (!s.lm && !s.nth || atUsed) && !S.slice(si + 1).some(x => x.k === 'side')) return bad('turnVsOn', sideI, s);
+          // 이미 맞게 되짚은 돌기는 순서 탓에서 빼요
+          const back = core.map((c, j) => [c, j]).filter(([c, j]) => j < ptr && !used.includes(j) && c.k === 'turn' && sameTurnAt(s, c));
           if (back.length) return bad('order', back[0][1], s, { a: back[0][0], b: core[used[used.length - 1]] });
           return bad('extra', -1, s);
         }
         let hit = cand.find(([c]) => sameTurnAt(s, c) === true && c.dir === s.dir) || cand.find(([c]) => sameTurnAt(s, c) === true) || cand.find(([c]) => sameTurnAt(s, c) == null && c.dir === s.dir);
         if (!hit) {
           // 이름표가 뒤쪽 돌기를 가리키면 → 순서(또는 빠진 조각)
-          const later = core.map((c, j) => [c, j]).filter(([c, j]) => j < ptr && c.k === 'turn' && sameTurnAt(s, c) === true);
+          const later = core.map((c, j) => [c, j]).filter(([c, j]) => j < ptr && !used.includes(j) && c.k === 'turn' && sameTurnAt(s, c) === true);
           if (later.length) return bad('order', later[0][1], s, { a: later[0][0], b: core[used[used.length - 1]] });
           hit = cand[0];
           if (sameTurnAt(s, hit[0]) === false) return bad(s.nth ? 'nth' : 'lm', hit[1], s);
@@ -706,7 +721,6 @@
       }
       return bad('extra', -1, s);
     }
-    function orderPair(s) { return { a: core.find(c => c.k === s.k), b: core[used[used.length - 1]] || core[0] }; }
     // 사이가 빈 조각 (처음 되짚은 조각 ~ 마지막 되짚은 조각 사이의 꼭 필요한 조각)
     if (used.length) {
       const lo = Math.min(...used), hi = Math.max(...used);
@@ -1290,7 +1304,7 @@
     told.forEach((x, i) => {
       if (x.k === 'turn') {
         W(i, Object.assign({}, x, { dir: flip(x.dir) }));
-        if (x.nth) W(i, { k: 'twice', dir: x.dir });
+        if (x.nth && !(R.legs.length === 2 && R.legs[0].dir === R.legs[1].dir)) W(i, { k: 'twice', dir: x.dir });   // 같은 쪽으로 두 번 도는 길이면 turn ___ twice가 맞는 말이라 함정이 아니에요
         else if (x.lm) { const other = DR.MARKS.find(m => m !== x.lm && m !== 'park' && !R.legs.some(L => DR.marksAt(L.I, true).includes(m)) && (rnd() < 0.5 || m === 'postoffice')); if (other) W(i, Object.assign({}, x, { lm: other })); }
       }
       if (x.k === 'go' && x.n) W(i, { k: 'go', n: x.n === 3 ? 2 : x.n + 1 });
