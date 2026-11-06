@@ -1,0 +1,1154 @@
+{
+ "slug": "restaurant",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 9,
+  "ca": 3,
+  "gb": 1,
+  "me": 84,
+  "tc": 60,
+  "us": 33
+ },
+ "lines": [
+  {
+   "id": "tc-801aab05",
+   "sp": "tc",
+   "text": "still water",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3d5080ba",
+   "sp": "tc",
+   "text": "sparkling water",
+   "from": "video-say"
+  },
+  {
+   "id": "us-07730516",
+   "sp": "us",
+   "text": "Still or sparkling?",
+   "from": "video"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "video"
+  },
+  {
+   "id": "us-5f8d436f",
+   "sp": "us",
+   "text": "…Sorry — still or sparkling?",
+   "from": "video"
+  },
+  {
+   "id": "me-beb1b92a",
+   "sp": "me",
+   "text": "Sparkling, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-175da46f",
+   "sp": "tc",
+   "text": "Sparkling, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9f666fe8",
+   "sp": "tc",
+   "text": "Are you ready to order?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-51fc5a72",
+   "sp": "tc",
+   "text": "Yes. I'll have the steak.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-96544333",
+   "sp": "tc",
+   "text": "Still or sparkling?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1115dc32",
+   "sp": "tc",
+   "text": "How many?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c2f8f8be",
+   "sp": "tc",
+   "text": "Two, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-77cc627e",
+   "sp": "tc",
+   "text": "Hi, welcome to Juniper Table! Do you have a reservation?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4ebc69b9",
+   "sp": "tc",
+   "text": "Hi, I'm Sam. I'll be your server tonight. Still or sparkling water?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-003580db",
+   "sp": "tc",
+   "text": "Do you have any food allergies?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a5e3a958",
+   "sp": "tc",
+   "text": "How is everything?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1073753",
+   "sp": "tc",
+   "text": "Are you still working on that?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-93e19c20",
+   "sp": "tc",
+   "text": "Will this be together or separate?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1cabb04e",
+   "sp": "tc",
+   "text": "Yes. I'll have the ribeye steak, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-09702fae",
+   "sp": "tc",
+   "text": "Can I get you something to drink?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-03cac3df",
+   "sp": "tc",
+   "text": "Just water, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bf3b2b89",
+   "sp": "tc",
+   "text": "Would you like to sit inside or outside?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-86658aab",
+   "sp": "tc",
+   "text": "And would you like soup or salad with that?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9df1417b",
+   "sp": "tc",
+   "text": "Salad, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1284aa1",
+   "sp": "tc",
+   "text": "Yes, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-de973b52",
+   "sp": "tc",
+   "text": "Soup or salad?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5a776ff1",
+   "sp": "tc",
+   "text": "Would you like soup or salad?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-03766f68",
+   "sp": "tc",
+   "text": "No problem. How many are in your party?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d70d2a4e",
+   "sp": "tc",
+   "text": "How would you like your steak cooked?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fd65bc5d",
+   "sp": "tc",
+   "text": "Medium, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0f2737ef",
+   "sp": "tc",
+   "text": "Please wait to be seated.",
+   "from": "video-say"
+  },
+  {
+   "id": "au-013cfa37",
+   "sp": "au",
+   "text": "Hi, welcome to Juniper Table! Do you have a reservation?",
+   "from": "video"
+  },
+  {
+   "id": "me-2d93fc3c",
+   "sp": "me",
+   "text": "Yes, under Park.",
+   "from": "video"
+  },
+  {
+   "id": "me-8e32c9ca",
+   "sp": "me",
+   "text": "No, we don't.",
+   "from": "video"
+  },
+  {
+   "id": "au-ba252bf7",
+   "sp": "au",
+   "text": "No problem. How many are in your party?",
+   "from": "video"
+  },
+  {
+   "id": "me-a4779c0b",
+   "sp": "me",
+   "text": "Two, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-05875125",
+   "sp": "me",
+   "text": "We are two.",
+   "from": "video"
+  },
+  {
+   "id": "me-f50d1d43",
+   "sp": "me",
+   "text": "A table for two, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-7b5e0da5",
+   "sp": "tc",
+   "text": "Two people.",
+   "from": "video-say"
+  },
+  {
+   "id": "au-fca90431",
+   "sp": "au",
+   "text": "It'll be about a fifteen-minute wait. Is that okay?",
+   "from": "video"
+  },
+  {
+   "id": "tc-24de758c",
+   "sp": "tc",
+   "text": "fifteen minutes",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ed080235",
+   "sp": "tc",
+   "text": "fifteen, fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3b5eea6b",
+   "sp": "tc",
+   "text": "thirteen, thirty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d24f11b0",
+   "sp": "tc",
+   "text": "fourteen, forty",
+   "from": "video-say"
+  },
+  {
+   "id": "au-35fda2b8",
+   "sp": "au",
+   "text": "about a fifteen-minute wait",
+   "from": "video"
+  },
+  {
+   "id": "me-52e84704",
+   "sp": "me",
+   "text": "Sorry, did you say fifteen minutes?",
+   "from": "video"
+  },
+  {
+   "id": "au-37a7a936",
+   "sp": "au",
+   "text": "Yes, fifteen. One-five.",
+   "from": "video"
+  },
+  {
+   "id": "me-addd91c0",
+   "sp": "me",
+   "text": "That's fine. We'll wait.",
+   "from": "video"
+  },
+  {
+   "id": "au-6403fd6c",
+   "sp": "au",
+   "text": "Would you like to sit inside or outside?",
+   "from": "video"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-30d48074",
+   "sp": "me",
+   "text": "Outside, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-86608b1f",
+   "sp": "us",
+   "text": "Can I get you something to drink?",
+   "from": "video"
+  },
+  {
+   "id": "me-2975ba30",
+   "sp": "me",
+   "text": "Just water, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-5e627cc8",
+   "sp": "us",
+   "text": "Hi, I'm Sam. I'll be your server tonight. Still or sparkling water?",
+   "from": "video"
+  },
+  {
+   "id": "tc-8808910e",
+   "sp": "tc",
+   "text": "still",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c0e40ca9",
+   "sp": "tc",
+   "text": "sparkling",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e194a8ea",
+   "sp": "tc",
+   "text": "tap water",
+   "from": "video-say"
+  },
+  {
+   "id": "me-d741fd8d",
+   "sp": "me",
+   "text": "A cider, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2d1b9267",
+   "sp": "tc",
+   "text": "cider",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c6649203",
+   "sp": "tc",
+   "text": "a lemon-lime soda",
+   "from": "video-say"
+  },
+  {
+   "id": "us-7a2f71c9",
+   "sp": "us",
+   "text": "Cider? Just so you know, our cider is an apple drink with alcohol in it.",
+   "from": "video"
+  },
+  {
+   "id": "me-3cc1519d",
+   "sp": "me",
+   "text": "Could I get a lemon-lime soda, please?",
+   "from": "video"
+  },
+  {
+   "id": "us-868ff1dd",
+   "sp": "us",
+   "text": "Are you ready to order?",
+   "from": "video"
+  },
+  {
+   "id": "me-79314b73",
+   "sp": "me",
+   "text": "Yes. I'll have the ribeye steak, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-9dd4f7f2",
+   "sp": "me",
+   "text": "Could we have a few more minutes, please?",
+   "from": "video"
+  },
+  {
+   "id": "us-dbd3d68f",
+   "sp": "us",
+   "text": "How would you like your steak cooked?",
+   "from": "video"
+  },
+  {
+   "id": "tc-a1054ef0",
+   "sp": "tc",
+   "text": "Rare, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d5bdf8e2",
+   "sp": "tc",
+   "text": "Medium-rare, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-cec324fe",
+   "sp": "tc",
+   "text": "Medium-well, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-eec1c0a1",
+   "sp": "tc",
+   "text": "Well-done, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-898b0213",
+   "sp": "me",
+   "text": "Medium-rare, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-8ea87b6e",
+   "sp": "me",
+   "text": "Give me the menu.",
+   "from": "video"
+  },
+  {
+   "id": "me-95746308",
+   "sp": "me",
+   "text": "I want ribeye steak.",
+   "from": "video"
+  },
+  {
+   "id": "me-085006e7",
+   "sp": "me",
+   "text": "Could I see the menu, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-a33fd4f6",
+   "sp": "me",
+   "text": "I'll have the ribeye steak, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-0bec6b86",
+   "sp": "us",
+   "text": "Do you have any food allergies?",
+   "from": "video"
+  },
+  {
+   "id": "me-2c6adb4f",
+   "sp": "me",
+   "text": "Yes, I'm allergic to peanuts.",
+   "from": "video"
+  },
+  {
+   "id": "me-921150cd",
+   "sp": "me",
+   "text": "Yes, I have a peanut allergy.",
+   "from": "video"
+  },
+  {
+   "id": "me-3ea04c1f",
+   "sp": "me",
+   "text": "I have peanut.",
+   "from": "video"
+  },
+  {
+   "id": "us-49248c7c",
+   "sp": "us",
+   "text": "Do you have any questions about the menu?",
+   "from": "video"
+  },
+  {
+   "id": "me-0cf4d60c",
+   "sp": "me",
+   "text": "Yes. Does the house salad have nuts in it?",
+   "from": "video"
+  },
+  {
+   "id": "us-84e6179b",
+   "sp": "us",
+   "text": "Yes, it does. The house salad comes with walnuts, but we can make it without them. Is that okay?",
+   "from": "video"
+  },
+  {
+   "id": "me-ac1859c9",
+   "sp": "me",
+   "text": "Yes, without the walnuts, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-05a977c9",
+   "sp": "tc",
+   "text": "I'm afraid the peanut sauce can't be left out. Would you like to choose something else?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-6d6cc1f3",
+   "sp": "us",
+   "text": "Would you like it mild or spicy?",
+   "from": "video"
+  },
+  {
+   "id": "me-ee6d3a6a",
+   "sp": "me",
+   "text": "Not too spicy, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-32a6994f",
+   "sp": "us",
+   "text": "Which dressing would you like?",
+   "from": "video"
+  },
+  {
+   "id": "me-450baa2a",
+   "sp": "me",
+   "text": "Italian on the side, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-8a52a4f7",
+   "sp": "us",
+   "text": "Enjoy your meal!",
+   "from": "video"
+  },
+  {
+   "id": "me-251fc177",
+   "sp": "me",
+   "text": "Excuse me. Could I get some more water, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-c48e4ab8",
+   "sp": "me",
+   "text": "Hey!",
+   "from": "video"
+  },
+  {
+   "id": "me-6e0ef56e",
+   "sp": "me",
+   "text": "Waiter!",
+   "from": "video"
+  },
+  {
+   "id": "me-218fcaa2",
+   "sp": "me",
+   "text": "Here!",
+   "from": "video"
+  },
+  {
+   "id": "us-e742e81b",
+   "sp": "us",
+   "text": "How is everything?",
+   "from": "video"
+  },
+  {
+   "id": "me-2624fc35",
+   "sp": "me",
+   "text": "Great, thank you.",
+   "from": "video"
+  },
+  {
+   "id": "us-835d37ac",
+   "sp": "us",
+   "text": "Yes? How can I help?",
+   "from": "video"
+  },
+  {
+   "id": "me-f421efe6",
+   "sp": "me",
+   "text": "Could I get some more water, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-bfa69bea",
+   "sp": "me",
+   "text": "Could we get an extra plate, please?",
+   "from": "video"
+  },
+  {
+   "id": "ca-e293d57f",
+   "sp": "ca",
+   "text": "Here's your grilled salmon. Enjoy!",
+   "from": "video"
+  },
+  {
+   "id": "me-f3a1dda9",
+   "sp": "me",
+   "text": "This is wrong!",
+   "from": "video"
+  },
+  {
+   "id": "me-e359b9aa",
+   "sp": "me",
+   "text": "Excuse me, this isn't what I ordered. I ordered the ribeye steak.",
+   "from": "video"
+  },
+  {
+   "id": "ca-fd953358",
+   "sp": "ca",
+   "text": "Oh, I'm so sorry! I'll bring your ribeye steak right away.",
+   "from": "video"
+  },
+  {
+   "id": "us-6c4f219c",
+   "sp": "us",
+   "text": "Are you still working on that?",
+   "from": "video"
+  },
+  {
+   "id": "me-75c952e7",
+   "sp": "me",
+   "text": "No, I'm done. Could I get a box for this, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-5f9df3fd",
+   "sp": "me",
+   "text": "No. Take out, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-80155b07",
+   "sp": "us",
+   "text": "Can I interest you in some dessert?",
+   "from": "video"
+  },
+  {
+   "id": "me-3d6dfd6c",
+   "sp": "me",
+   "text": "No, thanks. Just the check, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-3cc3ae1a",
+   "sp": "tc",
+   "text": "Just the bill, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-65fb98e7",
+   "sp": "me",
+   "text": "Can I calculate?",
+   "from": "video"
+  },
+  {
+   "id": "me-8d74fe7c",
+   "sp": "me",
+   "text": "Could we get the check, please?",
+   "from": "video"
+  },
+  {
+   "id": "us-20d5e897",
+   "sp": "us",
+   "text": "Will this be together or separate?",
+   "from": "video"
+  },
+  {
+   "id": "me-790dab61",
+   "sp": "me",
+   "text": "Dutch pay, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-58052110",
+   "sp": "me",
+   "text": "Separate, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-bbd83ab8",
+   "sp": "me",
+   "text": "Could you split it evenly, please?",
+   "from": "video"
+  },
+  {
+   "id": "us-457c697a",
+   "sp": "us",
+   "text": "Here's your check. That's twenty-eight fifty each. Card or cash?",
+   "from": "video"
+  },
+  {
+   "id": "us-621ede1a",
+   "sp": "us",
+   "text": "Card or cash?",
+   "from": "video"
+  },
+  {
+   "id": "me-9930bb05",
+   "sp": "me",
+   "text": "Card, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-85b566ee",
+   "sp": "us",
+   "text": "What can I get for you tonight?",
+   "from": "video"
+  },
+  {
+   "id": "us-09399ec6",
+   "sp": "us",
+   "text": "How would you like your steak?",
+   "from": "video"
+  },
+  {
+   "id": "us-0f86518d",
+   "sp": "us",
+   "text": "Soup or salad?",
+   "from": "video"
+  },
+  {
+   "id": "me-088cf86e",
+   "sp": "me",
+   "text": "Salad, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-d66c0d16",
+   "sp": "us",
+   "text": "Which dressing?",
+   "from": "video"
+  },
+  {
+   "id": "me-edc6c3a9",
+   "sp": "me",
+   "text": "Italian, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-140478a3",
+   "sp": "tc",
+   "text": "I'll have the ribeye steak, medium-rare, with a salad and Italian dressing, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-2719c093",
+   "sp": "us",
+   "text": "Great choice.",
+   "from": "video"
+  },
+  {
+   "id": "me-5ca2fa42",
+   "sp": "me",
+   "text": "I'll have the ribeye steak, medium-rare, with a salad and Italian dressing, without the walnuts, please. I'm allergic to nuts.",
+   "from": "video"
+  },
+  {
+   "id": "me-be2233f2",
+   "sp": "me",
+   "text": "Medium-rare, with a salad I'll have the ribeye steak, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-0e11fbc4",
+   "sp": "tc",
+   "text": "Enjoy your meal!",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-dd4d521e",
+   "sp": "tc",
+   "text": "Can I interest you in some dessert?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ff55b76e",
+   "sp": "tc",
+   "text": "Yes, I'm allergic to nuts.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-dae96f74",
+   "sp": "tc",
+   "text": "Excuse me. Could I get some more water, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b505f07b",
+   "sp": "tc",
+   "text": "No, thanks. Just the check, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9fdcab0f",
+   "sp": "tc",
+   "text": "Separate, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-abc02b64",
+   "sp": "tc",
+   "text": "Inside, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-dbb5a935",
+   "sp": "tc",
+   "text": "Outside, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-299febbb",
+   "sp": "tc",
+   "text": "Thank you.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b5d50e15",
+   "sp": "tc",
+   "text": "Excuse me, this isn't what I ordered. I ordered the ribeye steak.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b4855a84",
+   "sp": "tc",
+   "text": "This is wrong!",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-891277bc",
+   "sp": "tc",
+   "text": "Dutch pay, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a32711a3",
+   "sp": "tc",
+   "text": "Yes.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9c663c3b",
+   "sp": "tc",
+   "text": "Great. And can I get you something else to drink?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fb74922d",
+   "sp": "tc",
+   "text": "Do you have any questions about the menu?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c8e4cdf5",
+   "sp": "tc",
+   "text": "Here's your check. That's twenty-eight fifty each. Card or cash?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-a4b2b52b",
+   "sp": "me",
+   "text": "Yes, I'm allergic to nuts.",
+   "from": "lab"
+  },
+  {
+   "id": "us-9f8d2776",
+   "sp": "us",
+   "text": "Thanks for letting me know. The house salad comes with walnuts, but we can make it without them. Is that okay?",
+   "from": "lab"
+  },
+  {
+   "id": "us-98125c36",
+   "sp": "us",
+   "text": "Great. And can I get you something else to drink?",
+   "from": "lab"
+  },
+  {
+   "id": "me-549f7f42",
+   "sp": "me",
+   "text": "Yes, under Lee.",
+   "from": "drill"
+  },
+  {
+   "id": "me-d1572697",
+   "sp": "me",
+   "text": "Inside, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-77cdcb71",
+   "sp": "me",
+   "text": "Three, please.",
+   "from": "drill"
+  },
+  {
+   "id": "au-f49c442c",
+   "sp": "au",
+   "text": "It's gonna be about a fifteen-minute wait, that okay with you guys?",
+   "from": "drill"
+  },
+  {
+   "id": "me-a9094cb3",
+   "sp": "me",
+   "text": "Sorry, how long is the wait?",
+   "from": "drill"
+  },
+  {
+   "id": "me-469ce7c9",
+   "sp": "me",
+   "text": "Sorry, still or sparkling?",
+   "from": "drill"
+  },
+  {
+   "id": "me-acc05c03",
+   "sp": "me",
+   "text": "Still, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-27999977",
+   "sp": "me",
+   "text": "Give me soda.",
+   "from": "drill"
+  },
+  {
+   "id": "me-68253886",
+   "sp": "me",
+   "text": "Wait.",
+   "from": "drill"
+  },
+  {
+   "id": "me-bcf6668a",
+   "sp": "me",
+   "text": "Medium, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-dfd4aa3f",
+   "sp": "me",
+   "text": "Medium-well, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-cb71a590",
+   "sp": "me",
+   "text": "Middle, please.",
+   "from": "drill"
+  },
+  {
+   "id": "us-0711a2d2",
+   "sp": "us",
+   "text": "And would you like soup or salad with that?",
+   "from": "drill"
+  },
+  {
+   "id": "me-b8d6efde",
+   "sp": "me",
+   "text": "Soup, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-022248a4",
+   "sp": "me",
+   "text": "Fries, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-89f7a6af",
+   "sp": "me",
+   "text": "No, I don't.",
+   "from": "drill"
+  },
+  {
+   "id": "me-1785fcd4",
+   "sp": "me",
+   "text": "Yes. I'll have the peanut noodles, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-b77b5ec3",
+   "sp": "me",
+   "text": "Hey! Could I get some more water, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-c8b9d8e5",
+   "sp": "me",
+   "text": "Here! Could I get some more water, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-4cf49c5e",
+   "sp": "me",
+   "text": "Excuse me. Could I get an extra plate, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-f6aaa97f",
+   "sp": "me",
+   "text": "Yes, it is.",
+   "from": "drill"
+  },
+  {
+   "id": "me-ccdedaec",
+   "sp": "me",
+   "text": "Just the check, please.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-8fc6f1bf",
+   "sp": "ca",
+   "text": "Here's your peanut noodles. Enjoy!",
+   "from": "drill"
+  },
+  {
+   "id": "me-b23375bd",
+   "sp": "me",
+   "text": "Excuse me, this isn't what I ordered. I ordered the grilled salmon.",
+   "from": "drill"
+  },
+  {
+   "id": "me-7ff97e06",
+   "sp": "me",
+   "text": "Thank you.",
+   "from": "drill"
+  },
+  {
+   "id": "me-bc131275",
+   "sp": "me",
+   "text": "Excuse me, this isn't what I ordered. I ordered the peanut noodles.",
+   "from": "drill"
+  },
+  {
+   "id": "us-7a0d14ba",
+   "sp": "us",
+   "text": "You still working on that one?",
+   "from": "drill"
+  },
+  {
+   "id": "me-dd3a7df2",
+   "sp": "me",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-3710237d",
+   "sp": "me",
+   "text": "No, thanks. Calculate, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-87589b62",
+   "sp": "me",
+   "text": "The chocolate cake, please.",
+   "from": "drill"
+  },
+  {
+   "id": "us-c557a48d",
+   "sp": "us",
+   "text": "Can I get you anything else?",
+   "from": "drill"
+  },
+  {
+   "id": "me-d0fa594c",
+   "sp": "me",
+   "text": "What?",
+   "from": "drill"
+  },
+  {
+   "id": "me-f36b040d",
+   "sp": "me",
+   "text": "Together, please.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-6accdd4b",
+   "sp": "gb",
+   "text": "Would you like still or sparkling water?",
+   "from": "drill"
+  },
+  {
+   "id": "me-23353832",
+   "sp": "me",
+   "text": "Could I get a lemonade, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-029c311d",
+   "sp": "me",
+   "text": "Sorry, did you say fifty minutes?",
+   "from": "drill"
+  },
+  {
+   "id": "me-1f154a2a",
+   "sp": "me",
+   "text": "Too long. Hurry up.",
+   "from": "drill"
+  },
+  {
+   "id": "au-8cab54e3",
+   "sp": "au",
+   "text": "Do you have a reservation?",
+   "from": "shadow"
+  },
+  {
+   "id": "us-e502898b",
+   "sp": "us",
+   "text": "Still or sparkling water?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-a6c38986",
+   "sp": "me",
+   "text": "I'll have the ribeye steak, medium-rare, with a salad, please.",
+   "from": "shadow"
+  },
+  {
+   "id": "me-a9ad4be9",
+   "sp": "me",
+   "text": "Does the house salad have nuts in it?",
+   "from": "shadow"
+  },
+  {
+   "id": "au-8c550b5c",
+   "sp": "au",
+   "text": "Great. Under what name?",
+   "from": "q"
+  },
+  {
+   "id": "us-5928b598",
+   "sp": "us",
+   "text": "Sure. Anything else?",
+   "from": "q"
+  },
+  {
+   "id": "us-76302ea2",
+   "sp": "us",
+   "text": "Would you like me to split it evenly?",
+   "from": "q"
+  }
+ ]
+}

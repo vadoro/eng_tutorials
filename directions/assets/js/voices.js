@@ -2,7 +2,7 @@
  * 식당 튜토리얼(restaurant/)의 목소리 부품을 이 튜토리얼에 맞게 고쳤어요. 공통 부품(shared/)은 바꾸지 않아요.
  *
  * 소리는 두 가지예요.
- *   ① 미리 만든 음성 파일 (audio/dialogue/clips.js의 window.DRV_CLIPS, VoiceStudio 합성 음성) — 영상 · 연습 문제 · 따라 말하기처럼
+ *   ① 미리 만든 음성 파일 (audio/dialogue/clips.js의 window.DIALOGUE_CLIPS, VoiceStudio 합성 음성) — 영상 · 연습 문제 · 따라 말하기처럼
  *      글이 정해진 말. 파일 이름은 말하는 사람과 읽을 글로 정해요(DRV.lineId). 만드는 법은 tools/dialogue-lines.cjs → tools/voicestudio-dialogue.py
  *   ② 브라우저 음성(speechSynthesis) — 파일이 없는 말(길 찾기 시뮬레이터처럼 카드마다 바뀌는 말, 내가 칩으로 만든 문장).
  *      기기에 들어 있는 음성이라 기기마다 목소리가 다르고, 실제 거리의 소리와는 달라요.
@@ -67,7 +67,7 @@
     for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
     return sp + '-' + ('0000000' + h.toString(16)).slice(-8);
   };
-  const CL = () => { const c = window.DRV_CLIPS; return c && c.clips && typeof window.Audio === 'function' ? c : null; };
+  const CL = () => { const c = window.DIALOGUE_CLIPS; return c && c.clips && typeof window.Audio === 'function' ? c : null; };
   const clipOf = (sp, text) => { const c = CL(); return c ? c.clips[lineId(sp, text)] || null : null; };
   const has = () => !!CL() && Object.keys(CL().clips).length > 0;
   // 오디오 하나 (Safari처럼 사용자가 누를 때만 소리를 허락하는 브라우저 때문에, 누른 그 순간에 한 번 풀어 둠)
@@ -116,7 +116,7 @@
         // 천천히 듣기는 빠른 줄도 천천히 읽음
         const fast = slow ? 1 : (it.rate || 1);
         if (c) {
-          const a = audio(), base = (window.DRV_CLIPS.base || '');
+          const a = audio(), base = (window.DIALOGUE_CLIPS.base || '');
           const r = Math.min(2, (slow ? 0.75 : 1) * fast);
           a.onended = next;
           a.onerror = () => { audioStop(); tts(it, slow, fast, next); };   // 파일을 못 읽으면 이 줄만 브라우저 음성

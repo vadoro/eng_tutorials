@@ -1,0 +1,1326 @@
+{
+ "slug": "restaurant",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 122,
+  "en": 97,
+  "koChars": 2024,
+  "enChars": 1873
+ },
+ "pieces": [
+  {
+   "id": "kb1f5c332",
+   "lang": "ko",
+   "text": "식당에서는 서버가 짧은 질문을 아주 많이 해요. 물, 음료, 주문, 굽기, 곁들임까지요.",
+   "cap": 0
+  },
+  {
+   "id": "kd28e4df8",
+   "lang": "ko",
+   "text": "자리에 앉자 서버가 물어요",
+   "cap": 1
+  },
+  {
+   "id": "edb897a11",
+   "lang": "en",
+   "text": "Still or sparkling?",
+   "cap": 1
+  },
+  {
+   "id": "kcafc378c",
+   "lang": "ko",
+   "text": "그냥 물인지, 탄산수인지요.",
+   "cap": 1
+  },
+  {
+   "id": "kd9c8db06",
+   "lang": "ko",
+   "text": "여기에 그냥",
+   "cap": 2
+  },
+  {
+   "id": "e7497efd9",
+   "lang": "en",
+   "text": "Yes.",
+   "cap": 2
+  },
+  {
+   "id": "k091b0813",
+   "lang": "ko",
+   "text": "서버가 다시 물어요. 둘 가운데 하나를 고르라는 질문이었거든요.",
+   "cap": 2
+  },
+  {
+   "id": "k71fab308",
+   "lang": "ko",
+   "text": "고른 것",
+   "cap": 3
+  },
+  {
+   "id": "ef93cfbfb",
+   "lang": "en",
+   "text": "please , Sparkling, please.",
+   "cap": 3
+  },
+  {
+   "id": "kd7bc30e9",
+   "lang": "ko",
+   "text": "질문의 모양이 대답의 모양을 정해요.",
+   "cap": 3
+  },
+  {
+   "id": "e888e6819",
+   "lang": "en",
+   "text": "Yes or No",
+   "cap": 4
+  },
+  {
+   "id": "k6b44de5a",
+   "lang": "ko",
+   "text": "질문, 고르는 질문, 정보 질문. 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.",
+   "cap": 4
+  },
+  {
+   "id": "k5d7b67d0",
+   "lang": "ko",
+   "text": "식당에서 보내는 시간을 일곱 곳으로 나눠 봐요. 입구에서 자리를 안내받고, 자리에 앉아 음료를 골라요.",
+   "cap": 5
+  },
+  {
+   "id": "k72e31f6a",
+   "lang": "ko",
+   "text": "주문하고, 알레르기와 부탁을 말해요. 음식이 나오면 식사 중에도 서버와 몇 마디 나눠요.",
+   "cap": 6
+  },
+  {
+   "id": "k1224d065",
+   "lang": "ko",
+   "text": "디저트를 고르거나 남은 음식을 싸 달라고 하고, 마지막으로 계산해요.",
+   "cap": 7
+  },
+  {
+   "id": "kb9714891",
+   "lang": "ko",
+   "text": "입구에서 기다리면 자리를 안내해 줘요. 자리에 앉으면 서버가 테이블로 와요. 계산도 테이블에서 할 때가 많아요.",
+   "cap": 8
+  },
+  {
+   "id": "kf92a3c1f",
+   "lang": "ko",
+   "text": "이런 차례는 식당과 나라마다 달라요. 계산대에서 내는 곳도, 직접 자리를 고르는 곳도 있어요.",
+   "cap": 9
+  },
+  {
+   "id": "ked1d6cfb",
+   "lang": "ko",
+   "text": "서버의 질문은 모양이 세 가지예요. 첫째",
+   "cap": 10
+  },
+  {
+   "id": "kbfc1d2dd",
+   "lang": "ko",
+   "text": "질문.",
+   "cap": 10
+  },
+  {
+   "id": "e7264501a",
+   "lang": "en",
+   "text": "Are you ready to order?",
+   "cap": 10
+  },
+  {
+   "id": "e749c4020",
+   "lang": "en",
+   "text": "Do you have a reservation?",
+   "cap": 10
+  },
+  {
+   "id": "k70c429ea",
+   "lang": "ko",
+   "text": "대답",
+   "cap": 11
+  },
+  {
+   "id": "e73cef8d8",
+   "lang": "en",
+   "text": "Yes , No",
+   "cap": 11
+  },
+  {
+   "id": "k868d2754",
+   "lang": "ko",
+   "text": "한 마디. 권하는 말이면 원하는 것을 바로 말해도 돼요",
+   "cap": 11
+  },
+  {
+   "id": "e5fff1759",
+   "lang": "en",
+   "text": "Just water, please.",
+   "cap": 11
+  },
+  {
+   "id": "k77d106eb",
+   "lang": "ko",
+   "text": "둘째 , 고르는 질문.",
+   "cap": 12
+  },
+  {
+   "id": "e12ad1c59",
+   "lang": "en",
+   "text": "Inside or outside?",
+   "cap": 12
+  },
+  {
+   "id": "e6c6651e0",
+   "lang": "en",
+   "text": "Soup or salad?",
+   "cap": 12
+  },
+  {
+   "id": "ked683b37",
+   "lang": "ko",
+   "text": "대답 , 고른 것",
+   "cap": 12
+  },
+  {
+   "id": "e5404362f",
+   "lang": "en",
+   "text": "please , Salad, please.",
+   "cap": 12
+  },
+  {
+   "id": "k626c112b",
+   "lang": "ko",
+   "text": "고르는 질문에",
+   "cap": 13
+  },
+  {
+   "id": "e60161af3",
+   "lang": "en",
+   "text": "Yes, please.",
+   "cap": 13
+  },
+  {
+   "id": "k13f0da57",
+   "lang": "ko",
+   "text": "무엇을 골랐는지 알 수 없어요. 고르라고 할 때는 끝을 내려 말해요.",
+   "cap": 13
+  },
+  {
+   "id": "k2d83320e",
+   "lang": "ko",
+   "text": "끝을 올려 말하면 같은 낱말이",
+   "cap": 14
+  },
+  {
+   "id": "k58916625",
+   "lang": "ko",
+   "text": "질문이 되기도 해요. 서버가 고르라고 할 때는 보통 끝을 내려요.",
+   "cap": 14
+  },
+  {
+   "id": "k9d3a804d",
+   "lang": "ko",
+   "text": "셋째 , 정보 질문.",
+   "cap": 15
+  },
+  {
+   "id": "ecbf548ec",
+   "lang": "en",
+   "text": "How many?",
+   "cap": 15
+  },
+  {
+   "id": "edb14964f",
+   "lang": "en",
+   "text": "How would you like your steak?",
+   "cap": 15
+  },
+  {
+   "id": "kff6e9d53",
+   "lang": "ko",
+   "text": "대답 , 정보",
+   "cap": 15
+  },
+  {
+   "id": "efb095191",
+   "lang": "en",
+   "text": "please , Medium, please.",
+   "cap": 15
+  },
+  {
+   "id": "k36982028",
+   "lang": "ko",
+   "text": "질문. 예약했으면",
+   "cap": 16
+  },
+  {
+   "id": "e95a7942b",
+   "lang": "en",
+   "text": "Yes, under Park.",
+   "cap": 16
+  },
+  {
+   "id": "k7e4a4b56",
+   "lang": "ko",
+   "text": "이름까지 말하면 다시 묻지 않아요.",
+   "cap": 16
+  },
+  {
+   "id": "kaddf7ad8",
+   "lang": "ko",
+   "text": "예약이 없으면",
+   "cap": 17
+  },
+  {
+   "id": "e93c6443f",
+   "lang": "en",
+   "text": "No, we don't.",
+   "cap": 17
+  },
+  {
+   "id": "k8e3c0d82",
+   "lang": "ko",
+   "text": "정보 질문. 수",
+   "cap": 17
+  },
+  {
+   "id": "ede9a59fa",
+   "lang": "en",
+   "text": "please , Two, please.",
+   "cap": 17
+  },
+  {
+   "id": "e7cf5bb78",
+   "lang": "en",
+   "text": "We are two.",
+   "cap": 18
+  },
+  {
+   "id": "k22b8b137",
+   "lang": "ko",
+   "text": "우리는 둘이에요를 옮긴 말이에요. 알아듣지만 보통",
+   "cap": 18
+  },
+  {
+   "id": "e63178c48",
+   "lang": "en",
+   "text": "A table for two, please.",
+   "cap": 18
+  },
+  {
+   "id": "eced77cb8",
+   "lang": "en",
+   "text": "It'll be about a fifteen-minute wait.",
+   "cap": 19
+  },
+  {
+   "id": "k5adc36fa",
+   "lang": "ko",
+   "text": "15와 50",
+   "cap": 19
+  },
+  {
+   "id": "e321c045b",
+   "lang": "en",
+   "text": "fifteen",
+   "cap": 19
+  },
+  {
+   "id": "k1f516987",
+   "lang": "ko",
+   "text": "뒤를 세게",
+   "cap": 19
+  },
+  {
+   "id": "eb58319ec",
+   "lang": "en",
+   "text": "fifty",
+   "cap": 19
+  },
+  {
+   "id": "k18ec5dd1",
+   "lang": "ko",
+   "text": "앞을 세게 말해요.",
+   "cap": 19
+  },
+  {
+   "id": "ke23e318e",
+   "lang": "ko",
+   "text": "헷갈리면 되물어요",
+   "cap": 20
+  },
+  {
+   "id": "e4554b90d",
+   "lang": "en",
+   "text": "Sorry, did you say fifteen minutes?",
+   "cap": 20
+  },
+  {
+   "id": "kb66cc8fb",
+   "lang": "ko",
+   "text": "괜찮으면",
+   "cap": 20
+  },
+  {
+   "id": "e6c87161b",
+   "lang": "en",
+   "text": "That's fine.",
+   "cap": 20
+  },
+  {
+   "id": "e45feeb06",
+   "lang": "en",
+   "text": "We'll wait.",
+   "cap": 20
+  },
+  {
+   "id": "k4f4400d5",
+   "lang": "ko",
+   "text": "고르는 질문.",
+   "cap": 21
+  },
+  {
+   "id": "kf42db2c0",
+   "lang": "ko",
+   "text": "고른 것이 없어요.",
+   "cap": 21
+  },
+  {
+   "id": "e70ef999b",
+   "lang": "en",
+   "text": "Outside, please.",
+   "cap": 21
+  },
+  {
+   "id": "e51462344",
+   "lang": "en",
+   "text": "Can I get you something to drink?",
+   "cap": 22
+  },
+  {
+   "id": "ka0d30033",
+   "lang": "ko",
+   "text": "권하는",
+   "cap": 22
+  },
+  {
+   "id": "kd8219ddc",
+   "lang": "ko",
+   "text": "질문. 원하는 것만 말해도 돼요",
+   "cap": 22
+  },
+  {
+   "id": "efc5f704c",
+   "lang": "en",
+   "text": "still",
+   "cap": 23
+  },
+  {
+   "id": "k69cd66ae",
+   "lang": "ko",
+   "text": "그냥 물",
+   "cap": 23
+  },
+  {
+   "id": "efff811a7",
+   "lang": "en",
+   "text": "sparkling",
+   "cap": 23
+  },
+  {
+   "id": "k1d0ab288",
+   "lang": "ko",
+   "text": "탄산수. 수돗물",
+   "cap": 23
+  },
+  {
+   "id": "ee3640f56",
+   "lang": "en",
+   "text": "tap water.",
+   "cap": 23
+  },
+  {
+   "id": "k826b1ee6",
+   "lang": "ko",
+   "text": "무료인 곳이 많지만 나라마다 달라요.",
+   "cap": 23
+  },
+  {
+   "id": "kd3eecb7f",
+   "lang": "ko",
+   "text": "사이다",
+   "cap": 24
+  },
+  {
+   "id": "ef4aeb842",
+   "lang": "en",
+   "text": "cider?",
+   "cap": 24
+  },
+  {
+   "id": "k53360204",
+   "lang": "ko",
+   "text": "영어의",
+   "cap": 24
+  },
+  {
+   "id": "e80f317c9",
+   "lang": "en",
+   "text": "cider",
+   "cap": 24
+  },
+  {
+   "id": "k2245ccf4",
+   "lang": "ko",
+   "text": "사과로 만든 음료, 영국에서는 보통 술이에요. 사이다",
+   "cap": 24
+  },
+  {
+   "id": "e576ca991",
+   "lang": "en",
+   "text": "a lemon-lime soda.",
+   "cap": 24
+  },
+  {
+   "id": "e63f57763",
+   "lang": "en",
+   "text": "I'll have the ribeye steak, please.",
+   "cap": 25
+  },
+  {
+   "id": "ka31ab052",
+   "lang": "ko",
+   "text": "아직이면",
+   "cap": 25
+  },
+  {
+   "id": "e7cbf6561",
+   "lang": "en",
+   "text": "Could we have a few more minutes?",
+   "cap": 25
+  },
+  {
+   "id": "e0c825d3c",
+   "lang": "en",
+   "text": "How would you like your steak cooked?",
+   "cap": 26
+  },
+  {
+   "id": "k050fe35b",
+   "lang": "ko",
+   "text": "정보 질문. 굽기",
+   "cap": 26
+  },
+  {
+   "id": "ead399b14",
+   "lang": "en",
+   "text": "rare, medium-rare, medium, medium-well, well-done.",
+   "cap": 26
+  },
+  {
+   "id": "e524e4563",
+   "lang": "en",
+   "text": "Give me the menu.",
+   "cap": 27
+  },
+  {
+   "id": "ec5826ad7",
+   "lang": "en",
+   "text": "I want ribeye steak.",
+   "cap": 27
+  },
+  {
+   "id": "kd57379d9",
+   "lang": "ko",
+   "text": "명령하거나 조르는 말처럼 들려요.",
+   "cap": 27
+  },
+  {
+   "id": "e9a8fb9c6",
+   "lang": "en",
+   "text": "Could I see the menu, please?",
+   "cap": 27
+  },
+  {
+   "id": "e4796d2a9",
+   "lang": "en",
+   "text": "Do you have any food allergies?",
+   "cap": 28
+  },
+  {
+   "id": "e122c55d6",
+   "lang": "en",
+   "text": "Yes, I'm allergic to peanuts.",
+   "cap": 28
+  },
+  {
+   "id": "k57dde4ad",
+   "lang": "ko",
+   "text": "또는",
+   "cap": 28
+  },
+  {
+   "id": "e4042401b",
+   "lang": "en",
+   "text": "I have a peanut allergy.",
+   "cap": 28
+  },
+  {
+   "id": "ee86f8f80",
+   "lang": "en",
+   "text": "I have peanut.",
+   "cap": 29
+  },
+  {
+   "id": "k9b33b8f4",
+   "lang": "ko",
+   "text": "땅콩 있어요를 옮긴 말이라 땅콩을 갖고 있다는 뜻이 돼요.",
+   "cap": 29
+  },
+  {
+   "id": "kc40bccf7",
+   "lang": "ko",
+   "text": "내가 먼저 물어요",
+   "cap": 30
+  },
+  {
+   "id": "e6be2bd1c",
+   "lang": "en",
+   "text": "Does the house salad have nuts in it?",
+   "cap": 30
+  },
+  {
+   "id": "kec25fa29",
+   "lang": "ko",
+   "text": "서버가 메뉴를 보고 알려 줘요.",
+   "cap": 30
+  },
+  {
+   "id": "kd1d7efff",
+   "lang": "ko",
+   "text": "뺄 수 있으면",
+   "cap": 31
+  },
+  {
+   "id": "e3d2f65d0",
+   "lang": "en",
+   "text": "Yes, without the walnuts, please.",
+   "cap": 31
+  },
+  {
+   "id": "kb92ce260",
+   "lang": "ko",
+   "text": "뺄 수 없으면 서버가 다른 음식을 권해요.",
+   "cap": 31
+  },
+  {
+   "id": "k041bc011",
+   "lang": "ko",
+   "text": "부탁도 짧게",
+   "cap": 32
+  },
+  {
+   "id": "e3319998d",
+   "lang": "en",
+   "text": "Not too spicy, please.",
+   "cap": 32
+  },
+  {
+   "id": "ed7c4e561",
+   "lang": "en",
+   "text": "Italian on the side, please.",
+   "cap": 32
+  },
+  {
+   "id": "e0b60c20b",
+   "lang": "en",
+   "text": "on the side",
+   "cap": 32
+  },
+  {
+   "id": "k2da1ea41",
+   "lang": "ko",
+   "text": "따로.",
+   "cap": 32
+  },
+  {
+   "id": "kdcdf44fa",
+   "lang": "ko",
+   "text": "알레르기가 있으면 메뉴 표시만 믿지 말고 직원에게 직접 말해요. 이 튜토리얼은 말하기 연습이에요.",
+   "cap": 33
+  },
+  {
+   "id": "k13517fb5",
+   "lang": "ko",
+   "text": "서버를 부를 때",
+   "cap": 34
+  },
+  {
+   "id": "e6abea12b",
+   "lang": "en",
+   "text": "Excuse me.",
+   "cap": 34
+  },
+  {
+   "id": "k7a4713c7",
+   "lang": "ko",
+   "text": "눈을 맞추거나 손을 살짝 들어요. 많은 곳에서 서버가 먼저 와요.",
+   "cap": 34
+  },
+  {
+   "id": "ed23ae9ab",
+   "lang": "en",
+   "text": "Hey!",
+   "cap": 35
+  },
+  {
+   "id": "e5883acf7",
+   "lang": "en",
+   "text": "Waiter!",
+   "cap": 35
+  },
+  {
+   "id": "ed041807f",
+   "lang": "en",
+   "text": "Here!",
+   "cap": 35
+  },
+  {
+   "id": "k4cd70e84",
+   "lang": "ko",
+   "text": "여기요를 그대로 옮기면 무례하게 들려요. 박수나 큰 소리도 피해요.",
+   "cap": 35
+  },
+  {
+   "id": "eb6e1b52e",
+   "lang": "en",
+   "text": "How is everything?",
+   "cap": 36
+  },
+  {
+   "id": "ka288ae7a",
+   "lang": "ko",
+   "text": "정보 질문.",
+   "cap": 36
+  },
+  {
+   "id": "k5507c7e7",
+   "lang": "ko",
+   "text": "어떤지 말하지 않았어요.",
+   "cap": 36
+  },
+  {
+   "id": "e98d27e6c",
+   "lang": "en",
+   "text": "Great, thank you.",
+   "cap": 36
+  },
+  {
+   "id": "k11eafe1e",
+   "lang": "ko",
+   "text": "부탁은 질문으로",
+   "cap": 37
+  },
+  {
+   "id": "e2eec2999",
+   "lang": "en",
+   "text": "Could I get some more water, please?",
+   "cap": 37
+  },
+  {
+   "id": "e3495f8dd",
+   "lang": "en",
+   "text": "Could we get an extra plate, please?",
+   "cap": 37
+  },
+  {
+   "id": "k56267ebc",
+   "lang": "ko",
+   "text": "다른 음식이 나왔어요",
+   "cap": 38
+  },
+  {
+   "id": "e1b4ddf84",
+   "lang": "en",
+   "text": "Here's your grilled salmon.",
+   "cap": 38
+  },
+  {
+   "id": "ed402e3b6",
+   "lang": "en",
+   "text": "This is wrong!",
+   "cap": 38
+  },
+  {
+   "id": "k69fb573b",
+   "lang": "ko",
+   "text": "따지는 말처럼 들려요.",
+   "cap": 38
+  },
+  {
+   "id": "k90354b22",
+   "lang": "ko",
+   "text": "사실, 내가 시킨 것",
+   "cap": 39
+  },
+  {
+   "id": "eb7248ed4",
+   "lang": "en",
+   "text": "Excuse me, this isn't what I ordered.",
+   "cap": 39
+  },
+  {
+   "id": "e77e987dd",
+   "lang": "en",
+   "text": "I ordered the ribeye steak.",
+   "cap": 39
+  },
+  {
+   "id": "efd0664f1",
+   "lang": "en",
+   "text": "Are you still working on that?",
+   "cap": 40
+  },
+  {
+   "id": "k927dc003",
+   "lang": "ko",
+   "text": "아직 드시는 중인지 묻는 말. 남은 음식은",
+   "cap": 40
+  },
+  {
+   "id": "e25a01ce8",
+   "lang": "en",
+   "text": "Could I get a box for this?",
+   "cap": 40
+  },
+  {
+   "id": "e230d1f24",
+   "lang": "en",
+   "text": "Can I interest you in some dessert?",
+   "cap": 41
+  },
+  {
+   "id": "e2eb57f9a",
+   "lang": "en",
+   "text": "No, thanks.",
+   "cap": 41
+  },
+  {
+   "id": "eaa3062bd",
+   "lang": "en",
+   "text": "Just the check, please.",
+   "cap": 41
+  },
+  {
+   "id": "k5cd1c5a5",
+   "lang": "ko",
+   "text": "영국에서는",
+   "cap": 41
+  },
+  {
+   "id": "ea62f3220",
+   "lang": "en",
+   "text": "the bill.",
+   "cap": 41
+  },
+  {
+   "id": "kf744e26d",
+   "lang": "ko",
+   "text": "계산해 주세요를 옮긴",
+   "cap": 42
+  },
+  {
+   "id": "e5ae744fa",
+   "lang": "en",
+   "text": "Calculate",
+   "cap": 42
+  },
+  {
+   "id": "kcd7741c5",
+   "lang": "ko",
+   "text": "셈을 한다는 뜻이라 알아듣기 어려워요.",
+   "cap": 42
+  },
+  {
+   "id": "e89bd884d",
+   "lang": "en",
+   "text": "Could we get the check, please?",
+   "cap": 42
+  },
+  {
+   "id": "e725ab86f",
+   "lang": "en",
+   "text": "Together or separate?",
+   "cap": 43
+  },
+  {
+   "id": "k7e1bb819",
+   "lang": "ko",
+   "text": "고르는 질문. 더치페이를 옮긴",
+   "cap": 43
+  },
+  {
+   "id": "ebadec956",
+   "lang": "en",
+   "text": "Dutch pay",
+   "cap": 43
+  },
+  {
+   "id": "ka401eb2c",
+   "lang": "ko",
+   "text": "통하지 않아요.",
+   "cap": 43
+  },
+  {
+   "id": "eb48b5609",
+   "lang": "en",
+   "text": "Separate, please.",
+   "cap": 43
+  },
+  {
+   "id": "ea2c7c647",
+   "lang": "en",
+   "text": "Separate",
+   "cap": 44
+  },
+  {
+   "id": "k79c3bf2f",
+   "lang": "ko",
+   "text": "따로 계산. 똑같이 나누려면",
+   "cap": 44
+  },
+  {
+   "id": "ea248fb89",
+   "lang": "en",
+   "text": "Could you split it evenly?",
+   "cap": 44
+  },
+  {
+   "id": "kbafbd341",
+   "lang": "ko",
+   "text": "서버",
+   "cap": 44
+  },
+  {
+   "id": "eddd33ea5",
+   "lang": "en",
+   "text": "That's",
+   "cap": 44
+  },
+  {
+   "id": "kd405a760",
+   "lang": "ko",
+   "text": "28달러 50센트",
+   "cap": 44
+  },
+  {
+   "id": "e7a2f2173",
+   "lang": "en",
+   "text": "each.",
+   "cap": 44
+  },
+  {
+   "id": "ea85caf01",
+   "lang": "en",
+   "text": "Card or cash?",
+   "cap": 45
+  },
+  {
+   "id": "ec760a3ac",
+   "lang": "en",
+   "text": "Card, please.",
+   "cap": 45
+  },
+  {
+   "id": "k1f1abb37",
+   "lang": "ko",
+   "text": "팁은 나라와 식당마다 달라요. 꼭 내는 곳도, 거의 안 내는 곳도 있어요.",
+   "cap": 45
+  },
+  {
+   "id": "kc6ec9b62",
+   "lang": "ko",
+   "text": "짧게",
+   "cap": 46
+  },
+  {
+   "id": "ka10571af",
+   "lang": "ko",
+   "text": "그러면 서버가 차례로 물어요 , 굽기, 수프나 샐러드, 드레싱.",
+   "cap": 46
+  },
+  {
+   "id": "k9f896648",
+   "lang": "ko",
+   "text": "주고받기가 네 번. 한 줄에 순서대로 넣어 볼까요? 음식 , 굽기",
+   "cap": 47
+  },
+  {
+   "id": "e70f1f7ee",
+   "lang": "en",
+   "text": "with",
+   "cap": 47
+  },
+  {
+   "id": "k05b2989b",
+   "lang": "ko",
+   "text": "곁들임 , 드레싱",
+   "cap": 47
+  },
+  {
+   "id": "eb2faafee",
+   "lang": "en",
+   "text": "please.",
+   "cap": 47
+  },
+  {
+   "id": "e0a516831",
+   "lang": "en",
+   "text": "I'll have the ribeye steak, medium-rare, with a salad and Italian dressing, please.",
+   "cap": 48
+  },
+  {
+   "id": "kd1f9c2aa",
+   "lang": "ko",
+   "text": "그러면 서버는 굽기 , 수프나 샐러드 , 드레싱을 묻지 않아요",
+   "cap": 49
+  },
+  {
+   "id": "ecc31ca7c",
+   "lang": "en",
+   "text": "Great choice.",
+   "cap": 49
+  },
+  {
+   "id": "ke9a44e50",
+   "lang": "ko",
+   "text": "알레르기도 한 줄 끝에",
+   "cap": 50
+  },
+  {
+   "id": "e515a5909",
+   "lang": "en",
+   "text": "I'm allergic to nuts.",
+   "cap": 50
+  },
+  {
+   "id": "kd2ac3670",
+   "lang": "ko",
+   "text": "순서가 뒤섞이면 알아듣기 어려워요.",
+   "cap": 50
+  },
+  {
+   "id": "kf2149924",
+   "lang": "ko",
+   "text": "네 번이 한 번으로 줄었어요. 이 순서는 자주 쓰는 순서를 단순하게 줄인 규칙이에요.",
+   "cap": 51
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 52
+  },
+  {
+   "id": "k38842679",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말과 질문의 모양 잡기",
+   "cap": 53
+  },
+  {
+   "id": "e66d687bf",
+   "lang": "en",
+   "text": "or",
+   "cap": 53
+  },
+  {
+   "id": "k544eebd7",
+   "lang": "ko",
+   "text": "고르기",
+   "cap": 53
+  },
+  {
+   "id": "e2cfead8d",
+   "lang": "en",
+   "text": "how , which , what",
+   "cap": 53
+  },
+  {
+   "id": "k86332d30",
+   "lang": "ko",
+   "text": "정보",
+   "cap": 53
+  },
+  {
+   "id": "ed51d8fbc",
+   "lang": "en",
+   "text": "Are you , Would you , Yes or No.",
+   "cap": 53
+  },
+  {
+   "id": "k3c81e6d5",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기",
+   "cap": 54
+  },
+  {
+   "id": "e9e3f3bd4",
+   "lang": "en",
+   "text": "Two, please.",
+   "cap": 54
+  },
+  {
+   "id": "e7079e309",
+   "lang": "en",
+   "text": "Sparkling, please.",
+   "cap": 54
+  },
+  {
+   "id": "eac3d8110",
+   "lang": "en",
+   "text": "Medium-rare, please.",
+   "cap": 54
+  },
+  {
+   "id": "ec59b4e43",
+   "lang": "en",
+   "text": "I'm allergic to",
+   "cap": 54
+  },
+  {
+   "id": "k840b2bee",
+   "lang": "ko",
+   "text": "성분.",
+   "cap": 54
+  },
+  {
+   "id": "k383245d4",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기",
+   "cap": 55
+  },
+  {
+   "id": "e85162b4f",
+   "lang": "en",
+   "text": "please, thank you, Could I",
+   "cap": 55
+  },
+  {
+   "id": "ka5d97636",
+   "lang": "ko",
+   "text": "? 부를 때는",
+   "cap": 55
+  },
+  {
+   "id": "kae3b21b1",
+   "lang": "ko",
+   "text": "일곱 곳에 한 줄씩 적용했어요. 줄마다 질문의 모양 표시를 함께 보세요.",
+   "cap": 56
+  },
+  {
+   "id": "kafbb0194",
+   "lang": "ko",
+   "text": "실전이에요. 식사 카드 , 최하늘, 둘, 바깥 자리. 첫 질문",
+   "cap": 57
+  },
+  {
+   "id": "kdb209fda",
+   "lang": "ko",
+   "text": "첫째, 고르는 질문 , 에이",
+   "cap": 58
+  },
+  {
+   "id": "kbc297e74",
+   "lang": "ko",
+   "text": "탈락. 둘째, 비",
+   "cap": 58
+  },
+  {
+   "id": "ef1ba6056",
+   "lang": "en",
+   "text": "Inside",
+   "cap": 58
+  },
+  {
+   "id": "k7d719749",
+   "lang": "ko",
+   "text": "카드는 바깥 자리라 탈락.",
+   "cap": 58
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 59
+  },
+  {
+   "id": "k2f0e1ef5",
+   "lang": "ko",
+   "text": "첫째, 정보 질문 , 비",
+   "cap": 60
+  },
+  {
+   "id": "kfa74e09c",
+   "lang": "ko",
+   "text": "탈락.",
+   "cap": 60
+  },
+  {
+   "id": "k43522a57",
+   "lang": "ko",
+   "text": "둘째, 씨",
+   "cap": 61
+  },
+  {
+   "id": "e8330fe65",
+   "lang": "en",
+   "text": "Well-done",
+   "cap": 61
+  },
+  {
+   "id": "k484f8800",
+   "lang": "ko",
+   "text": "카드는 미디엄 레어라 탈락.",
+   "cap": 61
+  },
+  {
+   "id": "k6fdeff0d",
+   "lang": "ko",
+   "text": "정답 에이",
+   "cap": 62
+  },
+  {
+   "id": "k7b6241e2",
+   "lang": "ko",
+   "text": "첫째, 셋 모두 음식에 대한 말이에요.",
+   "cap": 63
+  },
+  {
+   "id": "k2c0eae61",
+   "lang": "ko",
+   "text": "둘째, 에이",
+   "cap": 64
+  },
+  {
+   "id": "e98171a19",
+   "lang": "en",
+   "text": "Thank you.",
+   "cap": 64
+  },
+  {
+   "id": "k36da4131",
+   "lang": "ko",
+   "text": "다른 음식을 그냥 받는 말이라 탈락.",
+   "cap": 64
+  },
+  {
+   "id": "k752c311a",
+   "lang": "ko",
+   "text": "셋째, 씨",
+   "cap": 65
+  },
+  {
+   "id": "kd72f37a2",
+   "lang": "ko",
+   "text": "따지는 말이라 탈락. 정답 비",
+   "cap": 65
+  },
+  {
+   "id": "kf039d7f5",
+   "lang": "ko",
+   "text": "계산",
+   "cap": 66
+  },
+  {
+   "id": "ebbbf5a92",
+   "lang": "en",
+   "text": "Will this be together or separate?",
+   "cap": 66
+  },
+  {
+   "id": "kccecb476",
+   "lang": "ko",
+   "text": "첫째, 비",
+   "cap": 66
+  },
+  {
+   "id": "k77ce365e",
+   "lang": "ko",
+   "text": "고르는 질문이라 탈락.",
+   "cap": 66
+  },
+  {
+   "id": "kbb45d996",
+   "lang": "ko",
+   "text": "통하지 않는 콩글리시라 탈락.",
+   "cap": 67
+  },
+  {
+   "id": "k56af7409",
+   "lang": "ko",
+   "text": "똑같이 나눠 달라고 하면",
+   "cap": 68
+  },
+  {
+   "id": "k2fd6c7e5",
+   "lang": "ko",
+   "text": "26달러",
+   "cap": 68
+  },
+  {
+   "id": "kedf2cef4",
+   "lang": "ko",
+   "text": "정리해요. 질문을 들으면 먼저 모양을 잡아요",
+   "cap": 69
+  },
+  {
+   "id": "k8a2ec5d2",
+   "lang": "ko",
+   "text": "질문, 고르는 질문, 정보 질문.",
+   "cap": 69
+  },
+  {
+   "id": "kfc545ca0",
+   "lang": "ko",
+   "text": "고르는 질문과 정보 질문에는",
+   "cap": 70
+  },
+  {
+   "id": "e08efdc4d",
+   "lang": "en",
+   "text": "Yes",
+   "cap": 70
+  },
+  {
+   "id": "k6116e48b",
+   "lang": "ko",
+   "text": "대신 , 고른 것 , 정보",
+   "cap": 70
+  },
+  {
+   "id": "k18726b8c",
+   "lang": "ko",
+   "text": "권하는 말에는 원하는 것을 바로.",
+   "cap": 70
+  },
+  {
+   "id": "kcaabeda9",
+   "lang": "ko",
+   "text": "부를 때",
+   "cap": 71
+  },
+  {
+   "id": "k0a8c1f67",
+   "lang": "ko",
+   "text": "나눠 내기",
+   "cap": 71
+  },
+  {
+   "id": "ke0878e99",
+   "lang": "ko",
+   "text": "아래 식당 시뮬레이터에서 내 식사 카드로 입구부터 계산까지 해 보세요.",
+   "cap": 72
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""대화 목소리를 VoiceStudio로 미리 만들기 (VoiceStudio가 돌아가는 컴퓨터에서 실행) — 지금은 directions/만
+"""대화 목소리를 VoiceStudio로 미리 만들기 (VoiceStudio가 돌아가는 컴퓨터에서 실행) — 회화 · 듣기 튜토리얼
 
     python3 tools/voicestudio-dialogue.py <폴더>            말하는 사람마다 그 사람의 프로필로
     python3 tools/voicestudio-dialogue.py <폴더> --limit 5  앞의 5개만 (먼저 들어 보기)
@@ -17,9 +17,9 @@
 
 하는 일
     줄마다 POST /generate로 WAV를 만들어 다듬고 MP3(ffmpeg) 또는 AAC .m4a(afconvert)로 줄여 <말하는 사람>-<id>.<확장자>로 저장한 뒤,
-    <폴더>/audio/dialogue/clips.js(window.DRV_CLIPS)를 다시 써요. 페이지(voices.js)는 파일이 있는 줄은 그 파일로,
+    <폴더>/audio/dialogue/clips.js(window.DIALOGUE_CLIPS)를 다시 써요. 페이지(voices.js)는 파일이 있는 줄은 그 파일로,
     없는 줄은 브라우저 음성으로 읽어요. 이미 만든 파일은 건너뛰니, 중간에 멈춰도 다시 실행하면 이어서 만들어요.
-    줄 id는 '말하는 사람|읽을 글'로 정해져서(voices.js의 DRV.lineId), 글을 고치면 새 줄이 되고 옛 파일은 안 쓰여요(목록에 표시).
+    줄 id는 '말하는 사람|읽을 글'로 정해져서(voices.js의 lineId), 글을 고치면 새 줄이 되고 옛 파일은 안 쓰여요(목록에 표시).
 
 표준 라이브러리만 써요. 만든 소리는 합성 음성이에요 — 엔진의 사용 조건(예: 비상업용)을 지켜 주세요.
 """
@@ -71,7 +71,7 @@ def main():
         if m:
             have[m.group(1)] = fn
     cj = os.path.join(d, 'clips.js')
-    old = vs.read_clips_js(cj, 'DRV_CLIPS').get('clips', {})
+    old = (vs.read_clips_js(cj, 'DIALOGUE_CLIPS') or vs.read_clips_js(cj, 'DRV_CLIPS')).get('clips', {})
 
     ext, enc = vs.encoder()
     todo = [l for l in lines if l['sp'] in prof and (not o.only or l['sp'] == o.only) and (o.force or l['id'] not in have)]
@@ -107,8 +107,8 @@ def main():
     out = {'voices': {sp: v.get('label') or prof[sp].get('name') for sp, v in voices.items() if sp in prof}, 'base': 'audio/dialogue/', 'clips': final}
     with open(cj, 'w', encoding='utf-8') as f:
         f.write('// 대화에 쓸 미리 만든 음성 파일 목록 — tools/voicestudio-dialogue.py가 다시 써요(손으로 고치지 마세요).\n')
-        f.write('// 비어 있으면 대화는 브라우저 음성으로 읽어요. 파일 이름 = 말하는 사람-줄 id (voices.js의 DRV.lineId)\n')
-        f.write('window.DRV_CLIPS = ' + json.dumps(out, ensure_ascii=False) + ';\n')
+        f.write('// 비어 있으면 대화는 브라우저 음성으로 읽어요. 파일 이름 = 말하는 사람-줄 id (voices.js의 lineId)\n')
+        f.write('window.DIALOGUE_CLIPS = ' + json.dumps(out, ensure_ascii=False) + ';\n')
     size = sum(os.path.getsize(os.path.join(d, v[0])) for v in final.values())
     print(f'\nclips.js: 파일이 있는 줄 {len(final)}개 / {len(lines)}개 · 모두 {size / 1e6:.1f} MB · 걸린 시간 {(time.time() - t0) / 60:.1f}분')
     if odd:

@@ -117,6 +117,7 @@ assets/js/scenes.js     영상 장면 12개, 장 목록과 자막, 단계 · 건
 assets/js/app.js        플레이어, 직접 해 보기, 듣고 대답 고르기(DDrill), 길 찾기 시뮬레이터(지도 누르기 · 걷기), 따라 말하기(음성 인식 · 녹음), 퀴즈(지도 그림 문제), 영상 추출(EN_EXPORT)
 video/                  자막 원고(SRT)
 audio/narration/        음성 해설의 읽기 조각 목록(pieces.json) · 미리 만든 음성 파일 목록(clips.js) · 음성 파일(조각 id.mp3|m4a, 선택)
+audio/dialogue/         대화 줄 목록(lines.json) · 말하는 사람 → 프로필(voices.json) · 파일 목록(clips.js) · 음성 파일(말하는사람-id.m4a)
 docs/poster.jpg         사이트 카드 그림
 ```
 
