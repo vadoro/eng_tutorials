@@ -1,0 +1,1417 @@
+{
+ "slug": "nouns-articles",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 99,
+  "en": 135,
+  "say": 64,
+  "koChars": 2047,
+  "enChars": 2345
+ },
+ "pieces": [
+  {
+   "id": "k5ea3b795",
+   "lang": "ko",
+   "text": "토익 파트 5에는 명사와 그 앞의 작은 말이 짝이 맞는지 묻는 문제가 나와요.",
+   "cap": 0
+  },
+  {
+   "id": "kc2c05dc7",
+   "lang": "ko",
+   "text": "보기를 보세요.",
+   "cap": 1
+  },
+  {
+   "id": "ea1a1516d",
+   "lang": "en",
+   "text": "many, several, a great deal of, a number of.",
+   "cap": 1
+  },
+  {
+   "id": "k4e91e1d4",
+   "lang": "ko",
+   "text": "모두 많은이라는 뜻이에요.",
+   "cap": 1
+  },
+  {
+   "id": "k7bfb5599",
+   "lang": "ko",
+   "text": "뜻이 같으니 해석으로는 고를 수 없어요. 답은 빈칸 뒤의 명사가 정해요.",
+   "cap": 2
+  },
+  {
+   "id": "k86332d30",
+   "lang": "ko",
+   "text": "정보",
+   "cap": 3
+  },
+  {
+   "id": "e3e2cce2e",
+   "lang": "en",
+   "text": "information.",
+   "cap": 3
+  },
+  {
+   "id": "k1a515006",
+   "lang": "ko",
+   "text": "이 말은 셀 수 있을까요? 이것이 첫 단서예요. 정답은 영상 뒤에서 풀어요.",
+   "cap": 3
+  },
+  {
+   "id": "k250edf71",
+   "lang": "ko",
+   "text": "한국어와 다른 점, 명사 검문소, 그리고 3단계 풀이법을 차례로 배워요.",
+   "cap": 4
+  },
+  {
+   "id": "kdc259891",
+   "lang": "ko",
+   "text": "한국어로는 어제 책 샀어면 충분해요. 몇 권인지, 어떤 책인지 밝히지 않아도 돼요.",
+   "cap": 5
+  },
+  {
+   "id": "k4922ecde",
+   "lang": "ko",
+   "text": "영어는 달라요. 한 권이면",
+   "cap": 6
+  },
+  {
+   "id": "ef1f03046",
+   "lang": "en",
+   "text": "a book",
+   "cap": 6
+  },
+  {
+   "id": "ke70abb74",
+   "lang": "ko",
+   "text": "서로 아는 그 책이면",
+   "cap": 6
+  },
+  {
+   "id": "e299e5b8e",
+   "lang": "en",
+   "text": "the book",
+   "cap": 6
+  },
+  {
+   "id": "k2275fce5",
+   "lang": "ko",
+   "text": "여러 권이면",
+   "cap": 6
+  },
+  {
+   "id": "e8ac79a56",
+   "lang": "en",
+   "text": "books.",
+   "cap": 6
+  },
+  {
+   "id": "k021c92c3",
+   "lang": "ko",
+   "text": "셋 가운데 하나를 꼭 골라야 해요.",
+   "cap": 7
+  },
+  {
+   "id": "e0b37ae01",
+   "lang": "en",
+   "text": "I bought book yesterday.",
+   "cap": 7
+  },
+  {
+   "id": "k0a108ada",
+   "lang": "ko",
+   "text": "이렇게 맨 명사로는 못 써요.",
+   "cap": 7
+  },
+  {
+   "id": "k780a4c60",
+   "lang": "ko",
+   "text": "수도 마찬가지예요. 한국어는 학생 세 명이라고 하지, 학생들 세 명이라고 꼭 붙이지 않죠.",
+   "cap": 8
+  },
+  {
+   "id": "kaf0ecb10",
+   "lang": "ko",
+   "text": "영어는 숫자가 있어도 에스를 붙여요.",
+   "cap": 9
+  },
+  {
+   "id": "eea2f560c",
+   "lang": "en",
+   "text": "three students.",
+   "cap": 9
+  },
+  {
+   "id": "e2aa09b5d",
+   "lang": "en",
+   "text": "three student",
+   "cap": 9
+  },
+  {
+   "id": "k6fdd45a4",
+   "lang": "ko",
+   "text": "오답이에요.",
+   "cap": 9
+  },
+  {
+   "id": "kf2e72db5",
+   "lang": "ko",
+   "text": "그래서 영어 명사를 볼 때마다 물어요. 셀 수 있나, 몇 개인가, 앞에 무엇이 오나.",
+   "cap": 10
+  },
+  {
+   "id": "k747eab2a",
+   "lang": "ko",
+   "text": "영어 명사가 문장에 들어가려면 검문소의 문 세 개를 지나야 한다고 생각해 봐요.",
+   "cap": 11
+  },
+  {
+   "id": "k52e58abb",
+   "lang": "ko",
+   "text": "첫째 문, 셀 수 있나?",
+   "cap": 12
+  },
+  {
+   "id": "edfb96eb0",
+   "lang": "en",
+   "text": "application",
+   "cap": 12
+  },
+  {
+   "id": "kf640ada9",
+   "lang": "ko",
+   "text": "지원서는 한 장, 두 장 셀 수 있어요.",
+   "cap": 12
+  },
+  {
+   "id": "k4e84eb78",
+   "lang": "ko",
+   "text": "둘째 문, 하나인가 여럿인가? 끝에 에스가 없으니 하나, 단수예요.",
+   "cap": 13
+  },
+  {
+   "id": "k9215386a",
+   "lang": "ko",
+   "text": "셋째 문, 짝이 맞나? 셀 수 있는 단수는 혼자 못 다녀요. 짝이 있어야 해요",
+   "cap": 14
+  },
+  {
+   "id": "efbb6544b",
+   "lang": "en",
+   "text": "an application.",
+   "cap": 14
+  },
+  {
+   "id": "k5dd8ac5b",
+   "lang": "ko",
+   "text": "이번엔",
+   "cap": 15
+  },
+  {
+   "id": "ka34246c6",
+   "lang": "ko",
+   "text": "정보는 셀 수 없는 명사라서, 첫째 문에서 다른 길로 가요.",
+   "cap": 15
+  },
+  {
+   "id": "k27c6d51a",
+   "lang": "ko",
+   "text": "셀 수 없는 명사 , 에스 없이, 관사",
+   "cap": 16
+  },
+  {
+   "id": "e7956dd19",
+   "lang": "en",
+   "text": "a",
+   "cap": 16
+  },
+  {
+   "id": "kfb81273a",
+   "lang": "ko",
+   "text": "없이 써요. 짝이 되는 말",
+   "cap": 16
+  },
+  {
+   "id": "e37126fc2",
+   "lang": "en",
+   "text": "much, a great deal of.",
+   "cap": 16
+  },
+  {
+   "id": "kc5bf9e30",
+   "lang": "ko",
+   "text": "셋째 문을 자세히 볼게요. 셀 수 있는 명사가 하나일 때는 혼자 다니지 못해요.",
+   "cap": 17
+  },
+  {
+   "id": "e58b517ec",
+   "lang": "en",
+   "text": "Please submit application.",
+   "cap": 18
+  },
+  {
+   "id": "k5cebfb9f",
+   "lang": "ko",
+   "text": "지원서 앞에 짝이 없어서 틀린 문장이에요.",
+   "cap": 18
+  },
+  {
+   "id": "e4a25847b",
+   "lang": "en",
+   "text": "an, the, your, this",
+   "cap": 19
+  },
+  {
+   "id": "kba2e1df9",
+   "lang": "ko",
+   "text": "같은 한정사가 짝이 되면 통과예요.",
+   "cap": 19
+  },
+  {
+   "id": "e8907cbdd",
+   "lang": "en",
+   "text": "Please submit an application.",
+   "cap": 19
+  },
+  {
+   "id": "kd6b41536",
+   "lang": "ko",
+   "text": "여럿이면 혼자 다녀도 돼요.",
+   "cap": 20
+  },
+  {
+   "id": "ed853229b",
+   "lang": "en",
+   "text": "Applications are accepted online.",
+   "cap": 20
+  },
+  {
+   "id": "k5f37027a",
+   "lang": "ko",
+   "text": "셀 수 없는 명사도 혼자 다녀요.",
+   "cap": 20
+  },
+  {
+   "id": "k0406e0d5",
+   "lang": "ko",
+   "text": "관사",
+   "cap": 21
+  },
+  {
+   "id": "ee727fcee",
+   "lang": "en",
+   "text": "a, an",
+   "cap": 21
+  },
+  {
+   "id": "k3ae82e4d",
+   "lang": "ko",
+   "text": "뒤 낱말의 첫 소리로 골라요.",
+   "cap": 21
+  },
+  {
+   "id": "ebb28334b",
+   "lang": "en",
+   "text": "an application, an hour, a university.",
+   "cap": 21
+  },
+  {
+   "id": "k79fa6f64",
+   "lang": "ko",
+   "text": "한국어로는 정보 몇 개, 조언 하나라고 해도 자연스러워요.",
+   "cap": 22
+  },
+  {
+   "id": "ka27ba16b",
+   "lang": "ko",
+   "text": "그런데 영어에서는 셀 수 없는 명사예요.",
+   "cap": 23
+  },
+  {
+   "id": "e15841a65",
+   "lang": "en",
+   "text": "information, advice, equipment, feedback, luggage, furniture.",
+   "cap": 23
+  },
+  {
+   "id": "k403bfa95",
+   "lang": "ko",
+   "text": "가구",
+   "cap": 24
+  },
+  {
+   "id": "e5198db8a",
+   "lang": "en",
+   "text": "furniture.",
+   "cap": 24
+  },
+  {
+   "id": "k737fe7d6",
+   "lang": "ko",
+   "text": "의자와 책상과 탁자를 한데 묶어 부르는 이름이에요.",
+   "cap": 24
+  },
+  {
+   "id": "k114e7154",
+   "lang": "ko",
+   "text": "가방을 묶은 이름",
+   "cap": 25
+  },
+  {
+   "id": "e52101cca",
+   "lang": "en",
+   "text": "luggage",
+   "cap": 25
+  },
+  {
+   "id": "k4ec8144e",
+   "lang": "ko",
+   "text": "장비를 묶은 이름",
+   "cap": 25
+  },
+  {
+   "id": "e91b59d14",
+   "lang": "en",
+   "text": "equipment.",
+   "cap": 25
+  },
+  {
+   "id": "k2be88f29",
+   "lang": "ko",
+   "text": "묶음의 이름이라 셀 수 없어요.",
+   "cap": 25
+  },
+  {
+   "id": "k8b551b08",
+   "lang": "ko",
+   "text": "그래서 에스를 붙이지 않고, 하나를 뜻하는 관사도 붙이지 않아요.",
+   "cap": 26
+  },
+  {
+   "id": "e03f9d6f8",
+   "lang": "en",
+   "text": "an information, informations",
+   "cap": 26
+  },
+  {
+   "id": "k672c0608",
+   "lang": "ko",
+   "text": "오답.",
+   "cap": 26
+  },
+  {
+   "id": "k44da289f",
+   "lang": "ko",
+   "text": "하나, 둘 셀 때는 세는 말을 써요.",
+   "cap": 27
+  },
+  {
+   "id": "eeeb7f842",
+   "lang": "en",
+   "text": "a piece of information, two pieces of luggage.",
+   "cap": 27
+  },
+  {
+   "id": "k8e51e86b",
+   "lang": "ko",
+   "text": "이번엔 수량 표현이에요. 수량 표현마다 함께 다니는 명사가 정해져 있어요.",
+   "cap": 28
+  },
+  {
+   "id": "ka787ea0b",
+   "lang": "ko",
+   "text": "하나하나를 말하는",
+   "cap": 29
+  },
+  {
+   "id": "e273332e5",
+   "lang": "en",
+   "text": "each, every, another",
+   "cap": 29
+  },
+  {
+   "id": "kd5e3f263",
+   "lang": "ko",
+   "text": "뒤에는 셀 수 있는 단수.",
+   "cap": 29
+  },
+  {
+   "id": "e9ab6a1e4",
+   "lang": "en",
+   "text": "each candidate.",
+   "cap": 29
+  },
+  {
+   "id": "e171c62e9",
+   "lang": "en",
+   "text": "several, a few, many, a number of",
+   "cap": 30
+  },
+  {
+   "id": "kdea0dd6c",
+   "lang": "ko",
+   "text": "뒤에는 셀 수 있는 복수.",
+   "cap": 30
+  },
+  {
+   "id": "e669ea83a",
+   "lang": "en",
+   "text": "several candidates.",
+   "cap": 30
+  },
+  {
+   "id": "eb3f73edf",
+   "lang": "en",
+   "text": "much, a little, a great deal of",
+   "cap": 31
+  },
+  {
+   "id": "k26f86142",
+   "lang": "ko",
+   "text": "뒤에는 셀 수 없는 명사.",
+   "cap": 31
+  },
+  {
+   "id": "e3980b1cd",
+   "lang": "en",
+   "text": "much information.",
+   "cap": 31
+  },
+  {
+   "id": "k2b62bfba",
+   "lang": "ko",
+   "text": "복수와 셀 수 없는 명사 모두와 짝이 되는 말도 있어요.",
+   "cap": 32
+  },
+  {
+   "id": "eeb27e176",
+   "lang": "en",
+   "text": "all, most, some, a lot of, plenty of.",
+   "cap": 32
+  },
+  {
+   "id": "k020cc2ab",
+   "lang": "ko",
+   "text": "그런데",
+   "cap": 33
+  },
+  {
+   "id": "e9d6d0c8b",
+   "lang": "en",
+   "text": "each of the",
+   "cap": 33
+  },
+  {
+   "id": "k1998f7b2",
+   "lang": "ko",
+   "text": "뒤에는 복수가 와요.",
+   "cap": 33
+  },
+  {
+   "id": "e24343138",
+   "lang": "en",
+   "text": "of the",
+   "cap": 33
+  },
+  {
+   "id": "k17297f11",
+   "lang": "ko",
+   "text": "그 무리 가운데.",
+   "cap": 33
+  },
+  {
+   "id": "e8cdd6c13",
+   "lang": "en",
+   "text": "each of the candidates.",
+   "cap": 33
+  },
+  {
+   "id": "k67dd67c1",
+   "lang": "ko",
+   "text": "직원 대부분을 영어로 옮겨 볼게요. 비슷한 말이 셋 있어요.",
+   "cap": 34
+  },
+  {
+   "id": "eed99ca0d",
+   "lang": "en",
+   "text": "almost, most, most of.",
+   "cap": 34
+  },
+  {
+   "id": "kf730d12d",
+   "lang": "ko",
+   "text": "먼저",
+   "cap": 35
+  },
+  {
+   "id": "ef8c88aad",
+   "lang": "en",
+   "text": "most.",
+   "cap": 35
+  },
+  {
+   "id": "k9cc4a998",
+   "lang": "ko",
+   "text": "명사 바로 앞에 와요.",
+   "cap": 35
+  },
+  {
+   "id": "e02a4f970",
+   "lang": "en",
+   "text": "most employees",
+   "cap": 35
+  },
+  {
+   "id": "kfa2e45a6",
+   "lang": "ko",
+   "text": "셀 수 없는 명사도 돼요.",
+   "cap": 35
+  },
+  {
+   "id": "ef3fcb319",
+   "lang": "en",
+   "text": "most equipment.",
+   "cap": 35
+  },
+  {
+   "id": "e23794ee6",
+   "lang": "en",
+   "text": "most of",
+   "cap": 36
+  },
+  {
+   "id": "k0c0ce70f",
+   "lang": "ko",
+   "text": "가운데 대부분.",
+   "cap": 36
+  },
+  {
+   "id": "e5e5a9f93",
+   "lang": "en",
+   "text": "most of the employees, most of our customers.",
+   "cap": 36
+  },
+  {
+   "id": "k32132b83",
+   "lang": "ko",
+   "text": "어느 무리 가운데인지",
+   "cap": 37
+  },
+  {
+   "id": "e8b418cc9",
+   "lang": "en",
+   "text": "the, our",
+   "cap": 37
+  },
+  {
+   "id": "k111defbb",
+   "lang": "ko",
+   "text": "같은 말로 밝혀요.",
+   "cap": 37
+  },
+  {
+   "id": "e13a39087",
+   "lang": "en",
+   "text": "most of employees",
+   "cap": 37
+  },
+  {
+   "id": "e35d2ea34",
+   "lang": "en",
+   "text": "almost",
+   "cap": 38
+  },
+  {
+   "id": "kd4fd6637",
+   "lang": "ko",
+   "text": "거의라는 부사예요. 부사는 명사 앞에 바로 오지 못해요.",
+   "cap": 38
+  },
+  {
+   "id": "ke59857a8",
+   "lang": "ko",
+   "text": "한국어도 거의 직원이 아니라 거의 모든 직원이죠.",
+   "cap": 39
+  },
+  {
+   "id": "e1065d708",
+   "lang": "en",
+   "text": "almost all employees.",
+   "cap": 39
+  },
+  {
+   "id": "e5a7021a4",
+   "lang": "en",
+   "text": "The workshop lasts three days.",
+   "cap": 40
+  },
+  {
+   "id": "k70239017",
+   "lang": "ko",
+   "text": "사흘이니까",
+   "cap": 40
+  },
+  {
+   "id": "eead8d6d9",
+   "lang": "en",
+   "text": "days",
+   "cap": 40
+  },
+  {
+   "id": "ka805476a",
+   "lang": "ko",
+   "text": "복수예요.",
+   "cap": 40
+  },
+  {
+   "id": "k800814d2",
+   "lang": "ko",
+   "text": "그런데 같은 말이 명사 앞으로 가면 모양이 바뀌어요.",
+   "cap": 41
+  },
+  {
+   "id": "eb1ecd70f",
+   "lang": "en",
+   "text": "a three-day workshop.",
+   "cap": 41
+  },
+  {
+   "id": "k8ba52cc1",
+   "lang": "ko",
+   "text": "숫자와 명사를 하이픈으로 묶어 꾸밈말이 되면 에스를 떼고 단수로 써요.",
+   "cap": 42
+  },
+  {
+   "id": "ea53fadb2",
+   "lang": "en",
+   "text": "three-days",
+   "cap": 42
+  },
+  {
+   "id": "kd24c47a7",
+   "lang": "ko",
+   "text": "한국어의 3일짜리 워크숍과 비슷해요.",
+   "cap": 43
+  },
+  {
+   "id": "e0402015f",
+   "lang": "en",
+   "text": "a 10-page report, a two-hour meeting.",
+   "cap": 43
+  },
+  {
+   "id": "efef20f10",
+   "lang": "en",
+   "text": "another , an",
+   "cap": 44
+  },
+  {
+   "id": "e0d78c66a",
+   "lang": "en",
+   "text": "other.",
+   "cap": 44
+  },
+  {
+   "id": "k0abd45cc",
+   "lang": "ko",
+   "text": "하나를 뜻하는 관사가 들어 있어서 뒤에는 단수.",
+   "cap": 44
+  },
+  {
+   "id": "e326f2c4f",
+   "lang": "en",
+   "text": "another date.",
+   "cap": 44
+  },
+  {
+   "id": "e176c4a00",
+   "lang": "en",
+   "text": "other",
+   "cap": 45
+  },
+  {
+   "id": "ea7209c55",
+   "lang": "en",
+   "text": "other suppliers.",
+   "cap": 45
+  },
+  {
+   "id": "k6ec440ca",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요. 검문소의 세 문 그대로예요.",
+   "cap": 46
+  },
+  {
+   "id": "kd3f696fe",
+   "lang": "ko",
+   "text": "첫째, 셀 수 있나? 명사부터 봐요.",
+   "cap": 47
+  },
+  {
+   "id": "e7466e598",
+   "lang": "en",
+   "text": "information, equipment, advice",
+   "cap": 47
+  },
+  {
+   "id": "kd06979cc",
+   "lang": "ko",
+   "text": "같은 말은 셀 수 없어요.",
+   "cap": 47
+  },
+  {
+   "id": "kd7ed7912",
+   "lang": "ko",
+   "text": "둘째, 하나인가 여럿인가? 끝에 에스가 있는지, 앞뒤에",
+   "cap": 48
+  },
+  {
+   "id": "eddec98ff",
+   "lang": "en",
+   "text": "each, is",
+   "cap": 48
+  },
+  {
+   "id": "ka6d912ee",
+   "lang": "ko",
+   "text": "같은 단서가 있는지 봐요.",
+   "cap": 48
+  },
+  {
+   "id": "k0996881c",
+   "lang": "ko",
+   "text": "셋째, 짝이 맞나? 앞의 짝이 그 명사와 맞는지 봐요.",
+   "cap": 49
+  },
+  {
+   "id": "e6a457228",
+   "lang": "en",
+   "text": "almost, most of",
+   "cap": 49
+  },
+  {
+   "id": "kdec12a34",
+   "lang": "ko",
+   "text": "함정도 여기서 걸러요.",
+   "cap": 49
+  },
+  {
+   "id": "k1ed31dd3",
+   "lang": "ko",
+   "text": "이 순서로 토익 문제를 풀어 볼까요?",
+   "cap": 50
+  },
+  {
+   "id": "kc457d083",
+   "lang": "ko",
+   "text": "처음 본 문제예요. 첫째, 빈칸 뒤의 명사",
+   "cap": 51
+  },
+  {
+   "id": "k69d760f6",
+   "lang": "ko",
+   "text": "셀 수 없는 명사예요.",
+   "cap": 51
+  },
+  {
+   "id": "k51442bf9",
+   "lang": "ko",
+   "text": "둘째, 셀 수 없는 명사는 에스 없이 한 덩어리로 써요. 하나, 둘 세는 말과는 맞지 않아요.",
+   "cap": 52
+  },
+  {
+   "id": "k429251b1",
+   "lang": "ko",
+   "text": "셋째, 짝을 찾으면",
+   "cap": 53
+  },
+  {
+   "id": "e3c1dd84f",
+   "lang": "en",
+   "text": "a great deal of.",
+   "cap": 53
+  },
+  {
+   "id": "k0fba6d1b",
+   "lang": "ko",
+   "text": "나머지 셋은 복수와 짝이라 오답. 정답은",
+   "cap": 53
+  },
+  {
+   "id": "e5756a793",
+   "lang": "en",
+   "text": "C",
+   "cap": 53
+  },
+  {
+   "id": "k8370288a",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째",
+   "cap": 54
+  },
+  {
+   "id": "ea9a1827c",
+   "lang": "en",
+   "text": "participants",
+   "cap": 54
+  },
+  {
+   "id": "ka2cf6ebb",
+   "lang": "ko",
+   "text": "참가자는 셀 수 있어요. 둘째, 끝에 에스, 복수예요.",
+   "cap": 54
+  },
+  {
+   "id": "kd3a081b6",
+   "lang": "ko",
+   "text": "셋째, 빈칸 뒤에",
+   "cap": 55
+  },
+  {
+   "id": "e142945a2",
+   "lang": "en",
+   "text": "of the.",
+   "cap": 55
+  },
+  {
+   "id": "e3182e361",
+   "lang": "en",
+   "text": "Every",
+   "cap": 55
+  },
+  {
+   "id": "e72d69aa3",
+   "lang": "en",
+   "text": "of",
+   "cap": 55
+  },
+  {
+   "id": "k5dec4b20",
+   "lang": "ko",
+   "text": "쓰지 않는 모양이고",
+   "cap": 55
+  },
+  {
+   "id": "e3ff9718b",
+   "lang": "en",
+   "text": "Much",
+   "cap": 55
+  },
+  {
+   "id": "kf6d36961",
+   "lang": "ko",
+   "text": "셀 수 없는 명사와 짝이에요.",
+   "cap": 55
+  },
+  {
+   "id": "e6299af54",
+   "lang": "en",
+   "text": "Almost",
+   "cap": 56
+  },
+  {
+   "id": "k5c0ca9d0",
+   "lang": "ko",
+   "text": "부사라서 혼자 못 와요.",
+   "cap": 56
+  },
+  {
+   "id": "k901d2dc2",
+   "lang": "ko",
+   "text": "뒤에는 복수, 정답은",
+   "cap": 56
+  },
+  {
+   "id": "ef19c5e4c",
+   "lang": "en",
+   "text": "A Each.",
+   "cap": 56
+  },
+  {
+   "id": "k1144ffc4",
+   "lang": "ko",
+   "text": "세 번째. 첫째, 빈칸 뒤의",
+   "cap": 57
+  },
+  {
+   "id": "edd4e441d",
+   "lang": "en",
+   "text": "training course",
+   "cap": 57
+  },
+  {
+   "id": "k6b9b218b",
+   "lang": "ko",
+   "text": "교육 과정은 셀 수 있어요.",
+   "cap": 57
+  },
+  {
+   "id": "k726a5031",
+   "lang": "ko",
+   "text": "둘째",
+   "cap": 58
+  },
+  {
+   "id": "e3ab3d9df",
+   "lang": "en",
+   "text": "course",
+   "cap": 58
+  },
+  {
+   "id": "k55fd5a61",
+   "lang": "ko",
+   "text": "단수. 앞의 숫자-하이픈 꾸밈말도 에스 없이",
+   "cap": 58
+  },
+  {
+   "id": "ed0953983",
+   "lang": "en",
+   "text": "two-week.",
+   "cap": 58
+  },
+  {
+   "id": "k5d262936",
+   "lang": "ko",
+   "text": "에스가 붙은 보기는 지워요.",
+   "cap": 58
+  },
+  {
+   "id": "k74d659cf",
+   "lang": "ko",
+   "text": "셋째, 셀 수 있는 단수는 짝이 있어야 해요. 그래서 정답은",
+   "cap": 59
+  },
+  {
+   "id": "eccd945b4",
+   "lang": "en",
+   "text": "D a two-week.",
+   "cap": 59
+  },
+  {
+   "id": "k47a4a09b",
+   "lang": "ko",
+   "text": "정리해요. 명사를 보면 검문소의 세 문을 떠올리세요.",
+   "cap": 60
+  },
+  {
+   "id": "k4bd062a7",
+   "lang": "ko",
+   "text": "셀 수 있나, 하나인가 여럿인가, 짝이 맞나. 셀 수 있는 단수에는 꼭 짝이 있어야 해요.",
+   "cap": 61
+  },
+  {
+   "id": "k10de9324",
+   "lang": "ko",
+   "text": "함정 넷. 셀 수 없는 명사의 에스, 혼자 쓴",
+   "cap": 62
+  },
+  {
+   "id": "ec12e2a53",
+   "lang": "en",
+   "text": "almost, the",
+   "cap": 62
+  },
+  {
+   "id": "k3421e2db",
+   "lang": "ko",
+   "text": "없는",
+   "cap": 62
+  },
+  {
+   "id": "kb5856263",
+   "lang": "ko",
+   "text": "숫자-하이픈 꾸밈말의 에스.",
+   "cap": 62
+  },
+  {
+   "id": "k09b50e0a",
+   "lang": "ko",
+   "text": "아래 명사 검문소 놀이터와 연습 문제로 손에 익혀 보세요.",
+   "cap": 63
+  },
+  {
+   "id": "e9dec9e85",
+   "lang": "en",
+   "text": "The hotel provides a great deal of information about local tours.",
+   "from": "say"
+  },
+  {
+   "id": "e3792c30a",
+   "lang": "en",
+   "text": "I bought a book yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "e1135ca82",
+   "lang": "en",
+   "text": "I bought the book yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "eb299f748",
+   "lang": "en",
+   "text": "I bought books yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "eb33242c2",
+   "lang": "en",
+   "text": "Three students came.",
+   "from": "say"
+  },
+  {
+   "id": "e60fb95cd",
+   "lang": "en",
+   "text": "Three student came.",
+   "from": "say"
+  },
+  {
+   "id": "eba7cf547",
+   "lang": "en",
+   "text": "an application",
+   "from": "say"
+  },
+  {
+   "id": "e5020df01",
+   "lang": "en",
+   "text": "a great deal of information",
+   "from": "say"
+  },
+  {
+   "id": "eeb2c4b85",
+   "lang": "en",
+   "text": "informations",
+   "from": "say"
+  },
+  {
+   "id": "e91b407e3",
+   "lang": "en",
+   "text": "an information",
+   "from": "say"
+  },
+  {
+   "id": "eca121b31",
+   "lang": "en",
+   "text": "much information",
+   "from": "say"
+  },
+  {
+   "id": "e14ab97f3",
+   "lang": "en",
+   "text": "the application",
+   "from": "say"
+  },
+  {
+   "id": "e2be2ba4f",
+   "lang": "en",
+   "text": "your application",
+   "from": "say"
+  },
+  {
+   "id": "e2e68886c",
+   "lang": "en",
+   "text": "this application",
+   "from": "say"
+  },
+  {
+   "id": "e1c1a5af3",
+   "lang": "en",
+   "text": "an application · the application",
+   "from": "say"
+  },
+  {
+   "id": "ed351e104",
+   "lang": "en",
+   "text": "Information is available online.",
+   "from": "say"
+  },
+  {
+   "id": "e39265739",
+   "lang": "en",
+   "text": "an hour",
+   "from": "say"
+  },
+  {
+   "id": "ecaf96547",
+   "lang": "en",
+   "text": "a university",
+   "from": "say"
+  },
+  {
+   "id": "ea478c725",
+   "lang": "en",
+   "text": "a uniform",
+   "from": "say"
+  },
+  {
+   "id": "eb5ed0df4",
+   "lang": "en",
+   "text": "information",
+   "from": "say"
+  },
+  {
+   "id": "e948b0ee6",
+   "lang": "en",
+   "text": "advice",
+   "from": "say"
+  },
+  {
+   "id": "e52df6b32",
+   "lang": "en",
+   "text": "equipment",
+   "from": "say"
+  },
+  {
+   "id": "e569eb8d9",
+   "lang": "en",
+   "text": "feedback",
+   "from": "say"
+  },
+  {
+   "id": "e5bf594a0",
+   "lang": "en",
+   "text": "furniture",
+   "from": "say"
+  },
+  {
+   "id": "eae0f466b",
+   "lang": "en",
+   "text": "an advice",
+   "from": "say"
+  },
+  {
+   "id": "e96994829",
+   "lang": "en",
+   "text": "furnitures",
+   "from": "say"
+  },
+  {
+   "id": "eb3b077fa",
+   "lang": "en",
+   "text": "a piece of information",
+   "from": "say"
+  },
+  {
+   "id": "e8bdd7c64",
+   "lang": "en",
+   "text": "two pieces of luggage",
+   "from": "say"
+  },
+  {
+   "id": "e0a849522",
+   "lang": "en",
+   "text": "each candidate",
+   "from": "say"
+  },
+  {
+   "id": "edfb70e83",
+   "lang": "en",
+   "text": "each candidates",
+   "from": "say"
+  },
+  {
+   "id": "ecc174330",
+   "lang": "en",
+   "text": "several candidates",
+   "from": "say"
+  },
+  {
+   "id": "ea12e6e63",
+   "lang": "en",
+   "text": "several candidate",
+   "from": "say"
+  },
+  {
+   "id": "eb0d83b8f",
+   "lang": "en",
+   "text": "much candidates",
+   "from": "say"
+  },
+  {
+   "id": "e565b9135",
+   "lang": "en",
+   "text": "most candidates",
+   "from": "say"
+  },
+  {
+   "id": "e1fe01f67",
+   "lang": "en",
+   "text": "most information",
+   "from": "say"
+  },
+  {
+   "id": "ee5597baf",
+   "lang": "en",
+   "text": "each of the candidates",
+   "from": "say"
+  },
+  {
+   "id": "e29cf140d",
+   "lang": "en",
+   "text": "most equipment",
+   "from": "say"
+  },
+  {
+   "id": "e015467f0",
+   "lang": "en",
+   "text": "most of the employees",
+   "from": "say"
+  },
+  {
+   "id": "e753ed205",
+   "lang": "en",
+   "text": "most of our customers",
+   "from": "say"
+  },
+  {
+   "id": "e34c3202d",
+   "lang": "en",
+   "text": "almost employees",
+   "from": "say"
+  },
+  {
+   "id": "eaba751f6",
+   "lang": "en",
+   "text": "almost all employees",
+   "from": "say"
+  },
+  {
+   "id": "ecbaa323b",
+   "lang": "en",
+   "text": "a three-day workshop",
+   "from": "say"
+  },
+  {
+   "id": "ef4b1f274",
+   "lang": "en",
+   "text": "a three-days workshop",
+   "from": "say"
+  },
+  {
+   "id": "e8b10aa38",
+   "lang": "en",
+   "text": "a 10-page report",
+   "from": "say"
+  },
+  {
+   "id": "e7b71b1f9",
+   "lang": "en",
+   "text": "a two-hour meeting",
+   "from": "say"
+  },
+  {
+   "id": "e2878c033",
+   "lang": "en",
+   "text": "a five-year contract",
+   "from": "say"
+  },
+  {
+   "id": "e6c38cffb",
+   "lang": "en",
+   "text": "another date",
+   "from": "say"
+  },
+  {
+   "id": "ee56eb318",
+   "lang": "en",
+   "text": "another dates",
+   "from": "say"
+  },
+  {
+   "id": "eb7113b59",
+   "lang": "en",
+   "text": "other suppliers",
+   "from": "say"
+  },
+  {
+   "id": "e026e9290",
+   "lang": "en",
+   "text": "other supplier",
+   "from": "say"
+  },
+  {
+   "id": "e9b4e4c25",
+   "lang": "en",
+   "text": "Each of the participants will receive a certificate of completion.",
+   "from": "say"
+  },
+  {
+   "id": "ef00e67b9",
+   "lang": "en",
+   "text": "All new employees must complete a two-week training course.",
+   "from": "say"
+  },
+  {
+   "id": "e8ed85173",
+   "lang": "en",
+   "text": "several suppliers",
+   "from": "say"
+  },
+  {
+   "id": "e697668be",
+   "lang": "en",
+   "text": "almost all customers",
+   "from": "say"
+  },
+  {
+   "id": "e6ba2c53d",
+   "lang": "en",
+   "text": "a two-week training course",
+   "from": "say"
+  },
+  {
+   "id": "e5f781860",
+   "lang": "en",
+   "text": "several application",
+   "from": "say"
+  },
+  {
+   "id": "e5d0de5e9",
+   "lang": "en",
+   "text": "several applications",
+   "from": "say"
+  },
+  {
+   "id": "ef3e95cf9",
+   "lang": "en",
+   "text": "applications",
+   "from": "say"
+  },
+  {
+   "id": "e9ea1262e",
+   "lang": "en",
+   "text": "suggestion",
+   "from": "say"
+  },
+  {
+   "id": "e3ef73adb",
+   "lang": "en",
+   "text": "chair",
+   "from": "say"
+  },
+  {
+   "id": "e2391ab1c",
+   "lang": "en",
+   "text": "bag",
+   "from": "say"
+  },
+  {
+   "id": "e08288dcb",
+   "lang": "en",
+   "text": "machine",
+   "from": "say"
+  },
+  {
+   "id": "e449e55e6",
+   "lang": "en",
+   "text": "machinery",
+   "from": "say"
+  },
+  {
+   "id": "e3ddd359f",
+   "lang": "en",
+   "text": "comment",
+   "from": "say"
+  }
+ ]
+}
