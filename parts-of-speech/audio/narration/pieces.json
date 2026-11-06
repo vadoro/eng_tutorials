@@ -1,0 +1,1477 @@
+{
+ "slug": "parts-of-speech",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 109,
+  "en": 135,
+  "say": 75,
+  "koChars": 2190,
+  "enChars": 1891
+ },
+ "pieces": [
+  {
+   "id": "k7160b4e2",
+   "lang": "ko",
+   "text": "토익 파트 5에 가장 자주 나온다고 꼽히는 유형, 품사 문제예요.",
+   "cap": 0
+  },
+  {
+   "id": "kc2c05dc7",
+   "lang": "ko",
+   "text": "보기를 보세요.",
+   "cap": 1
+  },
+  {
+   "id": "e89f5f1ca",
+   "lang": "en",
+   "text": "renew, renewable, renewal, renewed.",
+   "cap": 1
+  },
+  {
+   "id": "k302f0b2c",
+   "lang": "ko",
+   "text": "모두 같은 뿌리에서 나온 말이에요.",
+   "cap": 1
+  },
+  {
+   "id": "kd1054191",
+   "lang": "ko",
+   "text": "이런 문제는 문장을 다 해석하지 않아도 풀 수 있어요. 빈칸의 자리만 보면 돼요.",
+   "cap": 2
+  },
+  {
+   "id": "k5ad4753d",
+   "lang": "ko",
+   "text": "빈칸 앞의",
+   "cap": 3
+  },
+  {
+   "id": "ef5dc0301",
+   "lang": "en",
+   "text": "The",
+   "cap": 3
+  },
+  {
+   "id": "kc3b04a45",
+   "lang": "ko",
+   "text": "와 뒤의",
+   "cap": 3
+  },
+  {
+   "id": "e72d69aa3",
+   "lang": "en",
+   "text": "of",
+   "cap": 3
+  },
+  {
+   "id": "kc4eefe37",
+   "lang": "ko",
+   "text": "가 답을 알려 줘요. 정답은 영상 끝에서 함께 풀어요.",
+   "cap": 3
+  },
+  {
+   "id": "k29425930",
+   "lang": "ko",
+   "text": "낱말의 꼬리, 빈칸의 자리, 그리고 3단계 풀이법을 차례로 배워요.",
+   "cap": 4
+  },
+  {
+   "id": "k3ad22431",
+   "lang": "ko",
+   "text": "한국어부터 볼까요? 성공하다, 성공, 성공적인, 성공적으로. 뿌리는 같고 끝만 달라요.",
+   "cap": 5
+  },
+  {
+   "id": "kc15e6279",
+   "lang": "ko",
+   "text": "끝이 바뀌면 문장 속 역할이 바뀌어요. 하다가 붙으면 움직임, 적인이 붙으면 꾸미는 말이죠.",
+   "cap": 6
+  },
+  {
+   "id": "kddaa4bff",
+   "lang": "ko",
+   "text": "영어도 같아요.",
+   "cap": 7
+  },
+  {
+   "id": "e06fd3b54",
+   "lang": "en",
+   "text": "succeed, success, successful, successfully.",
+   "cap": 7
+  },
+  {
+   "id": "k913ac3ed",
+   "lang": "ko",
+   "text": "한 뿌리에서 나온 낱말 가족이에요.",
+   "cap": 7
+  },
+  {
+   "id": "kee66f537",
+   "lang": "ko",
+   "text": "동사, 명사, 형용사, 부사. 같은 가족이라도 들어갈 수 있는 자리가 서로 달라요.",
+   "cap": 8
+  },
+  {
+   "id": "k6994f36d",
+   "lang": "ko",
+   "text": "그래서 토익은 한 가족을 보기로 내놓고, 빈칸에 맞는 식구를 고르라고 해요.",
+   "cap": 9
+  },
+  {
+   "id": "kd847ac12",
+   "lang": "ko",
+   "text": "낱말 가족에서 누가 누구인지는 꼬리, 곧 낱말의 끝부분을 보면 대부분 알 수 있어요.",
+   "cap": 10
+  },
+  {
+   "id": "ked7197fb",
+   "lang": "ko",
+   "text": "션, 먼트, 니스, 어티로 끝나면 명사.",
+   "cap": 11
+  },
+  {
+   "id": "e40b35995",
+   "lang": "en",
+   "text": "er, or, ant",
+   "cap": 11
+  },
+  {
+   "id": "k9caa1184",
+   "lang": "ko",
+   "text": "로 끝나면 사람을 뜻하는 명사예요.",
+   "cap": 11
+  },
+  {
+   "id": "ka9183bd5",
+   "lang": "ko",
+   "text": "이브, 어블, 풀, 어스로 끝나면 형용사. 형용사에 리를 붙이면 부사가 돼요.",
+   "cap": 12
+  },
+  {
+   "id": "kab890d18",
+   "lang": "ko",
+   "text": "아이즈, 이파이로 끝나면 동사인 경우가 많아요.",
+   "cap": 13
+  },
+  {
+   "id": "k5905e5f6",
+   "lang": "ko",
+   "text": "하지만 꼬리가 속이는 말도 있어요.",
+   "cap": 14
+  },
+  {
+   "id": "e5417a66c",
+   "lang": "en",
+   "text": "timely",
+   "cap": 14
+  },
+  {
+   "id": "k9f34a81b",
+   "lang": "ko",
+   "text": "와",
+   "cap": 14
+  },
+  {
+   "id": "e7850f88c",
+   "lang": "en",
+   "text": "costly",
+   "cap": 14
+  },
+  {
+   "id": "kd27e5df7",
+   "lang": "ko",
+   "text": "는",
+   "cap": 14
+  },
+  {
+   "id": "e67d8c7e9",
+   "lang": "en",
+   "text": "ly",
+   "cap": 14
+  },
+  {
+   "id": "kc1f6d8ec",
+   "lang": "ko",
+   "text": "로 끝나지만 형용사예요.",
+   "cap": 14
+  },
+  {
+   "id": "e97f8fc8f",
+   "lang": "en",
+   "text": "approval, proposal",
+   "cap": 15
+  },
+  {
+   "id": "k38f8c7bb",
+   "lang": "ko",
+   "text": "은 형용사 꼬리",
+   "cap": 15
+  },
+  {
+   "id": "e78be9f2f",
+   "lang": "en",
+   "text": "al",
+   "cap": 15
+  },
+  {
+   "id": "k19e5052d",
+   "lang": "ko",
+   "text": "로 끝나지만 명사",
+   "cap": 15
+  },
+  {
+   "id": "e1fadbba7",
+   "lang": "en",
+   "text": "representative",
+   "cap": 15
+  },
+  {
+   "id": "k0561092f",
+   "lang": "ko",
+   "text": "는 사람을 뜻하는 명사예요.",
+   "cap": 15
+  },
+  {
+   "id": "kbe2c9224",
+   "lang": "ko",
+   "text": "문장 하나를 품사별로 칠해 볼게요.",
+   "cap": 16
+  },
+  {
+   "id": "eac909ea5",
+   "lang": "en",
+   "text": "The new manager quickly reviewed the annual report.",
+   "cap": 16
+  },
+  {
+   "id": "ef95fbe59",
+   "lang": "en",
+   "text": "manager",
+   "cap": 17
+  },
+  {
+   "id": "e50e0ae78",
+   "lang": "en",
+   "text": "report",
+   "cap": 17
+  },
+  {
+   "id": "k9524b934",
+   "lang": "ko",
+   "text": "는 명사",
+   "cap": 17
+  },
+  {
+   "id": "ee529b0cb",
+   "lang": "en",
+   "text": "reviewed",
+   "cap": 17
+  },
+  {
+   "id": "k0fb42cc1",
+   "lang": "ko",
+   "text": "는 동사. 이 둘이 문장의 뼈대예요.",
+   "cap": 17
+  },
+  {
+   "id": "e2ef57bcc",
+   "lang": "en",
+   "text": "new",
+   "cap": 18
+  },
+  {
+   "id": "e806a2911",
+   "lang": "en",
+   "text": "annual",
+   "cap": 18
+  },
+  {
+   "id": "k7bb15772",
+   "lang": "ko",
+   "text": "은 명사를 꾸미는 형용사",
+   "cap": 18
+  },
+  {
+   "id": "ebc998c56",
+   "lang": "en",
+   "text": "quickly",
+   "cap": 18
+  },
+  {
+   "id": "k5306266a",
+   "lang": "ko",
+   "text": "는 동사를 꾸미는 부사예요.",
+   "cap": 18
+  },
+  {
+   "id": "kc26daad9",
+   "lang": "ko",
+   "text": "꾸미는 말을 모두 빼도",
+   "cap": 19
+  },
+  {
+   "id": "eb787ea80",
+   "lang": "en",
+   "text": "The manager reviewed the report.",
+   "cap": 19
+  },
+  {
+   "id": "ka8bd1308",
+   "lang": "ko",
+   "text": "문장이 그대로 서 있죠.",
+   "cap": 19
+  },
+  {
+   "id": "k0139c1e0",
+   "lang": "ko",
+   "text": "그래서 품사 문제의 빈칸은, 앞뒤 낱말과 어떻게 이어지는지로 자리가 정해져요.",
+   "cap": 20
+  },
+  {
+   "id": "k8718406f",
+   "lang": "ko",
+   "text": "뒤의 빈칸은 꾸밈을 받을 명사, 그리고",
+   "cap": 21
+  },
+  {
+   "id": "k953c1ed5",
+   "lang": "ko",
+   "text": "의 주어가 들어갈 자리예요.",
+   "cap": 21
+  },
+  {
+   "id": "kd7e16129",
+   "lang": "ko",
+   "text": "첫 번째는 명사 자리예요.",
+   "cap": 22
+  },
+  {
+   "id": "e778ccb74",
+   "lang": "en",
+   "text": "a, the",
+   "cap": 22
+  },
+  {
+   "id": "k7f8e600b",
+   "lang": "ko",
+   "text": "소유격, 형용사 바로 뒤에는 명사가 와요.",
+   "cap": 22
+  },
+  {
+   "id": "ka5555a9f",
+   "lang": "ko",
+   "text": "빈칸 뒤에",
+   "cap": 23
+  },
+  {
+   "id": "kc7b878ab",
+   "lang": "ko",
+   "text": "같은 전치사가 와도 명사 자리예요.",
+   "cap": 23
+  },
+  {
+   "id": "e8580b369",
+   "lang": "en",
+   "text": "the renewal of the contract.",
+   "cap": 23
+  },
+  {
+   "id": "eab0cc5d2",
+   "lang": "en",
+   "text": "renewal",
+   "cap": 24
+  },
+  {
+   "id": "k9f363b1b",
+   "lang": "ko",
+   "text": "은",
+   "cap": 24
+  },
+  {
+   "id": "ke6aabc0a",
+   "lang": "ko",
+   "text": "로 끝나지만 명사예요. 꼬리표 함정이었죠.",
+   "cap": 24
+  },
+  {
+   "id": "k4849d32b",
+   "lang": "ko",
+   "text": "이번엔 전치사",
+   "cap": 25
+  },
+  {
+   "id": "e63b62f5b",
+   "lang": "en",
+   "text": "by",
+   "cap": 25
+  },
+  {
+   "id": "k7fb0d2a7",
+   "lang": "ko",
+   "text": "뒤의 빈칸이에요. 그런데 빈칸 뒤에 목적어",
+   "cap": 25
+  },
+  {
+   "id": "eb908469e",
+   "lang": "en",
+   "text": "the budget",
+   "cap": 25
+  },
+  {
+   "id": "ke116894b",
+   "lang": "ko",
+   "text": "이 있어요.",
+   "cap": 25
+  },
+  {
+   "id": "k64bfaee6",
+   "lang": "ko",
+   "text": "명사는 목적어를 가질 수 없어요. 목적어가 있으면 동명사",
+   "cap": 26
+  },
+  {
+   "id": "e41370b86",
+   "lang": "en",
+   "text": "reviewing",
+   "cap": 26
+  },
+  {
+   "id": "kcca4f916",
+   "lang": "ko",
+   "text": "없으면 명사",
+   "cap": 26
+  },
+  {
+   "id": "ecfdbbb3a",
+   "lang": "en",
+   "text": "review",
+   "cap": 26
+  },
+  {
+   "id": "kafede0c1",
+   "lang": "ko",
+   "text": "예요.",
+   "cap": 26
+  },
+  {
+   "id": "k8a9f5cb2",
+   "lang": "ko",
+   "text": "두 번째는 명사 앞 형용사 자리예요.",
+   "cap": 27
+  },
+  {
+   "id": "e7956dd19",
+   "lang": "en",
+   "text": "a",
+   "cap": 27
+  },
+  {
+   "id": "kfff86221",
+   "lang": "ko",
+   "text": "빈칸",
+   "cap": 27
+  },
+  {
+   "id": "e48b71994",
+   "lang": "en",
+   "text": "increase.",
+   "cap": 27
+  },
+  {
+   "id": "k22ab398c",
+   "lang": "ko",
+   "text": "빈칸 뒤에 이미 명사가 있죠.",
+   "cap": 27
+  },
+  {
+   "id": "k9f705bac",
+   "lang": "ko",
+   "text": "빈칸의 말은 뒤의 명사",
+   "cap": 28
+  },
+  {
+   "id": "ee3d7ccb2",
+   "lang": "en",
+   "text": "increase",
+   "cap": 28
+  },
+  {
+   "id": "k8b324df0",
+   "lang": "ko",
+   "text": "를 꾸며야 해요. 명사를 꾸미는 건 형용사",
+   "cap": 28
+  },
+  {
+   "id": "e7a0dda61",
+   "lang": "en",
+   "text": "significant.",
+   "cap": 28
+  },
+  {
+   "id": "e4067ada6",
+   "lang": "en",
+   "text": "significantly",
+   "cap": 29
+  },
+  {
+   "id": "k9532a28a",
+   "lang": "ko",
+   "text": "는 부사라서 명사를 꾸밀 수 없어요. 토익의 단골 오답이에요.",
+   "cap": 29
+  },
+  {
+   "id": "kd90dfdf2",
+   "lang": "ko",
+   "text": "관사와 명사 사이의 빈칸은 형용사. 이 모양을 눈에 익혀 두세요.",
+   "cap": 30
+  },
+  {
+   "id": "k80ccee2b",
+   "lang": "ko",
+   "text": "세 번째는 보어 자리예요.",
+   "cap": 31
+  },
+  {
+   "id": "ea1e2eb3e",
+   "lang": "en",
+   "text": "be, remain, become",
+   "cap": 31
+  },
+  {
+   "id": "kee34e7da",
+   "lang": "ko",
+   "text": "뒤에서 주어의 상태를 말해 줘요.",
+   "cap": 31
+  },
+  {
+   "id": "ee91a7cab",
+   "lang": "en",
+   "text": "Prices will remain competitive.",
+   "cap": 32
+  },
+  {
+   "id": "k16aade29",
+   "lang": "ko",
+   "text": "가격이 경쟁력 있는 상태로 남는다는 뜻이에요.",
+   "cap": 32
+  },
+  {
+   "id": "e92d446de",
+   "lang": "en",
+   "text": "remain",
+   "cap": 33
+  },
+  {
+   "id": "k2dfac185",
+   "lang": "ko",
+   "text": "뒤라고 부사",
+   "cap": 33
+  },
+  {
+   "id": "ea0f1e502",
+   "lang": "en",
+   "text": "competitively",
+   "cap": 33
+  },
+  {
+   "id": "k3ddd8949",
+   "lang": "ko",
+   "text": "를 고르면 함정에 빠져요. 상태를 말하는 건 형용사예요.",
+   "cap": 33
+  },
+  {
+   "id": "e5b6574b6",
+   "lang": "en",
+   "text": "keep, find, make",
+   "cap": 34
+  },
+  {
+   "id": "kd3b0573c",
+   "lang": "ko",
+   "text": "뒤에서는 목적어의 상태를 말해요.",
+   "cap": 34
+  },
+  {
+   "id": "e080f5b56",
+   "lang": "en",
+   "text": "keep the files secure.",
+   "cap": 34
+  },
+  {
+   "id": "k9d71e64c",
+   "lang": "ko",
+   "text": "목적어와 빈칸을 등호로 이을 수 있으면 형용사 자리예요.",
+   "cap": 35
+  },
+  {
+   "id": "ee8931080",
+   "lang": "en",
+   "text": "securely",
+   "cap": 35
+  },
+  {
+   "id": "k9dc2bc84",
+   "lang": "ko",
+   "text": "는 오답.",
+   "cap": 35
+  },
+  {
+   "id": "k7bc50c61",
+   "lang": "ko",
+   "text": "네 번째는 부사 자리예요. 부사는 동사, 형용사, 문장 전체를 꾸며요.",
+   "cap": 36
+  },
+  {
+   "id": "e3856506c",
+   "lang": "en",
+   "text": "have",
+   "cap": 37
+  },
+  {
+   "id": "e82b774e2",
+   "lang": "en",
+   "text": "increased",
+   "cap": 37
+  },
+  {
+   "id": "k9533ccc5",
+   "lang": "ko",
+   "text": "사이처럼 동사 덩어리 가운데의 빈칸은 부사",
+   "cap": 37
+  },
+  {
+   "id": "ecedf5a67",
+   "lang": "en",
+   "text": "steadily.",
+   "cap": 37
+  },
+  {
+   "id": "kd2fc3ee4",
+   "lang": "ko",
+   "text": "완전한 문장 뒤, 형용사 앞의 빈칸도 부사 자리예요.",
+   "cap": 38
+  },
+  {
+   "id": "e44f8a41f",
+   "lang": "en",
+   "text": "responded quickly, highly qualified.",
+   "cap": 38
+  },
+  {
+   "id": "kbf91b2d0",
+   "lang": "ko",
+   "text": "헷갈리면 빈칸을 빼 보세요.",
+   "cap": 39
+  },
+  {
+   "id": "e398d913a",
+   "lang": "en",
+   "text": "Sales have increased.",
+   "cap": 39
+  },
+  {
+   "id": "kaec3d682",
+   "lang": "ko",
+   "text": "빼도 문장이 완전하면 부사 자리예요.",
+   "cap": 39
+  },
+  {
+   "id": "k04b492d3",
+   "lang": "ko",
+   "text": "반대로 빼면 문장이 무너지는 자리는 명사나 형용사 자리예요.",
+   "cap": 40
+  },
+  {
+   "id": "k9afa60b6",
+   "lang": "ko",
+   "text": "명사 앞이라고 늘 형용사는 아니에요.",
+   "cap": 41
+  },
+  {
+   "id": "e14eb49a0",
+   "lang": "en",
+   "text": "customer satisfaction survey",
+   "cap": 41
+  },
+  {
+   "id": "k4bf51d35",
+   "lang": "ko",
+   "text": "처럼 명사 + 명사로 굳은 말이 있어요.",
+   "cap": 41
+  },
+  {
+   "id": "kce5e432c",
+   "lang": "ko",
+   "text": "고객 만족 설문, 한 덩어리로 쓰는 말이에요.",
+   "cap": 42
+  },
+  {
+   "id": "e0b786d86",
+   "lang": "en",
+   "text": "safety regulations, sales figures",
+   "cap": 42
+  },
+  {
+   "id": "ka3433d91",
+   "lang": "ko",
+   "text": "도 마찬가지예요.",
+   "cap": 42
+  },
+  {
+   "id": "kdcd0b86d",
+   "lang": "ko",
+   "text": "명사 자리인데 보기에 명사가 둘이면, 사람인지 일인지 골라야 해요.",
+   "cap": 43
+  },
+  {
+   "id": "e6851a417",
+   "lang": "en",
+   "text": "hire an experienced",
+   "cap": 44
+  },
+  {
+   "id": "kb68983b6",
+   "lang": "ko",
+   "text": "빈칸 . 경험 많은 사람을 고용하니까 사람 명사",
+   "cap": 44
+  },
+  {
+   "id": "e77bd5287",
+   "lang": "en",
+   "text": "consultant",
+   "cap": 44
+  },
+  {
+   "id": "e423ebe7f",
+   "lang": "en",
+   "text": "consultation",
+   "cap": 45
+  },
+  {
+   "id": "k36c1ddce",
+   "lang": "ko",
+   "text": "은 상담이라는 일이에요.",
+   "cap": 45
+  },
+  {
+   "id": "e9b4760fc",
+   "lang": "en",
+   "text": "hire, experienced",
+   "cap": 45
+  },
+  {
+   "id": "k3720692e",
+   "lang": "ko",
+   "text": "같은 단서가 사람을 가리켜요.",
+   "cap": 45
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 46
+  },
+  {
+   "id": "k9f3d32ce",
+   "lang": "ko",
+   "text": "첫째, 보기를 봐요. 같은 뿌리의 말 네 개라면 품사 문제. 해석은 잠시 미뤄요.",
+   "cap": 47
+  },
+  {
+   "id": "k72ea3d49",
+   "lang": "ko",
+   "text": "둘째, 자리를 봐요. 빈칸 앞뒤 한 낱말씩만 보고 명사, 형용사, 부사 자리를 정해요.",
+   "cap": 48
+  },
+  {
+   "id": "kc80e946c",
+   "lang": "ko",
+   "text": "셋째, 꼬리를 봐요. 그 자리에 맞는 꼬리를 가진 보기를 고르고, 꼬리가 속이는 말인지 확인해요.",
+   "cap": 49
+  },
+  {
+   "id": "k1ed31dd3",
+   "lang": "ko",
+   "text": "이 순서로 토익 문제를 풀어 볼까요?",
+   "cap": 50
+  },
+  {
+   "id": "ke194879a",
+   "lang": "ko",
+   "text": "처음 본 문제예요. 첫째, 보기가 모두",
+   "cap": 51
+  },
+  {
+   "id": "e085eceaf",
+   "lang": "en",
+   "text": "renew",
+   "cap": 51
+  },
+  {
+   "id": "kd8777210",
+   "lang": "ko",
+   "text": "가족이니 품사 문제예요.",
+   "cap": 51
+  },
+  {
+   "id": "ke4a3f7d1",
+   "lang": "ko",
+   "text": "둘째, 빈칸 앞에",
+   "cap": 52
+  },
+  {
+   "id": "k547602f5",
+   "lang": "ko",
+   "text": "뒤에",
+   "cap": 52
+  },
+  {
+   "id": "e54d54bf7",
+   "lang": "en",
+   "text": "of.",
+   "cap": 52
+  },
+  {
+   "id": "k9efcd54c",
+   "lang": "ko",
+   "text": "관사 뒤, 전치사 앞. 명사 자리예요.",
+   "cap": 52
+  },
+  {
+   "id": "k7bdd26bd",
+   "lang": "ko",
+   "text": "셋째, 명사 꼬리를 찾으면",
+   "cap": 53
+  },
+  {
+   "id": "e411babb4",
+   "lang": "en",
+   "text": "renewal.",
+   "cap": 53
+  },
+  {
+   "id": "k9ab5eb43",
+   "lang": "ko",
+   "text": "로 끝나도 명사예요. 정답은",
+   "cap": 53
+  },
+  {
+   "id": "e5756a793",
+   "lang": "en",
+   "text": "C",
+   "cap": 53
+  },
+  {
+   "id": "k8370288a",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째",
+   "cap": 54
+  },
+  {
+   "id": "e46b9ded4",
+   "lang": "en",
+   "text": "steady",
+   "cap": 54
+  },
+  {
+   "id": "k5e464384",
+   "lang": "ko",
+   "text": "가족이에요. 둘째, 빈칸이",
+   "cap": 54
+  },
+  {
+   "id": "k12606cc7",
+   "lang": "ko",
+   "text": "사이에 있어요.",
+   "cap": 54
+  },
+  {
+   "id": "k0d6a1d4a",
+   "lang": "ko",
+   "text": "동사 덩어리 가운데, 빼도 문장이 완전한 자리. 부사 자리예요.",
+   "cap": 55
+  },
+  {
+   "id": "k102a808c",
+   "lang": "ko",
+   "text": "셋째, 형용사에",
+   "cap": 56
+  },
+  {
+   "id": "kfe6f6fb8",
+   "lang": "ko",
+   "text": "가 붙은",
+   "cap": 56
+  },
+  {
+   "id": "k4039e339",
+   "lang": "ko",
+   "text": "정답은",
+   "cap": 56
+  },
+  {
+   "id": "e5656a600",
+   "lang": "en",
+   "text": "B",
+   "cap": 56
+  },
+  {
+   "id": "ka646c004",
+   "lang": "ko",
+   "text": "세 번째. 첫째",
+   "cap": 57
+  },
+  {
+   "id": "ebb2fe9af",
+   "lang": "en",
+   "text": "secure",
+   "cap": 57
+  },
+  {
+   "id": "k1b2cc0e0",
+   "lang": "ko",
+   "text": "가족. 둘째",
+   "cap": 57
+  },
+  {
+   "id": "e7e1d7757",
+   "lang": "en",
+   "text": "keep",
+   "cap": 57
+  },
+  {
+   "id": "k3bffa959",
+   "lang": "ko",
+   "text": "과 목적어",
+   "cap": 57
+  },
+  {
+   "id": "e127d5555",
+   "lang": "en",
+   "text": "all customer records",
+   "cap": 57
+  },
+  {
+   "id": "keab9fd81",
+   "lang": "ko",
+   "text": "뒤의 빈칸이에요.",
+   "cap": 57
+  },
+  {
+   "id": "ka66ee2ef",
+   "lang": "ko",
+   "text": "목적어의 상태를 말하는 목적격 보어, 형용사 자리예요. 기록이 안전한 상태로.",
+   "cap": 58
+  },
+  {
+   "id": "k877d6faa",
+   "lang": "ko",
+   "text": "셋째",
+   "cap": 59
+  },
+  {
+   "id": "k152219d4",
+   "lang": "ko",
+   "text": "는 동사로도 쓰지만 여기서는 형용사.",
+   "cap": 59
+  },
+  {
+   "id": "k86fcb486",
+   "lang": "ko",
+   "text": "는 부사라서 오답, 정답은",
+   "cap": 59
+  },
+  {
+   "id": "e5c56af72",
+   "lang": "en",
+   "text": "D",
+   "cap": 59
+  },
+  {
+   "id": "k4104976b",
+   "lang": "ko",
+   "text": "정리해요. 품사 문제는 해석이 아니라 자리로 풀어요.",
+   "cap": 60
+  },
+  {
+   "id": "ke833d363",
+   "lang": "ko",
+   "text": "관사 뒤는 명사, 명사 앞은 형용사",
+   "cap": 61
+  },
+  {
+   "id": "e4fb60fdf",
+   "lang": "en",
+   "text": "be",
+   "cap": 61
+  },
+  {
+   "id": "k7edca897",
+   "lang": "ko",
+   "text": "뒤는 형용사, 빼도 되는 자리는 부사.",
+   "cap": 61
+  },
+  {
+   "id": "k6dc4e842",
+   "lang": "ko",
+   "text": "목적어가 따라오면 동명사, 명사와 명사 사이는 명사예요.",
+   "cap": 62
+  },
+  {
+   "id": "kbf394fe3",
+   "lang": "ko",
+   "text": "아래에서 3초 품사 감각 훈련과 연습 문제로 손에 익혀 보세요.",
+   "cap": 63
+  },
+  {
+   "id": "ed0002b3c",
+   "lang": "en",
+   "text": "The renewal of the service contract must be signed by Friday.",
+   "from": "say"
+  },
+  {
+   "id": "e0a453bf2",
+   "lang": "en",
+   "text": "succeed, success, successful, successfully",
+   "from": "say"
+  },
+  {
+   "id": "e159084bd",
+   "lang": "en",
+   "text": "the renewal of the contract",
+   "from": "say"
+  },
+  {
+   "id": "ef235a629",
+   "lang": "en",
+   "text": "by reviewing the budget",
+   "from": "say"
+  },
+  {
+   "id": "ed9391fed",
+   "lang": "en",
+   "text": "a significant increase in sales",
+   "from": "say"
+  },
+  {
+   "id": "ef00ba6ac",
+   "lang": "en",
+   "text": "Please keep the files secure.",
+   "from": "say"
+  },
+  {
+   "id": "e81cf0869",
+   "lang": "en",
+   "text": "Sales have steadily increased.",
+   "from": "say"
+  },
+  {
+   "id": "eba7fe099",
+   "lang": "en",
+   "text": "Ms. Ito responded quickly to the complaint.",
+   "from": "say"
+  },
+  {
+   "id": "ebc772ebf",
+   "lang": "en",
+   "text": "All applicants must be highly qualified.",
+   "from": "say"
+  },
+  {
+   "id": "e071fd4bd",
+   "lang": "en",
+   "text": "the customer satisfaction survey",
+   "from": "say"
+  },
+  {
+   "id": "e1752d0e8",
+   "lang": "en",
+   "text": "hire an experienced consultant",
+   "from": "say"
+  },
+  {
+   "id": "e4f5d948b",
+   "lang": "en",
+   "text": "Online sales have steadily increased since the website was redesigned.",
+   "from": "say"
+  },
+  {
+   "id": "e9a8d18eb",
+   "lang": "en",
+   "text": "Please keep all customer records secure at all times.",
+   "from": "say"
+  },
+  {
+   "id": "ed14a58ae",
+   "lang": "en",
+   "text": "succeed",
+   "from": "say"
+  },
+  {
+   "id": "eb4774aa5",
+   "lang": "en",
+   "text": "success",
+   "from": "say"
+  },
+  {
+   "id": "e225c9098",
+   "lang": "en",
+   "text": "successful",
+   "from": "say"
+  },
+  {
+   "id": "ed7f42eff",
+   "lang": "en",
+   "text": "successfully",
+   "from": "say"
+  },
+  {
+   "id": "e493b2927",
+   "lang": "en",
+   "text": "compete",
+   "from": "say"
+  },
+  {
+   "id": "ea40aaf7d",
+   "lang": "en",
+   "text": "competition",
+   "from": "say"
+  },
+  {
+   "id": "ef53cefb4",
+   "lang": "en",
+   "text": "competitor",
+   "from": "say"
+  },
+  {
+   "id": "e9ccc3bb9",
+   "lang": "en",
+   "text": "competitive",
+   "from": "say"
+  },
+  {
+   "id": "e5df60380",
+   "lang": "en",
+   "text": "rely",
+   "from": "say"
+  },
+  {
+   "id": "e59c8a07b",
+   "lang": "en",
+   "text": "reliance",
+   "from": "say"
+  },
+  {
+   "id": "e1e7ec7b8",
+   "lang": "en",
+   "text": "reliable",
+   "from": "say"
+  },
+  {
+   "id": "e2a7eda9c",
+   "lang": "en",
+   "text": "reliably",
+   "from": "say"
+  },
+  {
+   "id": "e7d11868a",
+   "lang": "en",
+   "text": "apply",
+   "from": "say"
+  },
+  {
+   "id": "edfb96eb0",
+   "lang": "en",
+   "text": "application",
+   "from": "say"
+  },
+  {
+   "id": "eb63614bc",
+   "lang": "en",
+   "text": "applicant",
+   "from": "say"
+  },
+  {
+   "id": "ecb6a3967",
+   "lang": "en",
+   "text": "applicable",
+   "from": "say"
+  },
+  {
+   "id": "e37fc30db",
+   "lang": "en",
+   "text": "renewable",
+   "from": "say"
+  },
+  {
+   "id": "ed302776e",
+   "lang": "en",
+   "text": "renewed",
+   "from": "say"
+  },
+  {
+   "id": "ebc80fc95",
+   "lang": "en",
+   "text": "significant",
+   "from": "say"
+  },
+  {
+   "id": "e8ed40fdf",
+   "lang": "en",
+   "text": "significance",
+   "from": "say"
+  },
+  {
+   "id": "e28c724df",
+   "lang": "en",
+   "text": "signify",
+   "from": "say"
+  },
+  {
+   "id": "eff031873",
+   "lang": "en",
+   "text": "steadily",
+   "from": "say"
+  },
+  {
+   "id": "e7b9ad8df",
+   "lang": "en",
+   "text": "steadiness",
+   "from": "say"
+  },
+  {
+   "id": "e0ff1ea15",
+   "lang": "en",
+   "text": "steadied",
+   "from": "say"
+  },
+  {
+   "id": "ea2f1d76c",
+   "lang": "en",
+   "text": "security",
+   "from": "say"
+  },
+  {
+   "id": "e9900d238",
+   "lang": "en",
+   "text": "securing",
+   "from": "say"
+  },
+  {
+   "id": "ef57de3ae",
+   "lang": "en",
+   "text": "consult",
+   "from": "say"
+  },
+  {
+   "id": "e575028af",
+   "lang": "en",
+   "text": "consultative",
+   "from": "say"
+  },
+  {
+   "id": "ec4cb0d46",
+   "lang": "en",
+   "text": "satisfied",
+   "from": "say"
+  },
+  {
+   "id": "e5093fd97",
+   "lang": "en",
+   "text": "satisfy",
+   "from": "say"
+  },
+  {
+   "id": "e7a05ec36",
+   "lang": "en",
+   "text": "satisfaction",
+   "from": "say"
+  },
+  {
+   "id": "ee20d7f9b",
+   "lang": "en",
+   "text": "satisfactorily",
+   "from": "say"
+  },
+  {
+   "id": "efb29d36d",
+   "lang": "en",
+   "text": "reviewer",
+   "from": "say"
+  },
+  {
+   "id": "ee0909ca5",
+   "lang": "en",
+   "text": "quick",
+   "from": "say"
+  },
+  {
+   "id": "ead83ae6a",
+   "lang": "en",
+   "text": "quicken",
+   "from": "say"
+  },
+  {
+   "id": "e9a197f4a",
+   "lang": "en",
+   "text": "quickness",
+   "from": "say"
+  },
+  {
+   "id": "e799766e3",
+   "lang": "en",
+   "text": "time",
+   "from": "say"
+  },
+  {
+   "id": "e656e0904",
+   "lang": "en",
+   "text": "timing",
+   "from": "say"
+  },
+  {
+   "id": "ef0566685",
+   "lang": "en",
+   "text": "timed",
+   "from": "say"
+  },
+  {
+   "id": "e11c2d08b",
+   "lang": "en",
+   "text": "approve",
+   "from": "say"
+  },
+  {
+   "id": "e74f22dec",
+   "lang": "en",
+   "text": "approving",
+   "from": "say"
+  },
+  {
+   "id": "efcb80861",
+   "lang": "en",
+   "text": "approval",
+   "from": "say"
+  },
+  {
+   "id": "ee4aee83d",
+   "lang": "en",
+   "text": "approved",
+   "from": "say"
+  },
+  {
+   "id": "e0094d27a",
+   "lang": "en",
+   "text": "high",
+   "from": "say"
+  },
+  {
+   "id": "e155c3d71",
+   "lang": "en",
+   "text": "height",
+   "from": "say"
+  },
+  {
+   "id": "ec017ee56",
+   "lang": "en",
+   "text": "heighten",
+   "from": "say"
+  },
+  {
+   "id": "e4a5500c1",
+   "lang": "en",
+   "text": "highly",
+   "from": "say"
+  },
+  {
+   "id": "ebfbc55b3",
+   "lang": "en",
+   "text": "popular",
+   "from": "say"
+  },
+  {
+   "id": "e7b7ddf75",
+   "lang": "en",
+   "text": "popularity",
+   "from": "say"
+  },
+  {
+   "id": "e91ea209c",
+   "lang": "en",
+   "text": "popularly",
+   "from": "say"
+  },
+  {
+   "id": "e8b6eee1b",
+   "lang": "en",
+   "text": "popularize",
+   "from": "say"
+  },
+  {
+   "id": "e2163058b",
+   "lang": "en",
+   "text": "registrant",
+   "from": "say"
+  },
+  {
+   "id": "ebb92f2fb",
+   "lang": "en",
+   "text": "register",
+   "from": "say"
+  },
+  {
+   "id": "e6817424b",
+   "lang": "en",
+   "text": "registration",
+   "from": "say"
+  },
+  {
+   "id": "e7421077a",
+   "lang": "en",
+   "text": "registered",
+   "from": "say"
+  },
+  {
+   "id": "e29d9c2f3",
+   "lang": "en",
+   "text": "persuade",
+   "from": "say"
+  },
+  {
+   "id": "ef7f7e7e1",
+   "lang": "en",
+   "text": "persuasion",
+   "from": "say"
+  },
+  {
+   "id": "e66bc89ae",
+   "lang": "en",
+   "text": "persuasively",
+   "from": "say"
+  },
+  {
+   "id": "ee0e1fd5d",
+   "lang": "en",
+   "text": "persuasive",
+   "from": "say"
+  },
+  {
+   "id": "e7a7581ed",
+   "lang": "en",
+   "text": "compete, competition, competitor, competitive, competitively",
+   "from": "say"
+  },
+  {
+   "id": "e37b97649",
+   "lang": "en",
+   "text": "rely, reliance, reliable, reliably",
+   "from": "say"
+  },
+  {
+   "id": "e1bd7165f",
+   "lang": "en",
+   "text": "apply, application, applicant, applicable",
+   "from": "say"
+  }
+ ]
+}
