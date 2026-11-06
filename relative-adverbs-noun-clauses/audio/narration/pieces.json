@@ -1,0 +1,1363 @@
+{
+ "slug": "relative-adverbs-noun-clauses",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 112,
+  "en": 113,
+  "say": 31,
+  "koChars": 1978,
+  "enChars": 2323
+ },
+ "pieces": [
+  {
+   "id": "kc74110e0",
+   "lang": "ko",
+   "text": "관계사와 명사절 문제를 빈자리 하나로 풀어 볼 거예요.",
+   "cap": 0
+  },
+  {
+   "id": "k8237f7c3",
+   "lang": "ko",
+   "text": "문제를 보세요. 빈칸 앞",
+   "cap": 1
+  },
+  {
+   "id": "ee149b3f3",
+   "lang": "en",
+   "text": "The hotel",
+   "cap": 1
+  },
+  {
+   "id": "kd9bc15a1",
+   "lang": "ko",
+   "text": "장소예요. 그래서 먼저 눈이 가는 답",
+   "cap": 1
+  },
+  {
+   "id": "e5591b865",
+   "lang": "en",
+   "text": "where.",
+   "cap": 1
+  },
+  {
+   "id": "k7d79de5d",
+   "lang": "ko",
+   "text": "장소 명사 뒤면 언제나 관계부사일까요? 답은 빈칸 뒤가 알려 줘요.",
+   "cap": 2
+  },
+  {
+   "id": "k7df85cfd",
+   "lang": "ko",
+   "text": "오늘의 질문은 하나예요. 빈칸 뒤 문장에 빈자리가 있나, 없나?",
+   "cap": 3
+  },
+  {
+   "id": "kee012d06",
+   "lang": "ko",
+   "text": "관계부사, 복합관계사, 명사절을 이 질문 하나로 차례로 풀어요.",
+   "cap": 4
+  },
+  {
+   "id": "k2904f762",
+   "lang": "ko",
+   "text": "관계대명사 튜토리얼에서 본 것처럼, 관계사절에는 빈자리가 생겨요. 다시 볼게요.",
+   "cap": 5
+  },
+  {
+   "id": "ec4c511f3",
+   "lang": "en",
+   "text": "We reserved it.",
+   "cap": 6
+  },
+  {
+   "id": "e74cbc1a6",
+   "lang": "en",
+   "text": "it , which",
+   "cap": 6
+  },
+  {
+   "id": "k5d614765",
+   "lang": "ko",
+   "text": "그리고 맨 앞으로. 그러면",
+   "cap": 6
+  },
+  {
+   "id": "ecbbb866e",
+   "lang": "en",
+   "text": "reserved",
+   "cap": 6
+  },
+  {
+   "id": "k8de5e37d",
+   "lang": "ko",
+   "text": "뒤가 비어요.",
+   "cap": 6
+  },
+  {
+   "id": "ke8346fcd",
+   "lang": "ko",
+   "text": "목적어가 빠졌으니 이 절은 혼자 서지 못해요. 빈자리가 있는 불완전한 문장이에요.",
+   "cap": 7
+  },
+  {
+   "id": "k3a085049",
+   "lang": "ko",
+   "text": "이번에는",
+   "cap": 8
+  },
+  {
+   "id": "e97affae6",
+   "lang": "en",
+   "text": "The fair is held there.",
+   "cap": 8
+  },
+  {
+   "id": "kde657255",
+   "lang": "ko",
+   "text": "부사",
+   "cap": 8
+  },
+  {
+   "id": "ebc3309fb",
+   "lang": "en",
+   "text": "there , where",
+   "cap": 8
+  },
+  {
+   "id": "k9f9758dd",
+   "lang": "ko",
+   "text": "그리고 맨 앞으로.",
+   "cap": 8
+  },
+  {
+   "id": "kf0d60659",
+   "lang": "ko",
+   "text": "남은",
+   "cap": 9
+  },
+  {
+   "id": "e1e22344e",
+   "lang": "en",
+   "text": "the fair is held",
+   "cap": 9
+  },
+  {
+   "id": "kf49a80a9",
+   "lang": "ko",
+   "text": "빠진 것이 없어요. 부사는 없어도 문장이 서거든요.",
+   "cap": 9
+  },
+  {
+   "id": "k267fcf4c",
+   "lang": "ko",
+   "text": "대명사가 빠지면 빈자리, 부사가 빠지면 완전한 문장. 이것이 오늘의 열쇠예요.",
+   "cap": 10
+  },
+  {
+   "id": "kebb5f0df",
+   "lang": "ko",
+   "text": "한국어로는 우리가 예약한 호텔, 박람회가 열리는 도시. 꾸미는 모양이 똑같아요.",
+   "cap": 11
+  },
+  {
+   "id": "kc0383a4b",
+   "lang": "ko",
+   "text": "영어는 둘을 갈라요. 빈자리가 있으면 관계대명사",
+   "cap": 12
+  },
+  {
+   "id": "ecf0afb37",
+   "lang": "en",
+   "text": "which",
+   "cap": 12
+  },
+  {
+   "id": "k19caed17",
+   "lang": "ko",
+   "text": "없으면 관계부사",
+   "cap": 12
+  },
+  {
+   "id": "kef1541e1",
+   "lang": "ko",
+   "text": "관계부사는 셋이에요. 장소",
+   "cap": 13
+  },
+  {
+   "id": "ecac17909",
+   "lang": "en",
+   "text": "where",
+   "cap": 13
+  },
+  {
+   "id": "kb708c881",
+   "lang": "ko",
+   "text": "시간",
+   "cap": 13
+  },
+  {
+   "id": "ec1c6a5ca",
+   "lang": "en",
+   "text": "when",
+   "cap": 13
+  },
+  {
+   "id": "kd5fa4715",
+   "lang": "ko",
+   "text": "이유",
+   "cap": 13
+  },
+  {
+   "id": "ea20b97ee",
+   "lang": "en",
+   "text": "why.",
+   "cap": 13
+  },
+  {
+   "id": "e7feb10a6",
+   "lang": "en",
+   "text": "the day when the store opened.",
+   "cap": 14
+  },
+  {
+   "id": "e6876c772",
+   "lang": "en",
+   "text": "the reason why sales rose.",
+   "cap": 14
+  },
+  {
+   "id": "k2f72c748",
+   "lang": "ko",
+   "text": "뒤가 모두 완전한 문장이에요.",
+   "cap": 14
+  },
+  {
+   "id": "k31f5ffde",
+   "lang": "ko",
+   "text": "조심하세요. 장소 명사라도 뒤에 빈자리가 있으면 관계대명사예요.",
+   "cap": 15
+  },
+  {
+   "id": "e62b7976e",
+   "lang": "en",
+   "text": "the museum which we visited.",
+   "cap": 15
+  },
+  {
+   "id": "k5abcc21e",
+   "lang": "ko",
+   "text": "관계부사를 풀어 쓰면 , 전치사 +",
+   "cap": 16
+  },
+  {
+   "id": "e0749485b",
+   "lang": "en",
+   "text": "which.",
+   "cap": 16
+  },
+  {
+   "id": "e0c3b9548",
+   "lang": "en",
+   "text": "the city in which the fair is held.",
+   "cap": 16
+  },
+  {
+   "id": "e6026fa38",
+   "lang": "en",
+   "text": "in which",
+   "cap": 17
+  },
+  {
+   "id": "k9991ea24",
+   "lang": "ko",
+   "text": "한 낱말로 줄이면",
+   "cap": 17
+  },
+  {
+   "id": "k9ae05b46",
+   "lang": "ko",
+   "text": "그래서 둘 다 뒤에 완전한 문장이 와요.",
+   "cap": 17
+  },
+  {
+   "id": "k94a684c1",
+   "lang": "ko",
+   "text": "시간이면",
+   "cap": 18
+  },
+  {
+   "id": "e4ad5f7f6",
+   "lang": "en",
+   "text": "on which , when",
+   "cap": 18
+  },
+  {
+   "id": "k3b1cdfb3",
+   "lang": "ko",
+   "text": "이유면",
+   "cap": 18
+  },
+  {
+   "id": "e93ddacfc",
+   "lang": "en",
+   "text": "for which , why.",
+   "cap": 18
+  },
+  {
+   "id": "k10a02cae",
+   "lang": "ko",
+   "text": "그래서 전치사 바로 뒤에는 관계부사를 못 써요.",
+   "cap": 19
+  },
+  {
+   "id": "e8cbeda3e",
+   "lang": "en",
+   "text": "in where",
+   "cap": 19
+  },
+  {
+   "id": "k5a37e825",
+   "lang": "ko",
+   "text": "전치사가 두 번이 되거든요.",
+   "cap": 19
+  },
+  {
+   "id": "kf3c77d0a",
+   "lang": "ko",
+   "text": "방법을 말할 때는 함정이 하나 있어요.",
+   "cap": 20
+  },
+  {
+   "id": "e16e2c520",
+   "lang": "en",
+   "text": "the way how",
+   "cap": 20
+  },
+  {
+   "id": "k1da5e79f",
+   "lang": "ko",
+   "text": "쓰지 않아요.",
+   "cap": 20
+  },
+  {
+   "id": "e01f01f4a",
+   "lang": "en",
+   "text": "the way",
+   "cap": 21
+  },
+  {
+   "id": "k57dde4ad",
+   "lang": "ko",
+   "text": "또는",
+   "cap": 21
+  },
+  {
+   "id": "e564cb3fc",
+   "lang": "en",
+   "text": "how",
+   "cap": 21
+  },
+  {
+   "id": "k5c801975",
+   "lang": "ko",
+   "text": "하나만 써요.",
+   "cap": 21
+  },
+  {
+   "id": "efed67b64",
+   "lang": "en",
+   "text": "the way we work, how we work.",
+   "cap": 21
+  },
+  {
+   "id": "k083e1b71",
+   "lang": "ko",
+   "text": "이번 문장은 빈칸 앞에 명사가 없어요. 빈칸",
+   "cap": 22
+  },
+  {
+   "id": "eac312d10",
+   "lang": "en",
+   "text": "arrives first should unlock the office.",
+   "cap": 22
+  },
+  {
+   "id": "kce2ed01f",
+   "lang": "ko",
+   "text": "빈칸 바로 뒤",
+   "cap": 23
+  },
+  {
+   "id": "e0857c932",
+   "lang": "en",
+   "text": "arrives",
+   "cap": 23
+  },
+  {
+   "id": "k9e9d7278",
+   "lang": "ko",
+   "text": "주어가 빠졌어요. 그리고 꾸밀 명사, 곧 선행사도 없어요.",
+   "cap": 23
+  },
+  {
+   "id": "ka537b815",
+   "lang": "ko",
+   "text": "이럴 때",
+   "cap": 24
+  },
+  {
+   "id": "ee29d9918",
+   "lang": "en",
+   "text": "whoever.",
+   "cap": 24
+  },
+  {
+   "id": "e54b611a6",
+   "lang": "en",
+   "text": "whoever",
+   "cap": 24
+  },
+  {
+   "id": "efd9801d0",
+   "lang": "en",
+   "text": "anyone who",
+   "cap": 24
+  },
+  {
+   "id": "k53d37449",
+   "lang": "ko",
+   "text": "곧 하는 사람은 누구든이라는 뜻이에요.",
+   "cap": 24
+  },
+  {
+   "id": "k8b61aa3d",
+   "lang": "ko",
+   "text": "사람이 아니라 물건이면",
+   "cap": 25
+  },
+  {
+   "id": "e4e67b77a",
+   "lang": "en",
+   "text": "whatever.",
+   "cap": 25
+  },
+  {
+   "id": "ea7fe10be",
+   "lang": "en",
+   "text": "Take whatever you need",
+   "cap": 25
+  },
+  {
+   "id": "e39ff53e0",
+   "lang": "en",
+   "text": "anything that you need.",
+   "cap": 25
+  },
+  {
+   "id": "ka9ff94c1",
+   "lang": "ko",
+   "text": "둘 다 선행사를 품고 있어서 명사 뒤에는 못 와요. 그리고 뒤에는 꼭 빈자리가 있어요.",
+   "cap": 26
+  },
+  {
+   "id": "e8bc6c18c",
+   "lang": "en",
+   "text": "however",
+   "cap": 27
+  },
+  {
+   "id": "ka4e11e92",
+   "lang": "ko",
+   "text": "아무리 해도라는 뜻이에요. 형용사를 데리고 다녀요.",
+   "cap": 27
+  },
+  {
+   "id": "e0169c080",
+   "lang": "en",
+   "text": "We are busy , However busy we are.",
+   "cap": 28
+  },
+  {
+   "id": "k6dcba701",
+   "lang": "ko",
+   "text": "형용사",
+   "cap": 28
+  },
+  {
+   "id": "eaf5c9c79",
+   "lang": "en",
+   "text": "busy , however",
+   "cap": 28
+  },
+  {
+   "id": "k88fd807d",
+   "lang": "ko",
+   "text": "바로 뒤로 옮겨요.",
+   "cap": 28
+  },
+  {
+   "id": "kd2812f41",
+   "lang": "ko",
+   "text": "그래서 빈칸 바로 뒤에 형용사가 보이면",
+   "cap": 29
+  },
+  {
+   "id": "eabe2d206",
+   "lang": "en",
+   "text": "however.",
+   "cap": 29
+  },
+  {
+   "id": "eff25172c",
+   "lang": "en",
+   "text": "whatever, whenever",
+   "cap": 29
+  },
+  {
+   "id": "k25834080",
+   "lang": "ko",
+   "text": "탈락이에요.",
+   "cap": 29
+  },
+  {
+   "id": "eebc29ade",
+   "lang": "en",
+   "text": "wherever",
+   "cap": 30
+  },
+  {
+   "id": "k3d3124e8",
+   "lang": "ko",
+   "text": "= 어디서 하든",
+   "cap": 30
+  },
+  {
+   "id": "e6c0713ea",
+   "lang": "en",
+   "text": "whenever",
+   "cap": 30
+  },
+  {
+   "id": "k2e1c9c25",
+   "lang": "ko",
+   "text": "= 언제 하든. 뒤에 완전한 문장이 와요.",
+   "cap": 30
+  },
+  {
+   "id": "e7f3ccf2a",
+   "lang": "en",
+   "text": "Whenever you need help",
+   "cap": 31
+  },
+  {
+   "id": "k45b7f92c",
+   "lang": "ko",
+   "text": "빠진 것이 없어요.",
+   "cap": 31
+  },
+  {
+   "id": "e9bdc1de3",
+   "lang": "en",
+   "text": "Whatever you need , need",
+   "cap": 31
+  },
+  {
+   "id": "kf83bf7cf",
+   "lang": "ko",
+   "text": "뒤가 비었어요.",
+   "cap": 31
+  },
+  {
+   "id": "kd56cb956",
+   "lang": "ko",
+   "text": "문장 안에서 주어나 목적어 노릇을 하는 절을 명사절이라고 해요.",
+   "cap": 32
+  },
+  {
+   "id": "eda0d95aa",
+   "lang": "en",
+   "text": "It is clear that we need more staff.",
+   "cap": 33
+  },
+  {
+   "id": "e0e36389b",
+   "lang": "en",
+   "text": "that",
+   "cap": 33
+  },
+  {
+   "id": "k02881b87",
+   "lang": "ko",
+   "text": "뒤",
+   "cap": 33
+  },
+  {
+   "id": "eb8beb5f9",
+   "lang": "en",
+   "text": "we need more staff",
+   "cap": 33
+  },
+  {
+   "id": "k86291550",
+   "lang": "ko",
+   "text": "완전한 문장.",
+   "cap": 33
+  },
+  {
+   "id": "eeb8962d8",
+   "lang": "en",
+   "text": "What we need is more time.",
+   "cap": 34
+  },
+  {
+   "id": "ed7cfc2c8",
+   "lang": "en",
+   "text": "what",
+   "cap": 34
+  },
+  {
+   "id": "ecbeaafe6",
+   "lang": "en",
+   "text": "we need, need",
+   "cap": 34
+  },
+  {
+   "id": "k978cd024",
+   "lang": "ko",
+   "text": "라는 것, 빈자리 없음.",
+   "cap": 35
+  },
+  {
+   "id": "kfa1abb0a",
+   "lang": "ko",
+   "text": "하는 것, 빈자리 있음.",
+   "cap": 35
+  },
+  {
+   "id": "k5c8375a2",
+   "lang": "ko",
+   "text": "관계대명사 튜토리얼에서 본",
+   "cap": 36
+  },
+  {
+   "id": "e7ab3124e",
+   "lang": "en",
+   "text": "the thing which.",
+   "cap": 36
+  },
+  {
+   "id": "k0a6341c8",
+   "lang": "ko",
+   "text": "앞에 명사가 없고 뒤에 빈자리가 있을 때 써요.",
+   "cap": 36
+  },
+  {
+   "id": "k0baf5eb9",
+   "lang": "ko",
+   "text": "인지 아닌지",
+   "cap": 37
+  },
+  {
+   "id": "e4321b666",
+   "lang": "en",
+   "text": "whether, if.",
+   "cap": 37
+  },
+  {
+   "id": "k37efb862",
+   "lang": "ko",
+   "text": "둘 다 뒤에 완전한 문장이 와요.",
+   "cap": 37
+  },
+  {
+   "id": "e5ba204b7",
+   "lang": "en",
+   "text": "I wonder whether the store is open.",
+   "cap": 38
+  },
+  {
+   "id": "kdcbddda0",
+   "lang": "ko",
+   "text": "동사의 목적어 자리에서는 둘 다 돼요.",
+   "cap": 38
+  },
+  {
+   "id": "k8f06aef1",
+   "lang": "ko",
+   "text": "그런데 둘 중 하나만 되는 자리가 네 곳 있어요. 첫째, 문장 맨 앞 주어 자리.",
+   "cap": 39
+  },
+  {
+   "id": "k763eb605",
+   "lang": "ko",
+   "text": "둘째, 전치사 바로 뒤.",
+   "cap": 40
+  },
+  {
+   "id": "ec831fce5",
+   "lang": "en",
+   "text": "It depends on whether we win the contract.",
+   "cap": 40
+  },
+  {
+   "id": "k877d6faa",
+   "lang": "ko",
+   "text": "셋째",
+   "cap": 41
+  },
+  {
+   "id": "e10001d82",
+   "lang": "en",
+   "text": "or not",
+   "cap": 41
+  },
+  {
+   "id": "k5895e25e",
+   "lang": "ko",
+   "text": "바로 앞. 넷째",
+   "cap": 41
+  },
+  {
+   "id": "e59edcc97",
+   "lang": "en",
+   "text": "to",
+   "cap": 41
+  },
+  {
+   "id": "k9c8e4ba2",
+   "lang": "ko",
+   "text": "부정사 앞.",
+   "cap": 41
+  },
+  {
+   "id": "ea0e0c243",
+   "lang": "en",
+   "text": "whether or not, whether to go.",
+   "cap": 41
+  },
+  {
+   "id": "k39b9d4a7",
+   "lang": "ko",
+   "text": "이 네 자리에서는",
+   "cap": 42
+  },
+  {
+   "id": "eed8d724b",
+   "lang": "en",
+   "text": "whether",
+   "cap": 42
+  },
+  {
+   "id": "k759c19d7",
+   "lang": "ko",
+   "text": "나머지 목적어 자리에서는 둘 다 써요.",
+   "cap": 42
+  },
+  {
+   "id": "k4516399c",
+   "lang": "ko",
+   "text": "질문이 문장 속으로 들어갈 때도 있어요. 한국어부터 볼게요.",
+   "cap": 43
+  },
+  {
+   "id": "k58b3877b",
+   "lang": "ko",
+   "text": "기차가 언제 떠나요? , 기차가 언제 떠나는지 몰라요. 순서는 그대로, 끝만 바뀌어요.",
+   "cap": 44
+  },
+  {
+   "id": "kfb19ea06",
+   "lang": "ko",
+   "text": "영어 질문은 어순이 달라요.",
+   "cap": 45
+  },
+  {
+   "id": "e77b04266",
+   "lang": "en",
+   "text": "When does the train leave?",
+   "cap": 45
+  },
+  {
+   "id": "kddeb8891",
+   "lang": "ko",
+   "text": "주어",
+   "cap": 45
+  },
+  {
+   "id": "e0533de73",
+   "lang": "en",
+   "text": "the train",
+   "cap": 45
+  },
+  {
+   "id": "k6686340f",
+   "lang": "ko",
+   "text": "앞에",
+   "cap": 45
+  },
+  {
+   "id": "e27a5d2d3",
+   "lang": "en",
+   "text": "does.",
+   "cap": 45
+  },
+  {
+   "id": "kc4c1b18b",
+   "lang": "ko",
+   "text": "문장 속에서는",
+   "cap": 46
+  },
+  {
+   "id": "e7bf7f9ee",
+   "lang": "en",
+   "text": "I dont know when the train leaves.",
+   "cap": 46
+  },
+  {
+   "id": "e34fab1ef",
+   "lang": "en",
+   "text": "does",
+   "cap": 46
+  },
+  {
+   "id": "ke14e12f5",
+   "lang": "ko",
+   "text": "빠지고, 주어 + 동사 순서.",
+   "cap": 46
+  },
+  {
+   "id": "ef5cd7cb9",
+   "lang": "en",
+   "text": "Where can I park?",
+   "cap": 47
+  },
+  {
+   "id": "eed5dfd93",
+   "lang": "en",
+   "text": "Can you tell me where I can park?",
+   "cap": 47
+  },
+  {
+   "id": "k81f75ad0",
+   "lang": "ko",
+   "text": "의문사 뒤는 평서문 어순이에요.",
+   "cap": 47
+  },
+  {
+   "id": "k3eeec546",
+   "lang": "ko",
+   "text": "의문사도 빈자리 규칙을 따라요.",
+   "cap": 48
+  },
+  {
+   "id": "e330eef68",
+   "lang": "en",
+   "text": "who, what",
+   "cap": 48
+  },
+  {
+   "id": "kb1796705",
+   "lang": "ko",
+   "text": "뒤는 빈자리",
+   "cap": 48
+  },
+  {
+   "id": "e19b0e7c9",
+   "lang": "en",
+   "text": "when, where, why, how",
+   "cap": 48
+  },
+  {
+   "id": "k2c67fb2a",
+   "lang": "ko",
+   "text": "뒤는 완전한 문장.",
+   "cap": 48
+  },
+  {
+   "id": "k0633934a",
+   "lang": "ko",
+   "text": "이제 3단계 풀이법으로 묶어요. 관계대명사 때와 달리, 이번에는 뒤부터 봐요.",
+   "cap": 49
+  },
+  {
+   "id": "kd95235b1",
+   "lang": "ko",
+   "text": "첫째, 뒤: 빈칸 뒤에 빈자리가 있나? 있으면",
+   "cap": 50
+  },
+  {
+   "id": "e0f5dd42f",
+   "lang": "en",
+   "text": "which, who, what, whoever, whatever",
+   "cap": 50
+  },
+  {
+   "id": "kbd87e126",
+   "lang": "ko",
+   "text": "쪽.",
+   "cap": 50
+  },
+  {
+   "id": "kb5a7b71e",
+   "lang": "ko",
+   "text": "빠진 것 없이 완전하면",
+   "cap": 51
+  },
+  {
+   "id": "e59ee5be9",
+   "lang": "en",
+   "text": "where, when, why, that, whether, however",
+   "cap": 51
+  },
+  {
+   "id": "k48704750",
+   "lang": "ko",
+   "text": "쪽. 보기가 반으로 줄어요.",
+   "cap": 51
+  },
+  {
+   "id": "k5ab8e9e8",
+   "lang": "ko",
+   "text": "둘째, 앞: 빈칸이 어떤 자리인가? 명사 뒤면 관계사, 명사 자리면 명사절, 문장 밖이면 부사절.",
+   "cap": 52
+  },
+  {
+   "id": "k51636b98",
+   "lang": "ko",
+   "text": "셋째, 함정: 장소, 시간, 이유가 맞는지, 전치사 바로 뒤인지, 뜻이 맞는지 확인해요.",
+   "cap": 53
+  },
+  {
+   "id": "k1ed31dd3",
+   "lang": "ko",
+   "text": "이 순서로 토익 문제를 풀어 볼까요?",
+   "cap": 54
+  },
+  {
+   "id": "k0be69de2",
+   "lang": "ko",
+   "text": "처음 본 문제예요. 첫째, 빈칸 뒤",
+   "cap": 55
+  },
+  {
+   "id": "e6a3ed9a6",
+   "lang": "en",
+   "text": "we reserved, reserved",
+   "cap": 55
+  },
+  {
+   "id": "k93c72166",
+   "lang": "ko",
+   "text": "뒤에 목적어가 없어요. 빈자리!",
+   "cap": 55
+  },
+  {
+   "id": "kdb9c5d31",
+   "lang": "ko",
+   "text": "빈자리가 있으니",
+   "cap": 56
+  },
+  {
+   "id": "e4eda9521",
+   "lang": "en",
+   "text": "where, when",
+   "cap": 56
+  },
+  {
+   "id": "kde6050ab",
+   "lang": "ko",
+   "text": "탈락. 둘째, 빈칸 앞에 명사",
+   "cap": 56
+  },
+  {
+   "id": "k16490b1a",
+   "lang": "ko",
+   "text": "선행사를 품은",
+   "cap": 56
+  },
+  {
+   "id": "kfa74e09c",
+   "lang": "ko",
+   "text": "탈락.",
+   "cap": 56
+  },
+  {
+   "id": "k178f5bd8",
+   "lang": "ko",
+   "text": "셋째, 장소 명사라도 빈자리가 있으면",
+   "cap": 57
+  },
+  {
+   "id": "k4039e339",
+   "lang": "ko",
+   "text": "정답은",
+   "cap": 57
+  },
+  {
+   "id": "e5656a600",
+   "lang": "en",
+   "text": "B",
+   "cap": 57
+  },
+  {
+   "id": "kb2455c25",
+   "lang": "ko",
+   "text": "장소만 보고 고르면 함정에 빠져요.",
+   "cap": 57
+  },
+  {
+   "id": "k8cb3bc82",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째, 빈칸 뒤",
+   "cap": 58
+  },
+  {
+   "id": "e53f7d977",
+   "lang": "en",
+   "text": "our customers value most.",
+   "cap": 58
+  },
+  {
+   "id": "e7b49aa0b",
+   "lang": "en",
+   "text": "value",
+   "cap": 58
+  },
+  {
+   "id": "kddb8c2d7",
+   "lang": "ko",
+   "text": "그래서",
+   "cap": 59
+  },
+  {
+   "id": "e2de10bb8",
+   "lang": "en",
+   "text": "That, Whether",
+   "cap": 59
+  },
+  {
+   "id": "k6f59c3e0",
+   "lang": "ko",
+   "text": "탈락. 둘째, 앞에 명사가 없는 주어 자리 , 선행사가 필요한",
+   "cap": 59
+  },
+  {
+   "id": "ea1057dd7",
+   "lang": "en",
+   "text": "Which",
+   "cap": 59
+  },
+  {
+   "id": "k4f761a2e",
+   "lang": "ko",
+   "text": "셋째, 남은",
+   "cap": 60
+  },
+  {
+   "id": "e3eb0ece8",
+   "lang": "en",
+   "text": "What",
+   "cap": 60
+  },
+  {
+   "id": "kf67c2e56",
+   "lang": "ko",
+   "text": "고객이 가장 중요하게 여기는 것, 뜻도 맞아요. 정답은",
+   "cap": 60
+  },
+  {
+   "id": "e355b73b6",
+   "lang": "en",
+   "text": "D What.",
+   "cap": 60
+  },
+  {
+   "id": "k38262cf4",
+   "lang": "ko",
+   "text": "세 번째. 첫째, 빈칸 뒤",
+   "cap": 61
+  },
+  {
+   "id": "eaa4a0007",
+   "lang": "en",
+   "text": "enough volunteers sign up.",
+   "cap": 61
+  },
+  {
+   "id": "ka13b049b",
+   "lang": "ko",
+   "text": "빠진 것 없는 완전한 문장이에요.",
+   "cap": 61
+  },
+  {
+   "id": "k4c4a9676",
+   "lang": "ko",
+   "text": "탈락. 둘째, 빈칸 바로 앞에 전치사",
+   "cap": 62
+  },
+  {
+   "id": "e7ad6a73b",
+   "lang": "en",
+   "text": "on",
+   "cap": 62
+  },
+  {
+   "id": "kfc81c5e4",
+   "lang": "ko",
+   "text": "전치사의 목적어, 명사절 자리.",
+   "cap": 62
+  },
+  {
+   "id": "kac792516",
+   "lang": "ko",
+   "text": "셋째, 전치사 뒤",
+   "cap": 63
+  },
+  {
+   "id": "e709dc868",
+   "lang": "en",
+   "text": "if, that",
+   "cap": 63
+  },
+  {
+   "id": "k2d94f93e",
+   "lang": "ko",
+   "text": "탈락. 하느냐에 달렸으니 정답은",
+   "cap": 63
+  },
+  {
+   "id": "e5f605899",
+   "lang": "en",
+   "text": "B whether.",
+   "cap": 63
+  },
+  {
+   "id": "kb7153e63",
+   "lang": "ko",
+   "text": "정리해요. 관계사와 명사절 문제는 먼저 빈칸 뒤에 빈자리가 있는지 봐요.",
+   "cap": 64
+  },
+  {
+   "id": "k47a80c35",
+   "lang": "ko",
+   "text": "빈자리가 있으면",
+   "cap": 65
+  },
+  {
+   "id": "edb5e6d31",
+   "lang": "en",
+   "text": "which, who, what, whoever",
+   "cap": 65
+  },
+  {
+   "id": "k944c45de",
+   "lang": "ko",
+   "text": "쪽. 완전하면",
+   "cap": 65
+  },
+  {
+   "id": "e4e6e15a9",
+   "lang": "en",
+   "text": "where, that, whether, however",
+   "cap": 65
+  },
+  {
+   "id": "kda19362b",
+   "lang": "ko",
+   "text": "그다음 빈칸 앞의 자리와 뜻, 함정으로 하나를 골라요.",
+   "cap": 66
+  },
+  {
+   "id": "kc0dd9b2b",
+   "lang": "ko",
+   "text": "아래 빈자리 탐지기와 연습 문제로 손에 익혀 보세요.",
+   "cap": 67
+  },
+  {
+   "id": "e45d56403",
+   "lang": "en",
+   "text": "The hotel which we reserved for the workshop offers a free airport shuttle.",
+   "from": "say"
+  },
+  {
+   "id": "ea8a78a96",
+   "lang": "en",
+   "text": "the hotel which we reserved",
+   "from": "say"
+  },
+  {
+   "id": "edb291bd5",
+   "lang": "en",
+   "text": "the city where the fair is held",
+   "from": "say"
+  },
+  {
+   "id": "e66e72cac",
+   "lang": "en",
+   "text": "the day when the store opened",
+   "from": "say"
+  },
+  {
+   "id": "ef05d0a28",
+   "lang": "en",
+   "text": "the reason why sales rose",
+   "from": "say"
+  },
+  {
+   "id": "e9669e7b4",
+   "lang": "en",
+   "text": "the museum which we visited",
+   "from": "say"
+  },
+  {
+   "id": "e1b9a82b6",
+   "lang": "en",
+   "text": "the city in which the fair is held",
+   "from": "say"
+  },
+  {
+   "id": "e97fb39ec",
+   "lang": "en",
+   "text": "the room in which we met",
+   "from": "say"
+  },
+  {
+   "id": "ebc804f03",
+   "lang": "en",
+   "text": "the room where we met",
+   "from": "say"
+  },
+  {
+   "id": "e15627963",
+   "lang": "en",
+   "text": "the way we work",
+   "from": "say"
+  },
+  {
+   "id": "e061745a9",
+   "lang": "en",
+   "text": "how we work",
+   "from": "say"
+  },
+  {
+   "id": "eda7b3720",
+   "lang": "en",
+   "text": "Whoever arrives first should unlock the office.",
+   "from": "say"
+  },
+  {
+   "id": "e2539fa2a",
+   "lang": "en",
+   "text": "Anyone who arrives first should unlock the office.",
+   "from": "say"
+  },
+  {
+   "id": "e04f412b0",
+   "lang": "en",
+   "text": "Take whatever you need.",
+   "from": "say"
+  },
+  {
+   "id": "e1dcd3d15",
+   "lang": "en",
+   "text": "We are busy.",
+   "from": "say"
+  },
+  {
+   "id": "ef05d02aa",
+   "lang": "en",
+   "text": "However busy we are, safety comes first.",
+   "from": "say"
+  },
+  {
+   "id": "e7ad3deb9",
+   "lang": "en",
+   "text": "Wherever you travel, our app can help.",
+   "from": "say"
+  },
+  {
+   "id": "e0a3837e8",
+   "lang": "en",
+   "text": "Whenever you need help, call us.",
+   "from": "say"
+  },
+  {
+   "id": "ed1fe54d7",
+   "lang": "en",
+   "text": "Whatever you need, call us.",
+   "from": "say"
+  },
+  {
+   "id": "e519898e7",
+   "lang": "en",
+   "text": "I know the answer.",
+   "from": "say"
+  },
+  {
+   "id": "ed2d7cd12",
+   "lang": "en",
+   "text": "I know that sales rose.",
+   "from": "say"
+  },
+  {
+   "id": "e4d871b51",
+   "lang": "en",
+   "text": "I wonder if the store is open.",
+   "from": "say"
+  },
+  {
+   "id": "e0f0f43a6",
+   "lang": "en",
+   "text": "Whether the client will sign is still unclear.",
+   "from": "say"
+  },
+  {
+   "id": "ee85ab456",
+   "lang": "en",
+   "text": "Let me know whether or not you can come.",
+   "from": "say"
+  },
+  {
+   "id": "e11bc916e",
+   "lang": "en",
+   "text": "I’m not sure whether to accept the offer.",
+   "from": "say"
+  },
+  {
+   "id": "e6f9e3c03",
+   "lang": "en",
+   "text": "I don’t know when the train leaves.",
+   "from": "say"
+  },
+  {
+   "id": "e258244d2",
+   "lang": "en",
+   "text": "What our customers value most is fast and reliable delivery.",
+   "from": "say"
+  },
+  {
+   "id": "e2c65c8c2",
+   "lang": "en",
+   "text": "The success of the event depends on whether enough volunteers sign up.",
+   "from": "say"
+  },
+  {
+   "id": "eae51890c",
+   "lang": "en",
+   "text": "the day on which the store opened",
+   "from": "say"
+  },
+  {
+   "id": "ee6ec83d8",
+   "lang": "en",
+   "text": "the reason for which sales rose",
+   "from": "say"
+  },
+  {
+   "id": "e803b9bc1",
+   "lang": "en",
+   "text": "the way in which we work",
+   "from": "say"
+  }
+ ]
+}

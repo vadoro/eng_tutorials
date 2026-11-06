@@ -401,7 +401,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
   <footer>
     <p>무엇이 규칙 계산인가요? 영상 속 ✓·×, 직접 해 보기의 채점, 빈자리 탐지기의 후보 판정, 연습 문제의 힌트와 보기별 해설, 퀴즈 일부의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 엔진은 ① 빈칸 뒤에 빈자리가 있는지 → ② 빈칸 앞이 명사 뒤·명사 자리·문장 밖 가운데 어디인지 → ③ 선행사와 뜻, 전치사·콤마, <i lang="en">if</i>를 못 쓰는 자리 순서로 판정해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
     <p>단순하게 줄인 부분도 있어요. 빈자리가 있는지, 빈칸이 어떤 자리인지, 절의 뜻(사실·여부·사람·물건·장소·시간…)은 엔진이 문장을 읽고 알아내는 것이 아니라 문제마다 데이터에 적어 둔 것이에요. 관계부사 자리에 쓰는 <i lang="en">that</i>(<i lang="en">the day that we met</i>)과 형용사 없이 쓴 <i lang="en">however</i>, ‘~하는 것’ 자리의 <i lang="en">whatever</i>는 실제 영어에 있지만 시험 답으로 고르지 않는 말(△)로 표시하고 보기에는 넣지 않았어요. <i lang="en">however + 형용사</i>는 형용사가 <i lang="en">however</i>와 함께 앞으로 나온 것으로 보고 나머지를 완전한 문장으로 다뤄요. ‘전치사 + which’는 문제마다 적어 둔 전치사와 같은지만 봐요. 접속사 <i lang="en">when · if</i>가 이끄는 부사절(<i lang="en">When you arrive, …</i>)은 연결어 튜토리얼(T05)의 몫이라 보기에 함께 넣지 않았고, <i lang="en">whomever · whichever</i>, 의문사 <i lang="en">which</i>(어느 것), 관계부사의 계속적 용법은 다루지 않았어요. 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
-    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지이고, 앞 꼭지는 <a href="../relative-pronouns/index.html">관계대명사, 빈자리를 찾아라</a>예요.</p>
+    <p>음성 해설과 발음 듣기는 VoiceStudio로 미리 만든 합성 음성으로 읽어요(해설의 한국어는 젊은 여성 내레이터, 영어와 발음 듣기는 미국 여성 선생님 목소리). 놀이터에서 만든 문장처럼 파일이 없는 글은 브라우저에 들어 있는 음성(speechSynthesis)으로 읽고, 브라우저 음성은 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지이고, 앞 꼭지는 <a href="../relative-pronouns/index.html">관계대명사, 빈자리를 찾아라</a>예요.</p>
   </footer>
 </div>
 
@@ -410,6 +410,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
 <script src="../shared/drill.js"></script>
 <script src="assets/js/grammar.js"></script>
 <script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
