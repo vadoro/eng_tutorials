@@ -1,0 +1,1801 @@
+{
+ "slug": "infinitives-gerunds",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 106,
+  "en": 192,
+  "say": 123,
+  "koChars": 2281,
+  "enChars": 4336
+ },
+ "pieces": [
+  {
+   "id": "ke11a3a25",
+   "lang": "ko",
+   "text": "토익 파트 5의 단골, 동사 모양 문제예요. 보기 네 개가 모두 같은 동사예요.",
+   "cap": 0
+  },
+  {
+   "id": "kc2c05dc7",
+   "lang": "ko",
+   "text": "보기를 보세요.",
+   "cap": 1
+  },
+  {
+   "id": "e592f4d32",
+   "lang": "en",
+   "text": "open, to open, opening, opened",
+   "cap": 1
+  },
+  {
+   "id": "kdacff8b6",
+   "lang": "ko",
+   "text": "모두 같은 동사가 모양만 바꾼 말이에요.",
+   "cap": 1
+  },
+  {
+   "id": "k4290bd2d",
+   "lang": "ko",
+   "text": "뜻은 모두 열다인데, 빈칸에 들어갈 수 있는 모양은 하나뿐이에요.",
+   "cap": 2
+  },
+  {
+   "id": "k6705cb9d",
+   "lang": "ko",
+   "text": "열쇠는 문장에 이미 있는 진짜 동사와 빈칸 바로 앞 낱말이에요. 정답은 영상 끝에서 풀어요.",
+   "cap": 3
+  },
+  {
+   "id": "k719ef8e7",
+   "lang": "ko",
+   "text": "진짜 동사 하나의 원칙, 앞 낱말이 고르는 모양, 그리고 3단계 풀이법을 차례로 배워요.",
+   "cap": 4
+  },
+  {
+   "id": "kb090c505",
+   "lang": "ko",
+   "text": "한국어부터 볼까요? 새 지점을 여는 것을 검토하고 있어요. 동사가 둘이에요. 열다, 검토하다.",
+   "cap": 5
+  },
+  {
+   "id": "kb71ccd35",
+   "lang": "ko",
+   "text": "그런데 시제를 나타내는 건 끝의 검토하고 있어요뿐이에요. 여는 것을은 모양을 바꿔 붙은 말이죠.",
+   "cap": 6
+  },
+  {
+   "id": "kddaa4bff",
+   "lang": "ko",
+   "text": "영어도 같아요.",
+   "cap": 7
+  },
+  {
+   "id": "e41a66c22",
+   "lang": "en",
+   "text": "We are considering opening a new branch.",
+   "cap": 7
+  },
+  {
+   "id": "k4604ab60",
+   "lang": "ko",
+   "text": "시제를 가진 진짜 동사는",
+   "cap": 7
+  },
+  {
+   "id": "ee672b0bd",
+   "lang": "en",
+   "text": "are considering",
+   "cap": 7
+  },
+  {
+   "id": "k23ddcd09",
+   "lang": "ko",
+   "text": "하나예요.",
+   "cap": 7
+  },
+  {
+   "id": "k9a8dea70",
+   "lang": "ko",
+   "text": "동사가 잉 꼴로 모양을 바꾼 말",
+   "cap": 8
+  },
+  {
+   "id": "e80f8a5a8",
+   "lang": "en",
+   "text": "opening.",
+   "cap": 8
+  },
+  {
+   "id": "kff7b783c",
+   "lang": "ko",
+   "text": "투부정사",
+   "cap": 8
+  },
+  {
+   "id": "e78cffcf5",
+   "lang": "en",
+   "text": "to open.",
+   "cap": 8
+  },
+  {
+   "id": "k6bf31f13",
+   "lang": "ko",
+   "text": "이런 말에는 시제가 없어요.",
+   "cap": 8
+  },
+  {
+   "id": "kd34a39e2",
+   "lang": "ko",
+   "text": "모양을 그대로 두면",
+   "cap": 9
+  },
+  {
+   "id": "e917f2f53",
+   "lang": "en",
+   "text": "We are considering open",
+   "cap": 9
+  },
+  {
+   "id": "k18d58932",
+   "lang": "ko",
+   "text": "진짜 동사가 둘이 돼요. 접속사가 없으니 틀려요.",
+   "cap": 9
+  },
+  {
+   "id": "kc6a63a94",
+   "lang": "ko",
+   "text": "그래서 한 문장에 진짜 동사는 하나. 나머지 동사는 옷을 갈아입어요 , 투부정사, 또는 잉 꼴.",
+   "cap": 10
+  },
+  {
+   "id": "k066e24eb",
+   "lang": "ko",
+   "text": "반대로 문장에 진짜 동사가 없다면? 그때는 빈칸이 바로 진짜 동사 자리예요.",
+   "cap": 11
+  },
+  {
+   "id": "e1a7a8715",
+   "lang": "en",
+   "text": "Our team",
+   "cap": 12
+  },
+  {
+   "id": "kfff86221",
+   "lang": "ko",
+   "text": "빈칸",
+   "cap": 12
+  },
+  {
+   "id": "e600e2419",
+   "lang": "en",
+   "text": "a campaign last month.",
+   "cap": 12
+  },
+  {
+   "id": "kc5d3f221",
+   "lang": "ko",
+   "text": "주어 다음이 빈칸이고, 문장에 다른 동사가 없어요.",
+   "cap": 12
+  },
+  {
+   "id": "k4cf54a32",
+   "lang": "ko",
+   "text": "들어갈 수 있는 건 시제가 있는 진짜 동사",
+   "cap": 13
+  },
+  {
+   "id": "efc882af6",
+   "lang": "en",
+   "text": "launched.",
+   "cap": 13
+  },
+  {
+   "id": "eb8ff7589",
+   "lang": "en",
+   "text": "launching, to launch",
+   "cap": 13
+  },
+  {
+   "id": "k80c7bdc9",
+   "lang": "ko",
+   "text": "시제가 없어 진짜 동사가 못 돼요.",
+   "cap": 13
+  },
+  {
+   "id": "k0fe052be",
+   "lang": "ko",
+   "text": "조동사 뒤와",
+   "cap": 14
+  },
+  {
+   "id": "eb59f3754",
+   "lang": "en",
+   "text": "Please",
+   "cap": 14
+  },
+  {
+   "id": "keb20e517",
+   "lang": "ko",
+   "text": "뒤에는 동사원형이 와요.",
+   "cap": 14
+  },
+  {
+   "id": "ed2b60c79",
+   "lang": "en",
+   "text": "Visitors must register at the front desk.",
+   "cap": 14
+  },
+  {
+   "id": "e0e616a73",
+   "lang": "en",
+   "text": "the attached form.",
+   "cap": 15
+  },
+  {
+   "id": "k872370c3",
+   "lang": "ko",
+   "text": "정답",
+   "cap": 15
+  },
+  {
+   "id": "e3a0a9985",
+   "lang": "en",
+   "text": "complete.",
+   "cap": 15
+  },
+  {
+   "id": "ef51c0978",
+   "lang": "en",
+   "text": "completing, to complete, completion",
+   "cap": 15
+  },
+  {
+   "id": "k0c249d62",
+   "lang": "ko",
+   "text": "모두 오답이에요.",
+   "cap": 15
+  },
+  {
+   "id": "k5ce4aa32",
+   "lang": "ko",
+   "text": "진짜 동사가 둘이면 어떻게 될까요?",
+   "cap": 16
+  },
+  {
+   "id": "e1122e3b2",
+   "lang": "en",
+   "text": "Staff attend the seminar will receive a manual.",
+   "cap": 16
+  },
+  {
+   "id": "e17354593",
+   "lang": "en",
+   "text": "attend, will receive",
+   "cap": 17
+  },
+  {
+   "id": "k5da16861",
+   "lang": "ko",
+   "text": "시제를 가진 동사가 둘이에요. 이어 주는 접속사가 없으니 틀린 문장이에요.",
+   "cap": 17
+  },
+  {
+   "id": "kf8e6b927",
+   "lang": "ko",
+   "text": "고치는 방법은 둘이에요.",
+   "cap": 18
+  },
+  {
+   "id": "efa6818de",
+   "lang": "en",
+   "text": "who",
+   "cap": 18
+  },
+  {
+   "id": "k66de986b",
+   "lang": "ko",
+   "text": "같은 연결어를 넣어 두 문장을 잇거나, 동사 하나의 모양을 바꿔요.",
+   "cap": 18
+  },
+  {
+   "id": "e1a93355c",
+   "lang": "en",
+   "text": "Staff attending the seminar",
+   "cap": 19
+  },
+  {
+   "id": "kd9f9dd63",
+   "lang": "ko",
+   "text": "세미나에 참석하는 직원. 한국어 -는처럼 잉 꼴이 앞 명사를 꾸며요.",
+   "cap": 19
+  },
+  {
+   "id": "k17244cfc",
+   "lang": "ko",
+   "text": "목적을 말할 때는 투부정사.",
+   "cap": 20
+  },
+  {
+   "id": "e7d96caee",
+   "lang": "en",
+   "text": "To meet the deadline, the team worked overtime.",
+   "cap": 20
+  },
+  {
+   "id": "k1c670c07",
+   "lang": "ko",
+   "text": "마감을 맞추려고.",
+   "cap": 20
+  },
+  {
+   "id": "k38f61ec8",
+   "lang": "ko",
+   "text": "동사 뒤도 봐야 해요. 어떤 동사는 목적어를 바로 잡고, 어떤 동사는 전치사가 있어야 잡아요.",
+   "cap": 21
+  },
+  {
+   "id": "kec61be5e",
+   "lang": "ko",
+   "text": "한국어로는 문제에 대해 논의하다예요. 그래서 에 대해를 옮겨 쓰기 쉬워요",
+   "cap": 22
+  },
+  {
+   "id": "eedf472f5",
+   "lang": "en",
+   "text": "discuss about the issue.",
+   "cap": 22
+  },
+  {
+   "id": "k9d571fbf",
+   "lang": "ko",
+   "text": "하지만",
+   "cap": 23
+  },
+  {
+   "id": "eebaeb93c",
+   "lang": "en",
+   "text": "discuss",
+   "cap": 23
+  },
+  {
+   "id": "k3b92d087",
+   "lang": "ko",
+   "text": "목적어를 바로 잡는 동사예요.",
+   "cap": 23
+  },
+  {
+   "id": "e73979bca",
+   "lang": "en",
+   "text": "discuss the issue.",
+   "cap": 23
+  },
+  {
+   "id": "k656d4e3e",
+   "lang": "ko",
+   "text": "전치사를 넣으면 틀려요.",
+   "cap": 23
+  },
+  {
+   "id": "k55615066",
+   "lang": "ko",
+   "text": "회의에 참석하다도 마찬가지예요",
+   "cap": 24
+  },
+  {
+   "id": "ecfd11056",
+   "lang": "en",
+   "text": "attend the meeting.",
+   "cap": 24
+  },
+  {
+   "id": "k737c4ccb",
+   "lang": "ko",
+   "text": "한국어의 -에를 옮기지 마세요.",
+   "cap": 24
+  },
+  {
+   "id": "kb09ae1a5",
+   "lang": "ko",
+   "text": "반대로 전치사가 꼭 있어야 하는 동사도 있어요.",
+   "cap": 25
+  },
+  {
+   "id": "e3b3949c6",
+   "lang": "en",
+   "text": "respond to, reply to, comply with, participate in.",
+   "cap": 25
+  },
+  {
+   "id": "k740a7957",
+   "lang": "ko",
+   "text": "이름도 알아 두세요. 목적어를 바로 잡으면 타동사(",
+   "cap": 26
+  },
+  {
+   "id": "e73521ecd",
+   "lang": "en",
+   "text": "transitive",
+   "cap": 26
+  },
+  {
+   "id": "kdbb6c16f",
+   "lang": "ko",
+   "text": "), 전치사가 필요하면 자동사(",
+   "cap": 26
+  },
+  {
+   "id": "e32ce334a",
+   "lang": "en",
+   "text": "intransitive",
+   "cap": 26
+  },
+  {
+   "id": "k6a5cbbb1",
+   "lang": "ko",
+   "text": "진짜 동사 뒤에 동사가 하나 더 올 때, 그 모양은 앞 동사가 골라요.",
+   "cap": 27
+  },
+  {
+   "id": "ef675a114",
+   "lang": "en",
+   "text": "decide, plan, agree, hope, expect",
+   "cap": 28
+  },
+  {
+   "id": "k6fdf9134",
+   "lang": "ko",
+   "text": "뒤에 투부정사.",
+   "cap": 28
+  },
+  {
+   "id": "e534826dd",
+   "lang": "en",
+   "text": "decided to open.",
+   "cap": 28
+  },
+  {
+   "id": "e75b175e9",
+   "lang": "en",
+   "text": "consider, avoid, suggest, recommend, finish",
+   "cap": 29
+  },
+  {
+   "id": "kdc19d138",
+   "lang": "ko",
+   "text": "뒤에 잉 꼴.",
+   "cap": 29
+  },
+  {
+   "id": "e4ff9e1cf",
+   "lang": "en",
+   "text": "considering opening.",
+   "cap": 29
+  },
+  {
+   "id": "kdc21a46d",
+   "lang": "ko",
+   "text": "대체로 투부정사는 앞으로 할 일을, 잉 꼴은 이미 떠올리거나 하고 있는 일을 가리켜요.",
+   "cap": 30
+  },
+  {
+   "id": "k8c7211b1",
+   "lang": "ko",
+   "text": "하지만 이건 경향일 뿐이에요.",
+   "cap": 31
+  },
+  {
+   "id": "eaadff002",
+   "lang": "en",
+   "text": "suggest, postpone",
+   "cap": 31
+  },
+  {
+   "id": "kc367a228",
+   "lang": "ko",
+   "text": "앞으로의 일인데도 잉 꼴을 써요.",
+   "cap": 31
+  },
+  {
+   "id": "k3a2e6afd",
+   "lang": "ko",
+   "text": "그래서 자주 쓰는 동사는 짝으로 외워 두세요.",
+   "cap": 32
+  },
+  {
+   "id": "e879374c8",
+   "lang": "en",
+   "text": "decide to, consider",
+   "cap": 32
+  },
+  {
+   "id": "kd5e73bba",
+   "lang": "ko",
+   "text": "잉.",
+   "cap": 32
+  },
+  {
+   "id": "e59edcc97",
+   "lang": "en",
+   "text": "to",
+   "cap": 33
+  },
+  {
+   "id": "k2dd62158",
+   "lang": "ko",
+   "text": "뒤에는 늘 동사원형이 올까요? 아니에요. 어떤 표현에서는",
+   "cap": 33
+  },
+  {
+   "id": "kf54dae33",
+   "lang": "ko",
+   "text": "전치사예요.",
+   "cap": 33
+  },
+  {
+   "id": "ea45a72e9",
+   "lang": "en",
+   "text": "We look forward to",
+   "cap": 34
+  },
+  {
+   "id": "e4ffcb979",
+   "lang": "en",
+   "text": "you.",
+   "cap": 34
+  },
+  {
+   "id": "e188a2ecb",
+   "lang": "en",
+   "text": "meeting.",
+   "cap": 34
+  },
+  {
+   "id": "kaa6d7a84",
+   "lang": "ko",
+   "text": "다음이라고 원형을 고르면 틀려요.",
+   "cap": 34
+  },
+  {
+   "id": "k9326200f",
+   "lang": "ko",
+   "text": "가려내는 방법이 있어요.",
+   "cap": 35
+  },
+  {
+   "id": "kb4fa5955",
+   "lang": "ko",
+   "text": "뒤에 명사를 넣어 보세요",
+   "cap": 35
+  },
+  {
+   "id": "ed1c994eb",
+   "lang": "en",
+   "text": "look forward to the meeting.",
+   "cap": 35
+  },
+  {
+   "id": "kd7e95268",
+   "lang": "ko",
+   "text": "말이 되죠?",
+   "cap": 35
+  },
+  {
+   "id": "k52901ab6",
+   "lang": "ko",
+   "text": "명사가 들어가면 전치사예요. 전치사 뒤에 동사가 오면 잉 꼴로 바꿔요.",
+   "cap": 36
+  },
+  {
+   "id": "e53bc48e4",
+   "lang": "en",
+   "text": "hope",
+   "cap": 37
+  },
+  {
+   "id": "kca09a823",
+   "lang": "ko",
+   "text": "뒤에 명사를 넣으면",
+   "cap": 37
+  },
+  {
+   "id": "e0e41f9ff",
+   "lang": "en",
+   "text": "hope to the meeting.",
+   "cap": 37
+  },
+  {
+   "id": "k28720e0f",
+   "lang": "ko",
+   "text": "말이 안 되죠. 그래서",
+   "cap": 37
+  },
+  {
+   "id": "ea8f12b50",
+   "lang": "en",
+   "text": "hope to meet",
+   "cap": 37
+  },
+  {
+   "id": "ka21791c2",
+   "lang": "ko",
+   "text": "투부정사예요.",
+   "cap": 37
+  },
+  {
+   "id": "k218aaf69",
+   "lang": "ko",
+   "text": "형용사와 명사도 뒤에 올 동사의 모양을 골라요. 토익에 자주 나오는 짝은 투부정사예요.",
+   "cap": 38
+  },
+  {
+   "id": "e93578d1a",
+   "lang": "en",
+   "text": "be eligible to apply, be able to attend, be likely to increase, be willing to help.",
+   "cap": 39
+  },
+  {
+   "id": "e3a6e7940",
+   "lang": "en",
+   "text": "Full-time staff are eligible",
+   "cap": 40
+  },
+  {
+   "id": "e29c8ae54",
+   "lang": "en",
+   "text": "for the program.",
+   "cap": 40
+  },
+  {
+   "id": "kc2521c8e",
+   "lang": "ko",
+   "text": "지원할 자격이 있다",
+   "cap": 40
+  },
+  {
+   "id": "e8557dcbf",
+   "lang": "en",
+   "text": "to apply.",
+   "cap": 40
+  },
+  {
+   "id": "k546098c3",
+   "lang": "ko",
+   "text": "명사도 같아요.",
+   "cap": 41
+  },
+  {
+   "id": "e803db039",
+   "lang": "en",
+   "text": "the ability to share files, an effort to reduce costs, the opportunity to work abroad.",
+   "cap": 41
+  },
+  {
+   "id": "kf1221ef8",
+   "lang": "ko",
+   "text": "함정 하나.",
+   "cap": 42
+  },
+  {
+   "id": "e71756f10",
+   "lang": "en",
+   "text": "eligible for",
+   "cap": 42
+  },
+  {
+   "id": "kf747f4f8",
+   "lang": "ko",
+   "text": "뒤에는 명사",
+   "cap": 42
+  },
+  {
+   "id": "ec17cdea4",
+   "lang": "en",
+   "text": "eligible to",
+   "cap": 42
+  },
+  {
+   "id": "k8f3bd179",
+   "lang": "ko",
+   "text": "뒤에는 동사원형. 빈칸 뒤를 꼭 확인해요.",
+   "cap": 42
+  },
+  {
+   "id": "k932a65ea",
+   "lang": "ko",
+   "text": "동사 뒤에 목적어가 오고, 이어서 그 목적어가 할 일이 올 때도 있어요.",
+   "cap": 43
+  },
+  {
+   "id": "e4b344534",
+   "lang": "en",
+   "text": "We encourage employees to attend the session.",
+   "cap": 44
+  },
+  {
+   "id": "k669b84c6",
+   "lang": "ko",
+   "text": "직원들에게 참석을 권해요. 목적어 다음에 투부정사.",
+   "cap": 44
+  },
+  {
+   "id": "kd56d762b",
+   "lang": "ko",
+   "text": "같은 모양",
+   "cap": 45
+  },
+  {
+   "id": "ef8046b81",
+   "lang": "en",
+   "text": "ask, allow, require, enable, remind, advise.",
+   "cap": 45
+  },
+  {
+   "id": "k104a1354",
+   "lang": "ko",
+   "text": "목적어 다음에 투부정사.",
+   "cap": 45
+  },
+  {
+   "id": "k020cc2ab",
+   "lang": "ko",
+   "text": "그런데",
+   "cap": 46
+  },
+  {
+   "id": "e9dd8368f",
+   "lang": "en",
+   "text": "make, have, let",
+   "cap": 46
+  },
+  {
+   "id": "k30b27995",
+   "lang": "ko",
+   "text": "목적어 다음에",
+   "cap": 46
+  },
+  {
+   "id": "k4931d5d7",
+   "lang": "ko",
+   "text": "없이 동사원형을 써요.",
+   "cap": 46
+  },
+  {
+   "id": "ef5b1d818",
+   "lang": "en",
+   "text": "Please let us know.",
+   "cap": 46
+  },
+  {
+   "id": "k55b7787f",
+   "lang": "ko",
+   "text": "수동태가 되면 목적어가 주어 자리로 가고, 투부정사는 그대로 남아요.",
+   "cap": 47
+  },
+  {
+   "id": "ef916601f",
+   "lang": "en",
+   "text": "Employees are encouraged to attend.",
+   "cap": 47
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 48
+  },
+  {
+   "id": "k04f823cb",
+   "lang": "ko",
+   "text": "첫째, 진짜 동사를 세요. 없으면 빈칸이 진짜 동사 자리, 이미 있으면 빈칸은 진짜 동사가 아닌 자리예요.",
+   "cap": 49
+  },
+  {
+   "id": "ke49ca811",
+   "lang": "ko",
+   "text": "둘째, 빈칸 앞을 봐요. 앞 낱말이 동사인지, 전치사인지, 형용사인지, 목적어인지에 따라 모양이 정해져요.",
+   "cap": 50
+  },
+  {
+   "id": "k31f9e164",
+   "lang": "ko",
+   "text": "셋째, 빈칸 뒤를 확인해요. 목적어가 바로 오는지, 전치사가 붙는지 보고 남은 보기를 골라요.",
+   "cap": 51
+  },
+  {
+   "id": "k1ed31dd3",
+   "lang": "ko",
+   "text": "이 순서로 토익 문제를 풀어 볼까요?",
+   "cap": 52
+  },
+  {
+   "id": "k33d30d6f",
+   "lang": "ko",
+   "text": "처음 본 문제예요. 첫째, 진짜 동사",
+   "cap": 53
+  },
+  {
+   "id": "e598bf769",
+   "lang": "en",
+   "text": "are considering.",
+   "cap": 53
+  },
+  {
+   "id": "ef1d1353b",
+   "lang": "en",
+   "text": "opened",
+   "cap": 53
+  },
+  {
+   "id": "kaa143cc0",
+   "lang": "ko",
+   "text": "그리고 모양을 바꾸지 않은",
+   "cap": 53
+  },
+  {
+   "id": "ec1007baa",
+   "lang": "en",
+   "text": "open",
+   "cap": 53
+  },
+  {
+   "id": "k638645fb",
+   "lang": "ko",
+   "text": "둘 다 지워요.",
+   "cap": 53
+  },
+  {
+   "id": "k45764a5b",
+   "lang": "ko",
+   "text": "둘째, 빈칸 앞",
+   "cap": 54
+  },
+  {
+   "id": "e8d929ed7",
+   "lang": "en",
+   "text": "considering.",
+   "cap": 54
+  },
+  {
+   "id": "ef7b026dd",
+   "lang": "en",
+   "text": "consider",
+   "cap": 54
+  },
+  {
+   "id": "kd295529a",
+   "lang": "ko",
+   "text": "뒤에 잉 꼴을 고르는 동사예요. 그래서 투부정사 , 지워요.",
+   "cap": 54
+  },
+  {
+   "id": "k596ce424",
+   "lang": "ko",
+   "text": "셋째, 빈칸 뒤 , 목적어",
+   "cap": 55
+  },
+  {
+   "id": "ed9061fd5",
+   "lang": "en",
+   "text": "a new branch.",
+   "cap": 55
+  },
+  {
+   "id": "kf0d60659",
+   "lang": "ko",
+   "text": "남은",
+   "cap": 55
+  },
+  {
+   "id": "edcecec96",
+   "lang": "en",
+   "text": "opening",
+   "cap": 55
+  },
+  {
+   "id": "kf2c86f5a",
+   "lang": "ko",
+   "text": "목적어를 바로 잡아요. 정답은",
+   "cap": 55
+  },
+  {
+   "id": "e5756a793",
+   "lang": "en",
+   "text": "C",
+   "cap": 55
+  },
+  {
+   "id": "k8370288a",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째",
+   "cap": 56
+  },
+  {
+   "id": "k35eaf662",
+   "lang": "ko",
+   "text": "뒤에 동사가 비었어요. 보기가 모두 동사원형이라 지울 게 없어요.",
+   "cap": 56
+  },
+  {
+   "id": "k726a5031",
+   "lang": "ko",
+   "text": "둘째",
+   "cap": 57
+  },
+  {
+   "id": "k075c57df",
+   "lang": "ko",
+   "text": "뒤 , 동사원형. 여기서도 못 줄여요. 이럴 땐 셋째, 빈칸 뒤가 답을 정해요.",
+   "cap": 57
+  },
+  {
+   "id": "kdb88cbdf",
+   "lang": "ko",
+   "text": "빈칸 뒤에 전치사",
+   "cap": 58
+  },
+  {
+   "id": "e4a59473b",
+   "lang": "en",
+   "text": "to.",
+   "cap": 58
+  },
+  {
+   "id": "k81411f54",
+   "lang": "ko",
+   "text": "짝인 전치사가",
+   "cap": 58
+  },
+  {
+   "id": "kb11badf4",
+   "lang": "ko",
+   "text": "인 동사",
+   "cap": 58
+  },
+  {
+   "id": "e9e3a16d7",
+   "lang": "en",
+   "text": "respond.",
+   "cap": 58
+  },
+  {
+   "id": "k31a15e69",
+   "lang": "ko",
+   "text": "나머지 셋은 목적어를 바로 잡아요. 정답은",
+   "cap": 58
+  },
+  {
+   "id": "e5656a600",
+   "lang": "en",
+   "text": "B",
+   "cap": 58
+  },
+  {
+   "id": "k8500bead",
+   "lang": "ko",
+   "text": "세 번째. 첫째, 진짜 동사",
+   "cap": 59
+  },
+  {
+   "id": "eebe32c1d",
+   "lang": "en",
+   "text": "look.",
+   "cap": 59
+  },
+  {
+   "id": "k8780d101",
+   "lang": "ko",
+   "text": "이미 있으니",
+   "cap": 59
+  },
+  {
+   "id": "eab6f4064",
+   "lang": "en",
+   "text": "worked, works",
+   "cap": 59
+  },
+  {
+   "id": "k443fcd27",
+   "lang": "ko",
+   "text": "지워요.",
+   "cap": 59
+  },
+  {
+   "id": "e101822fd",
+   "lang": "en",
+   "text": "look forward to.",
+   "cap": 60
+  },
+  {
+   "id": "ke8284607",
+   "lang": "ko",
+   "text": "뒤에 명사를 넣어 보면",
+   "cap": 60
+  },
+  {
+   "id": "e1136764e",
+   "lang": "en",
+   "text": "the meeting.",
+   "cap": 60
+  },
+  {
+   "id": "k8de641b7",
+   "lang": "ko",
+   "text": "말이 되니 전치사예요.",
+   "cap": 60
+  },
+  {
+   "id": "k59a6ebfe",
+   "lang": "ko",
+   "text": "전치사 뒤의 동사 , 잉 꼴. 동사원형은 함정이에요. 정답은",
+   "cap": 61
+  },
+  {
+   "id": "e31adfe49",
+   "lang": "en",
+   "text": "D working.",
+   "cap": 61
+  },
+  {
+   "id": "k6976d600",
+   "lang": "ko",
+   "text": "정리해요. 동사 모양 문제는 먼저 문장의 진짜 동사를 세요.",
+   "cap": 62
+  },
+  {
+   "id": "kc249c983",
+   "lang": "ko",
+   "text": "진짜 동사가 없으면 빈칸이 진짜 동사, 있으면 빈칸은 투부정사나 잉 꼴, 동사원형 자리예요.",
+   "cap": 63
+  },
+  {
+   "id": "k4a7e798c",
+   "lang": "ko",
+   "text": "모양은 빈칸 앞 낱말이 고르고, 목적어와 전치사는 빈칸 뒤에서 확인해요.",
+   "cap": 64
+  },
+  {
+   "id": "k04ceae10",
+   "lang": "ko",
+   "text": "아래 동사 옷 입히기와 연습 문제로 손에 익혀 보세요.",
+   "cap": 65
+  },
+  {
+   "id": "e26913e94",
+   "lang": "en",
+   "text": "We are considering opening a new branch in Busan.",
+   "from": "say"
+  },
+  {
+   "id": "e203ea47c",
+   "lang": "en",
+   "text": "We are considering open a new branch.",
+   "from": "say"
+  },
+  {
+   "id": "e67c35100",
+   "lang": "en",
+   "text": "Our team launched a campaign last month.",
+   "from": "say"
+  },
+  {
+   "id": "e6d23ba4c",
+   "lang": "en",
+   "text": "Please complete the attached form.",
+   "from": "say"
+  },
+  {
+   "id": "ee881f05a",
+   "lang": "en",
+   "text": "Staff who attend the seminar will receive a manual.",
+   "from": "say"
+  },
+  {
+   "id": "ef39f0bda",
+   "lang": "en",
+   "text": "Staff attending the seminar will receive a manual.",
+   "from": "say"
+  },
+  {
+   "id": "e0344fb60",
+   "lang": "en",
+   "text": "discuss the issue",
+   "from": "say"
+  },
+  {
+   "id": "eb0cfa83e",
+   "lang": "en",
+   "text": "attend",
+   "from": "say"
+  },
+  {
+   "id": "ef9476c8a",
+   "lang": "en",
+   "text": "contact",
+   "from": "say"
+  },
+  {
+   "id": "e870bd559",
+   "lang": "en",
+   "text": "reach",
+   "from": "say"
+  },
+  {
+   "id": "e8b252954",
+   "lang": "en",
+   "text": "enter",
+   "from": "say"
+  },
+  {
+   "id": "ef6d915ec",
+   "lang": "en",
+   "text": "mention",
+   "from": "say"
+  },
+  {
+   "id": "e5f9e4162",
+   "lang": "en",
+   "text": "approach",
+   "from": "say"
+  },
+  {
+   "id": "ef0cdcbd4",
+   "lang": "en",
+   "text": "answer",
+   "from": "say"
+  },
+  {
+   "id": "e1e53bc3c",
+   "lang": "en",
+   "text": "attend the meeting",
+   "from": "say"
+  },
+  {
+   "id": "e11319668",
+   "lang": "en",
+   "text": "respond to",
+   "from": "say"
+  },
+  {
+   "id": "e38a67dff",
+   "lang": "en",
+   "text": "reply to",
+   "from": "say"
+  },
+  {
+   "id": "e6aed502a",
+   "lang": "en",
+   "text": "comply with",
+   "from": "say"
+  },
+  {
+   "id": "e2b4c06e1",
+   "lang": "en",
+   "text": "participate in",
+   "from": "say"
+  },
+  {
+   "id": "e5f911d72",
+   "lang": "en",
+   "text": "listen to",
+   "from": "say"
+  },
+  {
+   "id": "e8c1f20b7",
+   "lang": "en",
+   "text": "apologize for",
+   "from": "say"
+  },
+  {
+   "id": "ee917ab4c",
+   "lang": "en",
+   "text": "decided to move",
+   "from": "say"
+  },
+  {
+   "id": "e1ca5d150",
+   "lang": "en",
+   "text": "plan to hire",
+   "from": "say"
+  },
+  {
+   "id": "ed793e93a",
+   "lang": "en",
+   "text": "agreed to help",
+   "from": "say"
+  },
+  {
+   "id": "efe8db529",
+   "lang": "en",
+   "text": "hope to see you",
+   "from": "say"
+  },
+  {
+   "id": "eaeb3b0db",
+   "lang": "en",
+   "text": "expect to finish",
+   "from": "say"
+  },
+  {
+   "id": "e0d4eff34",
+   "lang": "en",
+   "text": "aim to reduce costs",
+   "from": "say"
+  },
+  {
+   "id": "e5bc8d74b",
+   "lang": "en",
+   "text": "intend to expand",
+   "from": "say"
+  },
+  {
+   "id": "e08993308",
+   "lang": "en",
+   "text": "refused to sign",
+   "from": "say"
+  },
+  {
+   "id": "eff763e42",
+   "lang": "en",
+   "text": "offered to drive",
+   "from": "say"
+  },
+  {
+   "id": "e18a85282",
+   "lang": "en",
+   "text": "The company decided to open a new branch.",
+   "from": "say"
+  },
+  {
+   "id": "e4d03204d",
+   "lang": "en",
+   "text": "consider opening",
+   "from": "say"
+  },
+  {
+   "id": "e6d63f8bd",
+   "lang": "en",
+   "text": "avoid making mistakes",
+   "from": "say"
+  },
+  {
+   "id": "e07479a20",
+   "lang": "en",
+   "text": "suggested using less paper",
+   "from": "say"
+  },
+  {
+   "id": "e2adee488",
+   "lang": "en",
+   "text": "recommend booking early",
+   "from": "say"
+  },
+  {
+   "id": "e26870dec",
+   "lang": "en",
+   "text": "finished writing",
+   "from": "say"
+  },
+  {
+   "id": "e3426dc6f",
+   "lang": "en",
+   "text": "postpone signing",
+   "from": "say"
+  },
+  {
+   "id": "e7e9e00e4",
+   "lang": "en",
+   "text": "Would you mind waiting?",
+   "from": "say"
+  },
+  {
+   "id": "e2c22de30",
+   "lang": "en",
+   "text": "enjoy working here",
+   "from": "say"
+  },
+  {
+   "id": "e6bd78b7f",
+   "lang": "en",
+   "text": "denied making the error",
+   "from": "say"
+  },
+  {
+   "id": "e6aade23b",
+   "lang": "en",
+   "text": "We look forward to meeting you.",
+   "from": "say"
+  },
+  {
+   "id": "ef6cf9667",
+   "lang": "en",
+   "text": "look forward to the meeting",
+   "from": "say"
+  },
+  {
+   "id": "ee33d1321",
+   "lang": "en",
+   "text": "We are committed to improving our service.",
+   "from": "say"
+  },
+  {
+   "id": "e914796f0",
+   "lang": "en",
+   "text": "She is dedicated to helping customers.",
+   "from": "say"
+  },
+  {
+   "id": "e7b74d27f",
+   "lang": "en",
+   "text": "These changes will contribute to reducing costs.",
+   "from": "say"
+  },
+  {
+   "id": "e3978aff8",
+   "lang": "en",
+   "text": "Some residents object to building a new road.",
+   "from": "say"
+  },
+  {
+   "id": "eb427d382",
+   "lang": "en",
+   "text": "I am used to working late.",
+   "from": "say"
+  },
+  {
+   "id": "e033b4940",
+   "lang": "en",
+   "text": "We hope to meet you soon.",
+   "from": "say"
+  },
+  {
+   "id": "eaf6ab085",
+   "lang": "en",
+   "text": "be eligible to apply",
+   "from": "say"
+  },
+  {
+   "id": "ed11255da",
+   "lang": "en",
+   "text": "be able to attend",
+   "from": "say"
+  },
+  {
+   "id": "e0e28040e",
+   "lang": "en",
+   "text": "be likely to increase",
+   "from": "say"
+  },
+  {
+   "id": "e6aeadb73",
+   "lang": "en",
+   "text": "be willing to help",
+   "from": "say"
+  },
+  {
+   "id": "e7cfb75ed",
+   "lang": "en",
+   "text": "be ready to start",
+   "from": "say"
+  },
+  {
+   "id": "e9a9a9215",
+   "lang": "en",
+   "text": "Full-time staff are eligible to apply for the program.",
+   "from": "say"
+  },
+  {
+   "id": "e28524ae8",
+   "lang": "en",
+   "text": "the ability to share files",
+   "from": "say"
+  },
+  {
+   "id": "ee8c5d88a",
+   "lang": "en",
+   "text": "an effort to reduce costs",
+   "from": "say"
+  },
+  {
+   "id": "eb4c36d13",
+   "lang": "en",
+   "text": "the opportunity to work abroad",
+   "from": "say"
+  },
+  {
+   "id": "eaf61fcf7",
+   "lang": "en",
+   "text": "the plan to expand",
+   "from": "say"
+  },
+  {
+   "id": "e913a62fa",
+   "lang": "en",
+   "text": "the decision to merge",
+   "from": "say"
+  },
+  {
+   "id": "e94a8a0d7",
+   "lang": "en",
+   "text": "eligible for the program",
+   "from": "say"
+  },
+  {
+   "id": "ea5a320f8",
+   "lang": "en",
+   "text": "eligible to apply for the program",
+   "from": "say"
+  },
+  {
+   "id": "e31d8ca0d",
+   "lang": "en",
+   "text": "encourage employees to attend",
+   "from": "say"
+  },
+  {
+   "id": "e60a97ec4",
+   "lang": "en",
+   "text": "asked us to wait",
+   "from": "say"
+  },
+  {
+   "id": "eb60198b5",
+   "lang": "en",
+   "text": "allow visitors to enter",
+   "from": "say"
+  },
+  {
+   "id": "ed52d0d35",
+   "lang": "en",
+   "text": "require staff to wear badges",
+   "from": "say"
+  },
+  {
+   "id": "eee8e0122",
+   "lang": "en",
+   "text": "enable users to share files",
+   "from": "say"
+  },
+  {
+   "id": "e8a0fb09e",
+   "lang": "en",
+   "text": "remind the team to submit",
+   "from": "say"
+  },
+  {
+   "id": "e6abe8ad0",
+   "lang": "en",
+   "text": "advise guests to arrive early",
+   "from": "say"
+  },
+  {
+   "id": "ea592dc1a",
+   "lang": "en",
+   "text": "made us wait",
+   "from": "say"
+  },
+  {
+   "id": "e5674a8b1",
+   "lang": "en",
+   "text": "had the interns prepare the slides",
+   "from": "say"
+  },
+  {
+   "id": "e9d425d0c",
+   "lang": "en",
+   "text": "let us know",
+   "from": "say"
+  },
+  {
+   "id": "eaaa1801d",
+   "lang": "en",
+   "text": "Ms. Lee had the interns prepare the slides.",
+   "from": "say"
+  },
+  {
+   "id": "e245d51a1",
+   "lang": "en",
+   "text": "We encourage employees to attend.",
+   "from": "say"
+  },
+  {
+   "id": "e286eab4f",
+   "lang": "en",
+   "text": "Please respond to customer inquiries within 24 hours.",
+   "from": "say"
+  },
+  {
+   "id": "e4c40610c",
+   "lang": "en",
+   "text": "We look forward to working with you on the new project.",
+   "from": "say"
+  },
+  {
+   "id": "ebf62e971",
+   "lang": "en",
+   "text": "Our team launched",
+   "from": "say"
+  },
+  {
+   "id": "ec71dbd6e",
+   "lang": "en",
+   "text": "must register, let us know",
+   "from": "say"
+  },
+  {
+   "id": "e1e29889e",
+   "lang": "en",
+   "text": "decided to move, eligible to apply",
+   "from": "say"
+  },
+  {
+   "id": "e4c851d1f",
+   "lang": "en",
+   "text": "considering opening, look forward to meeting",
+   "from": "say"
+  },
+  {
+   "id": "e5fe3cbdf",
+   "lang": "en",
+   "text": "discuss the issue, respond to inquiries",
+   "from": "say"
+  },
+  {
+   "id": "edd3fcd83",
+   "lang": "en",
+   "text": "want to join",
+   "from": "say"
+  },
+  {
+   "id": "e88d18872",
+   "lang": "en",
+   "text": "promised to call",
+   "from": "say"
+  },
+  {
+   "id": "e67f04f13",
+   "lang": "en",
+   "text": "managed to finish",
+   "from": "say"
+  },
+  {
+   "id": "e9ca8332f",
+   "lang": "en",
+   "text": "failed to arrive",
+   "from": "say"
+  },
+  {
+   "id": "e4868ff38",
+   "lang": "en",
+   "text": "delay launching",
+   "from": "say"
+  },
+  {
+   "id": "e5042b0b2",
+   "lang": "en",
+   "text": "keep trying",
+   "from": "say"
+  },
+  {
+   "id": "e80ad0a63",
+   "lang": "en",
+   "text": "invite you to join",
+   "from": "say"
+  },
+  {
+   "id": "e7173a70c",
+   "lang": "en",
+   "text": "urge drivers to slow down",
+   "from": "say"
+  },
+  {
+   "id": "e62ce66d5",
+   "lang": "en",
+   "text": "be pleased to announce",
+   "from": "say"
+  },
+  {
+   "id": "e510c94b6",
+   "lang": "en",
+   "text": "the effort to reduce costs",
+   "from": "say"
+  },
+  {
+   "id": "ec81db2d6",
+   "lang": "en",
+   "text": "the chance to win",
+   "from": "say"
+  },
+  {
+   "id": "e068bde70",
+   "lang": "en",
+   "text": "contact the client",
+   "from": "say"
+  },
+  {
+   "id": "eca635816",
+   "lang": "en",
+   "text": "reach the station",
+   "from": "say"
+  },
+  {
+   "id": "e8ecdad2d",
+   "lang": "en",
+   "text": "enter the building",
+   "from": "say"
+  },
+  {
+   "id": "eadf76068",
+   "lang": "en",
+   "text": "mention the delay",
+   "from": "say"
+  },
+  {
+   "id": "e17a6a33a",
+   "lang": "en",
+   "text": "approach the desk",
+   "from": "say"
+  },
+  {
+   "id": "e451c4867",
+   "lang": "en",
+   "text": "answer the phone",
+   "from": "say"
+  },
+  {
+   "id": "e8c4844a6",
+   "lang": "en",
+   "text": "address the problem",
+   "from": "say"
+  },
+  {
+   "id": "e4cf3ce1d",
+   "lang": "en",
+   "text": "respond to inquiries",
+   "from": "say"
+  },
+  {
+   "id": "ef9243b01",
+   "lang": "en",
+   "text": "reply to the e-mail",
+   "from": "say"
+  },
+  {
+   "id": "e3662e0f6",
+   "lang": "en",
+   "text": "comply with the rules",
+   "from": "say"
+  },
+  {
+   "id": "e471270fe",
+   "lang": "en",
+   "text": "participate in the event",
+   "from": "say"
+  },
+  {
+   "id": "e44866321",
+   "lang": "en",
+   "text": "talk about the plan",
+   "from": "say"
+  },
+  {
+   "id": "ee2d8be6b",
+   "lang": "en",
+   "text": "comment on the proposal",
+   "from": "say"
+  },
+  {
+   "id": "e0900c0a1",
+   "lang": "en",
+   "text": "listen to the speech",
+   "from": "say"
+  },
+  {
+   "id": "e469f1253",
+   "lang": "en",
+   "text": "apologize for the delay",
+   "from": "say"
+  },
+  {
+   "id": "e73bdad9e",
+   "lang": "en",
+   "text": "apply for the program",
+   "from": "say"
+  },
+  {
+   "id": "ea82c871d",
+   "lang": "en",
+   "text": "We are considering to open a new branch.",
+   "from": "say"
+  },
+  {
+   "id": "e83b04cc9",
+   "lang": "en",
+   "text": "We are considering opened a new branch.",
+   "from": "say"
+  },
+  {
+   "id": "e504eb0ed",
+   "lang": "en",
+   "text": "We will participate the event.",
+   "from": "say"
+  },
+  {
+   "id": "eac431f42",
+   "lang": "en",
+   "text": "We will participate about the event.",
+   "from": "say"
+  },
+  {
+   "id": "e5d1b3e86",
+   "lang": "en",
+   "text": "We will participate to the event.",
+   "from": "say"
+  },
+  {
+   "id": "e476f7fc5",
+   "lang": "en",
+   "text": "We will participate with the event.",
+   "from": "say"
+  },
+  {
+   "id": "ea4f7da34",
+   "lang": "en",
+   "text": "We will participate in the event.",
+   "from": "say"
+  },
+  {
+   "id": "e7ecacc57",
+   "lang": "en",
+   "text": "be committed to quality",
+   "from": "say"
+  },
+  {
+   "id": "e0fcf730d",
+   "lang": "en",
+   "text": "be dedicated to her work",
+   "from": "say"
+  },
+  {
+   "id": "e5c7ec468",
+   "lang": "en",
+   "text": "contribute to the project",
+   "from": "say"
+  },
+  {
+   "id": "e9ba71f0c",
+   "lang": "en",
+   "text": "object to the plan",
+   "from": "say"
+  },
+  {
+   "id": "eb18cf66c",
+   "lang": "en",
+   "text": "be used to the noise",
+   "from": "say"
+  },
+  {
+   "id": "e5a4d7ad9",
+   "lang": "en",
+   "text": "We plan to open a new branch.",
+   "from": "say"
+  },
+  {
+   "id": "e8c810679",
+   "lang": "en",
+   "text": "The manager had the team to submit the report.",
+   "from": "say"
+  },
+  {
+   "id": "eddd5ac70",
+   "lang": "en",
+   "text": "The manager had the team submit the report.",
+   "from": "say"
+  },
+  {
+   "id": "e385a4960",
+   "lang": "en",
+   "text": "The manager had the team submitting the report.",
+   "from": "say"
+  }
+ ]
+}
