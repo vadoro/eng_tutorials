@@ -16,8 +16,8 @@
 
 ## 소리와 마이크에 대해 (꼭 읽어 주세요)
 
-- 녹음 파일이 없어요. 영어는 모두 **브라우저에 들어 있는 음성(speechSynthesis)** 으로 읽어요. 기기마다 목소리가 다르고 실제 거리의 소리와도 달라요.
-- 튜토리얼 전용 목소리 부품 `assets/js/voices.js`(`DRV`)가 길에서 만난 사람(en-US) · 모자 쓴 사람(en-CA) · 관광객(en-AU, 이 동네를 몰라요) · 영국에서 만난 사람(en-GB) · 나(길에서 만난 사람과 다른 목소리)를 골라요. 없으면 다른 영어 목소리의 높낮이 · 빠르기를 바꿔 구별해요. ‘아주 빠르게’ 문제는 일부러 빠르게(1.35배) 읽어요. 화면 글과 읽을 글이 다르면 엔진의 `DR.spoken`이 바꿔요(*the number 15 bus* → *the number fifteen bus*, *Exit 3* → *Exit three*). 공통 부품(`shared/`)은 바꾸지 않았어요.
+- 녹음 파일이 없어요. 영어는 모두 **합성 음성**이에요. 글이 정해진 말(영상의 말풍선 · 영어 칩, 직접 해 보기의 대표 말과 상대의 대답, 듣고 대답 고르기, 따라 말하기)은 **VoiceStudio로 미리 만든 목소리**(`audio/dialogue/`)로, 길 찾기 시뮬레이터처럼 카드마다 바뀌는 말과 내가 칩으로 만든 문장은 **브라우저에 들어 있는 음성(speechSynthesis)** 으로 읽어요. 브라우저 음성은 기기마다 목소리가 다르고, 둘 다 실제 거리의 소리와는 달라요.
+- 튜토리얼 전용 목소리 부품 `assets/js/voices.js`(`DRV`)가 말하는 사람마다 목소리를 정해요. 미리 만든 목소리는 길에서 만난 사람 = 미국 남성 · 모자 쓴 사람 = 캐나다 여성 · 관광객(이 동네를 몰라요) = 호주 남성 · 영국에서 만난 사람 = 영국 여성 · 나 = 미국 여성, 화면의 영어 칩(발음 듣기)과 음성 해설의 영어는 미국 여성 선생님 목소리예요. 한 번에 읽는 줄 안에서 한 사람의 말 중 하나라도 파일이 없으면 그 사람의 말은 모두 브라우저 음성으로 읽고(한 사람의 목소리가 중간에 바뀌지 않게), 시뮬레이터는 처음부터 끝까지 브라우저 음성이에요. 브라우저 음성은 en-US · en-CA · en-AU · en-GB 목소리를 먼저 찾고, 없으면 다른 영어 목소리의 높낮이 · 빠르기를 바꿔 구별해요. ‘아주 빠르게’ 문제는 일부러 빠르게(1.35배) 읽어요. 화면 글과 읽을 글이 다르면 엔진의 `DR.spoken`이 바꿔요(*the number 15 bus* → *the number fifteen bus*, *Exit 3* → *Exit three*). 공통 부품(`shared/`)은 바꾸지 않았어요.
 - 소리가 겹치지 않게: 대화를 읽기 전에 발음 듣기 · 음성 해설 · 녹음 재생을 멈추고 영상을 일시정지해요. 시뮬레이터를 시작할 때도(첫 차례가 말이 없는 ‘지나가는 사람’이어도) 영상과 음성 해설을 멈춰요. 음성 인식을 시작할 때도 다른 소리를 모두 멈춰요.
 - **따라 말하기 · 말로 대답하기 · 말로 되짚기**: 브라우저에 음성 인식(`SpeechRecognition` · `webkitSpeechRecognition`)이 있으면 말을 글로 바꿔 **낱말만** 맞춰 봐요(발음의 질은 판정하지 않아요). 숫자는 *15*든 *fifteen*이든 *one-five*든, 서수는 *third*든 *3rd*든 같은 숫자로 맞춰요(`DR.canon`). 크롬(Chrome) 같은 브라우저는 소리를 브라우저 회사의 서버로 보내 글로 바꿔요. 음성 인식이 없으면 녹음(`MediaRecorder`)으로 ‘내 목소리’와 ‘원래 문장’을 이어서 들어요. 둘 다 없으면 마이크 단추를 숨기고 ‘세 번 소리 내어 따라 해 보세요’라고 안내해요. 이 사이트는 소리도 글도 저장하지 않아요(녹음은 화면에만 잠깐 있다가 페이지를 닫으면 사라져요). 길 이름(*Bell Street*)은 인식이 다르게 적기도 해요.
 - 동네(*Fernwood*) · 길 이름(*Fern · Hill · Bell · Lark Street*, *Mill Road · Main Street · River Road*) · 가게 · 버스 노선(15번 · 50번) · 버스 정류장 이름은 모두 지어낸 것이에요. 길을 알려 주는 방식은 나라와 사람마다 달라요 — 미국 · 캐나다는 블록(*two blocks*)으로 세는 일이 많고, 영국은 길 이름이나 *the second turning on the left*처럼 말하기도 하고, 거리는 미터 · 마일 · 걸어서 몇 분으로 말해요. 휴대폰 지도가 있어도 길은 자주 묻게 돼요.
@@ -53,13 +53,19 @@
 
 음성 해설은 자막의 `(A)`~`(D)`를 ‘에이 · 비 · 씨 · 디’로, `Yes/No`는 *Yes or No*로 읽어요. 자막 속 영어(*Take Exit 3.* · *fifteen*)는 영어 음성으로, 한국어 속 숫자(*15와 50*)는 한국어로 읽어요.
 
-**미리 만든 목소리(선택)**: `audio/narration/`에 VoiceStudio로 만든 음성 파일이 있으면 해설의 그 조각은 그 목소리(「튜토리얼 내레이터 (젊은 여성)」)로 읽고, 파일이 없는 조각은 브라우저 음성으로 읽어요. 기본은 한국어 조각만 그 목소리이고, 영어 조각(본보기 영어 문장)은 브라우저의 미국 영어 음성 그대로예요. 만드는 법(VoiceStudio가 있는 맥에서):
+**미리 만든 목소리**: VoiceStudio(OmniVoice 엔진, 비상업용 라이선스)로 만든 합성 음성 파일이에요. 파일이 없거나 못 읽으면 그 줄 · 조각만 브라우저 음성으로 읽어요.
+- 음성 해설(`audio/narration/`): 한국어 조각은 「튜토리얼 내레이터 (젊은 여성)」, 영어 조각(본보기 영어 문장)은 「영어 선생님 (미국 여성)」.
+- 대화(`audio/dialogue/`): 말하는 사람 → 프로필은 `voices.json`. 프로필은 VoiceStudio 목소리 보관함(archetype)에서 고른 목소리를 한 번 만든 소리로 복제(clone)한 것이라, 줄마다 같은 사람 목소리가 나요. 파일 이름은 말하는 사람과 읽을 글로 정해져요(`DRV.lineId`).
+- 합성 엔진은 가끔 무음 · 잡음을 내거나, 세 낱말 이하의 짧은 말을 0.3초 안에 뭉개 읽어요. 도구가 말소리 1초에 읽은 글자 수로 이런 소리를 걸러 seed를 바꿔 다시 만들고(짧은 말은 다섯 번까지), 그래도 이상하면 ‘확인 필요’로 알려 줘요. 지금 파일은 받아쓰기(Whisper)와 높낮이로 모두 다시 확인했고, 이상한 몇 개는 `--seed 11`로 다시 만들었어요. 길에서 만난 사람(미국 남성)은 짧은 대답(*That's right! · Sorry?*)을 원래 빠르게 말해요. 한 파일만 다시 만들려면 그 파일을 지우고 `--seed`를 바꿔 다시 실행하세요.
+
+만드는 법(VoiceStudio가 있는 맥에서, 이미 만든 파일은 건너뛰어요):
 
 ```bash
-node tools/narration-pieces.cjs directions                 # 읽기 조각 목록 (자막을 고쳤을 때만, 클라우드에서도 됨)
-python3 tools/voicestudio-narration.py directions --limit 5  # 앞의 5개만 만들어 먼저 들어 보기
-python3 tools/voicestudio-narration.py directions           # 나머지 (이미 만든 파일은 건너뜀)
-python3 tools/voicestudio-narration.py directions --english # 영어 조각도 같은 목소리로 (선택)
+node tools/narration-pieces.cjs directions     # 해설의 읽기 조각 목록 (자막을 고쳤을 때만, 클라우드에서도 됨)
+node tools/dialogue-lines.cjs directions       # 대화 줄 목록 (대화 · 문제 · 따라 말하기를 고쳤을 때만, 클라우드에서도 됨)
+python3 tools/voicestudio-narration.py directions --en-profile "영어 선생님 (미국 여성)"   # 해설 (한국어 + 영어 조각)
+python3 tools/voicestudio-dialogue.py directions --limit 5   # 대화: 앞의 5개만 만들어 먼저 들어 보기
+python3 tools/voicestudio-dialogue.py directions             # 대화: 나머지
 ```
 
 ## 무엇이 규칙 계산인가요

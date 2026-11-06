@@ -388,7 +388,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
       <li><i style="background:var(--c-pol)"></i>공손한 말 (Excuse me · please · Thanks anyway)</li>
       <li><i style="background:var(--c-trap)"></i>함정 (콩글리시 · 퉁명스러운 말 · 다른 방향 · 다른 기준점)</li>
     </ul>
-    <p class="honest"><b>먼저 알려 드려요.</b> 동네(<i lang="en">Fernwood</i>) · 길 이름 · 가게 · 버스 노선은 모두 지어낸 것이에요. 길을 알려 주는 방식은 나라와 사람마다 달라요 — 미국 · 캐나다는 블록(<i lang="en">two blocks</i>)으로, 영국은 길 이름이나 <i lang="en">the second turning on the left</i>처럼 말하기도 하고, 거리는 미터 · 마일로 다르게 말해요. 휴대폰 지도가 있어도 길은 자주 묻게 되고, 그때 이 말들이 쓸모 있어요. 소리는 녹음이 아니라 브라우저에 들어 있는 영어 음성(speechSynthesis)이라 기기마다 목소리가 다르고 실제 거리의 소리와도 달라요.<span class="voice-note"></span></p>
+    <p class="honest"><b>먼저 알려 드려요.</b> 동네(<i lang="en">Fernwood</i>) · 길 이름 · 가게 · 버스 노선은 모두 지어낸 것이에요. 길을 알려 주는 방식은 나라와 사람마다 달라요 — 미국 · 캐나다는 블록(<i lang="en">two blocks</i>)으로, 영국은 길 이름이나 <i lang="en">the second turning on the left</i>처럼 말하기도 하고, 거리는 미터 · 마일로 다르게 말해요. 휴대폰 지도가 있어도 길은 자주 묻게 되고, 그때 이 말들이 쓸모 있어요. 소리는 녹음이 아니라 합성 음성이에요. 영상 · 직접 해 보기 · 듣고 대답 고르기 · 따라 말하기처럼 글이 정해진 말은 VoiceStudio로 미리 만든 목소리(말하는 사람마다 다른 목소리)로, 길 찾기 시뮬레이터처럼 카드마다 바뀌는 말과 내가 칩으로 만든 문장은 브라우저에 들어 있는 영어 음성(speechSynthesis)으로 읽어요. 실제 거리의 소리와는 달라요.<span class="voice-note"></span></p>
     <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">길 찾기 시뮬레이터</a><a href="#shadow">따라 말하기</a><a href="#drill">듣고 대답 고르기</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
   </header>
 
@@ -444,7 +444,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
       <p class="eyebrow">듣고 대답 고르기</p>
       <h2 id="drillTitle">상대의 말을 듣고 내 말 고르기 — 16문제</h2>
       <p>일곱 단계와 ‘못 알아들었을 때’를 골고루 담았어요. 문제마다 <b>상황</b>이 한 줄 있고, 상대의 말은 소리로 먼저 들려줘요(<b>듣기</b> R · <b>천천히</b> S, 꼭 필요하면 <b>대본 보기</b> T). 지나가는 사람에게 내가 먼저 말을 거는 문제는 들을 말이 없어요. 보기 넷은 글로 보여요 — 되짚기 문제는 보기마다 한 조각만 달라요. 막히면 <b>힌트</b>(H)를 누르세요. ① 열쇠 낱말 → ② 틀과 내 정보 → ③ 공손한 말 순서로 색과 함께 열려요. 답하면 보기마다 규칙 엔진의 까닭, 해석, 대화 듣기가 나와요.</p>
-      <p class="honest">브라우저 음성이라 실제 거리의 말소리와 다르게 들릴 수 있어요. 잘 안 들리면 천천히 듣기를 켜 보세요. ‘아주 빠르게’ 표시가 있는 문제는 일부러 빠르게 읽어요.<span class="voice-note"></span></p>
+      <p class="honest">합성 음성이라 실제 거리의 말소리와 다르게 들릴 수 있어요. 잘 안 들리면 천천히 듣기를 켜 보세요. ‘아주 빠르게’ 표시가 있는 문제는 일부러 빠르게 읽어요.<span class="voice-note"></span></p>
     </div>
     <div id="drillRoot"></div>
   </section>
@@ -523,7 +523,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
   <footer>
     <p>무엇이 규칙 계산인가요? 지도의 길(어디서 돌고, 바라보는 쪽에 따라 왼쪽인지 오른쪽인지, 몇 번째 길인지, 도착하는 쪽), 건물 사이의 관계(맞은편 · 바로 옆 · 사이 · 모퉁이 · 뒤), 길 안내 영어와 되짚는 조각, 되짚은 줄의 판정(빠진 조각 · 다른 방향 · 다른 기준점 · 블록 수 · 순서 · <i lang="en">turn</i>과 <i lang="en">on</i> · 두 번 돌기 · 버스 번호와 정류장)과 상대가 고쳐 주는 말, 영상 속 ✓·×와 실전에서 지워지는 순서, 직접 해 보기의 채점, 시뮬레이터의 판정 · 반응 · 걷는 길, 듣고 대답 고르기의 힌트와 보기별 해설, 퀴즈의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
     <p>단순하게 줄인 부분도 있어요. 동네는 남북 길 넷 × 동서 길 셋의 바둑판이고, 길은 두 번까지만 돌아요. 블록 수는 ‘몇 번째 교차점에서 도는지’로 세었어요(지금 서 있는 블록의 끝 = 첫 교차점). 되짚기 판정은 낱말 조각(동작 · 기준점 · 위치 · 교통)을 들은 길과 맞춰 보는 것이지, 문장 전체를 이해하는 것은 아니에요. 같은 교차점을 가리키는 다른 이름표(은행 · 신호등 · 길 이름 · 몇 번째 길)는 모두 맞게 받아들여요. 엄격함의 기준은 ‘듣는 사람이 틀리다 · 헷갈린다 · 무례하다고 느낄 말만 거르고, 알아듣지만 더 흔한 말이 있으면 통과 + 알림’이에요(자세한 결정은 README). 말로 대답하기와 따라 말하기는 음성 인식이 글로 바꾼 낱말만 맞춰 보고, 숫자는 15든 fifteen이든 one-five든 같은 숫자로 맞추고, 발음과 공손함은 판정하지 않아요.</p>
-    <p>동네 · 길 이름 · 가게 · 버스 노선은 모두 지어낸 것이고, 대화는 직접 만든 것이에요. 길을 알려 주는 방식(블록 · 길 이름 · 미터 · 마일)은 나라와 사람마다 달라요. 영어 소리는 모두 브라우저의 음성(speechSynthesis)이에요. 같은 형식의 회화 튜토리얼은 <a href="../airport/index.html">공항, 질문은 정해져 있다</a> · <a href="../cafe/index.html">카페, 주문에는 순서가 있다</a> · <a href="../hotel/index.html">호텔, 부탁은 질문으로 한다</a> · <a href="../restaurant/index.html">식당, 질문의 모양이 대답을 정한다</a>이고, 전치사 그림(시간 · 장소)은 토익 문법 튜토리얼 <a href="../prepositions/index.html">T11</a>에서도 다뤄요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 상황별 영어 회화 다섯 번째 꼭지예요.</p>
+    <p>동네 · 길 이름 · 가게 · 버스 노선은 모두 지어낸 것이고, 대화는 직접 만든 것이에요. 길을 알려 주는 방식(블록 · 길 이름 · 미터 · 마일)은 나라와 사람마다 달라요. 영어 소리는 합성 음성이에요 — 글이 정해진 말은 VoiceStudio(OmniVoice 엔진)로 미리 만든 목소리, 카드마다 바뀌는 말과 내가 만든 문장은 브라우저의 음성(speechSynthesis)이에요. 같은 형식의 회화 튜토리얼은 <a href="../airport/index.html">공항, 질문은 정해져 있다</a> · <a href="../cafe/index.html">카페, 주문에는 순서가 있다</a> · <a href="../hotel/index.html">호텔, 부탁은 질문으로 한다</a> · <a href="../restaurant/index.html">식당, 질문의 모양이 대답을 정한다</a>이고, 전치사 그림(시간 · 장소)은 토익 문법 튜토리얼 <a href="../prepositions/index.html">T11</a>에서도 다뤄요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 상황별 영어 회화 다섯 번째 꼭지예요.</p>
   </footer>
 </div>
 
@@ -533,6 +533,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
 <script src="assets/js/voices.js"></script>
 <script src="assets/js/scenes.js"></script>
 <script src="audio/narration/clips.js"></script>
+<script src="audio/dialogue/clips.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>

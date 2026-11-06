@@ -134,7 +134,8 @@ document.addEventListener('click', e => {
   const box = b.closest('[data-slow]'), slow = !!box && box.getAttribute('data-slow') === '1';
   document.querySelectorAll('.lp-play.saying').forEach(x => x.classList.remove('saying'));
   b.classList.add('saying');
-  speak(SEQS[+b.dataset.lp], { slow, onend() { b.classList.remove('saying'); } });
+  // 시뮬레이터 안의 듣기 단추는 브라우저 음성으로만 (카드마다 바뀌는 말과 같은 목소리가 되게)
+  speak(SEQS[+b.dataset.lp], { slow, clips: !b.closest('#sim'), onend() { b.classList.remove('saying'); } });
 });
 const staffSeq = q => q.cue ? [] : [{ text: q.en, sp: q.sp, rate: q.fast ? 1.35 : 1 }];
 const meSeq = a => [{ text: typeof a === 'string' ? a : DR.text(a), sp: 'me' }];
@@ -506,7 +507,8 @@ function simPrep() {
 function simSpeak(lines, o = {}) {
   const box = $('sim'), seq = lines.filter(x => x && x.text);
   if (!seq.length) return;
-  speak(seq, { slow: !!o.slow, onitem() { paintNow(box, '.sim-bub'); }, onend() { SIM.mode = null; paintPlay(box, null); paintNow(box, null); } });
+  // 시뮬레이터는 카드마다 말이 바뀌어 미리 만든 파일이 없어요 → 한 사람의 목소리가 바뀌지 않게 모두 브라우저 음성
+  speak(seq, { slow: !!o.slow, clips: false, onitem() { paintNow(box, '.sim-bub'); }, onend() { SIM.mode = null; paintPlay(box, null); paintNow(box, null); } });
   SIM.mode = o.slow ? 'slowplay' : 'play'; paintPlay(box, SIM.mode);
 }
 function simAsk(prefix, slow) { const q = simQ(); simSpeak((prefix ? [{ text: prefix.text, sp: prefix.sp || 'us' }] : []).concat(q.cue ? [] : [{ text: q.en, sp: q.sp, gap: 0.5, rate: q.fast ? 1.35 : 1 }]), { slow }); }
@@ -1019,6 +1021,7 @@ cv.addEventListener('click', e => {
   const h = hitAt(...toLogical(e));
   if (h && h.stop != null) { S.stop = S.stop === h.stop ? null : h.stop; relab(); }
   else if (h && h.play && DRV.supported) speak(h.play);
+  else if (h && h.say && DRV.hasClip('tc', h.say)) speak([{ text: h.say, sp: 'tc' }]);   // 미리 만든 발음(음성 해설의 영어와 같은 목소리)
   else if (h && h.say && EN.say.supported) { stopSounds(); if (playing) pause(); EN.say(DR.spoken(h.say)); }
   else playing ? pause() : play();
 });
@@ -1030,6 +1033,61 @@ EN.say.wire(document, { before() { DRV.stop(); stopAudio(); if (playing) pause()
 const voiceNote = () => { document.querySelectorAll('.voice-note').forEach(n => { n.textContent = DRV.status(); }); };
 voiceNote(); setTimeout(voiceNote, 1200);
 if (window.speechSynthesis && speechSynthesis.addEventListener) speechSynthesis.addEventListener('voiceschanged', voiceNote);
+// 확인용 · 도구용(읽기만): 미리 만들 대화 줄 — tools/dialogue-lines.cjs가 불러 audio/dialogue/lines.json으로 씀
+// 글이 정해진 말만 모아요: 영상의 말풍선 · 발음 칩, 질문(DR.Q), 직접 해 보기의 대표 말, 듣고 대답 고르기, 따라 말하기.
+// 길 찾기 시뮬레이터(카드마다 바뀌는 말)와 내가 칩으로 만든 문장은 브라우저 음성이라 빼요.
+window.__dialogueLines = () => {
+  const out = [], seen = new Set();
+  const add = (sp, text, from) => {
+    if (!text || !/[A-Za-z]/.test(text) || /^\(.*\)$/.test(text.trim())) return;   // (The person keeps walking.) 같은 지문은 읽지 않음
+    const id = DRV.lineId(sp, text);
+    if (seen.has(id)) return;
+    seen.add(id); out.push({ id, sp, text: DRV.spoken(text), from });
+  };
+  const addSeq = (seq, from) => (seq || []).forEach(it => add(it.sp, it.text, from));
+  // 1) 영상: 처음부터 끝까지 훑으며 말풍선(그 사람) · 영어 칩(발음 듣기 tc). 01장 · 09장은 단계를 하나씩 골라 놓고 한 번 더
+  const c = document.createElement('canvas'); c.width = 128; c.height = 72;
+  const g = c.getContext('2d'), keep = JSON.stringify(S), base = JSON.parse(DRS.DEFAULTS);
+  const span = id => { const ch = CHAPTERS.find(x => x.id === id); return [ch.t, ch.t + ch.d]; };
+  const sweeps = [[{}, [0, END]]].concat(DR.PLACES.map((_, k) => [{ stop: k }, span('route')]), DR.METHOD.map((_, k) => [{ place: k }, span('method')]));
+  try {
+    sweeps.forEach(([st, [t0, t1]]) => {
+      Object.assign(S, base, st);
+      for (let t = t0; t <= t1; t += 0.25) {
+        DRS.render(g, t);
+        DRS.hits().forEach(h => { if (h.play) addSeq(h.play, 'video'); else if (h.say) add('tc', h.say, 'video-say'); });
+      }
+    });
+  } finally { Object.assign(S, JSON.parse(keep)); dirty = true; }
+  // 2) 직접 해 보기: 단계마다 대표 말 · 버스 안내 · 되짚기 실험의 길 안내 · 3단계 말하기 법 · 빠른 말 · 영국 지하철역
+  Object.values(DR.STAGE_LINES).forEach(rows => rows.forEach(([who, en]) => add(who === 'me' ? 'me' : 'us', en, 'stage')));
+  add('us', DR.say(DR.BUS_DEMO, 'stop'), 'lab');
+  add('us', DR.dirQ(DR.DEMO, 'blocks', { dist: false }).en, 'lab');
+  DR.METHOD.forEach(([qid, a, cd, sty]) => { const q = qid === 'dir' ? DR.dirQ(cd.route, sty, { dist: false }) : DR.Q[qid]; addSeq(staffSeq(q), 'method'); add('me', DR.text(a), 'method'); });
+  Object.values(DR.MINI).forEach(it => { addSeq(staffSeq(it.Q), 'mini'); it.opts.forEach(op => add('me', DR.text(op), 'mini')); });
+  // 직접 해 보기에서 상대가 대답하는 말(내가 고른 조각에 따라 바뀜): 버스 되짚기 16가지 · 되짚기 조각 셋까지 · 한 줄로 되짚기
+  [15, 50].forEach(num => ['across', 'here'].forEach(where => [1, 2, 3, 4].forEach(nth => {
+    const j = DR.judge(DR.dirQ(DR.BUS_DEMO, 'stop'), DR.Lr([{ k: 'bus', num }, { k: 'stop', where }, { k: 'off', nth }]), DR.BUS_CARD, '상황');
+    if (!j.ok && j.cb && j.cb.fix) add('us', j.cb.fix.en, 'lab-bus');
+  })));
+  const qd = DR.dirQ(DR.DEMO, 'blocks', { dist: false }), replyOf = j => (j.ok ? j.cb.reply : j.cb && j.cb.fix ? j.cb.fix : null);
+  const lines = (chips, n) => { const r = []; const go = (pre, left) => { if (pre.length) r.push(pre); if (pre.length < n) left.forEach((c, i) => go(pre.concat([c]), left.filter((_, k) => k !== i))); }; go([], chips); return r; };
+  lines(DEMO_CHIPS, 3).forEach(line => { const r = replyOf(DR.judge(qd, DR.Lr(line), DR.DEMO_CARD, '상황')); if (r) add('us', r.en, 'lab-check'); });
+  const covs = [[]], seenCov = new Set(['[]']);
+  for (let k = 0; k < covs.length; k++) lines(DEMO_CHIPS.slice(0, 3), 3).forEach(line => {
+    const j = DR.judge(qd, DR.Lr(line), Object.assign({}, DR.DEMO_CARD, { covered: covs[k] })), r = replyOf(j);
+    add('us', r ? r.en : 'Sorry?', 'lab-oneline');
+    const nc = j.ok ? JSON.stringify(j.cb.covered) : null;
+    if (nc && !seenCov.has(nc)) { seenCov.add(nc); covs.push(j.cb.covered); }
+  });
+  // 3) 듣고 대답 고르기: 상대의 말 + 보기 넷
+  DR.DRILL.forEach(it => { addSeq(staffSeq(it.Q), 'drill'); it.opts.forEach(op => add('me', DR.text(op), 'drill')); });
+  // 4) 따라 말하기 28문장
+  DR.SHADOW.forEach((s0, i) => addSeq(shSeq(i), 'shadow'));
+  // 5) 질문 목록의 나머지(상대의 말)
+  Object.values(DR.Q).forEach(q => addSeq(staffSeq(q), 'q'));
+  return out;
+};
 simInit();
 shInit();
 DDrill($('drillRoot'), DR.DRILL, {

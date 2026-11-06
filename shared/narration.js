@@ -19,7 +19,7 @@
  *    EN.narration.bind(narr, buttonEl, noteEl, { onEnable() { if (!started) play(); } });
  *
  *    미리 만든 음성 파일(선택): clips: window.EN_CLIPS
- *      { voice: '목소리 이름', base: 'audio/narration/', clips: { 조각id: ['파일', 초] } }
+ *      { voice: '목소리 이름', voiceEn: '영어 조각의 목소리 이름(다를 때만)', base: 'audio/narration/', clips: { 조각id: ['파일', 초] } }
  *      자막을 읽기 조각(한국어 · 영어)으로 나눈 뒤, 파일이 있는 조각은 그 파일을, 없는 조각은 브라우저 음성으로 읽어요.
  *      조각 id는 EN.narration.pieceId(lang, text), 조각 목록은 narr.pieces() (tools/narration-pieces.cjs가 씀).
  *
@@ -211,7 +211,7 @@
       var all = n.pieces(), kc = 0, ec = 0, kn = 0, en0 = 0;
       all.forEach(function (p) { var has = !!clipOf(p); if (p.lang === 'en') { en0++; if (has) ec++; } else { kn++; if (has) kc++; } });
       if (hasClips && kc) ko = (C.voice || '미리 만든 음성') + (kc < kn ? ' (없는 조각은 ' + ko + ')' : '');
-      if (hasClips && ec) en = (C.voice || '미리 만든 음성') + (ec < en0 ? ' (없는 조각은 ' + en + ')' : '');
+      if (hasClips && ec) en = (C.voiceEn || C.voice || '미리 만든 음성') + (ec < en0 ? ' (없는 조각은 ' + en + ')' : '');
       return '음성 해설 켜짐 · 한국어 ' + ko + ', 영어 ' + en + '. 음성이 자막을 다 읽을 때까지 영상이 잠깐씩 기다려요.' +
         (hasClips && kc ? '' : VOICE.ko && VOICE.en ? '' : ' 운영체제 설정에서 한국어·영어 음성을 추가하면 더 자연스러워요.');
     };

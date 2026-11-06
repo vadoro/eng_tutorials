@@ -1,0 +1,1292 @@
+{
+ "slug": "directions",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = DRV.lineId(sp, text), text = 읽을 글(DRV.spoken), from = 나오는 곳",
+ "count": {
+  "au": 5,
+  "ca": 12,
+  "gb": 4,
+  "me": 78,
+  "tc": 70,
+  "us": 44
+ },
+ "lines": [
+  {
+   "id": "me-18a5d753",
+   "sp": "me",
+   "text": "Where is train station?",
+   "from": "video"
+  },
+  {
+   "id": "us-96dc4901",
+   "sp": "us",
+   "text": "…Sorry?",
+   "from": "video"
+  },
+  {
+   "id": "me-d5ee6ea7",
+   "sp": "me",
+   "text": "Excuse me. Could you tell me how to get to the train station, please?",
+   "from": "video"
+  },
+  {
+   "id": "us-085de1c3",
+   "sp": "us",
+   "text": "Sure. Go straight for two blocks and turn left at the bank. It's on your right, across from the park.",
+   "from": "video"
+  },
+  {
+   "id": "me-4a5cc93f",
+   "sp": "me",
+   "text": "So, I go straight for two blocks, turn left at the bank, and it's on my right?",
+   "from": "video"
+  },
+  {
+   "id": "us-870fb9f1",
+   "sp": "us",
+   "text": "That's right!",
+   "from": "video"
+  },
+  {
+   "id": "tc-e481dd09",
+   "sp": "tc",
+   "text": "Excuse me.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e0c6678d",
+   "sp": "tc",
+   "text": "Could you tell me how to get to the train station?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e8f62811",
+   "sp": "tc",
+   "text": "Go straight for two blocks.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3a6920de",
+   "sp": "tc",
+   "text": "Turn left at the bank.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1867da9b",
+   "sp": "tc",
+   "text": "It's about a five-minute walk.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4438f607",
+   "sp": "tc",
+   "text": "So, I take the second left?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7332e00a",
+   "sp": "tc",
+   "text": "Great, thank you so much!",
+   "from": "video-say"
+  },
+  {
+   "id": "me-38886dcc",
+   "sp": "me",
+   "text": "Excuse me.",
+   "from": "video"
+  },
+  {
+   "id": "me-80f0e178",
+   "sp": "me",
+   "text": "Sorry to bother you.",
+   "from": "video"
+  },
+  {
+   "id": "me-c48e4ab8",
+   "sp": "me",
+   "text": "Hey!",
+   "from": "video"
+  },
+  {
+   "id": "tc-7f68e137",
+   "sp": "tc",
+   "text": "Could you tell me how to get to the train station, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-23903283",
+   "sp": "tc",
+   "text": "Is there a pharmacy near here?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c77a336c",
+   "sp": "tc",
+   "text": "Where's the nearest supermarket?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-c329c457",
+   "sp": "me",
+   "text": "Could you teach me the way to the train station?",
+   "from": "video"
+  },
+  {
+   "id": "me-b872a4f6",
+   "sp": "me",
+   "text": "Could you tell me how to get to the train station, please?",
+   "from": "video"
+  },
+  {
+   "id": "tc-40797bfd",
+   "sp": "tc",
+   "text": "tell me how to get to …",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0188ceac",
+   "sp": "tc",
+   "text": "show me the way to …",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-777482b8",
+   "sp": "tc",
+   "text": "teach me the way to …",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4bc10d43",
+   "sp": "tc",
+   "text": "supermarket",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fb5df75e",
+   "sp": "tc",
+   "text": "convenience store",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-998e9785",
+   "sp": "tc",
+   "text": "subway station",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e426e3e1",
+   "sp": "tc",
+   "text": "restroom",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-db7bcc5d",
+   "sp": "tc",
+   "text": "crosswalk",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b9332141",
+   "sp": "tc",
+   "text": "intersection",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-dbe8e786",
+   "sp": "tc",
+   "text": "traffic lights",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b053fb59",
+   "sp": "tc",
+   "text": "gas station",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-eb7ef4e8",
+   "sp": "tc",
+   "text": "go straight · keep going",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d84c8392",
+   "sp": "tc",
+   "text": "turn left · turn right",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c6c3eb7c",
+   "sp": "tc",
+   "text": "turn left",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2fa79711",
+   "sp": "tc",
+   "text": "take the second left",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7d7722d0",
+   "sp": "tc",
+   "text": "turn left twice",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5488e3ab",
+   "sp": "tc",
+   "text": "go past the post office",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bc847cce",
+   "sp": "tc",
+   "text": "cross the street",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-19418438",
+   "sp": "tc",
+   "text": "keep going until you get to the bank",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c0fdbad7",
+   "sp": "tc",
+   "text": "then turn left",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-48454fed",
+   "sp": "tc",
+   "text": "on your left",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bfe64204",
+   "sp": "tc",
+   "text": "at the bank",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d4d39c6f",
+   "sp": "tc",
+   "text": "at the lights",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3c8bb023",
+   "sp": "tc",
+   "text": "at the corner",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4bf983a9",
+   "sp": "tc",
+   "text": "It's on your right.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0a4dae32",
+   "sp": "tc",
+   "text": "It's on your left.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ea6f2488",
+   "sp": "tc",
+   "text": "across from the park",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bd1bc425",
+   "sp": "tc",
+   "text": "next to the bank",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2cbd8f50",
+   "sp": "tc",
+   "text": "between the café and the post office",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b886854f",
+   "sp": "tc",
+   "text": "on the corner of Hill Street and Main Street",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8ef27a61",
+   "sp": "tc",
+   "text": "in front of the supermarket",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2aa73888",
+   "sp": "tc",
+   "text": "behind the pharmacy",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-acba1c77",
+   "sp": "tc",
+   "text": "train station ↔ park → across from",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-22d752bc",
+   "sp": "tc",
+   "text": "train station ↔ bank → next to",
+   "from": "video-say"
+  },
+  {
+   "id": "us-b7917f28",
+   "sp": "us",
+   "text": "It's about a five-minute walk.",
+   "from": "video"
+  },
+  {
+   "id": "tc-0fce78d9",
+   "sp": "tc",
+   "text": "a five-minute walk",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-3dd43cd4",
+   "sp": "ca",
+   "text": "It's two blocks from here.",
+   "from": "video"
+  },
+  {
+   "id": "us-1975d42c",
+   "sp": "us",
+   "text": "Oh, that's too far to walk from here. You should take the bus.",
+   "from": "video"
+  },
+  {
+   "id": "me-4054dbd8",
+   "sp": "me",
+   "text": "Which bus should I take?",
+   "from": "video"
+  },
+  {
+   "id": "me-d5610363",
+   "sp": "me",
+   "text": "Bus number?",
+   "from": "video"
+  },
+  {
+   "id": "tc-ed080235",
+   "sp": "tc",
+   "text": "fifteen, fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3b5eea6b",
+   "sp": "tc",
+   "text": "thirteen, thirty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d24f11b0",
+   "sp": "tc",
+   "text": "fourteen, forty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ba800063",
+   "sp": "tc",
+   "text": "the number fifteen bus",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d77d798c",
+   "sp": "tc",
+   "text": "the number fifty bus",
+   "from": "video-say"
+  },
+  {
+   "id": "au-6f50e977",
+   "sp": "au",
+   "text": "Get off at the third stop.",
+   "from": "video"
+  },
+  {
+   "id": "gb-5f7f428f",
+   "sp": "gb",
+   "text": "Take the subway, and use Exit three.",
+   "from": "video"
+  },
+  {
+   "id": "tc-771574e4",
+   "sp": "tc",
+   "text": "Exit three",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8e03e404",
+   "sp": "tc",
+   "text": "Go two blocks.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-95d7d78c",
+   "sp": "tc",
+   "text": "Take the second turning on the left.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fd46b407",
+   "sp": "tc",
+   "text": "It's about 500 metres.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e8ddd51c",
+   "sp": "tc",
+   "text": "It's about a quarter of a mile.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-de0de850",
+   "sp": "tc",
+   "text": "go straight for two blocks · turn left",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8cac389d",
+   "sp": "tc",
+   "text": "it's on your right",
+   "from": "video-say"
+  },
+  {
+   "id": "me-52fde5da",
+   "sp": "me",
+   "text": "So, I go straight for two blocks, turn right at the bank, and it's on my right?",
+   "from": "video"
+  },
+  {
+   "id": "us-6eafc71c",
+   "sp": "us",
+   "text": "Not quite — turn left at the bank.",
+   "from": "video"
+  },
+  {
+   "id": "me-0dcdaf97",
+   "sp": "me",
+   "text": "So, I turn left at the bank?",
+   "from": "video"
+  },
+  {
+   "id": "us-ebadcd0c",
+   "sp": "us",
+   "text": "Yes, turn left at the bank.",
+   "from": "video"
+  },
+  {
+   "id": "ca-83c4e636",
+   "sp": "ca",
+   "text": "Yeah, just go down here, hang a left at the bank, and it's right there on your right.",
+   "from": "video"
+  },
+  {
+   "id": "me-6c5f5e78",
+   "sp": "me",
+   "text": "Sorry, could you say that again more slowly, please?",
+   "from": "video"
+  },
+  {
+   "id": "ca-e07a29e0",
+   "sp": "ca",
+   "text": "… then hang a ((?)) at the bank.",
+   "from": "video"
+  },
+  {
+   "id": "me-34d7247b",
+   "sp": "me",
+   "text": "Sorry, left or right?",
+   "from": "video"
+  },
+  {
+   "id": "au-eb06b1d2",
+   "sp": "au",
+   "text": "Take the ((?)) bus.",
+   "from": "video"
+  },
+  {
+   "id": "me-d399f35a",
+   "sp": "me",
+   "text": "Sorry, which bus?",
+   "from": "video"
+  },
+  {
+   "id": "me-b472eabb",
+   "sp": "me",
+   "text": "Could you show me on the map, please?",
+   "from": "video"
+  },
+  {
+   "id": "au-f49fdb6d",
+   "sp": "au",
+   "text": "Sorry, I'm not from around here.",
+   "from": "video"
+  },
+  {
+   "id": "me-c3c6b4fc",
+   "sp": "me",
+   "text": "That's okay. Thanks anyway.",
+   "from": "video"
+  },
+  {
+   "id": "me-0655ee45",
+   "sp": "me",
+   "text": "Okay. Bye.",
+   "from": "video"
+  },
+  {
+   "id": "me-4e3fab29",
+   "sp": "me",
+   "text": "Straight for two blocks?",
+   "from": "video"
+  },
+  {
+   "id": "us-a85cceb4",
+   "sp": "us",
+   "text": "Yes.",
+   "from": "video"
+  },
+  {
+   "id": "me-5589a048",
+   "sp": "me",
+   "text": "Then left at the bank?",
+   "from": "video"
+  },
+  {
+   "id": "us-923643fb",
+   "sp": "us",
+   "text": "Yes, left at the bank.",
+   "from": "video"
+  },
+  {
+   "id": "me-81cac47f",
+   "sp": "me",
+   "text": "And it's on my right?",
+   "from": "video"
+  },
+  {
+   "id": "us-800faeec",
+   "sp": "us",
+   "text": "That's right.",
+   "from": "video"
+  },
+  {
+   "id": "us-835d37ac",
+   "sp": "us",
+   "text": "Yes? How can I help?",
+   "from": "video"
+  },
+  {
+   "id": "us-eb5ac7cb",
+   "sp": "us",
+   "text": "Sure. Go down this street and take the second left. That's Bell Street. It's on your right, across from the park.",
+   "from": "video"
+  },
+  {
+   "id": "tc-4baa984c",
+   "sp": "tc",
+   "text": "Excuse me. Could you tell me how to get to the train station, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-deb7d50b",
+   "sp": "tc",
+   "text": "So, it's on my right, across from the park?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a7a53549",
+   "sp": "tc",
+   "text": "Which bus should I take?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1002206e",
+   "sp": "tc",
+   "text": "So, I go straight for two blocks, turn left at the bank, and it's on my right?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-144ff097",
+   "sp": "tc",
+   "text": "That's okay. Thanks anyway.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9d9426bb",
+   "sp": "tc",
+   "text": "Subway station where?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c55a49ff",
+   "sp": "tc",
+   "text": "Excuse me. Could you tell me how to get to the subway station, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0e0fc09c",
+   "sp": "tc",
+   "text": "Okay. Bye.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-85d68586",
+   "sp": "tc",
+   "text": "Could you tell me how to get to the subway station, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-c0eafddc",
+   "sp": "ca",
+   "text": "Sure. Go down this street and take the second right. That's Hill Street. It's on your right, next to the church.",
+   "from": "video"
+  },
+  {
+   "id": "tc-993da235",
+   "sp": "tc",
+   "text": "You're welcome.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ac3f10ae",
+   "sp": "tc",
+   "text": "So, I turn right twice, and it's on my right?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-df76307d",
+   "sp": "tc",
+   "text": "So, I take the second right, and it's on my right?",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-f072b607",
+   "sp": "ca",
+   "text": "That's right. You can't miss it.",
+   "from": "video"
+  },
+  {
+   "id": "tc-73ad2a0d",
+   "sp": "tc",
+   "text": "Sorry to bother you.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-9c7f95d8",
+   "sp": "us",
+   "text": "Hi there. Can I help you?",
+   "from": "video"
+  },
+  {
+   "id": "us-2d8a6260",
+   "sp": "us",
+   "text": "The train station or the subway station?",
+   "from": "video"
+  },
+  {
+   "id": "us-f8dcc2bc",
+   "sp": "us",
+   "text": "Go straight for two blocks.",
+   "from": "video"
+  },
+  {
+   "id": "us-891f0c90",
+   "sp": "us",
+   "text": "Take the second left.",
+   "from": "video"
+  },
+  {
+   "id": "us-2c142b9f",
+   "sp": "us",
+   "text": "Keep going until you get to the bank.",
+   "from": "video"
+  },
+  {
+   "id": "us-d68eb3a9",
+   "sp": "us",
+   "text": "Turn left at the bank.",
+   "from": "video"
+  },
+  {
+   "id": "us-ff8a9530",
+   "sp": "us",
+   "text": "It's on your right, across from the park.",
+   "from": "video"
+  },
+  {
+   "id": "us-c5a38bc9",
+   "sp": "us",
+   "text": "It's next to the bank.",
+   "from": "video"
+  },
+  {
+   "id": "us-d6941d77",
+   "sp": "us",
+   "text": "Take the number fifteen bus. Get off at the third stop.",
+   "from": "video"
+  },
+  {
+   "id": "us-5e7d0953",
+   "sp": "us",
+   "text": "Sorry, I'm not from around here.",
+   "from": "video"
+  },
+  {
+   "id": "me-726031d8",
+   "sp": "me",
+   "text": "Could you tell me how to get to the train station?",
+   "from": "stage"
+  },
+  {
+   "id": "me-0c2d9ba6",
+   "sp": "me",
+   "text": "Is there a pharmacy near here?",
+   "from": "stage"
+  },
+  {
+   "id": "me-78b79c64",
+   "sp": "me",
+   "text": "So, I take the second left?",
+   "from": "stage"
+  },
+  {
+   "id": "me-4763a9d9",
+   "sp": "me",
+   "text": "Great, thank you so much!",
+   "from": "stage"
+  },
+  {
+   "id": "us-35946af2",
+   "sp": "us",
+   "text": "Take the number fifteen bus from the stop across the street, and get off at the third stop.",
+   "from": "lab"
+  },
+  {
+   "id": "me-cee82964",
+   "sp": "me",
+   "text": "So, it's on my right, across from the park?",
+   "from": "method"
+  },
+  {
+   "id": "gb-393e976f",
+   "sp": "gb",
+   "text": "Sorry, where are you trying to get to?",
+   "from": "mini"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "mini"
+  },
+  {
+   "id": "me-8fafed4f",
+   "sp": "me",
+   "text": "I'm looking for a mart.",
+   "from": "mini"
+  },
+  {
+   "id": "me-3508c55a",
+   "sp": "me",
+   "text": "I'm looking for the underground station.",
+   "from": "mini"
+  },
+  {
+   "id": "me-ea145757",
+   "sp": "me",
+   "text": "Tell me the way to the subway station.",
+   "from": "mini"
+  },
+  {
+   "id": "au-0dadc813",
+   "sp": "au",
+   "text": "Yeah, you want the fifteen from across the street, then get off at the third stop.",
+   "from": "mini"
+  },
+  {
+   "id": "me-4a566810",
+   "sp": "me",
+   "text": "So, I take the number fifty bus?",
+   "from": "mini"
+  },
+  {
+   "id": "us-f3bf16a4",
+   "sp": "us",
+   "text": "Not quite — get off at the third stop.",
+   "from": "lab-bus"
+  },
+  {
+   "id": "us-b252ed18",
+   "sp": "us",
+   "text": "Not quite — the stop across the street.",
+   "from": "lab-bus"
+  },
+  {
+   "id": "us-485b2dfe",
+   "sp": "us",
+   "text": "Not quite — the number fifteen bus. One-five.",
+   "from": "lab-bus"
+  },
+  {
+   "id": "us-a43c2aa3",
+   "sp": "us",
+   "text": "Yes, that's right.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-f7e87062",
+   "sp": "us",
+   "text": "Almost — you don't turn there. It's just on your right.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-ebf49c97",
+   "sp": "us",
+   "text": "Hmm, I don't think so. Let me say it again.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-9dbfb247",
+   "sp": "us",
+   "text": "Almost — it's on your right, not your left.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-29bc560d",
+   "sp": "us",
+   "text": "Almost — and it's on your right.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-b0c991f9",
+   "sp": "us",
+   "text": "Almost — don't forget to turn left at the bank.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-0bee30a8",
+   "sp": "us",
+   "text": "Not quite — turn left at the bank first. Then it's on your right.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-0fcff3e8",
+   "sp": "us",
+   "text": "Not quite — turn left at the bank, not the post office.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-12636d02",
+   "sp": "us",
+   "text": "Not quite — turn left at the bank first. Then it's across from the park.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-f1d0d822",
+   "sp": "us",
+   "text": "Not quite — go straight for two blocks first. Then turn left at the bank.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-4e8bb49d",
+   "sp": "us",
+   "text": "Not quite — go straight for two blocks first. Then it's on your right.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-8b0f2795",
+   "sp": "us",
+   "text": "Not quite — go straight for two blocks first. Then it's across from the park.",
+   "from": "lab-check"
+  },
+  {
+   "id": "us-6fc12515",
+   "sp": "us",
+   "text": "Not quite — go two blocks, not three.",
+   "from": "lab-check"
+  },
+  {
+   "id": "me-b743e771",
+   "sp": "me",
+   "text": "Hey! Where is the train station?",
+   "from": "drill"
+  },
+  {
+   "id": "me-94108f1b",
+   "sp": "me",
+   "text": "Train station where?",
+   "from": "drill"
+  },
+  {
+   "id": "me-f30aa7d9",
+   "sp": "me",
+   "text": "Excuse me. Could you tell me how to get to the museum, please?",
+   "from": "drill"
+  },
+  {
+   "id": "ca-d81d985b",
+   "sp": "ca",
+   "text": "Hi there. You look a little lost. Can I help you?",
+   "from": "drill"
+  },
+  {
+   "id": "me-f17808eb",
+   "sp": "me",
+   "text": "I'm fine, thank you.",
+   "from": "drill"
+  },
+  {
+   "id": "me-f823dd7b",
+   "sp": "me",
+   "text": "No, thanks.",
+   "from": "drill"
+  },
+  {
+   "id": "me-d4a3d1db",
+   "sp": "me",
+   "text": "Tell me the way to the pharmacy.",
+   "from": "drill"
+  },
+  {
+   "id": "me-c1982633",
+   "sp": "me",
+   "text": "Yes, please. I'm looking for a pharmacy.",
+   "from": "drill"
+  },
+  {
+   "id": "me-7891e808",
+   "sp": "me",
+   "text": "Is there a convenience near here?",
+   "from": "drill"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-b0b8df5b",
+   "sp": "me",
+   "text": "Is there a convenience store near here?",
+   "from": "drill"
+  },
+  {
+   "id": "me-fd8030ea",
+   "sp": "me",
+   "text": "Tell me the way to the convenience store.",
+   "from": "drill"
+  },
+  {
+   "id": "me-c4290627",
+   "sp": "me",
+   "text": "The subway station, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-8b6e9faa",
+   "sp": "me",
+   "text": "The train station, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-89940be2",
+   "sp": "me",
+   "text": "The bus stop, please.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-ace6a1bb",
+   "sp": "ca",
+   "text": "Sure. Go down this street and take the second left. That's Bell Street. It's on your right, across from the park.",
+   "from": "drill"
+  },
+  {
+   "id": "me-b08a95df",
+   "sp": "me",
+   "text": "So, I turn left twice?",
+   "from": "drill"
+  },
+  {
+   "id": "me-825ed539",
+   "sp": "me",
+   "text": "So, I take the second right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-dddfa6b5",
+   "sp": "me",
+   "text": "So, I take the third left?",
+   "from": "drill"
+  },
+  {
+   "id": "us-6e8c42d8",
+   "sp": "us",
+   "text": "Sure. Keep going until you get to the church, then turn right. You'll see it on your right, next to the church. It's about a five-minute walk.",
+   "from": "drill"
+  },
+  {
+   "id": "me-bea34dca",
+   "sp": "me",
+   "text": "So, I turn right at the church, and it's on my right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-b141bf31",
+   "sp": "me",
+   "text": "So, I turn right at the church and turn right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-096163c5",
+   "sp": "me",
+   "text": "So, I turn left at the church, and it's on my right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-8af98f57",
+   "sp": "me",
+   "text": "Thank you!",
+   "from": "drill"
+  },
+  {
+   "id": "gb-88e345e1",
+   "sp": "gb",
+   "text": "Sure. Go straight for two blocks and turn left at the bank. It's on your right, across from the park. It's about a five-minute walk.",
+   "from": "drill"
+  },
+  {
+   "id": "me-de2357f9",
+   "sp": "me",
+   "text": "So, it's on my right, next to the park?",
+   "from": "drill"
+  },
+  {
+   "id": "me-5d049ad3",
+   "sp": "me",
+   "text": "So, it's on my left, across from the park?",
+   "from": "drill"
+  },
+  {
+   "id": "me-8ff1b4a3",
+   "sp": "me",
+   "text": "So, it's on my right, behind the bank?",
+   "from": "drill"
+  },
+  {
+   "id": "ca-e7b64990",
+   "sp": "ca",
+   "text": "Sure. Keep going until you get to the park, then turn right. Turn right at the post office. You'll see it on your right, between the café and the post office. It's about a five-minute walk.",
+   "from": "drill"
+  },
+  {
+   "id": "me-816a2970",
+   "sp": "me",
+   "text": "So, I turn right at the bank?",
+   "from": "drill"
+  },
+  {
+   "id": "me-81cc2bc1",
+   "sp": "me",
+   "text": "So, I turn left at the park?",
+   "from": "drill"
+  },
+  {
+   "id": "me-1d9736da",
+   "sp": "me",
+   "text": "So, I turn right at the park?",
+   "from": "drill"
+  },
+  {
+   "id": "me-8b6e2d59",
+   "sp": "me",
+   "text": "That's okay. I'll walk.",
+   "from": "drill"
+  },
+  {
+   "id": "me-d4d50399",
+   "sp": "me",
+   "text": "So, I take the number fifty bus from the stop across the street, and get off at the third stop?",
+   "from": "drill"
+  },
+  {
+   "id": "me-0d72c331",
+   "sp": "me",
+   "text": "So, I take the number fifteen bus from the stop across the street, and get off at the first stop?",
+   "from": "drill"
+  },
+  {
+   "id": "me-231a688e",
+   "sp": "me",
+   "text": "So, I take the number fifteen bus from this stop, and get off at the third stop?",
+   "from": "drill"
+  },
+  {
+   "id": "me-ece04296",
+   "sp": "me",
+   "text": "So, I take the number fifteen bus from the stop across the street, and get off at the third stop?",
+   "from": "drill"
+  },
+  {
+   "id": "us-afb26747",
+   "sp": "us",
+   "text": "Sure. Go to the end of this block and turn left at the café. Then go two blocks and turn right at the hotel. It's on your right, next to the hotel. It's about a five-minute walk.",
+   "from": "drill"
+  },
+  {
+   "id": "me-c8feb200",
+   "sp": "me",
+   "text": "So, I go to the end of this block, turn left at the café, go straight for two blocks, turn right at the hotel, and it's on my right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-3f028daf",
+   "sp": "me",
+   "text": "So, I go to the end of this block, turn left at the café, go straight for two blocks, turn left at the hotel, and it's on my right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-8560af35",
+   "sp": "me",
+   "text": "So, I go to the end of this block, go straight for two blocks, turn right at the hotel, and it's on my right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-88e090d7",
+   "sp": "me",
+   "text": "So, I go to the end of this block, turn left at the café, go straight for two blocks, turn right at the hotel, and it's on my left?",
+   "from": "drill"
+  },
+  {
+   "id": "ca-d6a7fcc7",
+   "sp": "ca",
+   "text": "Sure. Go to the end of this block and turn left at the flower shop. Then turn left at the police station. It's on your right, next to the hotel. It's about a five-minute walk.",
+   "from": "drill"
+  },
+  {
+   "id": "me-7b3a5cf4",
+   "sp": "me",
+   "text": "So, I go straight for two blocks, turn left at the flower shop, turn left at the police station, and it's on my right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-cd08eb45",
+   "sp": "me",
+   "text": "So, I go to the end of this block, turn left at the school, turn left at the police station, and it's on my right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-f7edc926",
+   "sp": "me",
+   "text": "So, I go to the end of this block, turn left at the flower shop, turn left at the police station, and it's on my right?",
+   "from": "drill"
+  },
+  {
+   "id": "me-af51ad4e",
+   "sp": "me",
+   "text": "You're welcome.",
+   "from": "drill"
+  },
+  {
+   "id": "me-13a7f1b4",
+   "sp": "me",
+   "text": "Could you tell me how to get to the hospital, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-6b44fc3d",
+   "sp": "me",
+   "text": "Why not?",
+   "from": "drill"
+  },
+  {
+   "id": "us-0bbe33b7",
+   "sp": "us",
+   "text": "That's right. You can't miss it.",
+   "from": "drill"
+  },
+  {
+   "id": "me-c1d72ae9",
+   "sp": "me",
+   "text": "So, I turn left at the bank, and it's on my left?",
+   "from": "drill"
+  },
+  {
+   "id": "me-d0fa594c",
+   "sp": "me",
+   "text": "What?",
+   "from": "drill"
+  },
+  {
+   "id": "ca-6c69b568",
+   "sp": "ca",
+   "text": "Hi there. Can I help you?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-b1be2826",
+   "sp": "me",
+   "text": "Yes, please. I'm looking for the train station.",
+   "from": "shadow"
+  },
+  {
+   "id": "me-51e514c8",
+   "sp": "me",
+   "text": "Could you tell me how to get to the museum?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-653e06f9",
+   "sp": "me",
+   "text": "Where's the nearest supermarket?",
+   "from": "shadow"
+  },
+  {
+   "id": "ca-88b11360",
+   "sp": "ca",
+   "text": "Take the second left.",
+   "from": "shadow"
+  },
+  {
+   "id": "us-95dbf7f0",
+   "sp": "us",
+   "text": "Cross the street at the lights.",
+   "from": "shadow"
+  },
+  {
+   "id": "gb-01136eae",
+   "sp": "gb",
+   "text": "Keep going until you get to the bank.",
+   "from": "shadow"
+  },
+  {
+   "id": "us-ba336180",
+   "sp": "us",
+   "text": "It's on your right.",
+   "from": "shadow"
+  },
+  {
+   "id": "ca-dc26242a",
+   "sp": "ca",
+   "text": "It's across from the park.",
+   "from": "shadow"
+  },
+  {
+   "id": "au-97b95d95",
+   "sp": "au",
+   "text": "Take the number fifteen bus.",
+   "from": "shadow"
+  }
+ ]
+}

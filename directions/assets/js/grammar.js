@@ -428,7 +428,7 @@
       case 'twice': return `turn ${c.dir} twice`;
       case 'cross': return c.street ? `cross ${c.street}` : 'cross the street';
       case 'side': return `it's on ${my} ${c.dir}`;
-      case 'rel': return `it's ${DR.REL[c.rel].en(c.of)}`;
+      case 'rel': { const r = c.rel ? c : c.rels && c.rels[0]; return r ? `it's ${DR.REL[r.rel].en(r.of)}` : ''; }   // 들은 길의 뼈대는 관계 여럿(rels) → 첫 관계
       case 'bus': return `take the number ${c.num} bus`;
       case 'stop': return c.where === 'across' ? 'from the stop across the street' : 'from this stop';
       case 'off': return `get off at the ${ordW(c.nth)} stop`;
@@ -444,7 +444,7 @@
       case 'twice': return `${dk(c.dir)}으로 두 번 돌기`;
       case 'cross': return c.street ? `길(${c.street}) 건너기` : '길 건너기';
       case 'side': return `${dk(c.dir)}에 있음`;
-      case 'rel': return DR.REL[c.rel].ko(c.of);
+      case 'rel': { const r = c.rel ? c : c.rels && c.rels[0]; return r ? DR.REL[r.rel].ko(r.of) : ''; }
       case 'bus': return `${c.num}번 버스 타기`;
       case 'stop': return c.where === 'across' ? '길 건너편 정류장에서' : '이 정류장에서';
       case 'off': return `${DR.ordKo(c.nth)} 정류장에서 내리기`;
