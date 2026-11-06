@@ -1,0 +1,1238 @@
+{
+ "slug": "hotel",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 4,
+  "ca": 9,
+  "gb": 4,
+  "me": 90,
+  "tc": 72,
+  "us": 25
+ },
+ "lines": [
+  {
+   "id": "ca-87ba2695",
+   "sp": "ca",
+   "text": "Front desk. How can I help you?",
+   "from": "video"
+  },
+  {
+   "id": "me-199f9ab5",
+   "sp": "me",
+   "text": "Give me towel.",
+   "from": "video"
+  },
+  {
+   "id": "me-89c27743",
+   "sp": "me",
+   "text": "Hi, this is room twelve-oh-seven. Could I get some extra towels, please?",
+   "from": "video"
+  },
+  {
+   "id": "tc-70506fea",
+   "sp": "tc",
+   "text": "Hi, this is room twelve-oh-seven. Could I get some extra towels, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b0220a35",
+   "sp": "tc",
+   "text": "Hi, welcome to the Willowmere! Do you have a reservation?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e35fe500",
+   "sp": "tc",
+   "text": "Here's your key card. You're in room twelve-oh-seven, on the twelfth floor.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e2d294bc",
+   "sp": "tc",
+   "text": "Front desk. How can I help you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1fb0b6cb",
+   "sp": "tc",
+   "text": "Front desk. What can I do for you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1a9f81b8",
+   "sp": "tc",
+   "text": "Good morning! What's your room number?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b427abd7",
+   "sp": "tc",
+   "text": "Hello. How can I help you today?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c82ac59c",
+   "sp": "tc",
+   "text": "Good morning. Checking out?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-51a18db4",
+   "sp": "us",
+   "text": "Hi, welcome to the Willowmere! Do you have a reservation?",
+   "from": "video"
+  },
+  {
+   "id": "me-e1485783",
+   "sp": "me",
+   "text": "Yes, I have a reservation under Kim.",
+   "from": "video"
+  },
+  {
+   "id": "us-2f9279fd",
+   "sp": "us",
+   "text": "Could you spell that, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-8fdd2b22",
+   "sp": "me",
+   "text": "K, I, M.",
+   "from": "video"
+  },
+  {
+   "id": "us-32ad27ec",
+   "sp": "us",
+   "text": "And how many nights will you be staying?",
+   "from": "video"
+  },
+  {
+   "id": "me-175d23b4",
+   "sp": "me",
+   "text": "Three days.",
+   "from": "video"
+  },
+  {
+   "id": "me-c518c0f1",
+   "sp": "me",
+   "text": "During two nights.",
+   "from": "video"
+  },
+  {
+   "id": "me-99d6bb16",
+   "sp": "me",
+   "text": "Two nights.",
+   "from": "video"
+  },
+  {
+   "id": "tc-e9bd2106",
+   "sp": "tc",
+   "text": "For two nights.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-8e2c074b",
+   "sp": "us",
+   "text": "Can I see your passport, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-f0a95e5d",
+   "sp": "me",
+   "text": "Yes, you can.",
+   "from": "video"
+  },
+  {
+   "id": "me-8bc7e0f1",
+   "sp": "me",
+   "text": "Sure, here you go.",
+   "from": "video"
+  },
+  {
+   "id": "us-cb8e1556",
+   "sp": "us",
+   "text": "We'll also need a credit card for incidentals.",
+   "from": "video"
+  },
+  {
+   "id": "tc-0852be52",
+   "sp": "tc",
+   "text": "Sorry, what are incidentals?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-9bb19915",
+   "sp": "us",
+   "text": "Here's your key card. You're in room twelve-oh-seven, on the twelfth floor.",
+   "from": "video"
+  },
+  {
+   "id": "tc-5f664f44",
+   "sp": "tc",
+   "text": "Room twelve-oh-seven",
+   "from": "video-say"
+  },
+  {
+   "id": "us-73c6006b",
+   "sp": "us",
+   "text": "Room twelve-oh-seven",
+   "from": "video"
+  },
+  {
+   "id": "tc-c58b1dd3",
+   "sp": "tc",
+   "text": "Room twelve-seventy",
+   "from": "video-say"
+  },
+  {
+   "id": "us-c2a2e8a8",
+   "sp": "us",
+   "text": "from seven to ten",
+   "from": "video"
+  },
+  {
+   "id": "tc-ed080235",
+   "sp": "tc",
+   "text": "fifteen, fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3b5eea6b",
+   "sp": "tc",
+   "text": "thirteen, thirty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d24f11b0",
+   "sp": "tc",
+   "text": "fourteen, forty",
+   "from": "video-say"
+  },
+  {
+   "id": "me-8e4b100d",
+   "sp": "me",
+   "text": "Sorry, was that room twelve-oh-seven?",
+   "from": "video"
+  },
+  {
+   "id": "us-946356b1",
+   "sp": "us",
+   "text": "Yes, twelve-oh-seven.",
+   "from": "video"
+  },
+  {
+   "id": "us-9474d3dd",
+   "sp": "us",
+   "text": "And breakfast is served from seven to ten in the Garden Room, second floor.",
+   "from": "video"
+  },
+  {
+   "id": "me-36218073",
+   "sp": "me",
+   "text": "Sorry, what time is breakfast?",
+   "from": "video"
+  },
+  {
+   "id": "us-b987a0f8",
+   "sp": "us",
+   "text": "Is there anything else I can help you with?",
+   "from": "video"
+  },
+  {
+   "id": "me-131c4bd5",
+   "sp": "me",
+   "text": "Yes. Is breakfast service?",
+   "from": "video"
+  },
+  {
+   "id": "me-c7632526",
+   "sp": "me",
+   "text": "Yes. Is breakfast included?",
+   "from": "video"
+  },
+  {
+   "id": "us-dba091da",
+   "sp": "us",
+   "text": "Yes, it is. It's included in your rate.",
+   "from": "video"
+  },
+  {
+   "id": "tc-00737693",
+   "sp": "tc",
+   "text": "third floor",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-55953616",
+   "sp": "tc",
+   "text": "second floor",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-db1618f0",
+   "sp": "tc",
+   "text": "first floor",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b551123d",
+   "sp": "tc",
+   "text": "ground floor",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-699c5c69",
+   "sp": "tc",
+   "text": "Could I get two extra towels, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d0336add",
+   "sp": "tc",
+   "text": "Could I get another pillow, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-de2ec268",
+   "sp": "tc",
+   "text": "Could I get a toothbrush, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f464def5",
+   "sp": "tc",
+   "text": "Could you bring up a hair dryer, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6f514c4e",
+   "sp": "tc",
+   "text": "Could you bring up a plug adapter, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8ef5d054",
+   "sp": "tc",
+   "text": "Could you bring up two extra towels, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-926ec36f",
+   "sp": "me",
+   "text": "Could I get a dryer, please?",
+   "from": "video"
+  },
+  {
+   "id": "tc-c64863b2",
+   "sp": "tc",
+   "text": "hair dryer",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f805fa3e",
+   "sp": "tc",
+   "text": "dryer",
+   "from": "video-say"
+  },
+  {
+   "id": "me-dcfe14e3",
+   "sp": "me",
+   "text": "Could I get a hair dryer, please?",
+   "from": "video"
+  },
+  {
+   "id": "tc-45d1803d",
+   "sp": "tc",
+   "text": "outlet",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a0988092",
+   "sp": "tc",
+   "text": "remote",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-865a37ee",
+   "sp": "tc",
+   "text": "wake-up call",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6b317430",
+   "sp": "tc",
+   "text": "front desk · reception",
+   "from": "video-say"
+  },
+  {
+   "id": "me-c565d1d2",
+   "sp": "me",
+   "text": "Could I get some extra towels, please?",
+   "from": "video"
+  },
+  {
+   "id": "ca-f581cd60",
+   "sp": "ca",
+   "text": "Front desk. What can I do for you?",
+   "from": "video"
+  },
+  {
+   "id": "me-799b6f8a",
+   "sp": "me",
+   "text": "The air conditioner isn't working.",
+   "from": "video"
+  },
+  {
+   "id": "me-8cdf9485",
+   "sp": "me",
+   "text": "The air conditioner isn't working. Could you send someone to look at it?",
+   "from": "video"
+  },
+  {
+   "id": "ca-17838b72",
+   "sp": "ca",
+   "text": "I'm so sorry. I'll send someone up right away.",
+   "from": "video"
+  },
+  {
+   "id": "tc-93bc852f",
+   "sp": "tc",
+   "text": "The air conditioner isn't working.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a2ec4451",
+   "sp": "tc",
+   "text": "The TV isn't working.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4ae7ff97",
+   "sp": "tc",
+   "text": "The Wi-Fi isn't working.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-365bdeef",
+   "sp": "tc",
+   "text": "There's no hot water.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f2a9086c",
+   "sp": "tc",
+   "text": "There's no toilet paper.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d9db76fc",
+   "sp": "tc",
+   "text": "The room is too noisy.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4eb715b8",
+   "sp": "tc",
+   "text": "The room is too cold.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-7ec4ff02",
+   "sp": "me",
+   "text": "The room is too noisy. Could I change rooms?",
+   "from": "video"
+  },
+  {
+   "id": "me-02c71c0a",
+   "sp": "me",
+   "text": "I'm locked out. I left my key card in the room. Could you make a new key for me?",
+   "from": "video"
+  },
+  {
+   "id": "tc-66d70b2f",
+   "sp": "tc",
+   "text": "Could you send someone to look at it?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-af1b47ab",
+   "sp": "tc",
+   "text": "Could I change rooms?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-49538bb2",
+   "sp": "tc",
+   "text": "Could you make a new key for me?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d464e942",
+   "sp": "tc",
+   "text": "Could you bring up some towels, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-d559ee30",
+   "sp": "me",
+   "text": "The air conditioner isn't working. Fix it.",
+   "from": "video"
+  },
+  {
+   "id": "me-d42058ec",
+   "sp": "me",
+   "text": "The room is too noisy. Change my room.",
+   "from": "video"
+  },
+  {
+   "id": "me-c72af9ff",
+   "sp": "me",
+   "text": "TV doesn't come out.",
+   "from": "video"
+  },
+  {
+   "id": "me-d4eb7f43",
+   "sp": "me",
+   "text": "Hot water doesn't come out.",
+   "from": "video"
+  },
+  {
+   "id": "me-b8cd3432",
+   "sp": "me",
+   "text": "The consent isn't working.",
+   "from": "video"
+  },
+  {
+   "id": "me-001bbd7c",
+   "sp": "me",
+   "text": "The outlet isn't working. Could you send someone to look at it?",
+   "from": "video"
+  },
+  {
+   "id": "au-26f57d5d",
+   "sp": "au",
+   "text": "Good morning! What's your room number?",
+   "from": "video"
+  },
+  {
+   "id": "me-8541614d",
+   "sp": "me",
+   "text": "It's twelve-oh-seven.",
+   "from": "video"
+  },
+  {
+   "id": "me-9df6235d",
+   "sp": "me",
+   "text": "Room is twelve-oh-seven.",
+   "from": "video"
+  },
+  {
+   "id": "me-65c6ab1e",
+   "sp": "me",
+   "text": "It's twelve-seventy.",
+   "from": "video"
+  },
+  {
+   "id": "au-f796e3f5",
+   "sp": "au",
+   "text": "Coffee or tea?",
+   "from": "video"
+  },
+  {
+   "id": "me-10528ebb",
+   "sp": "me",
+   "text": "Coffee, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-68a8f553",
+   "sp": "gb",
+   "text": "Hello. How can I help you today?",
+   "from": "video"
+  },
+  {
+   "id": "me-257650cd",
+   "sp": "me",
+   "text": "Could you hold my luggage until three?",
+   "from": "video"
+  },
+  {
+   "id": "me-6b24392e",
+   "sp": "me",
+   "text": "Keep my bag.",
+   "from": "video"
+  },
+  {
+   "id": "me-4bdc2582",
+   "sp": "me",
+   "text": "Could you call a taxi for me, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-ac7a11bf",
+   "sp": "me",
+   "text": "Could I get a wake-up call at six-thirty, please?",
+   "from": "video"
+  },
+  {
+   "id": "tc-f3ce8a9f",
+   "sp": "tc",
+   "text": "six-thirty",
+   "from": "video-say"
+  },
+  {
+   "id": "me-be9728f6",
+   "sp": "me",
+   "text": "Is late check-out possible?",
+   "from": "video"
+  },
+  {
+   "id": "tc-32ce627a",
+   "sp": "tc",
+   "text": "Could I get a morning call at six-thirty, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-d0acf25d",
+   "sp": "us",
+   "text": "Good morning. Checking out?",
+   "from": "video"
+  },
+  {
+   "id": "me-33c6d53a",
+   "sp": "me",
+   "text": "Yes, room twelve-oh-seven.",
+   "from": "video"
+  },
+  {
+   "id": "us-9eafa6bf",
+   "sp": "us",
+   "text": "Did you have anything from the minibar?",
+   "from": "video"
+  },
+  {
+   "id": "me-89f7a6af",
+   "sp": "me",
+   "text": "No, I don't.",
+   "from": "video"
+  },
+  {
+   "id": "me-e1eecb47",
+   "sp": "me",
+   "text": "No, nothing.",
+   "from": "video"
+  },
+  {
+   "id": "us-9c02b103",
+   "sp": "us",
+   "text": "How was your stay?",
+   "from": "video"
+  },
+  {
+   "id": "me-2829d88a",
+   "sp": "me",
+   "text": "Yes, it was.",
+   "from": "video"
+  },
+  {
+   "id": "me-38c77f2b",
+   "sp": "me",
+   "text": "It was great, thank you.",
+   "from": "video"
+  },
+  {
+   "id": "us-fe78edbc",
+   "sp": "us",
+   "text": "Here's your bill. Your total is three hundred thirty-four dollars and forty cents.",
+   "from": "video"
+  },
+  {
+   "id": "me-57af8b1f",
+   "sp": "me",
+   "text": "This bill is wrong.",
+   "from": "video"
+  },
+  {
+   "id": "me-4555093c",
+   "sp": "me",
+   "text": "I think there's a mistake on my bill. I didn't use the minibar.",
+   "from": "video"
+  },
+  {
+   "id": "me-d4a36deb",
+   "sp": "me",
+   "text": "Towels, please.",
+   "from": "video"
+  },
+  {
+   "id": "ca-ab7c7b20",
+   "sp": "ca",
+   "text": "Sure. What's your room number?",
+   "from": "video"
+  },
+  {
+   "id": "ca-ec5d7520",
+   "sp": "ca",
+   "text": "How many would you like?",
+   "from": "video"
+  },
+  {
+   "id": "me-a4779c0b",
+   "sp": "me",
+   "text": "Two, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-5f996ed6",
+   "sp": "tc",
+   "text": "Hi, this is room twelve-oh-seven. Could I get two extra towels, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-a9ba6f21",
+   "sp": "ca",
+   "text": "Sure, I'll send them up right away.",
+   "from": "video"
+  },
+  {
+   "id": "me-b467da5f",
+   "sp": "me",
+   "text": "Thank you. Could I get two extra towels? This is room twelve-oh-seven.",
+   "from": "video"
+  },
+  {
+   "id": "me-a3140bcc",
+   "sp": "me",
+   "text": "Could I get two extra towels, please? This is room twelve-oh-seven.",
+   "from": "video"
+  },
+  {
+   "id": "tc-27930925",
+   "sp": "tc",
+   "text": "Is there anything else I can help you with?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-77c26037",
+   "sp": "tc",
+   "text": "Here's your bill. Your total is three hundred thirty-four dollars and forty cents.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0420c7c6",
+   "sp": "tc",
+   "text": "Yes, I have a reservation under Kim.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3431e1a9",
+   "sp": "tc",
+   "text": "Yes. Is breakfast included?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f9718b8c",
+   "sp": "tc",
+   "text": "The air conditioner isn't working. Could you send someone to look at it?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a5a94d92",
+   "sp": "tc",
+   "text": "It's twelve-oh-seven.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3991f624",
+   "sp": "tc",
+   "text": "Could you hold my luggage until three?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b38d448f",
+   "sp": "tc",
+   "text": "I think there's a mistake on my bill. I didn't use the minibar.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9035cb97",
+   "sp": "tc",
+   "text": "Four days.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9669908f",
+   "sp": "tc",
+   "text": "Three nights.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3bdd8e45",
+   "sp": "tc",
+   "text": "It's Lee.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9936e597",
+   "sp": "tc",
+   "text": "It's eight-fifty.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4870a52c",
+   "sp": "tc",
+   "text": "Coffee, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3c426ff2",
+   "sp": "tc",
+   "text": "It's eight-fifteen.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-525a5dea",
+   "sp": "tc",
+   "text": "There's no hot water. Change my room.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-706f80f5",
+   "sp": "tc",
+   "text": "There's no hot water. Could you bring up some towels, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0643c3cc",
+   "sp": "tc",
+   "text": "There's no hot water. Could you send someone to look at it?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-7c2bea42",
+   "sp": "us",
+   "text": "Here's your bill. Your total is six hundred sixty dollars.",
+   "from": "video"
+  },
+  {
+   "id": "tc-46e81d4c",
+   "sp": "tc",
+   "text": "This bill is wrong.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f9781a5a",
+   "sp": "tc",
+   "text": "Card, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-147e0ea6",
+   "sp": "tc",
+   "text": "I think there's a mistake on my bill. I only stayed three nights.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-313bbe43",
+   "sp": "tc",
+   "text": "And how many nights will you be staying?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b608ed64",
+   "sp": "tc",
+   "text": "Breakfast is from seven to ten in the Garden Room, on the second floor.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c34b262b",
+   "sp": "tc",
+   "text": "Sure. What's your room number?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4746f76e",
+   "sp": "tc",
+   "text": "I'm so sorry about that. What's your room number?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0e9839b8",
+   "sp": "tc",
+   "text": "Coffee or tea?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e43ccfba",
+   "sp": "tc",
+   "text": "No problem. Until what time?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5664a46a",
+   "sp": "tc",
+   "text": "Did you have anything from the minibar?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-e9eb1cf5",
+   "sp": "us",
+   "text": "Breakfast is from seven to ten in the Garden Room, on the second floor.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-dacd15c3",
+   "sp": "ca",
+   "text": "I'm so sorry about that. What's your room number?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-93307bce",
+   "sp": "gb",
+   "text": "No problem. Until what time?",
+   "from": "lab"
+  },
+  {
+   "id": "me-c0555f59",
+   "sp": "me",
+   "text": "Hi, this is room twelve-oh-seven. Could I get two extra towels, please?",
+   "from": "lab"
+  },
+  {
+   "id": "me-96b68e3d",
+   "sp": "me",
+   "text": "Yes, I reserved.",
+   "from": "drill"
+  },
+  {
+   "id": "me-7cf7f864",
+   "sp": "me",
+   "text": "Yes, I have a reservation under Lee.",
+   "from": "drill"
+  },
+  {
+   "id": "me-c71ac6d4",
+   "sp": "me",
+   "text": "It's Park.",
+   "from": "drill"
+  },
+  {
+   "id": "me-a3132a05",
+   "sp": "me",
+   "text": "P, A, R, K.",
+   "from": "drill"
+  },
+  {
+   "id": "me-0b53b31d",
+   "sp": "me",
+   "text": "L, E, E.",
+   "from": "drill"
+  },
+  {
+   "id": "me-dee0c065",
+   "sp": "me",
+   "text": "It's Kim.",
+   "from": "drill"
+  },
+  {
+   "id": "me-ea5ee3e0",
+   "sp": "me",
+   "text": "Sorry, was that room twelve-seventy?",
+   "from": "drill"
+  },
+  {
+   "id": "me-14f208bb",
+   "sp": "me",
+   "text": "Sorry, what was the room number?",
+   "from": "drill"
+  },
+  {
+   "id": "me-99fa3633",
+   "sp": "me",
+   "text": "No, that's all. Thank you.",
+   "from": "drill"
+  },
+  {
+   "id": "me-6aaa41bc",
+   "sp": "me",
+   "text": "Speak slowly!",
+   "from": "drill"
+  },
+  {
+   "id": "me-0cdaed77",
+   "sp": "me",
+   "text": "Give me two towel.",
+   "from": "drill"
+  },
+  {
+   "id": "me-30d8da24",
+   "sp": "me",
+   "text": "Hi, this is room twelve-seventy. Could I get two extra towels, please?",
+   "from": "drill"
+  },
+  {
+   "id": "ca-51d8a57f",
+   "sp": "ca",
+   "text": "Housekeeping. How may I help you?",
+   "from": "drill"
+  },
+  {
+   "id": "me-caf8518c",
+   "sp": "me",
+   "text": "Could you bring up a hair dryer, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-3d01cfac",
+   "sp": "me",
+   "text": "Could you bring up a toothbrush, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-4c4af5c9",
+   "sp": "me",
+   "text": "I want a hair dryer.",
+   "from": "drill"
+  },
+  {
+   "id": "me-8c3979d8",
+   "sp": "me",
+   "text": "The air conditioner isn't working. Could you bring up some towels, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-dd3a7df2",
+   "sp": "me",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "drill"
+  },
+  {
+   "id": "ca-4db6c0f9",
+   "sp": "ca",
+   "text": "I'm sorry to hear that. What seems to be the problem?",
+   "from": "drill"
+  },
+  {
+   "id": "me-ebf3c917",
+   "sp": "me",
+   "text": "I'm locked out. I left my key card in the room. Could you send someone to look at it?",
+   "from": "drill"
+  },
+  {
+   "id": "me-a507a076",
+   "sp": "me",
+   "text": "Change my room.",
+   "from": "drill"
+  },
+  {
+   "id": "me-cdd980c1",
+   "sp": "me",
+   "text": "My key card isn't working. Could I change rooms?",
+   "from": "drill"
+  },
+  {
+   "id": "me-f072e6b1",
+   "sp": "me",
+   "text": "My room is very noise. Could I change rooms?",
+   "from": "drill"
+  },
+  {
+   "id": "me-e7d5e054",
+   "sp": "me",
+   "text": "The room is too cold. Could I change rooms?",
+   "from": "drill"
+  },
+  {
+   "id": "me-1e76bfcd",
+   "sp": "me",
+   "text": "It's eight-fifteen.",
+   "from": "drill"
+  },
+  {
+   "id": "me-dc651930",
+   "sp": "me",
+   "text": "It's eight-fifty.",
+   "from": "drill"
+  },
+  {
+   "id": "me-f236b3fd",
+   "sp": "me",
+   "text": "Room is eight-fifteen.",
+   "from": "drill"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "drill"
+  },
+  {
+   "id": "au-c649da62",
+   "sp": "au",
+   "text": "Morning! Can I just grab your room number real quick?",
+   "from": "drill"
+  },
+  {
+   "id": "me-2369b9a5",
+   "sp": "me",
+   "text": "I can't English.",
+   "from": "drill"
+  },
+  {
+   "id": "me-c264e477",
+   "sp": "me",
+   "text": "Could you hold my luggage until two?",
+   "from": "drill"
+  },
+  {
+   "id": "me-720379fe",
+   "sp": "me",
+   "text": "Could I get a wake-up call at six-thirteen, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-49a3ab14",
+   "sp": "me",
+   "text": "Wake me up at six-thirty.",
+   "from": "drill"
+  },
+  {
+   "id": "me-67cadfbb",
+   "sp": "me",
+   "text": "Yes, just a bottle of water.",
+   "from": "drill"
+  },
+  {
+   "id": "me-a5605f5b",
+   "sp": "me",
+   "text": "That looks right. Thank you.",
+   "from": "drill"
+  },
+  {
+   "id": "me-9930bb05",
+   "sp": "me",
+   "text": "Card, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-0953e6a7",
+   "sp": "me",
+   "text": "Give me pillow.",
+   "from": "drill"
+  },
+  {
+   "id": "me-fef24a32",
+   "sp": "me",
+   "text": "Hi, this is room fourteen-eighteen. Could I get another pillow, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-c79d7697",
+   "sp": "me",
+   "text": "Hi, this is room fourteen-eighty. Could I get another pillow, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-57fa5f42",
+   "sp": "me",
+   "text": "It's fourteen-eighteen.",
+   "from": "drill"
+  },
+  {
+   "id": "me-7ff97e06",
+   "sp": "me",
+   "text": "Thank you.",
+   "from": "drill"
+  },
+  {
+   "id": "me-be342a8f",
+   "sp": "me",
+   "text": "Sorry, what time is check-out?",
+   "from": "drill"
+  },
+  {
+   "id": "us-827a32d5",
+   "sp": "us",
+   "text": "Do you have a reservation?",
+   "from": "shadow"
+  },
+  {
+   "id": "us-aa2e5c59",
+   "sp": "us",
+   "text": "You're in room twelve-oh-seven, on the twelfth floor.",
+   "from": "shadow"
+  },
+  {
+   "id": "us-e851a8a9",
+   "sp": "us",
+   "text": "Breakfast is from seven to ten.",
+   "from": "shadow"
+  },
+  {
+   "id": "me-ad3282f1",
+   "sp": "me",
+   "text": "Is breakfast included?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-96f453d8",
+   "sp": "me",
+   "text": "Could I get a plug adapter, please?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-16dc9f44",
+   "sp": "me",
+   "text": "I'm locked out. I left my key card in the room.",
+   "from": "shadow"
+  },
+  {
+   "id": "me-d7d1d6f0",
+   "sp": "me",
+   "text": "There's no hot water.",
+   "from": "shadow"
+  },
+  {
+   "id": "us-f8e6579a",
+   "sp": "us",
+   "text": "Great. Under what name?",
+   "from": "q"
+  },
+  {
+   "id": "us-cf00bc54",
+   "sp": "us",
+   "text": "Check-out is at eleven.",
+   "from": "q"
+  },
+  {
+   "id": "us-4ddff796",
+   "sp": "us",
+   "text": "The Wi-Fi password is maple24.",
+   "from": "q"
+  },
+  {
+   "id": "au-e308fc71",
+   "sp": "au",
+   "text": "Breakfast isn't included in your rate, so I'll charge it to your room. Is that okay?",
+   "from": "q"
+  },
+  {
+   "id": "gb-ebbcaac4",
+   "sp": "gb",
+   "text": "Of course. Anything else?",
+   "from": "q"
+  },
+  {
+   "id": "gb-265587a5",
+   "sp": "gb",
+   "text": "Sure. What time would you like the call?",
+   "from": "q"
+  },
+  {
+   "id": "us-86b22e10",
+   "sp": "us",
+   "text": "Sure. What's your room number?",
+   "from": "q"
+  }
+ ]
+}

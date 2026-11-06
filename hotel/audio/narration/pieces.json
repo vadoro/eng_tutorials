@@ -1,0 +1,1302 @@
+{
+ "slug": "hotel",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 119,
+  "en": 96,
+  "koChars": 1958,
+  "enChars": 1846
+ },
+ "pieces": [
+  {
+   "id": "k44544fd0",
+   "lang": "ko",
+   "text": "공항과 카페에서는 주로 대답했어요. 호텔에서는 내가 먼저 말을 꺼낼 때가 많아요.",
+   "cap": 0
+  },
+  {
+   "id": "kc77e4825",
+   "lang": "ko",
+   "text": "수건이 더 필요해 프런트에 전화했어요",
+   "cap": 1
+  },
+  {
+   "id": "ee8020ed4",
+   "lang": "en",
+   "text": "Front desk.",
+   "cap": 1
+  },
+  {
+   "id": "ed41665bc",
+   "lang": "en",
+   "text": "How can I help you?",
+   "cap": 1
+  },
+  {
+   "id": "k1bdd1b2e",
+   "lang": "ko",
+   "text": "한국어로 먼저 생각해 옮기면",
+   "cap": 2
+  },
+  {
+   "id": "ea325a966",
+   "lang": "en",
+   "text": "Give me towel.",
+   "cap": 2
+  },
+  {
+   "id": "ke8c10d08",
+   "lang": "ko",
+   "text": "명령처럼 들리고, 방 번호도 빠졌어요.",
+   "cap": 2
+  },
+  {
+   "id": "e23a34865",
+   "lang": "en",
+   "text": "Hi, this is room twelve-oh-seven.",
+   "cap": 3
+  },
+  {
+   "id": "e145ae01d",
+   "lang": "en",
+   "text": "Could I get some extra towels, please?",
+   "cap": 3
+  },
+  {
+   "id": "k0686245c",
+   "lang": "ko",
+   "text": "부탁은 질문으로 해요.",
+   "cap": 3
+  },
+  {
+   "id": "kd5d2afe9",
+   "lang": "ko",
+   "text": "열쇠 낱말 잡기, 틀에 내 정보 넣기, 공손하게 끝내기. 문제가 생기면 , 사실, 부탁.",
+   "cap": 4
+  },
+  {
+   "id": "kf0983e0d",
+   "lang": "ko",
+   "text": "호텔에서 머무는 차례를 일곱 곳으로 나눠 봐요. 1층 프런트에서 체크인하고, 방 열쇠와 안내를 받아요.",
+   "cap": 5
+  },
+  {
+   "id": "k941858ee",
+   "lang": "ko",
+   "text": "12층 객실에서는 전화로 부탁하고, 문제가 생기면 알려요. 아침에는 2층 조식 식당에 가요.",
+   "cap": 6
+  },
+  {
+   "id": "k404e1053",
+   "lang": "ko",
+   "text": "떠나는 날 , 컨시어지에 짐을 맡기고, 프런트에서 체크아웃해요.",
+   "cap": 7
+  },
+  {
+   "id": "k0966e7fa",
+   "lang": "ko",
+   "text": "체크인 , 체크아웃의 질문은 거의 정해져 있어요. 객실과 컨시어지에서는 내가 먼저 말을 꺼내요.",
+   "cap": 8
+  },
+  {
+   "id": "k92577247",
+   "lang": "ko",
+   "text": "절차와 말은 나라와 호텔마다 조금씩 달라요. 여기서는 어디서나 자주 듣는 흐름을 골랐어요.",
+   "cap": 9
+  },
+  {
+   "id": "e749c4020",
+   "lang": "en",
+   "text": "Do you have a reservation?",
+   "cap": 10
+  },
+  {
+   "id": "k3de68ee0",
+   "lang": "ko",
+   "text": "예약했는지 묻는 말. 대답 틀",
+   "cap": 10
+  },
+  {
+   "id": "efc323d9e",
+   "lang": "en",
+   "text": "I have a reservation under",
+   "cap": 10
+  },
+  {
+   "id": "k4ff095e2",
+   "lang": "ko",
+   "text": "성.",
+   "cap": 10
+  },
+  {
+   "id": "e27f7a436",
+   "lang": "en",
+   "text": "Could you spell that, please?",
+   "cap": 11
+  },
+  {
+   "id": "k393b4f60",
+   "lang": "ko",
+   "text": "철자를 한 글자씩",
+   "cap": 11
+  },
+  {
+   "id": "e74ff6565",
+   "lang": "en",
+   "text": "K, I, M.",
+   "cap": 11
+  },
+  {
+   "id": "kd0a64179",
+   "lang": "ko",
+   "text": "성을 다시 말하면 같은 문제가 남아요.",
+   "cap": 11
+  },
+  {
+   "id": "e958f707f",
+   "lang": "en",
+   "text": "How many nights?",
+   "cap": 12
+  },
+  {
+   "id": "k708ad7fb",
+   "lang": "ko",
+   "text": "2박 3일이면",
+   "cap": 12
+  },
+  {
+   "id": "eab3c47f3",
+   "lang": "en",
+   "text": "two nights.",
+   "cap": 12
+  },
+  {
+   "id": "k102ea8d9",
+   "lang": "ko",
+   "text": "호텔은 밤(",
+   "cap": 12
+  },
+  {
+   "id": "e173da394",
+   "lang": "en",
+   "text": "night",
+   "cap": 12
+  },
+  {
+   "id": "k225ec016",
+   "lang": "ko",
+   "text": ")으로 세요.",
+   "cap": 12
+  },
+  {
+   "id": "kb5e3d6a0",
+   "lang": "ko",
+   "text": "3일을 옮긴",
+   "cap": 13
+  },
+  {
+   "id": "e68edef68",
+   "lang": "en",
+   "text": "Three days , 3",
+   "cap": 13
+  },
+  {
+   "id": "k670cedb5",
+   "lang": "ko",
+   "text": "박으로 들릴 수 있어요. 동안을 옮긴",
+   "cap": 13
+  },
+  {
+   "id": "ec684b46c",
+   "lang": "en",
+   "text": "During two nights",
+   "cap": 13
+  },
+  {
+   "id": "kd4162970",
+   "lang": "ko",
+   "text": "도 어색해요.",
+   "cap": 13
+  },
+  {
+   "id": "ec58bb8fa",
+   "lang": "en",
+   "text": "Can I see your passport, please?",
+   "cap": 14
+  },
+  {
+   "id": "ke7e4753e",
+   "lang": "ko",
+   "text": "보여 달라는 부탁. 건네며",
+   "cap": 14
+  },
+  {
+   "id": "e0571775a",
+   "lang": "en",
+   "text": "Sure, here you go.",
+   "cap": 14
+  },
+  {
+   "id": "k397b0c59",
+   "lang": "ko",
+   "text": "추가 요금(",
+   "cap": 15
+  },
+  {
+   "id": "e199cf46e",
+   "lang": "en",
+   "text": "incidentals",
+   "cap": 15
+  },
+  {
+   "id": "k7d31981a",
+   "lang": "ko",
+   "text": ")에 대비해 카드를 잠깐 잡아 두기도 해요. 금액과 방법은 호텔마다 달라요.",
+   "cap": 15
+  },
+  {
+   "id": "kbab15e26",
+   "lang": "ko",
+   "text": "카드 키를 주면서 숫자를 빠르게 말해요",
+   "cap": 16
+  },
+  {
+   "id": "ee0196cca",
+   "lang": "en",
+   "text": "You're in room twelve-oh-seven, on the twelfth floor.",
+   "cap": 16
+  },
+  {
+   "id": "k3dfc40eb",
+   "lang": "ko",
+   "text": "방 번호는 두 자리씩",
+   "cap": 17
+  },
+  {
+   "id": "e22587e85",
+   "lang": "en",
+   "text": "twelve-oh-seven.",
+   "cap": 17
+  },
+  {
+   "id": "kf8746291",
+   "lang": "ko",
+   "text": "0은",
+   "cap": 17
+  },
+  {
+   "id": "e54f7de39",
+   "lang": "en",
+   "text": "oh.",
+   "cap": 17
+  },
+  {
+   "id": "ea77d74ec",
+   "lang": "en",
+   "text": "twelve-seventy , 1270",
+   "cap": 17
+  },
+  {
+   "id": "ke87423d3",
+   "lang": "ko",
+   "text": "호예요.",
+   "cap": 17
+  },
+  {
+   "id": "kba08cd3a",
+   "lang": "ko",
+   "text": "시각",
+   "cap": 18
+  },
+  {
+   "id": "e9b9593ff",
+   "lang": "en",
+   "text": "from seven to ten, at eleven.",
+   "cap": 18
+  },
+  {
+   "id": "k5aacd629",
+   "lang": "ko",
+   "text": "헷갈리는 숫자",
+   "cap": 18
+  },
+  {
+   "id": "ed14b8743",
+   "lang": "en",
+   "text": "fifteen, fifty.",
+   "cap": 18
+  },
+  {
+   "id": "k2deeaf70",
+   "lang": "ko",
+   "text": "센 곳이 달라요.",
+   "cap": 18
+  },
+  {
+   "id": "ke23e318e",
+   "lang": "ko",
+   "text": "헷갈리면 되물어요",
+   "cap": 19
+  },
+  {
+   "id": "e22b343a0",
+   "lang": "en",
+   "text": "Sorry, was that room twelve-oh-seven?",
+   "cap": 19
+  },
+  {
+   "id": "k3c9b8085",
+   "lang": "ko",
+   "text": "일부만 들렸으면",
+   "cap": 19
+  },
+  {
+   "id": "ef495125c",
+   "lang": "en",
+   "text": "Sorry, what time is breakfast?",
+   "cap": 19
+  },
+  {
+   "id": "kc09554ce",
+   "lang": "ko",
+   "text": "더 물어볼 것",
+   "cap": 20
+  },
+  {
+   "id": "eb544b0f6",
+   "lang": "en",
+   "text": "Is breakfast included?",
+   "cap": 20
+  },
+  {
+   "id": "k9d0e6dc1",
+   "lang": "ko",
+   "text": "서비스를 옮긴",
+   "cap": 20
+  },
+  {
+   "id": "e1cbb3945",
+   "lang": "en",
+   "text": "Is breakfast service?",
+   "cap": 20
+  },
+  {
+   "id": "ka401eb2c",
+   "lang": "ko",
+   "text": "통하지 않아요.",
+   "cap": 20
+  },
+  {
+   "id": "kcb521af8",
+   "lang": "ko",
+   "text": "영국은 층 이름이 달라요 , 1층",
+   "cap": 21
+  },
+  {
+   "id": "e3d777fe7",
+   "lang": "en",
+   "text": "ground floor, 2",
+   "cap": 21
+  },
+  {
+   "id": "k7240f944",
+   "lang": "ko",
+   "text": "층",
+   "cap": 21
+  },
+  {
+   "id": "ef5d5dc60",
+   "lang": "en",
+   "text": "first floor.",
+   "cap": 21
+  },
+  {
+   "id": "kd40c345c",
+   "lang": "ko",
+   "text": "객실에서 전화",
+   "cap": 22
+  },
+  {
+   "id": "k62622b58",
+   "lang": "ko",
+   "text": "이제 내가 부탁할 차례예요.",
+   "cap": 22
+  },
+  {
+   "id": "k09102d46",
+   "lang": "ko",
+   "text": "부탁 틀 둘",
+   "cap": 23
+  },
+  {
+   "id": "eacfa90e4",
+   "lang": "en",
+   "text": "Could I get",
+   "cap": 23
+  },
+  {
+   "id": "k3d3a487a",
+   "lang": "ko",
+   "text": "필요한 것? 내가 받을 때.",
+   "cap": 23
+  },
+  {
+   "id": "e828a92b9",
+   "lang": "en",
+   "text": "Could you bring up",
+   "cap": 23
+  },
+  {
+   "id": "kc9907996",
+   "lang": "ko",
+   "text": "필요한 것? 직원이 해 줄 때.",
+   "cap": 23
+  },
+  {
+   "id": "k6d53a899",
+   "lang": "ko",
+   "text": "칸만 바꿔요",
+   "cap": 24
+  },
+  {
+   "id": "ee54c09de",
+   "lang": "en",
+   "text": "two extra towels, another pillow, a toothbrush, a plug adapter, a hair dryer.",
+   "cap": 24
+  },
+  {
+   "id": "k88743b25",
+   "lang": "ko",
+   "text": "드라이기",
+   "cap": 25
+  },
+  {
+   "id": "ea518343f",
+   "lang": "en",
+   "text": "a dryer.",
+   "cap": 25
+  },
+  {
+   "id": "k4265e53b",
+   "lang": "ko",
+   "text": "옷 말리는 건조기로 들을 수도 있어요. 분명하게",
+   "cap": 25
+  },
+  {
+   "id": "ead56ad61",
+   "lang": "en",
+   "text": "a hair dryer.",
+   "cap": 25
+  },
+  {
+   "id": "kbc4727df",
+   "lang": "ko",
+   "text": "콘센트",
+   "cap": 26
+  },
+  {
+   "id": "e2951bdbf",
+   "lang": "en",
+   "text": "outlet",
+   "cap": 26
+  },
+  {
+   "id": "kb55de4d7",
+   "lang": "ko",
+   "text": "리모컨",
+   "cap": 26
+  },
+  {
+   "id": "e73233938",
+   "lang": "en",
+   "text": "remote",
+   "cap": 26
+  },
+  {
+   "id": "k412f9872",
+   "lang": "ko",
+   "text": "모닝콜",
+   "cap": 26
+  },
+  {
+   "id": "e091fdf48",
+   "lang": "en",
+   "text": "wake-up call",
+   "cap": 26
+  },
+  {
+   "id": "kaa8a4837",
+   "lang": "ko",
+   "text": "프런트",
+   "cap": 26
+  },
+  {
+   "id": "e0ddeae34",
+   "lang": "en",
+   "text": "front desk.",
+   "cap": 26
+  },
+  {
+   "id": "k7bed5c95",
+   "lang": "ko",
+   "text": "명령처럼 들려요. 부탁을 질문으로 하면 공손해져요.",
+   "cap": 27
+  },
+  {
+   "id": "kb4d82e4d",
+   "lang": "ko",
+   "text": "문제가 생기면 사실, 부탁. 사실",
+   "cap": 28
+  },
+  {
+   "id": "e5d8c3569",
+   "lang": "en",
+   "text": "The air conditioner isn't working.",
+   "cap": 28
+  },
+  {
+   "id": "k817e0fee",
+   "lang": "ko",
+   "text": "부탁",
+   "cap": 29
+  },
+  {
+   "id": "eb3121109",
+   "lang": "en",
+   "text": "Could you send someone to look at it?",
+   "cap": 29
+  },
+  {
+   "id": "k5be4603c",
+   "lang": "ko",
+   "text": "문제마다 어울리는 부탁이 있어요.",
+   "cap": 29
+  },
+  {
+   "id": "k275be8d0",
+   "lang": "ko",
+   "text": "사실 틀 셋",
+   "cap": 30
+  },
+  {
+   "id": "ef5dc0301",
+   "lang": "en",
+   "text": "The",
+   "cap": 30
+  },
+  {
+   "id": "kfff86221",
+   "lang": "ko",
+   "text": "빈칸",
+   "cap": 30
+  },
+  {
+   "id": "e3d926776",
+   "lang": "en",
+   "text": "isn't working.",
+   "cap": 30
+  },
+  {
+   "id": "e321c3d49",
+   "lang": "en",
+   "text": "There's no",
+   "cap": 30
+  },
+  {
+   "id": "k6f96ee87",
+   "lang": "ko",
+   "text": "빈칸 .",
+   "cap": 30
+  },
+  {
+   "id": "e48c56dbe",
+   "lang": "en",
+   "text": "The room is too",
+   "cap": 30
+  },
+  {
+   "id": "k43ab2003",
+   "lang": "ko",
+   "text": "시끄러우면",
+   "cap": 31
+  },
+  {
+   "id": "ec1526c8d",
+   "lang": "en",
+   "text": "Could I change rooms?",
+   "cap": 31
+  },
+  {
+   "id": "ke1df0fbf",
+   "lang": "ko",
+   "text": "카드 키를 두고 나왔으면",
+   "cap": 31
+  },
+  {
+   "id": "ea222bcc1",
+   "lang": "en",
+   "text": "I'm locked out.",
+   "cap": 31
+  },
+  {
+   "id": "e23517424",
+   "lang": "en",
+   "text": "Fix it.",
+   "cap": 32
+  },
+  {
+   "id": "e5527e623",
+   "lang": "en",
+   "text": "Change my room.",
+   "cap": 32
+  },
+  {
+   "id": "k69fb573b",
+   "lang": "ko",
+   "text": "따지는 말처럼 들려요.",
+   "cap": 32
+  },
+  {
+   "id": "e6c98e29c",
+   "lang": "en",
+   "text": "TV doesn't come out.",
+   "cap": 32
+  },
+  {
+   "id": "k3408c03a",
+   "lang": "ko",
+   "text": "무슨 뜻인지 알기 어려워요.",
+   "cap": 32
+  },
+  {
+   "id": "e92b900d6",
+   "lang": "en",
+   "text": "Hot water doesn't come out.",
+   "cap": 33
+  },
+  {
+   "id": "k4ea228fb",
+   "lang": "ko",
+   "text": "통하긴 해요. 보통은",
+   "cap": 33
+  },
+  {
+   "id": "e38412e9d",
+   "lang": "en",
+   "text": "There's no hot water.",
+   "cap": 33
+  },
+  {
+   "id": "e9cad6b43",
+   "lang": "en",
+   "text": "outlet.",
+   "cap": 33
+  },
+  {
+   "id": "ka3866d08",
+   "lang": "ko",
+   "text": "조식 식당",
+   "cap": 34
+  },
+  {
+   "id": "e9227b10e",
+   "lang": "en",
+   "text": "What's your room number?",
+   "cap": 34
+  },
+  {
+   "id": "k70c429ea",
+   "lang": "ko",
+   "text": "대답",
+   "cap": 34
+  },
+  {
+   "id": "eb3de4768",
+   "lang": "en",
+   "text": "It's twelve-oh-seven.",
+   "cap": 34
+  },
+  {
+   "id": "k0d7cd9c4",
+   "lang": "ko",
+   "text": "카드 키 봉투의 번호를 써요.",
+   "cap": 34
+  },
+  {
+   "id": "e9fe9b346",
+   "lang": "en",
+   "text": "Room is twelve-oh-seven.",
+   "cap": 35
+  },
+  {
+   "id": "kb1233c46",
+   "lang": "ko",
+   "text": "틀린 문장.",
+   "cap": 35
+  },
+  {
+   "id": "e8682618c",
+   "lang": "en",
+   "text": "twelve-seventy",
+   "cap": 35
+  },
+  {
+   "id": "kad224120",
+   "lang": "ko",
+   "text": "다른 방이에요.",
+   "cap": 35
+  },
+  {
+   "id": "ed9f24d42",
+   "lang": "en",
+   "text": "Coffee or tea?",
+   "cap": 35
+  },
+  {
+   "id": "e771d1d6e",
+   "lang": "en",
+   "text": "Coffee, please.",
+   "cap": 35
+  },
+  {
+   "id": "kc62d6401",
+   "lang": "ko",
+   "text": "컨시어지",
+   "cap": 36
+  },
+  {
+   "id": "e664b12df",
+   "lang": "en",
+   "text": "How can I help you today?",
+   "cap": 36
+  },
+  {
+   "id": "k297a5256",
+   "lang": "ko",
+   "text": "짐을 맡기려면",
+   "cap": 36
+  },
+  {
+   "id": "e3a397e52",
+   "lang": "en",
+   "text": "Could you hold my luggage until three?",
+   "cap": 36
+  },
+  {
+   "id": "k1c95fc8a",
+   "lang": "ko",
+   "text": "시각까지 말하면",
+   "cap": 37
+  },
+  {
+   "id": "eb5dda4d6",
+   "lang": "en",
+   "text": "Until what time?",
+   "cap": 37
+  },
+  {
+   "id": "ka5e746df",
+   "lang": "ko",
+   "text": "질문을 건너뛰어요.",
+   "cap": 37
+  },
+  {
+   "id": "ebb986131",
+   "lang": "en",
+   "text": "Keep my bag.",
+   "cap": 37
+  },
+  {
+   "id": "kfbe1684b",
+   "lang": "ko",
+   "text": "명령처럼 들려요.",
+   "cap": 37
+  },
+  {
+   "id": "k3420a5f0",
+   "lang": "ko",
+   "text": "택시",
+   "cap": 38
+  },
+  {
+   "id": "ee32b3a1b",
+   "lang": "en",
+   "text": "Could you call a taxi for me, please?",
+   "cap": 38
+  },
+  {
+   "id": "k3f14c57d",
+   "lang": "ko",
+   "text": "깨워 주는 전화",
+   "cap": 38
+  },
+  {
+   "id": "e90383559",
+   "lang": "en",
+   "text": "a wake-up call at six-thirty.",
+   "cap": 38
+  },
+  {
+   "id": "e403e5907",
+   "lang": "en",
+   "text": "Is late check-out possible?",
+   "cap": 39
+  },
+  {
+   "id": "e3b623124",
+   "lang": "en",
+   "text": "morning call.",
+   "cap": 39
+  },
+  {
+   "id": "k4b5c8b92",
+   "lang": "ko",
+   "text": "통하는 호텔이 많지만, 영어로는 보통",
+   "cap": 39
+  },
+  {
+   "id": "ec32cad92",
+   "lang": "en",
+   "text": "wake-up call.",
+   "cap": 39
+  },
+  {
+   "id": "e91e2b323",
+   "lang": "en",
+   "text": "Checking out?",
+   "cap": 40
+  },
+  {
+   "id": "e89f4d425",
+   "lang": "en",
+   "text": "Yes, room twelve-oh-seven.",
+   "cap": 40
+  },
+  {
+   "id": "k502f2744",
+   "lang": "ko",
+   "text": "방 번호까지 말하면 직원이 다시 묻지 않아요.",
+   "cap": 40
+  },
+  {
+   "id": "e560bc454",
+   "lang": "en",
+   "text": "Did you have anything from the minibar?",
+   "cap": 41
+  },
+  {
+   "id": "kbcce8cf5",
+   "lang": "ko",
+   "text": "없으면",
+   "cap": 41
+  },
+  {
+   "id": "ee4af780c",
+   "lang": "en",
+   "text": "No, nothing.",
+   "cap": 41
+  },
+  {
+   "id": "k5e5c1829",
+   "lang": "ko",
+   "text": "과거로 물었으니",
+   "cap": 41
+  },
+  {
+   "id": "e94694f54",
+   "lang": "en",
+   "text": "No, I don't.",
+   "cap": 41
+  },
+  {
+   "id": "k32f1edf6",
+   "lang": "ko",
+   "text": "틀린 대답이에요.",
+   "cap": 41
+  },
+  {
+   "id": "e902e83da",
+   "lang": "en",
+   "text": "How was your stay?",
+   "cap": 42
+  },
+  {
+   "id": "k69a42404",
+   "lang": "ko",
+   "text": "어땠는지 묻는 말이에요",
+   "cap": 42
+  },
+  {
+   "id": "eb7ff9258",
+   "lang": "en",
+   "text": "It was great, thank you.",
+   "cap": 42
+  },
+  {
+   "id": "k208e97e8",
+   "lang": "ko",
+   "text": "합계를 말해요",
+   "cap": 43
+  },
+  {
+   "id": "e6b018add",
+   "lang": "en",
+   "text": "Your total is",
+   "cap": 43
+  },
+  {
+   "id": "k3c24745a",
+   "lang": "ko",
+   "text": "334달러 40센트. 청구서를 숙박 카드와 맞춰 봐요.",
+   "cap": 43
+  },
+  {
+   "id": "k7f851101",
+   "lang": "ko",
+   "text": "쓰지 않은 미니바 요금이 있어요.",
+   "cap": 44
+  },
+  {
+   "id": "e8ef59692",
+   "lang": "en",
+   "text": "This bill is wrong.",
+   "cap": 44
+  },
+  {
+   "id": "e8141d676",
+   "lang": "en",
+   "text": "I think there's a mistake on my bill.",
+   "cap": 45
+  },
+  {
+   "id": "e95162181",
+   "lang": "en",
+   "text": "I didn't use the minibar.",
+   "cap": 45
+  },
+  {
+   "id": "e23c61585",
+   "lang": "en",
+   "text": "I think",
+   "cap": 45
+  },
+  {
+   "id": "k698b26a7",
+   "lang": "ko",
+   "text": "부드럽게, 무엇이 다른지 말해요.",
+   "cap": 45
+  },
+  {
+   "id": "kc6ec9b62",
+   "lang": "ko",
+   "text": "짧게",
+   "cap": 46
+  },
+  {
+   "id": "e761c023e",
+   "lang": "en",
+   "text": "Towels, please.",
+   "cap": 46
+  },
+  {
+   "id": "kc106e518",
+   "lang": "ko",
+   "text": "그러면 직원이 다시 물어요",
+   "cap": 46
+  },
+  {
+   "id": "ecbf548ec",
+   "lang": "en",
+   "text": "How many?",
+   "cap": 46
+  },
+  {
+   "id": "kaa48caef",
+   "lang": "ko",
+   "text": "주고받기가 세 번. 전화 한 줄에 순서대로 넣어 볼까요? 인사, 방 번호, 부탁 틀, 필요한 것",
+   "cap": 47
+  },
+  {
+   "id": "eb2faafee",
+   "lang": "en",
+   "text": "please.",
+   "cap": 47
+  },
+  {
+   "id": "e7e93ce47",
+   "lang": "en",
+   "text": "Could I get two extra towels, please?",
+   "cap": 48
+  },
+  {
+   "id": "k06a0aeab",
+   "lang": "ko",
+   "text": "그러면 직원은 방 번호와 몇 개인지 묻지 않아요",
+   "cap": 49
+  },
+  {
+   "id": "e2f3548ae",
+   "lang": "en",
+   "text": "Sure, I'll send them up right away.",
+   "cap": 49
+  },
+  {
+   "id": "k27b745b2",
+   "lang": "ko",
+   "text": "끝인사 , 맨 끝에. 맨 앞에 두면 어색해요. 방 번호는 끝에 말해도 통하지만, 먼저 말하면 더 좋아요.",
+   "cap": 50
+  },
+  {
+   "id": "k4858be20",
+   "lang": "ko",
+   "text": "세 번이 한 번으로 줄었어요. 이 순서는 자주 쓰는 순서를 단순하게 줄인 규칙이에요.",
+   "cap": 51
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 52
+  },
+  {
+   "id": "k50886444",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말 잡기 , 무엇을 묻나? 내가 먼저 말할 때는 , 무엇을 부탁하나?",
+   "cap": 53
+  },
+  {
+   "id": "k3c81e6d5",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기",
+   "cap": 54
+  },
+  {
+   "id": "e946864a5",
+   "lang": "en",
+   "text": "This is room",
+   "cap": 54
+  },
+  {
+   "id": "kb52cbb0a",
+   "lang": "ko",
+   "text": "번호. 사실, 부탁.",
+   "cap": 54
+  },
+  {
+   "id": "k383245d4",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기",
+   "cap": 55
+  },
+  {
+   "id": "e20fffe88",
+   "lang": "en",
+   "text": "Could I",
+   "cap": 55
+  },
+  {
+   "id": "e9cb9aad3",
+   "lang": "en",
+   "text": "Could you , , please?",
+   "cap": 55
+  },
+  {
+   "id": "e98171a19",
+   "lang": "en",
+   "text": "Thank you.",
+   "cap": 55
+  },
+  {
+   "id": "kccc68b88",
+   "lang": "ko",
+   "text": "일곱 곳에 한 줄씩 적용했어요. 부탁도 문제도 질문으로 하면 공손해요.",
+   "cap": 56
+  },
+  {
+   "id": "kf06609e0",
+   "lang": "ko",
+   "text": "실전이에요. 숙박 카드 , 이지수, 3박 4일, 815호. 첫 질문",
+   "cap": 57
+  },
+  {
+   "id": "k7958cf3a",
+   "lang": "ko",
+   "text": "첫째, 씨",
+   "cap": 58
+  },
+  {
+   "id": "ef0ab30ab",
+   "lang": "en",
+   "text": "It's Lee.",
+   "cap": 58
+  },
+  {
+   "id": "k12ca2b12",
+   "lang": "ko",
+   "text": "이름이라 탈락. 둘째, 에이",
+   "cap": 58
+  },
+  {
+   "id": "ef9ea8991",
+   "lang": "en",
+   "text": "Four days.",
+   "cap": 58
+  },
+  {
+   "id": "k493e6819",
+   "lang": "ko",
+   "text": "호텔은 밤으로 세요.",
+   "cap": 58
+  },
+  {
+   "id": "ka80f7ea7",
+   "lang": "ko",
+   "text": "정답 비",
+   "cap": 59
+  },
+  {
+   "id": "e2ad2ac7d",
+   "lang": "en",
+   "text": "Three nights.",
+   "cap": 59
+  },
+  {
+   "id": "kccecb476",
+   "lang": "ko",
+   "text": "첫째, 비",
+   "cap": 60
+  },
+  {
+   "id": "k4a192187",
+   "lang": "ko",
+   "text": "마실 것이라 탈락.",
+   "cap": 60
+  },
+  {
+   "id": "k2c0eae61",
+   "lang": "ko",
+   "text": "둘째, 에이",
+   "cap": 61
+  },
+  {
+   "id": "e3ae737c6",
+   "lang": "en",
+   "text": "eight-fifty",
+   "cap": 61
+  },
+  {
+   "id": "k8074af25",
+   "lang": "ko",
+   "text": "탈락. 카드 키 봉투의 번호",
+   "cap": 61
+  },
+  {
+   "id": "e42591575",
+   "lang": "en",
+   "text": "eight-fifteen.",
+   "cap": 61
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 62
+  },
+  {
+   "id": "ec184b168",
+   "lang": "en",
+   "text": "It's eight-fifteen.",
+   "cap": 62
+  },
+  {
+   "id": "k442f5b8c",
+   "lang": "ko",
+   "text": "뜨거운 물이 안 나와요. 첫째, 셋 모두 문제를 말하는 대답이에요.",
+   "cap": 63
+  },
+  {
+   "id": "kd6091cc9",
+   "lang": "ko",
+   "text": "둘째, 비 수건을 가져다 달라는 부탁 , 문제와 맞지 않아 탈락.",
+   "cap": 64
+  },
+  {
+   "id": "kd1cb3732",
+   "lang": "ko",
+   "text": "셋째, 에이",
+   "cap": 65
+  },
+  {
+   "id": "k80b26ac8",
+   "lang": "ko",
+   "text": "명령처럼 들려 탈락. 정답 씨",
+   "cap": 65
+  },
+  {
+   "id": "k033f3264",
+   "lang": "ko",
+   "text": "청구서",
+   "cap": 66
+  },
+  {
+   "id": "kaffb1aaa",
+   "lang": "ko",
+   "text": "660달러. 첫째, 비",
+   "cap": 66
+  },
+  {
+   "id": "ec760a3ac",
+   "lang": "en",
+   "text": "Card, please.",
+   "cap": 66
+  },
+  {
+   "id": "kb7cee7da",
+   "lang": "ko",
+   "text": "계산 방법이라 탈락.",
+   "cap": 66
+  },
+  {
+   "id": "k75ed0715",
+   "lang": "ko",
+   "text": "둘째, 청구서는 4박, 숙박 카드는 3박이에요. 남은 둘 모두 실수를 알려요.",
+   "cap": 67
+  },
+  {
+   "id": "k3b50e40e",
+   "lang": "ko",
+   "text": "따지는 말이라 탈락. 정답 씨",
+   "cap": 68
+  },
+  {
+   "id": "ed08e3664",
+   "lang": "en",
+   "text": "I only stayed three nights.",
+   "cap": 68
+  },
+  {
+   "id": "k1de38010",
+   "lang": "ko",
+   "text": "정리해요. 체크인 , 체크아웃은 열쇠 낱말로 무엇을 묻는지 잡고, 짧은 틀에 내 정보를 넣어요.",
+   "cap": 69
+  },
+  {
+   "id": "k87a21ffe",
+   "lang": "ko",
+   "text": "객실에서는 내가 먼저 , 부탁은 질문으로, 문제는 사실, 부탁. 방 번호는 두 자리씩",
+   "cap": 70
+  },
+  {
+   "id": "k0f34e782",
+   "lang": "ko",
+   "text": "못 알아들으면 되물어요",
+   "cap": 71
+  },
+  {
+   "id": "k1b45d4f4",
+   "lang": "ko",
+   "text": "아래 호텔 숙박 시뮬레이터에서 내 숙박 카드로 처음부터 끝까지 머물러 보세요.",
+   "cap": 72
+  }
+ ]
+}
