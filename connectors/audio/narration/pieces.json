@@ -1,0 +1,1393 @@
+{
+ "slug": "connectors",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 92,
+  "en": 138,
+  "say": 80,
+  "koChars": 1996,
+  "enChars": 2996
+ },
+ "pieces": [
+  {
+   "id": "kd3588e0f",
+   "lang": "ko",
+   "text": "토익 파트 5의 단골, 연결어 문제예요. 접속사, 전치사, 접속부사를 함께 다뤄요.",
+   "cap": 0
+  },
+  {
+   "id": "kc2c05dc7",
+   "lang": "ko",
+   "text": "보기를 보세요.",
+   "cap": 1
+  },
+  {
+   "id": "e977d3938",
+   "lang": "en",
+   "text": "Although, Despite",
+   "cap": 1
+  },
+  {
+   "id": "k6fdcd1c0",
+   "lang": "ko",
+   "text": "둘 다 뜻이 에도 불구하고예요.",
+   "cap": 1
+  },
+  {
+   "id": "k2c626fab",
+   "lang": "ko",
+   "text": "뜻이 같은데 정답은 하나뿐이에요. 무엇이 둘을 가를까요?",
+   "cap": 2
+  },
+  {
+   "id": "k3c9d4013",
+   "lang": "ko",
+   "text": "답은 빈칸 뒤에 있어요. 정답은 영상 끝에서 함께 풀어요.",
+   "cap": 3
+  },
+  {
+   "id": "k426ed894",
+   "lang": "ko",
+   "text": "연결어의 세 갈래, 뜻으로 고르기, 그리고 3단계 풀이법을 차례로 배워요.",
+   "cap": 4
+  },
+  {
+   "id": "k681e7ec9",
+   "lang": "ko",
+   "text": "한국어부터 볼까요? 비가 왔지만, 비에도 불구하고, 비가 왔다. 그러나. 뜻은 모두 같아요.",
+   "cap": 5
+  },
+  {
+   "id": "ke5de1ef2",
+   "lang": "ko",
+   "text": "그런데 모양이 달라요. 왔지만은 두 문장을 하나로 잇고, 에도 불구하고는 명사 비에 붙어요.",
+   "cap": 6
+  },
+  {
+   "id": "kc7ed9d7e",
+   "lang": "ko",
+   "text": "그러나는 마침표로 끝난 문장 다음, 새 문장 맨 앞에 와요.",
+   "cap": 7
+  },
+  {
+   "id": "kb1dffcc7",
+   "lang": "ko",
+   "text": "영어도 같아요. 접속사(",
+   "cap": 8
+  },
+  {
+   "id": "ee81d78f6",
+   "lang": "en",
+   "text": "conjunction",
+   "cap": 8
+  },
+  {
+   "id": "ec2fa8094",
+   "lang": "en",
+   "text": "although",
+   "cap": 8
+  },
+  {
+   "id": "k69110910",
+   "lang": "ko",
+   "text": "주어와 동사가 있는 덩어리, 곧 절(",
+   "cap": 8
+  },
+  {
+   "id": "ec0d7628f",
+   "lang": "en",
+   "text": "clause",
+   "cap": 8
+  },
+  {
+   "id": "kc231e976",
+   "lang": "ko",
+   "text": ") 두 개를 이어요.",
+   "cap": 8
+  },
+  {
+   "id": "k969e8821",
+   "lang": "ko",
+   "text": "전치사(",
+   "cap": 9
+  },
+  {
+   "id": "eafbaeae8",
+   "lang": "en",
+   "text": "preposition",
+   "cap": 9
+  },
+  {
+   "id": "e85f429ca",
+   "lang": "en",
+   "text": "despite",
+   "cap": 9
+  },
+  {
+   "id": "kcbde9206",
+   "lang": "ko",
+   "text": "뒤에 명사를 붙여요. 주어와 동사는 오지 않아요.",
+   "cap": 9
+  },
+  {
+   "id": "ka19e5ad1",
+   "lang": "ko",
+   "text": "접속부사(",
+   "cap": 10
+  },
+  {
+   "id": "e1f6d0d26",
+   "lang": "en",
+   "text": "conjunctive adverb",
+   "cap": 10
+  },
+  {
+   "id": "e8bc6c18c",
+   "lang": "en",
+   "text": "however",
+   "cap": 10
+  },
+  {
+   "id": "k2c0e275d",
+   "lang": "ko",
+   "text": "마침표 뒤 새 문장 앞에서 앞 문장을 가리켜요.",
+   "cap": 10
+  },
+  {
+   "id": "ke13d1e28",
+   "lang": "ko",
+   "text": "빈칸 뒤를 자세히 볼게요. 열쇠는 동사예요. 동사가 있으면 절, 없으면 명사구예요.",
+   "cap": 11
+  },
+  {
+   "id": "keaa4df95",
+   "lang": "ko",
+   "text": "빈칸 뒤",
+   "cap": 12
+  },
+  {
+   "id": "ebf829332",
+   "lang": "en",
+   "text": "the heavy rain.",
+   "cap": 12
+  },
+  {
+   "id": "k83fe02bc",
+   "lang": "ko",
+   "text": "명사를 중심으로 모인 명사구(",
+   "cap": 12
+  },
+  {
+   "id": "e33a313f7",
+   "lang": "en",
+   "text": "noun phrase",
+   "cap": 12
+  },
+  {
+   "id": "kf4308a35",
+   "lang": "ko",
+   "text": "), 동사가 없어요. 그래서 전치사",
+   "cap": 12
+  },
+  {
+   "id": "ea3e2950c",
+   "lang": "en",
+   "text": "Despite.",
+   "cap": 12
+  },
+  {
+   "id": "k389bf6a5",
+   "lang": "ko",
+   "text": "빈칸 뒤를 바꿔 볼게요",
+   "cap": 13
+  },
+  {
+   "id": "ee70b24f8",
+   "lang": "en",
+   "text": "it rained heavily.",
+   "cap": 13
+  },
+  {
+   "id": "kddeb8891",
+   "lang": "ko",
+   "text": "주어",
+   "cap": 13
+  },
+  {
+   "id": "e60d2011f",
+   "lang": "en",
+   "text": "it",
+   "cap": 13
+  },
+  {
+   "id": "k954c8684",
+   "lang": "ko",
+   "text": "동사",
+   "cap": 13
+  },
+  {
+   "id": "e6cdc7c8d",
+   "lang": "en",
+   "text": "rained.",
+   "cap": 13
+  },
+  {
+   "id": "k6f728ad7",
+   "lang": "ko",
+   "text": "절이니까 접속사",
+   "cap": 13
+  },
+  {
+   "id": "efd9f746e",
+   "lang": "en",
+   "text": "Although.",
+   "cap": 13
+  },
+  {
+   "id": "k8d8ad7c1",
+   "lang": "ko",
+   "text": "잉 꼴에 속지 마세요.",
+   "cap": 14
+  },
+  {
+   "id": "e5724e457",
+   "lang": "en",
+   "text": "despite being late.",
+   "cap": 14
+  },
+  {
+   "id": "kf6764ec2",
+   "lang": "ko",
+   "text": "여기서 잉 덩어리는 명사처럼 쓰는 동명사예요.",
+   "cap": 14
+  },
+  {
+   "id": "k22b09e60",
+   "lang": "ko",
+   "text": "같은 뜻끼리 짝지어 외워요.",
+   "cap": 15
+  },
+  {
+   "id": "e2f937ef3",
+   "lang": "en",
+   "text": "although , despite, because , because of, while , during.",
+   "cap": 15
+  },
+  {
+   "id": "k0b8c9ad7",
+   "lang": "ko",
+   "text": "연결어를 표 하나로 정리해 볼게요. 가로줄은 뜻, 세로줄은 갈래예요.",
+   "cap": 16
+  },
+  {
+   "id": "kee6a39b1",
+   "lang": "ko",
+   "text": "대조",
+   "cap": 17
+  },
+  {
+   "id": "e71be1564",
+   "lang": "en",
+   "text": "although, despite, however.",
+   "cap": 17
+  },
+  {
+   "id": "kd01fef8b",
+   "lang": "ko",
+   "text": "뜻은 같고 갈래만 달라요.",
+   "cap": 17
+  },
+  {
+   "id": "kd5fa4715",
+   "lang": "ko",
+   "text": "이유",
+   "cap": 18
+  },
+  {
+   "id": "eea65dbef",
+   "lang": "en",
+   "text": "because, because of.",
+   "cap": 18
+  },
+  {
+   "id": "k390374e7",
+   "lang": "ko",
+   "text": "결과를 이끄는 접속부사",
+   "cap": 18
+  },
+  {
+   "id": "e0138bddc",
+   "lang": "en",
+   "text": "therefore.",
+   "cap": 18
+  },
+  {
+   "id": "kb708c881",
+   "lang": "ko",
+   "text": "시간",
+   "cap": 19
+  },
+  {
+   "id": "e09c5ab2c",
+   "lang": "en",
+   "text": "while, during.",
+   "cap": 19
+  },
+  {
+   "id": "k3ddc36ba",
+   "lang": "ko",
+   "text": "부정 조건",
+   "cap": 19
+  },
+  {
+   "id": "ec29968bc",
+   "lang": "en",
+   "text": "unless, without, otherwise.",
+   "cap": 19
+  },
+  {
+   "id": "k8f9d96d5",
+   "lang": "ko",
+   "text": "추가",
+   "cap": 19
+  },
+  {
+   "id": "e80b691f5",
+   "lang": "en",
+   "text": "moreover.",
+   "cap": 19
+  },
+  {
+   "id": "k39802333",
+   "lang": "ko",
+   "text": "문제를 풀 때는 먼저 세로줄에서 갈래를 정하고, 그다음 가로줄에서 뜻을 골라요.",
+   "cap": 20
+  },
+  {
+   "id": "k92884a88",
+   "lang": "ko",
+   "text": "보기가 모두 접속사라면? 그때는 뜻으로 골라요. 토익에 자주 나오는 접속사를 볼게요.",
+   "cap": 21
+  },
+  {
+   "id": "e24dc2164",
+   "lang": "en",
+   "text": "unless",
+   "cap": 22
+  },
+  {
+   "id": "kda4bbe68",
+   "lang": "ko",
+   "text": "하지 않으면, 곧",
+   "cap": 22
+  },
+  {
+   "id": "e2744db56",
+   "lang": "en",
+   "text": "if , not.",
+   "cap": 22
+  },
+  {
+   "id": "e2e845a7e",
+   "lang": "en",
+   "text": "Unless you register by Friday.",
+   "cap": 22
+  },
+  {
+   "id": "k65e7acf7",
+   "lang": "ko",
+   "text": "그래서 이 문장은 금요일까지 등록하지 않으면 할인이 없다는 뜻이에요.",
+   "cap": 23
+  },
+  {
+   "id": "e717b3217",
+   "lang": "en",
+   "text": "once",
+   "cap": 24
+  },
+  {
+   "id": "k5a936a07",
+   "lang": "ko",
+   "text": "일단 하면.",
+   "cap": 24
+  },
+  {
+   "id": "e726103f8",
+   "lang": "en",
+   "text": "as long as, provided that",
+   "cap": 24
+  },
+  {
+   "id": "k658a56b1",
+   "lang": "ko",
+   "text": "하는 한, 라면.",
+   "cap": 24
+  },
+  {
+   "id": "ee7826585",
+   "lang": "en",
+   "text": "so that",
+   "cap": 25
+  },
+  {
+   "id": "kd98fda04",
+   "lang": "ko",
+   "text": "하도록, 목적을 말해요.",
+   "cap": 25
+  },
+  {
+   "id": "ed3067991",
+   "lang": "en",
+   "text": "whereas",
+   "cap": 25
+  },
+  {
+   "id": "kf94b1969",
+   "lang": "ko",
+   "text": "인 반면, 두 사실을 맞대요.",
+   "cap": 25
+  },
+  {
+   "id": "e77a6187d",
+   "lang": "en",
+   "text": "even though",
+   "cap": 26
+  },
+  {
+   "id": "kd2c29d3a",
+   "lang": "ko",
+   "text": "이긴 하지만. 대조의 뜻을 더 힘주어 말해요.",
+   "cap": 26
+  },
+  {
+   "id": "k481a8a88",
+   "lang": "ko",
+   "text": "두 낱말이 짝을 이루는 접속사도 있어요. 앞 낱말이 보이면 뒤 짝이 정해져요.",
+   "cap": 27
+  },
+  {
+   "id": "ecba3cecf",
+   "lang": "en",
+   "text": "either A or B, neither A nor B, both A and B, not only A but also B.",
+   "cap": 28
+  },
+  {
+   "id": "kd2d07925",
+   "lang": "ko",
+   "text": "빈칸 앞에",
+   "cap": 29
+  },
+  {
+   "id": "ec97d5e7f",
+   "lang": "en",
+   "text": "either",
+   "cap": 29
+  },
+  {
+   "id": "kefa71724",
+   "lang": "ko",
+   "text": "짝은",
+   "cap": 29
+  },
+  {
+   "id": "e74b76943",
+   "lang": "en",
+   "text": "or.",
+   "cap": 29
+  },
+  {
+   "id": "e0f6b9405",
+   "lang": "en",
+   "text": "You can apply either online or by phone.",
+   "cap": 29
+  },
+  {
+   "id": "kdad08d73",
+   "lang": "ko",
+   "text": "거꾸로 빈칸 뒤에",
+   "cap": 30
+  },
+  {
+   "id": "e2c0f0ef9",
+   "lang": "en",
+   "text": "nor",
+   "cap": 30
+  },
+  {
+   "id": "k556c57b3",
+   "lang": "ko",
+   "text": "빈칸은",
+   "cap": 30
+  },
+  {
+   "id": "ed31b9091",
+   "lang": "en",
+   "text": "Neither.",
+   "cap": 30
+  },
+  {
+   "id": "eb4a22dff",
+   "lang": "en",
+   "text": "Neither the manager nor her assistant was available.",
+   "cap": 30
+  },
+  {
+   "id": "ke30f4614",
+   "lang": "ko",
+   "text": "동사의 수도 짝이 정해요.",
+   "cap": 31
+  },
+  {
+   "id": "e86504729",
+   "lang": "en",
+   "text": "both A and B",
+   "cap": 31
+  },
+  {
+   "id": "k35e61fe5",
+   "lang": "ko",
+   "text": "복수 동사.",
+   "cap": 31
+  },
+  {
+   "id": "e4e2021d3",
+   "lang": "en",
+   "text": "either A or B",
+   "cap": 31
+  },
+  {
+   "id": "k820cfe95",
+   "lang": "ko",
+   "text": "동사는 가까운 쪽을 따라요.",
+   "cap": 31
+  },
+  {
+   "id": "k5ec39ca0",
+   "lang": "ko",
+   "text": "접속부사는 뜻으로는 앞뒤를 잇지만, 문법으로는 두 절을 붙이지 못해요.",
+   "cap": 32
+  },
+  {
+   "id": "ka85349aa",
+   "lang": "ko",
+   "text": "그래서 쉼표 하나로 두 절을 이으면 틀린 문장이 돼요.",
+   "cap": 33
+  },
+  {
+   "id": "ed2205257",
+   "lang": "en",
+   "text": "Sales rose, however profits fell.",
+   "cap": 33
+  },
+  {
+   "id": "k6d4f2215",
+   "lang": "ko",
+   "text": "고치는 방법은 셋이에요. 마침표로 끊거나, 세미콜론을 찍거나, 접속사로 바꿔요.",
+   "cap": 34
+  },
+  {
+   "id": "ke8e5659c",
+   "lang": "ko",
+   "text": "토익에서는 빈칸 앞이 마침표나 세미콜론이고, 뒤에 쉼표가 오면 접속부사 자리예요.",
+   "cap": 35
+  },
+  {
+   "id": "k241a9f8f",
+   "lang": "ko",
+   "text": "그러나",
+   "cap": 36
+  },
+  {
+   "id": "e0dd9641a",
+   "lang": "en",
+   "text": "therefore",
+   "cap": 36
+  },
+  {
+   "id": "kf5349bf1",
+   "lang": "ko",
+   "text": "그러므로",
+   "cap": 36
+  },
+  {
+   "id": "e179b7379",
+   "lang": "en",
+   "text": "moreover",
+   "cap": 36
+  },
+  {
+   "id": "k3d78c3e3",
+   "lang": "ko",
+   "text": "게다가",
+   "cap": 36
+  },
+  {
+   "id": "e38632920",
+   "lang": "en",
+   "text": "otherwise",
+   "cap": 36
+  },
+  {
+   "id": "k5088f1ec",
+   "lang": "ko",
+   "text": "그렇지 않으면.",
+   "cap": 36
+  },
+  {
+   "id": "k6eea8e4c",
+   "lang": "ko",
+   "text": "이 자리에 접속사는 못 와요. 마침표 뒤 문장에는 절이 하나뿐이라 이을 짝이 없거든요.",
+   "cap": 37
+  },
+  {
+   "id": "k78056994",
+   "lang": "ko",
+   "text": "여러 낱말이 모여 전치사 하나처럼 쓰이는 말도 있어요.",
+   "cap": 38
+  },
+  {
+   "id": "e9d043ea2",
+   "lang": "en",
+   "text": "prior to, due to, on behalf of.",
+   "cap": 38
+  },
+  {
+   "id": "kb97e1eab",
+   "lang": "ko",
+   "text": "덩어리 전체가 전치사라서 뒤에 명사구가 와요.",
+   "cap": 39
+  },
+  {
+   "id": "ed37bdec8",
+   "lang": "en",
+   "text": "Prior to the meeting, please read the agenda.",
+   "cap": 39
+  },
+  {
+   "id": "kaedc9479",
+   "lang": "ko",
+   "text": "잉으로 끝나지만 전치사인 말도 있어요.",
+   "cap": 40
+  },
+  {
+   "id": "e24a55d31",
+   "lang": "en",
+   "text": "following, including, regarding.",
+   "cap": 40
+  },
+  {
+   "id": "eb8c0a1c9",
+   "lang": "en",
+   "text": "following",
+   "cap": 41
+  },
+  {
+   "id": "k547602f5",
+   "lang": "ko",
+   "text": "뒤에",
+   "cap": 41
+  },
+  {
+   "id": "eb477f9a5",
+   "lang": "en",
+   "text": "including",
+   "cap": 41
+  },
+  {
+   "id": "kb2871cd7",
+   "lang": "ko",
+   "text": "을 포함해",
+   "cap": 41
+  },
+  {
+   "id": "e9f3bda43",
+   "lang": "en",
+   "text": "regarding",
+   "cap": 41
+  },
+  {
+   "id": "kc257b7e1",
+   "lang": "ko",
+   "text": "에 관해.",
+   "cap": 41
+  },
+  {
+   "id": "kf1221ef8",
+   "lang": "ko",
+   "text": "함정 하나.",
+   "cap": 42
+  },
+  {
+   "id": "e25704740",
+   "lang": "en",
+   "text": "in addition to",
+   "cap": 42
+  },
+  {
+   "id": "k17412fd3",
+   "lang": "ko",
+   "text": "전치사",
+   "cap": 42
+  },
+  {
+   "id": "eea2f43db",
+   "lang": "en",
+   "text": "In addition",
+   "cap": 42
+  },
+  {
+   "id": "ke59d8c03",
+   "lang": "ko",
+   "text": "접속부사. 끝의 낱말 하나로 갈래가 바뀌어요.",
+   "cap": 42
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 43
+  },
+  {
+   "id": "ke331733b",
+   "lang": "ko",
+   "text": "첫째, 뒤를 봐요. 빈칸 뒤가 명사구인지, 주어와 동사가 있는 절인지 확인해요.",
+   "cap": 44
+  },
+  {
+   "id": "k97858103",
+   "lang": "ko",
+   "text": "둘째, 갈래를 정해요. 명사구면 전치사, 절이면 접속사, 마침표 뒤 쉼표 자리면 접속부사.",
+   "cap": 45
+  },
+  {
+   "id": "k32a59bb3",
+   "lang": "ko",
+   "text": "셋째, 뜻을 골라요. 남은 보기 가운데 앞뒤 관계, 곧 대조, 이유, 조건, 시간에 맞는 말이 답이에요.",
+   "cap": 46
+  },
+  {
+   "id": "k213a3b62",
+   "lang": "ko",
+   "text": "짝 낱말이 보이면 짝을 맞추면 돼요. 이 순서로 토익 문제를 풀어 볼까요?",
+   "cap": 47
+  },
+  {
+   "id": "k0be69de2",
+   "lang": "ko",
+   "text": "처음 본 문제예요. 첫째, 빈칸 뒤",
+   "cap": 48
+  },
+  {
+   "id": "kb59d3495",
+   "lang": "ko",
+   "text": "동사가 없는 명사구예요.",
+   "cap": 48
+  },
+  {
+   "id": "k2f7bb74a",
+   "lang": "ko",
+   "text": "둘째, 명사구 앞 , 전치사 자리. 접속사 둘과 접속부사 하나를 지워요.",
+   "cap": 49
+  },
+  {
+   "id": "k4f761a2e",
+   "lang": "ko",
+   "text": "셋째, 남은",
+   "cap": 50
+  },
+  {
+   "id": "eb9176e6a",
+   "lang": "en",
+   "text": "Despite",
+   "cap": 50
+  },
+  {
+   "id": "k3b6f08ef",
+   "lang": "ko",
+   "text": "에도 불구하고. 비가 와도 공연이 열렸으니 뜻도 맞아요. 정답은",
+   "cap": 50
+  },
+  {
+   "id": "e5656a600",
+   "lang": "en",
+   "text": "B",
+   "cap": 50
+  },
+  {
+   "id": "k8cb3bc82",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째, 빈칸 뒤",
+   "cap": 51
+  },
+  {
+   "id": "e74fb453c",
+   "lang": "en",
+   "text": "you register.",
+   "cap": 51
+  },
+  {
+   "id": "ke4521432",
+   "lang": "ko",
+   "text": "주어와 동사가 있는 절이에요.",
+   "cap": 51
+  },
+  {
+   "id": "k6ddb60bc",
+   "lang": "ko",
+   "text": "둘째, 절 앞 , 접속사 자리. 전치사 하나를 지우면 접속사 셋이 남아요.",
+   "cap": 52
+  },
+  {
+   "id": "kf2388341",
+   "lang": "ko",
+   "text": "셋째, 등록하지 않으면 할인이 없다는 뜻",
+   "cap": 53
+  },
+  {
+   "id": "e5088677e",
+   "lang": "en",
+   "text": "unless.",
+   "cap": 53
+  },
+  {
+   "id": "k4039e339",
+   "lang": "ko",
+   "text": "정답은",
+   "cap": 53
+  },
+  {
+   "id": "e5c56af72",
+   "lang": "en",
+   "text": "D",
+   "cap": 53
+  },
+  {
+   "id": "k052482ab",
+   "lang": "ko",
+   "text": "세 번째. 첫째, 빈칸 앞에 마침표, 뒤에 쉼표와 완전한 문장이 있어요.",
+   "cap": 54
+  },
+  {
+   "id": "k7d25d883",
+   "lang": "ko",
+   "text": "둘째, 마침표 뒤 쉼표 자리 , 접속부사. 접속사와 전치사를 지우면 둘이 남아요.",
+   "cap": 55
+  },
+  {
+   "id": "ke0ec4ef9",
+   "lang": "ko",
+   "text": "셋째, 매출은 올랐는데 이익은 줄었어요. 반대니까 대조",
+   "cap": 56
+  },
+  {
+   "id": "ea2f3e626",
+   "lang": "en",
+   "text": "However.",
+   "cap": 56
+  },
+  {
+   "id": "kbb79ca5f",
+   "lang": "ko",
+   "text": "정리해요. 연결어 문제는 뜻보다 먼저 빈칸 뒤를 봐요.",
+   "cap": 57
+  },
+  {
+   "id": "kaa3f81db",
+   "lang": "ko",
+   "text": "명사구가 오면 전치사, 주어와 동사가 오면 접속사, 마침표 뒤 쉼표 자리는 접속부사.",
+   "cap": 58
+  },
+  {
+   "id": "ka6e8847c",
+   "lang": "ko",
+   "text": "갈래로 보기를 줄인 다음, 남은 보기 가운데 뜻이 맞는 말을 골라요.",
+   "cap": 59
+  },
+  {
+   "id": "k32546c78",
+   "lang": "ko",
+   "text": "아래 연결어 조립대와 연습 문제로 손에 익혀 보세요.",
+   "cap": 60
+  },
+  {
+   "id": "ef20e7f9e",
+   "lang": "en",
+   "text": "Despite the heavy rain, the outdoor concert was not canceled.",
+   "from": "say"
+  },
+  {
+   "id": "e01541634",
+   "lang": "en",
+   "text": "Although it rained, the concert continued.",
+   "from": "say"
+  },
+  {
+   "id": "e4ffd0581",
+   "lang": "en",
+   "text": "Despite the rain, the concert continued.",
+   "from": "say"
+  },
+  {
+   "id": "e8fe4b5e6",
+   "lang": "en",
+   "text": "It rained. However, the concert continued.",
+   "from": "say"
+  },
+  {
+   "id": "ea3498318",
+   "lang": "en",
+   "text": "Despite the heavy rain, the concert continued.",
+   "from": "say"
+  },
+  {
+   "id": "e7b4482a4",
+   "lang": "en",
+   "text": "Although it rained heavily, the concert continued.",
+   "from": "say"
+  },
+  {
+   "id": "eb8015c83",
+   "lang": "en",
+   "text": "despite being late",
+   "from": "say"
+  },
+  {
+   "id": "e8c17fb4d",
+   "lang": "en",
+   "text": "although she was late",
+   "from": "say"
+  },
+  {
+   "id": "ee467156f",
+   "lang": "en",
+   "text": "although, even though",
+   "from": "say"
+  },
+  {
+   "id": "e784776d1",
+   "lang": "en",
+   "text": "despite, in spite of",
+   "from": "say"
+  },
+  {
+   "id": "e6e3d695c",
+   "lang": "en",
+   "text": "however, nevertheless",
+   "from": "say"
+  },
+  {
+   "id": "ed30770ac",
+   "lang": "en",
+   "text": "because, since",
+   "from": "say"
+  },
+  {
+   "id": "e58ec9b68",
+   "lang": "en",
+   "text": "because of, due to",
+   "from": "say"
+  },
+  {
+   "id": "eaf2dc346",
+   "lang": "en",
+   "text": "therefore, as a result",
+   "from": "say"
+  },
+  {
+   "id": "ebbcb3e9c",
+   "lang": "en",
+   "text": "while, before",
+   "from": "say"
+  },
+  {
+   "id": "e857b013e",
+   "lang": "en",
+   "text": "during, prior to",
+   "from": "say"
+  },
+  {
+   "id": "ea79730b0",
+   "lang": "en",
+   "text": "meanwhile",
+   "from": "say"
+  },
+  {
+   "id": "e89a6ea12",
+   "lang": "en",
+   "text": "without",
+   "from": "say"
+  },
+  {
+   "id": "e3fbe61da",
+   "lang": "en",
+   "text": "moreover, in addition",
+   "from": "say"
+  },
+  {
+   "id": "e0aec0e27",
+   "lang": "en",
+   "text": "Unless you register by Friday, the discount will not apply.",
+   "from": "say"
+  },
+  {
+   "id": "e61a64082",
+   "lang": "en",
+   "text": "either … or",
+   "from": "say"
+  },
+  {
+   "id": "e7cab5bcc",
+   "lang": "en",
+   "text": "neither … nor",
+   "from": "say"
+  },
+  {
+   "id": "e926f2666",
+   "lang": "en",
+   "text": "both … and",
+   "from": "say"
+  },
+  {
+   "id": "e9d8ca415",
+   "lang": "en",
+   "text": "not only … but also",
+   "from": "say"
+  },
+  {
+   "id": "e846c9a79",
+   "lang": "en",
+   "text": "Both the manager and her assistant are here.",
+   "from": "say"
+  },
+  {
+   "id": "e86b35c86",
+   "lang": "en",
+   "text": "Either the manager or her assistants are here.",
+   "from": "say"
+  },
+  {
+   "id": "ec091e65f",
+   "lang": "en",
+   "text": "Sales rose. However, profits fell.",
+   "from": "say"
+  },
+  {
+   "id": "e845e7406",
+   "lang": "en",
+   "text": "Sales rose; however, profits fell.",
+   "from": "say"
+  },
+  {
+   "id": "eec04d5bb",
+   "lang": "en",
+   "text": "Although sales rose, profits fell.",
+   "from": "say"
+  },
+  {
+   "id": "e97e07f7d",
+   "lang": "en",
+   "text": "Sales rose. Although, profits fell.",
+   "from": "say"
+  },
+  {
+   "id": "e031f5de7",
+   "lang": "en",
+   "text": "prior to",
+   "from": "say"
+  },
+  {
+   "id": "e3658be69",
+   "lang": "en",
+   "text": "due to",
+   "from": "say"
+  },
+  {
+   "id": "e7c79398a",
+   "lang": "en",
+   "text": "on behalf of",
+   "from": "say"
+  },
+  {
+   "id": "ef8aa48b1",
+   "lang": "en",
+   "text": "instead of",
+   "from": "say"
+  },
+  {
+   "id": "e67fc9680",
+   "lang": "en",
+   "text": "following the merger",
+   "from": "say"
+  },
+  {
+   "id": "eefabcae2",
+   "lang": "en",
+   "text": "including part-time staff",
+   "from": "say"
+  },
+  {
+   "id": "e6863b614",
+   "lang": "en",
+   "text": "regarding the new policy",
+   "from": "say"
+  },
+  {
+   "id": "e189a5750",
+   "lang": "en",
+   "text": "In addition to its low price, it is fast.",
+   "from": "say"
+  },
+  {
+   "id": "ea4a32ab4",
+   "lang": "en",
+   "text": "It is cheap. In addition, it is fast.",
+   "from": "say"
+  },
+  {
+   "id": "ea8da880e",
+   "lang": "en",
+   "text": "Unless you register by Friday, the early-bird discount will not apply.",
+   "from": "say"
+  },
+  {
+   "id": "edbbaf4e9",
+   "lang": "en",
+   "text": "Our sales rose last quarter. However, our profits fell.",
+   "from": "say"
+  },
+  {
+   "id": "e7d69d295",
+   "lang": "en",
+   "text": "though",
+   "from": "say"
+  },
+  {
+   "id": "ef20d70e7",
+   "lang": "en",
+   "text": "while",
+   "from": "say"
+  },
+  {
+   "id": "ec1c38286",
+   "lang": "en",
+   "text": "because",
+   "from": "say"
+  },
+  {
+   "id": "ea1934724",
+   "lang": "en",
+   "text": "since",
+   "from": "say"
+  },
+  {
+   "id": "e72d21d75",
+   "lang": "en",
+   "text": "if",
+   "from": "say"
+  },
+  {
+   "id": "e0695751c",
+   "lang": "en",
+   "text": "as long as",
+   "from": "say"
+  },
+  {
+   "id": "e3031786a",
+   "lang": "en",
+   "text": "provided that",
+   "from": "say"
+  },
+  {
+   "id": "ec1c6a5ca",
+   "lang": "en",
+   "text": "when",
+   "from": "say"
+  },
+  {
+   "id": "efb763ddb",
+   "lang": "en",
+   "text": "as soon as",
+   "from": "say"
+  },
+  {
+   "id": "e5275857d",
+   "lang": "en",
+   "text": "before",
+   "from": "say"
+  },
+  {
+   "id": "e8d20beb8",
+   "lang": "en",
+   "text": "after",
+   "from": "say"
+  },
+  {
+   "id": "e52a3429a",
+   "lang": "en",
+   "text": "until",
+   "from": "say"
+  },
+  {
+   "id": "e256781cd",
+   "lang": "en",
+   "text": "in spite of",
+   "from": "say"
+  },
+  {
+   "id": "e4991dbb3",
+   "lang": "en",
+   "text": "because of",
+   "from": "say"
+  },
+  {
+   "id": "ee147d731",
+   "lang": "en",
+   "text": "owing to",
+   "from": "say"
+  },
+  {
+   "id": "ed31da38b",
+   "lang": "en",
+   "text": "during",
+   "from": "say"
+  },
+  {
+   "id": "ea5a4184a",
+   "lang": "en",
+   "text": "concerning",
+   "from": "say"
+  },
+  {
+   "id": "eba5b7b8a",
+   "lang": "en",
+   "text": "nevertheless",
+   "from": "say"
+  },
+  {
+   "id": "eac59ba3a",
+   "lang": "en",
+   "text": "as a result",
+   "from": "say"
+  },
+  {
+   "id": "eae1dfc06",
+   "lang": "en",
+   "text": "consequently",
+   "from": "say"
+  },
+  {
+   "id": "e8ec139dd",
+   "lang": "en",
+   "text": "furthermore",
+   "from": "say"
+  },
+  {
+   "id": "ee6c7e43b",
+   "lang": "en",
+   "text": "in addition",
+   "from": "say"
+  },
+  {
+   "id": "e17605670",
+   "lang": "en",
+   "text": "instead",
+   "from": "say"
+  },
+  {
+   "id": "ea37c9dfc",
+   "lang": "en",
+   "text": "Both the manager and her assistant attended the meeting.",
+   "from": "say"
+  },
+  {
+   "id": "ee985817a",
+   "lang": "en",
+   "text": "The new laptop is not only light but also fast.",
+   "from": "say"
+  },
+  {
+   "id": "ebd329e1a",
+   "lang": "en",
+   "text": "Because the train was delayed, we missed the speech.",
+   "from": "say"
+  },
+  {
+   "id": "e44839a73",
+   "lang": "en",
+   "text": "Due to the train delay, we missed the speech.",
+   "from": "say"
+  },
+  {
+   "id": "ebddfd12c",
+   "lang": "en",
+   "text": "The train was delayed. Therefore, we missed the speech.",
+   "from": "say"
+  },
+  {
+   "id": "ed48529a1",
+   "lang": "en",
+   "text": "While the guests were arriving, the staff set the tables.",
+   "from": "say"
+  },
+  {
+   "id": "e565231b0",
+   "lang": "en",
+   "text": "During the reception, the staff set the tables.",
+   "from": "say"
+  },
+  {
+   "id": "e97b4733a",
+   "lang": "en",
+   "text": "The guests were arriving. Meanwhile, the staff set the tables.",
+   "from": "say"
+  },
+  {
+   "id": "eb1d47d5d",
+   "lang": "en",
+   "text": "Unless you have a pass, you cannot enter the lab.",
+   "from": "say"
+  },
+  {
+   "id": "ed4f2bb6c",
+   "lang": "en",
+   "text": "Without a pass, you cannot enter the lab.",
+   "from": "say"
+  },
+  {
+   "id": "e7a8ed337",
+   "lang": "en",
+   "text": "You need a pass. Otherwise, you cannot enter the lab.",
+   "from": "say"
+  },
+  {
+   "id": "e1ec698b0",
+   "lang": "en",
+   "text": "In addition to its low price, the printer is fast.",
+   "from": "say"
+  },
+  {
+   "id": "e8986f7f8",
+   "lang": "en",
+   "text": "The printer is cheap. Moreover, it is fast.",
+   "from": "say"
+  },
+  {
+   "id": "ef40ac898",
+   "lang": "en",
+   "text": "Sales rose; therefore, profits fell.",
+   "from": "say"
+  },
+  {
+   "id": "e92ca41e6",
+   "lang": "en",
+   "text": "Sales rose; although, profits fell.",
+   "from": "say"
+  },
+  {
+   "id": "e7e2e8368",
+   "lang": "en",
+   "text": "Sales rose; despite, profits fell.",
+   "from": "say"
+  }
+ ]
+}
