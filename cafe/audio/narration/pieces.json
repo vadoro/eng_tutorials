@@ -1,0 +1,1278 @@
+{
+ "slug": "cafe",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 123,
+  "en": 88,
+  "koChars": 2093,
+  "enChars": 1367
+ },
+ "pieces": [
+  {
+   "id": "k63ee5000",
+   "lang": "ko",
+   "text": "카페 주문대에서 듣는 질문은 거의 같고, 순서도 거의 정해져 있어요.",
+   "cap": 0
+  },
+  {
+   "id": "k6a13d97b",
+   "lang": "ko",
+   "text": "바리스타가 물어요",
+   "cap": 1
+  },
+  {
+   "id": "e0ae6d73c",
+   "lang": "en",
+   "text": "Hi!",
+   "cap": 1
+  },
+  {
+   "id": "e90f9f3cf",
+   "lang": "en",
+   "text": "What can I get you?",
+   "cap": 1
+  },
+  {
+   "id": "k9a239079",
+   "lang": "ko",
+   "text": "무엇을 주문할지 묻는 말이에요.",
+   "cap": 1
+  },
+  {
+   "id": "k1bdd1b2e",
+   "lang": "ko",
+   "text": "한국어로 먼저 생각해 옮기면",
+   "cap": 2
+  },
+  {
+   "id": "ef0c6c27b",
+   "lang": "en",
+   "text": "Give me one ice americano.",
+   "cap": 2
+  },
+  {
+   "id": "k2bf1e297",
+   "lang": "ko",
+   "text": "명령처럼 들리고 낱말도 어색해요.",
+   "cap": 2
+  },
+  {
+   "id": "kd67f66b9",
+   "lang": "ko",
+   "text": "자연스러운 주문",
+   "cap": 3
+  },
+  {
+   "id": "e8c9fbc29",
+   "lang": "en",
+   "text": "Can I get an iced americano?",
+   "cap": 3
+  },
+  {
+   "id": "k46b8b1f3",
+   "lang": "ko",
+   "text": "차가운 음료는",
+   "cap": 3
+  },
+  {
+   "id": "ecb876c17",
+   "lang": "en",
+   "text": "iced",
+   "cap": 3
+  },
+  {
+   "id": "k4273aed1",
+   "lang": "ko",
+   "text": "그 앞에는",
+   "cap": 3
+  },
+  {
+   "id": "eb519c7a1",
+   "lang": "en",
+   "text": "an.",
+   "cap": 3
+  },
+  {
+   "id": "k5fd9b726",
+   "lang": "ko",
+   "text": "열쇠 낱말 잡기, 대답 틀에 내 정보 넣기, 공손하게 끝내기. 순서를 알면 다음 질문도 들려요.",
+   "cap": 4
+  },
+  {
+   "id": "k50c37cec",
+   "lang": "ko",
+   "text": "카페 주문 길은 일곱 단계예요. 문으로 들어가 줄을 서고, 메뉴판을 보며 주문해요.",
+   "cap": 5
+  },
+  {
+   "id": "kca6521ee",
+   "lang": "ko",
+   "text": "그다음 , 크기와 온도, 옵션, 이름과 포장, 계산대, 그리고 픽업대에서 음료를 받아요.",
+   "cap": 6
+  },
+  {
+   "id": "kb45fbb76",
+   "lang": "ko",
+   "text": "단계마다 듣는 질문은 한두 개뿐이에요. 크기",
+   "cap": 7
+  },
+  {
+   "id": "e3dda0d62",
+   "lang": "en",
+   "text": "What size?",
+   "cap": 7
+  },
+  {
+   "id": "k0fea18be",
+   "lang": "ko",
+   "text": "포장",
+   "cap": 7
+  },
+  {
+   "id": "ed2a53a34",
+   "lang": "en",
+   "text": "For here or to go?",
+   "cap": 7
+  },
+  {
+   "id": "k96f9a6fa",
+   "lang": "ko",
+   "text": "순서를 알면 다음 질문을 미리 알 수 있어요. 빠르게 말해도 들리는 까닭이에요.",
+   "cap": 8
+  },
+  {
+   "id": "kcc255d05",
+   "lang": "ko",
+   "text": "질문과 순서는 가게와 나라마다 조금씩 달라요. 여기서는 어디서나 자주 듣는 흐름을 골랐어요.",
+   "cap": 9
+  },
+  {
+   "id": "k62d4f121",
+   "lang": "ko",
+   "text": "줄 맨 앞에 서면",
+   "cap": 10
+  },
+  {
+   "id": "e7264501a",
+   "lang": "en",
+   "text": "Are you ready to order?",
+   "cap": 10
+  },
+  {
+   "id": "k829ece25",
+   "lang": "ko",
+   "text": "아직 고르는 중이면",
+   "cap": 10
+  },
+  {
+   "id": "e84255409",
+   "lang": "en",
+   "text": "Not yet.",
+   "cap": 10
+  },
+  {
+   "id": "e21ca6eb3",
+   "lang": "en",
+   "text": "Just a minute, please.",
+   "cap": 10
+  },
+  {
+   "id": "kbcd3b411",
+   "lang": "ko",
+   "text": "무엇을 주문할지 물어요. 대답 틀",
+   "cap": 11
+  },
+  {
+   "id": "e8ea906fb",
+   "lang": "en",
+   "text": "Can I get",
+   "cap": 11
+  },
+  {
+   "id": "kff1e8af2",
+   "lang": "ko",
+   "text": "음료?",
+   "cap": 11
+  },
+  {
+   "id": "k2a47dac9",
+   "lang": "ko",
+   "text": "같은 뜻의 질문",
+   "cap": 12
+  },
+  {
+   "id": "e273789c6",
+   "lang": "en",
+   "text": "What would you like?",
+   "cap": 12
+  },
+  {
+   "id": "ke02528eb",
+   "lang": "ko",
+   "text": "다른 틀로",
+   "cap": 12
+  },
+  {
+   "id": "e54efc3dd",
+   "lang": "en",
+   "text": "I'd like",
+   "cap": 12
+  },
+  {
+   "id": "k59de68b9",
+   "lang": "ko",
+   "text": "음료",
+   "cap": 12
+  },
+  {
+   "id": "eb2faafee",
+   "lang": "en",
+   "text": "please.",
+   "cap": 12
+  },
+  {
+   "id": "k0791d3d3",
+   "lang": "ko",
+   "text": "음료 한 잔 앞에는",
+   "cap": 13
+  },
+  {
+   "id": "e3abe3d95",
+   "lang": "en",
+   "text": "a.",
+   "cap": 13
+  },
+  {
+   "id": "kff561866",
+   "lang": "ko",
+   "text": "모음 소리로 시작하는 말 앞에서는",
+   "cap": 13
+  },
+  {
+   "id": "e9c842160",
+   "lang": "en",
+   "text": "an , a latte, an americano, an iced latte.",
+   "cap": 13
+  },
+  {
+   "id": "k46241087",
+   "lang": "ko",
+   "text": "아이스 아메리카노를 그대로 옮기면",
+   "cap": 14
+  },
+  {
+   "id": "e359ae611",
+   "lang": "en",
+   "text": "an ice americano.",
+   "cap": 14
+  },
+  {
+   "id": "k811af873",
+   "lang": "ko",
+   "text": "얼음을 넣어 차갑게 만든 음료",
+   "cap": 14
+  },
+  {
+   "id": "e9f2f5dbb",
+   "lang": "en",
+   "text": "iced.",
+   "cap": 14
+  },
+  {
+   "id": "ef92ebab6",
+   "lang": "en",
+   "text": "Give me one americano.",
+   "cap": 15
+  },
+  {
+   "id": "e7b0b4e12",
+   "lang": "en",
+   "text": "I want a latte.",
+   "cap": 15
+  },
+  {
+   "id": "kd998f2c5",
+   "lang": "ko",
+   "text": "명령하거나 조르는 말처럼 들려요. 주문은",
+   "cap": 15
+  },
+  {
+   "id": "k60242299",
+   "lang": "ko",
+   "text": "다음은 크기.",
+   "cap": 16
+  },
+  {
+   "id": "kbea270bf",
+   "lang": "ko",
+   "text": "고른 크기",
+   "cap": 16
+  },
+  {
+   "id": "efb095191",
+   "lang": "en",
+   "text": "please , Medium, please.",
+   "cap": 16
+  },
+  {
+   "id": "k6e8351b8",
+   "lang": "ko",
+   "text": "문장 전체가 아니어도 돼요.",
+   "cap": 16
+  },
+  {
+   "id": "e59dfaa58",
+   "lang": "en",
+   "text": "Hot or iced?",
+   "cap": 17
+  },
+  {
+   "id": "k6b5e7031",
+   "lang": "ko",
+   "text": "둘 가운데 고르라는 말이에요. 아이스를 그대로 옮긴",
+   "cap": 17
+  },
+  {
+   "id": "e37432529",
+   "lang": "en",
+   "text": "Ice",
+   "cap": 17
+  },
+  {
+   "id": "k7e748e61",
+   "lang": "ko",
+   "text": "대신",
+   "cap": 17
+  },
+  {
+   "id": "e9e3f5d19",
+   "lang": "en",
+   "text": "Iced, please.",
+   "cap": 17
+  },
+  {
+   "id": "k77927df2",
+   "lang": "ko",
+   "text": "고르기 질문의 열쇠 낱말",
+   "cap": 18
+  },
+  {
+   "id": "e74b76943",
+   "lang": "en",
+   "text": "or.",
+   "cap": 18
+  },
+  {
+   "id": "k667db9de",
+   "lang": "ko",
+   "text": "고른 것을 말해야 해요.",
+   "cap": 18
+  },
+  {
+   "id": "e60161af3",
+   "lang": "en",
+   "text": "Yes, please.",
+   "cap": 18
+  },
+  {
+   "id": "k61c7f102",
+   "lang": "ko",
+   "text": "무엇을 골랐는지 몰라요.",
+   "cap": 18
+  },
+  {
+   "id": "kc58778af",
+   "lang": "ko",
+   "text": "크기 이름은 가게마다 달라요. 흔한 이름",
+   "cap": 19
+  },
+  {
+   "id": "e9e6ab421",
+   "lang": "en",
+   "text": "small, medium, large.",
+   "cap": 19
+  },
+  {
+   "id": "k70c3cd45",
+   "lang": "ko",
+   "text": "낯설면 컵을 가리키며",
+   "cap": 19
+  },
+  {
+   "id": "e666fc4ce",
+   "lang": "en",
+   "text": "This one, please.",
+   "cap": 19
+  },
+  {
+   "id": "ke8679505",
+   "lang": "ko",
+   "text": "사이즈업은 한국에서 만든 말이에요. 이미 주문한 음료를 키우려면",
+   "cap": 20
+  },
+  {
+   "id": "e4a90a969",
+   "lang": "en",
+   "text": "Can I make it a large?",
+   "cap": 20
+  },
+  {
+   "id": "k7a1b3f4e",
+   "lang": "ko",
+   "text": "옵션.",
+   "cap": 21
+  },
+  {
+   "id": "eff39d90f",
+   "lang": "en",
+   "text": "What kind of milk?",
+   "cap": 21
+  },
+  {
+   "id": "k91baa04e",
+   "lang": "ko",
+   "text": "우유 종류를 고르라는 말",
+   "cap": 21
+  },
+  {
+   "id": "ed59dcbab",
+   "lang": "en",
+   "text": "Oat milk, please.",
+   "cap": 21
+  },
+  {
+   "id": "e0e5c7b0d",
+   "lang": "en",
+   "text": "Would you like an extra shot?",
+   "cap": 22
+  },
+  {
+   "id": "kcc887667",
+   "lang": "ko",
+   "text": "샷을 더 넣을지 권하는 말. 원하면",
+   "cap": 22
+  },
+  {
+   "id": "kb4a5162b",
+   "lang": "ko",
+   "text": "아니면",
+   "cap": 22
+  },
+  {
+   "id": "e2eb57f9a",
+   "lang": "en",
+   "text": "No, thanks.",
+   "cap": 22
+  },
+  {
+   "id": "k91b42ac8",
+   "lang": "ko",
+   "text": "샷 추가를 그대로 옮기면",
+   "cap": 23
+  },
+  {
+   "id": "e74150c23",
+   "lang": "en",
+   "text": "Shot add, please.",
+   "cap": 23
+  },
+  {
+   "id": "k9e6ed4bc",
+   "lang": "ko",
+   "text": "어색해요. 거절할 때는",
+   "cap": 23
+  },
+  {
+   "id": "eea9a376d",
+   "lang": "en",
+   "text": "No.",
+   "cap": 23
+  },
+  {
+   "id": "kdae68c81",
+   "lang": "ko",
+   "text": "내가 먼저 바꿀 때",
+   "cap": 24
+  },
+  {
+   "id": "e97b3f644",
+   "lang": "en",
+   "text": "Can I get it with",
+   "cap": 24
+  },
+  {
+   "id": "k1fbcfaf1",
+   "lang": "ko",
+   "text": "옵션? 빼고 싶으면",
+   "cap": 24
+  },
+  {
+   "id": "e598482d1",
+   "lang": "en",
+   "text": "No",
+   "cap": 24
+  },
+  {
+   "id": "ke4d80c14",
+   "lang": "ko",
+   "text": "옵션",
+   "cap": 24
+  },
+  {
+   "id": "e41442737",
+   "lang": "en",
+   "text": "Can I get it with less ice?",
+   "cap": 25
+  },
+  {
+   "id": "e527c573d",
+   "lang": "en",
+   "text": "No sugar, please.",
+   "cap": 25
+  },
+  {
+   "id": "k0de05ac5",
+   "lang": "ko",
+   "text": "틀은 그대로, 칸만 바꿔요.",
+   "cap": 25
+  },
+  {
+   "id": "kff653e19",
+   "lang": "ko",
+   "text": "아메리카노를 시키면",
+   "cap": 26
+  },
+  {
+   "id": "e94a8830a",
+   "lang": "en",
+   "text": "Room for milk?",
+   "cap": 26
+  },
+  {
+   "id": "e95bf4311",
+   "lang": "en",
+   "text": "room",
+   "cap": 26
+  },
+  {
+   "id": "k3cdc8533",
+   "lang": "ko",
+   "text": "방이 아니라 우유를 넣을 빈자리예요.",
+   "cap": 26
+  },
+  {
+   "id": "eb19c4086",
+   "lang": "en",
+   "text": "Can I get a name for that?",
+   "cap": 27
+  },
+  {
+   "id": "k37065d6b",
+   "lang": "ko",
+   "text": "컵에 적을 이름을 물어요. 허락을 묻는 말이 아니에요.",
+   "cap": 27
+  },
+  {
+   "id": "kddb8c2d7",
+   "lang": "ko",
+   "text": "그래서",
+   "cap": 28
+  },
+  {
+   "id": "e4076c4cc",
+   "lang": "en",
+   "text": "Yes, you can.",
+   "cap": 28
+  },
+  {
+   "id": "k2d2a1576",
+   "lang": "ko",
+   "text": "엉뚱한 대답. 이름만 말해요",
+   "cap": 28
+  },
+  {
+   "id": "e4a06cf96",
+   "lang": "en",
+   "text": "It's Minji.",
+   "cap": 28
+  },
+  {
+   "id": "kc07f4250",
+   "lang": "ko",
+   "text": "낯선 이름이면 철자도 불러 줘요.",
+   "cap": 28
+  },
+  {
+   "id": "kd3001cef",
+   "lang": "ko",
+   "text": "여기서 마실지, 가져갈지.",
+   "cap": 29
+  },
+  {
+   "id": "e5859f51d",
+   "lang": "en",
+   "text": "To go, please.",
+   "cap": 29
+  },
+  {
+   "id": "k57dde4ad",
+   "lang": "ko",
+   "text": "또는",
+   "cap": 29
+  },
+  {
+   "id": "e63d59f83",
+   "lang": "en",
+   "text": "For here, please.",
+   "cap": 29
+  },
+  {
+   "id": "kee87b93e",
+   "lang": "ko",
+   "text": "테이크아웃",
+   "cap": 30
+  },
+  {
+   "id": "ef158f0bd",
+   "lang": "en",
+   "text": "Take out",
+   "cap": 30
+  },
+  {
+   "id": "k73088445",
+   "lang": "ko",
+   "text": "통하긴 해요. 카페에서는 보통",
+   "cap": 30
+  },
+  {
+   "id": "e4f1ed45b",
+   "lang": "en",
+   "text": "to go",
+   "cap": 30
+  },
+  {
+   "id": "k7356516d",
+   "lang": "ko",
+   "text": "영국은",
+   "cap": 30
+  },
+  {
+   "id": "e6d5d7d3b",
+   "lang": "en",
+   "text": "takeaway.",
+   "cap": 30
+  },
+  {
+   "id": "e56350acd",
+   "lang": "en",
+   "text": "Packing",
+   "cap": 30
+  },
+  {
+   "id": "k10866f9c",
+   "lang": "ko",
+   "text": "이건 안 통해요.",
+   "cap": 30
+  },
+  {
+   "id": "kbebd3cb0",
+   "lang": "ko",
+   "text": "이 질문은 하루에도 수백 번 해서 아주 빨라요. 낱말이 이어져 한 덩어리로 들려요.",
+   "cap": 31
+  },
+  {
+   "id": "k864dd49a",
+   "lang": "ko",
+   "text": "못 알아들었으면 들린 만큼 되물어요",
+   "cap": 32
+  },
+  {
+   "id": "eed2e3d51",
+   "lang": "en",
+   "text": "Sorry, for here or to go?",
+   "cap": 32
+  },
+  {
+   "id": "e4200ad53",
+   "lang": "en",
+   "text": "Could you say that again, please?",
+   "cap": 32
+  },
+  {
+   "id": "kdb90e213",
+   "lang": "ko",
+   "text": "계산대.",
+   "cap": 33
+  },
+  {
+   "id": "ebcb6238a",
+   "lang": "en",
+   "text": "Anything else?",
+   "cap": 33
+  },
+  {
+   "id": "kd33186f1",
+   "lang": "ko",
+   "text": "더 주문할 것이 있나요? 없으면",
+   "cap": 33
+  },
+  {
+   "id": "ee3a0ecd3",
+   "lang": "en",
+   "text": "No, that's it.",
+   "cap": 33
+  },
+  {
+   "id": "e68fca163",
+   "lang": "en",
+   "text": "Thanks.",
+   "cap": 33
+  },
+  {
+   "id": "k8132794b",
+   "lang": "ko",
+   "text": "바리스타가 값을 말해요",
+   "cap": 34
+  },
+  {
+   "id": "e972458fb",
+   "lang": "en",
+   "text": "That'll be six fifty.",
+   "cap": 34
+  },
+  {
+   "id": "k67205422",
+   "lang": "ko",
+   "text": "화면의 값 , 6달러 50센트.",
+   "cap": 34
+  },
+  {
+   "id": "keb22348b",
+   "lang": "ko",
+   "text": "값은 점 앞과 점 뒤를 따로 읽어요. 4달러 25센트",
+   "cap": 35
+  },
+  {
+   "id": "e7af831bc",
+   "lang": "en",
+   "text": "four twenty-five.",
+   "cap": 35
+  },
+  {
+   "id": "k0f46f4fc",
+   "lang": "ko",
+   "text": "5달러",
+   "cap": 35
+  },
+  {
+   "id": "ea65fa8b9",
+   "lang": "en",
+   "text": "five dollars.",
+   "cap": 35
+  },
+  {
+   "id": "ea85caf01",
+   "lang": "en",
+   "text": "Card or cash?",
+   "cap": 36
+  },
+  {
+   "id": "ec760a3ac",
+   "lang": "en",
+   "text": "Card, please.",
+   "cap": 36
+  },
+  {
+   "id": "k2ef23ef7",
+   "lang": "ko",
+   "text": "카드 계산이요를 그대로 옮기면",
+   "cap": 36
+  },
+  {
+   "id": "eb8044d96",
+   "lang": "en",
+   "text": "Card calculate.",
+   "cap": 36
+  },
+  {
+   "id": "kc630973c",
+   "lang": "ko",
+   "text": "어색해요.",
+   "cap": 36
+  },
+  {
+   "id": "k20e64369",
+   "lang": "ko",
+   "text": "카드는 단말기에 대요(",
+   "cap": 37
+  },
+  {
+   "id": "e7c3ffe0b",
+   "lang": "en",
+   "text": "tap",
+   "cap": 37
+  },
+  {
+   "id": "kc390022f",
+   "lang": "ko",
+   "text": "). 팁(",
+   "cap": 37
+  },
+  {
+   "id": "e6c536c93",
+   "lang": "en",
+   "text": "tip",
+   "cap": 37
+  },
+  {
+   "id": "k13b5ae87",
+   "lang": "ko",
+   "text": ")을 고르는 화면이 나오는 나라도 있어요. 팁 문화는 나라마다 달라요.",
+   "cap": 37
+  },
+  {
+   "id": "e5b6fb1a5",
+   "lang": "en",
+   "text": "Would you like a receipt?",
+   "cap": 38
+  },
+  {
+   "id": "k970094bf",
+   "lang": "ko",
+   "text": "필요 없으면",
+   "cap": 38
+  },
+  {
+   "id": "k86e00855",
+   "lang": "ko",
+   "text": "필요하면",
+   "cap": 38
+  },
+  {
+   "id": "k0ddac385",
+   "lang": "ko",
+   "text": "픽업대에서는 음료와 이름을 함께 불러요",
+   "cap": 39
+  },
+  {
+   "id": "e9bd9bc6d",
+   "lang": "en",
+   "text": "Medium iced latte for Minji!",
+   "cap": 39
+  },
+  {
+   "id": "k47d85d62",
+   "lang": "ko",
+   "text": "내 것이면",
+   "cap": 40
+  },
+  {
+   "id": "e24000605",
+   "lang": "en",
+   "text": "That's me.",
+   "cap": 40
+  },
+  {
+   "id": "e75fcb5da",
+   "lang": "en",
+   "text": "Thanks!",
+   "cap": 40
+  },
+  {
+   "id": "k84a213fa",
+   "lang": "ko",
+   "text": "그런데 음료가 주문과 다르다면?",
+   "cap": 40
+  },
+  {
+   "id": "k068ec18f",
+   "lang": "ko",
+   "text": "이거 틀렸어요",
+   "cap": 41
+  },
+  {
+   "id": "edf02f507",
+   "lang": "en",
+   "text": "This is wrong.",
+   "cap": 41
+  },
+  {
+   "id": "k2802f832",
+   "lang": "ko",
+   "text": "따지는 말처럼 들려요. 무엇이 다른지 말해요.",
+   "cap": 41
+  },
+  {
+   "id": "e94e63a67",
+   "lang": "en",
+   "text": "Excuse me, I ordered it iced, but this one is hot.",
+   "cap": 42
+  },
+  {
+   "id": "k1cc3ccc5",
+   "lang": "ko",
+   "text": "차갑게 시켰는데 따뜻하다고 차분히 말해요.",
+   "cap": 42
+  },
+  {
+   "id": "k8b76a9ab",
+   "lang": "ko",
+   "text": "필요한 것은 부탁 틀로",
+   "cap": 43
+  },
+  {
+   "id": "e62ec2469",
+   "lang": "en",
+   "text": "Could I get a lid, please?",
+   "cap": 43
+  },
+  {
+   "id": "k6d53a899",
+   "lang": "ko",
+   "text": "칸만 바꿔요",
+   "cap": 43
+  },
+  {
+   "id": "e33e3a14c",
+   "lang": "en",
+   "text": "a straw, some napkins.",
+   "cap": 43
+  },
+  {
+   "id": "e81d8a463",
+   "lang": "en",
+   "text": "Give me a straw.",
+   "cap": 44
+  },
+  {
+   "id": "k7bed5c95",
+   "lang": "ko",
+   "text": "명령처럼 들려요. 부탁을 질문으로 하면 공손해져요.",
+   "cap": 44
+  },
+  {
+   "id": "kbb877a68",
+   "lang": "ko",
+   "text": "질문을 하나씩 기다리면 여섯 번 주고받아야 해요. 한 문장에 여러 조각을 순서대로 넣어 볼까요?",
+   "cap": 45
+  },
+  {
+   "id": "kd81d0727",
+   "lang": "ko",
+   "text": "순서 , 크기, 온도, 음료",
+   "cap": 46
+  },
+  {
+   "id": "e70f1f7ee",
+   "lang": "en",
+   "text": "with",
+   "cap": 46
+  },
+  {
+   "id": "kcd4b5d8f",
+   "lang": "ko",
+   "text": "옵션, 포장.",
+   "cap": 46
+  },
+  {
+   "id": "efc4967ad",
+   "lang": "en",
+   "text": "Can I get a medium iced latte with oat milk to go?",
+   "cap": 46
+  },
+  {
+   "id": "k79e69d0f",
+   "lang": "ko",
+   "text": "그러면 바리스타는 이미 들은 질문을 건너뛰어요. 크기, 온도, 우유, 포장 , 다시 묻지 않아요.",
+   "cap": 47
+  },
+  {
+   "id": "ka489bb7a",
+   "lang": "ko",
+   "text": "말하지 않은 것만 물어요",
+   "cap": 48
+  },
+  {
+   "id": "k7d3a10a1",
+   "lang": "ko",
+   "text": "그리고 이름.",
+   "cap": 48
+  },
+  {
+   "id": "k8daea2a3",
+   "lang": "ko",
+   "text": "순서가 뒤섞이면",
+   "cap": 49
+  },
+  {
+   "id": "ebda0ec3d",
+   "lang": "en",
+   "text": "an iced medium latte to go with oat milk.",
+   "cap": 49
+  },
+  {
+   "id": "k03d4bad0",
+   "lang": "ko",
+   "text": "알아듣기 어려워요.",
+   "cap": 49
+  },
+  {
+   "id": "k07d6ed89",
+   "lang": "ko",
+   "text": "질문 여섯 개가 둘로 줄었어요. 이 순서는 자주 쓰는 순서를 단순하게 줄인 규칙이에요.",
+   "cap": 50
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 51
+  },
+  {
+   "id": "k47dc9b14",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말 잡기 , 무엇을 묻나? 음료, 크기, 온도, 우유, 이름, 포장, 계산.",
+   "cap": 52
+  },
+  {
+   "id": "k0a574886",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기 , 고른 것",
+   "cap": 53
+  },
+  {
+   "id": "ed053cc61",
+   "lang": "en",
+   "text": "It's",
+   "cap": 53
+  },
+  {
+   "id": "k1fdffb45",
+   "lang": "ko",
+   "text": "이름.",
+   "cap": 53
+  },
+  {
+   "id": "k383245d4",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기",
+   "cap": 54
+  },
+  {
+   "id": "e15ef0362",
+   "lang": "en",
+   "text": "please, thanks, Can I get",
+   "cap": 54
+  },
+  {
+   "id": "kcf895591",
+   "lang": "ko",
+   "text": "? 못 알아들었으면",
+   "cap": 54
+  },
+  {
+   "id": "e820da8dc",
+   "lang": "en",
+   "text": "Sorry?",
+   "cap": 54
+  },
+  {
+   "id": "k9c82c3ed",
+   "lang": "ko",
+   "text": "일곱 단계에 한 줄씩 적용했어요. 열쇠 낱말 하나가 대답의 모양을 정해요.",
+   "cap": 55
+  },
+  {
+   "id": "k91f7fa10",
+   "lang": "ko",
+   "text": "실전이에요. 주문 카드 , 라지 모카, 따뜻하게, 무지방 우유, 여기서. 첫 질문",
+   "cap": 56
+  },
+  {
+   "id": "k1170bd2f",
+   "lang": "ko",
+   "text": "첫째, 무엇을 주문할지 물어요. 비",
+   "cap": 57
+  },
+  {
+   "id": "eb4459d73",
+   "lang": "en",
+   "text": "Large, please.",
+   "cap": 57
+  },
+  {
+   "id": "k13527bf9",
+   "lang": "ko",
+   "text": "크기라 탈락. 둘째, 남은 둘은 정보가 맞아요.",
+   "cap": 57
+  },
+  {
+   "id": "kd1cb3732",
+   "lang": "ko",
+   "text": "셋째, 에이",
+   "cap": 58
+  },
+  {
+   "id": "ec6ddc2f3",
+   "lang": "en",
+   "text": "Give me",
+   "cap": 58
+  },
+  {
+   "id": "k80b26ac8",
+   "lang": "ko",
+   "text": "명령처럼 들려 탈락. 정답 씨",
+   "cap": 58
+  },
+  {
+   "id": "e7b26ad83",
+   "lang": "en",
+   "text": "Can I get a mocha?",
+   "cap": 58
+  },
+  {
+   "id": "k98b14c94",
+   "lang": "ko",
+   "text": "첫째, 고르기 질문이에요. 비",
+   "cap": 59
+  },
+  {
+   "id": "k8103079c",
+   "lang": "ko",
+   "text": "고르지 않았으니 탈락.",
+   "cap": 59
+  },
+  {
+   "id": "k2c0eae61",
+   "lang": "ko",
+   "text": "둘째, 에이",
+   "cap": 60
+  },
+  {
+   "id": "k98654787",
+   "lang": "ko",
+   "text": "카드는 따뜻한 음료라 탈락.",
+   "cap": 60
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 61
+  },
+  {
+   "id": "ed43f83fb",
+   "lang": "en",
+   "text": "Hot, please.",
+   "cap": 61
+  },
+  {
+   "id": "k71fab308",
+   "lang": "ko",
+   "text": "고른 것",
+   "cap": 61
+  },
+  {
+   "id": "kb91b2d41",
+   "lang": "ko",
+   "text": "첫째, 셋 모두 포장에 대한 대답이에요.",
+   "cap": 62
+  },
+  {
+   "id": "kce0b3235",
+   "lang": "ko",
+   "text": "포장 그대로라 탈락. 비",
+   "cap": 63
+  },
+  {
+   "id": "ef4dbd8fb",
+   "lang": "en",
+   "text": "To go",
+   "cap": 63
+  },
+  {
+   "id": "kb8f77583",
+   "lang": "ko",
+   "text": "카드는 여기서 마셔요.",
+   "cap": 63
+  },
+  {
+   "id": "kccecb476",
+   "lang": "ko",
+   "text": "첫째, 비",
+   "cap": 65
+  },
+  {
+   "id": "eeddd41bb",
+   "lang": "en",
+   "text": "Cash, please.",
+   "cap": 65
+  },
+  {
+   "id": "kb7cee7da",
+   "lang": "ko",
+   "text": "계산 방법이라 탈락.",
+   "cap": 65
+  },
+  {
+   "id": "kbd0c1c65",
+   "lang": "ko",
+   "text": "카드에 크루아상이 있어서 탈락.",
+   "cap": 66
+  },
+  {
+   "id": "e69096bd7",
+   "lang": "en",
+   "text": "Yes, can I also get a croissant?",
+   "cap": 67
+  },
+  {
+   "id": "k49e8e3fc",
+   "lang": "ko",
+   "text": "합계",
+   "cap": 67
+  },
+  {
+   "id": "ea326a2b4",
+   "lang": "en",
+   "text": "nine twenty-five.",
+   "cap": 67
+  },
+  {
+   "id": "k0340d2e0",
+   "lang": "ko",
+   "text": "정리해요. 카페 주문은 순서가 거의 같고, 열쇠 낱말 하나가 무엇을 묻는지 알려 줘요.",
+   "cap": 68
+  },
+  {
+   "id": "k8a8c5855",
+   "lang": "ko",
+   "text": "대답은 짧은 틀에 내 정보를 넣으면 돼요. 고를 땐",
+   "cap": 69
+  },
+  {
+   "id": "e6f8bbd34",
+   "lang": "en",
+   "text": "please",
+   "cap": 69
+  },
+  {
+   "id": "ke852f8e2",
+   "lang": "ko",
+   "text": "주문과 부탁은",
+   "cap": 69
+  },
+  {
+   "id": "ke206e9c5",
+   "lang": "ko",
+   "text": "한 문장에 순서대로 말하면 질문이 줄어요. 못 알아들으면",
+   "cap": 70
+  },
+  {
+   "id": "kb009eb3f",
+   "lang": "ko",
+   "text": "아래 카페 주문 시뮬레이터에서 내 주문 카드로 직접 주문해 보세요.",
+   "cap": 71
+  }
+ ]
+}

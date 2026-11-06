@@ -1,0 +1,931 @@
+{
+ "slug": "cafe",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 2,
+  "gb": 1,
+  "me": 62,
+  "tc": 64,
+  "us": 24
+ },
+ "lines": [
+  {
+   "id": "us-bdd31e72",
+   "sp": "us",
+   "text": "Hi! What can I get you?",
+   "from": "video"
+  },
+  {
+   "id": "me-277923c8",
+   "sp": "me",
+   "text": "Give me one ice americano.",
+   "from": "video"
+  },
+  {
+   "id": "me-ec4b4dbe",
+   "sp": "me",
+   "text": "Can I get an iced americano?",
+   "from": "video"
+  },
+  {
+   "id": "tc-ee29178b",
+   "sp": "tc",
+   "text": "Can I get an iced americano?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3c8135c7",
+   "sp": "tc",
+   "text": "Next in line, please!",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3e712d5e",
+   "sp": "tc",
+   "text": "Hi! Are you ready to order?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-88ae0113",
+   "sp": "tc",
+   "text": "Hi! What can I get you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2bd3e5b8",
+   "sp": "tc",
+   "text": "What would you like?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b2a2211c",
+   "sp": "tc",
+   "text": "What size?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-12a49ff6",
+   "sp": "tc",
+   "text": "Hot or iced?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e8fb4a3d",
+   "sp": "tc",
+   "text": "What kind of milk?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-03d671b7",
+   "sp": "tc",
+   "text": "Would you like an extra shot?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-63a723f8",
+   "sp": "tc",
+   "text": "Can I get a name for that?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-24b2880e",
+   "sp": "tc",
+   "text": "For here or to go?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-aa262ea0",
+   "sp": "tc",
+   "text": "Anything else?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-405fe7bb",
+   "sp": "tc",
+   "text": "Card or cash?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-56b72f57",
+   "sp": "tc",
+   "text": "Medium iced latte for Minji!",
+   "from": "video-say"
+  },
+  {
+   "id": "us-d56ab63f",
+   "sp": "us",
+   "text": "Hi! Are you ready to order?",
+   "from": "video"
+  },
+  {
+   "id": "me-ee73db07",
+   "sp": "me",
+   "text": "Not yet. Just a minute, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-f0352524",
+   "sp": "me",
+   "text": "Can I get a latte?",
+   "from": "video"
+  },
+  {
+   "id": "us-abfa3957",
+   "sp": "us",
+   "text": "What would you like?",
+   "from": "video"
+  },
+  {
+   "id": "me-96b92d31",
+   "sp": "me",
+   "text": "I'd like a latte, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-0d6890f9",
+   "sp": "tc",
+   "text": "a latte",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fcac2d4c",
+   "sp": "tc",
+   "text": "an americano",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-dba184fe",
+   "sp": "tc",
+   "text": "an iced latte",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4d986789",
+   "sp": "tc",
+   "text": "a medium iced latte",
+   "from": "video-say"
+  },
+  {
+   "id": "me-8edb626e",
+   "sp": "me",
+   "text": "Can I get an ice americano?",
+   "from": "video"
+  },
+  {
+   "id": "me-dae3de69",
+   "sp": "me",
+   "text": "Give me one americano.",
+   "from": "video"
+  },
+  {
+   "id": "me-5bd9507f",
+   "sp": "me",
+   "text": "I want a latte.",
+   "from": "video"
+  },
+  {
+   "id": "me-b37f5cdb",
+   "sp": "me",
+   "text": "Can I get an americano?",
+   "from": "video"
+  },
+  {
+   "id": "tc-e11d6f3b",
+   "sp": "tc",
+   "text": "small",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b16906db",
+   "sp": "tc",
+   "text": "medium",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7c566de3",
+   "sp": "tc",
+   "text": "large",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-03af3caf",
+   "sp": "tc",
+   "text": "Hot",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bbf7a85d",
+   "sp": "tc",
+   "text": "Iced",
+   "from": "video-say"
+  },
+  {
+   "id": "us-06ea257b",
+   "sp": "us",
+   "text": "What size?",
+   "from": "video"
+  },
+  {
+   "id": "me-bcf6668a",
+   "sp": "me",
+   "text": "Medium, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-9fe89939",
+   "sp": "us",
+   "text": "Hot or iced?",
+   "from": "video"
+  },
+  {
+   "id": "me-aeefbab0",
+   "sp": "me",
+   "text": "Ice, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-65d93fec",
+   "sp": "me",
+   "text": "Iced, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-c30d3568",
+   "sp": "tc",
+   "text": "regular",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-76e248dc",
+   "sp": "tc",
+   "text": "12 oz",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-86e32300",
+   "sp": "tc",
+   "text": "16 oz",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4c9639e7",
+   "sp": "tc",
+   "text": "20 oz",
+   "from": "video-say"
+  },
+  {
+   "id": "me-c8065e03",
+   "sp": "me",
+   "text": "This one, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-7064d883",
+   "sp": "me",
+   "text": "Size up, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-742a778a",
+   "sp": "me",
+   "text": "Can I make it a large?",
+   "from": "video"
+  },
+  {
+   "id": "us-e3374ace",
+   "sp": "us",
+   "text": "What kind of milk?",
+   "from": "video"
+  },
+  {
+   "id": "tc-f10a4002",
+   "sp": "tc",
+   "text": "Whole milk",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8a01ac9f",
+   "sp": "tc",
+   "text": "Oat milk",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-cf47855f",
+   "sp": "tc",
+   "text": "Skim milk",
+   "from": "video-say"
+  },
+  {
+   "id": "me-77a05e9a",
+   "sp": "me",
+   "text": "Oat milk, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-f15a84c6",
+   "sp": "us",
+   "text": "Would you like an extra shot?",
+   "from": "video"
+  },
+  {
+   "id": "tc-371a9320",
+   "sp": "tc",
+   "text": "No, thanks.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-2a0fe746",
+   "sp": "me",
+   "text": "Shot add, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-4d042e88",
+   "sp": "me",
+   "text": "No.",
+   "from": "video"
+  },
+  {
+   "id": "me-f823dd7b",
+   "sp": "me",
+   "text": "No, thanks.",
+   "from": "video"
+  },
+  {
+   "id": "tc-cf77adea",
+   "sp": "tc",
+   "text": "Can I get it with oat milk?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-cdc5327e",
+   "sp": "tc",
+   "text": "Can I get it with an extra shot?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1011d41d",
+   "sp": "tc",
+   "text": "Can I get it with less ice?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ec618b87",
+   "sp": "tc",
+   "text": "No sugar, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e3de9f98",
+   "sp": "tc",
+   "text": "No ice, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c4dbf4ea",
+   "sp": "tc",
+   "text": "No whipped cream, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-79b0ddf7",
+   "sp": "us",
+   "text": "Room for milk?",
+   "from": "video"
+  },
+  {
+   "id": "us-61a35a6f",
+   "sp": "us",
+   "text": "Can I get a name for that?",
+   "from": "video"
+  },
+  {
+   "id": "me-f0a95e5d",
+   "sp": "me",
+   "text": "Yes, you can.",
+   "from": "video"
+  },
+  {
+   "id": "me-ecab1723",
+   "sp": "me",
+   "text": "It's Minji.",
+   "from": "video"
+  },
+  {
+   "id": "tc-387b923f",
+   "sp": "tc",
+   "text": "M-I-N-J-I",
+   "from": "video-say"
+  },
+  {
+   "id": "us-d0fc3551",
+   "sp": "us",
+   "text": "For here or to go?",
+   "from": "video"
+  },
+  {
+   "id": "tc-8c5389a9",
+   "sp": "tc",
+   "text": "For here, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9d98aaa3",
+   "sp": "tc",
+   "text": "To go, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-396f45ae",
+   "sp": "me",
+   "text": "To go, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-eda2683a",
+   "sp": "me",
+   "text": "Take out, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-34d17f00",
+   "sp": "me",
+   "text": "Packing, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-cd4bb938",
+   "sp": "us",
+   "text": "What can I get you?",
+   "from": "video"
+  },
+  {
+   "id": "us-92c723d4",
+   "sp": "us",
+   "text": "And will that be for here or to go?",
+   "from": "video"
+  },
+  {
+   "id": "me-dec5d36c",
+   "sp": "me",
+   "text": "Sorry, for here or to go?",
+   "from": "video"
+  },
+  {
+   "id": "me-dd3a7df2",
+   "sp": "me",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "video"
+  },
+  {
+   "id": "us-e1bc24ab",
+   "sp": "us",
+   "text": "Anything else?",
+   "from": "video"
+  },
+  {
+   "id": "me-5b556159",
+   "sp": "me",
+   "text": "No, that's it. Thanks.",
+   "from": "video"
+  },
+  {
+   "id": "us-d77025f4",
+   "sp": "us",
+   "text": "That'll be six fifty.",
+   "from": "video"
+  },
+  {
+   "id": "tc-98196cea",
+   "sp": "tc",
+   "text": "six fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2767aad8",
+   "sp": "tc",
+   "text": "four twenty-five",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9345ba73",
+   "sp": "tc",
+   "text": "five dollars",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-160f3394",
+   "sp": "tc",
+   "text": "ten seventy-five",
+   "from": "video-say"
+  },
+  {
+   "id": "us-621ede1a",
+   "sp": "us",
+   "text": "Card or cash?",
+   "from": "video"
+  },
+  {
+   "id": "me-9930bb05",
+   "sp": "me",
+   "text": "Card, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-0f260917",
+   "sp": "me",
+   "text": "Card calculate.",
+   "from": "video"
+  },
+  {
+   "id": "us-b1d3986a",
+   "sp": "us",
+   "text": "Would you like a receipt?",
+   "from": "video"
+  },
+  {
+   "id": "au-a110c6c2",
+   "sp": "au",
+   "text": "Medium iced latte for Minji!",
+   "from": "video"
+  },
+  {
+   "id": "me-329b7132",
+   "sp": "me",
+   "text": "That's me. Thanks!",
+   "from": "video"
+  },
+  {
+   "id": "au-487308da",
+   "sp": "au",
+   "text": "Hi, can I help you?",
+   "from": "video"
+  },
+  {
+   "id": "me-fca1ebd4",
+   "sp": "me",
+   "text": "This is wrong.",
+   "from": "video"
+  },
+  {
+   "id": "me-a2df6ef8",
+   "sp": "me",
+   "text": "Excuse me, I ordered it iced, but this one is hot.",
+   "from": "video"
+  },
+  {
+   "id": "tc-8986e18f",
+   "sp": "tc",
+   "text": "Could I get a lid, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-78deb3e5",
+   "sp": "tc",
+   "text": "Could I get a straw, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-652f4e79",
+   "sp": "tc",
+   "text": "Could I get some napkins, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-6c8419dc",
+   "sp": "me",
+   "text": "Give me a straw.",
+   "from": "video"
+  },
+  {
+   "id": "me-0287f7a4",
+   "sp": "me",
+   "text": "Could I get a straw, please?",
+   "from": "video"
+  },
+  {
+   "id": "tc-cb326f2b",
+   "sp": "tc",
+   "text": "Can I get a medium iced latte with oat milk to go?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-92559a7d",
+   "sp": "us",
+   "text": "Got it. Would you like an extra shot?",
+   "from": "video"
+  },
+  {
+   "id": "me-ecd40c9a",
+   "sp": "me",
+   "text": "Can I get an iced medium latte to go with oat milk?",
+   "from": "video"
+  },
+  {
+   "id": "me-b5be5486",
+   "sp": "me",
+   "text": "Can I get a medium iced latte with oat milk to go?",
+   "from": "video"
+  },
+  {
+   "id": "tc-f4eb7141",
+   "sp": "tc",
+   "text": "Hi, can I help you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a2192690",
+   "sp": "tc",
+   "text": "Not yet. Just a minute, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-83b48355",
+   "sp": "tc",
+   "text": "Can I get a latte?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fd65bc5d",
+   "sp": "tc",
+   "text": "Medium, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f7b433a1",
+   "sp": "tc",
+   "text": "Oat milk, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f9781a5a",
+   "sp": "tc",
+   "text": "Card, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d673234b",
+   "sp": "tc",
+   "text": "Give me one mocha.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f84a4de5",
+   "sp": "tc",
+   "text": "Large, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c8136dc5",
+   "sp": "tc",
+   "text": "Can I get a mocha?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a83b2523",
+   "sp": "tc",
+   "text": "Iced, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1284aa1",
+   "sp": "tc",
+   "text": "Yes, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-62546e51",
+   "sp": "tc",
+   "text": "Hot, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ce64f64d",
+   "sp": "tc",
+   "text": "Packing, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-58b1edb4",
+   "sp": "tc",
+   "text": "No, that's it. Thanks.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-069f04f1",
+   "sp": "tc",
+   "text": "Cash, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b539f6ad",
+   "sp": "tc",
+   "text": "Yes, can I also get a croissant?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-18897eda",
+   "sp": "us",
+   "text": "Next in line, please!",
+   "from": "lab"
+  },
+  {
+   "id": "me-4af70326",
+   "sp": "me",
+   "text": "Could I get a lid, please?",
+   "from": "lab"
+  },
+  {
+   "id": "me-ff9a3ca2",
+   "sp": "me",
+   "text": "Yes, I'm ready.",
+   "from": "drill"
+  },
+  {
+   "id": "me-68253886",
+   "sp": "me",
+   "text": "Wait.",
+   "from": "drill"
+  },
+  {
+   "id": "me-e7cd6859",
+   "sp": "me",
+   "text": "Can I get latte?",
+   "from": "drill"
+  },
+  {
+   "id": "me-aacbeb3f",
+   "sp": "me",
+   "text": "I'd like an ice americano, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-01bf3ac6",
+   "sp": "me",
+   "text": "Give me one iced americano.",
+   "from": "drill"
+  },
+  {
+   "id": "me-5308dbff",
+   "sp": "me",
+   "text": "I'd like an iced americano, please.",
+   "from": "drill"
+  },
+  {
+   "id": "us-44aa1a1f",
+   "sp": "us",
+   "text": "Hey there, what can I get started for you today?",
+   "from": "drill"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "drill"
+  },
+  {
+   "id": "me-2369b9a5",
+   "sp": "me",
+   "text": "I can't English.",
+   "from": "drill"
+  },
+  {
+   "id": "me-9351b784",
+   "sp": "me",
+   "text": "Large, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-dfe1396c",
+   "sp": "me",
+   "text": "Small, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-5cbb7abc",
+   "sp": "me",
+   "text": "Hot, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-453a3801",
+   "sp": "me",
+   "text": "Give me oat milk.",
+   "from": "drill"
+  },
+  {
+   "id": "me-004a5d7c",
+   "sp": "me",
+   "text": "Skim milk, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-8c608205",
+   "sp": "me",
+   "text": "Whole milk, please.",
+   "from": "drill"
+  },
+  {
+   "id": "us-f3ed9a72",
+   "sp": "us",
+   "text": "Anything you'd like to add or change?",
+   "from": "drill"
+  },
+  {
+   "id": "me-b0f1508f",
+   "sp": "me",
+   "text": "No ice, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-1c042b22",
+   "sp": "me",
+   "text": "Can I get it with less ice?",
+   "from": "drill"
+  },
+  {
+   "id": "me-26c65976",
+   "sp": "me",
+   "text": "Give me less ice.",
+   "from": "drill"
+  },
+  {
+   "id": "me-3058aed6",
+   "sp": "me",
+   "text": "Name is Seoyeon.",
+   "from": "drill"
+  },
+  {
+   "id": "me-8febe56a",
+   "sp": "me",
+   "text": "It's Seoyeon.",
+   "from": "drill"
+  },
+  {
+   "id": "me-e6604e6a",
+   "sp": "me",
+   "text": "For here, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-b6fd871a",
+   "sp": "me",
+   "text": "Sorry, what size?",
+   "from": "drill"
+  },
+  {
+   "id": "me-6aaa41bc",
+   "sp": "me",
+   "text": "Speak slowly!",
+   "from": "drill"
+  },
+  {
+   "id": "me-35554ce4",
+   "sp": "me",
+   "text": "Service, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-e877188e",
+   "sp": "me",
+   "text": "Cash, please.",
+   "from": "drill"
+  },
+  {
+   "id": "us-49f0afa6",
+   "sp": "us",
+   "text": "And what size would you like for that today?",
+   "from": "drill"
+  },
+  {
+   "id": "us-7f6e1d9c",
+   "sp": "us",
+   "text": "Small, medium, or large?",
+   "from": "q"
+  },
+  {
+   "id": "us-92e30eb6",
+   "sp": "us",
+   "text": "Is whole milk okay?",
+   "from": "q"
+  },
+  {
+   "id": "gb-41a507a2",
+   "sp": "gb",
+   "text": "Eat in or take away?",
+   "from": "q"
+  },
+  {
+   "id": "us-391063d4",
+   "sp": "us",
+   "text": "You can tap your card right here.",
+   "from": "q"
+  }
+ ]
+}
