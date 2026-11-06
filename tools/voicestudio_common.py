@@ -108,6 +108,7 @@ def readable(text):
     s = re.sub(r'\s*…\s*$', '', s)
     s = re.sub(r'\s*…\s*', ', ', s)
     s = re.sub(r'(\d)\s*oz\b', r'\1 ounces', s)   # 16 oz → 16 ounces (엔진은 oz를 '오-즈'로 읽어요)
+    s = re.sub(r'\b([Aa])isle\b', lambda m: 'Isle' if m.group(1) == 'A' else 'isle', s)   # 엔진은 Aisle을 '에이즐'로 읽기도 해요(소리는 같음)
     s = re.sub(r'(,\s*)+', ', ', s)
     s = re.sub(r'\s{2,}', ' ', s).strip(' ,')
     # 끝에 문장부호가 없는 낱말 · 구(intersection, turn left)는 마침표를 붙여요 — 엔진이 한 문장으로 알아

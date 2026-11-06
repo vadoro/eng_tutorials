@@ -1,0 +1,998 @@
+{
+ "slug": "airport",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 9,
+  "ca": 3,
+  "gb": 9,
+  "me": 68,
+  "tc": 60,
+  "us": 15
+ },
+ "lines": [
+  {
+   "id": "us-89299e26",
+   "sp": "us",
+   "text": "What's the purpose of your visit?",
+   "from": "video"
+  },
+  {
+   "id": "me-0cd0ab0c",
+   "sp": "me",
+   "text": "My purpose is trip.",
+   "from": "video"
+  },
+  {
+   "id": "me-6f9d4a29",
+   "sp": "me",
+   "text": "I'm here for sightseeing.",
+   "from": "video"
+  },
+  {
+   "id": "me-b989f71f",
+   "sp": "me",
+   "text": "Sightseeing.",
+   "from": "video"
+  },
+  {
+   "id": "tc-b51ae90e",
+   "sp": "tc",
+   "text": "Passport, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-762f26b2",
+   "sp": "tc",
+   "text": "Window or aisle?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ee3d9f39",
+   "sp": "tc",
+   "text": "Are you checking any bags?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ada79574",
+   "sp": "tc",
+   "text": "Please take your laptop out of your bag.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-75e417b4",
+   "sp": "tc",
+   "text": "Any liquids?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ae08a911",
+   "sp": "tc",
+   "text": "Step forward, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a2093834",
+   "sp": "tc",
+   "text": "May I see your boarding pass, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0fd07c0e",
+   "sp": "tc",
+   "text": "Flight two-oh-seven is now boarding.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c8f31cdb",
+   "sp": "tc",
+   "text": "Chicken or beef?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-22e16b28",
+   "sp": "tc",
+   "text": "Something to drink?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b1fdb58b",
+   "sp": "tc",
+   "text": "What's the purpose of your visit?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6324eb10",
+   "sp": "tc",
+   "text": "How long will you be staying?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2228c0f2",
+   "sp": "tc",
+   "text": "Where are you staying?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4890dd87",
+   "sp": "tc",
+   "text": "Which flight were you on?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3ea3edac",
+   "sp": "tc",
+   "text": "Can you describe your bag?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-14b46856",
+   "sp": "tc",
+   "text": "Anything to declare?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-37cdabd8",
+   "sp": "tc",
+   "text": "Are you bringing any food?",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-64311fea",
+   "sp": "gb",
+   "text": "Passport, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-aefd3788",
+   "sp": "me",
+   "text": "Here you are.",
+   "from": "video"
+  },
+  {
+   "id": "gb-1a2e4b86",
+   "sp": "gb",
+   "text": "Window or aisle?",
+   "from": "video"
+  },
+  {
+   "id": "me-9743ab47",
+   "sp": "me",
+   "text": "Window, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-ee563e8d",
+   "sp": "gb",
+   "text": "Are you checking any bags?",
+   "from": "video"
+  },
+  {
+   "id": "me-5416be1c",
+   "sp": "me",
+   "text": "Yes, just one.",
+   "from": "video"
+  },
+  {
+   "id": "tc-c2fe3964",
+   "sp": "tc",
+   "text": "Flight two-oh-seven",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d143b567",
+   "sp": "tc",
+   "text": "Gate 15",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-84868fe7",
+   "sp": "tc",
+   "text": "Boarding time: ten twenty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-23297970",
+   "sp": "tc",
+   "text": "Departure time: ten fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-36bce89b",
+   "sp": "tc",
+   "text": "Seat thirty-two A",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-139e7c82",
+   "sp": "tc",
+   "text": "Group 3",
+   "from": "video-say"
+  },
+  {
+   "id": "us-01238ce1",
+   "sp": "us",
+   "text": "Please take your laptop out.",
+   "from": "video"
+  },
+  {
+   "id": "tc-cf0dc1b6",
+   "sp": "tc",
+   "text": "Okay.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-3705f0af",
+   "sp": "us",
+   "text": "Take off your belt, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-cdeac708",
+   "sp": "us",
+   "text": "Step forward, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-36e65fd7",
+   "sp": "us",
+   "text": "Any liquids?",
+   "from": "video"
+  },
+  {
+   "id": "me-89f7a6af",
+   "sp": "me",
+   "text": "No, I don't.",
+   "from": "video"
+  },
+  {
+   "id": "gb-467a6466",
+   "sp": "gb",
+   "text": "Attention, please. The gate for Flight two-oh-seven to Seattle has changed.",
+   "from": "video"
+  },
+  {
+   "id": "gb-045845c8",
+   "sp": "gb",
+   "text": "Flight two-oh-seven will now depart from Gate 50.",
+   "from": "video"
+  },
+  {
+   "id": "gb-212e0ab0",
+   "sp": "gb",
+   "text": "Boarding will begin at ten twenty.",
+   "from": "video"
+  },
+  {
+   "id": "tc-f1272c2d",
+   "sp": "tc",
+   "text": "fifteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6b6ef6f2",
+   "sp": "tc",
+   "text": "fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c5360efc",
+   "sp": "tc",
+   "text": "boarding",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7d79bf02",
+   "sp": "tc",
+   "text": "delayed",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-829c8484",
+   "sp": "tc",
+   "text": "final call",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-58e1aec9",
+   "sp": "tc",
+   "text": "gate change",
+   "from": "video-say"
+  },
+  {
+   "id": "me-f5120657",
+   "sp": "me",
+   "text": "Excuse me, is this Gate 50?",
+   "from": "video"
+  },
+  {
+   "id": "gb-9885cfbf",
+   "sp": "gb",
+   "text": "Chicken or beef?",
+   "from": "video"
+  },
+  {
+   "id": "me-307a6774",
+   "sp": "me",
+   "text": "Chicken, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-db9fa144",
+   "sp": "gb",
+   "text": "Something to drink?",
+   "from": "video"
+  },
+  {
+   "id": "me-39180950",
+   "sp": "me",
+   "text": "Water, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-364a63f7",
+   "sp": "tc",
+   "text": "Could I have a blanket, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-db83c78a",
+   "sp": "tc",
+   "text": "Could I have some water, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c74e80ef",
+   "sp": "tc",
+   "text": "Could I have another pillow, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e74d9fdf",
+   "sp": "tc",
+   "text": "Could I have a pen, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-1bb091f5",
+   "sp": "me",
+   "text": "Give me some water.",
+   "from": "video"
+  },
+  {
+   "id": "me-29cdfd1d",
+   "sp": "me",
+   "text": "I want some water.",
+   "from": "video"
+  },
+  {
+   "id": "me-39725be7",
+   "sp": "me",
+   "text": "Could I have some water, please?",
+   "from": "video"
+  },
+  {
+   "id": "us-8aae51d7",
+   "sp": "us",
+   "text": "Hello. Passport, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-444c19ed",
+   "sp": "us",
+   "text": "How long will you be staying?",
+   "from": "video"
+  },
+  {
+   "id": "tc-20594862",
+   "sp": "tc",
+   "text": "Sightseeing.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-a2ca77d3",
+   "sp": "me",
+   "text": "During five days.",
+   "from": "video"
+  },
+  {
+   "id": "me-cabae103",
+   "sp": "me",
+   "text": "For five days.",
+   "from": "video"
+  },
+  {
+   "id": "tc-1f454fb6",
+   "sp": "tc",
+   "text": "For five days.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-7e6d87a5",
+   "sp": "us",
+   "text": "Where are you staying?",
+   "from": "video"
+  },
+  {
+   "id": "me-b904d89e",
+   "sp": "me",
+   "text": "At the Maple Hotel.",
+   "from": "video"
+  },
+  {
+   "id": "us-2a01bf7e",
+   "sp": "us",
+   "text": "Is this your first visit?",
+   "from": "video"
+  },
+  {
+   "id": "tc-18e75831",
+   "sp": "tc",
+   "text": "At the Maple Hotel.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-38001e98",
+   "sp": "me",
+   "text": "Yes, it's my first time.",
+   "from": "video"
+  },
+  {
+   "id": "tc-bed662f1",
+   "sp": "tc",
+   "text": "Yes, it's my first time.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-59093263",
+   "sp": "us",
+   "text": "What do you do?",
+   "from": "video"
+  },
+  {
+   "id": "me-23d4f839",
+   "sp": "me",
+   "text": "I am student.",
+   "from": "video"
+  },
+  {
+   "id": "me-851402d6",
+   "sp": "me",
+   "text": "I'm a student.",
+   "from": "video"
+  },
+  {
+   "id": "tc-fd738a73",
+   "sp": "tc",
+   "text": "I'm a student.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-05190099",
+   "sp": "us",
+   "text": "Do you have a return ticket?",
+   "from": "video"
+  },
+  {
+   "id": "me-f6b217c4",
+   "sp": "me",
+   "text": "Yes, I'm leaving on May eighth.",
+   "from": "video"
+  },
+  {
+   "id": "tc-e31b3ce7",
+   "sp": "tc",
+   "text": "Yes, I'm leaving on May eighth.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-09acdee9",
+   "sp": "me",
+   "text": "Excuse me. My suitcase didn't come out.",
+   "from": "video"
+  },
+  {
+   "id": "me-17ca9220",
+   "sp": "me",
+   "text": "My bag is not come.",
+   "from": "video"
+  },
+  {
+   "id": "ca-6caafd2b",
+   "sp": "ca",
+   "text": "Can you describe your bag?",
+   "from": "video"
+  },
+  {
+   "id": "tc-a4de849f",
+   "sp": "tc",
+   "text": "It's a large black suitcase with a red tag.",
+   "from": "video-say"
+  },
+  {
+   "id": "au-839f3d57",
+   "sp": "au",
+   "text": "Anything to declare?",
+   "from": "video"
+  },
+  {
+   "id": "me-1afbab98",
+   "sp": "me",
+   "text": "No, nothing to declare.",
+   "from": "video"
+  },
+  {
+   "id": "me-39b02656",
+   "sp": "me",
+   "text": "Yes, I have some snacks.",
+   "from": "video"
+  },
+  {
+   "id": "au-e7b3b34a",
+   "sp": "au",
+   "text": "Are you carrying any fruit, meat, or plants with you today?",
+   "from": "video"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "video"
+  },
+  {
+   "id": "me-179f24bb",
+   "sp": "me",
+   "text": "Sorry?",
+   "from": "video"
+  },
+  {
+   "id": "me-dd3a7df2",
+   "sp": "me",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-24a41625",
+   "sp": "me",
+   "text": "Could you speak more slowly, please?",
+   "from": "video"
+  },
+  {
+   "id": "au-57035d3a",
+   "sp": "au",
+   "text": "Are you carrying any fruit, meat, or plants?",
+   "from": "video"
+  },
+  {
+   "id": "tc-4c618e1a",
+   "sp": "tc",
+   "text": "Sorry?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b02a382f",
+   "sp": "tc",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-99b31d34",
+   "sp": "tc",
+   "text": "Could you speak more slowly, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a0373b7e",
+   "sp": "tc",
+   "text": "Your gate has changed. Flight two-oh-seven now leaves from Gate 50.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e57e6d30",
+   "sp": "tc",
+   "text": "Yes? Can I help you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-07960b4c",
+   "sp": "tc",
+   "text": "Aisle, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-324d1f38",
+   "sp": "tc",
+   "text": "Gate 50? Thank you.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-67bfcf76",
+   "sp": "tc",
+   "text": "For a week.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-40342f7e",
+   "sp": "tc",
+   "text": "Flight two-oh-seven.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-10970aeb",
+   "sp": "tc",
+   "text": "No, nothing to declare.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-80d294e8",
+   "sp": "tc",
+   "text": "My purpose is conference.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4d9057e4",
+   "sp": "tc",
+   "text": "For three days.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5df2ee67",
+   "sp": "tc",
+   "text": "I'm here for a conference.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c2b1022e",
+   "sp": "tc",
+   "text": "During three days.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f7c24ca2",
+   "sp": "tc",
+   "text": "I stay Harbor Hotel.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-39bb1b46",
+   "sp": "tc",
+   "text": "Yes, I am.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e87ba3b8",
+   "sp": "tc",
+   "text": "At the Harbor Hotel.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c0d677d8",
+   "sp": "tc",
+   "text": "It's a silver small suitcase with a blue tag.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ff2c579a",
+   "sp": "tc",
+   "text": "It's a small silver suitcase with a blue tag.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-ad548a97",
+   "sp": "us",
+   "text": "Please take your laptop out of your bag.",
+   "from": "lab"
+  },
+  {
+   "id": "us-3472b666",
+   "sp": "us",
+   "text": "Please take off your shoes.",
+   "from": "lab"
+  },
+  {
+   "id": "au-c5b45c63",
+   "sp": "au",
+   "text": "May I see your boarding pass, please?",
+   "from": "lab"
+  },
+  {
+   "id": "au-0cabd41f",
+   "sp": "au",
+   "text": "Flight two-oh-seven is now boarding.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-9ba88dea",
+   "sp": "ca",
+   "text": "Which flight were you on?",
+   "from": "lab"
+  },
+  {
+   "id": "au-168aa965",
+   "sp": "au",
+   "text": "Are you bringing any food?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b2ff64cd",
+   "sp": "me",
+   "text": "Aisle, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-857a2169",
+   "sp": "me",
+   "text": "Okay.",
+   "from": "lab"
+  },
+  {
+   "id": "au-1323f8d5",
+   "sp": "au",
+   "text": "Your gate has changed. Flight two-oh-seven now leaves from Gate 50.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9139ad0f",
+   "sp": "me",
+   "text": "Gate 50? Thank you.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-903677ac",
+   "sp": "gb",
+   "text": "Yes? Can I help you?",
+   "from": "lab"
+  },
+  {
+   "id": "me-2a72d179",
+   "sp": "me",
+   "text": "For a week.",
+   "from": "lab"
+  },
+  {
+   "id": "me-521f0e43",
+   "sp": "me",
+   "text": "Flight two-oh-seven.",
+   "from": "lab"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-3e14d870",
+   "sp": "me",
+   "text": "Give me window.",
+   "from": "drill"
+  },
+  {
+   "id": "me-39546b7f",
+   "sp": "me",
+   "text": "No, just this carry-on.",
+   "from": "drill"
+  },
+  {
+   "id": "me-6be804f8",
+   "sp": "me",
+   "text": "Yes, one baggage.",
+   "from": "drill"
+  },
+  {
+   "id": "me-a1744a1a",
+   "sp": "me",
+   "text": "Yes, I have a laptop.",
+   "from": "drill"
+  },
+  {
+   "id": "me-6620c761",
+   "sp": "me",
+   "text": "No, thank you.",
+   "from": "drill"
+  },
+  {
+   "id": "me-e6613a4e",
+   "sp": "me",
+   "text": "Why?",
+   "from": "drill"
+  },
+  {
+   "id": "me-8569ca8f",
+   "sp": "me",
+   "text": "Okay. One moment.",
+   "from": "drill"
+  },
+  {
+   "id": "us-b41d9703",
+   "sp": "us",
+   "text": "Do you have any liquids in your bag?",
+   "from": "drill"
+  },
+  {
+   "id": "me-00777e8d",
+   "sp": "me",
+   "text": "Yes, just this water.",
+   "from": "drill"
+  },
+  {
+   "id": "me-abe7d9eb",
+   "sp": "me",
+   "text": "It's in my bag.",
+   "from": "drill"
+  },
+  {
+   "id": "me-db7e2cc0",
+   "sp": "me",
+   "text": "Gate 15? Thank you.",
+   "from": "drill"
+  },
+  {
+   "id": "me-91704ea1",
+   "sp": "me",
+   "text": "Sure. Here you are.",
+   "from": "drill"
+  },
+  {
+   "id": "me-532059a0",
+   "sp": "me",
+   "text": "Yes, you can see.",
+   "from": "drill"
+  },
+  {
+   "id": "me-4a8b289f",
+   "sp": "me",
+   "text": "Take it.",
+   "from": "drill"
+  },
+  {
+   "id": "me-a0993e21",
+   "sp": "me",
+   "text": "Beef, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-dca1f712",
+   "sp": "me",
+   "text": "Give me beef.",
+   "from": "drill"
+  },
+  {
+   "id": "me-f0a95e5d",
+   "sp": "me",
+   "text": "Yes, you can.",
+   "from": "drill"
+  },
+  {
+   "id": "me-d3e485e0",
+   "sp": "me",
+   "text": "I want a blanket.",
+   "from": "drill"
+  },
+  {
+   "id": "me-39390244",
+   "sp": "me",
+   "text": "Could I have a blanket, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-6dea39db",
+   "sp": "me",
+   "text": "I'm here on business.",
+   "from": "drill"
+  },
+  {
+   "id": "me-6b39a629",
+   "sp": "me",
+   "text": "During a week.",
+   "from": "drill"
+  },
+  {
+   "id": "me-e4e04aab",
+   "sp": "me",
+   "text": "For two weeks.",
+   "from": "drill"
+  },
+  {
+   "id": "me-13085449",
+   "sp": "me",
+   "text": "Why do you ask?",
+   "from": "drill"
+  },
+  {
+   "id": "us-778a569a",
+   "sp": "us",
+   "text": "And where will you be staying while you're in Seattle?",
+   "from": "drill"
+  },
+  {
+   "id": "me-6aaa41bc",
+   "sp": "me",
+   "text": "Speak slowly!",
+   "from": "drill"
+  },
+  {
+   "id": "me-2369b9a5",
+   "sp": "me",
+   "text": "I can't English.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-9c0dea54",
+   "sp": "ca",
+   "text": "Hi. How can I help you?",
+   "from": "drill"
+  },
+  {
+   "id": "me-de8bc978",
+   "sp": "me",
+   "text": "It's a black large suitcase with a red tag.",
+   "from": "drill"
+  },
+  {
+   "id": "me-e7345edc",
+   "sp": "me",
+   "text": "It's a large black suitcase with a red tag.",
+   "from": "drill"
+  },
+  {
+   "id": "me-cae7b0a0",
+   "sp": "me",
+   "text": "It's a large red suitcase with a black tag.",
+   "from": "drill"
+  },
+  {
+   "id": "au-88ec7d53",
+   "sp": "au",
+   "text": "Do you have anything to declare?",
+   "from": "drill"
+  },
+  {
+   "id": "me-2299f70e",
+   "sp": "me",
+   "text": "No declare.",
+   "from": "drill"
+  },
+  {
+   "id": "me-9ee030f8",
+   "sp": "me",
+   "text": "My purpose is family visit.",
+   "from": "drill"
+  },
+  {
+   "id": "me-52033cb0",
+   "sp": "me",
+   "text": "I'm here to visit my family.",
+   "from": "drill"
+  },
+  {
+   "id": "me-7a7db830",
+   "sp": "me",
+   "text": "For ten days.",
+   "from": "drill"
+  },
+  {
+   "id": "me-bcd320da",
+   "sp": "me",
+   "text": "I will travel.",
+   "from": "drill"
+  },
+  {
+   "id": "au-368f7d4d",
+   "sp": "au",
+   "text": "Did you pack these bags yourself, and is everything in them yours?",
+   "from": "drill"
+  },
+  {
+   "id": "me-be0e58fd",
+   "sp": "me",
+   "text": "An aisle seat, please.",
+   "from": "shadow"
+  },
+  {
+   "id": "me-760e7b28",
+   "sp": "me",
+   "text": "Thank you. Have a nice day.",
+   "from": "shadow"
+  }
+ ]
+}
