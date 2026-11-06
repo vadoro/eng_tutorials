@@ -231,6 +231,7 @@ const NARR = (window.EN && EN.narration) ? EN.narration({
   read: [[/\s*\(p\.p\.\)/g, ''], [/p\.p\./g, '과거분사'], [/Ms\. /g, 'Ms '], [/ = /g, ', '], [/TOEIC/g, '토익'], [/Part 5/g, '파트 5']],
   rate: () => speed,
   holdBefore: 0.05,
+  clips: window.EN_CLIPS,
 }) : { supported: false, reset() {}, hold: (T, next) => next, sync() {} };
 
 /* =========================================================

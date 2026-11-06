@@ -1,0 +1,1345 @@
+{
+ "slug": "verb-agreement-voice",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 95,
+  "en": 127,
+  "say": 63,
+  "koChars": 2235,
+  "enChars": 3057
+ },
+ "pieces": [
+  {
+   "id": "ke12eed0b",
+   "lang": "ko",
+   "text": "토익 파트 5에는 동사의 알맞은 모양을 고르는 문제가 자주 나와요.",
+   "cap": 0
+  },
+  {
+   "id": "kc2c05dc7",
+   "lang": "ko",
+   "text": "보기를 보세요.",
+   "cap": 1
+  },
+  {
+   "id": "ea8f46458",
+   "lang": "en",
+   "text": "posted, was posted, were posted, was posting.",
+   "cap": 1
+  },
+  {
+   "id": "kfda63ca1",
+   "lang": "ko",
+   "text": "모두 같은 동사에서 나왔어요",
+   "cap": 1
+  },
+  {
+   "id": "e22e8fe3e",
+   "lang": "en",
+   "text": "post.",
+   "cap": 1
+  },
+  {
+   "id": "k37fe87bf",
+   "lang": "ko",
+   "text": "고를 때 물어볼 것은 두 가지예요. 첫째, 진짜 주어가 하나인가, 여럿인가?",
+   "cap": 2
+  },
+  {
+   "id": "k08b43e95",
+   "lang": "ko",
+   "text": "둘째, 빈칸 뒤에 목적어가 있는가? 정답은 영상 끝에서 함께 풀어요.",
+   "cap": 3
+  },
+  {
+   "id": "k341e4e04",
+   "lang": "ko",
+   "text": "진짜 주어 찾기, 수 일치, 능동, 수동을 배우고 3단계 풀이법으로 묶어요.",
+   "cap": 4
+  },
+  {
+   "id": "k7288d727",
+   "lang": "ko",
+   "text": "한국어부터 볼까요? 그는 간다, 그들은 간다. 주어가 여럿이 되어도 동사는 그대로예요.",
+   "cap": 5
+  },
+  {
+   "id": "kcba517ae",
+   "lang": "ko",
+   "text": "영어는 달라요.",
+   "cap": 6
+  },
+  {
+   "id": "e6867a8c1",
+   "lang": "en",
+   "text": "He goes.",
+   "cap": 6
+  },
+  {
+   "id": "e34f96358",
+   "lang": "en",
+   "text": "They go.",
+   "cap": 6
+  },
+  {
+   "id": "k75d08716",
+   "lang": "ko",
+   "text": "주어가 하나인지 여럿인지에 따라 동사의 모양이 바뀌어요.",
+   "cap": 6
+  },
+  {
+   "id": "kcb487336",
+   "lang": "ko",
+   "text": "이것을 수 일치라고 해요. 동사가 주어의 수, 곧 하나인지 여럿인지에 맞춰 모양을 바꾸는 거예요.",
+   "cap": 7
+  },
+  {
+   "id": "k998d2c0d",
+   "lang": "ko",
+   "text": "헷갈리는 점이 있어요. 명사 끝의 -",
+   "cap": 8
+  },
+  {
+   "id": "e8756f323",
+   "lang": "en",
+   "text": "s",
+   "cap": 8
+  },
+  {
+   "id": "kaf8d7e19",
+   "lang": "ko",
+   "text": "여럿이라는 표시, 동사 끝의 -",
+   "cap": 8
+  },
+  {
+   "id": "k0d17590b",
+   "lang": "ko",
+   "text": "주어가 하나라는 표시예요.",
+   "cap": 8
+  },
+  {
+   "id": "keed7a277",
+   "lang": "ko",
+   "text": "짝으로 기억해요.",
+   "cap": 9
+  },
+  {
+   "id": "e4067009e",
+   "lang": "en",
+   "text": "is , are, was , were, has , have.",
+   "cap": 9
+  },
+  {
+   "id": "k06d851b0",
+   "lang": "ko",
+   "text": "앞은 주어가 하나, 뒤는 여럿일 때예요.",
+   "cap": 9
+  },
+  {
+   "id": "k5278e1a7",
+   "lang": "ko",
+   "text": "주어가 길어지면 함정이 생겨요.",
+   "cap": 10
+  },
+  {
+   "id": "e3432aeaf",
+   "lang": "en",
+   "text": "The results of the survey",
+   "cap": 10
+  },
+  {
+   "id": "kfff86221",
+   "lang": "ko",
+   "text": "빈칸",
+   "cap": 10
+  },
+  {
+   "id": "e0d707845",
+   "lang": "en",
+   "text": "ready.",
+   "cap": 10
+  },
+  {
+   "id": "k9e5ec6c0",
+   "lang": "ko",
+   "text": "빈칸 바로 앞의 낱말은 하나뿐인 설문이에요",
+   "cap": 11
+  },
+  {
+   "id": "ea474a37e",
+   "lang": "en",
+   "text": "survey.",
+   "cap": 11
+  },
+  {
+   "id": "k4822b26c",
+   "lang": "ko",
+   "text": "그래서 단수 동사를 고르기 쉬워요.",
+   "cap": 11
+  },
+  {
+   "id": "k31a89fa4",
+   "lang": "ko",
+   "text": "앞의 명사를 꾸미는 말",
+   "cap": 12
+  },
+  {
+   "id": "e01f57fe0",
+   "lang": "en",
+   "text": "of the survey.",
+   "cap": 12
+  },
+  {
+   "id": "k7586b8ec",
+   "lang": "ko",
+   "text": "이런 수식어를 지우면 진짜 주어가 남아요",
+   "cap": 12
+  },
+  {
+   "id": "e2beb4542",
+   "lang": "en",
+   "text": "results.",
+   "cap": 12
+  },
+  {
+   "id": "k020e20da",
+   "lang": "ko",
+   "text": "진짜 주어가 여럿이니까 복수 동사예요.",
+   "cap": 13
+  },
+  {
+   "id": "e4b2cbb50",
+   "lang": "en",
+   "text": "The results of the survey are ready.",
+   "cap": 13
+  },
+  {
+   "id": "kd7bbf0bc",
+   "lang": "ko",
+   "text": "관계사절도 수식어예요.",
+   "cap": 14
+  },
+  {
+   "id": "e427ff9ec",
+   "lang": "en",
+   "text": "The employees who work in the lab",
+   "cap": 14
+  },
+  {
+   "id": "ka2729eeb",
+   "lang": "ko",
+   "text": "진짜 주어",
+   "cap": 14
+  },
+  {
+   "id": "e14c6b47b",
+   "lang": "en",
+   "text": "employees.",
+   "cap": 14
+  },
+  {
+   "id": "k7adc37fc",
+   "lang": "ko",
+   "text": "전치사구, 관계사절, 분사구는 괄호로 묶어 지우고, 남은 주어와 동사를 이어 보세요.",
+   "cap": 15
+  },
+  {
+   "id": "kc52c0c44",
+   "lang": "ko",
+   "text": "주어 앞에 붙은 수량 표현이 수를 정하기도 해요. 겉모양이 비슷해서 함정이 돼요.",
+   "cap": 16
+  },
+  {
+   "id": "e98cf969e",
+   "lang": "en",
+   "text": "A number of applicants",
+   "cap": 17
+  },
+  {
+   "id": "k22489175",
+   "lang": "ko",
+   "text": "많은 지원자들. 뜻의 중심이 지원자들이라서 복수 동사예요.",
+   "cap": 17
+  },
+  {
+   "id": "eca107b96",
+   "lang": "en",
+   "text": "The number of applicants",
+   "cap": 18
+  },
+  {
+   "id": "kcbfba76c",
+   "lang": "ko",
+   "text": "지원자의 수. 중심은 숫자 하나라서 단수 동사예요.",
+   "cap": 18
+  },
+  {
+   "id": "e3fe25938",
+   "lang": "en",
+   "text": "each , every",
+   "cap": 19
+  },
+  {
+   "id": "k93ea4413",
+   "lang": "ko",
+   "text": "뒤에는 단수 명사가 오고, 동사도 단수예요.",
+   "cap": 19
+  },
+  {
+   "id": "ecd616295",
+   "lang": "en",
+   "text": "Each employee has a badge.",
+   "cap": 19
+  },
+  {
+   "id": "e96250871",
+   "lang": "en",
+   "text": "One of the printers",
+   "cap": 20
+  },
+  {
+   "id": "kc93432a5",
+   "lang": "ko",
+   "text": "여러 대 가운데 한 대. 진짜 주어",
+   "cap": 20
+  },
+  {
+   "id": "e2074109a",
+   "lang": "en",
+   "text": "One",
+   "cap": 20
+  },
+  {
+   "id": "k341d876d",
+   "lang": "ko",
+   "text": "그래서 단수예요.",
+   "cap": 20
+  },
+  {
+   "id": "k2b86686f",
+   "lang": "ko",
+   "text": "반대로",
+   "cap": 21
+  },
+  {
+   "id": "e702dc0b6",
+   "lang": "en",
+   "text": "several, many, both",
+   "cap": 21
+  },
+  {
+   "id": "k96bfbf55",
+   "lang": "ko",
+   "text": "뒤에는 복수 명사와 복수 동사가 와요.",
+   "cap": 21
+  },
+  {
+   "id": "k3ff78409",
+   "lang": "ko",
+   "text": "주어 자리에 동사 덩어리가 오기도 해요.",
+   "cap": 22
+  },
+  {
+   "id": "e9b44fd13",
+   "lang": "en",
+   "text": "Reviewing the reports takes time.",
+   "cap": 22
+  },
+  {
+   "id": "k3f99751c",
+   "lang": "ko",
+   "text": "빈칸 바로 앞은 여럿이지만",
+   "cap": 23
+  },
+  {
+   "id": "e5cb1fb51",
+   "lang": "en",
+   "text": "reports",
+   "cap": 23
+  },
+  {
+   "id": "kbe8f9a76",
+   "lang": "ko",
+   "text": "진짜 주어는 검토하는 일 하나예요. 그래서 단수 동사.",
+   "cap": 23
+  },
+  {
+   "id": "k962c0cb6",
+   "lang": "ko",
+   "text": "절이 주어일 때도 덩어리 하나예요.",
+   "cap": 24
+  },
+  {
+   "id": "e7097f3f4",
+   "lang": "en",
+   "text": "What the clients want is faster delivery.",
+   "cap": 24
+  },
+  {
+   "id": "k68c27665",
+   "lang": "ko",
+   "text": "셀 수 없는 명사도 단수 동사와 써요",
+   "cap": 25
+  },
+  {
+   "id": "e3f80b6b7",
+   "lang": "en",
+   "text": "information, equipment, feedback, advice.",
+   "cap": 25
+  },
+  {
+   "id": "k9e917491",
+   "lang": "ko",
+   "text": "동명사, 명사절, 셀 수 없는 명사. 모두 하나로 세어서 단수 동사로 받아요.",
+   "cap": 26
+  },
+  {
+   "id": "k8a42a9f5",
+   "lang": "ko",
+   "text": "이제 두 번째 질문이에요. 주어가 그 일을 하는 쪽인가, 당하는 쪽인가?",
+   "cap": 27
+  },
+  {
+   "id": "ee7e04916",
+   "lang": "en",
+   "text": "The company announced the winners.",
+   "cap": 28
+  },
+  {
+   "id": "k87195f66",
+   "lang": "ko",
+   "text": "회사가 발표했어요. 주어가 하는 쪽이니 능동태예요.",
+   "cap": 28
+  },
+  {
+   "id": "k37436def",
+   "lang": "ko",
+   "text": "목적어를 주어 자리로 올려 볼게요",
+   "cap": 29
+  },
+  {
+   "id": "e3ec91d99",
+   "lang": "en",
+   "text": "the winners.",
+   "cap": 29
+  },
+  {
+   "id": "k16f5f530",
+   "lang": "ko",
+   "text": "동사는",
+   "cap": 29
+  },
+  {
+   "id": "e4fb60fdf",
+   "lang": "en",
+   "text": "be",
+   "cap": 29
+  },
+  {
+   "id": "kd5aed9a4",
+   "lang": "ko",
+   "text": "+ 과거분사로 바뀌어요.",
+   "cap": 29
+  },
+  {
+   "id": "ecbc67f13",
+   "lang": "en",
+   "text": "The winners were announced.",
+   "cap": 30
+  },
+  {
+   "id": "k6b04e757",
+   "lang": "ko",
+   "text": "당하는 쪽이 주어가 됐고",
+   "cap": 30
+  },
+  {
+   "id": "kedb07793",
+   "lang": "ko",
+   "text": "동사의 수도 새 주어를 따라요. 수동태예요.",
+   "cap": 30
+  },
+  {
+   "id": "k1680c610",
+   "lang": "ko",
+   "text": "목적어가 주어 자리로 올라갔으니, 수동태 동사 뒤에는 목적어가 없어요. 이것이 문제를 푸는 열쇠예요.",
+   "cap": 31
+  },
+  {
+   "id": "k84d88310",
+   "lang": "ko",
+   "text": "그래서 능동이냐 수동이냐는 빈칸 뒤를 보면 알 수 있어요.",
+   "cap": 32
+  },
+  {
+   "id": "e2b139ae5",
+   "lang": "en",
+   "text": "The judges will",
+   "cap": 33
+  },
+  {
+   "id": "e8c9e2450",
+   "lang": "en",
+   "text": "the winners next week.",
+   "cap": 33
+  },
+  {
+   "id": "k3ed665a9",
+   "lang": "ko",
+   "text": "뒤에 목적어가 있어요 , 능동",
+   "cap": 33
+  },
+  {
+   "id": "e9514d02d",
+   "lang": "en",
+   "text": "announce.",
+   "cap": 33
+  },
+  {
+   "id": "e9caf6bc4",
+   "lang": "en",
+   "text": "The winners will be",
+   "cap": 34
+  },
+  {
+   "id": "e1f7ea141",
+   "lang": "en",
+   "text": "next week.",
+   "cap": 34
+  },
+  {
+   "id": "k31140e5a",
+   "lang": "ko",
+   "text": "뒤에 목적어가 없어요 , 수동",
+   "cap": 34
+  },
+  {
+   "id": "eb3494093",
+   "lang": "en",
+   "text": "announced.",
+   "cap": 34
+  },
+  {
+   "id": "eac575898",
+   "lang": "en",
+   "text": "next week, by Friday, on the website",
+   "cap": 35
+  },
+  {
+   "id": "k91755402",
+   "lang": "ko",
+   "text": "같은 시간, 장소 표현은 목적어가 아니에요. 속지 마세요.",
+   "cap": 35
+  },
+  {
+   "id": "kcc4477a9",
+   "lang": "ko",
+   "text": "목적어는 동사의 일을 당하는 명사예요. 빈칸 바로 뒤에 관사나 명사가 오는지 보세요.",
+   "cap": 36
+  },
+  {
+   "id": "k0eabbf83",
+   "lang": "ko",
+   "text": "그런데 수동태 뒤에도 명사가 남는 경우가 있어요. 목적어를 두 개 갖는 동사예요.",
+   "cap": 37
+  },
+  {
+   "id": "eff52d63f",
+   "lang": "en",
+   "text": "The company gave Ms Lee a bonus.",
+   "cap": 38
+  },
+  {
+   "id": "k1e5131c6",
+   "lang": "ko",
+   "text": "사람에게, 물건을. 주는 동사는 목적어가 둘이에요.",
+   "cap": 38
+  },
+  {
+   "id": "kb7d29067",
+   "lang": "ko",
+   "text": "사람을 주어로 올리면",
+   "cap": 39
+  },
+  {
+   "id": "e7066f62e",
+   "lang": "en",
+   "text": "Ms Lee was given a bonus.",
+   "cap": 39
+  },
+  {
+   "id": "ke798e333",
+   "lang": "ko",
+   "text": "목적어 하나가 뒤에 그대로 남아요.",
+   "cap": 39
+  },
+  {
+   "id": "eadd0ef5a",
+   "lang": "en",
+   "text": "give, offer, award, send, grant.",
+   "cap": 40
+  },
+  {
+   "id": "k5d1d48e4",
+   "lang": "ko",
+   "text": "주는 동사 뒤에 명사가 하나만 남아 있으면 수동태예요.",
+   "cap": 40
+  },
+  {
+   "id": "k2f7805a1",
+   "lang": "ko",
+   "text": "목적어 뒤에 보어를 갖는 동사도 비슷해요.",
+   "cap": 41
+  },
+  {
+   "id": "e033678db",
+   "lang": "en",
+   "text": "The directors consider the plan essential.",
+   "cap": 41
+  },
+  {
+   "id": "k4d0ee216",
+   "lang": "ko",
+   "text": "수동태로 바꾸면",
+   "cap": 42
+  },
+  {
+   "id": "e7451eb54",
+   "lang": "en",
+   "text": "The plan is considered essential.",
+   "cap": 42
+  },
+  {
+   "id": "k0b334ce0",
+   "lang": "ko",
+   "text": "보어만 남으면 수동태예요.",
+   "cap": 42
+  },
+  {
+   "id": "kaf4fa03b",
+   "lang": "ko",
+   "text": "한국어로는 문제가 발생되었다라고도 말해요. 그래서 영어도 수동태로 쓰기 쉬워요.",
+   "cap": 43
+  },
+  {
+   "id": "k9d571fbf",
+   "lang": "ko",
+   "text": "하지만",
+   "cap": 44
+  },
+  {
+   "id": "e01c7369c",
+   "lang": "en",
+   "text": "A problem was occurred.",
+   "cap": 44
+  },
+  {
+   "id": "k9c6c5af6",
+   "lang": "ko",
+   "text": "틀린 문장이에요. 목적어 없이 혼자 쓰는 동사, 자동사이기 때문이에요.",
+   "cap": 44
+  },
+  {
+   "id": "kb40b05b0",
+   "lang": "ko",
+   "text": "수동태는 목적어가 주어 자리로 올라간 것이었죠. 목적어가 없으니 수동태도 만들 수 없어요.",
+   "cap": 45
+  },
+  {
+   "id": "e66f84802",
+   "lang": "en",
+   "text": "occur, happen, arise, rise, take place, emerge.",
+   "cap": 46
+  },
+  {
+   "id": "k9e8d8ded",
+   "lang": "ko",
+   "text": "모두 능동으로만 써요.",
+   "cap": 46
+  },
+  {
+   "id": "e655f727d",
+   "lang": "en",
+   "text": "A problem occurred.",
+   "cap": 46
+  },
+  {
+   "id": "kb5817c93",
+   "lang": "ko",
+   "text": "비슷한 짝도 조심해요. 오르다",
+   "cap": 47
+  },
+  {
+   "id": "e2c43a0c7",
+   "lang": "en",
+   "text": "rise",
+   "cap": 47
+  },
+  {
+   "id": "kd47143a6",
+   "lang": "ko",
+   "text": "수동태가 없어요. 올리다",
+   "cap": 47
+  },
+  {
+   "id": "eadad6196",
+   "lang": "en",
+   "text": "raise",
+   "cap": 47
+  },
+  {
+   "id": "k6763a270",
+   "lang": "ko",
+   "text": "수동태가 돼요.",
+   "cap": 47
+  },
+  {
+   "id": "e9116f667",
+   "lang": "en",
+   "text": "Prices were raised.",
+   "cap": 47
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 48
+  },
+  {
+   "id": "ka7871c54",
+   "lang": "ko",
+   "text": "첫째, 주어를 찾아요. 수식어를 괄호로 묶어 지우고, 수량 표현과 덩어리 주어를 확인해요.",
+   "cap": 49
+  },
+  {
+   "id": "kb49805cb",
+   "lang": "ko",
+   "text": "둘째, 수를 맞춰요. 하나면",
+   "cap": 50
+  },
+  {
+   "id": "e04a5acee",
+   "lang": "en",
+   "text": "is , has",
+   "cap": 50
+  },
+  {
+   "id": "kaa1ddba8",
+   "lang": "ko",
+   "text": "여럿이면",
+   "cap": 50
+  },
+  {
+   "id": "ea97e7cde",
+   "lang": "en",
+   "text": "are , have",
+   "cap": 50
+  },
+  {
+   "id": "k18e5c916",
+   "lang": "ko",
+   "text": "원형. 수가 틀린 보기를 지워요.",
+   "cap": 50
+  },
+  {
+   "id": "k2f2e0454",
+   "lang": "ko",
+   "text": "셋째, 빈칸 뒤를 봐요. 목적어가 있으면 능동, 없으면 수동. 자동사는 늘 능동이에요.",
+   "cap": 51
+  },
+  {
+   "id": "k8b885500",
+   "lang": "ko",
+   "text": "이 순서로 처음 본 문제를 풀어 볼까요?",
+   "cap": 52
+  },
+  {
+   "id": "kd7f77d4d",
+   "lang": "ko",
+   "text": "처음 본 문제예요. 첫째, 수식어를 지워요",
+   "cap": 53
+  },
+  {
+   "id": "e80e1f0e8",
+   "lang": "en",
+   "text": "of the customer survey.",
+   "cap": 53
+  },
+  {
+   "id": "kc846b424",
+   "lang": "ko",
+   "text": "둘째, 진짜 주어가 여럿이니 복수 동사만 남겨요. 단수 동사는 탈락",
+   "cap": 54
+  },
+  {
+   "id": "eadcd2e18",
+   "lang": "en",
+   "text": "B , D",
+   "cap": 54
+  },
+  {
+   "id": "kd92db1a4",
+   "lang": "ko",
+   "text": "셋째, 빈칸 뒤에는 장소, 시간 표현뿐, 목적어가 없어요. 수동태가 정답",
+   "cap": 55
+  },
+  {
+   "id": "ef63c38c7",
+   "lang": "en",
+   "text": "C were posted.",
+   "cap": 55
+  },
+  {
+   "id": "ke58ed012",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째, 진짜 주어",
+   "cap": 56
+  },
+  {
+   "id": "e531c5291",
+   "lang": "en",
+   "text": "Ms Kwon",
+   "cap": 56
+  },
+  {
+   "id": "k6cdcedc9",
+   "lang": "ko",
+   "text": "한 사람. 둘째, 탈락 , 복수",
+   "cap": 56
+  },
+  {
+   "id": "e5756a793",
+   "lang": "en",
+   "text": "C",
+   "cap": 56
+  },
+  {
+   "id": "ec2d8c4de",
+   "lang": "en",
+   "text": "ing",
+   "cap": 56
+  },
+  {
+   "id": "k7db71adf",
+   "lang": "ko",
+   "text": "혼자인",
+   "cap": 56
+  },
+  {
+   "id": "e5c56af72",
+   "lang": "en",
+   "text": "D",
+   "cap": 56
+  },
+  {
+   "id": "k43b695d1",
+   "lang": "ko",
+   "text": "셋째, 빈칸 뒤에 명사가 있어서 능동처럼 보여요",
+   "cap": 57
+  },
+  {
+   "id": "e061c4cc5",
+   "lang": "en",
+   "text": "a special bonus.",
+   "cap": 57
+  },
+  {
+   "id": "e0ab2ec87",
+   "lang": "en",
+   "text": "award",
+   "cap": 57
+  },
+  {
+   "id": "k3306aa18",
+   "lang": "ko",
+   "text": "주는 동사.",
+   "cap": 57
+  },
+  {
+   "id": "k19cf1f51",
+   "lang": "ko",
+   "text": "받는 사람이 주어이고 목적어 하나만 남았어요. 4형식 수동태, 정답은",
+   "cap": 58
+  },
+  {
+   "id": "e2f85efd1",
+   "lang": "en",
+   "text": "B was awarded.",
+   "cap": 58
+  },
+  {
+   "id": "ka646c004",
+   "lang": "ko",
+   "text": "세 번째. 첫째",
+   "cap": 59
+  },
+  {
+   "id": "efa0ed347",
+   "lang": "en",
+   "text": "The number of",
+   "cap": 59
+  },
+  {
+   "id": "kd1037709",
+   "lang": "ko",
+   "text": "수를 말해요. 진짜 주어",
+   "cap": 59
+  },
+  {
+   "id": "efe504a4f",
+   "lang": "en",
+   "text": "number",
+   "cap": 59
+  },
+  {
+   "id": "k23ddcd09",
+   "lang": "ko",
+   "text": "하나예요.",
+   "cap": 59
+  },
+  {
+   "id": "k66da9eb4",
+   "lang": "ko",
+   "text": "둘째, 단수 동사만 남겨요. 탈락 , 복수",
+   "cap": 60
+  },
+  {
+   "id": "e5956aab9",
+   "lang": "en",
+   "text": "A",
+   "cap": 60
+  },
+  {
+   "id": "k877d6faa",
+   "lang": "ko",
+   "text": "셋째",
+   "cap": 61
+  },
+  {
+   "id": "k5445a798",
+   "lang": "ko",
+   "text": "수동태가 없는 자동사. 탈락",
+   "cap": 61
+  },
+  {
+   "id": "e6299baef",
+   "lang": "en",
+   "text": "B has been risen.",
+   "cap": 61
+  },
+  {
+   "id": "k4039e339",
+   "lang": "ko",
+   "text": "정답은",
+   "cap": 61
+  },
+  {
+   "id": "ed5b3d43f",
+   "lang": "en",
+   "text": "D has risen.",
+   "cap": 61
+  },
+  {
+   "id": "k46890368",
+   "lang": "ko",
+   "text": "정리해요. 동사 빈칸은 두 가지를 물어요. 주어의 수, 그리고 능동, 수동.",
+   "cap": 62
+  },
+  {
+   "id": "k3fd7dd1c",
+   "lang": "ko",
+   "text": "수식어를 지워 진짜 주어를 찾고, 하나면 단수 동사, 여럿이면 복수 동사.",
+   "cap": 63
+  },
+  {
+   "id": "kc7040fce",
+   "lang": "ko",
+   "text": "빈칸 뒤에 목적어가 있으면 능동, 없으면 수동. 자동사는 수동태가 없어요.",
+   "cap": 64
+  },
+  {
+   "id": "k41f1595e",
+   "lang": "ko",
+   "text": "아래에서 능동, 수동 변환기와 연습 문제로 손에 익혀 보세요.",
+   "cap": 65
+  },
+  {
+   "id": "e95efd36f",
+   "lang": "en",
+   "text": "The results of the customer survey were posted on the company website yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "e1a823ea9",
+   "lang": "en",
+   "text": "He goes. They go.",
+   "from": "say"
+  },
+  {
+   "id": "eeb55644a",
+   "lang": "en",
+   "text": "The manager approves the budget.",
+   "from": "say"
+  },
+  {
+   "id": "e32d75888",
+   "lang": "en",
+   "text": "The managers approve the budget.",
+   "from": "say"
+  },
+  {
+   "id": "e370db5df",
+   "lang": "en",
+   "text": "The employees who work in the lab wear safety glasses.",
+   "from": "say"
+  },
+  {
+   "id": "e744cc999",
+   "lang": "en",
+   "text": "A number of applicants have called.",
+   "from": "say"
+  },
+  {
+   "id": "e3fafc361",
+   "lang": "en",
+   "text": "The number of applicants has doubled.",
+   "from": "say"
+  },
+  {
+   "id": "e4c3d7c9a",
+   "lang": "en",
+   "text": "One of the printers is broken.",
+   "from": "say"
+  },
+  {
+   "id": "ed66ef3fe",
+   "lang": "en",
+   "text": "Several guests have left.",
+   "from": "say"
+  },
+  {
+   "id": "ea1220204",
+   "lang": "en",
+   "text": "The new equipment is ready.",
+   "from": "say"
+  },
+  {
+   "id": "e1691d536",
+   "lang": "en",
+   "text": "The winners were announced by the company.",
+   "from": "say"
+  },
+  {
+   "id": "e976d7012",
+   "lang": "en",
+   "text": "The judges will announce the winners next week.",
+   "from": "say"
+  },
+  {
+   "id": "e5e593d14",
+   "lang": "en",
+   "text": "The winners will be announced next week.",
+   "from": "say"
+  },
+  {
+   "id": "e5cd2ff3b",
+   "lang": "en",
+   "text": "The company gave Ms. Lee a bonus.",
+   "from": "say"
+  },
+  {
+   "id": "ea2f2b37c",
+   "lang": "en",
+   "text": "Ms. Lee was given a bonus.",
+   "from": "say"
+  },
+  {
+   "id": "e5790545b",
+   "lang": "en",
+   "text": "Prices rose.",
+   "from": "say"
+  },
+  {
+   "id": "e81997ac8",
+   "lang": "en",
+   "text": "Ms. Kwon was awarded a special bonus for her work on the merger.",
+   "from": "say"
+  },
+  {
+   "id": "efdff8839",
+   "lang": "en",
+   "text": "The number of online orders has risen steadily over the past year.",
+   "from": "say"
+  },
+  {
+   "id": "e10b94903",
+   "lang": "en",
+   "text": "They go to work early.",
+   "from": "say"
+  },
+  {
+   "id": "edf8ecdb9",
+   "lang": "en",
+   "text": "They have a meeting today.",
+   "from": "say"
+  },
+  {
+   "id": "ea83513c9",
+   "lang": "en",
+   "text": "They are ready.",
+   "from": "say"
+  },
+  {
+   "id": "efea83e6c",
+   "lang": "en",
+   "text": "They were busy yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "eb1404e42",
+   "lang": "en",
+   "text": "He goes to work early.",
+   "from": "say"
+  },
+  {
+   "id": "e34a095c8",
+   "lang": "en",
+   "text": "He has a meeting today.",
+   "from": "say"
+  },
+  {
+   "id": "e84b2c1ae",
+   "lang": "en",
+   "text": "He is ready.",
+   "from": "say"
+  },
+  {
+   "id": "e905679c5",
+   "lang": "en",
+   "text": "He was busy yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "ee08d5b64",
+   "lang": "en",
+   "text": "He goes. He goes.",
+   "from": "say"
+  },
+  {
+   "id": "efe0c60fd",
+   "lang": "en",
+   "text": "The manager goes to work early.",
+   "from": "say"
+  },
+  {
+   "id": "ed88cbbf1",
+   "lang": "en",
+   "text": "The manager has a meeting today.",
+   "from": "say"
+  },
+  {
+   "id": "e0577aa49",
+   "lang": "en",
+   "text": "The manager is ready.",
+   "from": "say"
+  },
+  {
+   "id": "e587bfcce",
+   "lang": "en",
+   "text": "The manager was busy yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "e89a68339",
+   "lang": "en",
+   "text": "He goes. The manager goes.",
+   "from": "say"
+  },
+  {
+   "id": "e8a63c2cc",
+   "lang": "en",
+   "text": "The managers go to work early.",
+   "from": "say"
+  },
+  {
+   "id": "e9d9364b2",
+   "lang": "en",
+   "text": "The managers have a meeting today.",
+   "from": "say"
+  },
+  {
+   "id": "e569a12ac",
+   "lang": "en",
+   "text": "The managers are ready.",
+   "from": "say"
+  },
+  {
+   "id": "e5c5b1521",
+   "lang": "en",
+   "text": "The managers were busy yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "eb17d00a2",
+   "lang": "en",
+   "text": "He goes. The managers go.",
+   "from": "say"
+  },
+  {
+   "id": "e44a153d3",
+   "lang": "en",
+   "text": "My sister goes to work early.",
+   "from": "say"
+  },
+  {
+   "id": "e3235a93f",
+   "lang": "en",
+   "text": "My sister has a meeting today.",
+   "from": "say"
+  },
+  {
+   "id": "e86eb74f3",
+   "lang": "en",
+   "text": "My sister is ready.",
+   "from": "say"
+  },
+  {
+   "id": "e5319d688",
+   "lang": "en",
+   "text": "My sister was busy yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "e106ad653",
+   "lang": "en",
+   "text": "He goes. My sister goes.",
+   "from": "say"
+  },
+  {
+   "id": "e286ed68a",
+   "lang": "en",
+   "text": "My parents go to work early.",
+   "from": "say"
+  },
+  {
+   "id": "eb653c2a8",
+   "lang": "en",
+   "text": "My parents have a meeting today.",
+   "from": "say"
+  },
+  {
+   "id": "ea6a93a46",
+   "lang": "en",
+   "text": "My parents are ready.",
+   "from": "say"
+  },
+  {
+   "id": "e6d8d5a1b",
+   "lang": "en",
+   "text": "My parents were busy yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "e955be010",
+   "lang": "en",
+   "text": "He goes. My parents go.",
+   "from": "say"
+  },
+  {
+   "id": "e27703df7",
+   "lang": "en",
+   "text": "The number of applicants has called.",
+   "from": "say"
+  },
+  {
+   "id": "e9ea7f834",
+   "lang": "en",
+   "text": "Each applicant has called.",
+   "from": "say"
+  },
+  {
+   "id": "e76342152",
+   "lang": "en",
+   "text": "Every applicant has called.",
+   "from": "say"
+  },
+  {
+   "id": "ecd7b7712",
+   "lang": "en",
+   "text": "One of the applicants has called.",
+   "from": "say"
+  },
+  {
+   "id": "e8bda8783",
+   "lang": "en",
+   "text": "Each of the applicants has called.",
+   "from": "say"
+  },
+  {
+   "id": "ed357c5dc",
+   "lang": "en",
+   "text": "Several applicants have called.",
+   "from": "say"
+  },
+  {
+   "id": "e2123bd53",
+   "lang": "en",
+   "text": "Both applicants have called.",
+   "from": "say"
+  },
+  {
+   "id": "e6506a683",
+   "lang": "en",
+   "text": "The manager reviews the reports.",
+   "from": "say"
+  },
+  {
+   "id": "efdcf1270",
+   "lang": "en",
+   "text": "The reports are reviewed by the manager.",
+   "from": "say"
+  },
+  {
+   "id": "eef2f2119",
+   "lang": "en",
+   "text": "The reports are reviewed.",
+   "from": "say"
+  },
+  {
+   "id": "e3425874e",
+   "lang": "en",
+   "text": "The interns prepare the agenda.",
+   "from": "say"
+  },
+  {
+   "id": "e197ed361",
+   "lang": "en",
+   "text": "The agenda is prepared by the interns.",
+   "from": "say"
+  },
+  {
+   "id": "e14a8f2d0",
+   "lang": "en",
+   "text": "The agenda is prepared.",
+   "from": "say"
+  },
+  {
+   "id": "eb41c909d",
+   "lang": "en",
+   "text": "The directors approved the budget.",
+   "from": "say"
+  },
+  {
+   "id": "e2e4635f5",
+   "lang": "en",
+   "text": "The budget was approved by the directors.",
+   "from": "say"
+  },
+  {
+   "id": "e74fe9cb0",
+   "lang": "en",
+   "text": "The budget was approved.",
+   "from": "say"
+  }
+ ]
+}
