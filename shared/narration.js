@@ -25,6 +25,8 @@
  *
  * 2) EN.say(text, { slow }) — 영어 문장 하나를 영어 음성으로 읽습니다(발음 듣기 단추용).
  *    EN.say.supported 가 false이면 단추를 숨기세요. EN.say.stop()으로 멈춥니다.
+ *    미리 만든 음성 파일(선택): window.EN_CLIPS(또는 EN.say.clips)에 조각 id EN.narration.pieceId('en', text)의 파일이
+ *    있으면 그 파일로 읽어요(음성 해설의 영어 조각과 같은 목록 · 같은 목소리). EN.say.hasClip(text)로 확인.
  *
  * 3) EN.splitLang(text) — 글을 [{ lang: 'en' | 'ko', text }] 조각으로 나눕니다(자막의 영어 부분 꾸미기에도 씀).
  */
@@ -236,20 +238,41 @@
   };
 
   /* ---------- 영어 발음 듣기 ---------- */
-  var sayToken = 0;
+  // 미리 만든 음성 파일(선택): EN.say.clips(없으면 window.EN_CLIPS — 음성 해설의 영어 조각과 같은 목록)에
+  // 읽을 글의 조각 id(pieceId('en', 글))가 있으면 그 파일로, 없으면 브라우저 음성으로 읽어요. 천천히는 0.75배.
+  var sayToken = 0, SAY_AUD = null;
+  var sayText = function (text) { return String(text).replace(/_{2,}/g, '').replace(/\s{2,}/g, ' ').trim(); };
+  var sayClips = function () { var C = EN.say.clips || window.EN_CLIPS; return C && C.clips && typeof window.Audio === 'function' ? C : null; };
+  var sayAudioStop = function () { if (SAY_AUD) { SAY_AUD.onended = SAY_AUD.onerror = null; try { SAY_AUD.pause(); } catch (e) { /* 이미 멈춤 */ } } };
   EN.say = function (text, o) {
     o = o || {};
-    if (!SUPPORTED) return false;
-    pickVoices();
-    synth.cancel();
+    var t = sayText(text), C = sayClips(), clip = C ? C.clips[pieceId('en', t)] : null;
+    if (!SUPPORTED && !clip) return false;
+    EN.say.stop();
     var token = ++sayToken;
-    var u = utter(String(text).replace(/_{2,}/g, '').replace(/\s{2,}/g, ' ').trim(), 'en', o.slow ? 0.62 : 0.9);
-    if (o.onend) u.onend = u.onerror = function () { if (token === sayToken) o.onend(); };
-    synth.speak(u);
+    var done = function () { if (token === sayToken && o.onend) o.onend(); };
+    var tts = function () {
+      if (!SUPPORTED) { done(); return; }
+      pickVoices();
+      var u = utter(t, 'en', o.slow ? 0.62 : 0.9);
+      u.onend = u.onerror = done;
+      synth.speak(u);
+    };
+    if (!clip) { tts(); return true; }
+    if (!SAY_AUD) { SAY_AUD = new window.Audio(); SAY_AUD.preload = 'auto'; }
+    var a = SAY_AUD, failed = function () { if (token !== sayToken) return; sayAudioStop(); tts(); };   // 파일을 못 읽으면 브라우저 음성
+    a.onended = done; a.onerror = failed;
+    a.src = (C.base || '') + clip[0];
+    a.defaultPlaybackRate = a.playbackRate = o.slow ? 0.75 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+    var p = a.play();
+    if (p && p.catch) p.catch(failed);
     return true;
   };
   EN.say.supported = SUPPORTED;
-  EN.say.stop = function () { if (SUPPORTED) { sayToken++; synth.cancel(); } };
+  EN.say.text = sayText;   // 읽을 글 (조각 id를 만들 때 — tools/narration-pieces.cjs)
+  EN.say.hasClip = function (text) { var C = sayClips(); return !!(C && C.clips[pieceId('en', sayText(text))]); };
+  EN.say.stop = function () { sayToken++; sayAudioStop(); if (SUPPORTED) synth.cancel(); };
   EN.say.voice = function () { pickVoices(); return VOICE.en; };
 
   // [data-say="문장"] 단추를 한곳에서 처리: 누르면 읽고, 같은 단추를 곧바로 한 번 더 누르면 천천히 읽음

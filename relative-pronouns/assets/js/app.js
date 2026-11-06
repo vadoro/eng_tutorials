@@ -250,6 +250,7 @@ const NARR = (window.EN && EN.narration) ? EN.narration({
   read: [[/TOEIC/g, '토익'], [/Part 5/g, '파트 5'], [/~하는/g, '하는']],
   rate: () => speed,
   holdBefore: 0.05,
+  clips: window.EN_CLIPS,
 }) : { supported: false, reset() {}, hold: (T, next) => next, sync() {} };
 
 /* =========================================================

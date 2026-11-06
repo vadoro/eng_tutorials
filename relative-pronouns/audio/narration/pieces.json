@@ -1,0 +1,1393 @@
+{
+ "slug": "relative-pronouns",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 135,
+  "en": 95,
+  "say": 33,
+  "koChars": 2342,
+  "enChars": 2215
+ },
+ "pieces": [
+  {
+   "id": "kd8cd4316",
+   "lang": "ko",
+   "text": "관계대명사는 토익 문법 문제에 자주 나오는 단골 손님이에요.",
+   "cap": 0
+  },
+  {
+   "id": "k99bb50c7",
+   "lang": "ko",
+   "text": "예를 들어 이런 문제예요. 빈칸에",
+   "cap": 1
+  },
+  {
+   "id": "eaded7ae5",
+   "lang": "en",
+   "text": "who, whom, whose, what",
+   "cap": 1
+  },
+  {
+   "id": "kacdf8df0",
+   "lang": "ko",
+   "text": "중 무엇이 들어갈까요?",
+   "cap": 1
+  },
+  {
+   "id": "kf10ca6d2",
+   "lang": "ko",
+   "text": "3초 안에 골라 보세요. 감으로 고르면 자꾸 틀려요.",
+   "cap": 2
+  },
+  {
+   "id": "k3ece4679",
+   "lang": "ko",
+   "text": "규칙을 알면 문장을 다 해석하지 않아도 답이 보여요.",
+   "cap": 3
+  },
+  {
+   "id": "k5ae7dfd0",
+   "lang": "ko",
+   "text": "관계대명사가 하는 일, 빈자리 찾기, 그리고 3단계 풀이법을 차례로 배워요.",
+   "cap": 4
+  },
+  {
+   "id": "k7a849bf7",
+   "lang": "ko",
+   "text": "한국어에서는 꾸미는 말이 명사 앞에 와요. 한국 음식을 요리하는 요리사.",
+   "cap": 5
+  },
+  {
+   "id": "k35ad46bc",
+   "lang": "ko",
+   "text": "영어는 반대예요. 긴 꾸밈말은 명사 뒤에 붙어요.",
+   "cap": 6
+  },
+  {
+   "id": "e34eb9698",
+   "lang": "en",
+   "text": "a chef who cooks Korean food.",
+   "cap": 6
+  },
+  {
+   "id": "kb600c157",
+   "lang": "ko",
+   "text": "한 단어로 꾸밀 때는",
+   "cap": 7
+  },
+  {
+   "id": "ef316a84e",
+   "lang": "en",
+   "text": "a busy chef",
+   "cap": 7
+  },
+  {
+   "id": "k978650d0",
+   "lang": "ko",
+   "text": "처럼 앞에 두지만, 문장처럼 길어지면 뒤로 가요.",
+   "cap": 7
+  },
+  {
+   "id": "k0eed1566",
+   "lang": "ko",
+   "text": "그래서 영어는 명사를 먼저 말하고, 뒤에서 설명을 덧붙인다고 생각하면 돼요.",
+   "cap": 8
+  },
+  {
+   "id": "k0338d621",
+   "lang": "ko",
+   "text": "꾸밈을 받는 앞의 명사를 선행사, 뒤에서 꾸미는 문장을 관계사절이라고 해요.",
+   "cap": 9
+  },
+  {
+   "id": "k184b09fd",
+   "lang": "ko",
+   "text": "관계사절의 맨 앞에서 문을 여는 말",
+   "cap": 10
+  },
+  {
+   "id": "efa6818de",
+   "lang": "en",
+   "text": "who",
+   "cap": 10
+  },
+  {
+   "id": "keb5c63f2",
+   "lang": "ko",
+   "text": "가 바로 관계대명사예요.",
+   "cap": 10
+  },
+  {
+   "id": "kab107094",
+   "lang": "ko",
+   "text": "두 문장이 있어요.",
+   "cap": 11
+  },
+  {
+   "id": "e56d17a15",
+   "lang": "en",
+   "text": "I know a chef.",
+   "cap": 11
+  },
+  {
+   "id": "ecfa1a2d5",
+   "lang": "en",
+   "text": "She cooks Korean food.",
+   "cap": 11
+  },
+  {
+   "id": "ef76156fb",
+   "lang": "en",
+   "text": "a chef",
+   "cap": 12
+  },
+  {
+   "id": "k9f34a81b",
+   "lang": "ko",
+   "text": "와",
+   "cap": 12
+  },
+  {
+   "id": "ec0bcbb3c",
+   "lang": "en",
+   "text": "She",
+   "cap": 12
+  },
+  {
+   "id": "k49e844b9",
+   "lang": "ko",
+   "text": "는 같은 사람이에요. 같은 사람을 두 번 말하고 있죠.",
+   "cap": 12
+  },
+  {
+   "id": "kaa8f6fff",
+   "lang": "ko",
+   "text": "를",
+   "cap": 13
+  },
+  {
+   "id": "k9eddbb37",
+   "lang": "ko",
+   "text": "로 바꾸면",
+   "cap": 13
+  },
+  {
+   "id": "kf5cd3ce1",
+   "lang": "ko",
+   "text": "가 두 문장을 잇는 접속사와",
+   "cap": 13
+  },
+  {
+   "id": "k7a50e5b2",
+   "lang": "ko",
+   "text": "를 대신하는 대명사 일을 함께 해요.",
+   "cap": 13
+  },
+  {
+   "id": "ka9e8b0d1",
+   "lang": "ko",
+   "text": "이제",
+   "cap": 14
+  },
+  {
+   "id": "kc88281f3",
+   "lang": "ko",
+   "text": "로 시작하는 문장을",
+   "cap": 14
+  },
+  {
+   "id": "k85becb36",
+   "lang": "ko",
+   "text": "바로 뒤에 붙여요.",
+   "cap": 14
+  },
+  {
+   "id": "e0b6ef40e",
+   "lang": "en",
+   "text": "I know a chef who cooks Korean food.",
+   "cap": 14
+  },
+  {
+   "id": "k7c3ac8b6",
+   "lang": "ko",
+   "text": "사물도 같아요.",
+   "cap": 15
+  },
+  {
+   "id": "e60824f3f",
+   "lang": "en",
+   "text": "It",
+   "cap": 15
+  },
+  {
+   "id": "ka3364167",
+   "lang": "ko",
+   "text": "을",
+   "cap": 15
+  },
+  {
+   "id": "ecf0afb37",
+   "lang": "en",
+   "text": "which",
+   "cap": 15
+  },
+  {
+   "id": "kfa7ef63d",
+   "lang": "ko",
+   "text": "로 바꿔",
+   "cap": 15
+  },
+  {
+   "id": "e3706db86",
+   "lang": "en",
+   "text": "printer",
+   "cap": 15
+  },
+  {
+   "id": "k8400f062",
+   "lang": "ko",
+   "text": "뒤에 붙이면",
+   "cap": 15
+  },
+  {
+   "id": "e81bc677b",
+   "lang": "en",
+   "text": "This is the printer which copies 50 pages a minute.",
+   "cap": 15
+  },
+  {
+   "id": "k7c902e19",
+   "lang": "ko",
+   "text": "사람이면",
+   "cap": 16
+  },
+  {
+   "id": "k6670faa2",
+   "lang": "ko",
+   "text": "사물이나 동물이면",
+   "cap": 16
+  },
+  {
+   "id": "e0749485b",
+   "lang": "en",
+   "text": "which.",
+   "cap": 16
+  },
+  {
+   "id": "e0e36389b",
+   "lang": "en",
+   "text": "that",
+   "cap": 16
+  },
+  {
+   "id": "kec117659",
+   "lang": "ko",
+   "text": "은 둘 다에 쓸 수 있어요.",
+   "cap": 16
+  },
+  {
+   "id": "k74c47cce",
+   "lang": "ko",
+   "text": "관계사절에는 중요한 비밀이 있어요. 문장 안에 빈자리가 꼭 하나 있다는 거예요.",
+   "cap": 17
+  },
+  {
+   "id": "k3a97740f",
+   "lang": "ko",
+   "text": "는 주어 자리에 있었어요.",
+   "cap": 18
+  },
+  {
+   "id": "k5eace15b",
+   "lang": "ko",
+   "text": "가",
+   "cap": 18
+  },
+  {
+   "id": "k727c2a73",
+   "lang": "ko",
+   "text": "로 바뀌어 맨 앞으로 가면, 주어 자리가 비어요.",
+   "cap": 18
+  },
+  {
+   "id": "k7a080915",
+   "lang": "ko",
+   "text": "목적어도 마찬가지예요.",
+   "cap": 19
+  },
+  {
+   "id": "e0160e902",
+   "lang": "en",
+   "text": "We interviewed him",
+   "cap": 19
+  },
+  {
+   "id": "k70962b55",
+   "lang": "ko",
+   "text": "에서",
+   "cap": 19
+  },
+  {
+   "id": "e6c5be128",
+   "lang": "en",
+   "text": "him",
+   "cap": 19
+  },
+  {
+   "id": "kb3365a97",
+   "lang": "ko",
+   "text": "이",
+   "cap": 19
+  },
+  {
+   "id": "ee4dee1c9",
+   "lang": "en",
+   "text": "whom",
+   "cap": 19
+  },
+  {
+   "id": "k9de61b75",
+   "lang": "ko",
+   "text": "이 되어 앞으로 가요.",
+   "cap": 19
+  },
+  {
+   "id": "k3a085049",
+   "lang": "ko",
+   "text": "이번에는",
+   "cap": 20
+  },
+  {
+   "id": "e981dd9f0",
+   "lang": "en",
+   "text": "interviewed",
+   "cap": 20
+  },
+  {
+   "id": "kd0736e05",
+   "lang": "ko",
+   "text": "뒤, 목적어 자리가 비었어요. 그 빈자리가 가리키는 것이 바로 선행사예요.",
+   "cap": 20
+  },
+  {
+   "id": "k6af27677",
+   "lang": "ko",
+   "text": "빈칸 바로 뒤에 동사가 오면 주어가 빠진 것, 주어와 동사 뒤에 목적어가 없으면 목적어가 빠진 것이에요.",
+   "cap": 21
+  },
+  {
+   "id": "k041371c6",
+   "lang": "ko",
+   "text": "빈자리를 찾는 눈, 이것이 관계대명사 문제를 푸는 가장 강력한 열쇠예요.",
+   "cap": 22
+  },
+  {
+   "id": "kd93163b7",
+   "lang": "ko",
+   "text": "빈자리가 주어이면 주격 관계대명사를 써요. 사람은",
+   "cap": 23
+  },
+  {
+   "id": "k12b6554b",
+   "lang": "ko",
+   "text": "사물은",
+   "cap": 23
+  },
+  {
+   "id": "k55129217",
+   "lang": "ko",
+   "text": "둘 다",
+   "cap": 23
+  },
+  {
+   "id": "e145b44ef",
+   "lang": "en",
+   "text": "that.",
+   "cap": 23
+  },
+  {
+   "id": "e2c14446b",
+   "lang": "en",
+   "text": "an assistant who answers calls.",
+   "cap": 24
+  },
+  {
+   "id": "k9ee89124",
+   "lang": "ko",
+   "text": "빈자리 바로 뒤에 동사",
+   "cap": 24
+  },
+  {
+   "id": "ebaf797e5",
+   "lang": "en",
+   "text": "answers",
+   "cap": 24
+  },
+  {
+   "id": "kf5b6bf91",
+   "lang": "ko",
+   "text": "가 와요.",
+   "cap": 24
+  },
+  {
+   "id": "e86ff3303",
+   "lang": "en",
+   "text": "a machine which sorts mail.",
+   "cap": 25
+  },
+  {
+   "id": "k7e2d8423",
+   "lang": "ko",
+   "text": "사물이니까",
+   "cap": 25
+  },
+  {
+   "id": "k14e15c38",
+   "lang": "ko",
+   "text": "이번에도 바로 뒤에 동사예요.",
+   "cap": 25
+  },
+  {
+   "id": "k228cac33",
+   "lang": "ko",
+   "text": "토익에 자주 나오는 함정이 있어요. 관계대명사 뒤 동사의 수는 무엇에 맞출까요?",
+   "cap": 26
+  },
+  {
+   "id": "k928ccec2",
+   "lang": "ko",
+   "text": "정답은 선행사예요.",
+   "cap": 27
+  },
+  {
+   "id": "k0c447ecb",
+   "lang": "ko",
+   "text": "는 앞의",
+   "cap": 27
+  },
+  {
+   "id": "ef95fbe59",
+   "lang": "en",
+   "text": "manager",
+   "cap": 27
+  },
+  {
+   "id": "k25205c21",
+   "lang": "ko",
+   "text": "를 대신하니까, 단수면",
+   "cap": 27
+  },
+  {
+   "id": "ec0e9e0f0",
+   "lang": "en",
+   "text": "oversees",
+   "cap": 27
+  },
+  {
+   "id": "kf010a8a0",
+   "lang": "ko",
+   "text": "복수면",
+   "cap": 27
+  },
+  {
+   "id": "e7de97777",
+   "lang": "en",
+   "text": "oversee.",
+   "cap": 27
+  },
+  {
+   "id": "ea40535bf",
+   "lang": "en",
+   "text": "Employees who",
+   "cap": 28
+  },
+  {
+   "id": "kdfeadc43",
+   "lang": "ko",
+   "text": "다음에는 복수 동사",
+   "cap": 28
+  },
+  {
+   "id": "e66e59130",
+   "lang": "en",
+   "text": "attend.",
+   "cap": 28
+  },
+  {
+   "id": "k43ae7b2c",
+   "lang": "ko",
+   "text": "만 보지 말고, 그 앞의 명사를 보세요.",
+   "cap": 28
+  },
+  {
+   "id": "k4e905417",
+   "lang": "ko",
+   "text": "빈자리가 목적어이면 목적격 관계대명사예요. 사람은",
+   "cap": 29
+  },
+  {
+   "id": "e254f646f",
+   "lang": "en",
+   "text": "the candidate whom we interviewed yesterday.",
+   "cap": 30
+  },
+  {
+   "id": "ka0ff0607",
+   "lang": "ko",
+   "text": "뒤의 목적어가 비었어요.",
+   "cap": 30
+  },
+  {
+   "id": "e9a57ed30",
+   "lang": "en",
+   "text": "the report which Mina wrote.",
+   "cap": 31
+  },
+  {
+   "id": "ef9608973",
+   "lang": "en",
+   "text": "wrote",
+   "cap": 31
+  },
+  {
+   "id": "k42543f88",
+   "lang": "ko",
+   "text": "뒤가 비어 있죠. 빈칸 뒤에 주어와 동사가 이어져요.",
+   "cap": 31
+  },
+  {
+   "id": "ke941c35f",
+   "lang": "ko",
+   "text": "목적격 관계대명사는 생략할 수 있어요.",
+   "cap": 32
+  },
+  {
+   "id": "eb2b8b0be",
+   "lang": "en",
+   "text": "the candidate we interviewed",
+   "cap": 32
+  },
+  {
+   "id": "k1747403f",
+   "lang": "ko",
+   "text": "처럼요.",
+   "cap": 32
+  },
+  {
+   "id": "k8dcc06bb",
+   "lang": "ko",
+   "text": "명사 바로 뒤에 주어와 동사가 이어지면, 그 사이에 관계대명사가 숨어 있다고 읽으세요.",
+   "cap": 33
+  },
+  {
+   "id": "kac90a0e4",
+   "lang": "ko",
+   "text": "주격은 생략할 수 없어요. 회화에서는",
+   "cap": 34
+  },
+  {
+   "id": "k7e748e61",
+   "lang": "ko",
+   "text": "대신",
+   "cap": 34
+  },
+  {
+   "id": "ka0c2e999",
+   "lang": "ko",
+   "text": "도 쓰지만, 시험에서는",
+   "cap": 34
+  },
+  {
+   "id": "k2446c9c1",
+   "lang": "ko",
+   "text": "이 정답이에요.",
+   "cap": 34
+  },
+  {
+   "id": "k1a846f62",
+   "lang": "ko",
+   "text": "이번에는 소유격",
+   "cap": 35
+  },
+  {
+   "id": "e0ace56b6",
+   "lang": "en",
+   "text": "whose",
+   "cap": 35
+  },
+  {
+   "id": "kafede0c1",
+   "lang": "ko",
+   "text": "예요.",
+   "cap": 35
+  },
+  {
+   "id": "e1830c605",
+   "lang": "en",
+   "text": "We work with a company.",
+   "cap": 35
+  },
+  {
+   "id": "e96575cf1",
+   "lang": "en",
+   "text": "Its profits doubled last year.",
+   "cap": 35
+  },
+  {
+   "id": "e3922d4a4",
+   "lang": "en",
+   "text": "Its",
+   "cap": 36
+  },
+  {
+   "id": "k7e23ac4d",
+   "lang": "ko",
+   "text": "는 그 회사의라는 뜻이에요. 이 소유격을",
+   "cap": 36
+  },
+  {
+   "id": "e7f320b19",
+   "lang": "en",
+   "text": "company",
+   "cap": 36
+  },
+  {
+   "id": "ke29cb3fc",
+   "lang": "ko",
+   "text": "뒤에 붙여요.",
+   "cap": 36
+  },
+  {
+   "id": "e3ebaff2f",
+   "lang": "en",
+   "text": "a company whose profits doubled last year.",
+   "cap": 37
+  },
+  {
+   "id": "k1174ffc2",
+   "lang": "ko",
+   "text": "작년에 수익이 두 배가 된 회사라는 뜻이에요.",
+   "cap": 37
+  },
+  {
+   "id": "k570de9da",
+   "lang": "ko",
+   "text": "뒤에는 꼭 명사가 오고, 그 명사 앞에는",
+   "cap": 38
+  },
+  {
+   "id": "e93516b61",
+   "lang": "en",
+   "text": "the",
+   "cap": 38
+  },
+  {
+   "id": "kc6817113",
+   "lang": "ko",
+   "text": "나",
+   "cap": 38
+  },
+  {
+   "id": "e7956dd19",
+   "lang": "en",
+   "text": "a",
+   "cap": 38
+  },
+  {
+   "id": "k355eb083",
+   "lang": "ko",
+   "text": "같은 관사가 붙지 않아요.",
+   "cap": 38
+  },
+  {
+   "id": "k430164b0",
+   "lang": "ko",
+   "text": "빈칸 뒤에 관사 없는 명사가 오고 나머지가 완전한 문장이면, 답은",
+   "cap": 39
+  },
+  {
+   "id": "k61c28093",
+   "lang": "ko",
+   "text": "예요. 사람에도 사물에도 써요.",
+   "cap": 39
+  },
+  {
+   "id": "ka45ac3d8",
+   "lang": "ko",
+   "text": "이번에는 조금 특별한",
+   "cap": 40
+  },
+  {
+   "id": "ed7cfc2c8",
+   "lang": "en",
+   "text": "what",
+   "cap": 40
+  },
+  {
+   "id": "k4b7b0757",
+   "lang": "ko",
+   "text": "이에요.",
+   "cap": 40
+  },
+  {
+   "id": "e28d0cd14",
+   "lang": "en",
+   "text": "the thing which",
+   "cap": 40
+  },
+  {
+   "id": "ka9b56afd",
+   "lang": "ko",
+   "text": "곧 하는 것을 한 단어로 줄인 말이에요.",
+   "cap": 40
+  },
+  {
+   "id": "e51f9e1c3",
+   "lang": "en",
+   "text": "What she said surprised everyone.",
+   "cap": 41
+  },
+  {
+   "id": "k30c3ebb6",
+   "lang": "ko",
+   "text": "그녀가 말한 것이 모두를 놀라게 했어요.",
+   "cap": 41
+  },
+  {
+   "id": "ke74f2b81",
+   "lang": "ko",
+   "text": "은 선행사를 이미 품고 있어요. 그래서 앞에 명사가 있으면",
+   "cap": 42
+  },
+  {
+   "id": "k3a9037b5",
+   "lang": "ko",
+   "text": "을 쓸 수 없어요.",
+   "cap": 42
+  },
+  {
+   "id": "e8d32a75a",
+   "lang": "en",
+   "text": "the report what she wrote",
+   "cap": 43
+  },
+  {
+   "id": "kd8308761",
+   "lang": "ko",
+   "text": "는 틀린 표현이에요.",
+   "cap": 43
+  },
+  {
+   "id": "e50e0ae78",
+   "lang": "en",
+   "text": "report",
+   "cap": 43
+  },
+  {
+   "id": "kce4387ba",
+   "lang": "ko",
+   "text": "가 선행사이니",
+   "cap": 43
+  },
+  {
+   "id": "k13787575",
+   "lang": "ko",
+   "text": "을 써요.",
+   "cap": 43
+  },
+  {
+   "id": "k6f0f4bc2",
+   "lang": "ko",
+   "text": "빈칸 앞에 꾸밀 명사가 없고, 뒤에 빈자리가 있으면",
+   "cap": 44
+  },
+  {
+   "id": "ea20fd012",
+   "lang": "en",
+   "text": "what.",
+   "cap": 44
+  },
+  {
+   "id": "k400bced5",
+   "lang": "ko",
+   "text": "이것만 기억하세요.",
+   "cap": 44
+  },
+  {
+   "id": "k1bf538a6",
+   "lang": "ko",
+   "text": "은 거의 어디에나 쓸 수 있지만, 쓸 수 없는 자리가 두 곳 있어요.",
+   "cap": 45
+  },
+  {
+   "id": "k22a32db0",
+   "lang": "ko",
+   "text": "첫째, 콤마 뒤.",
+   "cap": 46
+  },
+  {
+   "id": "eb3e33bec",
+   "lang": "en",
+   "text": "Our new office, which is on the fifth floor, is very quiet.",
+   "cap": 46
+  },
+  {
+   "id": "k4156dc27",
+   "lang": "ko",
+   "text": "여기에",
+   "cap": 46
+  },
+  {
+   "id": "k5d25f915",
+   "lang": "ko",
+   "text": "은 안 돼요.",
+   "cap": 46
+  },
+  {
+   "id": "kce95a0ec",
+   "lang": "ko",
+   "text": "콤마 뒤의 관계사절은 이미 정해진 대상에 설명을 덧붙이는 계속적 용법이에요.",
+   "cap": 47
+  },
+  {
+   "id": "k763eb605",
+   "lang": "ko",
+   "text": "둘째, 전치사 바로 뒤.",
+   "cap": 48
+  },
+  {
+   "id": "e29e80046",
+   "lang": "en",
+   "text": "the agency with which we signed the contract.",
+   "cap": 48
+  },
+  {
+   "id": "eedbb36d3",
+   "lang": "en",
+   "text": "with that",
+   "cap": 48
+  },
+  {
+   "id": "e1e1a3021",
+   "lang": "en",
+   "text": "with whom",
+   "cap": 49
+  },
+  {
+   "id": "k36c7033d",
+   "lang": "ko",
+   "text": "을 써요. 전치사를 문장 끝으로 보내면",
+   "cap": 49
+  },
+  {
+   "id": "k579077db",
+   "lang": "ko",
+   "text": "도 쓸 수 있어요.",
+   "cap": 49
+  },
+  {
+   "id": "k5cf6794e",
+   "lang": "ko",
+   "text": "이제 지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 50
+  },
+  {
+   "id": "kbf7d331e",
+   "lang": "ko",
+   "text": "첫째, 빈칸 앞을 봐요. 선행사가 사람인지, 사물인지, 아예 없는지 확인해요. 없으면",
+   "cap": 51
+  },
+  {
+   "id": "k2749d23f",
+   "lang": "ko",
+   "text": "둘째, 빈칸 뒤를 봐요. 바로 동사가 오면 주격, 주어와 동사 뒤에 목적어가 없으면 목적격.",
+   "cap": 52
+  },
+  {
+   "id": "ke79d75e6",
+   "lang": "ko",
+   "text": "관사 없는 명사가 오고 나머지가 완전하면",
+   "cap": 53
+  },
+  {
+   "id": "e9ad25148",
+   "lang": "en",
+   "text": "whose.",
+   "cap": 53
+  },
+  {
+   "id": "kbfaa6f04",
+   "lang": "ko",
+   "text": "빠진 자리가 없으면 관계대명사가 아니에요.",
+   "cap": 53
+  },
+  {
+   "id": "k286c440d",
+   "lang": "ko",
+   "text": "셋째, 함정을 봐요. 콤마나 전치사 뒤에는",
+   "cap": 54
+  },
+  {
+   "id": "kba27dbfe",
+   "lang": "ko",
+   "text": "을 못 쓰고, 동사의 수는 선행사에 맞춰요.",
+   "cap": 54
+  },
+  {
+   "id": "kb49b003f",
+   "lang": "ko",
+   "text": "자, 이 순서로 실제 토익 문제를 풀어 볼까요?",
+   "cap": 55
+  },
+  {
+   "id": "k9e7d11d6",
+   "lang": "ko",
+   "text": "처음에 본 문제예요. 첫째, 빈칸 앞",
+   "cap": 56
+  },
+  {
+   "id": "ecdcf5fc2",
+   "lang": "en",
+   "text": "The manager",
+   "cap": 56
+  },
+  {
+   "id": "kb618f00e",
+   "lang": "ko",
+   "text": "는 사람이에요. 선행사가 있으니",
+   "cap": 56
+  },
+  {
+   "id": "k4f4fc304",
+   "lang": "ko",
+   "text": "은 탈락.",
+   "cap": 56
+  },
+  {
+   "id": "k63d9f4a6",
+   "lang": "ko",
+   "text": "둘째, 빈칸 바로 뒤에 동사",
+   "cap": 57
+  },
+  {
+   "id": "kd9a80ab4",
+   "lang": "ko",
+   "text": "가 와요. 주어가 빠졌으니 주격! 목적격",
+   "cap": 57
+  },
+  {
+   "id": "k473346bc",
+   "lang": "ko",
+   "text": "소유격",
+   "cap": 57
+  },
+  {
+   "id": "k1a9aad30",
+   "lang": "ko",
+   "text": "도 탈락.",
+   "cap": 57
+  },
+  {
+   "id": "kc431af34",
+   "lang": "ko",
+   "text": "셋째, 콤마도 전치사도 없어요. 정답은",
+   "cap": 58
+  },
+  {
+   "id": "ed024edcd",
+   "lang": "en",
+   "text": "A who.",
+   "cap": 58
+  },
+  {
+   "id": "ke75dd5b1",
+   "lang": "ko",
+   "text": "문장을 다 해석하지 않아도 풀렸어요.",
+   "cap": 58
+  },
+  {
+   "id": "kbfb4ba67",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째, 선행사",
+   "cap": 59
+  },
+  {
+   "id": "e0c92354f",
+   "lang": "en",
+   "text": "The museum",
+   "cap": 59
+  },
+  {
+   "id": "k871445d5",
+   "lang": "ko",
+   "text": "은 사물이니",
+   "cap": 59
+  },
+  {
+   "id": "kc2218bbd",
+   "lang": "ko",
+   "text": "는 탈락, 명사가 있으니",
+   "cap": 59
+  },
+  {
+   "id": "k726a5031",
+   "lang": "ko",
+   "text": "둘째",
+   "cap": 60
+  },
+  {
+   "id": "ec1ce7e28",
+   "lang": "en",
+   "text": "we visited",
+   "cap": 60
+  },
+  {
+   "id": "k3a610212",
+   "lang": "ko",
+   "text": "뒤에 목적어가 없어요. 빈자리가 있으니, 완전한 문장을 이끄는",
+   "cap": 60
+  },
+  {
+   "id": "ecac17909",
+   "lang": "en",
+   "text": "where",
+   "cap": 60
+  },
+  {
+   "id": "ke62ea1e0",
+   "lang": "ko",
+   "text": "는 탈락.",
+   "cap": 60
+  },
+  {
+   "id": "k4039e339",
+   "lang": "ko",
+   "text": "정답은",
+   "cap": 61
+  },
+  {
+   "id": "e626cd27f",
+   "lang": "en",
+   "text": "D which.",
+   "cap": 61
+  },
+  {
+   "id": "ka80eab68",
+   "lang": "ko",
+   "text": "박물관이라",
+   "cap": 61
+  },
+  {
+   "id": "k63629d18",
+   "lang": "ko",
+   "text": "를 고르기 쉬운 단골 함정이에요.",
+   "cap": 61
+  },
+  {
+   "id": "ka646c004",
+   "lang": "ko",
+   "text": "세 번째. 첫째",
+   "cap": 62
+  },
+  {
+   "id": "e3bf51bfd",
+   "lang": "en",
+   "text": "Applicants",
+   "cap": 62
+  },
+  {
+   "id": "ke4a10efd",
+   "lang": "ko",
+   "text": "는 사람이라",
+   "cap": 62
+  },
+  {
+   "id": "k669009a6",
+   "lang": "ko",
+   "text": "둘째, 빈칸 뒤에 관사 없는 명사",
+   "cap": 63
+  },
+  {
+   "id": "e7496b7e2",
+   "lang": "en",
+   "text": "résumés",
+   "cap": 63
+  },
+  {
+   "id": "k5337ddad",
+   "lang": "ko",
+   "text": "가 오고",
+   "cap": 63
+  },
+  {
+   "id": "ef91f6e98",
+   "lang": "en",
+   "text": "are incomplete",
+   "cap": 63
+  },
+  {
+   "id": "kee56a11e",
+   "lang": "ko",
+   "text": "까지 완전한 문장이에요.",
+   "cap": 63
+  },
+  {
+   "id": "k0f7200a7",
+   "lang": "ko",
+   "text": "명사의 주인이 빠졌으니 소유격, 정답은",
+   "cap": 64
+  },
+  {
+   "id": "e3461e196",
+   "lang": "en",
+   "text": "B whose.",
+   "cap": 64
+  },
+  {
+   "id": "k3ed66843",
+   "lang": "ko",
+   "text": "빠진 자리가 없으니",
+   "cap": 64
+  },
+  {
+   "id": "kd3681598",
+   "lang": "ko",
+   "text": "은 탈락이에요.",
+   "cap": 64
+  },
+  {
+   "id": "k98a3bed7",
+   "lang": "ko",
+   "text": "정리해요. 관계대명사는 앞의 명사, 곧 선행사를 뒤에서 꾸미는 문장을 열어요.",
+   "cap": 65
+  },
+  {
+   "id": "ka1144985",
+   "lang": "ko",
+   "text": "선행사가 사람인지 사물인지, 빈자리가 주어인지 목적어인지 소유격인지가 답을 정해요.",
+   "cap": 66
+  },
+  {
+   "id": "k62f8083a",
+   "lang": "ko",
+   "text": "빠진 자리 없이 완전한 문장을 이끄는",
+   "cap": 67
+  },
+  {
+   "id": "e4eda9521",
+   "lang": "en",
+   "text": "where, when",
+   "cap": 67
+  },
+  {
+   "id": "k572cb09b",
+   "lang": "ko",
+   "text": "은 관계부사라고 해요.",
+   "cap": 67
+  },
+  {
+   "id": "kd3b2f5d3",
+   "lang": "ko",
+   "text": "아래에서 직접 문장을 합쳐 보고, 연습 문제로 3단계 풀이법을 손에 익혀 보세요.",
+   "cap": 68
+  },
+  {
+   "id": "e6ba0415e",
+   "lang": "en",
+   "text": "The manager who oversees the project will retire next month.",
+   "from": "say"
+  },
+  {
+   "id": "edb448e26",
+   "lang": "en",
+   "text": "a chef who cooks Korean food",
+   "from": "say"
+  },
+  {
+   "id": "edc634b1b",
+   "lang": "en",
+   "text": "the candidate whom we interviewed yesterday",
+   "from": "say"
+  },
+  {
+   "id": "eeaa5d8e7",
+   "lang": "en",
+   "text": "an assistant who answers calls",
+   "from": "say"
+  },
+  {
+   "id": "e3ae4aeff",
+   "lang": "en",
+   "text": "a machine which sorts mail",
+   "from": "say"
+  },
+  {
+   "id": "e78234276",
+   "lang": "en",
+   "text": "The manager who oversees the project",
+   "from": "say"
+  },
+  {
+   "id": "e7cf75718",
+   "lang": "en",
+   "text": "The managers who oversee the project",
+   "from": "say"
+  },
+  {
+   "id": "e477d5c3e",
+   "lang": "en",
+   "text": "the report which Mina wrote",
+   "from": "say"
+  },
+  {
+   "id": "e176edf2a",
+   "lang": "en",
+   "text": "the candidate we interviewed yesterday",
+   "from": "say"
+  },
+  {
+   "id": "eb478a142",
+   "lang": "en",
+   "text": "We work with a company whose profits doubled last year.",
+   "from": "say"
+  },
+  {
+   "id": "e88279147",
+   "lang": "en",
+   "text": "the report which she wrote",
+   "from": "say"
+  },
+  {
+   "id": "e60b11243",
+   "lang": "en",
+   "text": "The agency with which we signed the contract has moved its office.",
+   "from": "say"
+  },
+  {
+   "id": "e3461cc2d",
+   "lang": "en",
+   "text": "The client with whom I spoke is from Busan.",
+   "from": "say"
+  },
+  {
+   "id": "e1889f716",
+   "lang": "en",
+   "text": "The museum which we visited during the conference was designed by a famous architect.",
+   "from": "say"
+  },
+  {
+   "id": "e35c2f7ab",
+   "lang": "en",
+   "text": "Applicants whose résumés are incomplete will not be considered.",
+   "from": "say"
+  },
+  {
+   "id": "e8cf0b303",
+   "lang": "en",
+   "text": "a printer which copies 50 pages a minute",
+   "from": "say"
+  },
+  {
+   "id": "e53e66351",
+   "lang": "en",
+   "text": "a fast printer",
+   "from": "say"
+  },
+  {
+   "id": "ee2a4fd5b",
+   "lang": "en",
+   "text": "a company whose profits doubled last year",
+   "from": "say"
+  },
+  {
+   "id": "e9b9bbd55",
+   "lang": "en",
+   "text": "a small company",
+   "from": "say"
+  },
+  {
+   "id": "e1141d49d",
+   "lang": "en",
+   "text": "This is the printer.",
+   "from": "say"
+  },
+  {
+   "id": "e2ca90ecc",
+   "lang": "en",
+   "text": "It copies 50 pages a minute.",
+   "from": "say"
+  },
+  {
+   "id": "effd00caa",
+   "lang": "en",
+   "text": "The candidate has accepted the offer.",
+   "from": "say"
+  },
+  {
+   "id": "efb03e2e0",
+   "lang": "en",
+   "text": "We interviewed him yesterday.",
+   "from": "say"
+  },
+  {
+   "id": "ef26499bd",
+   "lang": "en",
+   "text": "The candidate whom we interviewed yesterday has accepted the offer.",
+   "from": "say"
+  },
+  {
+   "id": "e6478d103",
+   "lang": "en",
+   "text": "The report was approved.",
+   "from": "say"
+  },
+  {
+   "id": "ec562b1d9",
+   "lang": "en",
+   "text": "Mina wrote it.",
+   "from": "say"
+  },
+  {
+   "id": "e97932f90",
+   "lang": "en",
+   "text": "The report which Mina wrote was approved.",
+   "from": "say"
+  },
+  {
+   "id": "e23f3c989",
+   "lang": "en",
+   "text": "The manager who oversees the project will retire.",
+   "from": "say"
+  },
+  {
+   "id": "e5bef8a5f",
+   "lang": "en",
+   "text": "The managers who oversee the project will retire.",
+   "from": "say"
+  },
+  {
+   "id": "e0121eac8",
+   "lang": "en",
+   "text": "The candidate we interviewed yesterday has accepted the offer.",
+   "from": "say"
+  },
+  {
+   "id": "ea81cdffa",
+   "lang": "en",
+   "text": "The applicant will be hired.",
+   "from": "say"
+  },
+  {
+   "id": "e4899aba5",
+   "lang": "en",
+   "text": "Her résumé impressed everyone.",
+   "from": "say"
+  },
+  {
+   "id": "e79ca066a",
+   "lang": "en",
+   "text": "The applicant whose résumé impressed everyone will be hired.",
+   "from": "say"
+  }
+ ]
+}
