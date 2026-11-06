@@ -361,7 +361,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
   <footer>
     <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 실전 문제에서 지워지는 순서, 직접 해 보기의 채점, 주인 바꾸기 실험실의 판정과 풀이, 연습 문제의 힌트와 보기별 해설, 퀴즈 대부분의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
     <p>단순하게 줄인 부분도 있어요. 주인과 동사의 관계(하는 쪽 · 당하는 쪽 · 자동사 · 감정을 일으키는 쪽 · 느끼는 쪽)는 문제마다 정해 두었고, 규칙 엔진은 그 정보로 판정해요. 문장의 뜻을 스스로 알아내지는 않아요. 자동사의 과거분사가 ‘다 끝난 상태’를 뜻하는 말(<i lang="en">fallen leaves · retired staff</i>)은 다루지 않았고, 규칙 엔진은 자동사의 -ed를 모두 틀린 것으로 봐요. <i lang="en">experienced · qualified · interesting</i>처럼 형용사로 굳은 낱말도 분사와 같은 규칙으로 설명했어요. before · after + -ing는 전치사 + 동명사로 보는 문법책도 있지만, 시험 풀이에서는 분사구문과 같은 방법으로 풀어요. 주인이 주절의 주어와 다른 분사구문(<i lang="en">Weather permitting, …</i>), <i lang="en">having + p.p. · being + p.p.</i>는 넣지 않았어요. 복합명사가 될 수 있는 명사 보기도 넣지 않았어요(복합명사는 <a href="../parts-of-speech/index.html">T02 품사</a>, 능동·수동은 <a href="../verb-agreement-voice/index.html">T03</a>에서 다뤄요). 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
-    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+    <p>음성 해설과 발음 듣기는 VoiceStudio로 미리 만든 합성 음성으로 읽어요(해설의 한국어는 젊은 여성 내레이터, 영어와 발음 듣기는 미국 여성 선생님 목소리). 놀이터에서 만든 문장처럼 파일이 없는 글은 브라우저에 들어 있는 음성(speechSynthesis)으로 읽고, 브라우저 음성은 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
   </footer>
 </div>
 
@@ -370,6 +370,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
 <script src="../shared/drill.js"></script>
 <script src="assets/js/grammar.js"></script>
 <script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
