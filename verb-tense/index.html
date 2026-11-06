@@ -360,7 +360,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
   <footer>
     <p>무엇이 규칙 계산인가요? 영상 속 ✓·×, 직접 해 보기의 채점, 시간선 시제 기계의 답과 까닭, 연습 문제의 힌트와 보기별 해설, 퀴즈의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
     <p>단순하게 줄인 부분도 있어요. 정해진 일정은 현재 시제로도 미래를 말하고(<span lang="en">The train leaves at nine tomorrow.</span>), 미국 영어 구어에서는 <span lang="en">already · so far</span>와 과거 시제를 함께 쓰기도 하며, 부사절에서도 완료를 강조할 때는 현재완료(<span lang="en">once you have finished</span>)를 써요. 이 튜토리얼은 토익 Part 5의 표준 답을 기준으로 정리했어요. 명사절의 <span lang="en">when · if</span>(<span lang="en">I don’t know when he will arrive.</span>)는 부사절이 아니라서 <span lang="en">will</span>을 써요. <span lang="en">suggest · insist</span>가 ‘사실이라고 주장하다’는 뜻일 때는 that절에 보통 시제를 써요. 영국 영어에서는 that절에 <span lang="en">should</span>를 넣어 말하는 일이 더 흔해요. 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
-    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+    <p>음성 해설과 발음 듣기는 VoiceStudio로 미리 만든 합성 음성으로 읽어요(해설의 한국어는 젊은 여성 내레이터, 영어와 발음 듣기는 미국 여성 선생님 목소리). 놀이터에서 만든 문장처럼 파일이 없는 글은 브라우저에 들어 있는 음성(speechSynthesis)으로 읽고, 브라우저 음성은 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
   </footer>
 </div>
 
@@ -369,6 +369,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
 <script src="../shared/drill.js"></script>
 <script src="assets/js/grammar.js"></script>
 <script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
