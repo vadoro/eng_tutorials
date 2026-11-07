@@ -1,0 +1,2941 @@
+{
+ "slug": "vocabulary",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 89,
+  "en": 399,
+  "say": 339,
+  "koChars": 1605,
+  "enChars": 5929
+ },
+ "pieces": [
+  {
+   "id": "k9297b6f9",
+   "lang": "ko",
+   "text": "토익 파트 5의 어휘 문제예요. 보기 네 개가 모두 뜻이 다른 동사예요.",
+   "cap": 0
+  },
+  {
+   "id": "e7635cd3e",
+   "lang": "en",
+   "text": "conduct, attend, reserve, earn.",
+   "cap": 1
+  },
+  {
+   "id": "kfb57bf39",
+   "lang": "ko",
+   "text": "넷 다 동사원형이라 문법으로는 모두 빈칸에 들어가요.",
+   "cap": 1
+  },
+  {
+   "id": "k47749758",
+   "lang": "ko",
+   "text": "그럼 무엇이 답을 정할까요? 열쇠는 빈칸 바로 뒤의 낱말",
+   "cap": 2
+  },
+  {
+   "id": "ea474a37e",
+   "lang": "en",
+   "text": "survey.",
+   "cap": 2
+  },
+  {
+   "id": "ka7ddb1ff",
+   "lang": "ko",
+   "text": "빈칸의 짝을 찾고, 짝을 맞추고, 함정을 확인하는 3단계 풀이법을 배워요.",
+   "cap": 3
+  },
+  {
+   "id": "k329a3a92",
+   "lang": "ko",
+   "text": "한국어부터 볼까요? 회의를 하다, 조사를 하다, 결정을 하다. 모두 하다 하나로 말해요.",
+   "cap": 4
+  },
+  {
+   "id": "kcba517ae",
+   "lang": "ko",
+   "text": "영어는 달라요.",
+   "cap": 5
+  },
+  {
+   "id": "e371a079f",
+   "lang": "en",
+   "text": "hold a meeting, conduct a survey, make a decision.",
+   "cap": 5
+  },
+  {
+   "id": "k37421d57",
+   "lang": "ko",
+   "text": "발표는",
+   "cap": 6
+  },
+  {
+   "id": "e060ede00",
+   "lang": "en",
+   "text": "give a presentation",
+   "cap": 6
+  },
+  {
+   "id": "k5182845f",
+   "lang": "ko",
+   "text": "주문은",
+   "cap": 6
+  },
+  {
+   "id": "eb20ace1e",
+   "lang": "en",
+   "text": "place an order.",
+   "cap": 6
+  },
+  {
+   "id": "kb322d48a",
+   "lang": "ko",
+   "text": "명사마다 짝이 되는 동사가 달라요.",
+   "cap": 6
+  },
+  {
+   "id": "kbb4dc01c",
+   "lang": "ko",
+   "text": "하다를 그대로 옮기면 틀려요. 틀린 짝",
+   "cap": 7
+  },
+  {
+   "id": "e807fa8ca",
+   "lang": "en",
+   "text": "do a decision",
+   "cap": 7
+  },
+  {
+   "id": "kf446dd8c",
+   "lang": "ko",
+   "text": "맞는 짝",
+   "cap": 7
+  },
+  {
+   "id": "e097b8073",
+   "lang": "en",
+   "text": "make a decision.",
+   "cap": 7
+  },
+  {
+   "id": "kd14eb33c",
+   "lang": "ko",
+   "text": "그래서 영어 낱말은 혼자 외우지 말고, 늘 함께 다니는 짝과 묶어서 외워요.",
+   "cap": 8
+  },
+  {
+   "id": "k9ffe1ca4",
+   "lang": "ko",
+   "text": "처음 문제로 돌아가요. 보기를 하나씩 빈칸에 넣고, 뒤의 짝과 붙여 읽어 봐요.",
+   "cap": 9
+  },
+  {
+   "id": "ed61d1db5",
+   "lang": "en",
+   "text": "conduct a survey.",
+   "cap": 10
+  },
+  {
+   "id": "kcba902c6",
+   "lang": "ko",
+   "text": "설문 조사를 실시하다. 자연스러운 짝이에요.",
+   "cap": 10
+  },
+  {
+   "id": "k750565f8",
+   "lang": "ko",
+   "text": "나머지는 짝이 따로 있어요.",
+   "cap": 11
+  },
+  {
+   "id": "e444fc8a2",
+   "lang": "en",
+   "text": "attend a meeting, reserve a room, earn money.",
+   "cap": 11
+  },
+  {
+   "id": "k0d69e7a2",
+   "lang": "ko",
+   "text": "이렇게 자주 함께 쓰이는 낱말 짝을 콜로케이션(",
+   "cap": 12
+  },
+  {
+   "id": "efcb53b5f",
+   "lang": "en",
+   "text": "collocation",
+   "cap": 12
+  },
+  {
+   "id": "kbdc0ee95",
+   "lang": "ko",
+   "text": "), 우리말로 짝 표현이라고 해요.",
+   "cap": 12
+  },
+  {
+   "id": "kbe93ad69",
+   "lang": "ko",
+   "text": "짝은 빈칸 가까이에 있어요. 동사 빈칸이면 뒤의 목적어, 형용사 빈칸이면 꾸밈 받는 명사.",
+   "cap": 13
+  },
+  {
+   "id": "k7b7b22a8",
+   "lang": "ko",
+   "text": "부사 빈칸이면 숫자나 형용사, 명사 빈칸이면 앞뒤의 덩어리를 봐요.",
+   "cap": 14
+  },
+  {
+   "id": "k05cefe35",
+   "lang": "ko",
+   "text": "먼저 동사와 목적어 짝이에요.",
+   "cap": 15
+  },
+  {
+   "id": "ed6cedb4b",
+   "lang": "en",
+   "text": "implement a plan, conduct a survey, submit a proposal.",
+   "cap": 15
+  },
+  {
+   "id": "kb0396032",
+   "lang": "ko",
+   "text": "마감을 만나다? 아니에요.",
+   "cap": 16
+  },
+  {
+   "id": "eeb48066a",
+   "lang": "en",
+   "text": "meet a deadline",
+   "cap": 16
+  },
+  {
+   "id": "k0706c233",
+   "lang": "ko",
+   "text": "마감을 지키다.",
+   "cap": 16
+  },
+  {
+   "id": "k37911780",
+   "lang": "ko",
+   "text": "주소를 쓰다? 아니에요.",
+   "cap": 17
+  },
+  {
+   "id": "ebc03ae12",
+   "lang": "en",
+   "text": "address an issue",
+   "cap": 17
+  },
+  {
+   "id": "k5ad8b7a5",
+   "lang": "ko",
+   "text": "문제를 다루다. 짝이 낱말의 뜻을 정해요.",
+   "cap": 17
+  },
+  {
+   "id": "ka200c07a",
+   "lang": "ko",
+   "text": "다음은 통째로 굳은 덩어리 표현이에요.",
+   "cap": 18
+  },
+  {
+   "id": "e97fe5d38",
+   "lang": "en",
+   "text": "take effect, until further notice, in charge of.",
+   "cap": 18
+  },
+  {
+   "id": "k5c15504d",
+   "lang": "ko",
+   "text": "재고가 없을 때는",
+   "cap": 19
+  },
+  {
+   "id": "e222fcf4d",
+   "lang": "en",
+   "text": "out of stock.",
+   "cap": 19
+  },
+  {
+   "id": "kad63f7a0",
+   "lang": "ko",
+   "text": "한 낱말만 바꾼",
+   "cap": 19
+  },
+  {
+   "id": "e6f5a39eb",
+   "lang": "en",
+   "text": "out of order",
+   "cap": 19
+  },
+  {
+   "id": "k7f1863c8",
+   "lang": "ko",
+   "text": "고장 난.",
+   "cap": 19
+  },
+  {
+   "id": "k648150ef",
+   "lang": "ko",
+   "text": "덩어리 표현은 쪼개지 말고 통째로 외워요.",
+   "cap": 20
+  },
+  {
+   "id": "e67bee248",
+   "lang": "en",
+   "text": "as of, on short notice, place an order.",
+   "cap": 20
+  },
+  {
+   "id": "kb0bea841",
+   "lang": "ko",
+   "text": "이번에는 모양이 비슷한 형용사 쌍이에요. 꼬리만 조금 다르고 뜻은 전혀 달라요.",
+   "cap": 21
+  },
+  {
+   "id": "e8941e07d",
+   "lang": "en",
+   "text": "considerable",
+   "cap": 22
+  },
+  {
+   "id": "kdfcb1639",
+   "lang": "ko",
+   "text": "상당한, 양이나 정도.",
+   "cap": 22
+  },
+  {
+   "id": "e3c79f47f",
+   "lang": "en",
+   "text": "considerate",
+   "cap": 22
+  },
+  {
+   "id": "k2b5ee19f",
+   "lang": "ko",
+   "text": "배려하는, 사람의 마음씨.",
+   "cap": 22
+  },
+  {
+   "id": "kddb8c2d7",
+   "lang": "ko",
+   "text": "그래서",
+   "cap": 23
+  },
+  {
+   "id": "e1ec5fd9e",
+   "lang": "en",
+   "text": "a considerable amount of time",
+   "cap": 23
+  },
+  {
+   "id": "k752ca057",
+   "lang": "ko",
+   "text": "그리고",
+   "cap": 23
+  },
+  {
+   "id": "ee553e5cc",
+   "lang": "en",
+   "text": "be considerate of others.",
+   "cap": 23
+  },
+  {
+   "id": "e1e7ec7b8",
+   "lang": "en",
+   "text": "reliable",
+   "cap": 24
+  },
+  {
+   "id": "kfc5e8812",
+   "lang": "ko",
+   "text": "믿을 수 있는",
+   "cap": 24
+  },
+  {
+   "id": "ed80dbb59",
+   "lang": "en",
+   "text": "reliant",
+   "cap": 24
+  },
+  {
+   "id": "k73716dc5",
+   "lang": "ko",
+   "text": "의존하는.",
+   "cap": 24
+  },
+  {
+   "id": "ee6064c77",
+   "lang": "en",
+   "text": "economic",
+   "cap": 24
+  },
+  {
+   "id": "kc0aa9ad8",
+   "lang": "ko",
+   "text": "경제의",
+   "cap": 24
+  },
+  {
+   "id": "e6103f64a",
+   "lang": "en",
+   "text": "economical",
+   "cap": 24
+  },
+  {
+   "id": "kf4344b27",
+   "lang": "ko",
+   "text": "돈이 덜 드는.",
+   "cap": 24
+  },
+  {
+   "id": "k838307dc",
+   "lang": "ko",
+   "text": "둘 가운데 고를 때는 짝을 봐요. 꾸밈 받는 명사가 양인지, 사람인지, 뒤에 무엇이 오는지.",
+   "cap": 25
+  },
+  {
+   "id": "k86887667",
+   "lang": "ko",
+   "text": "부사도 짝이 있어요. 숫자 앞에는",
+   "cap": 26
+  },
+  {
+   "id": "eac55f039",
+   "lang": "en",
+   "text": "approximately, approximately 200 people.",
+   "cap": 26
+  },
+  {
+   "id": "kd9533bbb",
+   "lang": "ko",
+   "text": "형용사나 분사 앞에는",
+   "cap": 27
+  },
+  {
+   "id": "ef2d0783d",
+   "lang": "en",
+   "text": "highly.",
+   "cap": 27
+  },
+  {
+   "id": "e53052faf",
+   "lang": "en",
+   "text": "highly qualified, highly recommended.",
+   "cap": 27
+  },
+  {
+   "id": "k74ba9618",
+   "lang": "ko",
+   "text": "동사 뒤",
+   "cap": 28
+  },
+  {
+   "id": "ebd104937",
+   "lang": "en",
+   "text": "promptly",
+   "cap": 28
+  },
+  {
+   "id": "k724276d7",
+   "lang": "ko",
+   "text": "시간 앞",
+   "cap": 28
+  },
+  {
+   "id": "eeca6caa7",
+   "lang": "en",
+   "text": "shortly.",
+   "cap": 28
+  },
+  {
+   "id": "e9cc080c1",
+   "lang": "en",
+   "text": "respond promptly, shortly after the meeting.",
+   "cap": 28
+  },
+  {
+   "id": "kdf16337a",
+   "lang": "ko",
+   "text": "모양이 비슷한 함정도 있어요.",
+   "cap": 29
+  },
+  {
+   "id": "e495f658b",
+   "lang": "en",
+   "text": "hard",
+   "cap": 29
+  },
+  {
+   "id": "kc3f6a60b",
+   "lang": "ko",
+   "text": "열심히",
+   "cap": 29
+  },
+  {
+   "id": "edb7f3854",
+   "lang": "en",
+   "text": "hardly",
+   "cap": 29
+  },
+  {
+   "id": "k90add7a5",
+   "lang": "ko",
+   "text": "거의 하지 않다. 뜻이 정반대예요.",
+   "cap": 29
+  },
+  {
+   "id": "e38adea91",
+   "lang": "en",
+   "text": "most",
+   "cap": 30
+  },
+  {
+   "id": "kcc0d7f6c",
+   "lang": "ko",
+   "text": "대부분의, 명사 앞.",
+   "cap": 30
+  },
+  {
+   "id": "e7c4be59a",
+   "lang": "en",
+   "text": "mostly",
+   "cap": 30
+  },
+  {
+   "id": "k2069219d",
+   "lang": "ko",
+   "text": "주로, 부사. 꼬리 하나로 자리가 달라져요.",
+   "cap": 30
+  },
+  {
+   "id": "k6a208d3e",
+   "lang": "ko",
+   "text": "마지막은 헷갈리는 동사예요.",
+   "cap": 31
+  },
+  {
+   "id": "e20367e49",
+   "lang": "en",
+   "text": "rise, raise.",
+   "cap": 31
+  },
+  {
+   "id": "k0cd90574",
+   "lang": "ko",
+   "text": "둘 다 위로 올라가는 뜻이에요.",
+   "cap": 31
+  },
+  {
+   "id": "kda979483",
+   "lang": "ko",
+   "text": "뒤에 목적어가 없으면",
+   "cap": 32
+  },
+  {
+   "id": "e2c43a0c7",
+   "lang": "en",
+   "text": "rise",
+   "cap": 32
+  },
+  {
+   "id": "k59a92bdb",
+   "lang": "ko",
+   "text": "있으면",
+   "cap": 32
+  },
+  {
+   "id": "e1ff0d4a8",
+   "lang": "en",
+   "text": "raise.",
+   "cap": 32
+  },
+  {
+   "id": "e846c5829",
+   "lang": "en",
+   "text": "Prices rise.",
+   "cap": 32
+  },
+  {
+   "id": "e8bfc65cb",
+   "lang": "en",
+   "text": "The company raises prices.",
+   "cap": 32
+  },
+  {
+   "id": "k0447d913",
+   "lang": "ko",
+   "text": "놓다도 같아요. 목적어가 없으면",
+   "cap": 33
+  },
+  {
+   "id": "e261b4454",
+   "lang": "en",
+   "text": "lie",
+   "cap": 33
+  },
+  {
+   "id": "k0070d067",
+   "lang": "ko",
+   "text": "목적어가 있으면",
+   "cap": 33
+  },
+  {
+   "id": "edd659de2",
+   "lang": "en",
+   "text": "lay.",
+   "cap": 33
+  },
+  {
+   "id": "ke17f90d9",
+   "lang": "ko",
+   "text": "말하다는 뒤를 봐요. 사람이 먼저 오면",
+   "cap": 34
+  },
+  {
+   "id": "eb4274585",
+   "lang": "en",
+   "text": "tell",
+   "cap": 34
+  },
+  {
+   "id": "k61df29a2",
+   "lang": "ko",
+   "text": "내용이 바로 오면",
+   "cap": 34
+  },
+  {
+   "id": "e872c99d9",
+   "lang": "en",
+   "text": "say.",
+   "cap": 34
+  },
+  {
+   "id": "eea12fbfa",
+   "lang": "en",
+   "text": "tell us that, say that.",
+   "cap": 34
+  },
+  {
+   "id": "k9df8bab9",
+   "lang": "ko",
+   "text": "빌려주면",
+   "cap": 35
+  },
+  {
+   "id": "e3a3bf817",
+   "lang": "en",
+   "text": "lend",
+   "cap": 35
+  },
+  {
+   "id": "k0ca31ec3",
+   "lang": "ko",
+   "text": "빌려 오면",
+   "cap": 35
+  },
+  {
+   "id": "ee5f67247",
+   "lang": "en",
+   "text": "borrow.",
+   "cap": 35
+  },
+  {
+   "id": "k6924dc51",
+   "lang": "ko",
+   "text": "화살표의 방향이 반대예요.",
+   "cap": 35
+  },
+  {
+   "id": "k4892d25b",
+   "lang": "ko",
+   "text": "알려 주면",
+   "cap": 36
+  },
+  {
+   "id": "e01dfbd17",
+   "lang": "en",
+   "text": "remind",
+   "cap": 36
+  },
+  {
+   "id": "keb7222da",
+   "lang": "ko",
+   "text": "스스로 기억하면",
+   "cap": 36
+  },
+  {
+   "id": "e104b5f39",
+   "lang": "en",
+   "text": "remember.",
+   "cap": 36
+  },
+  {
+   "id": "k954c8684",
+   "lang": "ko",
+   "text": "동사",
+   "cap": 36
+  },
+  {
+   "id": "ec917e41b",
+   "lang": "en",
+   "text": "affect",
+   "cap": 36
+  },
+  {
+   "id": "k47140f28",
+   "lang": "ko",
+   "text": "명사",
+   "cap": 36
+  },
+  {
+   "id": "eb28542d3",
+   "lang": "en",
+   "text": "effect.",
+   "cap": 36
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 37
+  },
+  {
+   "id": "k4c939650",
+   "lang": "ko",
+   "text": "첫째, 짝 찾기. 빈칸이 무슨 자리인지 보고, 짝이 될 말에 표시해요.",
+   "cap": 38
+  },
+  {
+   "id": "k7ae6810c",
+   "lang": "ko",
+   "text": "둘째, 짝 맞추기. 그 짝과 함께 쓰는 보기를 골라요. 한국어를 그대로 옮기지 말고요.",
+   "cap": 39
+  },
+  {
+   "id": "k4425dd80",
+   "lang": "ko",
+   "text": "셋째, 함정 확인. 모양이 비슷한 말, 뒤의 목적어와 사람, 빌리는 방향을 한 번 더 봐요.",
+   "cap": 40
+  },
+  {
+   "id": "k1ed31dd3",
+   "lang": "ko",
+   "text": "이 순서로 토익 문제를 풀어 볼까요?",
+   "cap": 41
+  },
+  {
+   "id": "k3f3285f1",
+   "lang": "ko",
+   "text": "첫 문제. 첫째, 빈칸은 동사 자리. 짝은 뒤의 목적어",
+   "cap": 42
+  },
+  {
+   "id": "e481cd55d",
+   "lang": "en",
+   "text": "problem.",
+   "cap": 42
+  },
+  {
+   "id": "k9c05dcaa",
+   "lang": "ko",
+   "text": "둘째, 짝을 떠올려요.",
+   "cap": 43
+  },
+  {
+   "id": "e8c4844a6",
+   "lang": "en",
+   "text": "address the problem",
+   "cap": 43
+  },
+  {
+   "id": "kc725ffc5",
+   "lang": "ko",
+   "text": "문제를 해결하다.",
+   "cap": 43
+  },
+  {
+   "id": "kc5f29a0d",
+   "lang": "ko",
+   "text": "셋째, 나머지는 짝이 따로 있어요.",
+   "cap": 44
+  },
+  {
+   "id": "eac608b10",
+   "lang": "en",
+   "text": "attract customers, reserve a room, earn money.",
+   "cap": 44
+  },
+  {
+   "id": "k4039e339",
+   "lang": "ko",
+   "text": "정답은",
+   "cap": 44
+  },
+  {
+   "id": "e5656a600",
+   "lang": "en",
+   "text": "B",
+   "cap": 44
+  },
+  {
+   "id": "kc4e0425b",
+   "lang": "ko",
+   "text": "두 번째. 첫째, 형용사 자리. 짝은 꾸밈 받는 명사",
+   "cap": 45
+  },
+  {
+   "id": "e44116880",
+   "lang": "en",
+   "text": "amount.",
+   "cap": 45
+  },
+  {
+   "id": "ke59146e9",
+   "lang": "ko",
+   "text": "둘째, 양을 꾸미는 짝은",
+   "cap": 46
+  },
+  {
+   "id": "e65b422a9",
+   "lang": "en",
+   "text": "considerable.",
+   "cap": 46
+  },
+  {
+   "id": "k67f6e864",
+   "lang": "ko",
+   "text": "상당한 양의 돈이에요.",
+   "cap": 46
+  },
+  {
+   "id": "k877d6faa",
+   "lang": "ko",
+   "text": "셋째",
+   "cap": 47
+  },
+  {
+   "id": "k26df05f2",
+   "lang": "ko",
+   "text": "배려하는, 닮은꼴 함정. 나머지 둘은 품사가 달라요. 정답은",
+   "cap": 47
+  },
+  {
+   "id": "e5956aab9",
+   "lang": "en",
+   "text": "A",
+   "cap": 47
+  },
+  {
+   "id": "ke6f57752",
+   "lang": "ko",
+   "text": "세 번째. 첫째, 동사 자리. 짝은 뒤의 목적어",
+   "cap": 48
+  },
+  {
+   "id": "ede3d4056",
+   "lang": "en",
+   "text": "the price.",
+   "cap": 48
+  },
+  {
+   "id": "k664eaaae",
+   "lang": "ko",
+   "text": "둘째, 값이 오르내리는 뜻이니",
+   "cap": 49
+  },
+  {
+   "id": "kb4a5162b",
+   "lang": "ko",
+   "text": "아니면",
+   "cap": 49
+  },
+  {
+   "id": "k4e586c30",
+   "lang": "ko",
+   "text": "생기다",
+   "cap": 49
+  },
+  {
+   "id": "ec450ea4c",
+   "lang": "en",
+   "text": "arise",
+   "cap": 49
+  },
+  {
+   "id": "kbf35e0ae",
+   "lang": "ko",
+   "text": "놓여 있다",
+   "cap": 49
+  },
+  {
+   "id": "kfa74e09c",
+   "lang": "ko",
+   "text": "탈락.",
+   "cap": 49
+  },
+  {
+   "id": "k1ad182a9",
+   "lang": "ko",
+   "text": "셋째, 뒤에 목적어가 있으니 타동사",
+   "cap": 50
+  },
+  {
+   "id": "k2c0a9f7e",
+   "lang": "ko",
+   "text": "정리해요. 어휘 문제는 문법이 아니라 짝으로 풀어요.",
+   "cap": 51
+  },
+  {
+   "id": "k6d1c3499",
+   "lang": "ko",
+   "text": "동사는 목적어, 형용사는 꾸밈 받는 명사, 부사는 숫자와 형용사, 덩어리는 통째로.",
+   "cap": 52
+  },
+  {
+   "id": "k01db885d",
+   "lang": "ko",
+   "text": "닮은꼴과 헷갈리는 동사는 뜻과 뒤의 구조를 한 번 더 확인해요.",
+   "cap": 53
+  },
+  {
+   "id": "ke83986d5",
+   "lang": "ko",
+   "text": "아래 짝 카드로 매일 조금씩 짝을 쌓아 보세요.",
+   "cap": 54
+  },
+  {
+   "id": "e07328213",
+   "lang": "en",
+   "text": "The marketing team will conduct a survey of 500 customers next month.",
+   "from": "say"
+  },
+  {
+   "id": "ecb17d751",
+   "lang": "en",
+   "text": "hold a meeting",
+   "from": "say"
+  },
+  {
+   "id": "ef2d110b9",
+   "lang": "en",
+   "text": "conduct a survey",
+   "from": "say"
+  },
+  {
+   "id": "ea0f9518f",
+   "lang": "en",
+   "text": "make a decision",
+   "from": "say"
+  },
+  {
+   "id": "e7b92c404",
+   "lang": "en",
+   "text": "place an order",
+   "from": "say"
+  },
+  {
+   "id": "e46e56bf4",
+   "lang": "en",
+   "text": "attend a meeting",
+   "from": "say"
+  },
+  {
+   "id": "ee89a81c4",
+   "lang": "en",
+   "text": "reserve a room",
+   "from": "say"
+  },
+  {
+   "id": "e25858b70",
+   "lang": "en",
+   "text": "earn money",
+   "from": "say"
+  },
+  {
+   "id": "e25262b24",
+   "lang": "en",
+   "text": "approximately 200 people",
+   "from": "say"
+  },
+  {
+   "id": "eb6525654",
+   "lang": "en",
+   "text": "until further notice",
+   "from": "say"
+  },
+  {
+   "id": "e3e5b3ceb",
+   "lang": "en",
+   "text": "implement a plan",
+   "from": "say"
+  },
+  {
+   "id": "e65d6a5d9",
+   "lang": "en",
+   "text": "submit a proposal",
+   "from": "say"
+  },
+  {
+   "id": "e0d03f53c",
+   "lang": "en",
+   "text": "reach an agreement",
+   "from": "say"
+  },
+  {
+   "id": "ef764124e",
+   "lang": "en",
+   "text": "take effect",
+   "from": "say"
+  },
+  {
+   "id": "e43926e88",
+   "lang": "en",
+   "text": "in charge of",
+   "from": "say"
+  },
+  {
+   "id": "ea9eef7b1",
+   "lang": "en",
+   "text": "out of stock",
+   "from": "say"
+  },
+  {
+   "id": "e95f3e1ab",
+   "lang": "en",
+   "text": "as of",
+   "from": "say"
+  },
+  {
+   "id": "e2d73b163",
+   "lang": "en",
+   "text": "on short notice",
+   "from": "say"
+  },
+  {
+   "id": "e672652aa",
+   "lang": "en",
+   "text": "be considerate of others",
+   "from": "say"
+  },
+  {
+   "id": "e225c9098",
+   "lang": "en",
+   "text": "successful",
+   "from": "say"
+  },
+  {
+   "id": "e14fa1f09",
+   "lang": "en",
+   "text": "successive",
+   "from": "say"
+  },
+  {
+   "id": "ea97bbb4a",
+   "lang": "en",
+   "text": "comprehensive",
+   "from": "say"
+  },
+  {
+   "id": "e8ad0ed9c",
+   "lang": "en",
+   "text": "comprehensible",
+   "from": "say"
+  },
+  {
+   "id": "e73ebe0e2",
+   "lang": "en",
+   "text": "respective",
+   "from": "say"
+  },
+  {
+   "id": "eaa1b44bf",
+   "lang": "en",
+   "text": "respectful",
+   "from": "say"
+  },
+  {
+   "id": "e0e57ed27",
+   "lang": "en",
+   "text": "highly qualified",
+   "from": "say"
+  },
+  {
+   "id": "edcc11258",
+   "lang": "en",
+   "text": "respond promptly",
+   "from": "say"
+  },
+  {
+   "id": "eaf4cde23",
+   "lang": "en",
+   "text": "shortly after the meeting",
+   "from": "say"
+  },
+  {
+   "id": "e49613e9b",
+   "lang": "en",
+   "text": "worked hard",
+   "from": "say"
+  },
+  {
+   "id": "e0ba0bde0",
+   "lang": "en",
+   "text": "hardly worked",
+   "from": "say"
+  },
+  {
+   "id": "e02a4f970",
+   "lang": "en",
+   "text": "most employees",
+   "from": "say"
+  },
+  {
+   "id": "eb394f8d7",
+   "lang": "en",
+   "text": "were mostly students",
+   "from": "say"
+  },
+  {
+   "id": "e316e4fd7",
+   "lang": "en",
+   "text": "Prices rise every year.",
+   "from": "say"
+  },
+  {
+   "id": "ee9bd7039",
+   "lang": "en",
+   "text": "The company raises prices every year.",
+   "from": "say"
+  },
+  {
+   "id": "e5e7d4d33",
+   "lang": "en",
+   "text": "The file lies on the desk.",
+   "from": "say"
+  },
+  {
+   "id": "e7f92bc03",
+   "lang": "en",
+   "text": "Lay the file on my desk.",
+   "from": "say"
+  },
+  {
+   "id": "ec36c9dfc",
+   "lang": "en",
+   "text": "She told us that the meeting was canceled.",
+   "from": "say"
+  },
+  {
+   "id": "ebea6e972",
+   "lang": "en",
+   "text": "She said that the meeting was canceled.",
+   "from": "say"
+  },
+  {
+   "id": "e08d60cd3",
+   "lang": "en",
+   "text": "borrow",
+   "from": "say"
+  },
+  {
+   "id": "e486ff37c",
+   "lang": "en",
+   "text": "remind me to call",
+   "from": "say"
+  },
+  {
+   "id": "e0a62696a",
+   "lang": "en",
+   "text": "remember to call",
+   "from": "say"
+  },
+  {
+   "id": "ee37dca11",
+   "lang": "en",
+   "text": "may affect traffic",
+   "from": "say"
+  },
+  {
+   "id": "e281d5e39",
+   "lang": "en",
+   "text": "have an effect on",
+   "from": "say"
+  },
+  {
+   "id": "e105ca6c7",
+   "lang": "en",
+   "text": "The IT team is working to address the problem with the company's e-mail server.",
+   "from": "say"
+  },
+  {
+   "id": "efa8f7d9c",
+   "lang": "en",
+   "text": "The new inventory system has saved the company a considerable amount of money.",
+   "from": "say"
+  },
+  {
+   "id": "ee66abc6d",
+   "lang": "en",
+   "text": "The company plans to raise the price of its premium membership next year.",
+   "from": "say"
+  },
+  {
+   "id": "ef04b7e27",
+   "lang": "en",
+   "text": "conduct a survey, meet a deadline",
+   "from": "say"
+  },
+  {
+   "id": "eae896336",
+   "lang": "en",
+   "text": "until further notice, in charge of",
+   "from": "say"
+  },
+  {
+   "id": "e184962a7",
+   "lang": "en",
+   "text": "a considerable amount, be reliant on",
+   "from": "say"
+  },
+  {
+   "id": "e59894414",
+   "lang": "en",
+   "text": "approximately 200, highly qualified",
+   "from": "say"
+  },
+  {
+   "id": "e74ad6113",
+   "lang": "en",
+   "text": "raise prices, tell us that, lend me",
+   "from": "say"
+  },
+  {
+   "id": "e5124f5c6",
+   "lang": "en",
+   "text": "conduct",
+   "from": "say"
+  },
+  {
+   "id": "ee9d4ef59",
+   "lang": "en",
+   "text": "conduct an inspection",
+   "from": "say"
+  },
+  {
+   "id": "e69149ae4",
+   "lang": "en",
+   "text": "conduct a study",
+   "from": "say"
+  },
+  {
+   "id": "e52cff722",
+   "lang": "en",
+   "text": "conduct an interview",
+   "from": "say"
+  },
+  {
+   "id": "ed66b3083",
+   "lang": "en",
+   "text": "implement",
+   "from": "say"
+  },
+  {
+   "id": "e4ab77642",
+   "lang": "en",
+   "text": "implement a policy",
+   "from": "say"
+  },
+  {
+   "id": "e5554a77e",
+   "lang": "en",
+   "text": "implement changes",
+   "from": "say"
+  },
+  {
+   "id": "eb64c3e99",
+   "lang": "en",
+   "text": "meet",
+   "from": "say"
+  },
+  {
+   "id": "ebe93d899",
+   "lang": "en",
+   "text": "meet the demand",
+   "from": "say"
+  },
+  {
+   "id": "e1230836f",
+   "lang": "en",
+   "text": "meet requirements",
+   "from": "say"
+  },
+  {
+   "id": "e1bd41c45",
+   "lang": "en",
+   "text": "meet a goal",
+   "from": "say"
+  },
+  {
+   "id": "ec3afa470",
+   "lang": "en",
+   "text": "meet expectations",
+   "from": "say"
+  },
+  {
+   "id": "e727b642a",
+   "lang": "en",
+   "text": "address",
+   "from": "say"
+  },
+  {
+   "id": "e2273685e",
+   "lang": "en",
+   "text": "address a problem",
+   "from": "say"
+  },
+  {
+   "id": "e21ab76eb",
+   "lang": "en",
+   "text": "address concerns",
+   "from": "say"
+  },
+  {
+   "id": "eac1b61ea",
+   "lang": "en",
+   "text": "submit",
+   "from": "say"
+  },
+  {
+   "id": "edc27e1fb",
+   "lang": "en",
+   "text": "submit an application",
+   "from": "say"
+  },
+  {
+   "id": "eac362509",
+   "lang": "en",
+   "text": "submit a report",
+   "from": "say"
+  },
+  {
+   "id": "eb0cfa83e",
+   "lang": "en",
+   "text": "attend",
+   "from": "say"
+  },
+  {
+   "id": "e811c582d",
+   "lang": "en",
+   "text": "attend a conference",
+   "from": "say"
+  },
+  {
+   "id": "ef0a6f8f2",
+   "lang": "en",
+   "text": "attend a workshop",
+   "from": "say"
+  },
+  {
+   "id": "edb479cfe",
+   "lang": "en",
+   "text": "reserve",
+   "from": "say"
+  },
+  {
+   "id": "ef3a900d5",
+   "lang": "en",
+   "text": "reserve a table",
+   "from": "say"
+  },
+  {
+   "id": "e9482ae4a",
+   "lang": "en",
+   "text": "reserve a seat",
+   "from": "say"
+  },
+  {
+   "id": "eaca62a1c",
+   "lang": "en",
+   "text": "earn",
+   "from": "say"
+  },
+  {
+   "id": "eabd16212",
+   "lang": "en",
+   "text": "earn a reputation",
+   "from": "say"
+  },
+  {
+   "id": "e22321541",
+   "lang": "en",
+   "text": "earn a degree",
+   "from": "say"
+  },
+  {
+   "id": "e74b3827b",
+   "lang": "en",
+   "text": "hold",
+   "from": "say"
+  },
+  {
+   "id": "e4fb0c1fe",
+   "lang": "en",
+   "text": "hold a conference",
+   "from": "say"
+  },
+  {
+   "id": "eed1dd65b",
+   "lang": "en",
+   "text": "hold a sale",
+   "from": "say"
+  },
+  {
+   "id": "e6632d198",
+   "lang": "en",
+   "text": "make",
+   "from": "say"
+  },
+  {
+   "id": "e03a0824f",
+   "lang": "en",
+   "text": "make a mistake",
+   "from": "say"
+  },
+  {
+   "id": "e306616c5",
+   "lang": "en",
+   "text": "make a payment",
+   "from": "say"
+  },
+  {
+   "id": "efb14032d",
+   "lang": "en",
+   "text": "make a reservation",
+   "from": "say"
+  },
+  {
+   "id": "e79c55c87",
+   "lang": "en",
+   "text": "do",
+   "from": "say"
+  },
+  {
+   "id": "ef19a8c6b",
+   "lang": "en",
+   "text": "do business",
+   "from": "say"
+  },
+  {
+   "id": "e466d96ec",
+   "lang": "en",
+   "text": "do research",
+   "from": "say"
+  },
+  {
+   "id": "e4ad1f35b",
+   "lang": "en",
+   "text": "give",
+   "from": "say"
+  },
+  {
+   "id": "e4c8b6086",
+   "lang": "en",
+   "text": "give a speech",
+   "from": "say"
+  },
+  {
+   "id": "e1079aefb",
+   "lang": "en",
+   "text": "give a discount",
+   "from": "say"
+  },
+  {
+   "id": "e870bd559",
+   "lang": "en",
+   "text": "reach",
+   "from": "say"
+  },
+  {
+   "id": "e6d0158f0",
+   "lang": "en",
+   "text": "reach a decision",
+   "from": "say"
+  },
+  {
+   "id": "e7c612b05",
+   "lang": "en",
+   "text": "reach a goal",
+   "from": "say"
+  },
+  {
+   "id": "ef6851115",
+   "lang": "en",
+   "text": "launch",
+   "from": "say"
+  },
+  {
+   "id": "ef8b47df5",
+   "lang": "en",
+   "text": "launch a product",
+   "from": "say"
+  },
+  {
+   "id": "e151bcc34",
+   "lang": "en",
+   "text": "launch a campaign",
+   "from": "say"
+  },
+  {
+   "id": "e085eceaf",
+   "lang": "en",
+   "text": "renew",
+   "from": "say"
+  },
+  {
+   "id": "ebc052225",
+   "lang": "en",
+   "text": "renew a subscription",
+   "from": "say"
+  },
+  {
+   "id": "ecffe5fae",
+   "lang": "en",
+   "text": "renew a contract",
+   "from": "say"
+  },
+  {
+   "id": "eb7da5f84",
+   "lang": "en",
+   "text": "renew a membership",
+   "from": "say"
+  },
+  {
+   "id": "e4999f26e",
+   "lang": "en",
+   "text": "extend",
+   "from": "say"
+  },
+  {
+   "id": "e1d488d17",
+   "lang": "en",
+   "text": "extend a deadline",
+   "from": "say"
+  },
+  {
+   "id": "eeac877ad",
+   "lang": "en",
+   "text": "extend a contract",
+   "from": "say"
+  },
+  {
+   "id": "eb4094328",
+   "lang": "en",
+   "text": "extend an invitation",
+   "from": "say"
+  },
+  {
+   "id": "ebb114927",
+   "lang": "en",
+   "text": "attract",
+   "from": "say"
+  },
+  {
+   "id": "e85ee0f1e",
+   "lang": "en",
+   "text": "attract customers",
+   "from": "say"
+  },
+  {
+   "id": "e47fe0a56",
+   "lang": "en",
+   "text": "attract visitors",
+   "from": "say"
+  },
+  {
+   "id": "e272e0562",
+   "lang": "en",
+   "text": "attract investors",
+   "from": "say"
+  },
+  {
+   "id": "eeca0e28a",
+   "lang": "en",
+   "text": "exceed",
+   "from": "say"
+  },
+  {
+   "id": "e05e70999",
+   "lang": "en",
+   "text": "exceed expectations",
+   "from": "say"
+  },
+  {
+   "id": "e599d23b2",
+   "lang": "en",
+   "text": "exceed the budget",
+   "from": "say"
+  },
+  {
+   "id": "ee3cb944a",
+   "lang": "en",
+   "text": "exceed the limit",
+   "from": "say"
+  },
+  {
+   "id": "ec86c525f",
+   "lang": "en",
+   "text": "obtain",
+   "from": "say"
+  },
+  {
+   "id": "e24ae5c57",
+   "lang": "en",
+   "text": "obtain a permit",
+   "from": "say"
+  },
+  {
+   "id": "e9063242e",
+   "lang": "en",
+   "text": "obtain approval",
+   "from": "say"
+  },
+  {
+   "id": "e25fa19da",
+   "lang": "en",
+   "text": "obtain permission",
+   "from": "say"
+  },
+  {
+   "id": "e4505bdff",
+   "lang": "en",
+   "text": "fill",
+   "from": "say"
+  },
+  {
+   "id": "ecad470ef",
+   "lang": "en",
+   "text": "fill a position",
+   "from": "say"
+  },
+  {
+   "id": "ef52eb422",
+   "lang": "en",
+   "text": "fill out a form",
+   "from": "say"
+  },
+  {
+   "id": "e4c05c904",
+   "lang": "en",
+   "text": "file",
+   "from": "say"
+  },
+  {
+   "id": "e5f9e11ca",
+   "lang": "en",
+   "text": "file a complaint",
+   "from": "say"
+  },
+  {
+   "id": "eb9e1ff3f",
+   "lang": "en",
+   "text": "file a claim",
+   "from": "say"
+  },
+  {
+   "id": "eedf25971",
+   "lang": "en",
+   "text": "achieve",
+   "from": "say"
+  },
+  {
+   "id": "e398ca0cd",
+   "lang": "en",
+   "text": "achieve a goal",
+   "from": "say"
+  },
+  {
+   "id": "eb07e355e",
+   "lang": "en",
+   "text": "achieve success",
+   "from": "say"
+  },
+  {
+   "id": "e20af4571",
+   "lang": "en",
+   "text": "issue",
+   "from": "say"
+  },
+  {
+   "id": "e1482a618",
+   "lang": "en",
+   "text": "issue a refund",
+   "from": "say"
+  },
+  {
+   "id": "e1c86e7c9",
+   "lang": "en",
+   "text": "issue a permit",
+   "from": "say"
+  },
+  {
+   "id": "e363cef3b",
+   "lang": "en",
+   "text": "issue an invoice",
+   "from": "say"
+  },
+  {
+   "id": "e271f7f6f",
+   "lang": "en",
+   "text": "inform",
+   "from": "say"
+  },
+  {
+   "id": "e47f3daca",
+   "lang": "en",
+   "text": "inform the staff",
+   "from": "say"
+  },
+  {
+   "id": "e503d47f3",
+   "lang": "en",
+   "text": "inform customers of",
+   "from": "say"
+  },
+  {
+   "id": "e3856506c",
+   "lang": "en",
+   "text": "have",
+   "from": "say"
+  },
+  {
+   "id": "e923599e2",
+   "lang": "en",
+   "text": "have a meeting",
+   "from": "say"
+  },
+  {
+   "id": "e8ff0d16d",
+   "lang": "en",
+   "text": "place",
+   "from": "say"
+  },
+  {
+   "id": "e2b3ce909",
+   "lang": "en",
+   "text": "place an ad",
+   "from": "say"
+  },
+  {
+   "id": "ec7063ce4",
+   "lang": "en",
+   "text": "pay",
+   "from": "say"
+  },
+  {
+   "id": "e4986339b",
+   "lang": "en",
+   "text": "pay attention to",
+   "from": "say"
+  },
+  {
+   "id": "eaa5c0833",
+   "lang": "en",
+   "text": "pay a fee",
+   "from": "say"
+  },
+  {
+   "id": "ecae23314",
+   "lang": "en",
+   "text": "pay the bill",
+   "from": "say"
+  },
+  {
+   "id": "e16d366a9",
+   "lang": "en",
+   "text": "take",
+   "from": "say"
+  },
+  {
+   "id": "e3120f8e2",
+   "lang": "en",
+   "text": "take place",
+   "from": "say"
+  },
+  {
+   "id": "e80ccc569",
+   "lang": "en",
+   "text": "take action",
+   "from": "say"
+  },
+  {
+   "id": "e0c1a3001",
+   "lang": "en",
+   "text": "take a break",
+   "from": "say"
+  },
+  {
+   "id": "e5540d6d1",
+   "lang": "en",
+   "text": "take advantage of",
+   "from": "say"
+  },
+  {
+   "id": "eef0490a2",
+   "lang": "en",
+   "text": "notice",
+   "from": "say"
+  },
+  {
+   "id": "efbba160e",
+   "lang": "en",
+   "text": "note",
+   "from": "say"
+  },
+  {
+   "id": "e4f8f4b74",
+   "lang": "en",
+   "text": "take note of",
+   "from": "say"
+  },
+  {
+   "id": "ea505b441",
+   "lang": "en",
+   "text": "a thank-you note",
+   "from": "say"
+  },
+  {
+   "id": "eb0197510",
+   "lang": "en",
+   "text": "attention",
+   "from": "say"
+  },
+  {
+   "id": "e7286a793",
+   "lang": "en",
+   "text": "caution",
+   "from": "say"
+  },
+  {
+   "id": "e4e6ec2bb",
+   "lang": "en",
+   "text": "with caution",
+   "from": "say"
+  },
+  {
+   "id": "efb20e8e0",
+   "lang": "en",
+   "text": "use caution",
+   "from": "say"
+  },
+  {
+   "id": "e47a9e514",
+   "lang": "en",
+   "text": "stock",
+   "from": "say"
+  },
+  {
+   "id": "ea343899b",
+   "lang": "en",
+   "text": "in stock",
+   "from": "say"
+  },
+  {
+   "id": "e1e525efa",
+   "lang": "en",
+   "text": "order",
+   "from": "say"
+  },
+  {
+   "id": "e82fa1af2",
+   "lang": "en",
+   "text": "charge",
+   "from": "say"
+  },
+  {
+   "id": "e4c87b6bb",
+   "lang": "en",
+   "text": "free of charge",
+   "from": "say"
+  },
+  {
+   "id": "ea7369f88",
+   "lang": "en",
+   "text": "out of place",
+   "from": "say"
+  },
+  {
+   "id": "eeb1d8b13",
+   "lang": "en",
+   "text": "in place of",
+   "from": "say"
+  },
+  {
+   "id": "ed975a84e",
+   "lang": "en",
+   "text": "duty",
+   "from": "say"
+  },
+  {
+   "id": "e616c7985",
+   "lang": "en",
+   "text": "on duty",
+   "from": "say"
+  },
+  {
+   "id": "ea106f949",
+   "lang": "en",
+   "text": "off duty",
+   "from": "say"
+  },
+  {
+   "id": "ef71ecc75",
+   "lang": "en",
+   "text": "response",
+   "from": "say"
+  },
+  {
+   "id": "eb7df7ae5",
+   "lang": "en",
+   "text": "in response to",
+   "from": "say"
+  },
+  {
+   "id": "ef6bce41a",
+   "lang": "en",
+   "text": "addition",
+   "from": "say"
+  },
+  {
+   "id": "e25704740",
+   "lang": "en",
+   "text": "in addition to",
+   "from": "say"
+  },
+  {
+   "id": "e6dbe8dde",
+   "lang": "en",
+   "text": "as",
+   "from": "say"
+  },
+  {
+   "id": "e8f798480",
+   "lang": "en",
+   "text": "due",
+   "from": "say"
+  },
+  {
+   "id": "e3658be69",
+   "lang": "en",
+   "text": "due to",
+   "from": "say"
+  },
+  {
+   "id": "e3ad3dae6",
+   "lang": "en",
+   "text": "prior",
+   "from": "say"
+  },
+  {
+   "id": "e031f5de7",
+   "lang": "en",
+   "text": "prior to",
+   "from": "say"
+  },
+  {
+   "id": "e7a45e192",
+   "lang": "en",
+   "text": "according",
+   "from": "say"
+  },
+  {
+   "id": "efc51bfab",
+   "lang": "en",
+   "text": "according to",
+   "from": "say"
+  },
+  {
+   "id": "e799766e3",
+   "lang": "en",
+   "text": "time",
+   "from": "say"
+  },
+  {
+   "id": "e82ad89b8",
+   "lang": "en",
+   "text": "on time",
+   "from": "say"
+  },
+  {
+   "id": "e495f33c6",
+   "lang": "en",
+   "text": "in time",
+   "from": "say"
+  },
+  {
+   "id": "e98f49b03",
+   "lang": "en",
+   "text": "period",
+   "from": "say"
+  },
+  {
+   "id": "e4cea035a",
+   "lang": "en",
+   "text": "a trial period",
+   "from": "say"
+  },
+  {
+   "id": "e7d2a26bc",
+   "lang": "en",
+   "text": "for a period of",
+   "from": "say"
+  },
+  {
+   "id": "e4df20de3",
+   "lang": "en",
+   "text": "price",
+   "from": "say"
+  },
+  {
+   "id": "ee0f83756",
+   "lang": "en",
+   "text": "a reasonable price",
+   "from": "say"
+  },
+  {
+   "id": "ed68dde0e",
+   "lang": "en",
+   "text": "fare",
+   "from": "say"
+  },
+  {
+   "id": "eae7bd28d",
+   "lang": "en",
+   "text": "a bus fare",
+   "from": "say"
+  },
+  {
+   "id": "eb6dacd0b",
+   "lang": "en",
+   "text": "bill",
+   "from": "say"
+  },
+  {
+   "id": "ecbed3a0c",
+   "lang": "en",
+   "text": "advance",
+   "from": "say"
+  },
+  {
+   "id": "eb47c4137",
+   "lang": "en",
+   "text": "in advance",
+   "from": "say"
+  },
+  {
+   "id": "e7df46377",
+   "lang": "en",
+   "text": "ahead",
+   "from": "say"
+  },
+  {
+   "id": "e0edd0861",
+   "lang": "en",
+   "text": "ahead of time",
+   "from": "say"
+  },
+  {
+   "id": "ee0a43c15",
+   "lang": "en",
+   "text": "ahead of schedule",
+   "from": "say"
+  },
+  {
+   "id": "e5275857d",
+   "lang": "en",
+   "text": "before",
+   "from": "say"
+  },
+  {
+   "id": "e2a9933e1",
+   "lang": "en",
+   "text": "early",
+   "from": "say"
+  },
+  {
+   "id": "e93cedafe",
+   "lang": "en",
+   "text": "arrive early",
+   "from": "say"
+  },
+  {
+   "id": "eb2d59e82",
+   "lang": "en",
+   "text": "behalf",
+   "from": "say"
+  },
+  {
+   "id": "e7c79398a",
+   "lang": "en",
+   "text": "on behalf of",
+   "from": "say"
+  },
+  {
+   "id": "e6244ebcd",
+   "lang": "en",
+   "text": "account",
+   "from": "say"
+  },
+  {
+   "id": "e4599fa61",
+   "lang": "en",
+   "text": "on account of",
+   "from": "say"
+  },
+  {
+   "id": "e17605670",
+   "lang": "en",
+   "text": "instead",
+   "from": "say"
+  },
+  {
+   "id": "ef8aa48b1",
+   "lang": "en",
+   "text": "instead of",
+   "from": "say"
+  },
+  {
+   "id": "e88538297",
+   "lang": "en",
+   "text": "manner",
+   "from": "say"
+  },
+  {
+   "id": "ee8626799",
+   "lang": "en",
+   "text": "in a timely manner",
+   "from": "say"
+  },
+  {
+   "id": "e97728b1f",
+   "lang": "en",
+   "text": "method",
+   "from": "say"
+  },
+  {
+   "id": "eb7b3b338",
+   "lang": "en",
+   "text": "a payment method",
+   "from": "say"
+  },
+  {
+   "id": "e5519a947",
+   "lang": "en",
+   "text": "style",
+   "from": "say"
+  },
+  {
+   "id": "e36c3591c",
+   "lang": "en",
+   "text": "a writing style",
+   "from": "say"
+  },
+  {
+   "id": "eacf2ed38",
+   "lang": "en",
+   "text": "habit",
+   "from": "say"
+  },
+  {
+   "id": "e590c6de0",
+   "lang": "en",
+   "text": "a bad habit",
+   "from": "say"
+  },
+  {
+   "id": "ee913838f",
+   "lang": "en",
+   "text": "construction",
+   "from": "say"
+  },
+  {
+   "id": "e23a4e2d1",
+   "lang": "en",
+   "text": "under construction",
+   "from": "say"
+  },
+  {
+   "id": "e3bffeb1a",
+   "lang": "en",
+   "text": "build",
+   "from": "say"
+  },
+  {
+   "id": "eb6b23983",
+   "lang": "en",
+   "text": "build a factory",
+   "from": "say"
+  },
+  {
+   "id": "ef806790b",
+   "lang": "en",
+   "text": "structure",
+   "from": "say"
+  },
+  {
+   "id": "e6133e489",
+   "lang": "en",
+   "text": "the structure of",
+   "from": "say"
+  },
+  {
+   "id": "e5c1e4893",
+   "lang": "en",
+   "text": "creation",
+   "from": "say"
+  },
+  {
+   "id": "e580a5f2e",
+   "lang": "en",
+   "text": "job creation",
+   "from": "say"
+  },
+  {
+   "id": "ed1ae1eb9",
+   "lang": "en",
+   "text": "leave",
+   "from": "say"
+  },
+  {
+   "id": "e53ccde14",
+   "lang": "en",
+   "text": "on leave",
+   "from": "say"
+  },
+  {
+   "id": "e1216bfb3",
+   "lang": "en",
+   "text": "sick leave",
+   "from": "say"
+  },
+  {
+   "id": "e3d259675",
+   "lang": "en",
+   "text": "absence",
+   "from": "say"
+  },
+  {
+   "id": "ed9abd9f4",
+   "lang": "en",
+   "text": "a leave of absence",
+   "from": "say"
+  },
+  {
+   "id": "e4de2260e",
+   "lang": "en",
+   "text": "in the absence of",
+   "from": "say"
+  },
+  {
+   "id": "e59346460",
+   "lang": "en",
+   "text": "rest",
+   "from": "say"
+  },
+  {
+   "id": "ee41d7f14",
+   "lang": "en",
+   "text": "get some rest",
+   "from": "say"
+  },
+  {
+   "id": "e26c8d5d2",
+   "lang": "en",
+   "text": "the rest of",
+   "from": "say"
+  },
+  {
+   "id": "e1a4fbb29",
+   "lang": "en",
+   "text": "retirement",
+   "from": "say"
+  },
+  {
+   "id": "e242f7b94",
+   "lang": "en",
+   "text": "a retirement party",
+   "from": "say"
+  },
+  {
+   "id": "e95715d2c",
+   "lang": "en",
+   "text": "a considerable amount",
+   "from": "say"
+  },
+  {
+   "id": "ea19579b8",
+   "lang": "en",
+   "text": "a considerable increase",
+   "from": "say"
+  },
+  {
+   "id": "eecabdbaf",
+   "lang": "en",
+   "text": "be considerate of",
+   "from": "say"
+  },
+  {
+   "id": "e8d41e6c9",
+   "lang": "en",
+   "text": "considerably",
+   "from": "say"
+  },
+  {
+   "id": "e6c6c709c",
+   "lang": "en",
+   "text": "considerably higher",
+   "from": "say"
+  },
+  {
+   "id": "ef6c217e6",
+   "lang": "en",
+   "text": "consideration",
+   "from": "say"
+  },
+  {
+   "id": "ea1a9c1cb",
+   "lang": "en",
+   "text": "take … into consideration",
+   "from": "say"
+  },
+  {
+   "id": "e9bd9775f",
+   "lang": "en",
+   "text": "a reliable supplier",
+   "from": "say"
+  },
+  {
+   "id": "ebff2c456",
+   "lang": "en",
+   "text": "a reliable service",
+   "from": "say"
+  },
+  {
+   "id": "eb22195a1",
+   "lang": "en",
+   "text": "be reliant on",
+   "from": "say"
+  },
+  {
+   "id": "e59c8a07b",
+   "lang": "en",
+   "text": "reliance",
+   "from": "say"
+  },
+  {
+   "id": "e7978e54c",
+   "lang": "en",
+   "text": "reliance on",
+   "from": "say"
+  },
+  {
+   "id": "e694026b6",
+   "lang": "en",
+   "text": "economic growth",
+   "from": "say"
+  },
+  {
+   "id": "e4a66c1a7",
+   "lang": "en",
+   "text": "economic conditions",
+   "from": "say"
+  },
+  {
+   "id": "e1b64b25d",
+   "lang": "en",
+   "text": "more economical",
+   "from": "say"
+  },
+  {
+   "id": "e05646b1c",
+   "lang": "en",
+   "text": "an economical option",
+   "from": "say"
+  },
+  {
+   "id": "e1da3cf3e",
+   "lang": "en",
+   "text": "economy",
+   "from": "say"
+  },
+  {
+   "id": "e4de76762",
+   "lang": "en",
+   "text": "the local economy",
+   "from": "say"
+  },
+  {
+   "id": "ec366ee74",
+   "lang": "en",
+   "text": "the successful candidate",
+   "from": "say"
+  },
+  {
+   "id": "eb6bde434",
+   "lang": "en",
+   "text": "a successful launch",
+   "from": "say"
+  },
+  {
+   "id": "ecde18018",
+   "lang": "en",
+   "text": "for two successive years",
+   "from": "say"
+  },
+  {
+   "id": "eb54294a4",
+   "lang": "en",
+   "text": "comprehensive coverage",
+   "from": "say"
+  },
+  {
+   "id": "e11100f5b",
+   "lang": "en",
+   "text": "a comprehensive review",
+   "from": "say"
+  },
+  {
+   "id": "e338cf48b",
+   "lang": "en",
+   "text": "easily comprehensible",
+   "from": "say"
+  },
+  {
+   "id": "ec426cc59",
+   "lang": "en",
+   "text": "be respectful of",
+   "from": "say"
+  },
+  {
+   "id": "e2f11a53a",
+   "lang": "en",
+   "text": "confident",
+   "from": "say"
+  },
+  {
+   "id": "ea5c47fd4",
+   "lang": "en",
+   "text": "be confident that",
+   "from": "say"
+  },
+  {
+   "id": "e39a3125c",
+   "lang": "en",
+   "text": "confidential",
+   "from": "say"
+  },
+  {
+   "id": "eade43a59",
+   "lang": "en",
+   "text": "keep … confidential",
+   "from": "say"
+  },
+  {
+   "id": "eb8042d62",
+   "lang": "en",
+   "text": "confidential information",
+   "from": "say"
+  },
+  {
+   "id": "e9d2b4f58",
+   "lang": "en",
+   "text": "informative",
+   "from": "say"
+  },
+  {
+   "id": "e2cfa9d58",
+   "lang": "en",
+   "text": "very informative",
+   "from": "say"
+  },
+  {
+   "id": "ea48a0b2e",
+   "lang": "en",
+   "text": "informed",
+   "from": "say"
+  },
+  {
+   "id": "efb5d9a43",
+   "lang": "en",
+   "text": "make informed decisions",
+   "from": "say"
+  },
+  {
+   "id": "e48f8d7f6",
+   "lang": "en",
+   "text": "sensitive",
+   "from": "say"
+  },
+  {
+   "id": "e98c368b2",
+   "lang": "en",
+   "text": "sensitive data",
+   "from": "say"
+  },
+  {
+   "id": "e9eb70c8d",
+   "lang": "en",
+   "text": "sensible",
+   "from": "say"
+  },
+  {
+   "id": "e701bf955",
+   "lang": "en",
+   "text": "it is sensible to",
+   "from": "say"
+  },
+  {
+   "id": "eff937b7f",
+   "lang": "en",
+   "text": "approximately",
+   "from": "say"
+  },
+  {
+   "id": "e1350dc3b",
+   "lang": "en",
+   "text": "nearly",
+   "from": "say"
+  },
+  {
+   "id": "e77370e58",
+   "lang": "en",
+   "text": "nearly all",
+   "from": "say"
+  },
+  {
+   "id": "e35d2ea34",
+   "lang": "en",
+   "text": "almost",
+   "from": "say"
+  },
+  {
+   "id": "e62c9cf47",
+   "lang": "en",
+   "text": "almost all",
+   "from": "say"
+  },
+  {
+   "id": "eedca512f",
+   "lang": "en",
+   "text": "almost every",
+   "from": "say"
+  },
+  {
+   "id": "e4a5500c1",
+   "lang": "en",
+   "text": "highly",
+   "from": "say"
+  },
+  {
+   "id": "eedcbe64e",
+   "lang": "en",
+   "text": "highly recommended",
+   "from": "say"
+  },
+  {
+   "id": "e3f5f4965",
+   "lang": "en",
+   "text": "highly regarded",
+   "from": "say"
+  },
+  {
+   "id": "ef91d86ef",
+   "lang": "en",
+   "text": "reply promptly",
+   "from": "say"
+  },
+  {
+   "id": "ea7950f33",
+   "lang": "en",
+   "text": "shortly",
+   "from": "say"
+  },
+  {
+   "id": "eb28d1b3d",
+   "lang": "en",
+   "text": "shortly after",
+   "from": "say"
+  },
+  {
+   "id": "ed6d3a1c2",
+   "lang": "en",
+   "text": "shortly before",
+   "from": "say"
+  },
+  {
+   "id": "efc9c667d",
+   "lang": "en",
+   "text": "closely",
+   "from": "say"
+  },
+  {
+   "id": "eb87fa4dc",
+   "lang": "en",
+   "text": "work closely with",
+   "from": "say"
+  },
+  {
+   "id": "e2b14ae77",
+   "lang": "en",
+   "text": "monitor closely",
+   "from": "say"
+  },
+  {
+   "id": "edf66d7f6",
+   "lang": "en",
+   "text": "widely",
+   "from": "say"
+  },
+  {
+   "id": "ecc8343c3",
+   "lang": "en",
+   "text": "widely used",
+   "from": "say"
+  },
+  {
+   "id": "ee2447051",
+   "lang": "en",
+   "text": "widely known",
+   "from": "say"
+  },
+  {
+   "id": "eeb04bc7a",
+   "lang": "en",
+   "text": "heavily",
+   "from": "say"
+  },
+  {
+   "id": "e5ea74279",
+   "lang": "en",
+   "text": "rely heavily on",
+   "from": "say"
+  },
+  {
+   "id": "ed327ac10",
+   "lang": "en",
+   "text": "heavily discounted",
+   "from": "say"
+  },
+  {
+   "id": "ec5217ed2",
+   "lang": "en",
+   "text": "temporarily",
+   "from": "say"
+  },
+  {
+   "id": "e57351b22",
+   "lang": "en",
+   "text": "temporarily closed",
+   "from": "say"
+  },
+  {
+   "id": "e44248e2c",
+   "lang": "en",
+   "text": "conveniently",
+   "from": "say"
+  },
+  {
+   "id": "efdb23d96",
+   "lang": "en",
+   "text": "conveniently located",
+   "from": "say"
+  },
+  {
+   "id": "ef63e7c9c",
+   "lang": "en",
+   "text": "work hard",
+   "from": "say"
+  },
+  {
+   "id": "ecb3c20f0",
+   "lang": "en",
+   "text": "try hard",
+   "from": "say"
+  },
+  {
+   "id": "e921bfeda",
+   "lang": "en",
+   "text": "can · could hardly",
+   "from": "say"
+  },
+  {
+   "id": "e9e6784f6",
+   "lang": "en",
+   "text": "hardly any",
+   "from": "say"
+  },
+  {
+   "id": "ee4dd96e1",
+   "lang": "en",
+   "text": "be mostly",
+   "from": "say"
+  },
+  {
+   "id": "e35ea9edd",
+   "lang": "en",
+   "text": "prices rise",
+   "from": "say"
+  },
+  {
+   "id": "e7552b4a7",
+   "lang": "en",
+   "text": "sales rise",
+   "from": "say"
+  },
+  {
+   "id": "eadad6196",
+   "lang": "en",
+   "text": "raise",
+   "from": "say"
+  },
+  {
+   "id": "ed4b6fbf0",
+   "lang": "en",
+   "text": "raise prices",
+   "from": "say"
+  },
+  {
+   "id": "e7fd2f206",
+   "lang": "en",
+   "text": "raise funds",
+   "from": "say"
+  },
+  {
+   "id": "e308b7cef",
+   "lang": "en",
+   "text": "raise awareness",
+   "from": "say"
+  },
+  {
+   "id": "e62c67dcc",
+   "lang": "en",
+   "text": "problems arise",
+   "from": "say"
+  },
+  {
+   "id": "e0a888b1d",
+   "lang": "en",
+   "text": "questions arise",
+   "from": "say"
+  },
+  {
+   "id": "e2044dd0d",
+   "lang": "en",
+   "text": "If any problems arise, please call us.",
+   "from": "say"
+  },
+  {
+   "id": "e55a48636",
+   "lang": "en",
+   "text": "lie near the airport",
+   "from": "say"
+  },
+  {
+   "id": "e05cc1e87",
+   "lang": "en",
+   "text": "lie on the desk",
+   "from": "say"
+  },
+  {
+   "id": "e0a2e9ff8",
+   "lang": "en",
+   "text": "lay",
+   "from": "say"
+  },
+  {
+   "id": "e76f4de9d",
+   "lang": "en",
+   "text": "lay the papers on the desk",
+   "from": "say"
+  },
+  {
+   "id": "e3f856544",
+   "lang": "en",
+   "text": "Please lay the file on the desk.",
+   "from": "say"
+  },
+  {
+   "id": "e5e1aca4d",
+   "lang": "en",
+   "text": "say",
+   "from": "say"
+  },
+  {
+   "id": "e12c1bd6c",
+   "lang": "en",
+   "text": "say that …",
+   "from": "say"
+  },
+  {
+   "id": "ef9c8661c",
+   "lang": "en",
+   "text": "speak",
+   "from": "say"
+  },
+  {
+   "id": "ecbc7f842",
+   "lang": "en",
+   "text": "Ms. Oh can speak three languages.",
+   "from": "say"
+  },
+  {
+   "id": "e00d9ffcc",
+   "lang": "en",
+   "text": "talk",
+   "from": "say"
+  },
+  {
+   "id": "e629840f3",
+   "lang": "en",
+   "text": "I would like to talk to the manager.",
+   "from": "say"
+  },
+  {
+   "id": "e0f446dea",
+   "lang": "en",
+   "text": "Please remind me to call the client.",
+   "from": "say"
+  },
+  {
+   "id": "eb6a9cbad",
+   "lang": "en",
+   "text": "remember",
+   "from": "say"
+  },
+  {
+   "id": "e964ac676",
+   "lang": "en",
+   "text": "Please remember to lock the door.",
+   "from": "say"
+  },
+  {
+   "id": "e4bb93d7f",
+   "lang": "en",
+   "text": "recall",
+   "from": "say"
+  },
+  {
+   "id": "e23b82aba",
+   "lang": "en",
+   "text": "I can't recall his name.",
+   "from": "say"
+  },
+  {
+   "id": "ecf939380",
+   "lang": "en",
+   "text": "memorize",
+   "from": "say"
+  },
+  {
+   "id": "e6a48e730",
+   "lang": "en",
+   "text": "Please memorize the safety rules.",
+   "from": "say"
+  },
+  {
+   "id": "e2046eb2d",
+   "lang": "en",
+   "text": "Could you lend me your laptop?",
+   "from": "say"
+  },
+  {
+   "id": "e4e4e6620",
+   "lang": "en",
+   "text": "May I borrow your pen?",
+   "from": "say"
+  },
+  {
+   "id": "e7c41f496",
+   "lang": "en",
+   "text": "The rain may affect the game.",
+   "from": "say"
+  },
+  {
+   "id": "ee40381ef",
+   "lang": "en",
+   "text": "effect",
+   "from": "say"
+  },
+  {
+   "id": "e596c4afa",
+   "lang": "en",
+   "text": "The policy had a positive effect on sales.",
+   "from": "say"
+  },
+  {
+   "id": "e8440ef6f",
+   "lang": "en",
+   "text": "affection",
+   "from": "say"
+  },
+  {
+   "id": "e55578268",
+   "lang": "en",
+   "text": "affection for",
+   "from": "say"
+  },
+  {
+   "id": "e9aead40b",
+   "lang": "en",
+   "text": "effective",
+   "from": "say"
+  },
+  {
+   "id": "ee55f881d",
+   "lang": "en",
+   "text": "effective immediately",
+   "from": "say"
+  },
+  {
+   "id": "e7bfee59c",
+   "lang": "en",
+   "text": "be reliant on tourism",
+   "from": "say"
+  },
+  {
+   "id": "ec5731728",
+   "lang": "en",
+   "text": "a more economical car",
+   "from": "say"
+  },
+  {
+   "id": "e85873ce6",
+   "lang": "en",
+   "text": "lost money for two successive years",
+   "from": "say"
+  },
+  {
+   "id": "e2fb4a0fc",
+   "lang": "en",
+   "text": "comprehensive coverage of all procedures",
+   "from": "say"
+  },
+  {
+   "id": "ee956cc4b",
+   "lang": "en",
+   "text": "easily comprehensible to beginners",
+   "from": "say"
+  },
+  {
+   "id": "e701aa517",
+   "lang": "en",
+   "text": "their respective offices",
+   "from": "say"
+  },
+  {
+   "id": "ee36d7fc0",
+   "lang": "en",
+   "text": "be respectful of other guests",
+   "from": "say"
+  }
+ ]
+}

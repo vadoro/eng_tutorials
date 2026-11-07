@@ -384,7 +384,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
   <footer>
     <p>무엇이 규칙 계산인가요? 영상 속 ✓ · ×, 직접 해 보기의 채점, 짝 카드의 정답과 까닭, 연습 문제의 힌트와 보기별 해설, 퀴즈의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 이 엔진은 손으로 고른 <b>짝 사전</b>이에요. 문제에 적어 둔 정답이 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
     <p>짝 표현은 문법처럼 딱 잘라 맞고 틀리는 규칙이 아니라, 원어민이 얼마나 자주 · 자연스럽게 함께 쓰느냐의 문제예요. 그래서 엔진은 조심스럽게 판정해요. 토익 비즈니스 영어에서 분명히 자연스러운 짝만 ✓, 함께 쓰지 않는다고 하나하나 확인한 조합과 분명한 규칙(품사가 다름, 자동사 뒤의 목적어, <i lang="en">tell</i> 뒤의 사람처럼 뒤의 구조, 빌리는 방향)에 걸린 것만 ×로 표시하고, 사전에 없는 조합은 판정하지 않아요(?). 실제로는 사전에 없는 짝도 쓰여요. 예를 들어 <i lang="en">hold a meeting</i> 말고 <i lang="en">have a meeting</i>, <i lang="en">reach a decision</i>도 자연스러워요. <i lang="en">effect</i>는 ‘(변화를) 이루다’라는 동사로도 쓰지만, 토익에서 자주 나오는 명사 쓰임만 다뤘어요. 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
-    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 짝 카드의 기록은 이 브라우저의 저장 공간에만 남고, 어디로도 보내지 않아요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+    <p>음성 해설과 발음 듣기는 VoiceStudio로 미리 만든 합성 음성으로 읽어요(해설의 한국어는 젊은 여성 내레이터, 영어와 발음 듣기는 미국 여성 선생님 목소리). 놀이터에서 만든 문장처럼 파일이 없는 글은 브라우저에 들어 있는 음성(speechSynthesis)으로 읽고, 브라우저 음성은 기기에 따라 목소리가 달라요. 짝 카드의 기록은 이 브라우저의 저장 공간에만 남고, 어디로도 보내지 않아요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
   </footer>
 </div>
 
@@ -393,6 +393,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
 <script src="../shared/drill.js"></script>
 <script src="assets/js/grammar.js"></script>
 <script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
