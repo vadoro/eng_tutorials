@@ -305,6 +305,7 @@ const NARR = (window.EN && EN.narration) ? EN.narration({
     [/ = /g, ', '], [/ \+ /g, ', '], [/TOEIC/g, '토익'], [/Part (\d)·(\d)/g, '파트 $1, $2'], [/Part (\d)/g, '파트 $1']],
   rate: () => speed,
   holdBefore: 0.05,
+  clips: window.EN_CLIPS,
 }) : { supported: false, reset() {}, hold: (T, next) => next, sync() {} };
 
 /* =========================================================
@@ -650,6 +651,20 @@ const QS = (() => {
   if (q.filter(x => x.figure).length < 2) console.warn('[듣기 Part 3·4] 그림 문제가 둘보다 적어요.');
   return q;
 })();
+
+/* =========================================================
+   대화 목소리 파일로 만들 줄 모으기 (개발용) — 모든 대화 · 담화의 줄을 화자의 목소리 열쇠(성별-억양)별로
+   README의 ‘대화 목소리 파일 만들기’ → audio/dialogue/lines.json → tools/voicestudio-dialogue.py
+   ========================================================= */
+window.__dialogueLines = () => {
+  const out = [], seen = new Set();
+  Object.values(LT.SETS).forEach(St => St.lines.forEach(l => {
+    const sp = LTV.key(St, l.s), id = LTV.lineId(sp, l.t);
+    if (seen.has(id)) return;
+    seen.add(id); out.push({ id, sp, text: l.t, from: St.id });
+  }));
+  return out;
+};
 
 /* =========================================================
    11. 시작

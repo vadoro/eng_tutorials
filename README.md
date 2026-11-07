@@ -62,7 +62,7 @@ shared/quiz.js          공통 부품: 퀴즈 (EN.quiz)
 shared/components.css   공통 부품 모양
 tools/render-video.cjs  어느 튜토리얼이든 MP4 · 자막 원고 · 미리보기 그림으로 내보내기
 tools/narration-pieces.cjs · tools/voicestudio-narration.py  음성 해설을 미리 만든 목소리(VoiceStudio)로 읽게 하기 (CLAUDE.md의 EN.narration)
-tools/dialogue-lines.cjs · tools/voicestudio-dialogue.py      대화를 말하는 사람마다 미리 만든 목소리(VoiceStudio)로 읽게 하기 (지금은 회화 다섯과 토익 듣기 T15)
+tools/dialogue-lines.cjs · tools/voicestudio-dialogue.py      대화를 말하는 사람마다 미리 만든 목소리(VoiceStudio)로 읽게 하기 (지금은 회화 다섯과 토익 듣기 T15 · T16)
 relative-pronouns/      관계대명사, 빈자리를 찾아라 (토익 문법 T01)
 parts-of-speech/        빈칸의 자리가 품사를 정한다 (토익 문법 T02)
 verb-agreement-voice/   주어가 수를, 목적어가 태를 정한다 (토익 문법 T03)

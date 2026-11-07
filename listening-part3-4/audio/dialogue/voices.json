@@ -1,0 +1,9 @@
+{
+ "_note": "목소리 열쇠(성별-억양) → VoiceStudio 프로필 이름(또는 id)과 화면에 보일 이름. tools/voicestudio-dialogue.py가 읽어요. 미국 여성 · 미국 남성 · 영국 여성 · 호주 남성은 길 묻기 튜토리얼(directions)의 목소리를 함께 쓰고, 영국 남성 · 호주 여성은 VoiceStudio로 목소리를 설계해 한 번 만든 소리로 복제(clone)했어요(README 참고).",
+ "f-us": { "profile": "길 묻기 · 나 (미국 여성)", "label": "미국 여성" },
+ "m-us": { "profile": "길 묻기 · 길에서 만난 사람 (미국 남성)", "label": "미국 남성" },
+ "f-gb": { "profile": "길 묻기 · 영국에서 만난 사람 (영국 여성)", "label": "영국 여성" },
+ "m-gb": { "profile": "듣기 · 영국 남성", "label": "영국 남성" },
+ "f-au": { "profile": "듣기 · 호주 여성", "label": "호주 여성" },
+ "m-au": { "profile": "길 묻기 · 관광객 (호주 남성)", "label": "호주 남성" }
+}

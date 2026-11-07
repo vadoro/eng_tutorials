@@ -1,0 +1,464 @@
+{
+ "slug": "listening-part3-4",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "f-au": 14,
+  "f-gb": 13,
+  "f-us": 14,
+  "m-au": 8,
+  "m-gb": 10,
+  "m-us": 16
+ },
+ "lines": [
+  {
+   "id": "f-us-2d5c6deb",
+   "sp": "f-us",
+   "text": "Hi, this is Dana Kim from Brightline Consulting. I'd like to reserve twenty rooms for our sales conference next month.",
+   "from": "hotel"
+  },
+  {
+   "id": "m-gb-922f2f5e",
+   "sp": "m-gb",
+   "text": "Certainly. Which dates do you need?",
+   "from": "hotel"
+  },
+  {
+   "id": "f-us-1545a65a",
+   "sp": "f-us",
+   "text": "May twelfth through the fifteenth. Our first session starts early on the thirteenth, so everyone has to arrive the night before.",
+   "from": "hotel"
+  },
+  {
+   "id": "m-gb-9658ac98",
+   "sp": "m-gb",
+   "text": "Let me check. Unfortunately, we're fully booked on the twelfth. There's a medical convention in town that week.",
+   "from": "hotel"
+  },
+  {
+   "id": "f-us-81884317",
+   "sp": "f-us",
+   "text": "Oh, no. That's the night we need most.",
+   "from": "hotel"
+  },
+  {
+   "id": "m-gb-bddbaf80",
+   "sp": "m-gb",
+   "text": "Why don't you try the Parkside Inn? It's our sister hotel, just two blocks away, and it still has rooms that night.",
+   "from": "hotel"
+  },
+  {
+   "id": "f-us-76be822f",
+   "sp": "f-us",
+   "text": "That sounds good. Could you e-mail me their phone number?",
+   "from": "hotel"
+  },
+  {
+   "id": "m-gb-1534f272",
+   "sp": "m-gb",
+   "text": "Sure. I'll send it to you right after this call.",
+   "from": "hotel"
+  },
+  {
+   "id": "f-au-c5b16c71",
+   "sp": "f-au",
+   "text": "Hi, I need two hundred posters for our gallery's opening night next Saturday. Can you have them ready by Thursday?",
+   "from": "print"
+  },
+  {
+   "id": "m-us-72a022f8",
+   "sp": "m-us",
+   "text": "Sure. Would you like them printed on glossy paper or matte?",
+   "from": "print"
+  },
+  {
+   "id": "f-au-ca8889e7",
+   "sp": "f-au",
+   "text": "Glossy, please. The design file is on this USB drive.",
+   "from": "print"
+  },
+  {
+   "id": "m-us-85c5c038",
+   "sp": "m-us",
+   "text": "Great. I'll print one sample copy first so you can check the colors.",
+   "from": "print"
+  },
+  {
+   "id": "f-gb-282ce26b",
+   "sp": "f-gb",
+   "text": "The copier on the third floor jammed again this morning.",
+   "from": "copier"
+  },
+  {
+   "id": "m-us-340c8cfd",
+   "sp": "m-us",
+   "text": "That's the third time this week.",
+   "from": "copier"
+  },
+  {
+   "id": "f-gb-8a0c0d52",
+   "sp": "f-gb",
+   "text": "I know. I'll ask the office manager about getting a new one.",
+   "from": "copier"
+  },
+  {
+   "id": "f-gb-e11ecf93",
+   "sp": "f-gb",
+   "text": "Did you hear? Mina's team just signed another big contract.",
+   "from": "contract"
+  },
+  {
+   "id": "f-gb-664ad20d",
+   "sp": "f-gb",
+   "text": "They really deserve the sales award this year.",
+   "from": "contract"
+  },
+  {
+   "id": "f-gb-aceb47eb",
+   "sp": "f-gb",
+   "text": "Ms. Lee from Fairway called. She wants to move our meeting again.",
+   "from": "client"
+  },
+  {
+   "id": "f-gb-62fafcfb",
+   "sp": "f-gb",
+   "text": "Let's ask her to confirm the new time by e-mail.",
+   "from": "client"
+  },
+  {
+   "id": "m-au-48527cb2",
+   "sp": "m-au",
+   "text": "Ana, is everything ready for this afternoon's training workshop?",
+   "from": "map"
+  },
+  {
+   "id": "f-us-f9799d6e",
+   "sp": "f-us",
+   "text": "Almost. But we can't use Room 3. The projector there isn't working.",
+   "from": "map"
+  },
+  {
+   "id": "m-au-ae84d1a3",
+   "sp": "m-au",
+   "text": "Hmm. What about the room across from the elevator? It's about the same size.",
+   "from": "map"
+  },
+  {
+   "id": "f-us-56a9a6a0",
+   "sp": "f-us",
+   "text": "Good idea. I'll move the chairs and the handouts there now.",
+   "from": "map"
+  },
+  {
+   "id": "f-us-60bb5a79",
+   "sp": "f-us",
+   "text": "Raj, Kenji, thanks for coming. The client just moved our deadline up to this Friday.",
+   "from": "team"
+  },
+  {
+   "id": "m-gb-5bc165a7",
+   "sp": "m-gb",
+   "text": "This Friday? We haven't even recorded the voice-over yet.",
+   "from": "team"
+  },
+  {
+   "id": "m-au-4a4691d2",
+   "sp": "m-au",
+   "text": "I can record it tomorrow morning. The studio downstairs is free.",
+   "from": "team"
+  },
+  {
+   "id": "f-us-022bdb0a",
+   "sp": "f-us",
+   "text": "Great. Then, Raj, could you finish editing the video by Thursday?",
+   "from": "team"
+  },
+  {
+   "id": "m-gb-ec2cd222",
+   "sp": "m-gb",
+   "text": "I'll do my best, but I'll need Kenji's recording by noon tomorrow.",
+   "from": "team"
+  },
+  {
+   "id": "m-au-1d25294c",
+   "sp": "m-au",
+   "text": "No problem. I'll send it to you as soon as I'm done.",
+   "from": "team"
+  },
+  {
+   "id": "f-gb-f622f8de",
+   "sp": "f-gb",
+   "text": "Hello, Mr. Alvarez. This is Grace from Sunbridge Dental Clinic.",
+   "from": "dental"
+  },
+  {
+   "id": "f-gb-3e6400fa",
+   "sp": "f-gb",
+   "text": "I'm calling about your appointment tomorrow at ten.",
+   "from": "dental"
+  },
+  {
+   "id": "f-gb-61e0aed6",
+   "sp": "f-gb",
+   "text": "Unfortunately, Dr. Patel has to attend a conference, so she won't be in the office tomorrow morning.",
+   "from": "dental"
+  },
+  {
+   "id": "f-gb-feb1d14f",
+   "sp": "f-gb",
+   "text": "Could you call us back to choose a new time? We have openings on Thursday afternoon.",
+   "from": "dental"
+  },
+  {
+   "id": "f-gb-5245da8c",
+   "sp": "f-gb",
+   "text": "Our number is 555-0148, and we're open until six today. Thank you.",
+   "from": "dental"
+  },
+  {
+   "id": "m-us-841658ed",
+   "sp": "m-us",
+   "text": "Hi, this is Jason from the IT help desk. You sent us a message about your laptop?",
+   "from": "help"
+  },
+  {
+   "id": "f-au-84c2570f",
+   "sp": "f-au",
+   "text": "Yes, thanks for calling back. The problem is, it keeps shutting down while I'm working, and I have a client presentation at three.",
+   "from": "help"
+  },
+  {
+   "id": "m-us-78c0ac71",
+   "sp": "m-us",
+   "text": "I see. I'm afraid we can't fix it today. We have a lot of repair requests, so we'll have to send it to the manufacturer.",
+   "from": "help"
+  },
+  {
+   "id": "f-au-df2af0c5",
+   "sp": "f-au",
+   "text": "Oh, no. All my slides are on that laptop.",
+   "from": "help"
+  },
+  {
+   "id": "m-us-11d9b37e",
+   "sp": "m-us",
+   "text": "Why don't you borrow one of our spare laptops for the afternoon? I can copy your files onto it.",
+   "from": "help"
+  },
+  {
+   "id": "f-au-5878d4da",
+   "sp": "f-au",
+   "text": "That would be perfect. I'll bring my laptop down to your office right now.",
+   "from": "help"
+  },
+  {
+   "id": "f-au-66535ca5",
+   "sp": "f-au",
+   "text": "Hi, I have a reservation for a compact car. The name is Laura Chen.",
+   "from": "car"
+  },
+  {
+   "id": "m-us-8d4a05f7",
+   "sp": "m-us",
+   "text": "Welcome, Ms. Chen. Hmm, I'm afraid all of our compact cars are out right now. A flight was delayed, so several customers haven't returned theirs yet.",
+   "from": "car"
+  },
+  {
+   "id": "f-au-edd98fad",
+   "sp": "f-au",
+   "text": "Oh, no. I have a meeting downtown at five, so I can't wait.",
+   "from": "car"
+  },
+  {
+   "id": "m-us-b2a423aa",
+   "sp": "m-us",
+   "text": "I understand. Why don't you take one of our larger models? There's no extra charge.",
+   "from": "car"
+  },
+  {
+   "id": "f-au-bd795f82",
+   "sp": "f-au",
+   "text": "That's very kind of you. Here's my driver's license.",
+   "from": "car"
+  },
+  {
+   "id": "m-us-ff36a285",
+   "sp": "m-us",
+   "text": "Thank you. Let me get the keys, and I'll walk you to the car.",
+   "from": "car"
+  },
+  {
+   "id": "m-us-2dcea4af",
+   "sp": "m-us",
+   "text": "Sora, Mark, have you seen the schedule for the office move?",
+   "from": "move"
+  },
+  {
+   "id": "f-gb-3aa7ed48",
+   "sp": "f-gb",
+   "text": "Yes. The movers are coming on Saturday, so we have to pack our desks by Friday afternoon.",
+   "from": "move"
+  },
+  {
+   "id": "m-au-fb758346",
+   "sp": "m-au",
+   "text": "Friday afternoon? I'll be visiting clients all day on Friday.",
+   "from": "move"
+  },
+  {
+   "id": "f-gb-5f23c3e8",
+   "sp": "f-gb",
+   "text": "Don't worry. I'll be here all week.",
+   "from": "move"
+  },
+  {
+   "id": "m-au-938ab7cc",
+   "sp": "m-au",
+   "text": "Really? That would be a huge help. I'll label my boxes before I leave on Thursday.",
+   "from": "move"
+  },
+  {
+   "id": "m-us-5880e45d",
+   "sp": "m-us",
+   "text": "And Mark, could you return the projector to the storage room before you go?",
+   "from": "move"
+  },
+  {
+   "id": "m-au-f43b87fb",
+   "sp": "m-au",
+   "text": "Sure. I'll take care of it on Thursday.",
+   "from": "move"
+  },
+  {
+   "id": "f-us-6b0ebc78",
+   "sp": "f-us",
+   "text": "Ben, have you signed up for one of the training workshops on Monday?",
+   "from": "workshop"
+  },
+  {
+   "id": "m-gb-6b7c404c",
+   "sp": "m-gb",
+   "text": "Not yet. I'm meeting a client in the morning, so it has to be in the afternoon.",
+   "from": "workshop"
+  },
+  {
+   "id": "f-us-f00c7b63",
+   "sp": "f-us",
+   "text": "How about Customer Service? I heard it's really good.",
+   "from": "workshop"
+  },
+  {
+   "id": "m-gb-b7f87b77",
+   "sp": "m-gb",
+   "text": "It sounds interesting, but it runs until five, and I have to leave at four-thirty on Mondays.",
+   "from": "workshop"
+  },
+  {
+   "id": "f-us-b56d0017",
+   "sp": "f-us",
+   "text": "Then take the one right after lunch. I took it last year, and it really helped me organize my day.",
+   "from": "workshop"
+  },
+  {
+   "id": "m-gb-d413d634",
+   "sp": "m-gb",
+   "text": "OK, I'll sign up for that one. Could you send me the link to the registration page?",
+   "from": "workshop"
+  },
+  {
+   "id": "f-us-ee41ce29",
+   "sp": "f-us",
+   "text": "Sure. I'll forward it to you right now.",
+   "from": "workshop"
+  },
+  {
+   "id": "f-au-0b456092",
+   "sp": "f-au",
+   "text": "Good morning, everyone. Before we start, I have some news about our customer survey.",
+   "from": "survey"
+  },
+  {
+   "id": "f-au-9202b1f3",
+   "sp": "f-au",
+   "text": "Last month, more than two thousand customers filled it out. That's twice as many as last year.",
+   "from": "survey"
+  },
+  {
+   "id": "f-au-dd078490",
+   "sp": "f-au",
+   "text": "Most of them were happy with our delivery times, but many said our mobile app is hard to use.",
+   "from": "survey"
+  },
+  {
+   "id": "f-au-b029f0f3",
+   "sp": "f-au",
+   "text": "So we've hired a design firm to improve it, and their team will visit us on Wednesday.",
+   "from": "survey"
+  },
+  {
+   "id": "f-au-8fad6af3",
+   "sp": "f-au",
+   "text": "I'd like each team leader to meet with them and share your customers' comments.",
+   "from": "survey"
+  },
+  {
+   "id": "f-au-15360c11",
+   "sp": "f-au",
+   "text": "Now, let's move on to this month's sales figures.",
+   "from": "survey"
+  },
+  {
+   "id": "m-us-900cc1db",
+   "sp": "m-us",
+   "text": "Welcome aboard the Riverside Boat Tour. My name is Paolo, and I'll be your guide this afternoon.",
+   "from": "boat"
+  },
+  {
+   "id": "m-us-7fb1b59f",
+   "sp": "m-us",
+   "text": "Our trip will take about ninety minutes, and we'll pass under six of the city's famous bridges.",
+   "from": "boat"
+  },
+  {
+   "id": "m-us-816f7de4",
+   "sp": "m-us",
+   "text": "Halfway through the tour, we'll stop at Lantern Island, where you can buy snacks and souvenirs.",
+   "from": "boat"
+  },
+  {
+   "id": "m-us-111e00ff",
+   "sp": "m-us",
+   "text": "Please keep your tickets with you. You'll need to show them to get back on the boat.",
+   "from": "boat"
+  },
+  {
+   "id": "m-us-269ff4c1",
+   "sp": "m-us",
+   "text": "All right, we're about to leave, so please take your seats.",
+   "from": "boat"
+  },
+  {
+   "id": "f-us-20fe06f5",
+   "sp": "f-us",
+   "text": "Kenji, Raj, the printer on our floor is broken again.",
+   "from": "quizthree"
+  },
+  {
+   "id": "m-gb-fb5fd4a8",
+   "sp": "m-gb",
+   "text": "I can call the repair company right now.",
+   "from": "quizthree"
+  },
+  {
+   "id": "f-us-cad84280",
+   "sp": "f-us",
+   "text": "Thanks. And Raj, could you print the handouts downstairs?",
+   "from": "quizthree"
+  },
+  {
+   "id": "m-au-d87d05be",
+   "sp": "m-au",
+   "text": "Sure. I'll go down after lunch.",
+   "from": "quizthree"
+  }
+ ]
+}

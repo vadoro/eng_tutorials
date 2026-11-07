@@ -97,9 +97,17 @@ def encoder():
     return 'wav', lambda src, dst: shutil.copyfile(src, dst)
 
 
+def bare(text):
+    """자막이 괄호 안의 영어에서 나뉘면 조각 앞에 ')' · 끝에 '('가 남아요(누구에 대한 문제인지( · ), 무엇을 묻는지.).
+    엔진은 앞의 ')'를 '픽'처럼 짧은 소리로 읽어서 떼어요(파일 이름 = 조각 id는 원래 글로 정하니 바뀌지 않아요)"""
+    s = re.sub(r'^[\s)\]]+', '', str(text))
+    s = re.sub(r'[\s(\[]+$', '', s)
+    return s.lstrip(' ,')
+
+
 def readable(text):
     """화면용 기호를 소리 내어 읽기 좋게: … · ↔ → — ((?))(안 들린 말) → 쉼"""
-    s = str(text).replace('((?))', '…')
+    s = bare(str(text).replace('((?))', '…'))
     open_end = s.rstrip().endswith('…')
     s = re.sub(r'\s*[↔→]\s*', ', ', s)
     s = re.sub(r'\s+·\s+', ', ', s)

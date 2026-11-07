@@ -1,0 +1,1483 @@
+{
+ "slug": "listening-part3-4",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 101,
+  "en": 144,
+  "say": 88,
+  "koChars": 2188,
+  "enChars": 5163
+ },
+ "pieces": [
+  {
+   "id": "k51fd8415",
+   "lang": "ko",
+   "text": "토익 파트 3은 두세 사람의 대화, 파트 4는 한 사람의 담화를 듣고 세 문제씩 풀어요.",
+   "cap": 0
+  },
+  {
+   "id": "kd83fe263",
+   "lang": "ko",
+   "text": "남자가 말해요",
+   "cap": 1
+  },
+  {
+   "id": "eeee6de68",
+   "lang": "en",
+   "text": "fully booked.",
+   "cap": 1
+  },
+  {
+   "id": "k1e26d3cd",
+   "lang": "ko",
+   "text": "그런데 보기에는 그 말이 없어요.",
+   "cap": 1
+  },
+  {
+   "id": "k4039e339",
+   "lang": "ko",
+   "text": "정답은",
+   "cap": 2
+  },
+  {
+   "id": "ecb7fdf42",
+   "lang": "en",
+   "text": "No rooms are available.",
+   "cap": 2
+  },
+  {
+   "id": "k2f542d8d",
+   "lang": "ko",
+   "text": "같은 뜻을 다른 말로 바꿨어요.",
+   "cap": 2
+  },
+  {
+   "id": "k39b7e0e4",
+   "lang": "ko",
+   "text": "오히려 대화의 낱말",
+   "cap": 3
+  },
+  {
+   "id": "ea49aa3a6",
+   "lang": "en",
+   "text": "booked",
+   "cap": 3
+  },
+  {
+   "id": "kb2b78c24",
+   "lang": "ko",
+   "text": "그대로 들어간 보기가 함정이에요.",
+   "cap": 3
+  },
+  {
+   "id": "k14f4c71c",
+   "lang": "ko",
+   "text": "이 원리를 3단계 풀이법으로 익혀 볼게요.",
+   "cap": 4
+  },
+  {
+   "id": "keaf9826a",
+   "lang": "ko",
+   "text": "문제지에는 세 문제와 보기가 인쇄되어 있어요. 대화는 한 번만 들려주니 먼저 읽어 두세요.",
+   "cap": 5
+  },
+  {
+   "id": "k206ec34a",
+   "lang": "ko",
+   "text": "읽으면서 키워드에 표시해요. 누구에 대한 문제인지(",
+   "cap": 6
+  },
+  {
+   "id": "e23d4ac14",
+   "lang": "en",
+   "text": "the man , the woman",
+   "cap": 6
+  },
+  {
+   "id": "k2637e49c",
+   "lang": "ko",
+   "text": "), 무엇을 묻는지.",
+   "cap": 6
+  },
+  {
+   "id": "ecde8f398",
+   "lang": "en",
+   "text": "Why , calling",
+   "cap": 7
+  },
+  {
+   "id": "kec1db78a",
+   "lang": "ko",
+   "text": "전화한 까닭",
+   "cap": 7
+  },
+  {
+   "id": "e97cde361",
+   "lang": "en",
+   "text": "problem",
+   "cap": 7
+  },
+  {
+   "id": "kf0f9dcd7",
+   "lang": "ko",
+   "text": "문제점",
+   "cap": 7
+  },
+  {
+   "id": "e24bde708",
+   "lang": "en",
+   "text": "do next",
+   "cap": 7
+  },
+  {
+   "id": "kea16955b",
+   "lang": "ko",
+   "text": "다음에 할 일.",
+   "cap": 7
+  },
+  {
+   "id": "k784e3acf",
+   "lang": "ko",
+   "text": "세 문제의 답은 대부분 대화 순서대로 나와요. 첫 문제는 앞부분, 마지막 문제는 끝부분.",
+   "cap": 8
+  },
+  {
+   "id": "kf863e057",
+   "lang": "ko",
+   "text": "파트 3은 13세트 39문제, 파트 4는 10세트 30문제. 모두 세 문제씩 한 세트예요.",
+   "cap": 9
+  },
+  {
+   "id": "kdc8c6d48",
+   "lang": "ko",
+   "text": "같은 뜻을 다른 말로 하는 것을 패러프레이즈(",
+   "cap": 10
+  },
+  {
+   "id": "e7ce51a11",
+   "lang": "en",
+   "text": "paraphrase",
+   "cap": 10
+  },
+  {
+   "id": "k2a07ca2e",
+   "lang": "ko",
+   "text": "바꿔 말하기)라고 해요.",
+   "cap": 10
+  },
+  {
+   "id": "kc8900e8f",
+   "lang": "ko",
+   "text": "한국어도 그래요. 방이 다 찼어요, 빈방이 없어요. 낱말은 달라도 뜻은 같아요.",
+   "cap": 11
+  },
+  {
+   "id": "ea77c82a2",
+   "lang": "en",
+   "text": "fully booked , no rooms available, reserve rooms , book accommodations.",
+   "cap": 12
+  },
+  {
+   "id": "k0ce91597",
+   "lang": "ko",
+   "text": "구체적인 말은 넓은 말로 바뀌어요",
+   "cap": 13
+  },
+  {
+   "id": "ea143cb29",
+   "lang": "en",
+   "text": "projector , equipment, phone number , contact information.",
+   "cap": 13
+  },
+  {
+   "id": "k54f9a768",
+   "lang": "ko",
+   "text": "반대로 대화의 낱말이 그대로 들어간 보기는 의심하세요. 뜻이 다른 경우가 많아요.",
+   "cap": 14
+  },
+  {
+   "id": "kdc4a597f",
+   "lang": "ko",
+   "text": "정리하면 , 같은 뜻 다른 말은 정답 쪽, 같은 말 다른 뜻은 함정 쪽이에요.",
+   "cap": 15
+  },
+  {
+   "id": "k98e1338c",
+   "lang": "ko",
+   "text": "주제나 목적을 묻는 문제는 답이 대개 첫 부분에 나와요.",
+   "cap": 16
+  },
+  {
+   "id": "e2172376b",
+   "lang": "en",
+   "text": "I need, I'm calling about",
+   "cap": 16
+  },
+  {
+   "id": "kee0264a2",
+   "lang": "ko",
+   "text": "같은 말 뒤예요.",
+   "cap": 16
+  },
+  {
+   "id": "k18220a62",
+   "lang": "ko",
+   "text": "여자의 첫 말",
+   "cap": 17
+  },
+  {
+   "id": "e6d6bad3f",
+   "lang": "en",
+   "text": "I need two hundred posters.",
+   "cap": 17
+  },
+  {
+   "id": "k872370c3",
+   "lang": "ko",
+   "text": "정답",
+   "cap": 17
+  },
+  {
+   "id": "e794524e4",
+   "lang": "en",
+   "text": "Order some printed materials.",
+   "cap": 17
+  },
+  {
+   "id": "k29b36cc1",
+   "lang": "ko",
+   "text": "장소나 직업 문제는 이렇게 물어요",
+   "cap": 18
+  },
+  {
+   "id": "eade03b04",
+   "lang": "en",
+   "text": "Where most likely",
+   "cap": 18
+  },
+  {
+   "id": "kf8dc3088",
+   "lang": "ko",
+   "text": "? 직접 말하지 않아서 추론해야 해요.",
+   "cap": 18
+  },
+  {
+   "id": "k22d2d14f",
+   "lang": "ko",
+   "text": "단서 낱말을 여럿 모아요",
+   "cap": 19
+  },
+  {
+   "id": "e88e575c6",
+   "lang": "en",
+   "text": "posters, printed, glossy paper, sample copy.",
+   "cap": 19
+  },
+  {
+   "id": "kd9c4722d",
+   "lang": "ko",
+   "text": "모두 인쇄소의 말이에요.",
+   "cap": 19
+  },
+  {
+   "id": "kdc5e36e1",
+   "lang": "ko",
+   "text": "한 번 들린",
+   "cap": 20
+  },
+  {
+   "id": "e4f0ea9ec",
+   "lang": "en",
+   "text": "gallery",
+   "cap": 20
+  },
+  {
+   "id": "kdb606c94",
+   "lang": "ko",
+   "text": "포스터를 쓸 곳일 뿐이에요. 낱말 하나로 고르면 함정에 빠져요.",
+   "cap": 20
+  },
+  {
+   "id": "e1b24b971",
+   "lang": "en",
+   "text": "At a print shop.",
+   "cap": 21
+  },
+  {
+   "id": "k2c520a40",
+   "lang": "ko",
+   "text": "단서가 모두 한곳을 가리켜요.",
+   "cap": 21
+  },
+  {
+   "id": "k1c584633",
+   "lang": "ko",
+   "text": "문제점을 묻는 문제의 답은 신호어 뒤에 나와요",
+   "cap": 22
+  },
+  {
+   "id": "e8309acc1",
+   "lang": "en",
+   "text": "but, unfortunately, I'm afraid.",
+   "cap": 22
+  },
+  {
+   "id": "ec85b648e",
+   "lang": "en",
+   "text": "Unfortunately, we're fully booked",
+   "cap": 23
+  },
+  {
+   "id": "k660eefb9",
+   "lang": "ko",
+   "text": "바로 이 뒤가 문제점이에요.",
+   "cap": 23
+  },
+  {
+   "id": "k96f0e556",
+   "lang": "ko",
+   "text": "요청과 제안의 신호어",
+   "cap": 24
+  },
+  {
+   "id": "e854e2a68",
+   "lang": "en",
+   "text": "Could you, Would you mind, Why don't you, I suggest.",
+   "cap": 24
+  },
+  {
+   "id": "ka52c1a1b",
+   "lang": "ko",
+   "text": "누가 누구에게 하는 말인지 꼭 확인하세요. 남자의 제안",
+   "cap": 25
+  },
+  {
+   "id": "e821bc3de",
+   "lang": "en",
+   "text": "Why don't you try the Parkside Inn?",
+   "cap": 25
+  },
+  {
+   "id": "ke93b4ef2",
+   "lang": "ko",
+   "text": "여자의 요청",
+   "cap": 26
+  },
+  {
+   "id": "eb122b9ab",
+   "lang": "en",
+   "text": "Could you e-mail me their phone number?",
+   "cap": 26
+  },
+  {
+   "id": "kb9aabfc1",
+   "lang": "ko",
+   "text": "문제의 키워드가",
+   "cap": 26
+  },
+  {
+   "id": "ee29592eb",
+   "lang": "en",
+   "text": "the woman",
+   "cap": 26
+  },
+  {
+   "id": "kbd27e7dd",
+   "lang": "ko",
+   "text": "이 줄을 들어요.",
+   "cap": 26
+  },
+  {
+   "id": "k03ffc4ca",
+   "lang": "ko",
+   "text": "다음에 할 일은 끝부분에 나와요",
+   "cap": 27
+  },
+  {
+   "id": "eeff7cb81",
+   "lang": "en",
+   "text": "I'll, Let me, I'm going to.",
+   "cap": 27
+  },
+  {
+   "id": "k52efa4bd",
+   "lang": "ko",
+   "text": "이미 한 일",
+   "cap": 28
+  },
+  {
+   "id": "e6356e24b",
+   "lang": "en",
+   "text": "Let me check",
+   "cap": 28
+  },
+  {
+   "id": "k592d7891",
+   "lang": "ko",
+   "text": "앞으로 할 일",
+   "cap": 28
+  },
+  {
+   "id": "e6fc1d3f5",
+   "lang": "en",
+   "text": "I'll send it.",
+   "cap": 28
+  },
+  {
+   "id": "keb1d22a5",
+   "lang": "ko",
+   "text": "둘을 나눠 들으세요.",
+   "cap": 28
+  },
+  {
+   "id": "k8d5226f0",
+   "lang": "ko",
+   "text": "화자 의도 문제는 이렇게 물어요",
+   "cap": 29
+  },
+  {
+   "id": "e030594a0",
+   "lang": "en",
+   "text": "What does the man mean when he says",
+   "cap": 29
+  },
+  {
+   "id": "kf35db028",
+   "lang": "ko",
+   "text": "같은 문장이라도 앞뒤 대화에 따라 뜻이 달라져요.",
+   "cap": 30
+  },
+  {
+   "id": "e727d283e",
+   "lang": "en",
+   "text": "That's the third time this week.",
+   "cap": 30
+  },
+  {
+   "id": "k0d28a714",
+   "lang": "ko",
+   "text": "복사기가 또 고장 났다는 말 뒤라면 , 불만이에요. 기계를 바꿔야 한다는 뜻이죠.",
+   "cap": 31
+  },
+  {
+   "id": "kae23b4f6",
+   "lang": "ko",
+   "text": "다른 팀이 또 큰 계약을 땄다는 말 뒤라면 , 감탄이에요. 정말 잘하고 있다는 뜻이에요.",
+   "cap": 32
+  },
+  {
+   "id": "k233a350f",
+   "lang": "ko",
+   "text": "그래서 따옴표 문장만 듣지 말고, 그 앞 줄과 뒤 줄을 들어요.",
+   "cap": 33
+  },
+  {
+   "id": "kb38e4e3c",
+   "lang": "ko",
+   "text": "낱말 뜻 그대로 옮긴 보기 , 함정이에요.",
+   "cap": 34
+  },
+  {
+   "id": "ec383d953",
+   "lang": "en",
+   "text": "third",
+   "cap": 34
+  },
+  {
+   "id": "k3c15d138",
+   "lang": "ko",
+   "text": "세 번째 층처럼요.",
+   "cap": 34
+  },
+  {
+   "id": "e5cc8f851",
+   "lang": "en",
+   "text": "Look at the graphic",
+   "cap": 35
+  },
+  {
+   "id": "kdd3f345a",
+   "lang": "ko",
+   "text": "그림 문제예요. 표, 지도, 일정표가 함께 나와요.",
+   "cap": 35
+  },
+  {
+   "id": "kf286f953",
+   "lang": "ko",
+   "text": "먼저 그림과 보기를 봐요. 보기가 방 이름이면, 대화에서는 방 이름 말고 다른 말이 들려요.",
+   "cap": 36
+  },
+  {
+   "id": "kd2609b9d",
+   "lang": "ko",
+   "text": "대화",
+   "cap": 37
+  },
+  {
+   "id": "e5a36ff80",
+   "lang": "en",
+   "text": "We can't use Room 3.",
+   "cap": 37
+  },
+  {
+   "id": "k37e067f1",
+   "lang": "ko",
+   "text": "그대로 들린",
+   "cap": 37
+  },
+  {
+   "id": "e3d2d1fd0",
+   "lang": "en",
+   "text": "Room 3",
+   "cap": 37
+  },
+  {
+   "id": "kf1642f98",
+   "lang": "ko",
+   "text": "함정이에요.",
+   "cap": 37
+  },
+  {
+   "id": "ke520a6df",
+   "lang": "ko",
+   "text": "이어서",
+   "cap": 38
+  },
+  {
+   "id": "e97e4875c",
+   "lang": "en",
+   "text": "the room across from the elevator.",
+   "cap": 38
+  },
+  {
+   "id": "k38a22f13",
+   "lang": "ko",
+   "text": "이 말을 그림에서 찾아야 해요.",
+   "cap": 38
+  },
+  {
+   "id": "ke339d3cd",
+   "lang": "ko",
+   "text": "엘리베이터 맞은편",
+   "cap": 39
+  },
+  {
+   "id": "e2e0b6c37",
+   "lang": "en",
+   "text": "Room 2.",
+   "cap": 39
+  },
+  {
+   "id": "k6ff2a80d",
+   "lang": "ko",
+   "text": "들은 말과 그림을 합쳐야 답이 나와요.",
+   "cap": 39
+  },
+  {
+   "id": "k6bad6d34",
+   "lang": "ko",
+   "text": "헷갈리지 마세요 , 바로 옆(",
+   "cap": 40
+  },
+  {
+   "id": "ef9c4b9bc",
+   "lang": "en",
+   "text": "next to",
+   "cap": 40
+  },
+  {
+   "id": "e442d2ad5",
+   "lang": "en",
+   "text": "Room 4",
+   "cap": 40
+  },
+  {
+   "id": "ka45fcf77",
+   "lang": "ko",
+   "text": "맞은편(",
+   "cap": 40
+  },
+  {
+   "id": "efcfc473d",
+   "lang": "en",
+   "text": "across from",
+   "cap": 40
+  },
+  {
+   "id": "kf5300545",
+   "lang": "ko",
+   "text": "세 사람 대화에는 남자 둘이나 여자 둘이 나와요. 목소리만으로는 헷갈리기 쉬워요.",
+   "cap": 41
+  },
+  {
+   "id": "k1f02f28a",
+   "lang": "ko",
+   "text": "이름을 부르는 말을 잡으세요",
+   "cap": 42
+  },
+  {
+   "id": "e14b3dfc7",
+   "lang": "en",
+   "text": "Raj, could you",
+   "cap": 42
+  },
+  {
+   "id": "k19313c1f",
+   "lang": "ko",
+   "text": "? 바로 다음에 대답하는 사람",
+   "cap": 42
+  },
+  {
+   "id": "e62f29e7f",
+   "lang": "en",
+   "text": "Raj.",
+   "cap": 42
+  },
+  {
+   "id": "k4d617dc5",
+   "lang": "ko",
+   "text": "남은 남자 한 사람",
+   "cap": 43
+  },
+  {
+   "id": "e5f31b5bd",
+   "lang": "en",
+   "text": "Kenji.",
+   "cap": 43
+  },
+  {
+   "id": "k7c21660b",
+   "lang": "ko",
+   "text": "문제에 이름이 나오면 그 사람의 말만 따라가요.",
+   "cap": 43
+  },
+  {
+   "id": "e7df223a3",
+   "lang": "en",
+   "text": "What does Kenji offer to do?",
+   "cap": 44
+  },
+  {
+   "id": "e7bfd6422",
+   "lang": "en",
+   "text": "I can record it , Record some audio.",
+   "cap": 44
+  },
+  {
+   "id": "k73e77532",
+   "lang": "ko",
+   "text": "편집은",
+   "cap": 44
+  },
+  {
+   "id": "e3b63b2cb",
+   "lang": "en",
+   "text": "Raj",
+   "cap": 44
+  },
+  {
+   "id": "k487cafc7",
+   "lang": "ko",
+   "text": "몫이라 함정이에요.",
+   "cap": 44
+  },
+  {
+   "id": "k59705c77",
+   "lang": "ko",
+   "text": "파트 4는 한 사람이 말해요. 종류마다 이야기의 순서가 거의 정해져 있어요.",
+   "cap": 45
+  },
+  {
+   "id": "kf7e474eb",
+   "lang": "ko",
+   "text": "음성 메시지 , 인사와 이름, 전화한 까닭, 문제나 부탁, 연락 방법 순서예요.",
+   "cap": 46
+  },
+  {
+   "id": "k46e7c80b",
+   "lang": "ko",
+   "text": "안내 방송은",
+   "cap": 47
+  },
+  {
+   "id": "e8ee0e9b0",
+   "lang": "en",
+   "text": "Attention",
+   "cap": 47
+  },
+  {
+   "id": "k98a0bfbb",
+   "lang": "ko",
+   "text": "으로 시작해 바뀐 일과 까닭, 할 일을 알려요.",
+   "cap": 47
+  },
+  {
+   "id": "k770bae23",
+   "lang": "ko",
+   "text": "광고는 질문으로 시작해 상품, 할인, 연락 방법으로 끝나요. 회의는 주제, 소식, 할 일 순서예요.",
+   "cap": 48
+  },
+  {
+   "id": "k01435ece",
+   "lang": "ko",
+   "text": "흐름을 알면 세 문제의 자리도 보여요 , 누가 말하나, 왜 말하나, 무엇을 하라고 하나.",
+   "cap": 49
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 50
+  },
+  {
+   "id": "k9ea85ac3",
+   "lang": "ko",
+   "text": "첫째, 미리 읽기. 키워드와 누구에 대한 문제인지 표시해요. 다른 사람의 말, 때가 다른 일 , 여기서 지워요.",
+   "cap": 51
+  },
+  {
+   "id": "k0453500c",
+   "lang": "ko",
+   "text": "둘째, 신호 듣기. 신호어 뒤의 근거 줄을 잡아요. 나오지 않은 내용, 반대 내용 , 탈락.",
+   "cap": 52
+  },
+  {
+   "id": "kcb9292ae",
+   "lang": "ko",
+   "text": "셋째, 바꿔 말한 보기를 골라요. 그대로 들린 낱말과 그림에 안 맞는 칸 , 마지막에 지워요.",
+   "cap": 53
+  },
+  {
+   "id": "k6eee8ddf",
+   "lang": "ko",
+   "text": "세 단계를 지나 남은 하나가 정답이에요. 이 순서로 처음 듣는 대화를 풀어 볼까요?",
+   "cap": 54
+  },
+  {
+   "id": "k3e226b49",
+   "lang": "ko",
+   "text": "첫 문제. 첫째, 키워드",
+   "cap": 55
+  },
+  {
+   "id": "e295db298",
+   "lang": "en",
+   "text": "the woman, problem.",
+   "cap": 55
+  },
+  {
+   "id": "k2d69f5e8",
+   "lang": "ko",
+   "text": "수리 요청이 많다는 것은 남자의 말 , 에이 탈락.",
+   "cap": 55
+  },
+  {
+   "id": "k5b03d645",
+   "lang": "ko",
+   "text": "둘째, 신호",
+   "cap": 56
+  },
+  {
+   "id": "eb1edd76f",
+   "lang": "en",
+   "text": "The problem is, it keeps shutting down.",
+   "cap": 56
+  },
+  {
+   "id": "kbf238c68",
+   "lang": "ko",
+   "text": "전화기 이야기는 없어요 , 씨 탈락.",
+   "cap": 56
+  },
+  {
+   "id": "kbfe61e96",
+   "lang": "ko",
+   "text": "셋째, 그대로 들린",
+   "cap": 57
+  },
+  {
+   "id": "e6313b38c",
+   "lang": "en",
+   "text": "slides",
+   "cap": 57
+  },
+  {
+   "id": "kcd084060",
+   "lang": "ko",
+   "text": "디 탈락.",
+   "cap": 57
+  },
+  {
+   "id": "ece35f9be",
+   "lang": "en",
+   "text": "shutting down, turning off.",
+   "cap": 57
+  },
+  {
+   "id": "keb126359",
+   "lang": "ko",
+   "text": "정답은 비.",
+   "cap": 57
+  },
+  {
+   "id": "kd6667e8e",
+   "lang": "ko",
+   "text": "둘째 문제. 첫째, 키워드",
+   "cap": 58
+  },
+  {
+   "id": "e45a68645",
+   "lang": "en",
+   "text": "the man, suggest.",
+   "cap": 58
+  },
+  {
+   "id": "k06ca8176",
+   "lang": "ko",
+   "text": "메시지는 여자가 이미 보냈어요 , 디 탈락.",
+   "cap": 58
+  },
+  {
+   "id": "e0d76b9c0",
+   "lang": "en",
+   "text": "Why don't you borrow one of our spare laptops?",
+   "cap": 59
+  },
+  {
+   "id": "k14708bc6",
+   "lang": "ko",
+   "text": "발표를 미루라는 말은 없어요 , 비 탈락.",
+   "cap": 59
+  },
+  {
+   "id": "ee71d864f",
+   "lang": "en",
+   "text": "manufacturer",
+   "cap": 60
+  },
+  {
+   "id": "k2f60855a",
+   "lang": "ko",
+   "text": "에이 탈락.",
+   "cap": 60
+  },
+  {
+   "id": "e1bd5b1e2",
+   "lang": "en",
+   "text": "spare laptop, temporary device.",
+   "cap": 60
+  },
+  {
+   "id": "k7d3b7965",
+   "lang": "ko",
+   "text": "정답은 씨.",
+   "cap": 60
+  },
+  {
+   "id": "k0b8d0e6d",
+   "lang": "ko",
+   "text": "셋째 문제. 첫째, 키워드",
+   "cap": 61
+  },
+  {
+   "id": "eb204e150",
+   "lang": "en",
+   "text": "the woman, next.",
+   "cap": 61
+  },
+  {
+   "id": "k539b7858",
+   "lang": "ko",
+   "text": "파일 옮기기는 남자가 할 일 , 에이 탈락.",
+   "cap": 61
+  },
+  {
+   "id": "e88e16656",
+   "lang": "en",
+   "text": "I'll bring my laptop down to your office.",
+   "cap": 62
+  },
+  {
+   "id": "k3db5fcfd",
+   "lang": "ko",
+   "text": "새 노트북 이야기는 없어요 , 비 탈락.",
+   "cap": 62
+  },
+  {
+   "id": "e5e4afb31",
+   "lang": "en",
+   "text": "client",
+   "cap": 63
+  },
+  {
+   "id": "kbf0478fc",
+   "lang": "ko",
+   "text": "씨 탈락.",
+   "cap": 63
+  },
+  {
+   "id": "eea6389a8",
+   "lang": "en",
+   "text": "your office, the help desk.",
+   "cap": 63
+  },
+  {
+   "id": "kf53ba609",
+   "lang": "ko",
+   "text": "정답은 디.",
+   "cap": 63
+  },
+  {
+   "id": "kda458e59",
+   "lang": "ko",
+   "text": "정리해요. 파트 3, 4는 문제를 먼저 읽고, 신호어 뒤의 근거 줄을 잡아요.",
+   "cap": 64
+  },
+  {
+   "id": "kb5035874",
+   "lang": "ko",
+   "text": "정답은 같은 뜻을 다른 말로 해요. 그대로 들린 낱말은 의심하세요.",
+   "cap": 65
+  },
+  {
+   "id": "k2161c4a6",
+   "lang": "ko",
+   "text": "의도 문제는 앞뒤 줄로, 그림 문제는 들은 말과 그림을 합쳐 풀어요.",
+   "cap": 66
+  },
+  {
+   "id": "k558698f9",
+   "lang": "ko",
+   "text": "아래 놀이터와 연습 문제에서 직접 듣고 풀어 보세요.",
+   "cap": 67
+  },
+  {
+   "id": "e5e319b52",
+   "lang": "en",
+   "text": "What problem does the man mention?",
+   "from": "say"
+  },
+  {
+   "id": "eab9ec8ac",
+   "lang": "en",
+   "text": "Let me check. Unfortunately, we're fully booked on the twelfth. There's a medical convention in town that week.",
+   "from": "say"
+  },
+  {
+   "id": "e6431be63",
+   "lang": "en",
+   "text": "A session starts early in the morning.",
+   "from": "say"
+  },
+  {
+   "id": "e4b8c0524",
+   "lang": "en",
+   "text": "A room was booked under the wrong name.",
+   "from": "say"
+  },
+  {
+   "id": "ed239b1cf",
+   "lang": "en",
+   "text": "No rooms are available on one night.",
+   "from": "say"
+  },
+  {
+   "id": "ea8a9cd4c",
+   "lang": "en",
+   "text": "The hotel is closed for repairs.",
+   "from": "say"
+  },
+  {
+   "id": "ecfff4ea1",
+   "lang": "en",
+   "text": "Oh, no. That's the night we need most.",
+   "from": "say"
+  },
+  {
+   "id": "e223df5ca",
+   "lang": "en",
+   "text": "Why is the woman calling?",
+   "from": "say"
+  },
+  {
+   "id": "ec012b52d",
+   "lang": "en",
+   "text": "What will the man most likely do next?",
+   "from": "say"
+  },
+  {
+   "id": "e36c0493e",
+   "lang": "en",
+   "text": "fully booked on the twelfth",
+   "from": "say"
+  },
+  {
+   "id": "ed14da47b",
+   "lang": "en",
+   "text": "No rooms are available on one night",
+   "from": "say"
+  },
+  {
+   "id": "eb0323e2b",
+   "lang": "en",
+   "text": "reserve twenty rooms",
+   "from": "say"
+  },
+  {
+   "id": "e848d4b37",
+   "lang": "en",
+   "text": "book accommodations for a group",
+   "from": "say"
+  },
+  {
+   "id": "e9765abd7",
+   "lang": "en",
+   "text": "The projector isn't working",
+   "from": "say"
+  },
+  {
+   "id": "ecd735223",
+   "lang": "en",
+   "text": "Some equipment is broken",
+   "from": "say"
+  },
+  {
+   "id": "ec899e8bb",
+   "lang": "en",
+   "text": "their phone number",
+   "from": "say"
+  },
+  {
+   "id": "ea20a2ee0",
+   "lang": "en",
+   "text": "contact information",
+   "from": "say"
+  },
+  {
+   "id": "e083c48d6",
+   "lang": "en",
+   "text": "fully booked",
+   "from": "say"
+  },
+  {
+   "id": "eb5226411",
+   "lang": "en",
+   "text": "What does the woman want to do?",
+   "from": "say"
+  },
+  {
+   "id": "eaef483de",
+   "lang": "en",
+   "text": "Open an art gallery",
+   "from": "say"
+  },
+  {
+   "id": "e7999e622",
+   "lang": "en",
+   "text": "Order some printed materials",
+   "from": "say"
+  },
+  {
+   "id": "e8cf7b0c3",
+   "lang": "en",
+   "text": "Sell some paintings",
+   "from": "say"
+  },
+  {
+   "id": "e9636ef73",
+   "lang": "en",
+   "text": "Change an event date",
+   "from": "say"
+  },
+  {
+   "id": "e2c039985",
+   "lang": "en",
+   "text": "Hi, I need two hundred posters for our gallery's opening night next Saturday. Can you have them ready by Thursday?",
+   "from": "say"
+  },
+  {
+   "id": "ef6c3e47d",
+   "lang": "en",
+   "text": "Sure. Would you like them printed on glossy paper or matte?",
+   "from": "say"
+  },
+  {
+   "id": "eee84c27b",
+   "lang": "en",
+   "text": "Glossy, please. The design file is on this USB drive.",
+   "from": "say"
+  },
+  {
+   "id": "e85b40b17",
+   "lang": "en",
+   "text": "Great. I'll print one sample copy first so you can check the colors.",
+   "from": "say"
+  },
+  {
+   "id": "ee4c9e9fa",
+   "lang": "en",
+   "text": "Where most likely are the speakers?",
+   "from": "say"
+  },
+  {
+   "id": "ed5dd8c45",
+   "lang": "en",
+   "text": "At an art gallery",
+   "from": "say"
+  },
+  {
+   "id": "eaf3b5d14",
+   "lang": "en",
+   "text": "At a paper factory",
+   "from": "say"
+  },
+  {
+   "id": "e965a4b45",
+   "lang": "en",
+   "text": "At a print shop",
+   "from": "say"
+  },
+  {
+   "id": "eb6670e7a",
+   "lang": "en",
+   "text": "At a post office",
+   "from": "say"
+  },
+  {
+   "id": "e9dbd17fc",
+   "lang": "en",
+   "text": "Why don't you try the Parkside Inn? It's our sister hotel, just two blocks away, and it still has rooms that night.",
+   "from": "say"
+  },
+  {
+   "id": "e0a35e289",
+   "lang": "en",
+   "text": "That sounds good. Could you e-mail me their phone number?",
+   "from": "say"
+  },
+  {
+   "id": "e47e31e86",
+   "lang": "en",
+   "text": "Sure. I'll send it to you right after this call.",
+   "from": "say"
+  },
+  {
+   "id": "e6fee52cf",
+   "lang": "en",
+   "text": "What does the man mean when he says, \"That's the third time this week\"?",
+   "from": "say"
+  },
+  {
+   "id": "ef69628be",
+   "lang": "en",
+   "text": "The copier on the third floor jammed again this morning.",
+   "from": "say"
+  },
+  {
+   "id": "e1dcaa4fc",
+   "lang": "en",
+   "text": "Did you hear? Mina's team just signed another big contract.",
+   "from": "say"
+  },
+  {
+   "id": "ea46af9af",
+   "lang": "en",
+   "text": "I know. I'll ask the office manager about getting a new one.",
+   "from": "say"
+  },
+  {
+   "id": "e7048a050",
+   "lang": "en",
+   "text": "They really deserve the sales award this year.",
+   "from": "say"
+  },
+  {
+   "id": "e663e0f89",
+   "lang": "en",
+   "text": "A machine keeps breaking down.",
+   "from": "say"
+  },
+  {
+   "id": "e0b4aaf1c",
+   "lang": "en",
+   "text": "A team has been very successful.",
+   "from": "say"
+  },
+  {
+   "id": "e178ed530",
+   "lang": "en",
+   "text": "Look at the graphic. Where will the workshop most likely be held?",
+   "from": "say"
+  },
+  {
+   "id": "e3f2d22f6",
+   "lang": "en",
+   "text": "Room 1",
+   "from": "say"
+  },
+  {
+   "id": "e3e2d2163",
+   "lang": "en",
+   "text": "Room 2",
+   "from": "say"
+  },
+  {
+   "id": "e89289cd3",
+   "lang": "en",
+   "text": "Ana, is everything ready for this afternoon's training workshop?",
+   "from": "say"
+  },
+  {
+   "id": "ea9a0e9ac",
+   "lang": "en",
+   "text": "Almost. But we can't use Room 3. The projector there isn't working.",
+   "from": "say"
+  },
+  {
+   "id": "eacac89be",
+   "lang": "en",
+   "text": "Hmm. What about the room across from the elevator? It's about the same size.",
+   "from": "say"
+  },
+  {
+   "id": "ee954fd6e",
+   "lang": "en",
+   "text": "Good idea. I'll move the chairs and the handouts there now.",
+   "from": "say"
+  },
+  {
+   "id": "e671a7ef7",
+   "lang": "en",
+   "text": "Raj, Kenji, thanks for coming. The client just moved our deadline up to this Friday.",
+   "from": "say"
+  },
+  {
+   "id": "e4e205d0b",
+   "lang": "en",
+   "text": "This Friday? We haven't even recorded the voice-over yet.",
+   "from": "say"
+  },
+  {
+   "id": "e68633e83",
+   "lang": "en",
+   "text": "I can record it tomorrow morning. The studio downstairs is free.",
+   "from": "say"
+  },
+  {
+   "id": "e2b4cb34c",
+   "lang": "en",
+   "text": "Great. Then, Raj, could you finish editing the video by Thursday?",
+   "from": "say"
+  },
+  {
+   "id": "e14e547a6",
+   "lang": "en",
+   "text": "I'll do my best, but I'll need Kenji's recording by noon tomorrow.",
+   "from": "say"
+  },
+  {
+   "id": "eacb4c9f5",
+   "lang": "en",
+   "text": "No problem. I'll send it to you as soon as I'm done.",
+   "from": "say"
+  },
+  {
+   "id": "e463946de",
+   "lang": "en",
+   "text": "Edit a video",
+   "from": "say"
+  },
+  {
+   "id": "eaa67f7ef",
+   "lang": "en",
+   "text": "Record some audio",
+   "from": "say"
+  },
+  {
+   "id": "e34605574",
+   "lang": "en",
+   "text": "Call the client",
+   "from": "say"
+  },
+  {
+   "id": "e96ce8ec8",
+   "lang": "en",
+   "text": "Book a studio downstairs",
+   "from": "say"
+  },
+  {
+   "id": "efa07ff41",
+   "lang": "en",
+   "text": "Hello, Mr. Alvarez. This is Grace from Sunbridge Dental Clinic.",
+   "from": "say"
+  },
+  {
+   "id": "e87b0aec5",
+   "lang": "en",
+   "text": "I'm calling about your appointment tomorrow at ten.",
+   "from": "say"
+  },
+  {
+   "id": "e5dd1e4bb",
+   "lang": "en",
+   "text": "Unfortunately, Dr. Patel has to attend a conference, so she won't be in the office tomorrow morning.",
+   "from": "say"
+  },
+  {
+   "id": "ec411d5b2",
+   "lang": "en",
+   "text": "Could you call us back to choose a new time? We have openings on Thursday afternoon.",
+   "from": "say"
+  },
+  {
+   "id": "e4ba2ec79",
+   "lang": "en",
+   "text": "Our number is 555-0148, and we're open until six today. Thank you.",
+   "from": "say"
+  },
+  {
+   "id": "ecf0f1a84",
+   "lang": "en",
+   "text": "What problem does the woman mention?",
+   "from": "say"
+  },
+  {
+   "id": "efbea70a4",
+   "lang": "en",
+   "text": "There are too many repair requests.",
+   "from": "say"
+  },
+  {
+   "id": "eda903aca",
+   "lang": "en",
+   "text": "Her computer keeps turning off.",
+   "from": "say"
+  },
+  {
+   "id": "ec53e6e67",
+   "lang": "en",
+   "text": "Her office phone is not working.",
+   "from": "say"
+  },
+  {
+   "id": "e2112d158",
+   "lang": "en",
+   "text": "Her slides contain some errors.",
+   "from": "say"
+  },
+  {
+   "id": "ef3bf5ffc",
+   "lang": "en",
+   "text": "Hi, this is Jason from the IT help desk. You sent us a message about your laptop?",
+   "from": "say"
+  },
+  {
+   "id": "e04aed373",
+   "lang": "en",
+   "text": "Yes, thanks for calling back. The problem is, it keeps shutting down while I'm working, and I have a client presentation at three.",
+   "from": "say"
+  },
+  {
+   "id": "e95a5970e",
+   "lang": "en",
+   "text": "I see. I'm afraid we can't fix it today. We have a lot of repair requests, so we'll have to send it to the manufacturer.",
+   "from": "say"
+  },
+  {
+   "id": "e179c9051",
+   "lang": "en",
+   "text": "Oh, no. All my slides are on that laptop.",
+   "from": "say"
+  },
+  {
+   "id": "ee98e2973",
+   "lang": "en",
+   "text": "Why don't you borrow one of our spare laptops for the afternoon? I can copy your files onto it.",
+   "from": "say"
+  },
+  {
+   "id": "e86e6ab7e",
+   "lang": "en",
+   "text": "That would be perfect. I'll bring my laptop down to your office right now.",
+   "from": "say"
+  },
+  {
+   "id": "e66d37947",
+   "lang": "en",
+   "text": "What does the man suggest the woman do?",
+   "from": "say"
+  },
+  {
+   "id": "e5e2c185e",
+   "lang": "en",
+   "text": "Contact the manufacturer",
+   "from": "say"
+  },
+  {
+   "id": "e8f95a4f1",
+   "lang": "en",
+   "text": "Postpone her presentation",
+   "from": "say"
+  },
+  {
+   "id": "e4ee598ed",
+   "lang": "en",
+   "text": "Use a temporary device",
+   "from": "say"
+  },
+  {
+   "id": "ec36e9aea",
+   "lang": "en",
+   "text": "Send a message to the help desk",
+   "from": "say"
+  },
+  {
+   "id": "e913bccef",
+   "lang": "en",
+   "text": "What will the woman most likely do next?",
+   "from": "say"
+  },
+  {
+   "id": "ed21a9b42",
+   "lang": "en",
+   "text": "Copy some files",
+   "from": "say"
+  },
+  {
+   "id": "edf9e6a15",
+   "lang": "en",
+   "text": "Buy a new laptop",
+   "from": "say"
+  },
+  {
+   "id": "e632c000c",
+   "lang": "en",
+   "text": "Call a client",
+   "from": "say"
+  },
+  {
+   "id": "e6d55c84a",
+   "lang": "en",
+   "text": "Go to the help desk",
+   "from": "say"
+  },
+  {
+   "id": "e0a9b7eec",
+   "lang": "en",
+   "text": "Ms. Lee from Fairway called. She wants to move our meeting again.",
+   "from": "say"
+  },
+  {
+   "id": "e201d81ca",
+   "lang": "en",
+   "text": "Let's ask her to confirm the new time by e-mail.",
+   "from": "say"
+  },
+  {
+   "id": "ee8ddd1af",
+   "lang": "en",
+   "text": "A client keeps changing a schedule.",
+   "from": "say"
+  }
+ ]
+}

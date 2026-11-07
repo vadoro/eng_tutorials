@@ -80,7 +80,7 @@ def main():
     clips, odd = {}, []
     for k, p in enumerate(todo, 1):
         pf = en_prof if p['lang'] == 'en' else prof
-        text = vs.readable(p['text']) if p['lang'] == 'en' else p['text']
+        text = vs.readable(p['text']) if p['lang'] == 'en' else vs.bare(p['text'])
         try:
             wav, dur, sd = vs.generate(server, text, p['lang'], pf['id'], o.seed)
         except (urllib.error.HTTPError, RuntimeError) as e:
