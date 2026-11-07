@@ -1,0 +1,1657 @@
+{
+ "slug": "comparison-inversion",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 124,
+  "en": 150,
+  "say": 62,
+  "koChars": 1838,
+  "enChars": 3293
+ },
+ "pieces": [
+  {
+   "id": "k0bb4ac3d",
+   "lang": "ko",
+   "text": "토익 파트 5에는 빈칸 옆의 작은 낱말 하나가 답을 정하는 문제가 있어요.",
+   "cap": 0
+  },
+  {
+   "id": "kcd3fa23f",
+   "lang": "ko",
+   "text": "이 문제를 보세요. 빈칸 뒤에",
+   "cap": 1
+  },
+  {
+   "id": "e7354fb42",
+   "lang": "en",
+   "text": "larger than.",
+   "cap": 1
+  },
+  {
+   "id": "k6555f163",
+   "lang": "ko",
+   "text": "보기는",
+   "cap": 1
+  },
+  {
+   "id": "e0cd9e6b7",
+   "lang": "en",
+   "text": "many, very, much, most.",
+   "cap": 1
+  },
+  {
+   "id": "k5f1a4b5b",
+   "lang": "ko",
+   "text": "답을 정하는 말",
+   "cap": 2
+  },
+  {
+   "id": "e94246175",
+   "lang": "en",
+   "text": "than.",
+   "cap": 2
+  },
+  {
+   "id": "k074629e5",
+   "lang": "ko",
+   "text": "이런 낱말을 신호어라고 부를게요. 신호어는 늘 짝을 불러요.",
+   "cap": 2
+  },
+  {
+   "id": "kd378ee2c",
+   "lang": "ko",
+   "text": "매우 뜻의",
+   "cap": 3
+  },
+  {
+   "id": "e474a57cb",
+   "lang": "en",
+   "text": "very?",
+   "cap": 3
+  },
+  {
+   "id": "k5b29cf84",
+   "lang": "ko",
+   "text": "훨씬 뜻의",
+   "cap": 3
+  },
+  {
+   "id": "e17b2b23c",
+   "lang": "en",
+   "text": "much?",
+   "cap": 3
+  },
+  {
+   "id": "k04f81fe8",
+   "lang": "ko",
+   "text": "정답은 영상 끝에서 함께 풀어요.",
+   "cap": 3
+  },
+  {
+   "id": "k4bbceb63",
+   "lang": "ko",
+   "text": "비교, 가정법, 도치를 차례로 배우고 3단계 풀이법으로 묶어요.",
+   "cap": 4
+  },
+  {
+   "id": "kfba550a0",
+   "lang": "ko",
+   "text": "먼저 비교부터 볼게요. 한국어는 가볍다의 모양을 그대로 두고 보다, 가장을 붙여 비교해요.",
+   "cap": 5
+  },
+  {
+   "id": "kd2e3aafc",
+   "lang": "ko",
+   "text": "영어는 낱말의 모양이 바뀌어요.",
+   "cap": 6
+  },
+  {
+   "id": "e4af018db",
+   "lang": "en",
+   "text": "light , lighter , lightest.",
+   "cap": 6
+  },
+  {
+   "id": "k75e5beaf",
+   "lang": "ko",
+   "text": "원급, 비교급, 최상급이에요.",
+   "cap": 6
+  },
+  {
+   "id": "k58333a55",
+   "lang": "ko",
+   "text": "긴 낱말은 꼬리 대신 앞에 붙여요",
+   "cap": 7
+  },
+  {
+   "id": "e4ef02dde",
+   "lang": "en",
+   "text": "more, most.",
+   "cap": 7
+  },
+  {
+   "id": "ef01c03f8",
+   "lang": "en",
+   "text": "reliable , more reliable , most reliable.",
+   "cap": 7
+  },
+  {
+   "id": "k26ca7071",
+   "lang": "ko",
+   "text": "모양이 아예 바뀌는 낱말도 있어요",
+   "cap": 8
+  },
+  {
+   "id": "e432aa62b",
+   "lang": "en",
+   "text": "good, better, best.",
+   "cap": 8
+  },
+  {
+   "id": "kb294b951",
+   "lang": "ko",
+   "text": "비교 표시는 한 번만 해요. 그래서",
+   "cap": 9
+  },
+  {
+   "id": "e8daedbd9",
+   "lang": "en",
+   "text": "more lighter, more better",
+   "cap": 9
+  },
+  {
+   "id": "k60a3b28f",
+   "lang": "ko",
+   "text": "틀려요.",
+   "cap": 9
+  },
+  {
+   "id": "keb436a0f",
+   "lang": "ko",
+   "text": "이 세 모양은 혼자 오지 않아요. 짝이 되는 신호어와 함께 와요.",
+   "cap": 10
+  },
+  {
+   "id": "kc0c5ee71",
+   "lang": "ko",
+   "text": "첫 번째 짝",
+   "cap": 11
+  },
+  {
+   "id": "e17ce4a64",
+   "lang": "en",
+   "text": "as , as.",
+   "cap": 11
+  },
+  {
+   "id": "k8e8764eb",
+   "lang": "ko",
+   "text": "두",
+   "cap": 11
+  },
+  {
+   "id": "e6dbe8dde",
+   "lang": "en",
+   "text": "as",
+   "cap": 11
+  },
+  {
+   "id": "k0dd760ce",
+   "lang": "ko",
+   "text": "사이에는 늘 원급이 와요.",
+   "cap": 11
+  },
+  {
+   "id": "e1723ce36",
+   "lang": "en",
+   "text": "as light as",
+   "cap": 11
+  },
+  {
+   "id": "k923a7355",
+   "lang": "ko",
+   "text": "만큼 가벼운.",
+   "cap": 11
+  },
+  {
+   "id": "k44901743",
+   "lang": "ko",
+   "text": "비교급의 짝",
+   "cap": 12
+  },
+  {
+   "id": "e8475daf4",
+   "lang": "en",
+   "text": "lighter than",
+   "cap": 12
+  },
+  {
+   "id": "kf127e06b",
+   "lang": "ko",
+   "text": "보다 가벼운. 빈칸 바로 뒤가",
+   "cap": 12
+  },
+  {
+   "id": "ef83615f9",
+   "lang": "en",
+   "text": "than",
+   "cap": 12
+  },
+  {
+   "id": "k1c9b34ce",
+   "lang": "ko",
+   "text": "비교급.",
+   "cap": 12
+  },
+  {
+   "id": "k29600619",
+   "lang": "ko",
+   "text": "거꾸로 풀어도 돼요. 빈칸 앞뒤에",
+   "cap": 13
+  },
+  {
+   "id": "k10575a5a",
+   "lang": "ko",
+   "text": "원급, 빈칸 뒤에",
+   "cap": 13
+  },
+  {
+   "id": "kf1221ef8",
+   "lang": "ko",
+   "text": "함정 하나.",
+   "cap": 14
+  },
+  {
+   "id": "e3ef3e050",
+   "lang": "en",
+   "text": "as more efficient as",
+   "cap": 14
+  },
+  {
+   "id": "e3e999aa2",
+   "lang": "en",
+   "text": "as , as",
+   "cap": 14
+  },
+  {
+   "id": "k82ec4b57",
+   "lang": "ko",
+   "text": "사이에 비교급을 넣으면 짝이 어긋나요.",
+   "cap": 14
+  },
+  {
+   "id": "k5516bf19",
+   "lang": "ko",
+   "text": "덜 한은",
+   "cap": 15
+  },
+  {
+   "id": "e472f409b",
+   "lang": "en",
+   "text": "less",
+   "cap": 15
+  },
+  {
+   "id": "k53f2dc46",
+   "lang": "ko",
+   "text": "원급",
+   "cap": 15
+  },
+  {
+   "id": "kdd748d83",
+   "lang": "ko",
+   "text": "이에요",
+   "cap": 15
+  },
+  {
+   "id": "ed4634871",
+   "lang": "en",
+   "text": "less expensive than.",
+   "cap": 15
+  },
+  {
+   "id": "k6bcff03b",
+   "lang": "ko",
+   "text": "자체가 비교 표시예요.",
+   "cap": 15
+  },
+  {
+   "id": "kddb8c2d7",
+   "lang": "ko",
+   "text": "그래서",
+   "cap": 16
+  },
+  {
+   "id": "e1ff9bef1",
+   "lang": "en",
+   "text": "less more expensive",
+   "cap": 16
+  },
+  {
+   "id": "kbf194334",
+   "lang": "ko",
+   "text": "이것도 틀려요. 여기서도 비교 표시는 한 번만.",
+   "cap": 16
+  },
+  {
+   "id": "k83d43d0d",
+   "lang": "ko",
+   "text": "비교급을 세게 말할 때는 앞에 붙여요",
+   "cap": 17
+  },
+  {
+   "id": "ea3645e1c",
+   "lang": "en",
+   "text": "much, even, far, still, a lot.",
+   "cap": 17
+  },
+  {
+   "id": "ec4f857b5",
+   "lang": "en",
+   "text": "much larger than.",
+   "cap": 17
+  },
+  {
+   "id": "k6a3c60bc",
+   "lang": "ko",
+   "text": "한국어로는 훨씬이에요.",
+   "cap": 18
+  },
+  {
+   "id": "e700913d6",
+   "lang": "en",
+   "text": "very",
+   "cap": 18
+  },
+  {
+   "id": "k8d6815b4",
+   "lang": "ko",
+   "text": "매우라서 원급만 꾸며요",
+   "cap": 18
+  },
+  {
+   "id": "e02c435b9",
+   "lang": "en",
+   "text": "very large.",
+   "cap": 18
+  },
+  {
+   "id": "e4941de63",
+   "lang": "en",
+   "text": "very larger, more larger",
+   "cap": 19
+  },
+  {
+   "id": "kd12580f7",
+   "lang": "ko",
+   "text": "틀려요. 비교급 앞의 강조어는",
+   "cap": 19
+  },
+  {
+   "id": "ed919da6b",
+   "lang": "en",
+   "text": "much",
+   "cap": 19
+  },
+  {
+   "id": "k55040f4e",
+   "lang": "ko",
+   "text": "쪽이에요.",
+   "cap": 19
+  },
+  {
+   "id": "k897ea223",
+   "lang": "ko",
+   "text": "이번에는 짝이 다른 비교급이에요",
+   "cap": 20
+  },
+  {
+   "id": "ef7c68475",
+   "lang": "en",
+   "text": "superior to, inferior to, prior to, senior to.",
+   "cap": 20
+  },
+  {
+   "id": "kc9304947",
+   "lang": "ko",
+   "text": "라틴어에서 온 비교급이라 끝이 오알예요. 이미 비교의 뜻이 들어 있어서 짝",
+   "cap": 21
+  },
+  {
+   "id": "e4a59473b",
+   "lang": "en",
+   "text": "to.",
+   "cap": 21
+  },
+  {
+   "id": "ec54802e0",
+   "lang": "en",
+   "text": "superior than",
+   "cap": 22
+  },
+  {
+   "id": "kc3ea1560",
+   "lang": "ko",
+   "text": "틀려요. 네 낱말은",
+   "cap": 22
+  },
+  {
+   "id": "effe72bba",
+   "lang": "en",
+   "text": "superior to",
+   "cap": 22
+  },
+  {
+   "id": "k792d9324",
+   "lang": "ko",
+   "text": "처럼 한 덩어리로 외워 두세요.",
+   "cap": 22
+  },
+  {
+   "id": "kdd84728c",
+   "lang": "ko",
+   "text": "최상급의 짝",
+   "cap": 23
+  },
+  {
+   "id": "e93516b61",
+   "lang": "en",
+   "text": "the",
+   "cap": 23
+  },
+  {
+   "id": "ka59000e5",
+   "lang": "ko",
+   "text": "범위.",
+   "cap": 23
+  },
+  {
+   "id": "e3d53708d",
+   "lang": "en",
+   "text": "the lightest of the three, the largest in Asia.",
+   "cap": 23
+  },
+  {
+   "id": "ka1f64bea",
+   "lang": "ko",
+   "text": "지금까지를 뜻하는",
+   "cap": 24
+  },
+  {
+   "id": "ef965dca2",
+   "lang": "en",
+   "text": "ever",
+   "cap": 24
+  },
+  {
+   "id": "kb2d23a56",
+   "lang": "ko",
+   "text": "이것도 범위 신호예요.",
+   "cap": 24
+  },
+  {
+   "id": "ed3c4308d",
+   "lang": "en",
+   "text": "the best result we have ever had.",
+   "cap": 24
+  },
+  {
+   "id": "k5073b29c",
+   "lang": "ko",
+   "text": "자주 나오는 모양",
+   "cap": 25
+  },
+  {
+   "id": "e1df66d74",
+   "lang": "en",
+   "text": "one of the",
+   "cap": 25
+  },
+  {
+   "id": "kb30bc315",
+   "lang": "ko",
+   "text": "최상급, 복수 명사.",
+   "cap": 25
+  },
+  {
+   "id": "ec2897001",
+   "lang": "en",
+   "text": "one of the largest suppliers.",
+   "cap": 25
+  },
+  {
+   "id": "k303ad779",
+   "lang": "ko",
+   "text": "여럿 가운데 하나라서 명사는 꼭 복수예요.",
+   "cap": 26
+  },
+  {
+   "id": "ec1d99de4",
+   "lang": "en",
+   "text": "one of the largest supplier",
+   "cap": 26
+  },
+  {
+   "id": "k3ac005b7",
+   "lang": "ko",
+   "text": "마지막 짝",
+   "cap": 27
+  },
+  {
+   "id": "ef5dc0301",
+   "lang": "en",
+   "text": "The",
+   "cap": 27
+  },
+  {
+   "id": "k5f87b094",
+   "lang": "ko",
+   "text": "비교급",
+   "cap": 27
+  },
+  {
+   "id": "e5b753ea7",
+   "lang": "en",
+   "text": "The sooner you register, the more you save.",
+   "cap": 27
+  },
+  {
+   "id": "k19701567",
+   "lang": "ko",
+   "text": "할수록 더 하다라는 뜻이에요. 앞에",
+   "cap": 28
+  },
+  {
+   "id": "k06b2a6a0",
+   "lang": "ko",
+   "text": "비교급 , 뒤에도",
+   "cap": 28
+  },
+  {
+   "id": "k6b60ad4c",
+   "lang": "ko",
+   "text": "이번에는 문장 전체의 짝이에요. 사실과 반대로 상상하는 문장을 가정법이라고 해요.",
+   "cap": 29
+  },
+  {
+   "id": "k0d672174",
+   "lang": "ko",
+   "text": "한국어 직원을 더 뽑는다면 제때 끝낼 텐데는 지금 이야기라서 현재 모양이에요.",
+   "cap": 30
+  },
+  {
+   "id": "kb282d2c7",
+   "lang": "ko",
+   "text": "영어는 동사를 한 칸 과거로 보내요.",
+   "cap": 31
+  },
+  {
+   "id": "e2d4b8bee",
+   "lang": "en",
+   "text": "If we hired more staff, we would finish the project on time.",
+   "cap": 31
+  },
+  {
+   "id": "k4ce530e7",
+   "lang": "ko",
+   "text": "지난 일을 반대로 상상하면 한 칸 더",
+   "cap": 32
+  },
+  {
+   "id": "e6d3ad48c",
+   "lang": "en",
+   "text": "If we had hired more staff, we would have finished.",
+   "cap": 32
+  },
+  {
+   "id": "k1e080bb7",
+   "lang": "ko",
+   "text": "짝이 정해져 있어요.",
+   "cap": 33
+  },
+  {
+   "id": "e72826b95",
+   "lang": "en",
+   "text": "If",
+   "cap": 33
+  },
+  {
+   "id": "k3fc9a19d",
+   "lang": "ko",
+   "text": "과거",
+   "cap": 33
+  },
+  {
+   "id": "ecfae79a7",
+   "lang": "en",
+   "text": "would",
+   "cap": 33
+  },
+  {
+   "id": "kaddba69c",
+   "lang": "ko",
+   "text": "원형.",
+   "cap": 33
+  },
+  {
+   "id": "e3ec71a8e",
+   "lang": "en",
+   "text": "If, had",
+   "cap": 33
+  },
+  {
+   "id": "k8c41a5d5",
+   "lang": "ko",
+   "text": "과거분사",
+   "cap": 33
+  },
+  {
+   "id": "e791f41bb",
+   "lang": "en",
+   "text": "would have",
+   "cap": 33
+  },
+  {
+   "id": "k73e10dbe",
+   "lang": "ko",
+   "text": "함정 둘. 가정법 주절에는",
+   "cap": 34
+  },
+  {
+   "id": "e752e2862",
+   "lang": "en",
+   "text": "will",
+   "cap": 34
+  },
+  {
+   "id": "k1da5e79f",
+   "lang": "ko",
+   "text": "쓰지 않아요.",
+   "cap": 34
+  },
+  {
+   "id": "e72d21d75",
+   "lang": "en",
+   "text": "if",
+   "cap": 34
+  },
+  {
+   "id": "k583054c7",
+   "lang": "ko",
+   "text": "절 안에는",
+   "cap": 34
+  },
+  {
+   "id": "k723fc2af",
+   "lang": "ko",
+   "text": "토익에 자주 나오는 모양이에요. 맨 앞의",
+   "cap": 35
+  },
+  {
+   "id": "k4ccc4fdd",
+   "lang": "ko",
+   "text": "사라지고, 조동사 , 주어 앞으로. 이것을 도치(",
+   "cap": 35
+  },
+  {
+   "id": "e1411427f",
+   "lang": "en",
+   "text": "inversion",
+   "cap": 35
+  },
+  {
+   "id": "k3a797e66",
+   "lang": "ko",
+   "text": ")라고 해요.",
+   "cap": 35
+  },
+  {
+   "id": "ef784f9cf",
+   "lang": "en",
+   "text": "If we had known , Had we known.",
+   "cap": 36
+  },
+  {
+   "id": "e556f44ab",
+   "lang": "en",
+   "text": "had",
+   "cap": 36
+  },
+  {
+   "id": "kddeb8891",
+   "lang": "ko",
+   "text": "주어",
+   "cap": 36
+  },
+  {
+   "id": "e63ea0abe",
+   "lang": "en",
+   "text": "we",
+   "cap": 36
+  },
+  {
+   "id": "k7813f00d",
+   "lang": "ko",
+   "text": "앞으로 갔어요.",
+   "cap": 36
+  },
+  {
+   "id": "e4453044b",
+   "lang": "en",
+   "text": "If you should have any questions , Should you have any questions.",
+   "cap": 37
+  },
+  {
+   "id": "k43ff0a5b",
+   "lang": "ko",
+   "text": "혹시 하면이라는 뜻이에요.",
+   "cap": 37
+  },
+  {
+   "id": "e8a029413",
+   "lang": "en",
+   "text": "If I were in your position , Were I in your position.",
+   "cap": 38
+  },
+  {
+   "id": "k3e6fcfa8",
+   "lang": "ko",
+   "text": "자리를 대신하는 도치 , 이 셋뿐이에요.",
+   "cap": 38
+  },
+  {
+   "id": "kc2830f23",
+   "lang": "ko",
+   "text": "그래서 맨 앞에",
+   "cap": 39
+  },
+  {
+   "id": "e074c1b73",
+   "lang": "en",
+   "text": "Should, Had, Were",
+   "cap": 39
+  },
+  {
+   "id": "ka5ae068d",
+   "lang": "ko",
+   "text": "주어, 그리고 콤마가 보이면 , 숨은",
+   "cap": 39
+  },
+  {
+   "id": "e1bc43641",
+   "lang": "en",
+   "text": "if.",
+   "cap": 39
+  },
+  {
+   "id": "kf1aebb22",
+   "lang": "ko",
+   "text": "짝도 있어요.",
+   "cap": 40
+  },
+  {
+   "id": "e223aee85",
+   "lang": "en",
+   "text": "Should",
+   "cap": 40
+  },
+  {
+   "id": "kd2d205a7",
+   "lang": "ko",
+   "text": "주어, 동사원형",
+   "cap": 40
+  },
+  {
+   "id": "eb7fb6f4b",
+   "lang": "en",
+   "text": "Had",
+   "cap": 40
+  },
+  {
+   "id": "k2be867f9",
+   "lang": "ko",
+   "text": "주어, 과거분사",
+   "cap": 40
+  },
+  {
+   "id": "e659b6a73",
+   "lang": "en",
+   "text": "Were",
+   "cap": 40
+  },
+  {
+   "id": "k9d41dea1",
+   "lang": "ko",
+   "text": "주어, 보어.",
+   "cap": 40
+  },
+  {
+   "id": "ke4892d14",
+   "lang": "ko",
+   "text": "두 번째 도치는 문장 맨 앞에 부정이나 만의 말이 올 때예요. 이때도 조동사가 주어 앞으로 가요.",
+   "cap": 41
+  },
+  {
+   "id": "e639b78a1",
+   "lang": "en",
+   "text": "We will announce the results only after the review.",
+   "cap": 42
+  },
+  {
+   "id": "e00e1300f",
+   "lang": "en",
+   "text": "Only after the review will we announce the results.",
+   "cap": 42
+  },
+  {
+   "id": "k0412df8c",
+   "lang": "ko",
+   "text": "앞으로 나온 덩어리 뒤에서",
+   "cap": 43
+  },
+  {
+   "id": "e28a4eb56",
+   "lang": "en",
+   "text": "will , we",
+   "cap": 43
+  },
+  {
+   "id": "kb04567a5",
+   "lang": "ko",
+   "text": "앞으로. 질문할 때와 같은 어순이에요. 한국어는 어순이 그대로예요.",
+   "cap": 43
+  },
+  {
+   "id": "kd42b5ee8",
+   "lang": "ko",
+   "text": "조동사가 없으면 데려와요",
+   "cap": 44
+  },
+  {
+   "id": "e276924eb",
+   "lang": "en",
+   "text": "do, does, did.",
+   "cap": 44
+  },
+  {
+   "id": "e83b0dfae",
+   "lang": "en",
+   "text": "Not only did the campaign increase sales, but it also cut costs.",
+   "cap": 44
+  },
+  {
+   "id": "e90ab22df",
+   "lang": "en",
+   "text": "did",
+   "cap": 45
+  },
+  {
+   "id": "k87cf85d5",
+   "lang": "ko",
+   "text": "뒤에는 동사원형이에요.",
+   "cap": 45
+  },
+  {
+   "id": "ebc1e5eba",
+   "lang": "en",
+   "text": "did the campaign increased",
+   "cap": 45
+  },
+  {
+   "id": "k15bbe095",
+   "lang": "ko",
+   "text": "틀려요. 과거 표시를 두 번 했으니까요.",
+   "cap": 45
+  },
+  {
+   "id": "kef93b0c3",
+   "lang": "ko",
+   "text": "맨 앞이",
+   "cap": 46
+  },
+  {
+   "id": "ecef43e7c",
+   "lang": "en",
+   "text": "Never, Rarely, Seldom, Under no circumstances",
+   "cap": 46
+  },
+  {
+   "id": "k0ca7f4ed",
+   "lang": "ko",
+   "text": "모두 같아요. 조동사, 주어.",
+   "cap": 46
+  },
+  {
+   "id": "k636bd079",
+   "lang": "ko",
+   "text": "도 그래요의",
+   "cap": 47
+  },
+  {
+   "id": "e8297afaf",
+   "lang": "en",
+   "text": "so, neither",
+   "cap": 47
+  },
+  {
+   "id": "k5f9fe090",
+   "lang": "ko",
+   "text": "뒤에도 같은 어순이에요",
+   "cap": 47
+  },
+  {
+   "id": "ea2dd6778",
+   "lang": "en",
+   "text": "and so did the marketing team.",
+   "cap": 47
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 48
+  },
+  {
+   "id": "k91881786",
+   "lang": "ko",
+   "text": "첫째, 신호어를 찾아요.",
+   "cap": 49
+  },
+  {
+   "id": "e68e8a8f4",
+   "lang": "en",
+   "text": "as, than, the",
+   "cap": 49
+  },
+  {
+   "id": "k72f95e89",
+   "lang": "ko",
+   "text": "범위",
+   "cap": 49
+  },
+  {
+   "id": "e8e13910a",
+   "lang": "en",
+   "text": "superior, if",
+   "cap": 49
+  },
+  {
+   "id": "k0045ec74",
+   "lang": "ko",
+   "text": "절의 동사, 맨 앞의",
+   "cap": 49
+  },
+  {
+   "id": "e8aa9649d",
+   "lang": "en",
+   "text": "Should, Had, Were, Only, Never.",
+   "cap": 49
+  },
+  {
+   "id": "k5dd82cd4",
+   "lang": "ko",
+   "text": "둘째, 짝을 맞춰요.",
+   "cap": 50
+  },
+  {
+   "id": "kac47eb3e",
+   "lang": "ko",
+   "text": "비교급, 범위 , 최상급",
+   "cap": 50
+  },
+  {
+   "id": "k72835ead",
+   "lang": "ko",
+   "text": "과거분사, 맨 앞 부정어 , 조동사, 주어.",
+   "cap": 50
+  },
+  {
+   "id": "k72b1030e",
+   "lang": "ko",
+   "text": "셋째, 함정을 확인해요.",
+   "cap": 51
+  },
+  {
+   "id": "e23ab8aeb",
+   "lang": "en",
+   "text": "more",
+   "cap": 51
+  },
+  {
+   "id": "kf9fda5c1",
+   "lang": "ko",
+   "text": "이알",
+   "cap": 51
+  },
+  {
+   "id": "e80517d1b",
+   "lang": "en",
+   "text": "superior than, if",
+   "cap": 51
+  },
+  {
+   "id": "kf0b6b101",
+   "lang": "ko",
+   "text": "절의",
+   "cap": 51
+  },
+  {
+   "id": "kce2cca70",
+   "lang": "ko",
+   "text": "도치 문장에 남은",
+   "cap": 51
+  },
+  {
+   "id": "efe4f9761",
+   "lang": "en",
+   "text": "If.",
+   "cap": 51
+  },
+  {
+   "id": "k8b885500",
+   "lang": "ko",
+   "text": "이 순서로 처음 본 문제를 풀어 볼까요?",
+   "cap": 52
+  },
+  {
+   "id": "k6d9390ad",
+   "lang": "ko",
+   "text": "첫 문제예요. 첫째, 신호어",
+   "cap": 53
+  },
+  {
+   "id": "kea7c3043",
+   "lang": "ko",
+   "text": "빈칸은 비교급을 꾸미는 자리예요. 탈락 , 에이",
+   "cap": 53
+  },
+  {
+   "id": "efb7d2e21",
+   "lang": "en",
+   "text": "many.",
+   "cap": 53
+  },
+  {
+   "id": "k9ec6b257",
+   "lang": "ko",
+   "text": "둘째, 짝 , 비교급을 세게 하는 말은",
+   "cap": 54
+  },
+  {
+   "id": "k17786bc7",
+   "lang": "ko",
+   "text": "쪽이에요. 최상급 표시라서 탈락 , 디",
+   "cap": 54
+  },
+  {
+   "id": "ef8c88aad",
+   "lang": "en",
+   "text": "most.",
+   "cap": 54
+  },
+  {
+   "id": "k2ab4bcdd",
+   "lang": "ko",
+   "text": "셋째, 함정",
+   "cap": 55
+  },
+  {
+   "id": "k7d43da1b",
+   "lang": "ko",
+   "text": "원급만 꾸며요. 탈락 , 비",
+   "cap": 55
+  },
+  {
+   "id": "e564a6f68",
+   "lang": "en",
+   "text": "very.",
+   "cap": 55
+  },
+  {
+   "id": "k81cd5409",
+   "lang": "ko",
+   "text": "정답은 씨",
+   "cap": 55
+  },
+  {
+   "id": "e08b29a9f",
+   "lang": "en",
+   "text": "much.",
+   "cap": 55
+  },
+  {
+   "id": "kab17c398",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째, 신호어 , 맨 앞의 빈칸, 콤마",
+   "cap": 56
+  },
+  {
+   "id": "e9868c4be",
+   "lang": "en",
+   "text": "would have taken.",
+   "cap": 56
+  },
+  {
+   "id": "k01c1c9d9",
+   "lang": "ko",
+   "text": "숨은",
+   "cap": 56
+  },
+  {
+   "id": "kb619814c",
+   "lang": "ko",
+   "text": "예요. 탈락 , 디",
+   "cap": 56
+  },
+  {
+   "id": "efe4fde06",
+   "lang": "en",
+   "text": "Have.",
+   "cap": 56
+  },
+  {
+   "id": "kf5263158",
+   "lang": "ko",
+   "text": "둘째, 짝 , 빈칸 뒤",
+   "cap": 57
+  },
+  {
+   "id": "e6d671a99",
+   "lang": "en",
+   "text": "we known",
+   "cap": 57
+  },
+  {
+   "id": "e05d05bff",
+   "lang": "en",
+   "text": "Had.",
+   "cap": 57
+  },
+  {
+   "id": "k6131f10e",
+   "lang": "ko",
+   "text": "탈락 , 씨",
+   "cap": 57
+  },
+  {
+   "id": "e8dc5b731",
+   "lang": "en",
+   "text": "Should.",
+   "cap": 57
+  },
+  {
+   "id": "kd0b0b5a5",
+   "lang": "ko",
+   "text": "절로 쓰려면",
+   "cap": 58
+  },
+  {
+   "id": "ecfc6da79",
+   "lang": "en",
+   "text": "If we had known.",
+   "cap": 58
+  },
+  {
+   "id": "kfd6b92a2",
+   "lang": "ko",
+   "text": "탈락 , 비",
+   "cap": 58
+  },
+  {
+   "id": "kc3e31dbf",
+   "lang": "ko",
+   "text": "정답은 에이",
+   "cap": 58
+  },
+  {
+   "id": "k10b5d436",
+   "lang": "ko",
+   "text": "세 번째. 첫째, 신호어 , 맨 앞의",
+   "cap": 59
+  },
+  {
+   "id": "eda1281a3",
+   "lang": "en",
+   "text": "Not only.",
+   "cap": 59
+  },
+  {
+   "id": "kf3fd6119",
+   "lang": "ko",
+   "text": "뒤는 도치예요. 동사가 없어서 탈락 , 씨",
+   "cap": 59
+  },
+  {
+   "id": "e5dc01729",
+   "lang": "en",
+   "text": "to increase.",
+   "cap": 59
+  },
+  {
+   "id": "k3eb7cdfd",
+   "lang": "ko",
+   "text": "둘째, 짝 , 조동사, 주어 어순이에요. 보통 어순이라서 탈락 , 에이.",
+   "cap": 60
+  },
+  {
+   "id": "k9e60c93e",
+   "lang": "ko",
+   "text": "뒤에는 동사원형. 탈락 , 비. 정답은 디",
+   "cap": 61
+  },
+  {
+   "id": "ef21eb3bc",
+   "lang": "en",
+   "text": "did the campaign increase.",
+   "cap": 61
+  },
+  {
+   "id": "k9fb30281",
+   "lang": "ko",
+   "text": "정리해요. 비교, 가정법, 도치 문제는 신호어 하나가 짝을 불러요.",
+   "cap": 62
+  },
+  {
+   "id": "kf22a5b2c",
+   "lang": "ko",
+   "text": "범위 , 최상급. 비교급을 세게 할 때",
+   "cap": 63
+  },
+  {
+   "id": "efdb1e11e",
+   "lang": "en",
+   "text": "much, even, far.",
+   "cap": 63
+  },
+  {
+   "id": "k1b93f607",
+   "lang": "ko",
+   "text": "맨 앞의",
+   "cap": 64
+  },
+  {
+   "id": "kf777809f",
+   "lang": "ko",
+   "text": "맨 앞의 부정어 , 조동사, 주어.",
+   "cap": 64
+  },
+  {
+   "id": "k9e85e3cf",
+   "lang": "ko",
+   "text": "아래에서 신호어 스위치와 연습 문제로 손에 익혀 보세요.",
+   "cap": 65
+  },
+  {
+   "id": "ee28304c1",
+   "lang": "en",
+   "text": "The renovated conference room is much larger than the old one.",
+   "from": "say"
+  },
+  {
+   "id": "e79326886",
+   "lang": "en",
+   "text": "light",
+   "from": "say"
+  },
+  {
+   "id": "e116eeab1",
+   "lang": "en",
+   "text": "lighter",
+   "from": "say"
+  },
+  {
+   "id": "e489971de",
+   "lang": "en",
+   "text": "lightest",
+   "from": "say"
+  },
+  {
+   "id": "e1e7ec7b8",
+   "lang": "en",
+   "text": "reliable",
+   "from": "say"
+  },
+  {
+   "id": "e6254c22f",
+   "lang": "en",
+   "text": "more reliable",
+   "from": "say"
+  },
+  {
+   "id": "e6ab7d3f9",
+   "lang": "en",
+   "text": "most reliable",
+   "from": "say"
+  },
+  {
+   "id": "e9e62b38b",
+   "lang": "en",
+   "text": "good",
+   "from": "say"
+  },
+  {
+   "id": "e153e51b4",
+   "lang": "en",
+   "text": "better",
+   "from": "say"
+  },
+  {
+   "id": "e087c4610",
+   "lang": "en",
+   "text": "best",
+   "from": "say"
+  },
+  {
+   "id": "ea37c8318",
+   "lang": "en",
+   "text": "more lighter",
+   "from": "say"
+  },
+  {
+   "id": "edb5ddddb",
+   "lang": "en",
+   "text": "more better",
+   "from": "say"
+  },
+  {
+   "id": "e1b4f12e5",
+   "lang": "en",
+   "text": "The new laptop is as light as the old one.",
+   "from": "say"
+  },
+  {
+   "id": "ec89a749d",
+   "lang": "en",
+   "text": "The new laptop is lighter than the old one.",
+   "from": "say"
+  },
+  {
+   "id": "eda5ce0c7",
+   "lang": "en",
+   "text": "as efficient as",
+   "from": "say"
+  },
+  {
+   "id": "e0583b1c0",
+   "lang": "en",
+   "text": "The new laptop is less expensive than the old one.",
+   "from": "say"
+  },
+  {
+   "id": "e555a9703",
+   "lang": "en",
+   "text": "The new hall is much larger than the old one.",
+   "from": "say"
+  },
+  {
+   "id": "ed4cdab2d",
+   "lang": "en",
+   "text": "very large",
+   "from": "say"
+  },
+  {
+   "id": "e5ec4c68d",
+   "lang": "en",
+   "text": "very larger",
+   "from": "say"
+  },
+  {
+   "id": "e77369196",
+   "lang": "en",
+   "text": "more larger",
+   "from": "say"
+  },
+  {
+   "id": "e74ca0379",
+   "lang": "en",
+   "text": "inferior to",
+   "from": "say"
+  },
+  {
+   "id": "e031f5de7",
+   "lang": "en",
+   "text": "prior to",
+   "from": "say"
+  },
+  {
+   "id": "e19e7717f",
+   "lang": "en",
+   "text": "senior to",
+   "from": "say"
+  },
+  {
+   "id": "eec825a68",
+   "lang": "en",
+   "text": "Our service is superior to that of our competitors.",
+   "from": "say"
+  },
+  {
+   "id": "e3caf5383",
+   "lang": "en",
+   "text": "the lightest of the three models",
+   "from": "say"
+  },
+  {
+   "id": "eac9e1754",
+   "lang": "en",
+   "text": "the largest supplier in Asia",
+   "from": "say"
+  },
+  {
+   "id": "e1b9ad971",
+   "lang": "en",
+   "text": "the best result we have ever had",
+   "from": "say"
+  },
+  {
+   "id": "ec09314b5",
+   "lang": "en",
+   "text": "one of the largest suppliers",
+   "from": "say"
+  },
+  {
+   "id": "e5b0e7571",
+   "lang": "en",
+   "text": "The earlier you register, the more you will save.",
+   "from": "say"
+  },
+  {
+   "id": "e442c1351",
+   "lang": "en",
+   "text": "If we hire more staff, we will finish the project on time.",
+   "from": "say"
+  },
+  {
+   "id": "e46a0bba8",
+   "lang": "en",
+   "text": "If we had hired more staff, we would have finished the project on time.",
+   "from": "say"
+  },
+  {
+   "id": "ed1bf0f1d",
+   "lang": "en",
+   "text": "If we had known about the delay, we would have called you.",
+   "from": "say"
+  },
+  {
+   "id": "eddc9b460",
+   "lang": "en",
+   "text": "Had we known about the delay, we would have called you.",
+   "from": "say"
+  },
+  {
+   "id": "eba70e862",
+   "lang": "en",
+   "text": "If you should have any questions, please call us.",
+   "from": "say"
+  },
+  {
+   "id": "ee77d70b9",
+   "lang": "en",
+   "text": "Should you have any questions, please call us.",
+   "from": "say"
+  },
+  {
+   "id": "eea652e87",
+   "lang": "en",
+   "text": "If I were in your position, I would accept the offer.",
+   "from": "say"
+  },
+  {
+   "id": "e79a62370",
+   "lang": "en",
+   "text": "Were I in your position, I would accept the offer.",
+   "from": "say"
+  },
+  {
+   "id": "e82b774e2",
+   "lang": "en",
+   "text": "increased",
+   "from": "say"
+  },
+  {
+   "id": "ebf3e9339",
+   "lang": "en",
+   "text": "The sales team met its target, and so did the marketing team.",
+   "from": "say"
+  },
+  {
+   "id": "e2e037ea6",
+   "lang": "en",
+   "text": "Had we known about the road closure, we would have taken a different route.",
+   "from": "say"
+  },
+  {
+   "id": "e495d2b5f",
+   "lang": "en",
+   "text": "Not only did the campaign increase online sales, but it also attracted many new customers.",
+   "from": "say"
+  },
+  {
+   "id": "ed8963ad3",
+   "lang": "en",
+   "text": "lighter than · more reliable than",
+   "from": "say"
+  },
+  {
+   "id": "e24f52eb9",
+   "lang": "en",
+   "text": "much larger than",
+   "from": "say"
+  },
+  {
+   "id": "e60225f2c",
+   "lang": "en",
+   "text": "the largest order we have ever received",
+   "from": "say"
+  },
+  {
+   "id": "ea2748045",
+   "lang": "en",
+   "text": "superior to that of our competitors",
+   "from": "say"
+  },
+  {
+   "id": "e86b0d483",
+   "lang": "en",
+   "text": "If we had known, we would have called.",
+   "from": "say"
+  },
+  {
+   "id": "e704116f3",
+   "lang": "en",
+   "text": "Should you have any questions",
+   "from": "say"
+  },
+  {
+   "id": "e5901bea6",
+   "lang": "en",
+   "text": "Only after the review will we announce",
+   "from": "say"
+  },
+  {
+   "id": "e1ec46d2d",
+   "lang": "en",
+   "text": "large",
+   "from": "say"
+  },
+  {
+   "id": "ece382c8d",
+   "lang": "en",
+   "text": "larger",
+   "from": "say"
+  },
+  {
+   "id": "e9d6afd8a",
+   "lang": "en",
+   "text": "largest",
+   "from": "say"
+  },
+  {
+   "id": "e9fa8543c",
+   "lang": "en",
+   "text": "easy",
+   "from": "say"
+  },
+  {
+   "id": "e13224bbb",
+   "lang": "en",
+   "text": "easier",
+   "from": "say"
+  },
+  {
+   "id": "ee7fb0ed4",
+   "lang": "en",
+   "text": "easiest",
+   "from": "say"
+  },
+  {
+   "id": "ed1b1eb24",
+   "lang": "en",
+   "text": "more easier",
+   "from": "say"
+  },
+  {
+   "id": "ec18b7e68",
+   "lang": "en",
+   "text": "fast",
+   "from": "say"
+  },
+  {
+   "id": "e546231df",
+   "lang": "en",
+   "text": "faster",
+   "from": "say"
+  },
+  {
+   "id": "e7b91e828",
+   "lang": "en",
+   "text": "fastest",
+   "from": "say"
+  },
+  {
+   "id": "ee72fe228",
+   "lang": "en",
+   "text": "more faster",
+   "from": "say"
+  },
+  {
+   "id": "e0d5dac2b",
+   "lang": "en",
+   "text": "Not until the review is complete will we announce the results.",
+   "from": "say"
+  },
+  {
+   "id": "e568734d0",
+   "lang": "en",
+   "text": "Never will we announce the results before the review.",
+   "from": "say"
+  },
+  {
+   "id": "ec92699b9",
+   "lang": "en",
+   "text": "Under no circumstances will we announce the results before the review.",
+   "from": "say"
+  }
+ ]
+}
