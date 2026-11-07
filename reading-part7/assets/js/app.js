@@ -298,9 +298,11 @@ $('lab').addEventListener('click', e => {
    ========================================================= */
 const NARR = (window.EN && EN.narration) ? EN.narration({
   captions: CAPTIONS.map(([start, end, text]) => ({ start, end, text })),
-  read: [[/TOEIC/g, '토익'], [/Part (\d)/g, '파트 $1'], [/\[(\d)\]/g, ' $1번 자리 '], [/(\d{1,2}):(\d{2}) A\.M\./g, '$1 $2 AM'], [/(\d{1,2}):(\d{2}) P\.M\./g, '$1 $2 PM'], [/(\d+) A\.M\./g, '$1 AM'], [/(\d+) P\.M\./g, '$1 PM']],
+  // Ms. Song → Ms Song: 마침표에서 영어 조각이 끊겨 'What does Ms.' · 'Song ask about?' 두 번에 나눠 읽지 않게
+  read: [[/\b(Mrs|Mr|Ms|Dr)\. (?=[A-Z])/g, '$1 '], [/TOEIC/g, '토익'], [/Part (\d)/g, '파트 $1'], [/\[(\d)\]/g, ' $1번 자리 '], [/(\d{1,2}):(\d{2}) A\.M\./g, '$1 $2 AM'], [/(\d{1,2}):(\d{2}) P\.M\./g, '$1 $2 PM'], [/(\d+) A\.M\./g, '$1 AM'], [/(\d+) P\.M\./g, '$1 PM']],
   rate: () => speed,
   holdBefore: 0.05,
+  clips: window.EN_CLIPS,
 }) : { supported: false, reset() {}, hold: (T, next) => next, sync() {} };
 
 /* =========================================================

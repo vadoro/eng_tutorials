@@ -108,6 +108,8 @@ def readable(text):
     s = re.sub(r'\s*…\s*$', '', s)
     s = re.sub(r'\s*…\s*', ', ', s)
     s = re.sub(r'(\d)\s*oz\b', r'\1 ounces', s)   # 16 oz → 16 ounces (엔진은 oz를 '오-즈'로 읽어요)
+    s = re.sub(r'(?<=\d),(?=\d{3}(?!\d))', '', s)   # 1,000 → 1000 (아래 쉼표 다듬기가 '1, 000'으로 떼지 않게)
+    s = re.sub(r'(\d), (\$\d)', r'\1. \2', s)   # 표의 줄 500, $40 → 500. $40 (쉼표로는 쉬지 않아 '$540'처럼 들려요)
     s = re.sub(r'\b([Aa])isle\b', lambda m: 'Isle' if m.group(1) == 'A' else 'isle', s)   # 엔진은 Aisle을 '에이즐'로 읽기도 해요(소리는 같음)
     s = re.sub(r'(,\s*)+', ', ', s)
     s = re.sub(r'\s{2,}', ' ', s).strip(' ,')
@@ -135,7 +137,11 @@ def badness(text, lang, dur, sound, keep=0.12):
     if not sound or dur < 0.25:
         return 99.0
     if lang == 'en':
-        rate = sum(ch.isalpha() for ch in text) / max(dur - 2 * keep, 0.05)
+        # 숫자(20, 12:30)는 한 자리를 글자 네 개쯤으로 쳐요 — 숫자만 있는 글(20)에서 0으로 나누지 않게
+        letters = sum(ch.isalpha() for ch in text) + 4 * sum(ch.isdigit() for ch in text)
+        if not letters:
+            return 0.0
+        rate = letters / max(dur - 2 * keep, 0.05)
         lo, hi = 4.0, (18.0 if is_short(text, lang) else 22.0)
     else:
         rate = units(text, lang) / dur

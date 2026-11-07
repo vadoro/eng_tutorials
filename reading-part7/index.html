@@ -474,7 +474,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
   <footer>
     <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 보기의 이름표, 직접 해 보기의 채점, 근거 사냥의 판정과 기록, 연습 문제의 힌트와 보기별 해설, 퀴즈 대부분의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 엔진은 3단계 풀이법을 그대로 따라요. ① 문제 유형과 키워드로 어디를 볼지 정하고, ② 근거를 찾으면 근거가 아닌 곳(다른 사람 · 다른 때 · 다른 글 · 다른 칸 · 질문과 다른 내용)에서 온 보기를 지우고, ③ 근거와 견줘 그대로 반복 · 지문에 없음 · 반대 · 말 그대로 · 사전 첫 뜻을 지운 뒤 바꿔 말한 보기를 골라요. 문제에 적어 둔 정답이 엔진과 다르거나, 근거 · 출처 글자가 지문에 없거나, ‘그대로 반복’ 함정에 지문과 같은 낱말이 없거나, 정답 위치가 한쪽에 몰리면 브라우저 콘솔에 경고가 떠요.</p>
     <p>단순하게 줄인 부분도 있어요. 엔진은 영어 문장을 스스로 읽고 뜻을 알아내지 않아요. 근거가 어느 글의 어느 문장인지, 보기의 말이 어디서 왔는지, 근거와 보기가 같은 뜻인지(바꿔 말한 짝)는 문제마다 데이터에 적어 두었고, 엔진은 그것을 맞춰 봐요. 엔진이 직접 계산하는 것은 보기와 지문에 함께 나오는 낱말(그대로 반복), 근거와 보기의 출처가 같은 문장인지, 문장 삽입 자리의 짝, 근거가 몇 개의 글에 나뉘어 있는지예요. 실제 시험은 글 하나짜리 세트에 두세 문제(가끔 넷), 글 둘 · 셋짜리 세트에 다섯 문제가 나오지만, 여기서는 세트마다 셋이나 넷으로 줄였어요. 동의어 문제의 자리는 실제 시험처럼 ‘몇째 줄’까지 적지 않고 문단만 적었어요. 화면 너비에 따라 줄이 바뀌기 때문이에요. 시간 쓰기는 통계가 아니라 조언이에요. 예문과 지문은 토익 형식을 본떠 직접 만든 것이고, 회사와 사람 이름은 모두 지어낸 것이에요. 실제 시험 문제가 아니에요.</p>
-    <p>이웃 튜토리얼: 가리키는 말과 문장 넣기는 <a href="../part6-text/index.html">T14 Part 6</a>, 짝 표현과 어휘는 <a href="../vocabulary/index.html">T13 어휘</a>, 대명사(<i lang="en">it · they</i>)가 가리키는 것은 <a href="../pronouns/index.html">T10 대명사</a>에서 배워요. 음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+    <p>이웃 튜토리얼: 가리키는 말과 문장 넣기는 <a href="../part6-text/index.html">T14 Part 6</a>, 짝 표현과 어휘는 <a href="../vocabulary/index.html">T13 어휘</a>, 대명사(<i lang="en">it · they</i>)가 가리키는 것은 <a href="../pronouns/index.html">T10 대명사</a>에서 배워요. 음성 해설과 발음 듣기는 VoiceStudio로 미리 만든 합성 음성으로 읽어요(해설의 한국어는 젊은 여성 내레이터, 영어와 발음 듣기는 미국 여성 선생님 목소리). 놀이터에서 만든 문장처럼 파일이 없는 글은 브라우저에 들어 있는 음성(speechSynthesis)으로 읽고, 브라우저 음성은 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
   </footer>
 </div>
 
@@ -482,6 +482,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
 <script src="../shared/quiz.js"></script>
 <script src="assets/js/grammar.js"></script>
 <script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
