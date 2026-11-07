@@ -147,12 +147,19 @@ def plausible(text, lang, dur, sound):
     return badness(text, lang, dur, sound) == 0
 
 
+def few_syllables(text, lang):
+    """한두 음절 한국어(조사 · 보기 글자: 가, 을, 비, 디) — 엔진이 seed에 따라 무음만 돌려주기도 해요"""
+    return lang == 'ko' and units(text, lang) <= 2
+
+
 def generate(server, text, lang, profile_id, seed, tries=3):
     """WAV를 만들어 다듬어 돌려줘요: (wav 바이트, 길이 초, 쓴 seed). 이상한 소리면 seed를 바꿔 다시(최대 tries번).
     짧은 영어는 seed를 다섯 번까지 바꿔 봐요(speed를 낮추면 엔진이 말을 늘이지 않고 앞에 무음만 넣어서 seed만 바꿔요).
+    한두 음절 한국어는 세 seed 내리 무음이 나오기도 해서 여덟 번까지 바꿔 봐요.
     끝내 이상하면 가장 덜 이상한 것을 돌려주고 seed를 음수로(경고용)."""
     best = None
-    for k in range(max(tries, 5) if is_short(text, lang) else tries):
+    n = max(tries, 5) if is_short(text, lang) else max(tries, 8) if few_syllables(text, lang) else tries
+    for k in range(n):
         sd = seed + k * 1000
         body, ctype = multipart({'text': text, 'language': 'English' if lang == 'en' else 'Korean',
                                  'profile_id': profile_id, 'engine': 'omnivoice', 'seed': sd})
