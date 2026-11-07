@@ -3,10 +3,10 @@
  "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
  "count": {
   "ko": 123,
-  "en": 154,
+  "en": 151,
   "say": 73,
   "koChars": 2278,
-  "enChars": 3279
+  "enChars": 3291
  },
  "pieces": [
   {
@@ -76,27 +76,15 @@
    "cap": 5
   },
   {
-   "id": "e90f316cc",
+   "id": "e87aa306b",
    "lang": "en",
-   "text": "Ms.",
+   "text": "Ms Kim finished the report and sent it to her manager.",
    "cap": 6
   },
   {
-   "id": "e965f92f7",
+   "id": "e2db605ca",
    "lang": "en",
-   "text": "Kim finished the report and sent it to her manager.",
-   "cap": 6
-  },
-  {
-   "id": "e20079777",
-   "lang": "en",
-   "text": "it , the report, her , Ms.",
-   "cap": 6
-  },
-  {
-   "id": "e28dbba6d",
-   "lang": "en",
-   "text": "Kim.",
+   "text": "it , the report, her , Ms Kim.",
    "cap": 6
   },
   {
@@ -454,9 +442,9 @@
    "cap": 26
   },
   {
-   "id": "eacd50b95",
+   "id": "e5bddd261",
    "lang": "en",
-   "text": "Novak introduced herself.",
+   "text": "Ms Novak introduced herself.",
    "cap": 27
   },
   {
@@ -466,9 +454,9 @@
    "cap": 27
   },
   {
-   "id": "e1fe75f3b",
+   "id": "e50008aef",
    "lang": "en",
-   "text": "Novak introduced her.",
+   "text": "Ms Novak introduced her.",
    "cap": 28
   },
   {
@@ -520,9 +508,9 @@
    "cap": 30
   },
   {
-   "id": "e45238997",
+   "id": "ef5a5e75b",
    "lang": "en",
-   "text": "Lopez will hand out the awards herself.",
+   "text": "Ms Lopez will hand out the awards herself.",
    "cap": 30
   },
   {
@@ -556,15 +544,9 @@
    "cap": 32
   },
   {
-   "id": "eb2f58ae9",
+   "id": "e012a15da",
    "lang": "en",
-   "text": "Mr.",
-   "cap": 32
-  },
-  {
-   "id": "eff4b8c09",
-   "lang": "en",
-   "text": "Okafor and I will lead the session.",
+   "text": "Mr Okafor and I will lead the session.",
    "cap": 32
   },
   {
@@ -1066,9 +1048,9 @@
    "cap": 57
   },
   {
-   "id": "e6f3fe37c",
+   "id": "ec6f834d5",
    "lang": "en",
-   "text": "Tanaka",
+   "text": "Mr Tanaka",
    "cap": 57
   },
   {

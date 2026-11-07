@@ -227,7 +227,8 @@ $('lab').addEventListener('change', e => {
 const NARR = (window.EN && EN.narration) ? EN.narration({
   captions: CAPTIONS.map(([start, end, text]) => ({ start, end, text })),
   // it’s는 its와 소리가 같아 it is로, (A)~(D)는 한국어 이름으로, -self는 ‘셀프’, =와 +는 쉼과 ‘플러스’로
-  read: [[/it’s\b/g, 'it is'], [/It’s\b/g, 'It is'], [/\(A\)/g, '에이'], [/\(B\)/g, '비'], [/\(C\)/g, '씨'], [/\(D\)/g, '디'], [/-self\b/g, ' 셀프'],
+  // Ms. Kim → Ms Kim: 마침표에서 영어 조각이 끊겨 'Ms.' · 'Kim finished …' 두 번에 나눠 읽지 않게
+  read: [[/\b(Mrs|Mr|Ms|Dr)\. (?=[A-Z])/g, '$1 '], [/it’s\b/g, 'it is'], [/It’s\b/g, 'It is'], [/\(A\)/g, '에이'], [/\(B\)/g, '비'], [/\(C\)/g, '씨'], [/\(D\)/g, '디'], [/-self\b/g, ' 셀프'],
     [/ = /g, ', '], [/ \+ /g, ' 플러스 '], [/TOEIC/g, '토익'], [/Part 5/g, '파트 5']],
   rate: () => speed,
   holdBefore: 0.05,
