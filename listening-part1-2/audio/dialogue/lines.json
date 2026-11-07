@@ -1,0 +1,1662 @@
+{
+ "slug": "listening-part1-2",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 46,
+  "ca": 36,
+  "gb": 101,
+  "us": 92
+ },
+ "lines": [
+  {
+   "id": "us-a9c658ba",
+   "sp": "us",
+   "text": "When will the new printer be delivered?",
+   "from": "video"
+  },
+  {
+   "id": "au-d355e5be",
+   "sp": "au",
+   "text": "It prints in color.",
+   "from": "video"
+  },
+  {
+   "id": "au-2cb780a6",
+   "sp": "au",
+   "text": "Didn't you read the e-mail from the supplier?",
+   "from": "video"
+  },
+  {
+   "id": "au-f2b38227",
+   "sp": "au",
+   "text": "To the second floor.",
+   "from": "video"
+  },
+  {
+   "id": "us-331989bd",
+   "sp": "us",
+   "text": "A man is carrying a box.",
+   "from": "video"
+  },
+  {
+   "id": "us-1146c9f2",
+   "sp": "us",
+   "text": "Some women are stacking boxes.",
+   "from": "video"
+  },
+  {
+   "id": "gb-ac8c508f",
+   "sp": "gb",
+   "text": "She is putting on a jacket.",
+   "from": "video"
+  },
+  {
+   "id": "gb-5b4647b8",
+   "sp": "gb",
+   "text": "She is wearing a jacket.",
+   "from": "video"
+  },
+  {
+   "id": "au-43f1703e",
+   "sp": "au",
+   "text": "Some chairs have been stacked.",
+   "from": "video"
+  },
+  {
+   "id": "au-79a3d1c5",
+   "sp": "au",
+   "text": "Some chairs are being stacked.",
+   "from": "video"
+  },
+  {
+   "id": "ca-2aa4b0ae",
+   "sp": "ca",
+   "text": "He is making some copies.",
+   "from": "video"
+  },
+  {
+   "id": "ca-da66bc89",
+   "sp": "ca",
+   "text": "He is making some coffee.",
+   "from": "video"
+  },
+  {
+   "id": "ca-37dbd2a9",
+   "sp": "ca",
+   "text": "He is standing near a lamp.",
+   "from": "video"
+  },
+  {
+   "id": "us-77c4014e",
+   "sp": "us",
+   "text": "copy",
+   "from": "video"
+  },
+  {
+   "id": "us-9a6ee7c3",
+   "sp": "us",
+   "text": "coffee",
+   "from": "video"
+  },
+  {
+   "id": "us-75f209ba",
+   "sp": "us",
+   "text": "walk",
+   "from": "video"
+  },
+  {
+   "id": "us-7cab3eca",
+   "sp": "us",
+   "text": "work",
+   "from": "video"
+  },
+  {
+   "id": "us-ea0f6a51",
+   "sp": "us",
+   "text": "file",
+   "from": "video"
+  },
+  {
+   "id": "us-3d737caf",
+   "sp": "us",
+   "text": "pile",
+   "from": "video"
+  },
+  {
+   "id": "us-c53d732d",
+   "sp": "us",
+   "text": "lunch",
+   "from": "video"
+  },
+  {
+   "id": "us-c7f280a0",
+   "sp": "us",
+   "text": "launch",
+   "from": "video"
+  },
+  {
+   "id": "gb-18b763df",
+   "sp": "gb",
+   "text": "Where is the meeting room?",
+   "from": "video"
+  },
+  {
+   "id": "us-7b175974",
+   "sp": "us",
+   "text": "In Room 3.",
+   "from": "video"
+  },
+  {
+   "id": "gb-a86e6e78",
+   "sp": "gb",
+   "text": "When does the bus leave?",
+   "from": "video"
+  },
+  {
+   "id": "us-c2e4c0e2",
+   "sp": "us",
+   "text": "At noon.",
+   "from": "video"
+  },
+  {
+   "id": "gb-adedfa68",
+   "sp": "gb",
+   "text": "Who wrote this report?",
+   "from": "video"
+  },
+  {
+   "id": "us-1d25f02a",
+   "sp": "us",
+   "text": "Ms. Diaz did.",
+   "from": "video"
+  },
+  {
+   "id": "gb-1740ad95",
+   "sp": "gb",
+   "text": "Why was the flight delayed?",
+   "from": "video"
+  },
+  {
+   "id": "us-4d935b66",
+   "sp": "us",
+   "text": "Because of the snow.",
+   "from": "video"
+  },
+  {
+   "id": "gb-843d1aaa",
+   "sp": "gb",
+   "text": "How do I get to the airport?",
+   "from": "video"
+  },
+  {
+   "id": "us-c5695ffe",
+   "sp": "us",
+   "text": "Take the subway.",
+   "from": "video"
+  },
+  {
+   "id": "gb-dd1bc362",
+   "sp": "gb",
+   "text": "How long will the meeting take?",
+   "from": "video"
+  },
+  {
+   "id": "us-5b2d74d7",
+   "sp": "us",
+   "text": "About an hour.",
+   "from": "video"
+  },
+  {
+   "id": "us-8f967ef0",
+   "sp": "us",
+   "text": "Where is the staff lounge?",
+   "from": "video"
+  },
+  {
+   "id": "gb-42d6cbad",
+   "sp": "gb",
+   "text": "On the third floor.",
+   "from": "video"
+  },
+  {
+   "id": "gb-14ddcfe8",
+   "sp": "gb",
+   "text": "Since last Monday.",
+   "from": "video"
+  },
+  {
+   "id": "gb-ab5eb19d",
+   "sp": "gb",
+   "text": "Yes, it's very nice.",
+   "from": "video"
+  },
+  {
+   "id": "gb-e0d6cce5",
+   "sp": "gb",
+   "text": "Have you finished the sales report?",
+   "from": "video"
+  },
+  {
+   "id": "us-06016210",
+   "sp": "us",
+   "text": "The sales team is on the third floor.",
+   "from": "video"
+  },
+  {
+   "id": "us-c89bea80",
+   "sp": "us",
+   "text": "Yes, I sent it this morning.",
+   "from": "video"
+  },
+  {
+   "id": "us-e7bd5879",
+   "sp": "us",
+   "text": "contract",
+   "from": "video"
+  },
+  {
+   "id": "us-2ffa7dc9",
+   "sp": "us",
+   "text": "contact",
+   "from": "video"
+  },
+  {
+   "id": "au-95c69872",
+   "sp": "au",
+   "text": "Did you sign the contract?",
+   "from": "video"
+  },
+  {
+   "id": "ca-ec3617d5",
+   "sp": "ca",
+   "text": "Here's my contact information.",
+   "from": "video"
+  },
+  {
+   "id": "ca-e7d94baa",
+   "sp": "ca",
+   "text": "Yes, I signed it this morning.",
+   "from": "video"
+  },
+  {
+   "id": "ca-6b013073",
+   "sp": "ca",
+   "text": "When is the budget meeting?",
+   "from": "video"
+  },
+  {
+   "id": "gb-469f8001",
+   "sp": "gb",
+   "text": "At three o'clock.",
+   "from": "video"
+  },
+  {
+   "id": "gb-8445e938",
+   "sp": "gb",
+   "text": "Didn't you get the e-mail?",
+   "from": "video"
+  },
+  {
+   "id": "gb-01f96343",
+   "sp": "gb",
+   "text": "I'm not sure.",
+   "from": "video"
+  },
+  {
+   "id": "gb-dccf1511",
+   "sp": "gb",
+   "text": "Ask Ms. Lee.",
+   "from": "video"
+  },
+  {
+   "id": "gb-7932c0c8",
+   "sp": "gb",
+   "text": "Which meeting do you mean?",
+   "from": "video"
+  },
+  {
+   "id": "gb-83937f39",
+   "sp": "gb",
+   "text": "Let me check.",
+   "from": "video"
+  },
+  {
+   "id": "gb-774d77b9",
+   "sp": "gb",
+   "text": "It's been postponed.",
+   "from": "video"
+  },
+  {
+   "id": "us-88620396",
+   "sp": "us",
+   "text": "The printer is jammed again.",
+   "from": "video"
+  },
+  {
+   "id": "au-12ee91c8",
+   "sp": "au",
+   "text": "I'll call the technician.",
+   "from": "video"
+  },
+  {
+   "id": "au-5cdfcef7",
+   "sp": "au",
+   "text": "Print it in color.",
+   "from": "video"
+  },
+  {
+   "id": "gb-1af2b712",
+   "sp": "gb",
+   "text": "Why don't we take a short break?",
+   "from": "video"
+  },
+  {
+   "id": "ca-8b6415bb",
+   "sp": "ca",
+   "text": "That's a good idea.",
+   "from": "video"
+  },
+  {
+   "id": "ca-66c9c7f2",
+   "sp": "ca",
+   "text": "Because I'm tired.",
+   "from": "video"
+  },
+  {
+   "id": "au-c75e71b2",
+   "sp": "au",
+   "text": "Would you like tea or coffee?",
+   "from": "video"
+  },
+  {
+   "id": "us-6fc15e70",
+   "sp": "us",
+   "text": "Either is fine.",
+   "from": "video"
+  },
+  {
+   "id": "us-d742d4aa",
+   "sp": "us",
+   "text": "Just water, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-f58a8eea",
+   "sp": "us",
+   "text": "Yes, I would.",
+   "from": "video"
+  },
+  {
+   "id": "ca-52ae0789",
+   "sp": "ca",
+   "text": "Didn't you call the client?",
+   "from": "video"
+  },
+  {
+   "id": "gb-a8958ba6",
+   "sp": "gb",
+   "text": "Yes, I called her this morning.",
+   "from": "video"
+  },
+  {
+   "id": "gb-49c1f7b8",
+   "sp": "gb",
+   "text": "No, not yet.",
+   "from": "video"
+  },
+  {
+   "id": "gb-7ed557b2",
+   "sp": "gb",
+   "text": "No, I called her this morning.",
+   "from": "video"
+  },
+  {
+   "id": "us-f29b9578",
+   "sp": "us",
+   "text": "You're coming to the dinner, aren't you?",
+   "from": "video"
+  },
+  {
+   "id": "au-f2e97cd5",
+   "sp": "au",
+   "text": "Yes, I'll be there at seven.",
+   "from": "video"
+  },
+  {
+   "id": "au-45eebffa",
+   "sp": "au",
+   "text": "Some chairs have been stacked against the wall.",
+   "from": "video"
+  },
+  {
+   "id": "au-26543575",
+   "sp": "au",
+   "text": "A man is arranging some chairs.",
+   "from": "video"
+  },
+  {
+   "id": "au-07bb46a2",
+   "sp": "au",
+   "text": "Some chairs have been stacked near a piano.",
+   "from": "video"
+  },
+  {
+   "id": "us-201a3d97",
+   "sp": "us",
+   "text": "Didn't you send the invoice to Mr. Cho?",
+   "from": "video"
+  },
+  {
+   "id": "gb-2d81ed03",
+   "sp": "gb",
+   "text": "No, I sent it this morning.",
+   "from": "video"
+  },
+  {
+   "id": "gb-c405e2cf",
+   "sp": "gb",
+   "text": "Yes, I e-mailed it yesterday.",
+   "from": "video"
+  },
+  {
+   "id": "gb-0a4fca4d",
+   "sp": "gb",
+   "text": "An invoice number.",
+   "from": "video"
+  },
+  {
+   "id": "gb-309faeb8",
+   "sp": "gb",
+   "text": "Where is the training held?",
+   "from": "video"
+  },
+  {
+   "id": "us-5b081c8a",
+   "sp": "us",
+   "text": "In Room 5.",
+   "from": "video"
+  },
+  {
+   "id": "us-4ea65e20",
+   "sp": "us",
+   "text": "At nine o'clock.",
+   "from": "video"
+  },
+  {
+   "id": "us-9634dacf",
+   "sp": "us",
+   "text": "Ms. Park from Human Resources.",
+   "from": "video"
+  },
+  {
+   "id": "us-e5f56565",
+   "sp": "us",
+   "text": "Because the trainer is sick.",
+   "from": "video"
+  },
+  {
+   "id": "us-6a51e91d",
+   "sp": "us",
+   "text": "About two hours.",
+   "from": "video"
+  },
+  {
+   "id": "us-b4910d08",
+   "sp": "us",
+   "text": "Yes, for all new staff.",
+   "from": "video"
+  },
+  {
+   "id": "gb-91aa5335",
+   "sp": "gb",
+   "text": "When does the training start?",
+   "from": "video"
+  },
+  {
+   "id": "gb-4971342a",
+   "sp": "gb",
+   "text": "Who is leading the training?",
+   "from": "video"
+  },
+  {
+   "id": "gb-880b8ce6",
+   "sp": "gb",
+   "text": "Why was the training canceled?",
+   "from": "video"
+  },
+  {
+   "id": "gb-8f43dd9e",
+   "sp": "gb",
+   "text": "How long will the training last?",
+   "from": "video"
+  },
+  {
+   "id": "gb-c525e1e1",
+   "sp": "gb",
+   "text": "Is the training mandatory?",
+   "from": "video"
+  },
+  {
+   "id": "ca-0f9a4618",
+   "sp": "ca",
+   "text": "He is using a machine.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-d7d4bb8d",
+   "sp": "ca",
+   "text": "He is walking out of an office.",
+   "from": "lab"
+  },
+  {
+   "id": "us-2a2fba8b",
+   "sp": "us",
+   "text": "director",
+   "from": "lab"
+  },
+  {
+   "id": "us-d99ccfb8",
+   "sp": "us",
+   "text": "direction",
+   "from": "lab"
+  },
+  {
+   "id": "gb-a915d302",
+   "sp": "gb",
+   "text": "In the meeting room.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-04e08cbc",
+   "sp": "gb",
+   "text": "Yes, it is.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-94e7bac0",
+   "sp": "gb",
+   "text": "A budget report.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-70ab7a31",
+   "sp": "gb",
+   "text": "Yes, I haven't called her.",
+   "from": "lab"
+  },
+  {
+   "id": "us-a6d59b6d",
+   "sp": "us",
+   "text": "A. He is planting some trees.",
+   "from": "drill"
+  },
+  {
+   "id": "us-f2994ac5",
+   "sp": "us",
+   "text": "B. He is watering some plants.",
+   "from": "drill"
+  },
+  {
+   "id": "us-1310f6f2",
+   "sp": "us",
+   "text": "C. Some women are looking out a window.",
+   "from": "drill"
+  },
+  {
+   "id": "us-a9da4bb1",
+   "sp": "us",
+   "text": "D. He is holding a broom.",
+   "from": "drill"
+  },
+  {
+   "id": "us-3c648672",
+   "sp": "us",
+   "text": "He is planting some trees.",
+   "from": "drill"
+  },
+  {
+   "id": "us-67b4fb6f",
+   "sp": "us",
+   "text": "He is watering some plants.",
+   "from": "drill"
+  },
+  {
+   "id": "us-711a5813",
+   "sp": "us",
+   "text": "Some women are looking out a window.",
+   "from": "drill"
+  },
+  {
+   "id": "us-1358a619",
+   "sp": "us",
+   "text": "He is holding a broom.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-a7572860",
+   "sp": "gb",
+   "text": "A. She is putting on a jacket.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-41b98240",
+   "sp": "gb",
+   "text": "B. A man is opening a door.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-b0a5c6eb",
+   "sp": "gb",
+   "text": "C. She is holding an umbrella.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-99bbcc1a",
+   "sp": "gb",
+   "text": "D. She is wearing a jacket.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-39da41f8",
+   "sp": "gb",
+   "text": "A man is opening a door.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-78bfb4ee",
+   "sp": "gb",
+   "text": "She is holding an umbrella.",
+   "from": "drill"
+  },
+  {
+   "id": "au-8f729ff6",
+   "sp": "au",
+   "text": "A. Some chairs are being stacked.",
+   "from": "drill"
+  },
+  {
+   "id": "au-0bfc91dc",
+   "sp": "au",
+   "text": "B. Some chairs have been stacked against the wall.",
+   "from": "drill"
+  },
+  {
+   "id": "au-9d94a306",
+   "sp": "au",
+   "text": "C. A man is arranging some chairs.",
+   "from": "drill"
+  },
+  {
+   "id": "au-9e585ac2",
+   "sp": "au",
+   "text": "D. Some chairs have been stacked near a piano.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-93ff55e8",
+   "sp": "ca",
+   "text": "A. She is reaching for a box.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-76f970e0",
+   "sp": "ca",
+   "text": "B. Some boxes are being opened.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-137a87ee",
+   "sp": "ca",
+   "text": "C. Some workers are moving a shelf.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-14177bd5",
+   "sp": "ca",
+   "text": "D. She is standing on a ladder.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-a7960523",
+   "sp": "ca",
+   "text": "She is reaching for a box.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-6d428ec6",
+   "sp": "ca",
+   "text": "Some boxes are being opened.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-5e9aaa97",
+   "sp": "ca",
+   "text": "Some workers are moving a shelf.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-fd5ffe9d",
+   "sp": "ca",
+   "text": "She is standing on a ladder.",
+   "from": "drill"
+  },
+  {
+   "id": "us-40746a25",
+   "sp": "us",
+   "text": "A. Some people are waiting in line.",
+   "from": "drill"
+  },
+  {
+   "id": "us-10e6be42",
+   "sp": "us",
+   "text": "B. She is putting on her glasses.",
+   "from": "drill"
+  },
+  {
+   "id": "us-8404dc2a",
+   "sp": "us",
+   "text": "C. She is typing on a keyboard.",
+   "from": "drill"
+  },
+  {
+   "id": "us-f5553838",
+   "sp": "us",
+   "text": "D. She is sitting next to a lamp.",
+   "from": "drill"
+  },
+  {
+   "id": "us-51bf514a",
+   "sp": "us",
+   "text": "Some people are waiting in line.",
+   "from": "drill"
+  },
+  {
+   "id": "us-91596960",
+   "sp": "us",
+   "text": "She is putting on her glasses.",
+   "from": "drill"
+  },
+  {
+   "id": "us-9bcf1bcf",
+   "sp": "us",
+   "text": "She is typing on a keyboard.",
+   "from": "drill"
+  },
+  {
+   "id": "us-3296dc20",
+   "sp": "us",
+   "text": "She is sitting next to a lamp.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-3a2d009f",
+   "sp": "gb",
+   "text": "A. Some boxes are being carried.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-d87732c6",
+   "sp": "gb",
+   "text": "B. A worker is lining up some boxes.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-f4a555a7",
+   "sp": "gb",
+   "text": "C. Some boxes have been placed on a table.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-93e590ce",
+   "sp": "gb",
+   "text": "D. Some boxes have been lined up along the wall.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-2be3fa78",
+   "sp": "gb",
+   "text": "Some boxes are being carried.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-af56097e",
+   "sp": "gb",
+   "text": "A worker is lining up some boxes.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-dfb891ea",
+   "sp": "gb",
+   "text": "Some boxes have been placed on a table.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-423c2220",
+   "sp": "gb",
+   "text": "Some boxes have been lined up along the wall.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-a1da01a5",
+   "sp": "gb",
+   "text": "Where is the new copy machine?",
+   "from": "drill"
+  },
+  {
+   "id": "us-13b4f579",
+   "sp": "us",
+   "text": "A. On the third floor, next to the elevators.",
+   "from": "drill"
+  },
+  {
+   "id": "us-3f69d5b4",
+   "sp": "us",
+   "text": "B. Two coffees, please.",
+   "from": "drill"
+  },
+  {
+   "id": "us-79b547a6",
+   "sp": "us",
+   "text": "C. Since last Monday.",
+   "from": "drill"
+  },
+  {
+   "id": "us-d4fa1c56",
+   "sp": "us",
+   "text": "On the third floor, next to the elevators.",
+   "from": "drill"
+  },
+  {
+   "id": "us-b8225a46",
+   "sp": "us",
+   "text": "Two coffees, please.",
+   "from": "drill"
+  },
+  {
+   "id": "us-67f4c63b",
+   "sp": "us",
+   "text": "Since last Monday.",
+   "from": "drill"
+  },
+  {
+   "id": "au-a0abbc93",
+   "sp": "au",
+   "text": "A. It prints in color.",
+   "from": "drill"
+  },
+  {
+   "id": "au-60996620",
+   "sp": "au",
+   "text": "B. Didn't you read the e-mail from the supplier?",
+   "from": "drill"
+  },
+  {
+   "id": "au-bc9e48ba",
+   "sp": "au",
+   "text": "C. To the second floor.",
+   "from": "drill"
+  },
+  {
+   "id": "au-1911aca3",
+   "sp": "au",
+   "text": "Who is leading tomorrow's training session?",
+   "from": "drill"
+  },
+  {
+   "id": "gb-8346a19f",
+   "sp": "gb",
+   "text": "A. It hasn't been decided yet.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-2e1ec040",
+   "sp": "gb",
+   "text": "B. A two-hour session.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-990062ed",
+   "sp": "gb",
+   "text": "C. Yes, at nine o'clock.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-3f7dc1dc",
+   "sp": "gb",
+   "text": "It hasn't been decided yet.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-7e944e48",
+   "sp": "gb",
+   "text": "A two-hour session.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-b6a63290",
+   "sp": "gb",
+   "text": "Yes, at nine o'clock.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-918ff6a8",
+   "sp": "ca",
+   "text": "How much does it cost to rent the hall?",
+   "from": "drill"
+  },
+  {
+   "id": "us-279fce76",
+   "sp": "us",
+   "text": "A. About fifty guests.",
+   "from": "drill"
+  },
+  {
+   "id": "us-b2f5e89c",
+   "sp": "us",
+   "text": "B. Ms. Lee handles the reservations.",
+   "from": "drill"
+  },
+  {
+   "id": "us-fbf89b43",
+   "sp": "us",
+   "text": "C. It's down the hall.",
+   "from": "drill"
+  },
+  {
+   "id": "us-6dd2e607",
+   "sp": "us",
+   "text": "About fifty guests.",
+   "from": "drill"
+  },
+  {
+   "id": "us-d94d60fe",
+   "sp": "us",
+   "text": "Ms. Lee handles the reservations.",
+   "from": "drill"
+  },
+  {
+   "id": "us-a51038a8",
+   "sp": "us",
+   "text": "It's down the hall.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-cebb1894",
+   "sp": "gb",
+   "text": "The elevator is out of order again.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-a6004723",
+   "sp": "ca",
+   "text": "A. In alphabetical order.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-54cf3d90",
+   "sp": "ca",
+   "text": "B. Yes, he did.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-da5e7cd2",
+   "sp": "ca",
+   "text": "C. Let's take the stairs, then.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-0249c1cc",
+   "sp": "ca",
+   "text": "In alphabetical order.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-98f0356e",
+   "sp": "ca",
+   "text": "Yes, he did.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-3547246f",
+   "sp": "ca",
+   "text": "Let's take the stairs, then.",
+   "from": "drill"
+  },
+  {
+   "id": "us-1289a011",
+   "sp": "us",
+   "text": "Why don't we order lunch for the team?",
+   "from": "drill"
+  },
+  {
+   "id": "gb-59918ff7",
+   "sp": "gb",
+   "text": "A. That's a great idea.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-7dd4f50f",
+   "sp": "gb",
+   "text": "B. Because I was busy.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-4a448ef3",
+   "sp": "gb",
+   "text": "C. The launch is on Friday.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-e9093cb6",
+   "sp": "gb",
+   "text": "That's a great idea.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-3deca127",
+   "sp": "gb",
+   "text": "Because I was busy.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-599c5d7c",
+   "sp": "gb",
+   "text": "The launch is on Friday.",
+   "from": "drill"
+  },
+  {
+   "id": "au-255c80fd",
+   "sp": "au",
+   "text": "Would you mind reviewing my report before noon?",
+   "from": "drill"
+  },
+  {
+   "id": "us-0f313ef3",
+   "sp": "us",
+   "text": "A. A five-page report.",
+   "from": "drill"
+  },
+  {
+   "id": "us-9f9953b4",
+   "sp": "us",
+   "text": "B. Yes, it was very helpful.",
+   "from": "drill"
+  },
+  {
+   "id": "us-d4adc7a9",
+   "sp": "us",
+   "text": "C. Not at all. Just send it to me.",
+   "from": "drill"
+  },
+  {
+   "id": "us-9787e926",
+   "sp": "us",
+   "text": "A five-page report.",
+   "from": "drill"
+  },
+  {
+   "id": "us-b3e8b432",
+   "sp": "us",
+   "text": "Yes, it was very helpful.",
+   "from": "drill"
+  },
+  {
+   "id": "us-5e7b1a9a",
+   "sp": "us",
+   "text": "Not at all. Just send it to me.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-6a7de167",
+   "sp": "ca",
+   "text": "Would you prefer a window seat or an aisle seat?",
+   "from": "drill"
+  },
+  {
+   "id": "au-3866fc15",
+   "sp": "au",
+   "text": "A. Yes, I would.",
+   "from": "drill"
+  },
+  {
+   "id": "au-b033cb36",
+   "sp": "au",
+   "text": "B. Either is fine with me.",
+   "from": "drill"
+  },
+  {
+   "id": "au-63f17c0b",
+   "sp": "au",
+   "text": "C. The window was left open.",
+   "from": "drill"
+  },
+  {
+   "id": "au-327ad40c",
+   "sp": "au",
+   "text": "Yes, I would.",
+   "from": "drill"
+  },
+  {
+   "id": "au-e8118cec",
+   "sp": "au",
+   "text": "Either is fine with me.",
+   "from": "drill"
+  },
+  {
+   "id": "au-08a47b2c",
+   "sp": "au",
+   "text": "The window was left open.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-6a691208",
+   "sp": "gb",
+   "text": "A. No, I sent it this morning.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-ac167b97",
+   "sp": "gb",
+   "text": "B. Yes, I e-mailed it yesterday.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-b6609cb2",
+   "sp": "gb",
+   "text": "C. An invoice number.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-d8b0fd28",
+   "sp": "gb",
+   "text": "You've met our new director, haven't you?",
+   "from": "drill"
+  },
+  {
+   "id": "au-806cddc8",
+   "sp": "au",
+   "text": "A. A new direction.",
+   "from": "drill"
+  },
+  {
+   "id": "au-b7a84324",
+   "sp": "au",
+   "text": "B. No, I met her last week.",
+   "from": "drill"
+  },
+  {
+   "id": "au-d5f69491",
+   "sp": "au",
+   "text": "C. Yes, at the conference last month.",
+   "from": "drill"
+  },
+  {
+   "id": "au-53ecb1ef",
+   "sp": "au",
+   "text": "A new direction.",
+   "from": "drill"
+  },
+  {
+   "id": "au-fff53022",
+   "sp": "au",
+   "text": "No, I met her last week.",
+   "from": "drill"
+  },
+  {
+   "id": "au-15ed26e4",
+   "sp": "au",
+   "text": "Yes, at the conference last month.",
+   "from": "drill"
+  },
+  {
+   "id": "ca-13f599ec",
+   "sp": "ca",
+   "text": "How long is the flight to Singapore?",
+   "from": "drill"
+  },
+  {
+   "id": "us-a9b8cac1",
+   "sp": "us",
+   "text": "A. Gate 12, I think.",
+   "from": "drill"
+  },
+  {
+   "id": "us-aa314324",
+   "sp": "us",
+   "text": "B. Yes, a window seat.",
+   "from": "drill"
+  },
+  {
+   "id": "us-d080849e",
+   "sp": "us",
+   "text": "C. About six hours.",
+   "from": "drill"
+  },
+  {
+   "id": "us-3dd8098c",
+   "sp": "us",
+   "text": "Gate 12, I think.",
+   "from": "drill"
+  },
+  {
+   "id": "us-5aa58c62",
+   "sp": "us",
+   "text": "Yes, a window seat.",
+   "from": "drill"
+  },
+  {
+   "id": "us-2bdf6d37",
+   "sp": "us",
+   "text": "About six hours.",
+   "from": "drill"
+  },
+  {
+   "id": "au-52d02220",
+   "sp": "au",
+   "text": "Have you reviewed the budget proposal?",
+   "from": "drill"
+  },
+  {
+   "id": "gb-53a8ad92",
+   "sp": "gb",
+   "text": "A. The budget hotel near the station.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-ac499b3e",
+   "sp": "gb",
+   "text": "B. I'm still working on it.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-ee0e8930",
+   "sp": "gb",
+   "text": "C. A new review policy.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-b0156527",
+   "sp": "gb",
+   "text": "The budget hotel near the station.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-5c1183c6",
+   "sp": "gb",
+   "text": "I'm still working on it.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-8e0aed63",
+   "sp": "gb",
+   "text": "A new review policy.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-6b512617",
+   "sp": "gb",
+   "text": "I can't find my company ID card.",
+   "from": "drill"
+  },
+  {
+   "id": "us-aa891854",
+   "sp": "us",
+   "text": "A. Did you check your desk drawer?",
+   "from": "drill"
+  },
+  {
+   "id": "us-8444097b",
+   "sp": "us",
+   "text": "B. The car park is full.",
+   "from": "drill"
+  },
+  {
+   "id": "us-d6e19445",
+   "sp": "us",
+   "text": "C. Yes, I found it.",
+   "from": "drill"
+  },
+  {
+   "id": "us-e7f5e845",
+   "sp": "us",
+   "text": "Did you check your desk drawer?",
+   "from": "drill"
+  },
+  {
+   "id": "us-71854281",
+   "sp": "us",
+   "text": "The car park is full.",
+   "from": "drill"
+  },
+  {
+   "id": "us-3c478bc0",
+   "sp": "us",
+   "text": "Yes, I found it.",
+   "from": "drill"
+  },
+  {
+   "id": "us-5d99fb1b",
+   "sp": "us",
+   "text": "When does the job fair start?",
+   "from": "game"
+  },
+  {
+   "id": "gb-523b783b",
+   "sp": "gb",
+   "text": "A. At the convention center.",
+   "from": "game"
+  },
+  {
+   "id": "gb-c0d0b53d",
+   "sp": "gb",
+   "text": "B. At ten o'clock tomorrow.",
+   "from": "game"
+  },
+  {
+   "id": "gb-f2df412e",
+   "sp": "gb",
+   "text": "C. It was a fair decision.",
+   "from": "game"
+  },
+  {
+   "id": "gb-2bd916d2",
+   "sp": "gb",
+   "text": "Who ordered these office supplies?",
+   "from": "game"
+  },
+  {
+   "id": "au-16334f57",
+   "sp": "au",
+   "text": "A. I think Mr. Ryu did.",
+   "from": "game"
+  },
+  {
+   "id": "au-252605cc",
+   "sp": "au",
+   "text": "B. In the supply closet.",
+   "from": "game"
+  },
+  {
+   "id": "au-e3bf2b95",
+   "sp": "au",
+   "text": "C. Yes, by Friday.",
+   "from": "game"
+  },
+  {
+   "id": "au-290a2e39",
+   "sp": "au",
+   "text": "Why is the parking lot closed today?",
+   "from": "game"
+  },
+  {
+   "id": "us-465d94bb",
+   "sp": "us",
+   "text": "A. Close to the main entrance.",
+   "from": "game"
+  },
+  {
+   "id": "us-bc8e1d0a",
+   "sp": "us",
+   "text": "B. It's being repaved.",
+   "from": "game"
+  },
+  {
+   "id": "us-9cc0f411",
+   "sp": "us",
+   "text": "C. For about two hours.",
+   "from": "game"
+  },
+  {
+   "id": "ca-c857a740",
+   "sp": "ca",
+   "text": "Is the new software easy to use?",
+   "from": "game"
+  },
+  {
+   "id": "gb-2eb33fbb",
+   "sp": "gb",
+   "text": "A. No, it's very easy.",
+   "from": "game"
+  },
+  {
+   "id": "gb-a8298e1e",
+   "sp": "gb",
+   "text": "B. I usually take the bus.",
+   "from": "game"
+  },
+  {
+   "id": "gb-bb3d570b",
+   "sp": "gb",
+   "text": "C. Yes, once you get used to it.",
+   "from": "game"
+  },
+  {
+   "id": "us-9a843d2b",
+   "sp": "us",
+   "text": "Isn't the store open on Sundays?",
+   "from": "game"
+  },
+  {
+   "id": "ca-7a837589",
+   "sp": "ca",
+   "text": "A. No, only on weekdays.",
+   "from": "game"
+  },
+  {
+   "id": "ca-6a46b6f7",
+   "sp": "ca",
+   "text": "B. Yes, it's closed on Sundays.",
+   "from": "game"
+  },
+  {
+   "id": "ca-fe1ae99f",
+   "sp": "ca",
+   "text": "C. Open the box carefully.",
+   "from": "game"
+  },
+  {
+   "id": "gb-139875f5",
+   "sp": "gb",
+   "text": "Why don't you take the afternoon off?",
+   "from": "game"
+  },
+  {
+   "id": "us-3390b4ac",
+   "sp": "us",
+   "text": "A. Because the office is far.",
+   "from": "game"
+  },
+  {
+   "id": "us-7c053a31",
+   "sp": "us",
+   "text": "B. Take it off the shelf.",
+   "from": "game"
+  },
+  {
+   "id": "us-573749d3",
+   "sp": "us",
+   "text": "C. Thanks, I think I will.",
+   "from": "game"
+  },
+  {
+   "id": "au-1f931f63",
+   "sp": "au",
+   "text": "Should we meet on Tuesday or Wednesday?",
+   "from": "game"
+  },
+  {
+   "id": "gb-6bd01c2d",
+   "sp": "gb",
+   "text": "A. How about Thursday instead?",
+   "from": "game"
+  },
+  {
+   "id": "gb-3c4f89b4",
+   "sp": "gb",
+   "text": "B. Yes, we should.",
+   "from": "game"
+  },
+  {
+   "id": "gb-b0fc25ed",
+   "sp": "gb",
+   "text": "C. We met last week.",
+   "from": "game"
+  },
+  {
+   "id": "ca-ef3a88b8",
+   "sp": "ca",
+   "text": "I can't find my company ID card.",
+   "from": "game"
+  },
+  {
+   "id": "au-0ecebb62",
+   "sp": "au",
+   "text": "A. The car park is full.",
+   "from": "game"
+  },
+  {
+   "id": "au-3179807c",
+   "sp": "au",
+   "text": "B. Yes, I found it.",
+   "from": "game"
+  },
+  {
+   "id": "au-338d777c",
+   "sp": "au",
+   "text": "C. Did you check your desk drawer?",
+   "from": "game"
+  },
+  {
+   "id": "us-31a0d63a",
+   "sp": "us",
+   "text": "Where should I put these boxes?",
+   "from": "game"
+  },
+  {
+   "id": "au-662cd7a0",
+   "sp": "au",
+   "text": "A. By tomorrow morning.",
+   "from": "game"
+  },
+  {
+   "id": "au-228e2346",
+   "sp": "au",
+   "text": "B. Ask Ms. Ortiz in the mail room.",
+   "from": "game"
+  },
+  {
+   "id": "au-63feb977",
+   "sp": "au",
+   "text": "C. I'll put on my coat.",
+   "from": "game"
+  },
+  {
+   "id": "gb-0a40203a",
+   "sp": "gb",
+   "text": "How did you get to the airport?",
+   "from": "game"
+  },
+  {
+   "id": "ca-1158fc9c",
+   "sp": "ca",
+   "text": "A. It's the main airport.",
+   "from": "game"
+  },
+  {
+   "id": "ca-f097446a",
+   "sp": "ca",
+   "text": "B. Yes, it was crowded.",
+   "from": "game"
+  },
+  {
+   "id": "ca-44d15c41",
+   "sp": "ca",
+   "text": "C. I took a taxi.",
+   "from": "game"
+  },
+  {
+   "id": "gb-a236922e",
+   "sp": "gb",
+   "text": "She is hanging a jacket on a hook.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-12b0ac27",
+   "sp": "gb",
+   "text": "A man is holding a bag.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-cccdda65",
+   "sp": "gb",
+   "text": "A man is stacking some chairs.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-c7a6fce0",
+   "sp": "gb",
+   "text": "Some chairs are being stacked.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-af03f33f",
+   "sp": "gb",
+   "text": "Some chairs have been stacked.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-66c0056a",
+   "sp": "gb",
+   "text": "A man is sitting on a chair.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-a5ad99aa",
+   "sp": "gb",
+   "text": "A man is carrying a box.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-5634a61b",
+   "sp": "gb",
+   "text": "A box is being carried.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-d0533ac2",
+   "sp": "gb",
+   "text": "Some boxes have been lined up.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-3e92c71b",
+   "sp": "gb",
+   "text": "A man is opening a box.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-34520112",
+   "sp": "gb",
+   "text": "A man is watering some plants.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-c61ed695",
+   "sp": "gb",
+   "text": "Some plants are being watered.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-098b8235",
+   "sp": "gb",
+   "text": "Some plants have been placed by a window.",
+   "from": "scene"
+  },
+  {
+   "id": "gb-8a0a291d",
+   "sp": "gb",
+   "text": "A man is planting a tree.",
+   "from": "scene"
+  }
+ ]
+}

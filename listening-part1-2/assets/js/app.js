@@ -414,10 +414,12 @@ $('lab').addEventListener('click', e => {
    ========================================================= */
 const NARR = (window.EN && EN.narration) ? EN.narration({
   captions: CAPTIONS.map(([start, end, text]) => ({ start, end, text })),
-  read: [[/\(A\)/g, '에이'], [/\(B\)/g, '비'], [/\(C\)/g, '씨'], [/\(D\)/g, '디'], [/TOEIC/g, '토익'], [/Part 1/g, '파트 1'], [/Part 2/g, '파트 2'],
+  // Ms. Lee → Ms Lee: 마침표에서 영어 조각이 끊겨 'Ask Ms.' · 'Lee.' 두 번에 나눠 읽지 않게
+  read: [[/\b(Mrs|Mr|Ms|Dr)\. (?=[A-Z])/g, '$1 '], [/\(A\)/g, '에이'], [/\(B\)/g, '비'], [/\(C\)/g, '씨'], [/\(D\)/g, '디'], [/TOEIC/g, '토익'], [/Part 1/g, '파트 1'], [/Part 2/g, '파트 2'],
     [/A or B/g, '에이 오어 비'], [/p\.p\./g, '피피'], [/ = /g, ', ']],
   rate: () => speed,
   holdBefore: 0.05,
+  clips: window.EN_CLIPS,
 }) : { supported: false, reset() {}, hold: (T, next) => next, sync() {} };
 
 /* =========================================================
@@ -666,6 +668,48 @@ const QS = (() => {
   if (Math.max(...pos) - Math.min(...pos) > 2) console.warn('[듣기 ①] 퀴즈 정답 위치가 한쪽에 몰려 있어요:', pos);
   return q;
 })();
+
+/* =========================================================
+   대화 목소리 파일로 만들 줄 모으기 (개발용) — 글이 정해진 말만, 말하는 사람별로
+   README의 ‘대화 목소리 파일 만들기’ → audio/dialogue/lines.json → tools/voicestudio-dialogue.py
+   ========================================================= */
+window.__dialogueLines = () => {
+  const out = [], seen = new Set();
+  const add = (sp, text, from) => {
+    if (!text || !/[A-Za-z]/.test(text)) return;
+    const id = LPV.lineId(sp, text);
+    if (seen.has(id)) return;
+    seen.add(id); out.push({ id, sp, text, from });
+  };
+  const addSeq = (seq, from) => (seq || []).forEach(it => add(it.sp, it.text, from));
+  // 1) 영상: 처음부터 끝까지 훑으며 들리는 말 줄. 직접 해 보기에서 바꾸는 상태(사진 · 첫 단어 · 사실)마다 그 장을 한 번 더
+  const c = document.createElement('canvas'); c.width = 128; c.height = 72;
+  const g = c.getContext('2d'), keep = JSON.stringify(S), base = { jk: null, ch: null, wh: null, yn: null, first: null };
+  const span = id => { const ch = CHAPTERS.find(x => x.id === id); return [ch.t, ch.t + ch.d]; };
+  const sweeps = [[{}, [0, END]]].concat(
+    ['on', 'wear'].map(v => [{ jk: v }, span('people')]), ['empty', 'man'].map(v => [{ ch: v }, span('things')]),
+    LP.WHSET.qs.map((_, k) => [{ wh: k }, span('first')]), ['did', 'didnt'].map(v => [{ yn: v }, span('yesno')]),
+    LP.FIRSTS.map(f => [{ first: f.id }, span('method')]));
+  try {
+    sweeps.forEach(([st, [t0, t1]]) => {
+      Object.assign(S, base, st);
+      for (let t = t0; t <= t1; t += 0.1) { LPS.render(g, t); LPS.hits().forEach(h => { if (h.play) addSeq(h.play, 'video'); }); }
+      // 2) 직접 해 보기: 장마다 패널을 만들면 듣기 단추의 줄이 SEQS에 모여요
+      CHAPTERS.forEach(ch => { LABS[ch.id](); });
+    });
+  } finally { Object.assign(S, JSON.parse(keep)); dirty = true; }
+  SEQS.forEach(seq => addSeq(seq, 'lab'));
+  // 3) 듣기 연습 문제 · 직접 해 보기의 짧은 문제: 보기 넷(A. …) · 질문과 대답 셋, 답한 뒤 줄마다 다시 듣기(글자 없이)
+  LP.DRILL.concat(Object.values(LP.MINI)).forEach(it => {
+    addSeq(seqItem(it), 'drill');
+    if (it.part === 1) it.opts.forEach(op => add(it.sp, op.t, 'drill'));
+    else { add(it.sp[0], it.q, 'drill'); it.opts.forEach(op => add(it.sp[1], op.t, 'drill')); }
+  });
+  // 4) 놀이터 ① 함정 감별사 · ② 동작 · 상태 고르기
+  LP.GAME.forEach(gm => { add(gm.sp[0], gm.q, 'game'); gm.opts.forEach((o, k) => add(gm.sp[1], `${L4[k]}. ${o.t}`, 'game')); });
+  LP.SCENES.forEach(sc => sc.sts.forEach(st => add('gb', st.t, 'scene')));
+  return out;
+};
 
 /* =========================================================
    11. 시작

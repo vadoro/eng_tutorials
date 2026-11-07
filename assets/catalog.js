@@ -232,7 +232,7 @@ window.EN_CATALOG = {
       track: 'toeic',
       title: '첫 단어를 잡고, 들린 단어를 의심하라',
       topic: '듣기 Part 1 사진 묘사 · Part 2 질의응답',
-      summary: '사진은 주인공 → 동작인가 상태인가(putting on · wearing, being p.p. · has been p.p.) → 사진에 없는 말로, 질문은 첫 단어 → 함정(엉뚱한 종류 · 같은 단어 · 비슷한 소리) → 말이 되나로 풀어요. 간접 응답과 한국어와 거꾸로인 Yes · No까지 브라우저 음성으로 들으며 익혀요.',
+      summary: '사진은 주인공 → 동작인가 상태인가(putting on · wearing, being p.p. · has been p.p.) → 사진에 없는 말로, 질문은 첫 단어 → 함정(엉뚱한 종류 · 같은 단어 · 비슷한 소리) → 말이 되나로 풀어요. 간접 응답과 한국어와 거꾸로인 Yes · No까지 억양마다 다른 목소리로 들으며 익혀요.',
       length: '6:35',
       scenes: 12,
       features: ['음성 해설', '듣기 문제 음성', '장면별 실습', '함정 감별사', '동작 · 상태 고르기', '듣기 연습 문제 16', '퀴즈'],

@@ -1,0 +1,1135 @@
+{
+ "slug": "listening-part1-2",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 109,
+  "en": 78,
+  "say": 9,
+  "koChars": 2214,
+  "enChars": 1665
+ },
+ "pieces": [
+  {
+   "id": "k65cd9aa4",
+   "lang": "ko",
+   "text": "토익 듣기 파트 1과 파트 2는 문제지에 문장이 없어요. 사진 한 장, 또는",
+   "cap": 0
+  },
+  {
+   "id": "e22ba8de4",
+   "lang": "en",
+   "text": "Mark your answer",
+   "cap": 0
+  },
+  {
+   "id": "kc6c4ac0f",
+   "lang": "ko",
+   "text": "한 줄뿐이에요.",
+   "cap": 0
+  },
+  {
+   "id": "k3cdc6f46",
+   "lang": "ko",
+   "text": "들어 볼까요?",
+   "cap": 1
+  },
+  {
+   "id": "ed263f979",
+   "lang": "en",
+   "text": "When will the new printer be delivered?",
+   "cap": 1
+  },
+  {
+   "id": "kd4f39085",
+   "lang": "ko",
+   "text": "대답 셋이 이어서 나와요.",
+   "cap": 1
+  },
+  {
+   "id": "ka391fb1b",
+   "lang": "ko",
+   "text": "그런데 때를 묻는 질문인데, 시간으로 답한 보기가 하나도 없어요.",
+   "cap": 2
+  },
+  {
+   "id": "k6f5181c0",
+   "lang": "ko",
+   "text": "어느 쪽이 정답일까요? 영상 끝에서 함께 풀어요.",
+   "cap": 3
+  },
+  {
+   "id": "k08f36ccf",
+   "lang": "ko",
+   "text": "사진은 동작과 상태로, 질문은 첫 단어로 풀어요. 3단계 풀이법으로 묶어요.",
+   "cap": 4
+  },
+  {
+   "id": "k4a04113b",
+   "lang": "ko",
+   "text": "파트 1은 사진 한 장을 보며 문장 넷을 들어요. 사진을 가장 잘 말한 문장을 골라요.",
+   "cap": 5
+  },
+  {
+   "id": "k33f89ab2",
+   "lang": "ko",
+   "text": "첫째, 먼저 사진의 주인공을 봐요. 남자 한 명이에요. 여자들이 주어인 문장은 바로 탈락이에요.",
+   "cap": 6
+  },
+  {
+   "id": "k042eb162",
+   "lang": "ko",
+   "text": "한국어 입고 있다는 뜻이 둘이에요. 지금 입는 중일 수도, 이미 입은 상태일 수도 있어요.",
+   "cap": 7
+  },
+  {
+   "id": "k8fd45f27",
+   "lang": "ko",
+   "text": "영어는 둘을 나눠요. 입는 동작",
+   "cap": 8
+  },
+  {
+   "id": "e2cf73a5d",
+   "lang": "en",
+   "text": "She is putting on a jacket.",
+   "cap": 8
+  },
+  {
+   "id": "k010fcbe9",
+   "lang": "ko",
+   "text": "입은 상태",
+   "cap": 8
+  },
+  {
+   "id": "e24b30a7a",
+   "lang": "en",
+   "text": "She is wearing a jacket.",
+   "cap": 8
+  },
+  {
+   "id": "k0deb8bd8",
+   "lang": "ko",
+   "text": "둘째, 사진은 한순간이에요. 이미 다 입은 사진이면",
+   "cap": 9
+  },
+  {
+   "id": "ef34a6a50",
+   "lang": "en",
+   "text": "putting on",
+   "cap": 9
+  },
+  {
+   "id": "kdb7d6e5a",
+   "lang": "ko",
+   "text": "탈락",
+   "cap": 9
+  },
+  {
+   "id": "e1b7026b3",
+   "lang": "en",
+   "text": "wearing",
+   "cap": 9
+  },
+  {
+   "id": "ka9cac517",
+   "lang": "ko",
+   "text": "정답.",
+   "cap": 9
+  },
+  {
+   "id": "kb1ff8ec9",
+   "lang": "ko",
+   "text": "동작과 상태 짝",
+   "cap": 10
+  },
+  {
+   "id": "e59acb899",
+   "lang": "en",
+   "text": "picking up, holding , sitting down, sitting.",
+   "cap": 10
+  },
+  {
+   "id": "k1b53aef2",
+   "lang": "ko",
+   "text": "앞은 동작, 뒤는 상태예요.",
+   "cap": 10
+  },
+  {
+   "id": "kfd5843c6",
+   "lang": "ko",
+   "text": "이번에는 사람이 없는 사진이에요. 첫째, 주인공은 사물 , 벽 쪽에 쌓인 의자예요.",
+   "cap": 11
+  },
+  {
+   "id": "ke87a4488",
+   "lang": "ko",
+   "text": "사물이 주어면 이렇게 들려요",
+   "cap": 12
+  },
+  {
+   "id": "e6f94f399",
+   "lang": "en",
+   "text": "Some chairs have been stacked.",
+   "cap": 12
+  },
+  {
+   "id": "k5db12419",
+   "lang": "ko",
+   "text": "이미 쌓여 있는 상태예요.",
+   "cap": 12
+  },
+  {
+   "id": "k3e5a3d42",
+   "lang": "ko",
+   "text": "함정",
+   "cap": 13
+  },
+  {
+   "id": "eb3d38206",
+   "lang": "en",
+   "text": "Some chairs are being stacked.",
+   "cap": 13
+  },
+  {
+   "id": "ef4de2159",
+   "lang": "en",
+   "text": "being",
+   "cap": 13
+  },
+  {
+   "id": "k0dcd3abc",
+   "lang": "ko",
+   "text": "지금 누가 쌓는 중이라는 뜻이에요.",
+   "cap": 13
+  },
+  {
+   "id": "k6f0a7344",
+   "lang": "ko",
+   "text": "사진에 사람이 없으니 쌓는 사람도 없어요. 그래서",
+   "cap": 14
+  },
+  {
+   "id": "e034b205a",
+   "lang": "en",
+   "text": "are being stacked",
+   "cap": 14
+  },
+  {
+   "id": "kfa74e09c",
+   "lang": "ko",
+   "text": "탈락.",
+   "cap": 14
+  },
+  {
+   "id": "kc52a7eab",
+   "lang": "ko",
+   "text": "사람이 의자를 쌓고 있는 사진이라면? 그때는",
+   "cap": 15
+  },
+  {
+   "id": "k4215e603",
+   "lang": "ko",
+   "text": "맞는 말이 돼요.",
+   "cap": 15
+  },
+  {
+   "id": "k193f4b2e",
+   "lang": "ko",
+   "text": "상태는 놓인 모양으로도 말해요",
+   "cap": 16
+  },
+  {
+   "id": "e6ba6bf14",
+   "lang": "en",
+   "text": "are lined up, is hanging on the wall, have been placed on a shelf.",
+   "cap": 16
+  },
+  {
+   "id": "k6d78782a",
+   "lang": "ko",
+   "text": "셋째, 마지막으로 문장 속 물건을 사진과 맞춰요. 하나라도 사진에 없으면 탈락이에요.",
+   "cap": 17
+  },
+  {
+   "id": "eaabfe30d",
+   "lang": "en",
+   "text": "He is making some copies.",
+   "cap": 18
+  },
+  {
+   "id": "kd3d2174b",
+   "lang": "ko",
+   "text": "복사기 앞에서 복사하는 남자 , 맞아요.",
+   "cap": 18
+  },
+  {
+   "id": "e997990c6",
+   "lang": "en",
+   "text": "He is making some coffee.",
+   "cap": 19
+  },
+  {
+   "id": "e0b3b905f",
+   "lang": "en",
+   "text": "copies, coffee",
+   "cap": 19
+  },
+  {
+   "id": "ke9a697c6",
+   "lang": "ko",
+   "text": "소리가 비슷해요. 사진에 커피는 없어요.",
+   "cap": 19
+  },
+  {
+   "id": "e97014af6",
+   "lang": "en",
+   "text": "He is standing near a lamp.",
+   "cap": 20
+  },
+  {
+   "id": "kd9a750b0",
+   "lang": "ko",
+   "text": "서 있는 건 맞지만, 사진에 램프가 없어요 , 탈락.",
+   "cap": 20
+  },
+  {
+   "id": "kd6472844",
+   "lang": "ko",
+   "text": "들린 물건이 사진에 있는지 하나씩 맞춰요. 비슷한 소리 짝",
+   "cap": 21
+  },
+  {
+   "id": "e36fbd7c9",
+   "lang": "en",
+   "text": "copy, coffee , walk, work.",
+   "cap": 21
+  },
+  {
+   "id": "kd0c41ead",
+   "lang": "ko",
+   "text": "이제 파트 2예요. 질문 하나를 듣고, 대답 셋 가운데 알맞은 것을 골라요.",
+   "cap": 22
+  },
+  {
+   "id": "ke12badd6",
+   "lang": "ko",
+   "text": "첫째, 가장 중요한 것은 첫 단어예요.",
+   "cap": 23
+  },
+  {
+   "id": "e9cbbfba9",
+   "lang": "en",
+   "text": "Where",
+   "cap": 23
+  },
+  {
+   "id": "kf326f1e8",
+   "lang": "ko",
+   "text": "장소",
+   "cap": 23
+  },
+  {
+   "id": "e28a63cea",
+   "lang": "en",
+   "text": "When",
+   "cap": 23
+  },
+  {
+   "id": "k9a890acf",
+   "lang": "ko",
+   "text": "때",
+   "cap": 23
+  },
+  {
+   "id": "e5f6d197e",
+   "lang": "en",
+   "text": "Who",
+   "cap": 23
+  },
+  {
+   "id": "k455d32d5",
+   "lang": "ko",
+   "text": "사람.",
+   "cap": 23
+  },
+  {
+   "id": "e716d35d4",
+   "lang": "en",
+   "text": "Why",
+   "cap": 24
+  },
+  {
+   "id": "k9cab6686",
+   "lang": "ko",
+   "text": "까닭",
+   "cap": 24
+  },
+  {
+   "id": "eb8d8de9c",
+   "lang": "en",
+   "text": "How",
+   "cap": 24
+  },
+  {
+   "id": "k1c0e52df",
+   "lang": "ko",
+   "text": "방법",
+   "cap": 24
+  },
+  {
+   "id": "e4418d302",
+   "lang": "en",
+   "text": "How long",
+   "cap": 24
+  },
+  {
+   "id": "ke1465f9d",
+   "lang": "ko",
+   "text": "걸리는 시간. 첫 단어가 답의 종류를 정해요.",
+   "cap": 24
+  },
+  {
+   "id": "e946d9f19",
+   "lang": "en",
+   "text": "Where is the staff lounge?",
+   "cap": 25
+  },
+  {
+   "id": "kaf33dae7",
+   "lang": "ko",
+   "text": "이 질문에",
+   "cap": 25
+  },
+  {
+   "id": "ed8c877e4",
+   "lang": "en",
+   "text": "Since last Monday",
+   "cap": 25
+  },
+  {
+   "id": "k61849db7",
+   "lang": "ko",
+   "text": "때로 답했어요. 종류가 달라요.",
+   "cap": 25
+  },
+  {
+   "id": "kbf0730c3",
+   "lang": "ko",
+   "text": "의문사로 물었는데",
+   "cap": 26
+  },
+  {
+   "id": "ecdf24d2b",
+   "lang": "en",
+   "text": "Yes, it's very nice , Yes, No",
+   "cap": 26
+  },
+  {
+   "id": "k758416c0",
+   "lang": "ko",
+   "text": "대답도 맞지 않아요.",
+   "cap": 26
+  },
+  {
+   "id": "k4039e339",
+   "lang": "ko",
+   "text": "정답은",
+   "cap": 27
+  },
+  {
+   "id": "e009a226b",
+   "lang": "en",
+   "text": "On the third floor.",
+   "cap": 27
+  },
+  {
+   "id": "k92bb77ae",
+   "lang": "ko",
+   "text": "장소를 말했어요.",
+   "cap": 27
+  },
+  {
+   "id": "k06f246db",
+   "lang": "ko",
+   "text": "둘째, 다음은 귀에 걸린 낱말을 의심하기예요. 질문의 낱말이 그대로 들린다고 정답은 아니에요.",
+   "cap": 28
+  },
+  {
+   "id": "e1d05b80f",
+   "lang": "en",
+   "text": "Have you finished the sales report?",
+   "cap": 29
+  },
+  {
+   "id": "ef5373aaf",
+   "lang": "en",
+   "text": "The sales team is on the third floor.",
+   "cap": 29
+  },
+  {
+   "id": "kf008f9e9",
+   "lang": "ko",
+   "text": "같은 낱말",
+   "cap": 29
+  },
+  {
+   "id": "e765abcb6",
+   "lang": "en",
+   "text": "sales",
+   "cap": 29
+  },
+  {
+   "id": "kb456d8d4",
+   "lang": "ko",
+   "text": "대답은 아니에요.",
+   "cap": 29
+  },
+  {
+   "id": "ka6916f5d",
+   "lang": "ko",
+   "text": "소리가 비슷한 낱말도 조심해요",
+   "cap": 30
+  },
+  {
+   "id": "e6733603c",
+   "lang": "en",
+   "text": "contract, contact , copy, coffee , lunch, launch.",
+   "cap": 30
+  },
+  {
+   "id": "ed67bc9c1",
+   "lang": "en",
+   "text": "Did you sign the contract?",
+   "cap": 31
+  },
+  {
+   "id": "e77ba1bb0",
+   "lang": "en",
+   "text": "Here's my contact information.",
+   "cap": 31
+  },
+  {
+   "id": "kcfc963e3",
+   "lang": "ko",
+   "text": "소리만 비슷하고 엉뚱한 대답이에요.",
+   "cap": 31
+  },
+  {
+   "id": "k8e3bf45c",
+   "lang": "ko",
+   "text": "알맞은 대답",
+   "cap": 32
+  },
+  {
+   "id": "e5b9a7c4b",
+   "lang": "en",
+   "text": "Yes, I signed it this morning.",
+   "cap": 32
+  },
+  {
+   "id": "kd99eaeee",
+   "lang": "ko",
+   "text": "질문에 맞게 답했어요.",
+   "cap": 32
+  },
+  {
+   "id": "k1533dbd8",
+   "lang": "ko",
+   "text": "같은 낱말, 비슷한 소리가 들리면 한 번 더 의심하고, 대답이 되는지 확인해요.",
+   "cap": 33
+  },
+  {
+   "id": "k26171751",
+   "lang": "ko",
+   "text": "셋째, 남은 답이 말이 되는지 봐요. 정답이 꼭 질문에 바로 답하지는 않아요.",
+   "cap": 34
+  },
+  {
+   "id": "e1f76997c",
+   "lang": "en",
+   "text": "When is the budget meeting?",
+   "cap": 35
+  },
+  {
+   "id": "e9e12e73e",
+   "lang": "en",
+   "text": "Didn't you get the e-mail?",
+   "cap": 35
+  },
+  {
+   "id": "k076c8b42",
+   "lang": "ko",
+   "text": "이메일에 시간이 있다는 뜻이에요.",
+   "cap": 35
+  },
+  {
+   "id": "kf6d1e356",
+   "lang": "ko",
+   "text": "이렇게 돌려 말하는 답을 간접 응답이라고 해요. 시간이 없어도 대화가 이어지면 정답이에요.",
+   "cap": 36
+  },
+  {
+   "id": "kbc6ce73f",
+   "lang": "ko",
+   "text": "모른다",
+   "cap": 37
+  },
+  {
+   "id": "ec5b465b9",
+   "lang": "en",
+   "text": "I'm not sure.",
+   "cap": 37
+  },
+  {
+   "id": "k909f200b",
+   "lang": "ko",
+   "text": "넘기기",
+   "cap": 37
+  },
+  {
+   "id": "e6f1742d3",
+   "lang": "en",
+   "text": "Ask Ms Lee.",
+   "cap": 37
+  },
+  {
+   "id": "k3db0bb58",
+   "lang": "ko",
+   "text": "되묻기",
+   "cap": 37
+  },
+  {
+   "id": "e3320ff92",
+   "lang": "en",
+   "text": "Which meeting do you mean?",
+   "cap": 37
+  },
+  {
+   "id": "k47ec5cbc",
+   "lang": "ko",
+   "text": "확인하기",
+   "cap": 38
+  },
+  {
+   "id": "ec6c664ff",
+   "lang": "en",
+   "text": "Let me check.",
+   "cap": 38
+  },
+  {
+   "id": "kae1e2c1b",
+   "lang": "ko",
+   "text": "상황 알리기",
+   "cap": 38
+  },
+  {
+   "id": "ed5b4be3f",
+   "lang": "en",
+   "text": "It's been postponed.",
+   "cap": 38
+  },
+  {
+   "id": "ke5aa125e",
+   "lang": "ko",
+   "text": "이런 답은 어떤 질문에도 맞을 수 있어요. 엉뚱하다고 바로 지우지 마세요.",
+   "cap": 39
+  },
+  {
+   "id": "k2631a18f",
+   "lang": "ko",
+   "text": "첫 단어가 의문사가 아닐 때도 있어요. 평서문",
+   "cap": 40
+  },
+  {
+   "id": "e822738d3",
+   "lang": "en",
+   "text": "The printer is jammed again.",
+   "cap": 40
+  },
+  {
+   "id": "k4146b7b2",
+   "lang": "ko",
+   "text": "평서문에는 해결책이나 맞장구가 정답이에요",
+   "cap": 41
+  },
+  {
+   "id": "eef333d89",
+   "lang": "en",
+   "text": "I'll call the technician.",
+   "cap": 41
+  },
+  {
+   "id": "eca56d700",
+   "lang": "en",
+   "text": "Why don't we take a short break?",
+   "cap": 42
+  },
+  {
+   "id": "k6b68b2fe",
+   "lang": "ko",
+   "text": "첫 단어",
+   "cap": 42
+  },
+  {
+   "id": "kcae24b98",
+   "lang": "ko",
+   "text": "하지만 이유를 묻지 않아요. 제안이에요.",
+   "cap": 42
+  },
+  {
+   "id": "ke2f66722",
+   "lang": "ko",
+   "text": "제안에는 좋다, 싫다로 답해요",
+   "cap": 43
+  },
+  {
+   "id": "eddbd3bdc",
+   "lang": "en",
+   "text": "That's a good idea.",
+   "cap": 43
+  },
+  {
+   "id": "ke193de55",
+   "lang": "ko",
+   "text": "이유를 대는",
+   "cap": 43
+  },
+  {
+   "id": "ea62be987",
+   "lang": "en",
+   "text": "Because I'm tired",
+   "cap": 43
+  },
+  {
+   "id": "k38bbaa88",
+   "lang": "ko",
+   "text": "에이 오어 비 질문은 선택이에요.",
+   "cap": 44
+  },
+  {
+   "id": "e48a01348",
+   "lang": "en",
+   "text": "Tea or coffee?",
+   "cap": 44
+  },
+  {
+   "id": "ed36a0013",
+   "lang": "en",
+   "text": "Either is fine.",
+   "cap": 44
+  },
+  {
+   "id": "e5fff1759",
+   "lang": "en",
+   "text": "Just water, please.",
+   "cap": 44
+  },
+  {
+   "id": "ka1fa5202",
+   "lang": "ko",
+   "text": "선택 질문에는",
+   "cap": 45
+  },
+  {
+   "id": "ecb5af9be",
+   "lang": "en",
+   "text": "Yes, No",
+   "cap": 45
+  },
+  {
+   "id": "k785d845b",
+   "lang": "ko",
+   "text": "대답이 어울리지 않아요. 둘 다 , 둘 다 아님 , 다른 것도 정답이에요.",
+   "cap": 45
+  },
+  {
+   "id": "k811152a8",
+   "lang": "ko",
+   "text": "부정 의문문이에요.",
+   "cap": 46
+  },
+  {
+   "id": "ead19352e",
+   "lang": "en",
+   "text": "Didn't you call the client?",
+   "cap": 46
+  },
+  {
+   "id": "kffa66e84",
+   "lang": "ko",
+   "text": "한국어로 , 고객에게 전화 안 했어요?",
+   "cap": 46
+  },
+  {
+   "id": "ke1d1ba6a",
+   "lang": "ko",
+   "text": "전화했다면 한국어는 , 아니요, 했어요. 안 했다면 , 네, 안 했어요.",
+   "cap": 47
+  },
+  {
+   "id": "ke4b6b94a",
+   "lang": "ko",
+   "text": "영어는 사실만 봐요. 했으면",
+   "cap": 48
+  },
+  {
+   "id": "e2c55facc",
+   "lang": "en",
+   "text": "Yes, I called her this morning.",
+   "cap": 48
+  },
+  {
+   "id": "kd1837e5b",
+   "lang": "ko",
+   "text": "안 했으면",
+   "cap": 48
+  },
+  {
+   "id": "e0cb32256",
+   "lang": "en",
+   "text": "No, not yet.",
+   "cap": 48
+  },
+  {
+   "id": "e08efdc4d",
+   "lang": "en",
+   "text": "Yes",
+   "cap": 49
+  },
+  {
+   "id": "k4ebde7e5",
+   "lang": "ko",
+   "text": "했다",
+   "cap": 49
+  },
+  {
+   "id": "e598482d1",
+   "lang": "en",
+   "text": "No",
+   "cap": 49
+  },
+  {
+   "id": "k7807a704",
+   "lang": "ko",
+   "text": "안 했다. 질문이 부정 의문문이어도 똑같아요.",
+   "cap": 49
+  },
+  {
+   "id": "kddb8c2d7",
+   "lang": "ko",
+   "text": "그래서",
+   "cap": 50
+  },
+  {
+   "id": "e95822046",
+   "lang": "en",
+   "text": "No, I called her this morning",
+   "cap": 50
+  },
+  {
+   "id": "k1d37efee",
+   "lang": "ko",
+   "text": "앞뒤가 안 맞는 함정이에요.",
+   "cap": 50
+  },
+  {
+   "id": "k0219d244",
+   "lang": "ko",
+   "text": "꼬리 질문도 같아요.",
+   "cap": 51
+  },
+  {
+   "id": "e57fc1ec5",
+   "lang": "en",
+   "text": "You're coming to the dinner, aren't you?",
+   "cap": 51
+  },
+  {
+   "id": "e49108a9e",
+   "lang": "en",
+   "text": "Yes, I'll be there at seven.",
+   "cap": 51
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 52
+  },
+  {
+   "id": "kee40e32a",
+   "lang": "ko",
+   "text": "파트 1 , 첫째, 사진의 주인공 둘째, 동작인가 상태인가 셋째, 사진에 없는 말 지우기.",
+   "cap": 53
+  },
+  {
+   "id": "ke8f6d20f",
+   "lang": "ko",
+   "text": "파트 2 , 첫째, 첫 단어로 답의 종류 정하기 둘째, 함정 지우기 셋째, 남은 답이 말이 되나 보기.",
+   "cap": 54
+  },
+  {
+   "id": "kc3ddbb39",
+   "lang": "ko",
+   "text": "함정 , 엉뚱한 종류, 같은 낱말, 비슷한 소리. 돌려 말한 답은 지우지 말고 남겨요.",
+   "cap": 55
+  },
+  {
+   "id": "k5e0b02f6",
+   "lang": "ko",
+   "text": "듣기는 한 번뿐이에요. 들으면서 지우는 이 순서로 처음 듣는 문제를 풀어 볼까요?",
+   "cap": 56
+  },
+  {
+   "id": "ka751465f",
+   "lang": "ko",
+   "text": "처음 들은 문제예요. 첫째, 첫 단어",
+   "cap": 57
+  },
+  {
+   "id": "k997b56eb",
+   "lang": "ko",
+   "text": "때를 물어요. 때로 답하거나 돌려 말하는 답이 와요.",
+   "cap": 57
+  },
+  {
+   "id": "k55928eb2",
+   "lang": "ko",
+   "text": "둘째, 함정 지우기 , 씨",
+   "cap": 58
+  },
+  {
+   "id": "e5bf318a6",
+   "lang": "en",
+   "text": "To the second floor",
+   "cap": 58
+  },
+  {
+   "id": "k655ed119",
+   "lang": "ko",
+   "text": "장소, 엉뚱한 종류. 에이",
+   "cap": 58
+  },
+  {
+   "id": "e90dbd93f",
+   "lang": "en",
+   "text": "It prints in color",
+   "cap": 58
+  },
+  {
+   "id": "k9d21530d",
+   "lang": "ko",
+   "text": "같은 단어. 탈락.",
+   "cap": 58
+  },
+  {
+   "id": "k6d1648ca",
+   "lang": "ko",
+   "text": "셋째, 남은 비",
+   "cap": 59
+  },
+  {
+   "id": "e8dd94f58",
+   "lang": "en",
+   "text": "Didn't you read the e-mail?",
+   "cap": 59
+  },
+  {
+   "id": "kca130014",
+   "lang": "ko",
+   "text": "이메일에 날짜가 있다는 간접 응답이에요. 정답은 비.",
+   "cap": 59
+  },
+  {
+   "id": "k80b46a63",
+   "lang": "ko",
+   "text": "두 번째는 사진 문제예요. 첫째, 주인공 , 의자, 사람이 없어요. 씨",
+   "cap": 60
+  },
+  {
+   "id": "e6f04576c",
+   "lang": "en",
+   "text": "A man is arranging",
+   "cap": 60
+  },
+  {
+   "id": "k9086a74f",
+   "lang": "ko",
+   "text": "둘째, 사람이 없으니 누가 쌓는 중일 수 없어요. 에이",
+   "cap": 61
+  },
+  {
+   "id": "k397762a6",
+   "lang": "ko",
+   "text": "셋째, 디",
+   "cap": 62
+  },
+  {
+   "id": "e4553d5c6",
+   "lang": "en",
+   "text": "near a piano",
+   "cap": 62
+  },
+  {
+   "id": "kb09c122d",
+   "lang": "ko",
+   "text": "사진에 피아노가 없어요. 정답은 비",
+   "cap": 62
+  },
+  {
+   "id": "ee165a703",
+   "lang": "en",
+   "text": "have been stacked.",
+   "cap": 62
+  },
+  {
+   "id": "k099dd327",
+   "lang": "ko",
+   "text": "세 번째. 첫째, 첫 단어",
+   "cap": 63
+  },
+  {
+   "id": "e182b9213",
+   "lang": "en",
+   "text": "Didn't you",
+   "cap": 63
+  },
+  {
+   "id": "ka9a03aa5",
+   "lang": "ko",
+   "text": "부정 의문문이에요. 대답은 사실을 따라요.",
+   "cap": 63
+  },
+  {
+   "id": "k24999d72",
+   "lang": "ko",
+   "text": "둘째, 함정 , 씨",
+   "cap": 64
+  },
+  {
+   "id": "e197d911b",
+   "lang": "en",
+   "text": "An invoice number.",
+   "cap": 64
+  },
+  {
+   "id": "e76ae3271",
+   "lang": "en",
+   "text": "invoice",
+   "cap": 64
+  },
+  {
+   "id": "k2dc99279",
+   "lang": "ko",
+   "text": "되풀이, 엉뚱한 종류예요. 탈락.",
+   "cap": 64
+  },
+  {
+   "id": "kd1cb3732",
+   "lang": "ko",
+   "text": "셋째, 에이",
+   "cap": 65
+  },
+  {
+   "id": "ee6d19f99",
+   "lang": "en",
+   "text": "No, I sent it this morning",
+   "cap": 65
+  },
+  {
+   "id": "kab7054e5",
+   "lang": "ko",
+   "text": "앞뒤가 안 맞아요. 보냈으면",
+   "cap": 65
+  },
+  {
+   "id": "e7497efd9",
+   "lang": "en",
+   "text": "Yes.",
+   "cap": 65
+  },
+  {
+   "id": "keb126359",
+   "lang": "ko",
+   "text": "정답은 비.",
+   "cap": 65
+  },
+  {
+   "id": "k24b06e39",
+   "lang": "ko",
+   "text": "정리해요. 파트 1은 사진의 주인공, 동작과 상태, 없는 말을 차례로 봐요.",
+   "cap": 66
+  },
+  {
+   "id": "k87a2797c",
+   "lang": "ko",
+   "text": "파트 2는 첫 단어로 종류를 정하고, 함정을 지우고, 남은 답이 말이 되는지 봐요.",
+   "cap": 67
+  },
+  {
+   "id": "ke579c1e6",
+   "lang": "ko",
+   "text": "안 했다. 사실을 따라요. 돌려 말한 답도 정답이 될 수 있어요.",
+   "cap": 68
+  },
+  {
+   "id": "kd00bc078",
+   "lang": "ko",
+   "text": "아래 놀이터의 함정 감별사로 귀를 훈련해 보세요.",
+   "cap": 69
+  },
+  {
+   "id": "e1c1ffac5",
+   "lang": "en",
+   "text": "She is picking up a bag.",
+   "from": "say"
+  },
+  {
+   "id": "e9372769c",
+   "lang": "en",
+   "text": "She is holding a bag.",
+   "from": "say"
+  },
+  {
+   "id": "ea1b8759a",
+   "lang": "en",
+   "text": "She is sitting down.",
+   "from": "say"
+  },
+  {
+   "id": "e061b530b",
+   "lang": "en",
+   "text": "She is sitting on a chair.",
+   "from": "say"
+  },
+  {
+   "id": "ec88e64c2",
+   "lang": "en",
+   "text": "Some boxes are lined up.",
+   "from": "say"
+  },
+  {
+   "id": "e73ef3cab",
+   "lang": "en",
+   "text": "A picture is hanging on the wall.",
+   "from": "say"
+  },
+  {
+   "id": "e5ca774d0",
+   "lang": "en",
+   "text": "Some boxes have been placed on a shelf.",
+   "from": "say"
+  },
+  {
+   "id": "e5a4269d9",
+   "lang": "en",
+   "text": "is putting on, is wearing",
+   "from": "say"
+  },
+  {
+   "id": "eb2a2fe7a",
+   "lang": "en",
+   "text": "have been stacked, are lined up",
+   "from": "say"
+  }
+ ]
+}

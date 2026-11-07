@@ -664,15 +664,16 @@
     }
   }
   // 동작 · 상태 짝 한 줄
-  function pairRow(g, y, a, ako, b, bko, al) {
+  // sa · sb = 칩을 누르면 들려줄 문장(동작 · 상태의 본보기 — 'She is sitting down it.'처럼 틀린 말이 되지 않게 문장을 따로 적어요)
+  function pairRow(g, y, a, ako, b, bko, al, sa, sb) {
     fade(g, al, () => {
       const c1 = chip(g, a, 330, y, { size: 22, weight: 700, color: COL.rel, fill: COL.panel2, stroke: COL.rel, align: 'center', h: 44, r: 12 });
       txt(g, ako, 330, y + 38, { size: 15, weight: 600, color: COL.soft, align: 'center' });
-      say(c1.x, c1.y, c1.w, c1.h, 'She ' + a + ' it.');
+      say(c1.x, c1.y, c1.w, c1.h, sa);
       arrow(g, 520, y, 740, y, COL.muted, 2);
       const c2 = chip(g, b, 930, y, { size: 22, weight: 700, color: COL.clause, fill: COL.panel2, stroke: COL.clause, align: 'center', h: 44, r: 12 });
       txt(g, bko, 930, y + 38, { size: 15, weight: 600, color: COL.soft, align: 'center' });
-      say(c2.x, c2.y, c2.w, c2.h, 'She ' + b + ' it.');
+      say(c2.x, c2.y, c2.w, c2.h, sb);
     });
   }
   // 소리 짝 카드 (두 낱말 + 닮은 물결). 누르면 두 낱말을 이어서 들려줌
@@ -803,9 +804,9 @@
         txt(g, '동작 · 지금 하는 중', 330, 186, { size: 19, weight: 700, color: COL.rel, align: 'center' });
         txt(g, '상태 · 이미 그런 모습', 930, 186, { size: 19, weight: 700, color: COL.clause, align: 'center' });
       });
-      pairRow(g, 262, 'is putting on', '입는 중', 'is wearing', '입고 있음', ramp(u, 30.6, 0.5));
-      pairRow(g, 362, 'is picking up', '집어 드는 중', 'is holding', '들고 있음', ramp(u, 31.6, 0.5));
-      pairRow(g, 462, 'is sitting down', '앉는 중', 'is sitting', '앉아 있음', ramp(u, 32.8, 0.5));
+      pairRow(g, 262, 'is putting on', '입는 중', 'is wearing', '입고 있음', ramp(u, 30.6, 0.5), 'She is putting on a jacket.', 'She is wearing a jacket.');
+      pairRow(g, 362, 'is picking up', '집어 드는 중', 'is holding', '들고 있음', ramp(u, 31.6, 0.5), 'She is picking up a bag.', 'She is holding a bag.');
+      pairRow(g, 462, 'is sitting down', '앉는 중', 'is sitting', '앉아 있음', ramp(u, 32.8, 0.5), 'She is sitting down.', 'She is sitting on a chair.');
     },
 
     /* 02 사람 없는 사진: 주인공 = 사물 → have been stacked(상태) · are being stacked(누가 하는 중) → 사람이 들어오면 */
@@ -834,7 +835,7 @@
         let x = LX;
         ['are lined up', 'is hanging on the wall', 'have been placed on a shelf'].forEach((s, i) => fade(g, ramp(u, 29.6 + i * 0.6, 0.4), () => {
           const c = chip(g, s, x, 560, { size: 18, weight: 700, color: COL.clause, fill: COL.panel2, stroke: COL.clause, h: 34, r: 10 });
-          say(c.x, c.y, c.w, c.h, 'Some boxes ' + s + '.'); x = c.x + c.w + 14;
+          say(c.x, c.y, c.w, c.h, ['Some boxes are lined up.', 'A picture is hanging on the wall.', 'Some boxes have been placed on a shelf.'][i]); x = c.x + c.w + 14;   // 주어가 수에 맞게(Some boxes is … ×)
         }));
       });
     },
