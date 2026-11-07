@@ -216,6 +216,7 @@ const NARR = (window.EN && EN.narration) ? EN.narration({
     [/\ba\.m\./g, 'AM'], [/\bp\.m\./g, 'PM'], [/T04/g, '네 번째 튜토리얼'], [/ = /g, ', '], [/TOEIC/g, '토익'], [/Part 5/g, '파트 5']],
   rate: () => speed,
   holdBefore: 0.05,
+  clips: window.EN_CLIPS,
 }) : { supported: false, reset() {}, hold: (T, next) => next, sync() {} };
 
 /* =========================================================

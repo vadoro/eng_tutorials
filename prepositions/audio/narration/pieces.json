@@ -1,0 +1,1489 @@
+{
+ "slug": "prepositions",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 113,
+  "en": 133,
+  "say": 55,
+  "koChars": 2061,
+  "enChars": 2270
+ },
+ "pieces": [
+  {
+   "id": "kfb79782b",
+   "lang": "ko",
+   "text": "토익 파트 5에는 보기 네 개가 모두 전치사인 문제가 자주 나와요.",
+   "cap": 0
+  },
+  {
+   "id": "k16033df5",
+   "lang": "ko",
+   "text": "이 문제를 보세요. 빈칸 뒤",
+   "cap": 1
+  },
+  {
+   "id": "ed40f035d",
+   "lang": "en",
+   "text": "Friday.",
+   "cap": 1
+  },
+  {
+   "id": "kce55601a",
+   "lang": "ko",
+   "text": "한국어로 옮기면 , 금요일까지.",
+   "cap": 1
+  },
+  {
+   "id": "k23f650b9",
+   "lang": "ko",
+   "text": "그런데 까지에 맞는 보기가 둘이에요",
+   "cap": 2
+  },
+  {
+   "id": "e0fcb7a35",
+   "lang": "en",
+   "text": "by, until.",
+   "cap": 2
+  },
+  {
+   "id": "k7b03acbf",
+   "lang": "ko",
+   "text": "한국어 뜻만으로는 고를 수 없어요.",
+   "cap": 2
+  },
+  {
+   "id": "kfce35750",
+   "lang": "ko",
+   "text": "어느 쪽일까요? 정답은 영상 끝에서 함께 풀어요.",
+   "cap": 3
+  },
+  {
+   "id": "k041c7f87",
+   "lang": "ko",
+   "text": "시간, 장소, 짝 표현 전치사를 배우고 3단계 풀이법으로 묶어요.",
+   "cap": 4
+  },
+  {
+   "id": "ke33378df",
+   "lang": "ko",
+   "text": "한국어는 명사 뒤에 조사를 붙여요 , 금요일까지. 영어는 명사 앞에 전치사를 놓아요",
+   "cap": 5
+  },
+  {
+   "id": "e592ea480",
+   "lang": "en",
+   "text": "by Friday.",
+   "cap": 5
+  },
+  {
+   "id": "k3db66d4d",
+   "lang": "ko",
+   "text": "그런데 조사와 전치사는 하나씩 짝이 맞지 않아요. 에 하나가 영어에서는 셋으로 나뉘어요",
+   "cap": 6
+  },
+  {
+   "id": "e4ef6bd29",
+   "lang": "en",
+   "text": "at, on, in.",
+   "cap": 6
+  },
+  {
+   "id": "k0eedb1d9",
+   "lang": "ko",
+   "text": "까지도 둘이에요",
+   "cap": 7
+  },
+  {
+   "id": "kd9a59df4",
+   "lang": "ko",
+   "text": "동안도 둘이에요",
+   "cap": 7
+  },
+  {
+   "id": "efcf43eb2",
+   "lang": "en",
+   "text": "for, during.",
+   "cap": 7
+  },
+  {
+   "id": "k629fc5a9",
+   "lang": "ko",
+   "text": "안에",
+   "cap": 8
+  },
+  {
+   "id": "e6f3d930d",
+   "lang": "en",
+   "text": "within.",
+   "cap": 8
+  },
+  {
+   "id": "k020cc2ab",
+   "lang": "ko",
+   "text": "그런데",
+   "cap": 8
+  },
+  {
+   "id": "e7df72828",
+   "lang": "en",
+   "text": "in two weeks , 2",
+   "cap": 8
+  },
+  {
+   "id": "k0bbc38b7",
+   "lang": "ko",
+   "text": "주 안에가 아니라 2주 뒤예요.",
+   "cap": 8
+  },
+  {
+   "id": "k7c66c68a",
+   "lang": "ko",
+   "text": "그래서 한국어 뜻 대신 그림으로 골라요. 시간은 시간선 위에, 장소는 공간 그림 위에 놓아 봐요.",
+   "cap": 9
+  },
+  {
+   "id": "kffae9502",
+   "lang": "ko",
+   "text": "그림이 없는 전치사도 있어요. 앞 낱말과 늘 같이 다니는 짝이에요",
+   "cap": 10
+  },
+  {
+   "id": "e95caeb05",
+   "lang": "en",
+   "text": "responsible for.",
+   "cap": 10
+  },
+  {
+   "id": "kfff2138a",
+   "lang": "ko",
+   "text": "시간의 에부터 볼게요. 빈칸 뒤 시간의 크기가 전치사를 정해요.",
+   "cap": 11
+  },
+  {
+   "id": "k6a04c28c",
+   "lang": "ko",
+   "text": "시계의 한 점, 시각",
+   "cap": 12
+  },
+  {
+   "id": "e3500f93b",
+   "lang": "en",
+   "text": "at.",
+   "cap": 12
+  },
+  {
+   "id": "ede05c0b8",
+   "lang": "en",
+   "text": "at 3 PM, at noon.",
+   "cap": 12
+  },
+  {
+   "id": "k7a394905",
+   "lang": "ko",
+   "text": "하루, 날짜, 요일",
+   "cap": 13
+  },
+  {
+   "id": "e74e9060f",
+   "lang": "en",
+   "text": "on.",
+   "cap": 13
+  },
+  {
+   "id": "e2e853180",
+   "lang": "en",
+   "text": "on Monday, on May 5.",
+   "cap": 13
+  },
+  {
+   "id": "kf5bd53bb",
+   "lang": "ko",
+   "text": "달, 해, 계절, 하루의 때처럼 큰 칸",
+   "cap": 14
+  },
+  {
+   "id": "e7bd85519",
+   "lang": "en",
+   "text": "in.",
+   "cap": 14
+  },
+  {
+   "id": "ec1ff9832",
+   "lang": "en",
+   "text": "in May, in 2027, in the morning.",
+   "cap": 14
+  },
+  {
+   "id": "kf60053b8",
+   "lang": "ko",
+   "text": "작은 점",
+   "cap": 15
+  },
+  {
+   "id": "e70be9297",
+   "lang": "en",
+   "text": "at",
+   "cap": 15
+  },
+  {
+   "id": "kfe81c93b",
+   "lang": "ko",
+   "text": "날",
+   "cap": 15
+  },
+  {
+   "id": "e7ad6a73b",
+   "lang": "en",
+   "text": "on",
+   "cap": 15
+  },
+  {
+   "id": "kc635832b",
+   "lang": "ko",
+   "text": "큰 칸",
+   "cap": 15
+  },
+  {
+   "id": "ka859077a",
+   "lang": "ko",
+   "text": "날이 붙으면 아침도",
+   "cap": 15
+  },
+  {
+   "id": "eefd31115",
+   "lang": "en",
+   "text": "on Monday morning.",
+   "cap": 15
+  },
+  {
+   "id": "k602526ec",
+   "lang": "ko",
+   "text": "까지가 둘로 갈리는 곳이에요. 시간선에 깃발을 꽂아 볼게요. 깃발, 금요일.",
+   "cap": 16
+  },
+  {
+   "id": "e6ae5b53b",
+   "lang": "en",
+   "text": "Please submit the report by Friday.",
+   "cap": 17
+  },
+  {
+   "id": "k9147060f",
+   "lang": "ko",
+   "text": "제출은 한 번에 끝나는 일이에요. 깃발 전에 한 번만 하면 돼요.",
+   "cap": 17
+  },
+  {
+   "id": "e63b62f5b",
+   "lang": "en",
+   "text": "by",
+   "cap": 18
+  },
+  {
+   "id": "kdfa6fcbb",
+   "lang": "ko",
+   "text": "늦어도 그때까지는 끝내요. 마감을 말할 때 써요. 화요일에 내도, 목요일에 내도 맞아요.",
+   "cap": 18
+  },
+  {
+   "id": "e86835053",
+   "lang": "en",
+   "text": "The store will stay open until 9 PM",
+   "cap": 19
+  },
+  {
+   "id": "k255cf610",
+   "lang": "ko",
+   "text": "가게는 9시까지 쭉 열려 있다가 그때 닫아요.",
+   "cap": 19
+  },
+  {
+   "id": "e52a3429a",
+   "lang": "en",
+   "text": "until",
+   "cap": 20
+  },
+  {
+   "id": "k5266d36b",
+   "lang": "ko",
+   "text": "그때까지 계속 이어져요. 이어지는 동사와 잘 어울려요",
+   "cap": 20
+  },
+  {
+   "id": "ee77dd38f",
+   "lang": "en",
+   "text": "stay, remain, wait, continue.",
+   "cap": 20
+  },
+  {
+   "id": "k9c36cb6a",
+   "lang": "ko",
+   "text": "물어볼 것은 하나예요. 그때까지 끝나나요, 그때까지 이어지나요?",
+   "cap": 21
+  },
+  {
+   "id": "ke3cbc46f",
+   "lang": "ko",
+   "text": "동안도 둘이에요. 빈칸 뒤가 숫자로 잰 길이인지, 이름이 있는 사건인지 보세요.",
+   "cap": 22
+  },
+  {
+   "id": "k062e5632",
+   "lang": "ko",
+   "text": "숫자로 잰 길이",
+   "cap": 23
+  },
+  {
+   "id": "ecb574b6d",
+   "lang": "en",
+   "text": "for.",
+   "cap": 23
+  },
+  {
+   "id": "ef5746a84",
+   "lang": "en",
+   "text": "for three hours, for two weeks.",
+   "cap": 23
+  },
+  {
+   "id": "k2fa1c167",
+   "lang": "ko",
+   "text": "회의, 비행, 폭풍 같은 사건",
+   "cap": 24
+  },
+  {
+   "id": "efca89cbf",
+   "lang": "en",
+   "text": "during.",
+   "cap": 24
+  },
+  {
+   "id": "e13d462db",
+   "lang": "en",
+   "text": "during the meeting, during the flight.",
+   "cap": 24
+  },
+  {
+   "id": "ed31da38b",
+   "lang": "en",
+   "text": "during",
+   "cap": 25
+  },
+  {
+   "id": "kf7ef7561",
+   "lang": "ko",
+   "text": "바로 뒤에는",
+   "cap": 25
+  },
+  {
+   "id": "ec95091b5",
+   "lang": "en",
+   "text": "three hours",
+   "cap": 25
+  },
+  {
+   "id": "k3f5ee58e",
+   "lang": "ko",
+   "text": "같은 숫자 길이가 오지 않아요. 숫자 길이",
+   "cap": 25
+  },
+  {
+   "id": "k7ac8b26c",
+   "lang": "ko",
+   "text": "숫자 길이 앞에 하나 더",
+   "cap": 26
+  },
+  {
+   "id": "ea121cd86",
+   "lang": "en",
+   "text": "within 30 days , 30",
+   "cap": 26
+  },
+  {
+   "id": "k3b5d3115",
+   "lang": "ko",
+   "text": "일 안에, 그 안의 아무 때나 한 번.",
+   "cap": 26
+  },
+  {
+   "id": "ed54f9ed1",
+   "lang": "en",
+   "text": "for",
+   "cap": 27
+  },
+  {
+   "id": "k07511796",
+   "lang": "ko",
+   "text": "그 길이 내내 쭉.",
+   "cap": 27
+  },
+  {
+   "id": "e02437cf1",
+   "lang": "en",
+   "text": "within",
+   "cap": 27
+  },
+  {
+   "id": "keaa0cf41",
+   "lang": "ko",
+   "text": "그 안의 어느 한때. 그림이 달라요.",
+   "cap": 27
+  },
+  {
+   "id": "k4e768a25",
+   "lang": "ko",
+   "text": "이번에는 지금을 기준으로 봐요.",
+   "cap": 28
+  },
+  {
+   "id": "e473a0cc6",
+   "lang": "en",
+   "text": "since 2021 , 2021",
+   "cap": 28
+  },
+  {
+   "id": "kfe1b5528",
+   "lang": "ko",
+   "text": "년부터 지금까지 쭉.",
+   "cap": 28
+  },
+  {
+   "id": "ea1934724",
+   "lang": "en",
+   "text": "since",
+   "cap": 29
+  },
+  {
+   "id": "k0d823d01",
+   "lang": "ko",
+   "text": "뒤에는 과거의 한 시점이 오고, 문장의 동사는 대개 현재완료예요",
+   "cap": 29
+  },
+  {
+   "id": "e6fb70a34",
+   "lang": "en",
+   "text": "has worked.",
+   "cap": 29
+  },
+  {
+   "id": "ec2fc1acb",
+   "lang": "en",
+   "text": "She has worked here since 2021.",
+   "cap": 30
+  },
+  {
+   "id": "kb20f9083",
+   "lang": "ko",
+   "text": "현재완료는 네 번째 튜토리얼에서 자세히 다뤄요.",
+   "cap": 30
+  },
+  {
+   "id": "k2b86686f",
+   "lang": "ko",
+   "text": "반대로",
+   "cap": 31
+  },
+  {
+   "id": "ee1517bd2",
+   "lang": "en",
+   "text": "in two weeks",
+   "cap": 31
+  },
+  {
+   "id": "k9b92419d",
+   "lang": "ko",
+   "text": "지금부터 2주 뒤. 그 날에 일어나요.",
+   "cap": 31
+  },
+  {
+   "id": "ke4df8d19",
+   "lang": "ko",
+   "text": "2주 안에 아무 때나라면",
+   "cap": 32
+  },
+  {
+   "id": "e6a604008",
+   "lang": "en",
+   "text": "within two weeks.",
+   "cap": 32
+  },
+  {
+   "id": "ke20ed0fa",
+   "lang": "ko",
+   "text": "끝의 한 점과 그 안의 아무 때, 그림이 달라요.",
+   "cap": 32
+  },
+  {
+   "id": "k3114d7b6",
+   "lang": "ko",
+   "text": "장소의 에, 에서도 나뉘어요. 한 지점",
+   "cap": 33
+  },
+  {
+   "id": "e5db28ad1",
+   "lang": "en",
+   "text": "at the front desk, at the airport.",
+   "cap": 33
+  },
+  {
+   "id": "kc2add2a8",
+   "lang": "ko",
+   "text": "면이나 층 위",
+   "cap": 34
+  },
+  {
+   "id": "e35dbdb15",
+   "lang": "en",
+   "text": "on the wall, on the third floor.",
+   "cap": 34
+  },
+  {
+   "id": "kbc8d637e",
+   "lang": "ko",
+   "text": "둘러싸인 공간이나 도시",
+   "cap": 35
+  },
+  {
+   "id": "e02bd91a1",
+   "lang": "en",
+   "text": "in the lobby, in Seoul.",
+   "cap": 35
+  },
+  {
+   "id": "k6f8c3691",
+   "lang": "ko",
+   "text": "둘 사이",
+   "cap": 36
+  },
+  {
+   "id": "e0a926f7a",
+   "lang": "en",
+   "text": "between",
+   "cap": 36
+  },
+  {
+   "id": "kc884fa65",
+   "lang": "ko",
+   "text": "셋 이상의 무리 가운데",
+   "cap": 36
+  },
+  {
+   "id": "e3b48ce58",
+   "lang": "en",
+   "text": "among.",
+   "cap": 36
+  },
+  {
+   "id": "ee212b723",
+   "lang": "en",
+   "text": "among the staff.",
+   "cap": 36
+  },
+  {
+   "id": "kecda8b63",
+   "lang": "ko",
+   "text": "길을 따라",
+   "cap": 37
+  },
+  {
+   "id": "e338539f7",
+   "lang": "en",
+   "text": "along",
+   "cap": 37
+  },
+  {
+   "id": "kb40509ab",
+   "lang": "ko",
+   "text": "길을 건너",
+   "cap": 37
+  },
+  {
+   "id": "e3830df1f",
+   "lang": "en",
+   "text": "across",
+   "cap": 37
+  },
+  {
+   "id": "ka7541985",
+   "lang": "ko",
+   "text": "곳곳에",
+   "cap": 37
+  },
+  {
+   "id": "e2931daed",
+   "lang": "en",
+   "text": "throughout",
+   "cap": 37
+  },
+  {
+   "id": "k353e2f7b",
+   "lang": "ko",
+   "text": "넘어서",
+   "cap": 37
+  },
+  {
+   "id": "efdb8c629",
+   "lang": "en",
+   "text": "beyond.",
+   "cap": 37
+  },
+  {
+   "id": "k8d6e9073",
+   "lang": "ko",
+   "text": "시간에도 써요",
+   "cap": 38
+  },
+  {
+   "id": "eff6c389b",
+   "lang": "en",
+   "text": "throughout the year",
+   "cap": 38
+  },
+  {
+   "id": "k5df16b28",
+   "lang": "ko",
+   "text": "한 해 내내. 그 기간 처음부터 끝까지예요.",
+   "cap": 38
+  },
+  {
+   "id": "kfcd1412d",
+   "lang": "ko",
+   "text": "시간도 장소도 아닌 뜻을 더하는 전치사도 있어요.",
+   "cap": 39
+  },
+  {
+   "id": "eaa11cea2",
+   "lang": "en",
+   "text": "as a consultant",
+   "cap": 39
+  },
+  {
+   "id": "k70dc5fe2",
+   "lang": "ko",
+   "text": "컨설턴트로서. 자격을 말해요.",
+   "cap": 39
+  },
+  {
+   "id": "k053a5296",
+   "lang": "ko",
+   "text": "숫자 앞에서는 둘을 구별해요.",
+   "cap": 40
+  },
+  {
+   "id": "e823c036c",
+   "lang": "en",
+   "text": "Sales increased by 20 percent.",
+   "cap": 40
+  },
+  {
+   "id": "k8a4358b9",
+   "lang": "ko",
+   "text": "늘어난 차이.",
+   "cap": 40
+  },
+  {
+   "id": "ee3e7c701",
+   "lang": "en",
+   "text": "Sales increased to 3 million dollars.",
+   "cap": 41
+  },
+  {
+   "id": "e59edcc97",
+   "lang": "en",
+   "text": "to",
+   "cap": 41
+  },
+  {
+   "id": "ke8127659",
+   "lang": "ko",
+   "text": "막대가 다다른 도착점.",
+   "cap": 41
+  },
+  {
+   "id": "k270f26a7",
+   "lang": "ko",
+   "text": "그림으로 보면",
+   "cap": 42
+  },
+  {
+   "id": "k206e8948",
+   "lang": "ko",
+   "text": "막대가 자란 만큼",
+   "cap": 42
+  },
+  {
+   "id": "kb4ab26c1",
+   "lang": "ko",
+   "text": "막대의 끝이에요.",
+   "cap": 42
+  },
+  {
+   "id": "e9c21428a",
+   "lang": "en",
+   "text": "via",
+   "cap": 43
+  },
+  {
+   "id": "kb86ba12d",
+   "lang": "ko",
+   "text": "을 거쳐",
+   "cap": 43
+  },
+  {
+   "id": "e87d27aef",
+   "lang": "en",
+   "text": "via e-mail.",
+   "cap": 43
+  },
+  {
+   "id": "ec9fd4741",
+   "lang": "en",
+   "text": "per",
+   "cap": 43
+  },
+  {
+   "id": "k6cb9e3a5",
+   "lang": "ko",
+   "text": "마다",
+   "cap": 43
+  },
+  {
+   "id": "e91edc420",
+   "lang": "en",
+   "text": "per person.",
+   "cap": 43
+  },
+  {
+   "id": "e99fb6afa",
+   "lang": "en",
+   "text": "upon",
+   "cap": 44
+  },
+  {
+   "id": "kd23b5ba5",
+   "lang": "ko",
+   "text": "하자마자.",
+   "cap": 44
+  },
+  {
+   "id": "ec35ea053",
+   "lang": "en",
+   "text": "upon arrival",
+   "cap": 44
+  },
+  {
+   "id": "k886a6f73",
+   "lang": "ko",
+   "text": "도착하자마자. 뒤에는 동작을 나타내는 명사가 와요.",
+   "cap": 44
+  },
+  {
+   "id": "k4d161052",
+   "lang": "ko",
+   "text": "그림으로 풀 수 없는 전치사도 있어요. 앞 낱말이 전치사를 골라요. 이것을 짝 표현이라고 해요.",
+   "cap": 45
+  },
+  {
+   "id": "e3afea97a",
+   "lang": "en",
+   "text": "responsible for, eligible for, interested in, familiar with.",
+   "cap": 46
+  },
+  {
+   "id": "kd5071001",
+   "lang": "ko",
+   "text": "뜻을 따지기보다 짝으로 외워요.",
+   "cap": 46
+  },
+  {
+   "id": "k33a26a1d",
+   "lang": "ko",
+   "text": "한국어 조사에 끌리면 틀려요. 에 접근",
+   "cap": 47
+  },
+  {
+   "id": "e563846e5",
+   "lang": "en",
+   "text": "access to",
+   "cap": 47
+  },
+  {
+   "id": "k82e4fa17",
+   "lang": "ko",
+   "text": "에 달려 있다",
+   "cap": 47
+  },
+  {
+   "id": "eb20ecc79",
+   "lang": "en",
+   "text": "depend on.",
+   "cap": 47
+  },
+  {
+   "id": "kbbab1f3f",
+   "lang": "ko",
+   "text": "을 따르다",
+   "cap": 48
+  },
+  {
+   "id": "e6aed502a",
+   "lang": "en",
+   "text": "comply with",
+   "cap": 48
+  },
+  {
+   "id": "k25eecaa8",
+   "lang": "ko",
+   "text": "에 답하다",
+   "cap": 48
+  },
+  {
+   "id": "e11319668",
+   "lang": "en",
+   "text": "respond to",
+   "cap": 48
+  },
+  {
+   "id": "k73b486f3",
+   "lang": "ko",
+   "text": "로 이루어지다",
+   "cap": 48
+  },
+  {
+   "id": "e3e04009c",
+   "lang": "en",
+   "text": "consist of.",
+   "cap": 48
+  },
+  {
+   "id": "kef09bae1",
+   "lang": "ko",
+   "text": "명사도 짝이 있어요.",
+   "cap": 49
+  },
+  {
+   "id": "e88552f51",
+   "lang": "en",
+   "text": "an increase in sales, demand for, a solution to the problem.",
+   "cap": 49
+  },
+  {
+   "id": "kdafa340c",
+   "lang": "ko",
+   "text": "빈칸 앞에 이런 낱말이 보이면 뒤의 명사보다 짝 카드를 먼저 떠올려요.",
+   "cap": 50
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 51
+  },
+  {
+   "id": "ka6c10522",
+   "lang": "ko",
+   "text": "첫째, 무엇을 나타내나요? 시간, 장소, 뜻을 더하는 말, 아니면 앞 낱말의 짝? 종류가 다른 보기는 지워요.",
+   "cap": 52
+  },
+  {
+   "id": "k78fdf9b2",
+   "lang": "ko",
+   "text": "둘째, 뒤의 명사를 봐요. 시각, 날, 큰 칸인지, 시점, 길이, 사건인지, 둘인지 셋 이상인지, 숫자인지.",
+   "cap": 53
+  },
+  {
+   "id": "k5f52eb17",
+   "lang": "ko",
+   "text": "셋째, 그림으로 확인해요. 끝나나, 이어지나? 차이냐, 도착점이냐? 짝 표현은 짝 카드로.",
+   "cap": 54
+  },
+  {
+   "id": "k8b885500",
+   "lang": "ko",
+   "text": "이 순서로 처음 본 문제를 풀어 볼까요?",
+   "cap": 55
+  },
+  {
+   "id": "k0be69de2",
+   "lang": "ko",
+   "text": "처음 본 문제예요. 첫째, 빈칸 뒤",
+   "cap": 56
+  },
+  {
+   "id": "eafa7bd61",
+   "lang": "en",
+   "text": "Friday",
+   "cap": 56
+  },
+  {
+   "id": "k70841634",
+   "lang": "ko",
+   "text": "시간이에요. 장소의 전치사 씨",
+   "cap": 56
+  },
+  {
+   "id": "e31844f66",
+   "lang": "en",
+   "text": "among",
+   "cap": 56
+  },
+  {
+   "id": "kfa74e09c",
+   "lang": "ko",
+   "text": "탈락.",
+   "cap": 56
+  },
+  {
+   "id": "k726a5031",
+   "lang": "ko",
+   "text": "둘째",
+   "cap": 57
+  },
+  {
+   "id": "k3111117a",
+   "lang": "ko",
+   "text": "날, 곧 한 시점이에요. 사건이 와야 하는 디",
+   "cap": 57
+  },
+  {
+   "id": "k8a92fba7",
+   "lang": "ko",
+   "text": "셋째, 제출은 한 번에 끝나는 일, 마감이에요. 이어짐의 에이",
+   "cap": 58
+  },
+  {
+   "id": "kc2887652",
+   "lang": "ko",
+   "text": "탈락. 정답은 비",
+   "cap": 58
+  },
+  {
+   "id": "e6cccb52f",
+   "lang": "en",
+   "text": "by.",
+   "cap": 58
+  },
+  {
+   "id": "ke120c72b",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째, 빈칸 뒤 , 18",
+   "cap": 59
+  },
+  {
+   "id": "eb1a66f33",
+   "lang": "en",
+   "text": "percent",
+   "cap": 59
+  },
+  {
+   "id": "k8bcaa314",
+   "lang": "ko",
+   "text": "숫자예요. 시간의 디",
+   "cap": 59
+  },
+  {
+   "id": "k9643871f",
+   "lang": "ko",
+   "text": "둘째, 숫자 앞에 자격은 올 수 없어요 , 비",
+   "cap": 60
+  },
+  {
+   "id": "e6dbe8dde",
+   "lang": "en",
+   "text": "as",
+   "cap": 60
+  },
+  {
+   "id": "k48f1a2e4",
+   "lang": "ko",
+   "text": "탈락. 남은 둘",
+   "cap": 60
+  },
+  {
+   "id": "ed8908a0c",
+   "lang": "en",
+   "text": "by, to.",
+   "cap": 60
+  },
+  {
+   "id": "k877d6faa",
+   "lang": "ko",
+   "text": "셋째",
+   "cap": 61
+  },
+  {
+   "id": "ea2033cfd",
+   "lang": "en",
+   "text": "over the previous year",
+   "cap": 61
+  },
+  {
+   "id": "kd79e8b23",
+   "lang": "ko",
+   "text": "지난해보다 늘어난 차이예요. 에이",
+   "cap": 61
+  },
+  {
+   "id": "k89a29fb4",
+   "lang": "ko",
+   "text": "탈락, 정답은 씨",
+   "cap": 61
+  },
+  {
+   "id": "kc2d43032",
+   "lang": "ko",
+   "text": "세 번째. 첫째, 빈칸 앞",
+   "cap": 62
+  },
+  {
+   "id": "e48b71994",
+   "lang": "en",
+   "text": "increase.",
+   "cap": 62
+  },
+  {
+   "id": "k5667e409",
+   "lang": "ko",
+   "text": "짝 전치사가 정해진 명사예요. 짝 표현이에요.",
+   "cap": 62
+  },
+  {
+   "id": "kcb91ecba",
+   "lang": "ko",
+   "text": "둘째, 뒤의 명사",
+   "cap": 63
+  },
+  {
+   "id": "ef8e989a1",
+   "lang": "en",
+   "text": "demand",
+   "cap": 63
+  },
+  {
+   "id": "kdf32dfb1",
+   "lang": "ko",
+   "text": "숫자가 아니라 늘어난 것이에요. 숫자 앞의 짝 씨",
+   "cap": 63
+  },
+  {
+   "id": "e72d69aa3",
+   "lang": "en",
+   "text": "of",
+   "cap": 63
+  },
+  {
+   "id": "k0296cf8b",
+   "lang": "ko",
+   "text": "셋째, 짝 카드",
+   "cap": 64
+  },
+  {
+   "id": "e8140b775",
+   "lang": "en",
+   "text": "increase in.",
+   "cap": 64
+  },
+  {
+   "id": "k189f12cd",
+   "lang": "ko",
+   "text": "에이",
+   "cap": 64
+  },
+  {
+   "id": "k52889977",
+   "lang": "ko",
+   "text": "디",
+   "cap": 64
+  },
+  {
+   "id": "k1b123590",
+   "lang": "ko",
+   "text": "정리해요. 한국어 조사로 옮기지 말고, 그림과 짝으로 골라요.",
+   "cap": 65
+  },
+  {
+   "id": "kf870ada1",
+   "lang": "ko",
+   "text": "시간은 크기와 그림으로",
+   "cap": 66
+  },
+  {
+   "id": "kf5260918",
+   "lang": "ko",
+   "text": "끝나면",
+   "cap": 66
+  },
+  {
+   "id": "k72c07a3d",
+   "lang": "ko",
+   "text": "이어지면",
+   "cap": 66
+  },
+  {
+   "id": "ecb02015c",
+   "lang": "en",
+   "text": "until.",
+   "cap": 66
+  },
+  {
+   "id": "k57e8cd77",
+   "lang": "ko",
+   "text": "장소도 그림으로 골라요. 숫자 앞에서는 차이",
+   "cap": 67
+  },
+  {
+   "id": "k5e4d33ae",
+   "lang": "ko",
+   "text": "도착점",
+   "cap": 67
+  },
+  {
+   "id": "e4a59473b",
+   "lang": "en",
+   "text": "to.",
+   "cap": 67
+  },
+  {
+   "id": "k06aa4bf3",
+   "lang": "ko",
+   "text": "짝 표현은 짝 카드로.",
+   "cap": 67
+  },
+  {
+   "id": "kb2693875",
+   "lang": "ko",
+   "text": "아래 놀이터의 까지 갈림길과 짝 카드로 손에 익혀 보세요.",
+   "cap": 68
+  },
+  {
+   "id": "e72a31093",
+   "lang": "en",
+   "text": "Please submit your expense report by Friday.",
+   "from": "say"
+  },
+  {
+   "id": "e20ef99ae",
+   "lang": "en",
+   "text": "by Friday",
+   "from": "say"
+  },
+  {
+   "id": "edd82e88f",
+   "lang": "en",
+   "text": "at 3 p.m.",
+   "from": "say"
+  },
+  {
+   "id": "e41574785",
+   "lang": "en",
+   "text": "on Monday",
+   "from": "say"
+  },
+  {
+   "id": "e5f2e29ec",
+   "lang": "en",
+   "text": "in May",
+   "from": "say"
+  },
+  {
+   "id": "e0e9c8998",
+   "lang": "en",
+   "text": "at 3 p.m., on Monday, in May",
+   "from": "say"
+  },
+  {
+   "id": "ee97dd536",
+   "lang": "en",
+   "text": "until 9 p.m.",
+   "from": "say"
+  },
+  {
+   "id": "e01ca0166",
+   "lang": "en",
+   "text": "by Friday, until 9 p.m.",
+   "from": "say"
+  },
+  {
+   "id": "ee4cc911a",
+   "lang": "en",
+   "text": "for three hours",
+   "from": "say"
+  },
+  {
+   "id": "e6e5d9c21",
+   "lang": "en",
+   "text": "during the meeting",
+   "from": "say"
+  },
+  {
+   "id": "ef0e96975",
+   "lang": "en",
+   "text": "for three hours, during the meeting",
+   "from": "say"
+  },
+  {
+   "id": "e61cca0bb",
+   "lang": "en",
+   "text": "within 30 days",
+   "from": "say"
+  },
+  {
+   "id": "e73b6d7d7",
+   "lang": "en",
+   "text": "within 30 days, in two weeks",
+   "from": "say"
+  },
+  {
+   "id": "ed855a029",
+   "lang": "en",
+   "text": "responsible for",
+   "from": "say"
+  },
+  {
+   "id": "e0f0e9283",
+   "lang": "en",
+   "text": "at noon",
+   "from": "say"
+  },
+  {
+   "id": "eadfb7439",
+   "lang": "en",
+   "text": "on May 5",
+   "from": "say"
+  },
+  {
+   "id": "edd644c6e",
+   "lang": "en",
+   "text": "in the morning",
+   "from": "say"
+  },
+  {
+   "id": "e0720eb99",
+   "lang": "en",
+   "text": "on Monday morning",
+   "from": "say"
+  },
+  {
+   "id": "e0bd39e6d",
+   "lang": "en",
+   "text": "The store will stay open until 9 p.m.",
+   "from": "say"
+  },
+  {
+   "id": "ef4401dd7",
+   "lang": "en",
+   "text": "The new branch will open in two weeks.",
+   "from": "say"
+  },
+  {
+   "id": "ea628e4f6",
+   "lang": "en",
+   "text": "within two weeks",
+   "from": "say"
+  },
+  {
+   "id": "eff387c2c",
+   "lang": "en",
+   "text": "at the front desk",
+   "from": "say"
+  },
+  {
+   "id": "eb60141eb",
+   "lang": "en",
+   "text": "at the airport",
+   "from": "say"
+  },
+  {
+   "id": "ee7553df4",
+   "lang": "en",
+   "text": "on the wall",
+   "from": "say"
+  },
+  {
+   "id": "e89070547",
+   "lang": "en",
+   "text": "on the third floor",
+   "from": "say"
+  },
+  {
+   "id": "e371347fe",
+   "lang": "en",
+   "text": "in the lobby",
+   "from": "say"
+  },
+  {
+   "id": "e132af995",
+   "lang": "en",
+   "text": "in Seoul",
+   "from": "say"
+  },
+  {
+   "id": "e0bbdba44",
+   "lang": "en",
+   "text": "at the airport, in Seoul",
+   "from": "say"
+  },
+  {
+   "id": "e359ce516",
+   "lang": "en",
+   "text": "between A and B",
+   "from": "say"
+  },
+  {
+   "id": "eb24e2e1f",
+   "lang": "en",
+   "text": "among the staff",
+   "from": "say"
+  },
+  {
+   "id": "e16f7f916",
+   "lang": "en",
+   "text": "along the river",
+   "from": "say"
+  },
+  {
+   "id": "e730f652b",
+   "lang": "en",
+   "text": "across the street",
+   "from": "say"
+  },
+  {
+   "id": "e695856e0",
+   "lang": "en",
+   "text": "throughout the hotel",
+   "from": "say"
+  },
+  {
+   "id": "e49f2d4d9",
+   "lang": "en",
+   "text": "beyond the gate",
+   "from": "say"
+  },
+  {
+   "id": "ecb6c58d1",
+   "lang": "en",
+   "text": "Mr. Park works as a consultant.",
+   "from": "say"
+  },
+  {
+   "id": "e89bbea9b",
+   "lang": "en",
+   "text": "via e-mail",
+   "from": "say"
+  },
+  {
+   "id": "ea68e3f4e",
+   "lang": "en",
+   "text": "per person",
+   "from": "say"
+  },
+  {
+   "id": "e71756f10",
+   "lang": "en",
+   "text": "eligible for",
+   "from": "say"
+  },
+  {
+   "id": "ee27ab788",
+   "lang": "en",
+   "text": "interested in",
+   "from": "say"
+  },
+  {
+   "id": "ea97e9037",
+   "lang": "en",
+   "text": "familiar with",
+   "from": "say"
+  },
+  {
+   "id": "e6401f16d",
+   "lang": "en",
+   "text": "depend on",
+   "from": "say"
+  },
+  {
+   "id": "e47a5ce5a",
+   "lang": "en",
+   "text": "consist of",
+   "from": "say"
+  },
+  {
+   "id": "e3a1dae86",
+   "lang": "en",
+   "text": "an increase in sales",
+   "from": "say"
+  },
+  {
+   "id": "ee5c16364",
+   "lang": "en",
+   "text": "demand for electric cars",
+   "from": "say"
+  },
+  {
+   "id": "ee2fde4a5",
+   "lang": "en",
+   "text": "a solution to the problem",
+   "from": "say"
+  },
+  {
+   "id": "eadc5b593",
+   "lang": "en",
+   "text": "The number of visitors to the museum rose by 18 percent over the previous year.",
+   "from": "say"
+  },
+  {
+   "id": "e0ac9c4eb",
+   "lang": "en",
+   "text": "There has been a sharp increase in demand for electric vehicles this year.",
+   "from": "say"
+  },
+  {
+   "id": "efb5f0d34",
+   "lang": "en",
+   "text": "at noon, on Monday, in May",
+   "from": "say"
+  },
+  {
+   "id": "e9345e1c9",
+   "lang": "en",
+   "text": "has worked here since 2021",
+   "from": "say"
+  },
+  {
+   "id": "e5521195f",
+   "lang": "en",
+   "text": "in the lobby, among the staff",
+   "from": "say"
+  },
+  {
+   "id": "eb5a90e61",
+   "lang": "en",
+   "text": "as a consultant, rose by 20 percent",
+   "from": "say"
+  },
+  {
+   "id": "e85b797fc",
+   "lang": "en",
+   "text": "Please return the signed form by May 10.",
+   "from": "say"
+  },
+  {
+   "id": "efd41d201",
+   "lang": "en",
+   "text": "The road will remain closed until Monday.",
+   "from": "say"
+  },
+  {
+   "id": "e9fe26c31",
+   "lang": "en",
+   "text": "The repairs will be finished by noon.",
+   "from": "say"
+  },
+  {
+   "id": "e1da254d3",
+   "lang": "en",
+   "text": "Please wait in the lobby until noon.",
+   "from": "say"
+  }
+ ]
+}
