@@ -385,7 +385,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
   <footer>
     <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 실전 문제에서 지워지는 순서, 직접 해 보기의 채점, 대명사 표 놀이터의 판정과 풀이, 3단계 판정기, 연습 문제의 힌트와 보기별 해설, 퀴즈의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
     <p>단순하게 줄인 부분도 있어요. 빈칸이 가리키는 말, 빈칸의 자리, 주어와 같은 사람인지, 무리가 정해져 있는지는 문제마다 정해 두었고, 규칙 엔진은 그 정보로 판정해요. 문장의 뜻을 스스로 알아내지는 않아요. 회사 · 기관은 토익(미국식 영어) 기준으로 <i lang="en">it · its</i>로만 받아요. 영국식 영어에서는 <i lang="en">they</i>로 받기도 해요. 성별을 모르는 한 사람을 가리키는 <i lang="en">they</i>, <i lang="en">each other</i>와 <i lang="en">one another</i>의 차이, <i lang="en">other</i> + 셀 수 없는 명사(<i lang="en">other information</i>)는 다루지 않았어요. 주어 자리의 <i lang="en">myself</i>(<i lang="en">Mr. Okafor and myself will …</i>)는 실제 말에서 쓰는 사람도 있지만, 시험 기준으로 틀린 것으로 봐요. <i lang="en">that · those</i>는 비교 문장의 되풀이 대신과 <i lang="en">those who</i>만 다뤘어요. 명사 쪽의 <i lang="en">another · other</i>는 <a href="../nouns-articles/index.html">T06 명사 · 관사</a>, 관계대명사 <i lang="en">who · which</i>는 <a href="../relative-pronouns/index.html">T01</a>에서 다뤄요. 예문과 문제는 토익 형식을 본떠 직접 만든 것으로, 실제 시험 문제가 아니에요.</p>
-    <p>음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+    <p>음성 해설과 발음 듣기는 VoiceStudio로 미리 만든 합성 음성으로 읽어요(해설의 한국어는 젊은 여성 내레이터, 영어와 발음 듣기는 미국 여성 선생님 목소리). 놀이터에서 만든 문장처럼 파일이 없는 글은 브라우저에 들어 있는 음성(speechSynthesis)으로 읽고, 브라우저 음성은 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
   </footer>
 </div>
 
@@ -394,6 +394,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
 <script src="../shared/drill.js"></script>
 <script src="assets/js/grammar.js"></script>
 <script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,1675 @@
+{
+ "slug": "pronouns",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 123,
+  "en": 154,
+  "say": 73,
+  "koChars": 2278,
+  "enChars": 3279
+ },
+ "pieces": [
+  {
+   "id": "k51c2f045",
+   "lang": "ko",
+   "text": "토익 파트 5에는",
+   "cap": 0
+  },
+  {
+   "id": "e0eda4649",
+   "lang": "en",
+   "text": "he, him, his, himself",
+   "cap": 0
+  },
+  {
+   "id": "kafde266c",
+   "lang": "ko",
+   "text": "처럼 같은 대명사의 여러 모양 가운데 하나를 고르는 문제가 자주 나와요.",
+   "cap": 0
+  },
+  {
+   "id": "kf244d2db",
+   "lang": "ko",
+   "text": "이 문제의 보기를 보세요",
+   "cap": 1
+  },
+  {
+   "id": "e958565cc",
+   "lang": "en",
+   "text": "its, it, their, it is.",
+   "cap": 1
+  },
+  {
+   "id": "kc40c20d7",
+   "lang": "ko",
+   "text": "비슷해 보여도 가리키는 대상과 자리가 서로 달라요.",
+   "cap": 1
+  },
+  {
+   "id": "k97ba5231",
+   "lang": "ko",
+   "text": "물어볼 것은 두 가지예요. 빈칸이 누구를 가리키나? 빈칸이 문장의 어느 자리에 있나?",
+   "cap": 2
+  },
+  {
+   "id": "kaea4903a",
+   "lang": "ko",
+   "text": "누구인지가 대명사 표의 줄을, 자리가 칸을 정해요. 정답은 영상 끝에서 함께 풀어요.",
+   "cap": 3
+  },
+  {
+   "id": "k96ee8530",
+   "lang": "ko",
+   "text": "화살표, 자리, 짝을 차례로 배우고 3단계 풀이법으로 묶어요.",
+   "cap": 4
+  },
+  {
+   "id": "k657eae8a",
+   "lang": "ko",
+   "text": "앞에 나온 명사를 되풀이하지 않으려고 대신 쓰는 말이 대명사예요. 영어로는",
+   "cap": 5
+  },
+  {
+   "id": "eb56d8409",
+   "lang": "en",
+   "text": "pronoun.",
+   "cap": 5
+  },
+  {
+   "id": "e90f316cc",
+   "lang": "en",
+   "text": "Ms.",
+   "cap": 6
+  },
+  {
+   "id": "e965f92f7",
+   "lang": "en",
+   "text": "Kim finished the report and sent it to her manager.",
+   "cap": 6
+  },
+  {
+   "id": "e20079777",
+   "lang": "en",
+   "text": "it , the report, her , Ms.",
+   "cap": 6
+  },
+  {
+   "id": "e28dbba6d",
+   "lang": "en",
+   "text": "Kim.",
+   "cap": 6
+  },
+  {
+   "id": "k4a9f21ea",
+   "lang": "ko",
+   "text": "대명사에서 그 명사로 화살표를 그려 보세요. 화살표 끝의 말을 이 영상에서는 가리키는 말이라고 불러요.",
+   "cap": 7
+  },
+  {
+   "id": "k686b8e45",
+   "lang": "ko",
+   "text": "한국어는 이런 말을 자주 빼요. 김 씨는 보고서를 끝내고 매니저에게 보냈어요. 그것을, 자기를 빼도 통해요.",
+   "cap": 8
+  },
+  {
+   "id": "k42b16b8b",
+   "lang": "ko",
+   "text": "영어는 빼지 않고 꼭 대명사를 써요. 그래서 누구를 가리키는지, 어느 자리인지에 맞는 모양을 골라야 해요.",
+   "cap": 9
+  },
+  {
+   "id": "k201e979d",
+   "lang": "ko",
+   "text": "대명사를 표 하나로 모아 볼게요. 가로 줄마다 가리키는 대상이 달라요.",
+   "cap": 10
+  },
+  {
+   "id": "k0546cd85",
+   "lang": "ko",
+   "text": "나는",
+   "cap": 11
+  },
+  {
+   "id": "e6156b751",
+   "lang": "en",
+   "text": "I",
+   "cap": 11
+  },
+  {
+   "id": "k4140e4e3",
+   "lang": "ko",
+   "text": "우리는",
+   "cap": 11
+  },
+  {
+   "id": "e63ea0abe",
+   "lang": "en",
+   "text": "we",
+   "cap": 11
+  },
+  {
+   "id": "k0d79108e",
+   "lang": "ko",
+   "text": "듣는 사람은",
+   "cap": 11
+  },
+  {
+   "id": "ea204706d",
+   "lang": "en",
+   "text": "you",
+   "cap": 11
+  },
+  {
+   "id": "k4310055d",
+   "lang": "ko",
+   "text": "남자 한 사람은",
+   "cap": 11
+  },
+  {
+   "id": "e83cff9a1",
+   "lang": "en",
+   "text": "he",
+   "cap": 11
+  },
+  {
+   "id": "k15ded959",
+   "lang": "ko",
+   "text": "여자 한 사람은",
+   "cap": 11
+  },
+  {
+   "id": "efaee3136",
+   "lang": "en",
+   "text": "she.",
+   "cap": 11
+  },
+  {
+   "id": "k61537375",
+   "lang": "ko",
+   "text": "사물 하나는",
+   "cap": 12
+  },
+  {
+   "id": "e60d2011f",
+   "lang": "en",
+   "text": "it",
+   "cap": 12
+  },
+  {
+   "id": "k3d46d748",
+   "lang": "ko",
+   "text": "여럿은 사람이든 사물이든",
+   "cap": 12
+  },
+  {
+   "id": "ebd9e8c12",
+   "lang": "en",
+   "text": "they.",
+   "cap": 12
+  },
+  {
+   "id": "k76361822",
+   "lang": "ko",
+   "text": "이 줄을 고르는 게 첫 번째 질문이에요.",
+   "cap": 12
+  },
+  {
+   "id": "k74922815",
+   "lang": "ko",
+   "text": "회사는 사람이 많이 일해도 하나예요.",
+   "cap": 13
+  },
+  {
+   "id": "e677d5e84",
+   "lang": "en",
+   "text": "Hanbit Electronics , it",
+   "cap": 13
+  },
+  {
+   "id": "kdaa07f7e",
+   "lang": "ko",
+   "text": "줄, 소유격은",
+   "cap": 13
+  },
+  {
+   "id": "efba8491e",
+   "lang": "en",
+   "text": "its.",
+   "cap": 13
+  },
+  {
+   "id": "k8f911067",
+   "lang": "ko",
+   "text": "한국어는 직원과 직원들을 꼭 나누지 않아요. 영어 대명사는 하나와 여럿을 꼭 나눠요.",
+   "cap": 14
+  },
+  {
+   "id": "kc6127805",
+   "lang": "ko",
+   "text": "직원들은 여럿",
+   "cap": 15
+  },
+  {
+   "id": "e012b96c8",
+   "lang": "en",
+   "text": "they",
+   "cap": 15
+  },
+  {
+   "id": "e6eac4550",
+   "lang": "en",
+   "text": "their.",
+   "cap": 15
+  },
+  {
+   "id": "k15952cab",
+   "lang": "ko",
+   "text": "같은 회사 이야기여도 가리키는 말이 줄을 정해요.",
+   "cap": 15
+  },
+  {
+   "id": "k899142ca",
+   "lang": "ko",
+   "text": "이번에는 세로 칸이에요. 같은 줄의 대명사도 문장 속 자리에 따라 모양이 바뀌어요.",
+   "cap": 16
+  },
+  {
+   "id": "kc6990bea",
+   "lang": "ko",
+   "text": "한국어는 조사를 바꿔요. 그들은, 그들을, 그들의. 영어는 낱말 자체가 바뀌어요",
+   "cap": 17
+  },
+  {
+   "id": "eee70a320",
+   "lang": "en",
+   "text": "they, them, their.",
+   "cap": 17
+  },
+  {
+   "id": "kc21bfb95",
+   "lang": "ko",
+   "text": "동사 앞 주어 자리는 주격",
+   "cap": 18
+  },
+  {
+   "id": "k9b5378d3",
+   "lang": "ko",
+   "text": "동사나 전치사 뒤 목적어 자리는 목적격",
+   "cap": 18
+  },
+  {
+   "id": "ebd8076fe",
+   "lang": "en",
+   "text": "them.",
+   "cap": 18
+  },
+  {
+   "id": "k2a017e71",
+   "lang": "ko",
+   "text": "명사 앞에서 누구의를 말하면 소유격",
+   "cap": 19
+  },
+  {
+   "id": "ke04d30be",
+   "lang": "ko",
+   "text": "소유격 바로 뒤에는 꼭 명사가 와요.",
+   "cap": 19
+  },
+  {
+   "id": "k4ee045c2",
+   "lang": "ko",
+   "text": "뒤에 명사 없이 홀로 누구의 것을 말하면 소유대명사",
+   "cap": 20
+  },
+  {
+   "id": "eb88b48fb",
+   "lang": "en",
+   "text": "theirs.",
+   "cap": 20
+  },
+  {
+   "id": "ebf8cf71a",
+   "lang": "en",
+   "text": "They finished their report.",
+   "cap": 21
+  },
+  {
+   "id": "e79c2b5ed",
+   "lang": "en",
+   "text": "The best report was theirs.",
+   "cap": 21
+  },
+  {
+   "id": "kdb33b4de",
+   "lang": "ko",
+   "text": "칸은 빈칸의 앞뒤가 정해요.",
+   "cap": 21
+  },
+  {
+   "id": "k42e937dd",
+   "lang": "ko",
+   "text": "소유격과 소유대명사는 뜻이 비슷해서 헷갈려요. 가르는 기준은 하나, 뒤에 명사가 있나예요.",
+   "cap": 22
+  },
+  {
+   "id": "e079716e8",
+   "lang": "en",
+   "text": "This is their office.",
+   "cap": 23
+  },
+  {
+   "id": "kbe1be6aa",
+   "lang": "ko",
+   "text": "뒤에 명사가 있어요",
+   "cap": 23
+  },
+  {
+   "id": "e0bf48d4b",
+   "lang": "en",
+   "text": "This office is theirs.",
+   "cap": 23
+  },
+  {
+   "id": "k2ccde3b8",
+   "lang": "ko",
+   "text": "뒤에 명사가 없어요",
+   "cap": 23
+  },
+  {
+   "id": "e3606614f",
+   "lang": "en",
+   "text": "theirs, their office.",
+   "cap": 24
+  },
+  {
+   "id": "kd3262d31",
+   "lang": "ko",
+   "text": "소유대명사는 소유격 플러스 명사를 한 낱말로 줄인 말이에요",
+   "cap": 24
+  },
+  {
+   "id": "e05863e8a",
+   "lang": "en",
+   "text": "mine, yours, hers, ours.",
+   "cap": 24
+  },
+  {
+   "id": "kec05c50e",
+   "lang": "ko",
+   "text": "줄에는 소유대명사가 없어요. 그리고",
+   "cap": 25
+  },
+  {
+   "id": "e4936b583",
+   "lang": "en",
+   "text": "its, it is",
+   "cap": 25
+  },
+  {
+   "id": "kbe305d19",
+   "lang": "ko",
+   "text": "서로 달라요.",
+   "cap": 25
+  },
+  {
+   "id": "ed6983d04",
+   "lang": "en",
+   "text": "its",
+   "cap": 25
+  },
+  {
+   "id": "ka3b49c58",
+   "lang": "ko",
+   "text": "그것의",
+   "cap": 25
+  },
+  {
+   "id": "e60adc2f6",
+   "lang": "en",
+   "text": "it is, it is.",
+   "cap": 25
+  },
+  {
+   "id": "k2b16ef00",
+   "lang": "ko",
+   "text": "자기만의를 말할 때도 소유격 플러스",
+   "cap": 26
+  },
+  {
+   "id": "efb88f805",
+   "lang": "en",
+   "text": "own , their own office, its own website.",
+   "cap": 26
+  },
+  {
+   "id": "e5ba01258",
+   "lang": "en",
+   "text": "on her own",
+   "cap": 26
+  },
+  {
+   "id": "k68019e27",
+   "lang": "ko",
+   "text": "혼자서.",
+   "cap": 26
+  },
+  {
+   "id": "eacd50b95",
+   "lang": "en",
+   "text": "Novak introduced herself.",
+   "cap": 27
+  },
+  {
+   "id": "kc20817a8",
+   "lang": "ko",
+   "text": "목적어가 주어와 같은 사람이면 재귀대명사를 써요 , 끝이 셀프.",
+   "cap": 27
+  },
+  {
+   "id": "e1fe75f3b",
+   "lang": "en",
+   "text": "Novak introduced her.",
+   "cap": 28
+  },
+  {
+   "id": "kd25448f0",
+   "lang": "ko",
+   "text": "이렇게 쓰면",
+   "cap": 28
+  },
+  {
+   "id": "e53664729",
+   "lang": "en",
+   "text": "her",
+   "cap": 28
+  },
+  {
+   "id": "k53297200",
+   "lang": "ko",
+   "text": "노박 씨가 아닌 다른 여자예요.",
+   "cap": 28
+  },
+  {
+   "id": "k972bfbac",
+   "lang": "ko",
+   "text": "한국어 자기는 둘 다 돼요. 자기를 소개했다",
+   "cap": 29
+  },
+  {
+   "id": "ef060c9e7",
+   "lang": "en",
+   "text": "herself.",
+   "cap": 29
+  },
+  {
+   "id": "k2f6ddf09",
+   "lang": "ko",
+   "text": "자기 팀을 소개했다",
+   "cap": 29
+  },
+  {
+   "id": "ee155a784",
+   "lang": "en",
+   "text": "her team.",
+   "cap": 29
+  },
+  {
+   "id": "k9a19b080",
+   "lang": "ko",
+   "text": "강조할 때도 써요",
+   "cap": 30
+  },
+  {
+   "id": "e45238997",
+   "lang": "en",
+   "text": "Lopez will hand out the awards herself.",
+   "cap": 30
+  },
+  {
+   "id": "ka7474254",
+   "lang": "ko",
+   "text": "다른 사람이 아니라 직접이라는 뜻이에요.",
+   "cap": 30
+  },
+  {
+   "id": "e8e508ceb",
+   "lang": "en",
+   "text": "by himself",
+   "cap": 31
+  },
+  {
+   "id": "kd27fd5a3",
+   "lang": "ko",
+   "text": "혼자서, 남의 도움 없이. 같은 뜻",
+   "cap": 31
+  },
+  {
+   "id": "ef23510cb",
+   "lang": "en",
+   "text": "on his own.",
+   "cap": 31
+  },
+  {
+   "id": "kef30cca1",
+   "lang": "ko",
+   "text": "하지만 재귀대명사는 주어 자리에 못 와요",
+   "cap": 32
+  },
+  {
+   "id": "eb2f58ae9",
+   "lang": "en",
+   "text": "Mr.",
+   "cap": 32
+  },
+  {
+   "id": "eff4b8c09",
+   "lang": "en",
+   "text": "Okafor and I will lead the session.",
+   "cap": 32
+  },
+  {
+   "id": "k2f1bc3ac",
+   "lang": "ko",
+   "text": "주어는 늘 주격이에요.",
+   "cap": 32
+  },
+  {
+   "id": "k641d4cf7",
+   "lang": "ko",
+   "text": "이번에는 정해진 사람이 아니라 몇 개 가운데 하나를 가리키는 말이에요. 부정대명사라고 불러요.",
+   "cap": 33
+  },
+  {
+   "id": "k1b60d68b",
+   "lang": "ko",
+   "text": "둘 가운데 먼저 하나",
+   "cap": 34
+  },
+  {
+   "id": "eca8935bc",
+   "lang": "en",
+   "text": "one.",
+   "cap": 34
+  },
+  {
+   "id": "k6a8e3d13",
+   "lang": "ko",
+   "text": "남은 하나",
+   "cap": 34
+  },
+  {
+   "id": "e62f52873",
+   "lang": "en",
+   "text": "the other.",
+   "cap": 34
+  },
+  {
+   "id": "k9bbc9242",
+   "lang": "ko",
+   "text": "남은 게 하나뿐이라 정해져 있어요",
+   "cap": 34
+  },
+  {
+   "id": "e382bed5d",
+   "lang": "en",
+   "text": "the.",
+   "cap": 34
+  },
+  {
+   "id": "ed40797b7",
+   "lang": "en",
+   "text": "We have two offices.",
+   "cap": 35
+  },
+  {
+   "id": "eb4020371",
+   "lang": "en",
+   "text": "One is in Seoul, and the other is in Busan.",
+   "cap": 35
+  },
+  {
+   "id": "k30d63fb6",
+   "lang": "ko",
+   "text": "셋이면",
+   "cap": 36
+  },
+  {
+   "id": "ebde978fa",
+   "lang": "en",
+   "text": "one",
+   "cap": 36
+  },
+  {
+   "id": "ka53abfbd",
+   "lang": "ko",
+   "text": "다음 하나는",
+   "cap": 36
+  },
+  {
+   "id": "e46464f25",
+   "lang": "en",
+   "text": "another",
+   "cap": 36
+  },
+  {
+   "id": "k275099bc",
+   "lang": "ko",
+   "text": "마지막 하나는",
+   "cap": 36
+  },
+  {
+   "id": "e0882f2da",
+   "lang": "en",
+   "text": "another, an",
+   "cap": 36
+  },
+  {
+   "id": "k965acc47",
+   "lang": "ko",
+   "text": "플러스",
+   "cap": 36
+  },
+  {
+   "id": "e176c4a00",
+   "lang": "en",
+   "text": "other",
+   "cap": 36
+  },
+  {
+   "id": "k929744f1",
+   "lang": "ko",
+   "text": "또 하나예요.",
+   "cap": 36
+  },
+  {
+   "id": "k510a9dd4",
+   "lang": "ko",
+   "text": "아직 더 남아 있는 또 하나.",
+   "cap": 37
+  },
+  {
+   "id": "e7e42098f",
+   "lang": "en",
+   "text": "the other",
+   "cap": 37
+  },
+  {
+   "id": "k504b8e74",
+   "lang": "ko",
+   "text": "남은 마지막 하나.",
+   "cap": 37
+  },
+  {
+   "id": "k9022fe15",
+   "lang": "ko",
+   "text": "그래서 둘뿐이면",
+   "cap": 38
+  },
+  {
+   "id": "k2adec4ff",
+   "lang": "ko",
+   "text": "다음은 언제나",
+   "cap": 38
+  },
+  {
+   "id": "kd36a560c",
+   "lang": "ko",
+   "text": "정해진 나머지를 가리킬 때",
+   "cap": 38
+  },
+  {
+   "id": "kc1e5a09c",
+   "lang": "ko",
+   "text": "여럿을 가리킬 때도 같아요. 정해진 무리에서 나머지 전부",
+   "cap": 39
+  },
+  {
+   "id": "ea3d0076e",
+   "lang": "en",
+   "text": "the others.",
+   "cap": 39
+  },
+  {
+   "id": "e15cdd91c",
+   "lang": "en",
+   "text": "Of the six chairs, two are broken, but the others are fine.",
+   "cap": 40
+  },
+  {
+   "id": "kaf7f5228",
+   "lang": "ko",
+   "text": "나머지 네 개가 정해져 있어요.",
+   "cap": 40
+  },
+  {
+   "id": "e2172b24a",
+   "lang": "en",
+   "text": "Some guests stayed inside, and others went to the garden.",
+   "cap": 41
+  },
+  {
+   "id": "kdaba067c",
+   "lang": "ko",
+   "text": "정해지지 않은 다른 몇몇",
+   "cap": 41
+  },
+  {
+   "id": "efbcb8665",
+   "lang": "en",
+   "text": "others.",
+   "cap": 41
+  },
+  {
+   "id": "kadcc3bba",
+   "lang": "ko",
+   "text": "홀로 못 서는 말도 있어요.",
+   "cap": 42
+  },
+  {
+   "id": "ka56de581",
+   "lang": "ko",
+   "text": "플러스 복수 명사",
+   "cap": 42
+  },
+  {
+   "id": "e3a95748f",
+   "lang": "en",
+   "text": "other hotels.",
+   "cap": 42
+  },
+  {
+   "id": "kbda26840",
+   "lang": "ko",
+   "text": "단수 명사 앞",
+   "cap": 42
+  },
+  {
+   "id": "e326f2c4f",
+   "lang": "en",
+   "text": "another date.",
+   "cap": 42
+  },
+  {
+   "id": "kf13dbb5a",
+   "lang": "ko",
+   "text": "소유격과 소유대명사처럼 짝을 지어 보세요",
+   "cap": 43
+  },
+  {
+   "id": "k190bb4a4",
+   "lang": "ko",
+   "text": "플러스 명사",
+   "cap": 43
+  },
+  {
+   "id": "e52793309",
+   "lang": "en",
+   "text": "others",
+   "cap": 43
+  },
+  {
+   "id": "kd3a8de43",
+   "lang": "ko",
+   "text": "홀로. 서로",
+   "cap": 43
+  },
+  {
+   "id": "e55eda2a9",
+   "lang": "en",
+   "text": "each other.",
+   "cap": 43
+  },
+  {
+   "id": "kd9a2658b",
+   "lang": "ko",
+   "text": "비교하는 문장에서는 같은 명사를 두 번 쓰지 않아요. 가격과 가격을 비교하는 문장을 볼게요.",
+   "cap": 44
+  },
+  {
+   "id": "e96b2985a",
+   "lang": "en",
+   "text": "The price of the new model is lower than that of the old model.",
+   "cap": 45
+  },
+  {
+   "id": "kdc73b30d",
+   "lang": "ko",
+   "text": "뒤의",
+   "cap": 45
+  },
+  {
+   "id": "ebff2b2ed",
+   "lang": "en",
+   "text": "the price , that.",
+   "cap": 45
+  },
+  {
+   "id": "e786e973f",
+   "lang": "en",
+   "text": "This years sales are higher than those of last year.",
+   "cap": 46
+  },
+  {
+   "id": "k8f56d46d",
+   "lang": "ko",
+   "text": "가리키는 말",
+   "cap": 46
+  },
+  {
+   "id": "e765abcb6",
+   "lang": "en",
+   "text": "sales",
+   "cap": 46
+  },
+  {
+   "id": "ka20c7e10",
+   "lang": "ko",
+   "text": "여럿이라",
+   "cap": 46
+  },
+  {
+   "id": "e8a06eef3",
+   "lang": "en",
+   "text": "those.",
+   "cap": 46
+  },
+  {
+   "id": "k547602f5",
+   "lang": "ko",
+   "text": "뒤에",
+   "cap": 47
+  },
+  {
+   "id": "e72d69aa3",
+   "lang": "en",
+   "text": "of",
+   "cap": 47
+  },
+  {
+   "id": "k9e1ea732",
+   "lang": "ko",
+   "text": "같은 꾸밈말이 붙으면 대명사 가운데서는",
+   "cap": 47
+  },
+  {
+   "id": "e10e50ba2",
+   "lang": "en",
+   "text": "that, those.",
+   "cap": 47
+  },
+  {
+   "id": "kf2af567f",
+   "lang": "ko",
+   "text": "하나면",
+   "cap": 47
+  },
+  {
+   "id": "e0e36389b",
+   "lang": "en",
+   "text": "that",
+   "cap": 47
+  },
+  {
+   "id": "kaa1ddba8",
+   "lang": "ko",
+   "text": "여럿이면",
+   "cap": 47
+  },
+  {
+   "id": "e2d71c677",
+   "lang": "en",
+   "text": "those who",
+   "cap": 48
+  },
+  {
+   "id": "k12e3233d",
+   "lang": "ko",
+   "text": "하는 사람들.",
+   "cap": 48
+  },
+  {
+   "id": "e05f3baf9",
+   "lang": "en",
+   "text": "Those who register early will get a discount.",
+   "cap": 48
+  },
+  {
+   "id": "efa6818de",
+   "lang": "en",
+   "text": "who",
+   "cap": 48
+  },
+  {
+   "id": "ke59cf44d",
+   "lang": "ko",
+   "text": "절이 꾸미는 사람들",
+   "cap": 48
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 49
+  },
+  {
+   "id": "k2fabad7b",
+   "lang": "ko",
+   "text": "첫째, 화살표를 그려요. 가리키는 말이 사람인지 사물인지, 하나인지 여럿인지 보고 줄이 다른 보기를 지워요.",
+   "cap": 50
+  },
+  {
+   "id": "k09d27bde",
+   "lang": "ko",
+   "text": "둘째, 자리를 봐요. 동사 앞은 주격, 동사, 전치사 뒤는 목적격, 명사 앞은 소유격, 홀로면 소유대명사.",
+   "cap": 51
+  },
+  {
+   "id": "k43ac68af",
+   "lang": "ko",
+   "text": "셋째, 짝을 확인해요. 주어와 같은 사람 , 셀프. 둘 가운데 남은 하나",
+   "cap": 52
+  },
+  {
+   "id": "k2171c1e3",
+   "lang": "ko",
+   "text": "꾸밈말",
+   "cap": 52
+  },
+  {
+   "id": "k6f5aa8a4",
+   "lang": "ko",
+   "text": "이 순서로 처음에 본 문제부터 풀어 볼까요?",
+   "cap": 53
+  },
+  {
+   "id": "kfe0c26e0",
+   "lang": "ko",
+   "text": "처음에 본 문제예요. 첫째, 화살표",
+   "cap": 54
+  },
+  {
+   "id": "e1a9cee1b",
+   "lang": "en",
+   "text": "Hanbit Electronics.",
+   "cap": 54
+  },
+  {
+   "id": "kd3337eb3",
+   "lang": "ko",
+   "text": "회사 하나라서",
+   "cap": 54
+  },
+  {
+   "id": "k515ec469",
+   "lang": "ko",
+   "text": "줄이에요.",
+   "cap": 54
+  },
+  {
+   "id": "kc8c309ff",
+   "lang": "ko",
+   "text": "줄이 다른 씨",
+   "cap": 55
+  },
+  {
+   "id": "e9177375e",
+   "lang": "en",
+   "text": "their",
+   "cap": 55
+  },
+  {
+   "id": "kb560be97",
+   "lang": "ko",
+   "text": "탈락. 둘째, 빈칸 바로 뒤에 명사가 있어요",
+   "cap": 55
+  },
+  {
+   "id": "ef6a1c785",
+   "lang": "en",
+   "text": "headquarters.",
+   "cap": 55
+  },
+  {
+   "id": "k875c85a1",
+   "lang": "ko",
+   "text": "명사 앞은 소유격 칸.",
+   "cap": 55
+  },
+  {
+   "id": "kfd6b92a2",
+   "lang": "ko",
+   "text": "탈락 , 비",
+   "cap": 56
+  },
+  {
+   "id": "k52889977",
+   "lang": "ko",
+   "text": "디",
+   "cap": 56
+  },
+  {
+   "id": "e92eb6cf9",
+   "lang": "en",
+   "text": "it is.",
+   "cap": 56
+  },
+  {
+   "id": "k18f5b95d",
+   "lang": "ko",
+   "text": "셋째, 따로 볼 짝은 없어요. 정답은 에이",
+   "cap": 56
+  },
+  {
+   "id": "k3912d75e",
+   "lang": "ko",
+   "text": "두 번째 문제. 첫째, 화살표",
+   "cap": 57
+  },
+  {
+   "id": "e6f3fe37c",
+   "lang": "en",
+   "text": "Tanaka",
+   "cap": 57
+  },
+  {
+   "id": "kb4bfa2e7",
+   "lang": "ko",
+   "text": "남자 한 사람이라",
+   "cap": 57
+  },
+  {
+   "id": "k50207628",
+   "lang": "ko",
+   "text": "줄. 보기가 모두 같은 줄이에요.",
+   "cap": 57
+  },
+  {
+   "id": "kb8321587",
+   "lang": "ko",
+   "text": "둘째, 전치사",
+   "cap": 58
+  },
+  {
+   "id": "e63b62f5b",
+   "lang": "en",
+   "text": "by",
+   "cap": 58
+  },
+  {
+   "id": "k1d038b22",
+   "lang": "ko",
+   "text": "뒤 목적어 자리예요. 탈락 , 에이",
+   "cap": 58
+  },
+  {
+   "id": "ka290f667",
+   "lang": "ko",
+   "text": "비",
+   "cap": 58
+  },
+  {
+   "id": "e3a7718b4",
+   "lang": "en",
+   "text": "his.",
+   "cap": 58
+  },
+  {
+   "id": "ke63d6abf",
+   "lang": "ko",
+   "text": "소유격 뒤에는 명사가 와야 해요.",
+   "cap": 58
+  },
+  {
+   "id": "kb5447df2",
+   "lang": "ko",
+   "text": "셋째, 빈칸, 주어",
+   "cap": 59
+  },
+  {
+   "id": "k7069b586",
+   "lang": "ko",
+   "text": "자신. 같은 사람이라 디",
+   "cap": 59
+  },
+  {
+   "id": "e6c5be128",
+   "lang": "en",
+   "text": "him",
+   "cap": 59
+  },
+  {
+   "id": "ke5f96dfe",
+   "lang": "ko",
+   "text": "탈락. 정답은 씨",
+   "cap": 59
+  },
+  {
+   "id": "eb84273d2",
+   "lang": "en",
+   "text": "himself",
+   "cap": 59
+  },
+  {
+   "id": "kcc358f16",
+   "lang": "ko",
+   "text": "세 번째. 첫째, 화살표 , 두 사무실 가운데 남은 하나. 하나라서 , 디",
+   "cap": 60
+  },
+  {
+   "id": "kfa74e09c",
+   "lang": "ko",
+   "text": "탈락.",
+   "cap": 60
+  },
+  {
+   "id": "kcba1fe3b",
+   "lang": "ko",
+   "text": "둘째, 빈칸 뒤에 명사 없이 동사가 와요. 홀로 쓰는 자리라 , 비",
+   "cap": 61
+  },
+  {
+   "id": "k8b8dacf5",
+   "lang": "ko",
+   "text": "셋째, 짝을 봐요.",
+   "cap": 62
+  },
+  {
+   "id": "k9d9df1c0",
+   "lang": "ko",
+   "text": "다음 남은 마지막 하나",
+   "cap": 62
+  },
+  {
+   "id": "k189f12cd",
+   "lang": "ko",
+   "text": "에이",
+   "cap": 62
+  },
+  {
+   "id": "k45013f6e",
+   "lang": "ko",
+   "text": "탈락, 정답은 씨.",
+   "cap": 62
+  },
+  {
+   "id": "k267764f3",
+   "lang": "ko",
+   "text": "정리해요. 대명사 문제는 두 가지를 물어요. 누구를 가리키나, 어느 자리인가.",
+   "cap": 63
+  },
+  {
+   "id": "kee0fba02",
+   "lang": "ko",
+   "text": "가리키는 말이 표의 줄을 정해요. 회사 하나",
+   "cap": 64
+  },
+  {
+   "id": "k9b5813c6",
+   "lang": "ko",
+   "text": "줄, 여럿",
+   "cap": 64
+  },
+  {
+   "id": "kc5a8a1ab",
+   "lang": "ko",
+   "text": "줄.",
+   "cap": 64
+  },
+  {
+   "id": "kf89bb0ea",
+   "lang": "ko",
+   "text": "자리가 칸을 정해요. 그리고 짝을 확인해요 , 셀프",
+   "cap": 65
+  },
+  {
+   "id": "e085dd5d9",
+   "lang": "en",
+   "text": "the other, those of.",
+   "cap": 65
+  },
+  {
+   "id": "kc10ced1c",
+   "lang": "ko",
+   "text": "아래에서 대명사 표 놀이터와 연습 문제로 손에 익혀 보세요.",
+   "cap": 66
+  },
+  {
+   "id": "ef3653c9e",
+   "lang": "en",
+   "text": "Hanbit Electronics has moved its headquarters to Incheon.",
+   "from": "say"
+  },
+  {
+   "id": "e8ef7b593",
+   "lang": "en",
+   "text": "it’s",
+   "from": "say"
+  },
+  {
+   "id": "ebe0ee495",
+   "lang": "en",
+   "text": "Ms. Kim finished the report and sent it to her manager.",
+   "from": "say"
+  },
+  {
+   "id": "e7fdb2c48",
+   "lang": "en",
+   "text": "me",
+   "from": "say"
+  },
+  {
+   "id": "e6bdb0ccc",
+   "lang": "en",
+   "text": "my",
+   "from": "say"
+  },
+  {
+   "id": "e10edc5c9",
+   "lang": "en",
+   "text": "mine",
+   "from": "say"
+  },
+  {
+   "id": "e65f01e12",
+   "lang": "en",
+   "text": "us",
+   "from": "say"
+  },
+  {
+   "id": "e9eb0ef9c",
+   "lang": "en",
+   "text": "our",
+   "from": "say"
+  },
+  {
+   "id": "ebf89b53d",
+   "lang": "en",
+   "text": "ours",
+   "from": "say"
+  },
+  {
+   "id": "e1a7e564e",
+   "lang": "en",
+   "text": "myself",
+   "from": "say"
+  },
+  {
+   "id": "e3ba42586",
+   "lang": "en",
+   "text": "ourselves",
+   "from": "say"
+  },
+  {
+   "id": "e2bfc80cd",
+   "lang": "en",
+   "text": "your",
+   "from": "say"
+  },
+  {
+   "id": "efc7eab1a",
+   "lang": "en",
+   "text": "yours",
+   "from": "say"
+  },
+  {
+   "id": "eba15012f",
+   "lang": "en",
+   "text": "yourself",
+   "from": "say"
+  },
+  {
+   "id": "e5a5bc4d2",
+   "lang": "en",
+   "text": "his",
+   "from": "say"
+  },
+  {
+   "id": "e5e32239c",
+   "lang": "en",
+   "text": "she",
+   "from": "say"
+  },
+  {
+   "id": "ea40252ae",
+   "lang": "en",
+   "text": "hers",
+   "from": "say"
+  },
+  {
+   "id": "e1bff9af3",
+   "lang": "en",
+   "text": "herself",
+   "from": "say"
+  },
+  {
+   "id": "edb186c71",
+   "lang": "en",
+   "text": "itself",
+   "from": "say"
+  },
+  {
+   "id": "ef52b83e4",
+   "lang": "en",
+   "text": "them",
+   "from": "say"
+  },
+  {
+   "id": "e2babdbd7",
+   "lang": "en",
+   "text": "theirs",
+   "from": "say"
+  },
+  {
+   "id": "e3680f2de",
+   "lang": "en",
+   "text": "themselves",
+   "from": "say"
+  },
+  {
+   "id": "e7bb75677",
+   "lang": "en",
+   "text": "Hanbit Electronics",
+   "from": "say"
+  },
+  {
+   "id": "e353e6183",
+   "lang": "en",
+   "text": "Hanbit Electronics said it would open a new factory.",
+   "from": "say"
+  },
+  {
+   "id": "e2ce03620",
+   "lang": "en",
+   "text": "the employees",
+   "from": "say"
+  },
+  {
+   "id": "ea55cf5cb",
+   "lang": "en",
+   "text": "The employees said they would join the event.",
+   "from": "say"
+  },
+  {
+   "id": "e186d1e28",
+   "lang": "en",
+   "text": "The manager thanked them. The best report was theirs.",
+   "from": "say"
+  },
+  {
+   "id": "eb520e1ea",
+   "lang": "en",
+   "text": "Hanbit Electronics changed its logo.",
+   "from": "say"
+  },
+  {
+   "id": "e63704841",
+   "lang": "en",
+   "text": "It’s a new logo.",
+   "from": "say"
+  },
+  {
+   "id": "eb528790f",
+   "lang": "en",
+   "text": "Hanbit Electronics changed it’s logo.",
+   "from": "say"
+  },
+  {
+   "id": "e2f067a5d",
+   "lang": "en",
+   "text": "Ms. Novak introduced herself to the staff.",
+   "from": "say"
+  },
+  {
+   "id": "e5867db97",
+   "lang": "en",
+   "text": "Ms. Novak introduced her to the staff.",
+   "from": "say"
+  },
+  {
+   "id": "e97cb7cc2",
+   "lang": "en",
+   "text": "her team",
+   "from": "say"
+  },
+  {
+   "id": "e3f5c723d",
+   "lang": "en",
+   "text": "Ms. Lopez will hand out the awards herself.",
+   "from": "say"
+  },
+  {
+   "id": "e24a107b2",
+   "lang": "en",
+   "text": "Mr. Tanaka built the website by himself.",
+   "from": "say"
+  },
+  {
+   "id": "ebead6f5f",
+   "lang": "en",
+   "text": "Mr. Okafor and myself will lead the session.",
+   "from": "say"
+  },
+  {
+   "id": "e542e22ce",
+   "lang": "en",
+   "text": "Mr. Okafor and I will lead the session.",
+   "from": "say"
+  },
+  {
+   "id": "ef9d5a2bc",
+   "lang": "en",
+   "text": "We have two offices. One is in Seoul, and the other is in Busan.",
+   "from": "say"
+  },
+  {
+   "id": "ecd978ebb",
+   "lang": "en",
+   "text": "other hotels",
+   "from": "say"
+  },
+  {
+   "id": "e6c38cffb",
+   "lang": "en",
+   "text": "another date",
+   "from": "say"
+  },
+  {
+   "id": "e2ae942ab",
+   "lang": "en",
+   "text": "The price of the new model is lower than the price of the old model.",
+   "from": "say"
+  },
+  {
+   "id": "e791c1034",
+   "lang": "en",
+   "text": "This year’s sales are higher than those of last year.",
+   "from": "say"
+  },
+  {
+   "id": "e54bf390f",
+   "lang": "en",
+   "text": "those",
+   "from": "say"
+  },
+  {
+   "id": "ef53689ea",
+   "lang": "en",
+   "text": "Mr. Tanaka designed the company’s new website by himself.",
+   "from": "say"
+  },
+  {
+   "id": "e2a76f181",
+   "lang": "en",
+   "text": "The firm has two offices: one is in Seoul, and the other is in Busan.",
+   "from": "say"
+  },
+  {
+   "id": "e98322d80",
+   "lang": "en",
+   "text": "Hanbit Electronics moved its office.",
+   "from": "say"
+  },
+  {
+   "id": "eb25e8e2d",
+   "lang": "en",
+   "text": "Please send us your comments.",
+   "from": "say"
+  },
+  {
+   "id": "eb3b2d131",
+   "lang": "en",
+   "text": "their office · The office is theirs.",
+   "from": "say"
+  },
+  {
+   "id": "ec563b8b3",
+   "lang": "en",
+   "text": "Ms. Novak introduced herself.",
+   "from": "say"
+  },
+  {
+   "id": "e0f785d03",
+   "lang": "en",
+   "text": "by himself · on his own",
+   "from": "say"
+  },
+  {
+   "id": "e11185edf",
+   "lang": "en",
+   "text": "One is in Seoul, and the other",
+   "from": "say"
+  },
+  {
+   "id": "e9a1e6a4b",
+   "lang": "en",
+   "text": "Some guests, and others",
+   "from": "say"
+  },
+  {
+   "id": "e9ba12ff5",
+   "lang": "en",
+   "text": "those of last year · those who",
+   "from": "say"
+  },
+  {
+   "id": "ebc7d62fe",
+   "lang": "en",
+   "text": "The interns asked Mr. Park whether he could check their slides.",
+   "from": "say"
+  },
+  {
+   "id": "ead709184",
+   "lang": "en",
+   "text": "Mr. Lee bought two laptops and gave one to his daughter.",
+   "from": "say"
+  },
+  {
+   "id": "ea6600a7a",
+   "lang": "en",
+   "text": "Ms. Kim said she would call back.",
+   "from": "say"
+  },
+  {
+   "id": "e4f894223",
+   "lang": "en",
+   "text": "Ms. Kim",
+   "from": "say"
+  },
+  {
+   "id": "e513d1eed",
+   "lang": "en",
+   "text": "Mr. Park said he would call back.",
+   "from": "say"
+  },
+  {
+   "id": "ea009aa27",
+   "lang": "en",
+   "text": "Mr. Park",
+   "from": "say"
+  },
+  {
+   "id": "ec19cf52d",
+   "lang": "en",
+   "text": "The printers are old, but they still work.",
+   "from": "say"
+  },
+  {
+   "id": "e8ad88662",
+   "lang": "en",
+   "text": "the printers",
+   "from": "say"
+  },
+  {
+   "id": "e3b77720a",
+   "lang": "en",
+   "text": "Mina and I said we would help.",
+   "from": "say"
+  },
+  {
+   "id": "e78e17e93",
+   "lang": "en",
+   "text": "Mina and I",
+   "from": "say"
+  },
+  {
+   "id": "e84dbb235",
+   "lang": "en",
+   "text": "She finished her report.",
+   "from": "say"
+  },
+  {
+   "id": "e4853585e",
+   "lang": "en",
+   "text": "The manager thanked her. The best report was hers.",
+   "from": "say"
+  },
+  {
+   "id": "eb8a9c8a6",
+   "lang": "en",
+   "text": "The printer is new. It has its own screen.",
+   "from": "say"
+  },
+  {
+   "id": "ed635a706",
+   "lang": "en",
+   "text": "Everyone likes it.",
+   "from": "say"
+  },
+  {
+   "id": "ec0998c36",
+   "lang": "en",
+   "text": "We finished our report.",
+   "from": "say"
+  },
+  {
+   "id": "eda1def50",
+   "lang": "en",
+   "text": "The manager thanked us. The best report was ours.",
+   "from": "say"
+  },
+  {
+   "id": "e3628373a",
+   "lang": "en",
+   "text": "We have three offices. One is in Seoul, another is in Busan, and the other is in Daegu.",
+   "from": "say"
+  },
+  {
+   "id": "e253d22e8",
+   "lang": "en",
+   "text": "The quality of our service is better than that of our rivals.",
+   "from": "say"
+  },
+  {
+   "id": "eb949f753",
+   "lang": "en",
+   "text": "The rooms on the third floor are larger than those on the second floor.",
+   "from": "say"
+  },
+  {
+   "id": "e83d1e408",
+   "lang": "en",
+   "text": "The population of Busan is larger than that of Daegu.",
+   "from": "say"
+  }
+ ]
+}
