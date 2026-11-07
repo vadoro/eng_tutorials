@@ -28,7 +28,7 @@ tools/voicestudio_common.py   위 두 VoiceStudio 도구가 함께 쓰는 부분
 <slug>/assets/js/       grammar.js(규칙 엔진·예문·문제) · scenes.js(장면·자막) · app.js(플레이어·실습·놀이터·퀴즈·추출)
 <slug>/docs/poster.jpg  카드 미리보기 그림 1280×720
 <slug>/video/*.srt      자막 원고. MP4는 커밋하지 않음 (아래 '영상')
-<slug>/audio/narration/ 미리 만든 음성 해설(선택): pieces.json(조각 목록) · clips.js(window.EN_CLIPS) · 조각 id.mp3|m4a — 지금은 directions · restaurant · hotel · cafe · airport · relative-pronouns · parts-of-speech · verb-agreement-voice · verb-tense · connectors · nouns-articles · infinitives-gerunds · participles · relative-adverbs-noun-clauses · pronouns · prepositions · comparison-inversion · vocabulary
+<slug>/audio/narration/ 미리 만든 음성 해설(선택): pieces.json(조각 목록) · clips.js(window.EN_CLIPS) · 조각 id.mp3|m4a — 지금은 directions · restaurant · hotel · cafe · airport · relative-pronouns · parts-of-speech · verb-agreement-voice · verb-tense · connectors · nouns-articles · infinitives-gerunds · participles · relative-adverbs-noun-clauses · pronouns · prepositions · comparison-inversion · vocabulary · part6-text
 <slug>/audio/dialogue/  미리 만든 대화 목소리(선택): lines.json(줄 목록) · voices.json(말하는 사람 → 프로필) · clips.js(window.DIALOGUE_CLIPS) · 말하는사람-id.mp3|m4a — 지금은 directions · restaurant · hotel · cafe · airport
 docs/toeic-100-types.md 토익 영역의 설계도: 자주 틀리는 100개 유형 → 21개 카테고리 → 튜토리얼 17개(T01–T17)와 제작 순서
 .nojekyll               GitHub Pages가 _로 시작하는 폴더도 그대로 내보내도록

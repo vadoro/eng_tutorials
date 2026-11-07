@@ -1,0 +1,1213 @@
+{
+ "slug": "part6-text",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 101,
+  "en": 99,
+  "say": 47,
+  "koChars": 2493,
+  "enChars": 2897
+ },
+ "pieces": [
+  {
+   "id": "k5021b1c6",
+   "lang": "ko",
+   "text": "토익 파트 6은 글 속의 빈칸을 채우는 문제예요. 공지, 이메일 같은 짧은 글이 나와요.",
+   "cap": 0
+  },
+  {
+   "id": "k8c0e397e",
+   "lang": "ko",
+   "text": "먼저 빈칸이 있는 문장만 읽어 볼게요. 보기 넷 가운데 셋이 문법으로는 다 맞아요.",
+   "cap": 1
+  },
+  {
+   "id": "k9edd9ebc",
+   "lang": "ko",
+   "text": "이제 앞 문장을 켜요.",
+   "cap": 2
+  },
+  {
+   "id": "e4e6d0914",
+   "lang": "en",
+   "text": "will begin on Monday, May 12",
+   "cap": 2
+  },
+  {
+   "id": "kfd259548",
+   "lang": "ko",
+   "text": "공사는 앞으로 있을 일이에요.",
+   "cap": 2
+  },
+  {
+   "id": "k976cf960",
+   "lang": "ko",
+   "text": "그래서 답은",
+   "cap": 3
+  },
+  {
+   "id": "e551e17c1",
+   "lang": "en",
+   "text": "will be closed",
+   "cap": 3
+  },
+  {
+   "id": "kd9dd5bc8",
+   "lang": "ko",
+   "text": "하나. 단서는 빈칸 밖, 앞뒤 문장에 있었어요.",
+   "cap": 3
+  },
+  {
+   "id": "kf6a5afe2",
+   "lang": "ko",
+   "text": "파트 6의 빈칸 세 가지, 단서 찾는 법, 3단계 풀이법을 차례로 배워요.",
+   "cap": 4
+  },
+  {
+   "id": "kfb7dbdd0",
+   "lang": "ko",
+   "text": "먼저 파트 5와 견줘 볼게요. 파트 5는 문장 하나에 빈칸 하나예요.",
+   "cap": 5
+  },
+  {
+   "id": "k373e5624",
+   "lang": "ko",
+   "text": "파트 6은 글 하나에 빈칸이 넷이에요. 글이 넷 나오니까 모두 16문제예요.",
+   "cap": 6
+  },
+  {
+   "id": "kf7ad16a1",
+   "lang": "ko",
+   "text": "글은 공지, 이메일, 회람, 광고, 기사처럼 회사에서 주고받는 짧은 글이에요.",
+   "cap": 7
+  },
+  {
+   "id": "k28c428ca",
+   "lang": "ko",
+   "text": "빈칸은 세 가지예요. 낱말 빈칸, 연결어 빈칸, 그리고 문장 하나를 통째로 고르는 문장 넣기 빈칸.",
+   "cap": 8
+  },
+  {
+   "id": "k6adf11d8",
+   "lang": "ko",
+   "text": "이 영상은 그 가운데 글을 읽어야 풀리는 시제, 연결어, 문장 넣기를 다뤄요.",
+   "cap": 9
+  },
+  {
+   "id": "k0ddb29de",
+   "lang": "ko",
+   "text": "이 영상의 핵심이에요. 빈칸 문장 하나만 보면 답이 여러 개일 때가 많아요.",
+   "cap": 10
+  },
+  {
+   "id": "e3673efbf",
+   "lang": "en",
+   "text": "being closed",
+   "cap": 11
+  },
+  {
+   "id": "k14dd0aed",
+   "lang": "ko",
+   "text": "시제가 없어서 동사 자리에 못 와요. 남은 셋은 문법으로는 다 맞아요.",
+   "cap": 11
+  },
+  {
+   "id": "kabd728ae",
+   "lang": "ko",
+   "text": "앞 문장을 켜요.",
+   "cap": 12
+  },
+  {
+   "id": "k67214b0c",
+   "lang": "ko",
+   "text": "공사는 앞으로. 그래서",
+   "cap": 12
+  },
+  {
+   "id": "eed5fad3d",
+   "lang": "en",
+   "text": "will be closed.",
+   "cap": 12
+  },
+  {
+   "id": "k60840bda",
+   "lang": "ko",
+   "text": "앞 문장만 바꿔 볼게요.",
+   "cap": 13
+  },
+  {
+   "id": "e3e57b929",
+   "lang": "en",
+   "text": "ended last Friday",
+   "cap": 13
+  },
+  {
+   "id": "ka3d0a048",
+   "lang": "ko",
+   "text": "공사는 이미 끝났어요. 이제 답은",
+   "cap": 13
+  },
+  {
+   "id": "e29a5ab0d",
+   "lang": "en",
+   "text": "was closed.",
+   "cap": 13
+  },
+  {
+   "id": "kf142a40f",
+   "lang": "ko",
+   "text": "빈칸 문장은 그대로인데 답이 바뀌었어요. 문장 하나로는 여러 개, 앞뒤 문장이 하나로 줄여요.",
+   "cap": 14
+  },
+  {
+   "id": "kae08b200",
+   "lang": "ko",
+   "text": "시제부터 볼게요. 한국어 공지는 5월 12일부터 로비를 닫습니다처럼 현재형으로 앞일을 말하곤 해요.",
+   "cap": 15
+  },
+  {
+   "id": "k57434f24",
+   "lang": "ko",
+   "text": "영어 공지에서 앞으로 있을 일 , 보통",
+   "cap": 16
+  },
+  {
+   "id": "ec3a96fa4",
+   "lang": "en",
+   "text": "will.",
+   "cap": 16
+  },
+  {
+   "id": "k7bd67331",
+   "lang": "ko",
+   "text": "그래서 그 일이 언제인지 알아야 해요.",
+   "cap": 16
+  },
+  {
+   "id": "k3518b740",
+   "lang": "ko",
+   "text": "시간선을 그려요. 가운데는 글을 쓴 날이에요. 공지 맨 위의 날짜",
+   "cap": 17
+  },
+  {
+   "id": "e8763d635",
+   "lang": "en",
+   "text": "Posted",
+   "cap": 17
+  },
+  {
+   "id": "e60319731",
+   "lang": "en",
+   "text": "May 2.",
+   "cap": 17
+  },
+  {
+   "id": "ka5d71a9d",
+   "lang": "ko",
+   "text": "바로 그날이에요.",
+   "cap": 17
+  },
+  {
+   "id": "k6e0ef888",
+   "lang": "ko",
+   "text": "공사는 5월 12일부터. 글을 쓴 날보다 뒤니까 앞으로 있을 일",
+   "cap": 18
+  },
+  {
+   "id": "k0fe820a9",
+   "lang": "ko",
+   "text": "같은 글을 5월 20일에 썼다면? 공사는 이미 지난 일",
+   "cap": 19
+  },
+  {
+   "id": "k68e9302c",
+   "lang": "ko",
+   "text": "날짜 하나가 시제를 정해요.",
+   "cap": 19
+  },
+  {
+   "id": "keb5f9272",
+   "lang": "ko",
+   "text": "시간 단서는 머리말의 날짜, 앞뒤 문장의",
+   "cap": 20
+  },
+  {
+   "id": "eec0fb5a4",
+   "lang": "en",
+   "text": "next week, last Friday",
+   "cap": 20
+  },
+  {
+   "id": "kb16a8ed4",
+   "lang": "ko",
+   "text": "그리고 다른 동사의 시제예요.",
+   "cap": 20
+  },
+  {
+   "id": "eca5323c6",
+   "lang": "en",
+   "text": "Thank you for attending",
+   "cap": 21
+  },
+  {
+   "id": "ka94f3d5c",
+   "lang": "ko",
+   "text": "이미 끝난 일.",
+   "cap": 21
+  },
+  {
+   "id": "eaef181df",
+   "lang": "en",
+   "text": "Please sign up by",
+   "cap": 21
+  },
+  {
+   "id": "kc87fd10f",
+   "lang": "ko",
+   "text": "앞으로 할 일. 글의 목적도 단서예요.",
+   "cap": 21
+  },
+  {
+   "id": "kf39159ad",
+   "lang": "ko",
+   "text": "이번에는 연결어 빈칸이에요. 빈칸 앞이 마침표, 뒤가 쉼표면 접속부사 자리예요.",
+   "cap": 22
+  },
+  {
+   "id": "kddb8c2d7",
+   "lang": "ko",
+   "text": "그래서",
+   "cap": 23
+  },
+  {
+   "id": "ea380b6b4",
+   "lang": "en",
+   "text": "Although",
+   "cap": 23
+  },
+  {
+   "id": "ke831bfb2",
+   "lang": "ko",
+   "text": "같은 접속사",
+   "cap": 23
+  },
+  {
+   "id": "eb9176e6a",
+   "lang": "en",
+   "text": "Despite",
+   "cap": 23
+  },
+  {
+   "id": "k4813c274",
+   "lang": "ko",
+   "text": "같은 전치사는 첫 단계에서 지워요. 그래도 접속부사가 여럿 남아요.",
+   "cap": 23
+  },
+  {
+   "id": "k4cbc97d0",
+   "lang": "ko",
+   "text": "이때는 두 문장의 관계를 봐요. 반대면",
+   "cap": 24
+  },
+  {
+   "id": "e8ff6712c",
+   "lang": "en",
+   "text": "However",
+   "cap": 24
+  },
+  {
+   "id": "kac5c7639",
+   "lang": "ko",
+   "text": "더하기면",
+   "cap": 24
+  },
+  {
+   "id": "eea2f43db",
+   "lang": "en",
+   "text": "In addition",
+   "cap": 24
+  },
+  {
+   "id": "kd187ef73",
+   "lang": "ko",
+   "text": "결과면",
+   "cap": 24
+  },
+  {
+   "id": "eaa1dcd9c",
+   "lang": "en",
+   "text": "As a result.",
+   "cap": 24
+  },
+  {
+   "id": "k6040e827",
+   "lang": "ko",
+   "text": "예를 들면",
+   "cap": 25
+  },
+  {
+   "id": "e0ef2d003",
+   "lang": "en",
+   "text": "For example",
+   "cap": 25
+  },
+  {
+   "id": "k55dab814",
+   "lang": "ko",
+   "text": "앞에서 안 된다고 한 것 대신이면",
+   "cap": 25
+  },
+  {
+   "id": "e2ebc7d10",
+   "lang": "en",
+   "text": "Instead",
+   "cap": 25
+  },
+  {
+   "id": "k53593c8b",
+   "lang": "ko",
+   "text": "하지 않으면",
+   "cap": 25
+  },
+  {
+   "id": "ecea00faa",
+   "lang": "en",
+   "text": "Otherwise.",
+   "cap": 25
+  },
+  {
+   "id": "e7f015449",
+   "lang": "en",
+   "text": "Our old printers often broke down.",
+   "cap": 26
+  },
+  {
+   "id": "k2a5a16c8",
+   "lang": "ko",
+   "text": "다음 문장이",
+   "cap": 26
+  },
+  {
+   "id": "e966dae8c",
+   "lang": "en",
+   "text": "we replaced all of them",
+   "cap": 26
+  },
+  {
+   "id": "k483fcc91",
+   "lang": "ko",
+   "text": "원인과 결과",
+   "cap": 26
+  },
+  {
+   "id": "k0a43e9bc",
+   "lang": "ko",
+   "text": "다음 문장을 바꿔요",
+   "cap": 27
+  },
+  {
+   "id": "e198669ee",
+   "lang": "en",
+   "text": "they were cheap to repair.",
+   "cap": 27
+  },
+  {
+   "id": "k5d28a718",
+   "lang": "ko",
+   "text": "고장은 잦은데 수리비는 쌌어요 , 반대",
+   "cap": 27
+  },
+  {
+   "id": "ea2f3e626",
+   "lang": "en",
+   "text": "However.",
+   "cap": 27
+  },
+  {
+   "id": "k6acdcda5",
+   "lang": "ko",
+   "text": "헷갈리면 두 문장 사이에 한국어 연결어를 넣어 읽어 보세요. 그래서? 그러나? 게다가?",
+   "cap": 28
+  },
+  {
+   "id": "kfe3efc3c",
+   "lang": "ko",
+   "text": "이제 문장 넣기예요. 보기 넷이 모두 문장이고, 하나하나는 문법으로 다 맞아요.",
+   "cap": 29
+  },
+  {
+   "id": "kce88c82a",
+   "lang": "ko",
+   "text": "한국어 공지는 옆문을 이용해 주세요. 경비원이 신분증을 확인합니다.처럼 가리키는 말을 자주 빼요.",
+   "cap": 30
+  },
+  {
+   "id": "k3ab3fe6d",
+   "lang": "ko",
+   "text": "영어는 앞에 나온 것을 다시 가리켜요",
+   "cap": 31
+  },
+  {
+   "id": "e66411ae5",
+   "lang": "en",
+   "text": "this door, it, they.",
+   "cap": 31
+  },
+  {
+   "id": "k37c2df89",
+   "lang": "ko",
+   "text": "이 가리키는 말이 열쇠예요.",
+   "cap": 31
+  },
+  {
+   "id": "e53415431",
+   "lang": "en",
+   "text": "this, these, it, they, such",
+   "cap": 32
+  },
+  {
+   "id": "k752ca057",
+   "lang": "ko",
+   "text": "그리고",
+   "cap": 32
+  },
+  {
+   "id": "e1ccd0a64",
+   "lang": "en",
+   "text": "also, another",
+   "cap": 32
+  },
+  {
+   "id": "keb0c8ea2",
+   "lang": "ko",
+   "text": "같은 말이 보이면 앞 문장에서 짝을 찾아요.",
+   "cap": 32
+  },
+  {
+   "id": "kb0ac6507",
+   "lang": "ko",
+   "text": "보기의",
+   "cap": 33
+  },
+  {
+   "id": "e35d6510a",
+   "lang": "en",
+   "text": "this door",
+   "cap": 33
+  },
+  {
+   "id": "k14f839e8",
+   "lang": "ko",
+   "text": "앞 문장의",
+   "cap": 33
+  },
+  {
+   "id": "e5a0d8d92",
+   "lang": "en",
+   "text": "the side door.",
+   "cap": 33
+  },
+  {
+   "id": "kea9a1065",
+   "lang": "ko",
+   "text": "넣을 문장이 앞과 이어져요.",
+   "cap": 33
+  },
+  {
+   "id": "k76d5531a",
+   "lang": "ko",
+   "text": "뒤 문장의",
+   "cap": 34
+  },
+  {
+   "id": "e57028f51",
+   "lang": "en",
+   "text": "your card",
+   "cap": 34
+  },
+  {
+   "id": "k56d1f877",
+   "lang": "ko",
+   "text": "넣은 문장의",
+   "cap": 34
+  },
+  {
+   "id": "ebc428aa6",
+   "lang": "en",
+   "text": "ID cards.",
+   "cap": 34
+  },
+  {
+   "id": "k460afe0f",
+   "lang": "ko",
+   "text": "뒤와도 이어지니까 이 문장이 답이에요.",
+   "cap": 34
+  },
+  {
+   "id": "k54d7b951",
+   "lang": "ko",
+   "text": "문장 넣기의 오답은 그럴듯해 보여요. 자주 나오는 함정 셋을 볼게요.",
+   "cap": 35
+  },
+  {
+   "id": "ea964fa24",
+   "lang": "en",
+   "text": "These cards can be picked up",
+   "cap": 36
+  },
+  {
+   "id": "k6d24a064",
+   "lang": "ko",
+   "text": "카드 이야기가 아직 안 나왔어요. 뒤에 와야 할 문장, 순서 함정이에요.",
+   "cap": 36
+  },
+  {
+   "id": "e4a2f18f6",
+   "lang": "en",
+   "text": "Parking on Pine Street",
+   "cap": 37
+  },
+  {
+   "id": "kc1880536",
+   "lang": "ko",
+   "text": "글에 나온 낱말이 또 보여요. 하지만 주제가 주차라 흐름이 끊겨요.",
+   "cap": 37
+  },
+  {
+   "id": "eb6dd8efd",
+   "lang": "en",
+   "text": "The new lobby will also have a café , also",
+   "cap": 38
+  },
+  {
+   "id": "k6933a5e3",
+   "lang": "ko",
+   "text": "앞에는 비슷한 것이 먼저 나와야 해요. 여기엔 없어요.",
+   "cap": 38
+  },
+  {
+   "id": "kce8651f6",
+   "lang": "ko",
+   "text": "앞 내용과 어긋나는 문장도 함정이에요. 같은 낱말이 보인다고 답이 아니에요.",
+   "cap": 39
+  },
+  {
+   "id": "k8bb6d1ef",
+   "lang": "ko",
+   "text": "정답은 가리키는 말이 짝을 찾고, 앞과 뒤를 모두 이어 주는 문장이에요.",
+   "cap": 40
+  },
+  {
+   "id": "k427ad87b",
+   "lang": "ko",
+   "text": "단서가 늘 빈칸 바로 앞에 있지는 않아요. 뒤 문장, 머리말, 멀리 있는 문장에도 있어요.",
+   "cap": 41
+  },
+  {
+   "id": "k9a774310",
+   "lang": "ko",
+   "text": "이 빈칸을 볼까요?",
+   "cap": 42
+  },
+  {
+   "id": "ed6744689",
+   "lang": "en",
+   "text": "The lobby",
+   "cap": 42
+  },
+  {
+   "id": "kfff86221",
+   "lang": "ko",
+   "text": "빈칸",
+   "cap": 42
+  },
+  {
+   "id": "e87d00a7a",
+   "lang": "en",
+   "text": "until Wednesday, May 21.",
+   "cap": 42
+  },
+  {
+   "id": "k489b1a0d",
+   "lang": "ko",
+   "text": "문장만으로는 셋이 남아요.",
+   "cap": 42
+  },
+  {
+   "id": "kb51dc96d",
+   "lang": "ko",
+   "text": "바로 앞의",
+   "cap": 43
+  },
+  {
+   "id": "ee7d0cae7",
+   "lang": "en",
+   "text": "was originally expected",
+   "cap": 43
+  },
+  {
+   "id": "k82fabdd9",
+   "lang": "ko",
+   "text": "과거형이지만 원래 예상일 뿐이에요. 가까운 과거형 함정이에요.",
+   "cap": 43
+  },
+  {
+   "id": "ka314ffe6",
+   "lang": "ko",
+   "text": "뒤 문장",
+   "cap": 44
+  },
+  {
+   "id": "e355cd97c",
+   "lang": "en",
+   "text": "if this date changes",
+   "cap": 44
+  },
+  {
+   "id": "k927ba05e",
+   "lang": "ko",
+   "text": "날짜가 아직 바뀔 수 있어요. 그러니 앞으로 있을 일",
+   "cap": 44
+  },
+  {
+   "id": "e73c579a6",
+   "lang": "en",
+   "text": "will not reopen.",
+   "cap": 44
+  },
+  {
+   "id": "k2cfbff48",
+   "lang": "ko",
+   "text": "맨 앞 문장의",
+   "cap": 45
+  },
+  {
+   "id": "ea4ff7cfb",
+   "lang": "en",
+   "text": "will begin",
+   "cap": 45
+  },
+  {
+   "id": "ka31e9f0b",
+   "lang": "ko",
+   "text": "머리말의 날짜",
+   "cap": 45
+  },
+  {
+   "id": "eb10b8e85",
+   "lang": "en",
+   "text": "May 2",
+   "cap": 45
+  },
+  {
+   "id": "k4ab318b3",
+   "lang": "ko",
+   "text": "모두 같은 답을 가리켜요. 단서가 여럿이면 더 확실해요.",
+   "cap": 45
+  },
+  {
+   "id": "kb02b51dc",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 풀이법으로 묶어 볼게요.",
+   "cap": 46
+  },
+  {
+   "id": "k706a9997",
+   "lang": "ko",
+   "text": "첫째, 빈칸 문장만 봐요. 동사 자리, 접속부사 자리 같은 파트 5 규칙으로 지울 수 있는 보기만 지워요.",
+   "cap": 47
+  },
+  {
+   "id": "kd57d44c2",
+   "lang": "ko",
+   "text": "둘째, 앞뒤 문장에서 단서를 찾아요. 날짜와 시간 표현, 두 문장의 관계, 가리키는 말의 짝이에요.",
+   "cap": 48
+  },
+  {
+   "id": "k9bc71862",
+   "lang": "ko",
+   "text": "셋째, 글 전체로 확인해요. 글을 쓴 날, 글의 목적, 흐름에 남은 답이 맞는지 봐요.",
+   "cap": 49
+  },
+  {
+   "id": "k0a354f66",
+   "lang": "ko",
+   "text": "문장 하나로는 여러 개, 앞뒤가 하나로, 글이 확인. 이 순서로 실전 문제를 풀어 볼까요?",
+   "cap": 50
+  },
+  {
+   "id": "k541aac43",
+   "lang": "ko",
+   "text": "실전 문제예요. 회의실 예약 이메일이에요. 1번 , 첫째, 문장만 보면",
+   "cap": 51
+  },
+  {
+   "id": "ea056d9c0",
+   "lang": "en",
+   "text": "providing",
+   "cap": 51
+  },
+  {
+   "id": "k77236f47",
+   "lang": "ko",
+   "text": "시제가 없어 지워요.",
+   "cap": 51
+  },
+  {
+   "id": "k22fc1b0c",
+   "lang": "ko",
+   "text": "둘째, 앞 문장의",
+   "cap": 52
+  },
+  {
+   "id": "ef6bfdeda",
+   "lang": "en",
+   "text": "next Friday",
+   "cap": 52
+  },
+  {
+   "id": "kd7afabf0",
+   "lang": "ko",
+   "text": "행사는 앞으로. 지울 보기",
+   "cap": 52
+  },
+  {
+   "id": "ee0c29e0f",
+   "lang": "en",
+   "text": "was provided, has been provided.",
+   "cap": 52
+  },
+  {
+   "id": "kae6c2ceb",
+   "lang": "ko",
+   "text": "셋째, 뒤 문장의",
+   "cap": 53
+  },
+  {
+   "id": "e71bf248c",
+   "lang": "en",
+   "text": "will not be able",
+   "cap": 53
+  },
+  {
+   "id": "k7b146820",
+   "lang": "ko",
+   "text": "이것도 미래예요. 정답은",
+   "cap": 53
+  },
+  {
+   "id": "e93e5166e",
+   "lang": "en",
+   "text": "B will be provided.",
+   "cap": 53
+  },
+  {
+   "id": "k53dd2696",
+   "lang": "ko",
+   "text": "2번은 문장 넣기. 첫째, 네 문장 모두 문법은 맞아요. 가리키는 말을 찾아 둬요:",
+   "cap": 54
+  },
+  {
+   "id": "e8f82a648",
+   "lang": "en",
+   "text": "These guests, also, this number.",
+   "cap": 54
+  },
+  {
+   "id": "k40b33afe",
+   "lang": "ko",
+   "text": "둘째, 뒤 문장의",
+   "cap": 55
+  },
+  {
+   "id": "ec98c5967",
+   "lang": "en",
+   "text": "After that date",
+   "cap": 55
+  },
+  {
+   "id": "k772324d0",
+   "lang": "ko",
+   "text": "날짜가 먼저 나와야 해요. 날짜를 내놓는 보기는",
+   "cap": 55
+  },
+  {
+   "id": "e5756a793",
+   "lang": "en",
+   "text": "C",
+   "cap": 55
+  },
+  {
+   "id": "k95191a1d",
+   "lang": "ko",
+   "text": "하나뿐이에요.",
+   "cap": 55
+  },
+  {
+   "id": "e8d336d4d",
+   "lang": "en",
+   "text": "the final number of guests , this number.",
+   "cap": 56
+  },
+  {
+   "id": "k2975084f",
+   "lang": "ko",
+   "text": "앞뒤가 모두 이어지니 정답은",
+   "cap": 56
+  },
+  {
+   "id": "kef229273",
+   "lang": "ko",
+   "text": "3번은 연결어. 첫째, 빈칸 앞 마침표, 뒤 쉼표 , 접속부사 자리. 전치사",
+   "cap": 57
+  },
+  {
+   "id": "k443fcd27",
+   "lang": "ko",
+   "text": "지워요.",
+   "cap": 57
+  },
+  {
+   "id": "k04a0c9f9",
+   "lang": "ko",
+   "text": "둘째, 프로젝터와 마이크가 있어요. 노트북도 빌릴 수 있어요. 좋은 점에 좋은 점을 더해요.",
+   "cap": 58
+  },
+  {
+   "id": "kc5d0709e",
+   "lang": "ko",
+   "text": "셋째, 더하기",
+   "cap": 59
+  },
+  {
+   "id": "e9d67faaf",
+   "lang": "en",
+   "text": "In addition.",
+   "cap": 59
+  },
+  {
+   "id": "k4039e339",
+   "lang": "ko",
+   "text": "정답은",
+   "cap": 59
+  },
+  {
+   "id": "e5956aab9",
+   "lang": "en",
+   "text": "A",
+   "cap": 59
+  },
+  {
+   "id": "k73794f94",
+   "lang": "ko",
+   "text": "세 문제 모두 답은 빈칸 밖에 있었어요.",
+   "cap": 59
+  },
+  {
+   "id": "k40d6fcbe",
+   "lang": "ko",
+   "text": "정리해요. 파트 6은 빈칸 문장 하나로는 답이 여러 개일 때가 많아요.",
+   "cap": 60
+  },
+  {
+   "id": "kab3cb105",
+   "lang": "ko",
+   "text": "시제는 날짜와 다른 동사로, 연결어는 두 문장의 관계로, 문장 넣기는 가리키는 말의 짝으로 정해요.",
+   "cap": 61
+  },
+  {
+   "id": "kc3415372",
+   "lang": "ko",
+   "text": "빈칸 문장 , 앞뒤 문장 , 글 전체. 세 단계로 보기를 하나씩 줄여요.",
+   "cap": 62
+  },
+  {
+   "id": "k1a1a1f65",
+   "lang": "ko",
+   "text": "아래 문맥 손전등과 연습 문제로 손에 익혀 보세요.",
+   "cap": 63
+  },
+  {
+   "id": "e78bebef2",
+   "lang": "en",
+   "text": "During this time, the lobby to all visitors.",
+   "from": "say"
+  },
+  {
+   "id": "e1419a7a3",
+   "lang": "en",
+   "text": "Renovation work on the main lobby of Harbor Tower will begin on Monday, May 12.",
+   "from": "say"
+  },
+  {
+   "id": "e11caeced",
+   "lang": "en",
+   "text": "During this time, the lobby will be closed to all visitors.",
+   "from": "say"
+  },
+  {
+   "id": "eef0490a2",
+   "lang": "en",
+   "text": "notice",
+   "from": "say"
+  },
+  {
+   "id": "ecd95deef",
+   "lang": "en",
+   "text": "e-mail",
+   "from": "say"
+  },
+  {
+   "id": "ecb38d7f0",
+   "lang": "en",
+   "text": "memo",
+   "from": "say"
+  },
+  {
+   "id": "ea7169967",
+   "lang": "en",
+   "text": "advertisement",
+   "from": "say"
+  },
+  {
+   "id": "e43085c38",
+   "lang": "en",
+   "text": "article",
+   "from": "say"
+  },
+  {
+   "id": "ec6363ab1",
+   "lang": "en",
+   "text": "During this time, the lobby was closed to all visitors.",
+   "from": "say"
+  },
+  {
+   "id": "ec458de8a",
+   "lang": "en",
+   "text": "Renovation work on the main lobby of Harbor Tower ended last Friday.",
+   "from": "say"
+  },
+  {
+   "id": "eba4fd026",
+   "lang": "en",
+   "text": "The lobby will be closed from May 12.",
+   "from": "say"
+  },
+  {
+   "id": "edd3c7a68",
+   "lang": "en",
+   "text": "The lobby from May 12 to May 16.",
+   "from": "say"
+  },
+  {
+   "id": "e61a5048f",
+   "lang": "en",
+   "text": "The lobby will be closed from May 12 to May 16.",
+   "from": "say"
+  },
+  {
+   "id": "eb669b93b",
+   "lang": "en",
+   "text": "The lobby was closed from May 12 to May 16.",
+   "from": "say"
+  },
+  {
+   "id": "e81b8ed5a",
+   "lang": "en",
+   "text": "As a result",
+   "from": "say"
+  },
+  {
+   "id": "e5caaa3c0",
+   "lang": "en",
+   "text": "Otherwise",
+   "from": "say"
+  },
+  {
+   "id": "e4b80ccc8",
+   "lang": "en",
+   "text": ", we replaced all of them last month.",
+   "from": "say"
+  },
+  {
+   "id": "e96ec2d20",
+   "lang": "en",
+   "text": "As a result, we replaced all of them last month.",
+   "from": "say"
+  },
+  {
+   "id": "e4482c19a",
+   "lang": "en",
+   "text": ", they were cheap to repair.",
+   "from": "say"
+  },
+  {
+   "id": "e8c6ccc28",
+   "lang": "en",
+   "text": "However, they were cheap to repair.",
+   "from": "say"
+  },
+  {
+   "id": "eea3bae5a",
+   "lang": "en",
+   "text": "A security guard will be stationed at this door to check ID cards.",
+   "from": "say"
+  },
+  {
+   "id": "ea6fa35d7",
+   "lang": "en",
+   "text": "The new lobby will also have a small café.",
+   "from": "say"
+  },
+  {
+   "id": "e8c6ac06b",
+   "lang": "en",
+   "text": "These cards can be picked up at the management office.",
+   "from": "say"
+  },
+  {
+   "id": "e566f44f1",
+   "lang": "en",
+   "text": "Parking on Pine Street is free after 6 P.M.",
+   "from": "say"
+  },
+  {
+   "id": "e7952f39d",
+   "lang": "en",
+   "text": "Please use the side door.",
+   "from": "say"
+  },
+  {
+   "id": "e478acc13",
+   "lang": "en",
+   "text": "A guard will check ID cards at this door.",
+   "from": "say"
+  },
+  {
+   "id": "e950070a5",
+   "lang": "en",
+   "text": "Tenants and their guests should use the side door on Pine Street.",
+   "from": "say"
+  },
+  {
+   "id": "e53d2a46a",
+   "lang": "en",
+   "text": "Please have your card ready when you arrive.",
+   "from": "say"
+  },
+  {
+   "id": "e9391735f",
+   "lang": "en",
+   "text": "The lobby until Wednesday, May 21.",
+   "from": "say"
+  },
+  {
+   "id": "e7e8a7062",
+   "lang": "en",
+   "text": "The work was originally expected to take five days.",
+   "from": "say"
+  },
+  {
+   "id": "e2a661aea",
+   "lang": "en",
+   "text": "However, the delivery of the new floor tiles has been delayed.",
+   "from": "say"
+  },
+  {
+   "id": "e0680bd07",
+   "lang": "en",
+   "text": "We will post a new notice if this date changes.",
+   "from": "say"
+  },
+  {
+   "id": "ea8cd5220",
+   "lang": "en",
+   "text": "Thank you for choosing the Westbay Conference Center for your company’s training day next Friday.",
+   "from": "say"
+  },
+  {
+   "id": "e111f7170",
+   "lang": "en",
+   "text": "Lunch for your 30 guests by Seaside Catering.",
+   "from": "say"
+  },
+  {
+   "id": "e5c9f4860",
+   "lang": "en",
+   "text": "The caterer has asked us for the final number of guests.",
+   "from": "say"
+  },
+  {
+   "id": "e6a876ea7",
+   "lang": "en",
+   "text": "After that date, we will not be able to change the order.",
+   "from": "say"
+  },
+  {
+   "id": "e90122418",
+   "lang": "en",
+   "text": "Your room comes with a projector and two microphones.",
+   "from": "say"
+  },
+  {
+   "id": "ef8551882",
+   "lang": "en",
+   "text": ", you may borrow a laptop from our front desk at no charge.",
+   "from": "say"
+  },
+  {
+   "id": "e31866bd6",
+   "lang": "en",
+   "text": "We look forward to welcoming you and your team.",
+   "from": "say"
+  },
+  {
+   "id": "e258f4dac",
+   "lang": "en",
+   "text": "Lunch for your 30 guests will be provided by Seaside Catering.",
+   "from": "say"
+  },
+  {
+   "id": "e4f6625f7",
+   "lang": "en",
+   "text": "These guests will also receive free parking passes.",
+   "from": "say"
+  },
+  {
+   "id": "ec487777c",
+   "lang": "en",
+   "text": "The Bay Room has a beautiful view of the water.",
+   "from": "say"
+  },
+  {
+   "id": "e3d9299c9",
+   "lang": "en",
+   "text": "Please send us this number by Monday, April 21.",
+   "from": "say"
+  },
+  {
+   "id": "e11b74576",
+   "lang": "en",
+   "text": "Lunch was served at 12:30 P.M.",
+   "from": "say"
+  },
+  {
+   "id": "e7200001d",
+   "lang": "en",
+   "text": "In addition, you may borrow a laptop from our front desk at no charge.",
+   "from": "say"
+  },
+  {
+   "id": "ec8c9388b",
+   "lang": "en",
+   "text": "In addition, they used a lot of ink.",
+   "from": "say"
+  },
+  {
+   "id": "e2f1768b1",
+   "lang": "en",
+   "text": "For example, the one on the third floor stopped working twice in May.",
+   "from": "say"
+  }
+ ]
+}

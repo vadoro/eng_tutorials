@@ -428,7 +428,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
   <footer>
     <p>무엇이 규칙 계산인가요? 영상 속 ✓·×와 남은 보기 수, 직접 해 보기의 채점, 문맥 손전등의 판정, 연습 문제의 힌트와 보기별 해설, 퀴즈 일부의 정답은 모두 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 엔진은 3단계 풀이법을 그대로 따라요. ① 빈칸 문장만 보고 동사 꼴(시제가 있나 · 수 · 태)과 연결어 갈래(접속부사인가)로 지우고, ② 보이는 문장 속 단서(시간, 두 문장의 관계, 가리키는 말의 짝, 주제, 어긋남)로 지우고, ③ 남은 하나를 글의 흐름으로 확인해요. 문제에 적어 둔 정답이 규칙 엔진과 다르거나, 빈칸 문장만으로 답이 정해지거나(Part 5 문제), 단서 글자가 지문에 없으면 브라우저 콘솔에 경고가 떠요.</p>
     <p>단순하게 줄인 부분도 있어요. 엔진은 영어 문장을 스스로 읽고 뜻을 알아내지 않아요. 단서가 어느 문장의 어느 말인지, 그 말이 앞으로의 일인지 끝난 일인지, 두 문장의 관계가 반대인지 결과인지, 가리키는 말이 무엇을 찾는지, 문장의 주제가 무엇인지는 문제마다 데이터에 적어 두었고, 엔진은 그것을 맞춰 봐요. 시제는 시간선의 네 자리(과거 · 현재완료 · 지금 · 미래)만 가르고, 일정표처럼 현재형으로 미래를 말하는 쓰임(<i lang="en">The lobby closes on May 12</i>)은 보기에 넣지 않았어요. 실제 영어에서는 과거와 현재완료가 둘 다 자연스러운 경우도 있어서, 한 문제 안에 둘이 함께 정답처럼 보이지 않게 보기를 골랐어요. 접속부사는 같은 관계의 말(<i lang="en">However · Nevertheless</i>)을 한 문제에 함께 넣지 않았어요. 예문과 지문은 토익 형식을 본떠 직접 만든 것이고, 회사와 사람 이름은 모두 지어낸 것이에요. 실제 시험 문제가 아니에요.</p>
-    <p>이웃 튜토리얼: 접속사 · 전치사 · 접속부사의 갈래는 <a href="../connectors/index.html">T05 연결어</a>, 시간 단서와 시제는 <a href="../verb-tense/index.html">T04 시제</a>, 가리키는 말(대명사)은 <a href="../pronouns/index.html">T10 대명사</a>에서 문장 단위로 배워요. 음성 해설과 발음 듣기는 브라우저에 들어 있는 음성(speechSynthesis)을 써요. 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
+    <p>이웃 튜토리얼: 접속사 · 전치사 · 접속부사의 갈래는 <a href="../connectors/index.html">T05 연결어</a>, 시간 단서와 시제는 <a href="../verb-tense/index.html">T04 시제</a>, 가리키는 말(대명사)은 <a href="../pronouns/index.html">T10 대명사</a>에서 문장 단위로 배워요. 음성 해설과 발음 듣기는 VoiceStudio로 미리 만든 합성 음성으로 읽어요(해설의 한국어는 젊은 여성 내레이터, 영어와 발음 듣기는 미국 여성 선생님 목소리). 놀이터에서 만든 문장처럼 파일이 없는 글은 브라우저에 들어 있는 음성(speechSynthesis)으로 읽고, 브라우저 음성은 기기에 따라 목소리가 달라요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 한 꼭지예요.</p>
   </footer>
 </div>
 
@@ -436,6 +436,7 @@ body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
 <script src="../shared/quiz.js"></script>
 <script src="assets/js/grammar.js"></script>
 <script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
