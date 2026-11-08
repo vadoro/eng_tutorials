@@ -1,0 +1,1542 @@
+{
+ "slug": "shopping",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 133,
+  "en": 122,
+  "koChars": 1927,
+  "enChars": 2111
+ },
+ "pieces": [
+  {
+   "id": "kbe4fbb7d",
+   "lang": "ko",
+   "text": "옷 가게에서는 직원이 먼저 말을 걸지만, 크기와 색을 바꾸고 값을 묻는 건 내가 먼저 해야 해요.",
+   "cap": 0
+  },
+  {
+   "id": "k9f304bd8",
+   "lang": "ko",
+   "text": "검은색",
+   "cap": 1
+  },
+  {
+   "id": "e6756c0c3",
+   "lang": "en",
+   "text": "S",
+   "cap": 1
+  },
+  {
+   "id": "kb0529ecd",
+   "lang": "ko",
+   "text": "후드 티를 들고 있어요.",
+   "cap": 1
+  },
+  {
+   "id": "e6556bd9d",
+   "lang": "en",
+   "text": "M",
+   "cap": 1
+  },
+  {
+   "id": "k5e2144e9",
+   "lang": "ko",
+   "text": "크기를 찾고 싶어서",
+   "cap": 1
+  },
+  {
+   "id": "e85fb93c9",
+   "lang": "en",
+   "text": "M size is there?",
+   "cap": 1
+  },
+  {
+   "id": "k2691f3b3",
+   "lang": "ko",
+   "text": "직원이 고개를 갸웃해요. 묻는 틀이 없어서 무엇을 바라는지 알아듣기 어렵거든요.",
+   "cap": 2
+  },
+  {
+   "id": "k9ee12fb4",
+   "lang": "ko",
+   "text": "이것, 바꿀 점",
+   "cap": 3
+  },
+  {
+   "id": "e90670576",
+   "lang": "en",
+   "text": "Do you have this in a medium?",
+   "cap": 3
+  },
+  {
+   "id": "k4cc8f7fe",
+   "lang": "ko",
+   "text": "손에 든 것에 바꿀 점만 더해요.",
+   "cap": 3
+  },
+  {
+   "id": "k9c45b11a",
+   "lang": "ko",
+   "text": "세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.",
+   "cap": 4
+  },
+  {
+   "id": "kd60fee83",
+   "lang": "ko",
+   "text": "옷 가게에서 보내는 시간을 일곱 곳으로 나눠 봐요. 들어가면 직원이 인사하고, 찾는 물건을 물어봐요.",
+   "cap": 5
+  },
+  {
+   "id": "k2475c0da",
+   "lang": "ko",
+   "text": "진열대에서 크기와 색을 고르고, 탈의실에서 입어 봐요. 그다음 값과 할인을 확인해요.",
+   "cap": 6
+  },
+  {
+   "id": "ka6eeaf5f",
+   "lang": "ko",
+   "text": "계산대에서 계산하고, 며칠 뒤에 교환이나 환불을 하러 다시 올 수도 있어요.",
+   "cap": 7
+  },
+  {
+   "id": "k9352341a",
+   "lang": "ko",
+   "text": "보라 테두리 , 내가 먼저 말을 꺼내는 곳이에요. 물건 찾기, 입어 보기, 값 묻기, 교환과 환불.",
+   "cap": 8
+  },
+  {
+   "id": "k9331a698",
+   "lang": "ko",
+   "text": "가게 이름과 값, 규칙은 지어낸 것이에요. 실제 가게마다 차례와 규칙이 달라요.",
+   "cap": 9
+  },
+  {
+   "id": "kd0090efc",
+   "lang": "ko",
+   "text": "쇼핑 영어의 뼈대는 하나예요. 손에 든 것을 보여 주며",
+   "cap": 10
+  },
+  {
+   "id": "e810dc056",
+   "lang": "en",
+   "text": "Do you have this",
+   "cap": 10
+  },
+  {
+   "id": "k04867ed4",
+   "lang": "ko",
+   "text": "? 그리고 바꿀 점을 더해요.",
+   "cap": 10
+  },
+  {
+   "id": "k561fe117",
+   "lang": "ko",
+   "text": "크기만 다르면",
+   "cap": 11
+  },
+  {
+   "id": "k3ccad740",
+   "lang": "ko",
+   "text": "색만 다르면",
+   "cap": 11
+  },
+  {
+   "id": "e058b26d4",
+   "lang": "en",
+   "text": "Do you have this in navy?",
+   "cap": 11
+  },
+  {
+   "id": "k859e718f",
+   "lang": "ko",
+   "text": "둘 다 다르면 이어서",
+   "cap": 12
+  },
+  {
+   "id": "e7c8c0c25",
+   "lang": "en",
+   "text": "Do you have this in a medium in navy?",
+   "cap": 12
+  },
+  {
+   "id": "kb92ab519",
+   "lang": "ko",
+   "text": "크기와 색은 어느 쪽이 먼저여도 돼요.",
+   "cap": 12
+  },
+  {
+   "id": "k39f9378c",
+   "lang": "ko",
+   "text": "같은 점은 말하지 않아요. 손에 든 것도 검은색인데",
+   "cap": 13
+  },
+  {
+   "id": "ec6e68283",
+   "lang": "en",
+   "text": "in black?",
+   "cap": 13
+  },
+  {
+   "id": "k9d045007",
+   "lang": "ko",
+   "text": "그러면 직원이 헷갈려요.",
+   "cap": 13
+  },
+  {
+   "id": "kd53d8e1f",
+   "lang": "ko",
+   "text": "청바지, 운동화, 양말 , 둘이 짝이라",
+   "cap": 14
+  },
+  {
+   "id": "e03229f92",
+   "lang": "en",
+   "text": "this",
+   "cap": 14
+  },
+  {
+   "id": "k7e748e61",
+   "lang": "ko",
+   "text": "대신",
+   "cap": 14
+  },
+  {
+   "id": "e908d6725",
+   "lang": "en",
+   "text": "these.",
+   "cap": 14
+  },
+  {
+   "id": "e0c39e51d",
+   "lang": "en",
+   "text": "Do you have these in a 32?",
+   "cap": 14
+  },
+  {
+   "id": "ke5acf6c2",
+   "lang": "ko",
+   "text": "긴 말도 통하지만",
+   "cap": 15
+  },
+  {
+   "id": "ee99c5387",
+   "lang": "en",
+   "text": "this hoodie in medium size in navy color.",
+   "cap": 15
+  },
+  {
+   "id": "kc6ec9b62",
+   "lang": "ko",
+   "text": "짧게",
+   "cap": 15
+  },
+  {
+   "id": "e383f0616",
+   "lang": "en",
+   "text": "this in a medium in navy.",
+   "cap": 15
+  },
+  {
+   "id": "ef158220b",
+   "lang": "en",
+   "text": "Can I help you find anything?",
+   "cap": 16
+  },
+  {
+   "id": "kcc403ed1",
+   "lang": "ko",
+   "text": "도와주겠다는",
+   "cap": 16
+  },
+  {
+   "id": "e888e6819",
+   "lang": "en",
+   "text": "Yes or No",
+   "cap": 16
+  },
+  {
+   "id": "k527b392d",
+   "lang": "ko",
+   "text": "질문이에요. 그냥 보는 중이면",
+   "cap": 16
+  },
+  {
+   "id": "efcdb1fc9",
+   "lang": "en",
+   "text": "I'm just looking, thanks.",
+   "cap": 16
+  },
+  {
+   "id": "k5fad047c",
+   "lang": "ko",
+   "text": "아이쇼핑을 옮긴",
+   "cap": 17
+  },
+  {
+   "id": "ee9166903",
+   "lang": "en",
+   "text": "Just eye shopping.",
+   "cap": 17
+  },
+  {
+   "id": "k4a3853bd",
+   "lang": "ko",
+   "text": "영어로는 통하지 않아요.",
+   "cap": 17
+  },
+  {
+   "id": "eea9a376d",
+   "lang": "en",
+   "text": "No.",
+   "cap": 17
+  },
+  {
+   "id": "k90e4927f",
+   "lang": "ko",
+   "text": "한 마디로 끊으면 무뚝뚝하게 들려요.",
+   "cap": 17
+  },
+  {
+   "id": "kf7d56787",
+   "lang": "ko",
+   "text": "찾는 게 있으면",
+   "cap": 18
+  },
+  {
+   "id": "e706c2977",
+   "lang": "en",
+   "text": "Yes, I'm looking for a hoodie.",
+   "cap": 18
+  },
+  {
+   "id": "k5cd1c5a5",
+   "lang": "ko",
+   "text": "영국에서는",
+   "cap": 18
+  },
+  {
+   "id": "e6a2b3345",
+   "lang": "en",
+   "text": "Are you alright there?",
+   "cap": 18
+  },
+  {
+   "id": "kc2fef94f",
+   "lang": "ko",
+   "text": "같은 뜻이에요.",
+   "cap": 18
+  },
+  {
+   "id": "k30e7b7be",
+   "lang": "ko",
+   "text": "둘러보다 직원이 지나가면",
+   "cap": 19
+  },
+  {
+   "id": "ec264cecf",
+   "lang": "en",
+   "text": "Let me know if you need anything!",
+   "cap": 19
+  },
+  {
+   "id": "ke7da2781",
+   "lang": "ko",
+   "text": "이제 내가 먼저 물을 차례예요.",
+   "cap": 19
+  },
+  {
+   "id": "e3648dcaa",
+   "lang": "en",
+   "text": "Excuse me, where can I find jeans?",
+   "cap": 20
+  },
+  {
+   "id": "k6dd05da0",
+   "lang": "ko",
+   "text": "이 틀 하나면 물건이 하나든 여럿이든",
+   "cap": 20
+  },
+  {
+   "id": "eec794408",
+   "lang": "en",
+   "text": "is , are",
+   "cap": 20
+  },
+  {
+   "id": "k406bdf09",
+   "lang": "ko",
+   "text": "고민이 없어요.",
+   "cap": 20
+  },
+  {
+   "id": "keb5948f5",
+   "lang": "ko",
+   "text": "물건 이름도 조심해요. 후드 티",
+   "cap": 21
+  },
+  {
+   "id": "ed523c20f",
+   "lang": "en",
+   "text": "a hoodie",
+   "cap": 21
+  },
+  {
+   "id": "k23610683",
+   "lang": "ko",
+   "text": "원피스",
+   "cap": 21
+  },
+  {
+   "id": "e1ade9d26",
+   "lang": "en",
+   "text": "a dress",
+   "cap": 21
+  },
+  {
+   "id": "k81f57ebe",
+   "lang": "ko",
+   "text": "패딩",
+   "cap": 21
+  },
+  {
+   "id": "e4b21f863",
+   "lang": "en",
+   "text": "a puffer jacket",
+   "cap": 21
+  },
+  {
+   "id": "k93acd7f1",
+   "lang": "ko",
+   "text": "와이셔츠",
+   "cap": 21
+  },
+  {
+   "id": "eabbdca99",
+   "lang": "en",
+   "text": "a shirt.",
+   "cap": 21
+  },
+  {
+   "id": "e04f69a37",
+   "lang": "en",
+   "text": "What size are you looking for?",
+   "cap": 22
+  },
+  {
+   "id": "ka288ae7a",
+   "lang": "ko",
+   "text": "정보 질문.",
+   "cap": 22
+  },
+  {
+   "id": "e60161af3",
+   "lang": "en",
+   "text": "Yes, please.",
+   "cap": 22
+  },
+  {
+   "id": "k94d00545",
+   "lang": "ko",
+   "text": "크기가 없어요.",
+   "cap": 22
+  },
+  {
+   "id": "e49941028",
+   "lang": "en",
+   "text": "A medium, please.",
+   "cap": 22
+  },
+  {
+   "id": "e52dfb829",
+   "lang": "en",
+   "text": "I'm a medium.",
+   "cap": 23
+  },
+  {
+   "id": "kd70d0d1e",
+   "lang": "ko",
+   "text": "이렇게 말해도 돼요.",
+   "cap": 23
+  },
+  {
+   "id": "ef165d779",
+   "lang": "en",
+   "text": "Free size",
+   "cap": 23
+  },
+  {
+   "id": "kc0b4bafe",
+   "lang": "ko",
+   "text": "공짜로 들릴 수 있어요. 한 가지 크기는",
+   "cap": 23
+  },
+  {
+   "id": "ead0f6053",
+   "lang": "en",
+   "text": "one size.",
+   "cap": 23
+  },
+  {
+   "id": "e3466129e",
+   "lang": "en",
+   "text": "M size",
+   "cap": 24
+  },
+  {
+   "id": "kf7bed6f1",
+   "lang": "ko",
+   "text": "알아듣지만 보통",
+   "cap": 24
+  },
+  {
+   "id": "eeb8a6f5e",
+   "lang": "en",
+   "text": "a medium.",
+   "cap": 24
+  },
+  {
+   "id": "kc95f5d8c",
+   "lang": "ko",
+   "text": "바지는 허리 숫자",
+   "cap": 24
+  },
+  {
+   "id": "e57d9641e",
+   "lang": "en",
+   "text": "a 32",
+   "cap": 24
+  },
+  {
+   "id": "k2345697f",
+   "lang": "ko",
+   "text": "신발은",
+   "cap": 24
+  },
+  {
+   "id": "ea0c263e1",
+   "lang": "en",
+   "text": "a size 9.",
+   "cap": 24
+  },
+  {
+   "id": "e072304ae",
+   "lang": "en",
+   "text": "Would you like it in navy or gray?",
+   "cap": 25
+  },
+  {
+   "id": "k582536ca",
+   "lang": "ko",
+   "text": "고르는 질문. 고른 것",
+   "cap": 25
+  },
+  {
+   "id": "e026d08a8",
+   "lang": "en",
+   "text": "please , Navy, please.",
+   "cap": 25
+  },
+  {
+   "id": "e1af9f716",
+   "lang": "en",
+   "text": "Are you finding everything okay?",
+   "cap": 26
+  },
+  {
+   "id": "keffd2151",
+   "lang": "ko",
+   "text": "바꿀 점을 바로 말해요",
+   "cap": 26
+  },
+  {
+   "id": "e23206159",
+   "lang": "en",
+   "text": "this in",
+   "cap": 27
+  },
+  {
+   "id": "ke520a6df",
+   "lang": "ko",
+   "text": "이어서",
+   "cap": 27
+  },
+  {
+   "id": "e46f0b0e4",
+   "lang": "en",
+   "text": "thi-sin.",
+   "cap": 27
+  },
+  {
+   "id": "e1c61d4de",
+   "lang": "en",
+   "text": "Give me a bigger one.",
+   "cap": 27
+  },
+  {
+   "id": "k822fb96f",
+   "lang": "ko",
+   "text": "명령처럼 들리고 얼마나 큰지도 몰라요.",
+   "cap": 27
+  },
+  {
+   "id": "eb501b8cc",
+   "lang": "en",
+   "text": "The fitting rooms are right over there.",
+   "cap": 28
+  },
+  {
+   "id": "k976a7354",
+   "lang": "ko",
+   "text": "안내예요. 입어 보고 싶으면 내가 먼저",
+   "cap": 28
+  },
+  {
+   "id": "ea645e7b9",
+   "lang": "en",
+   "text": "Could I try this on?",
+   "cap": 28
+  },
+  {
+   "id": "eb0cc7c81",
+   "lang": "en",
+   "text": "Can I fitting?",
+   "cap": 29
+  },
+  {
+   "id": "ka401eb2c",
+   "lang": "ko",
+   "text": "통하지 않아요.",
+   "cap": 29
+  },
+  {
+   "id": "eba26d333",
+   "lang": "en",
+   "text": "Can I wear this?",
+   "cap": 29
+  },
+  {
+   "id": "kf9d00858",
+   "lang": "ko",
+   "text": "사서 입고 나가겠다는 말처럼 들려요.",
+   "cap": 29
+  },
+  {
+   "id": "e182d9598",
+   "lang": "en",
+   "text": "How many items do you have?",
+   "cap": 30
+  },
+  {
+   "id": "k897af2ca",
+   "lang": "ko",
+   "text": "정보 질문. 수만 말해요",
+   "cap": 30
+  },
+  {
+   "id": "e64c32fca",
+   "lang": "en",
+   "text": "Two.",
+   "cap": 30
+  },
+  {
+   "id": "kde6a7d1f",
+   "lang": "ko",
+   "text": "번호표를 받는 곳도 있어요.",
+   "cap": 30
+  },
+  {
+   "id": "e3ceaa6be",
+   "lang": "en",
+   "text": "How did everything fit?",
+   "cap": 31
+  },
+  {
+   "id": "k27d315cb",
+   "lang": "ko",
+   "text": "어땠는지 묻는 정보 질문.",
+   "cap": 31
+  },
+  {
+   "id": "e568ee179",
+   "lang": "en",
+   "text": "Yes, it did.",
+   "cap": 31
+  },
+  {
+   "id": "kf0cc8e99",
+   "lang": "ko",
+   "text": "어땠는지가 빠졌어요.",
+   "cap": 31
+  },
+  {
+   "id": "k48b04e3d",
+   "lang": "ko",
+   "text": "맞지 않으면",
+   "cap": 32
+  },
+  {
+   "id": "e1b6028d8",
+   "lang": "en",
+   "text": "It's a little tight.",
+   "cap": 32
+  },
+  {
+   "id": "kbb956f06",
+   "lang": "ko",
+   "text": "둘이 짝이면",
+   "cap": 32
+  },
+  {
+   "id": "e0f3ad38f",
+   "lang": "en",
+   "text": "They're a little loose.",
+   "cap": 32
+  },
+  {
+   "id": "k4741730d",
+   "lang": "ko",
+   "text": "잘 맞으면",
+   "cap": 32
+  },
+  {
+   "id": "e05a8a346",
+   "lang": "en",
+   "text": "It fits great.",
+   "cap": 32
+  },
+  {
+   "id": "e7818c1fd",
+   "lang": "en",
+   "text": "Would you like to try a different size?",
+   "cap": 33
+  },
+  {
+   "id": "k5edeee65",
+   "lang": "ko",
+   "text": "꽉 끼면 한 칸 큰 것",
+   "cap": 33
+  },
+  {
+   "id": "ea458bbb5",
+   "lang": "en",
+   "text": "Yes, could I try a large?",
+   "cap": 33
+  },
+  {
+   "id": "ka0683947",
+   "lang": "ko",
+   "text": "값표가 없으면 내가 먼저 물어요",
+   "cap": 34
+  },
+  {
+   "id": "e71dd8ccd",
+   "lang": "en",
+   "text": "Excuse me, how much is this?",
+   "cap": 34
+  },
+  {
+   "id": "e2807bf59",
+   "lang": "en",
+   "text": "how much are these?",
+   "cap": 34
+  },
+  {
+   "id": "e4bf0d672",
+   "lang": "en",
+   "text": "How much money?",
+   "cap": 35
+  },
+  {
+   "id": "k2185960d",
+   "lang": "ko",
+   "text": "값을 물을 땐",
+   "cap": 35
+  },
+  {
+   "id": "e4325a94a",
+   "lang": "en",
+   "text": "money",
+   "cap": 35
+  },
+  {
+   "id": "k68473287",
+   "lang": "ko",
+   "text": "없이 말해요.",
+   "cap": 35
+  },
+  {
+   "id": "eb8760dd4",
+   "lang": "en",
+   "text": "D.",
+   "cap": 35
+  },
+  {
+   "id": "e3a6a0e87",
+   "lang": "en",
+   "text": "C.",
+   "cap": 35
+  },
+  {
+   "id": "k47337a53",
+   "lang": "ko",
+   "text": "(디시) , 영어로는",
+   "cap": 35
+  },
+  {
+   "id": "e0cccf2ab",
+   "lang": "en",
+   "text": "Is this on sale?",
+   "cap": 35
+  },
+  {
+   "id": "k77db1d08",
+   "lang": "ko",
+   "text": "직원",
+   "cap": 36
+  },
+  {
+   "id": "ed053cc61",
+   "lang": "en",
+   "text": "It's",
+   "cap": 36
+  },
+  {
+   "id": "kbb1e3c57",
+   "lang": "ko",
+   "text": "15달러",
+   "cap": 36
+  },
+  {
+   "id": "e7fb181c7",
+   "lang": "en",
+   "text": "today.",
+   "cap": 36
+  },
+  {
+   "id": "e2279b747",
+   "lang": "en",
+   "text": "That's fifty percent off.",
+   "cap": 36
+  },
+  {
+   "id": "k5adc36fa",
+   "lang": "ko",
+   "text": "15와 50",
+   "cap": 36
+  },
+  {
+   "id": "e321c045b",
+   "lang": "en",
+   "text": "fifteen",
+   "cap": 36
+  },
+  {
+   "id": "k1f516987",
+   "lang": "ko",
+   "text": "뒤를 세게",
+   "cap": 36
+  },
+  {
+   "id": "eb58319ec",
+   "lang": "en",
+   "text": "fifty",
+   "cap": 36
+  },
+  {
+   "id": "k18ec5dd1",
+   "lang": "ko",
+   "text": "앞을 세게 말해요.",
+   "cap": 36
+  },
+  {
+   "id": "ke23e318e",
+   "lang": "ko",
+   "text": "헷갈리면 되물어요",
+   "cap": 37
+  },
+  {
+   "id": "efdc545b7",
+   "lang": "en",
+   "text": "Sorry, did you say fifteen dollars?",
+   "cap": 37
+  },
+  {
+   "id": "kad1750b0",
+   "lang": "ko",
+   "text": "숫자만 확인하면 되니 겁내지 말고 물어요.",
+   "cap": 37
+  },
+  {
+   "id": "e77f92219",
+   "lang": "en",
+   "text": "Too expensive.",
+   "cap": 38
+  },
+  {
+   "id": "e8e9ab526",
+   "lang": "en",
+   "text": "Cheaper, please.",
+   "cap": 38
+  },
+  {
+   "id": "k9c993f10",
+   "lang": "ko",
+   "text": "이런 가게에서는 보통 값을 깎지 않아요. 사려면",
+   "cap": 38
+  },
+  {
+   "id": "ead450f87",
+   "lang": "en",
+   "text": "Great.",
+   "cap": 38
+  },
+  {
+   "id": "ec74d305c",
+   "lang": "en",
+   "text": "I'll take it.",
+   "cap": 38
+  },
+  {
+   "id": "e5fdf4aad",
+   "lang": "en",
+   "text": "Our socks are buy one, get one free.",
+   "cap": 39
+  },
+  {
+   "id": "k8b862a9c",
+   "lang": "ko",
+   "text": "원 플러스 원 , 영어로는",
+   "cap": 39
+  },
+  {
+   "id": "e474b815e",
+   "lang": "en",
+   "text": "buy one, get one free.",
+   "cap": 39
+  },
+  {
+   "id": "k63c5a707",
+   "lang": "ko",
+   "text": "원하면",
+   "cap": 39
+  },
+  {
+   "id": "e6432e805",
+   "lang": "en",
+   "text": "Did you find everything okay?",
+   "cap": 40
+  },
+  {
+   "id": "e039b5c5e",
+   "lang": "en",
+   "text": "Yes, I found.",
+   "cap": 40
+  },
+  {
+   "id": "k0c4f01af",
+   "lang": "ko",
+   "text": "문장이 끝나지 않아요.",
+   "cap": 40
+  },
+  {
+   "id": "e89f0979d",
+   "lang": "en",
+   "text": "Yes, I did.",
+   "cap": 40
+  },
+  {
+   "id": "e68fca163",
+   "lang": "en",
+   "text": "Thanks.",
+   "cap": 40
+  },
+  {
+   "id": "ec2b3666a",
+   "lang": "en",
+   "text": "Do you have a rewards card with us?",
+   "cap": 41
+  },
+  {
+   "id": "k1c6a7eb1",
+   "lang": "ko",
+   "text": "회원 카드예요. 없으면",
+   "cap": 41
+  },
+  {
+   "id": "e94694f54",
+   "lang": "en",
+   "text": "No, I don't.",
+   "cap": 41
+  },
+  {
+   "id": "eddd4867a",
+   "lang": "en",
+   "text": "No, I don't have.",
+   "cap": 41
+  },
+  {
+   "id": "ka929956f",
+   "lang": "ko",
+   "text": "끝이 비어요)",
+   "cap": 41
+  },
+  {
+   "id": "e369734ff",
+   "lang": "en",
+   "text": "Would you like a bag?",
+   "cap": 42
+  },
+  {
+   "id": "k0570f69a",
+   "lang": "ko",
+   "text": "비닐봉지를 옮긴",
+   "cap": 42
+  },
+  {
+   "id": "e37b3cdfc",
+   "lang": "en",
+   "text": "vinyl bag",
+   "cap": 42
+  },
+  {
+   "id": "k12eb9478",
+   "lang": "ko",
+   "text": "어색해요. 필요하면",
+   "cap": 42
+  },
+  {
+   "id": "kb4a5162b",
+   "lang": "ko",
+   "text": "아니면",
+   "cap": 42
+  },
+  {
+   "id": "e2eb57f9a",
+   "lang": "en",
+   "text": "No, thanks.",
+   "cap": 42
+  },
+  {
+   "id": "efeecb0c9",
+   "lang": "en",
+   "text": "I have one.",
+   "cap": 42
+  },
+  {
+   "id": "e6b018add",
+   "lang": "en",
+   "text": "Your total is",
+   "cap": 43
+  },
+  {
+   "id": "ka43a8ca2",
+   "lang": "ko",
+   "text": "21달러.",
+   "cap": 43
+  },
+  {
+   "id": "e242fb645",
+   "lang": "en",
+   "text": "Cash or card?",
+   "cap": 43
+  },
+  {
+   "id": "k4f4400d5",
+   "lang": "ko",
+   "text": "고르는 질문.",
+   "cap": 43
+  },
+  {
+   "id": "kf42db2c0",
+   "lang": "ko",
+   "text": "고른 것이 없어요.",
+   "cap": 43
+  },
+  {
+   "id": "ec760a3ac",
+   "lang": "en",
+   "text": "Card, please.",
+   "cap": 43
+  },
+  {
+   "id": "k783037b1",
+   "lang": "ko",
+   "text": "후드 티 15달러와 양말 두 켤레 6달러 , 모두 21달러. 세금은 빼고 계산한 지어낸 값이에요.",
+   "cap": 44
+  },
+  {
+   "id": "eeb6b767b",
+   "lang": "en",
+   "text": "Would you like your receipt?",
+   "cap": 45
+  },
+  {
+   "id": "k74aafd85",
+   "lang": "ko",
+   "text": "교환 , 환불하려면 영수증이 필요해요",
+   "cap": 45
+  },
+  {
+   "id": "kab28f073",
+   "lang": "ko",
+   "text": "며칠 뒤, 청바지가 작아서 바꾸러 왔어요.",
+   "cap": 46
+  },
+  {
+   "id": "e17571bd1",
+   "lang": "en",
+   "text": "Hi, how can I help you?",
+   "cap": 46
+  },
+  {
+   "id": "k3cfc8d82",
+   "lang": "ko",
+   "text": "하고 싶은 것을 말해요.",
+   "cap": 46
+  },
+  {
+   "id": "k4f9064c9",
+   "lang": "ko",
+   "text": "교환",
+   "cap": 47
+  },
+  {
+   "id": "e886de3ab",
+   "lang": "en",
+   "text": "change?",
+   "cap": 47
+  },
+  {
+   "id": "kc68d4ec9",
+   "lang": "ko",
+   "text": "거스름돈으로 들려요.",
+   "cap": 47
+  },
+  {
+   "id": "e58d73052",
+   "lang": "en",
+   "text": "I'd like to exchange these.",
+   "cap": 47
+  },
+  {
+   "id": "k852bd7ce",
+   "lang": "ko",
+   "text": "돌려주고 돈을 받으려면",
+   "cap": 47
+  },
+  {
+   "id": "ec66e0146",
+   "lang": "en",
+   "text": "return.",
+   "cap": 47
+  },
+  {
+   "id": "ee2e4fdf0",
+   "lang": "en",
+   "text": "Refund me.",
+   "cap": 48
+  },
+  {
+   "id": "kfbe1684b",
+   "lang": "ko",
+   "text": "명령처럼 들려요.",
+   "cap": 48
+  },
+  {
+   "id": "e935fc9ce",
+   "lang": "en",
+   "text": "I'd like to return this.",
+   "cap": 48
+  },
+  {
+   "id": "ebd1e9d66",
+   "lang": "en",
+   "text": "Do you have your receipt?",
+   "cap": 48
+  },
+  {
+   "id": "ea54d1d6a",
+   "lang": "en",
+   "text": "Yes, here it is.",
+   "cap": 48
+  },
+  {
+   "id": "e40c22d1c",
+   "lang": "en",
+   "text": "What's the reason?",
+   "cap": 49
+  },
+  {
+   "id": "ef19da8f9",
+   "lang": "en",
+   "text": "They're too small.",
+   "cap": 49
+  },
+  {
+   "id": "ef19d653d",
+   "lang": "en",
+   "text": "What size would you like instead?",
+   "cap": 49
+  },
+  {
+   "id": "eafaf9bee",
+   "lang": "en",
+   "text": "A 32, please.",
+   "cap": 49
+  },
+  {
+   "id": "ke5070c01",
+   "lang": "ko",
+   "text": "환불이면",
+   "cap": 50
+  },
+  {
+   "id": "eb4ae49a8",
+   "lang": "en",
+   "text": "Would you like a refund or store credit?",
+   "cap": 50
+  },
+  {
+   "id": "eeecd3bd0",
+   "lang": "en",
+   "text": "store credit",
+   "cap": 50
+  },
+  {
+   "id": "k2949287f",
+   "lang": "ko",
+   "text": "그 가게에서만 쓰는 돈이에요. 모르면 물어요.",
+   "cap": 50
+  },
+  {
+   "id": "k30b793b7",
+   "lang": "ko",
+   "text": "규칙상 안 되면",
+   "cap": 51
+  },
+  {
+   "id": "ebea34e01",
+   "lang": "en",
+   "text": "I'm sorry, but we only take returns within thirty days.",
+   "cap": 51
+  },
+  {
+   "id": "k8bfa16d1",
+   "lang": "ko",
+   "text": "따지지 말고",
+   "cap": 51
+  },
+  {
+   "id": "e6f48f490",
+   "lang": "en",
+   "text": "I see.",
+   "cap": 51
+  },
+  {
+   "id": "e8e85fa40",
+   "lang": "en",
+   "text": "Thank you anyway.",
+   "cap": 51
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 52
+  },
+  {
+   "id": "k38842679",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말과 질문의 모양 잡기",
+   "cap": 53
+  },
+  {
+   "id": "e66d687bf",
+   "lang": "en",
+   "text": "or",
+   "cap": 53
+  },
+  {
+   "id": "k544eebd7",
+   "lang": "ko",
+   "text": "고르기",
+   "cap": 53
+  },
+  {
+   "id": "e272e1dfa",
+   "lang": "en",
+   "text": "how , what",
+   "cap": 53
+  },
+  {
+   "id": "k86332d30",
+   "lang": "ko",
+   "text": "정보",
+   "cap": 53
+  },
+  {
+   "id": "e66d12c3a",
+   "lang": "en",
+   "text": "Can I , Do you , Yes or No.",
+   "cap": 53
+  },
+  {
+   "id": "k32241e04",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기 , 이것, 바꿀 점.",
+   "cap": 54
+  },
+  {
+   "id": "e2d8de4d1",
+   "lang": "en",
+   "text": "these , they , them.",
+   "cap": 54
+  },
+  {
+   "id": "k383245d4",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기",
+   "cap": 55
+  },
+  {
+   "id": "e4c2ae3e9",
+   "lang": "en",
+   "text": "please, thanks, Could I",
+   "cap": 55
+  },
+  {
+   "id": "ka5d97636",
+   "lang": "ko",
+   "text": "? 부를 때는",
+   "cap": 55
+  },
+  {
+   "id": "e6abea12b",
+   "lang": "en",
+   "text": "Excuse me.",
+   "cap": 55
+  },
+  {
+   "id": "k0d4eef2b",
+   "lang": "ko",
+   "text": "일곱 곳에 한 줄씩 적용했어요. 내가 먼저 말하는 곳도 직원의 말에 대한 대답으로 볼 수 있어요.",
+   "cap": 56
+  },
+  {
+   "id": "k056f2940",
+   "lang": "ko",
+   "text": "실전이에요. 쇼핑 카드 , 청바지 30을 들고, 32를 찾아요. 첫 질문",
+   "cap": 57
+  },
+  {
+   "id": "k0a355a06",
+   "lang": "ko",
+   "text": "첫째, 셋 모두 바꿀 점을 묻는 말이에요. 둘째, 에이",
+   "cap": 58
+  },
+  {
+   "id": "kfa4a7e54",
+   "lang": "ko",
+   "text": "청바지는",
+   "cap": 58
+  },
+  {
+   "id": "ka55c7fe4",
+   "lang": "ko",
+   "text": "비 30 , 손에 든 것과 같아요.",
+   "cap": 58
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 59
+  },
+  {
+   "id": "k40d46bf7",
+   "lang": "ko",
+   "text": "첫째, 정보 질문 , 에이",
+   "cap": 60
+  },
+  {
+   "id": "k968be26e",
+   "lang": "ko",
+   "text": "어땠는지가 빠져 탈락.",
+   "cap": 60
+  },
+  {
+   "id": "k575d4ed3",
+   "lang": "ko",
+   "text": "둘째, 비",
+   "cap": 61
+  },
+  {
+   "id": "ef9d16345",
+   "lang": "en",
+   "text": "It fits",
+   "cap": 61
+  },
+  {
+   "id": "kf79511b7",
+   "lang": "ko",
+   "text": "청바지는 둘이 짝이라",
+   "cap": 61
+  },
+  {
+   "id": "ef11cc9cb",
+   "lang": "en",
+   "text": "They fit.",
+   "cap": 61
+  },
+  {
+   "id": "kfa74e09c",
+   "lang": "ko",
+   "text": "탈락.",
+   "cap": 61
+  },
+  {
+   "id": "e96559973",
+   "lang": "en",
+   "text": "They fit great, thanks.",
+   "cap": 62
+  },
+  {
+   "id": "k1f59edaf",
+   "lang": "ko",
+   "text": "계산대",
+   "cap": 63
+  },
+  {
+   "id": "k6eb631ee",
+   "lang": "ko",
+   "text": "첫째, 고르는 질문 , 비",
+   "cap": 63
+  },
+  {
+   "id": "k43522a57",
+   "lang": "ko",
+   "text": "둘째, 씨",
+   "cap": 64
+  },
+  {
+   "id": "ebe252295",
+   "lang": "en",
+   "text": "Cash",
+   "cap": 64
+  },
+  {
+   "id": "k0ca6047c",
+   "lang": "ko",
+   "text": "카드로 내기로 했어요. 탈락.",
+   "cap": 64
+  },
+  {
+   "id": "k6fdeff0d",
+   "lang": "ko",
+   "text": "정답 에이",
+   "cap": 65
+  },
+  {
+   "id": "kb6f2dfa5",
+   "lang": "ko",
+   "text": "며칠 뒤",
+   "cap": 66
+  },
+  {
+   "id": "ed41665bc",
+   "lang": "en",
+   "text": "How can I help you?",
+   "cap": 66
+  },
+  {
+   "id": "kbb4445d1",
+   "lang": "ko",
+   "text": "첫째, 셋 모두 돌려주는 일에 대한 말이에요.",
+   "cap": 66
+  },
+  {
+   "id": "ee7b5e446",
+   "lang": "en",
+   "text": "Change, please.",
+   "cap": 67
+  },
+  {
+   "id": "kd8944b84",
+   "lang": "ko",
+   "text": "거스름돈으로 들려 탈락.",
+   "cap": 67
+  },
+  {
+   "id": "kd1cb3732",
+   "lang": "ko",
+   "text": "셋째, 에이",
+   "cap": 68
+  },
+  {
+   "id": "k80b26ac8",
+   "lang": "ko",
+   "text": "명령처럼 들려 탈락. 정답 씨",
+   "cap": 68
+  },
+  {
+   "id": "e205e088b",
+   "lang": "en",
+   "text": "I'd like to return these.",
+   "cap": 68
+  },
+  {
+   "id": "ka65cd801",
+   "lang": "ko",
+   "text": "정리해요. 바꾸고 싶으면 , 이것, 바꿀 점.",
+   "cap": 69
+  },
+  {
+   "id": "k2c834b5a",
+   "lang": "ko",
+   "text": "같은 점은 빼요.",
+   "cap": 69
+  },
+  {
+   "id": "k072ceb46",
+   "lang": "ko",
+   "text": "둘이 짝인 물건",
+   "cap": 70
+  },
+  {
+   "id": "k8f06782b",
+   "lang": "ko",
+   "text": "내가 먼저",
+   "cap": 70
+  },
+  {
+   "id": "e8e3e8ff2",
+   "lang": "en",
+   "text": "Excuse me, where can I find",
+   "cap": 70
+  },
+  {
+   "id": "k50accb51",
+   "lang": "ko",
+   "text": "값",
+   "cap": 71
+  },
+  {
+   "id": "e36a69c62",
+   "lang": "en",
+   "text": "How much is this?",
+   "cap": 71
+  },
+  {
+   "id": "k6d987bcd",
+   "lang": "ko",
+   "text": "숫자가 헷갈리면",
+   "cap": 71
+  },
+  {
+   "id": "ka237ff8a",
+   "lang": "ko",
+   "text": "아래 쇼핑 시뮬레이터에서 내 쇼핑 카드로 입구부터 교환 , 환불까지 해 보세요.",
+   "cap": 72
+  }
+ ]
+}

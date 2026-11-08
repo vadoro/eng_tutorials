@@ -1,0 +1,1292 @@
+{
+ "slug": "shopping",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 17,
+  "ca": 6,
+  "gb": 3,
+  "me": 86,
+  "tc": 81,
+  "us": 20
+ },
+ "lines": [
+  {
+   "id": "us-78dc7bd7",
+   "sp": "us",
+   "text": "Are you finding everything okay?",
+   "from": "video"
+  },
+  {
+   "id": "me-d465425a",
+   "sp": "me",
+   "text": "M size is there?",
+   "from": "video"
+  },
+  {
+   "id": "us-2e9fe785",
+   "sp": "us",
+   "text": "Sorry?",
+   "from": "video"
+  },
+  {
+   "id": "me-77632bf7",
+   "sp": "me",
+   "text": "Do you have this in a medium?",
+   "from": "video"
+  },
+  {
+   "id": "tc-12a66fdc",
+   "sp": "tc",
+   "text": "Do you have this in a medium?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6de6789c",
+   "sp": "tc",
+   "text": "Are you finding everything okay?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5d07c2ae",
+   "sp": "tc",
+   "text": "Excuse me, could I try this on?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1fa88cdb",
+   "sp": "tc",
+   "text": "Hi, welcome to Maple & Thread! Can I help you find anything?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8a2160fc",
+   "sp": "tc",
+   "text": "Sure. Let me know if you need anything!",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-584f57ce",
+   "sp": "tc",
+   "text": "The fitting rooms are right over there.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-18c9e878",
+   "sp": "tc",
+   "text": "Let me know if you have any questions!",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2fba1763",
+   "sp": "tc",
+   "text": "Hi there! Did you find everything okay?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b46e123f",
+   "sp": "tc",
+   "text": "Hi, how can I help you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a2094665",
+   "sp": "tc",
+   "text": "Do you have this?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-a35b2fb1",
+   "sp": "me",
+   "text": "Do you have this in navy?",
+   "from": "video"
+  },
+  {
+   "id": "me-6d811058",
+   "sp": "me",
+   "text": "Do you have this in a medium in navy?",
+   "from": "video"
+  },
+  {
+   "id": "me-01859078",
+   "sp": "me",
+   "text": "Do you have this in navy in a medium?",
+   "from": "video"
+  },
+  {
+   "id": "me-acbe38a4",
+   "sp": "me",
+   "text": "Do you have this in black?",
+   "from": "video"
+  },
+  {
+   "id": "us-118cd2b3",
+   "sp": "us",
+   "text": "That one is already black. Did you want a different color?",
+   "from": "video"
+  },
+  {
+   "id": "me-949d4571",
+   "sp": "me",
+   "text": "Do you have this in a 32?",
+   "from": "video"
+  },
+  {
+   "id": "me-647a257e",
+   "sp": "me",
+   "text": "Do you have these in a 32?",
+   "from": "video"
+  },
+  {
+   "id": "me-8673718d",
+   "sp": "me",
+   "text": "Do you have this hoodie in medium size in navy color?",
+   "from": "video"
+  },
+  {
+   "id": "us-f1a3416c",
+   "sp": "us",
+   "text": "Hi, welcome to Maple & Thread! Can I help you find anything?",
+   "from": "video"
+  },
+  {
+   "id": "me-cef4f974",
+   "sp": "me",
+   "text": "I'm just looking, thanks.",
+   "from": "video"
+  },
+  {
+   "id": "me-8ce81ac0",
+   "sp": "me",
+   "text": "Just eye shopping.",
+   "from": "video"
+  },
+  {
+   "id": "me-4d042e88",
+   "sp": "me",
+   "text": "No.",
+   "from": "video"
+  },
+  {
+   "id": "me-7283db4c",
+   "sp": "me",
+   "text": "Yes, I'm looking for a hoodie.",
+   "from": "video"
+  },
+  {
+   "id": "gb-53cd3bee",
+   "sp": "gb",
+   "text": "Hiya, are you alright there?",
+   "from": "video"
+  },
+  {
+   "id": "us-bb5ecccd",
+   "sp": "us",
+   "text": "Sure. Let me know if you need anything!",
+   "from": "video"
+  },
+  {
+   "id": "me-dbf86c6d",
+   "sp": "me",
+   "text": "Excuse me, where can I find jeans?",
+   "from": "video"
+  },
+  {
+   "id": "me-215ad805",
+   "sp": "me",
+   "text": "Excuse me, where is jeans?",
+   "from": "video"
+  },
+  {
+   "id": "tc-82f0c109",
+   "sp": "tc",
+   "text": "a hoodie",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1d2a8db8",
+   "sp": "tc",
+   "text": "a dress",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-442b9eb1",
+   "sp": "tc",
+   "text": "a puffer jacket",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-015df1cb",
+   "sp": "tc",
+   "text": "a shirt",
+   "from": "video-say"
+  },
+  {
+   "id": "us-6f7ca25e",
+   "sp": "us",
+   "text": "What size are you looking for?",
+   "from": "video"
+  },
+  {
+   "id": "tc-8d74e6ce",
+   "sp": "tc",
+   "text": "An extra small, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-da7e5248",
+   "sp": "tc",
+   "text": "A small, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1f6a15ae",
+   "sp": "tc",
+   "text": "A medium, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7fa72f90",
+   "sp": "tc",
+   "text": "A large, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3e1ff81a",
+   "sp": "tc",
+   "text": "An extra large, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-2e991861",
+   "sp": "me",
+   "text": "A medium, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-88896b74",
+   "sp": "me",
+   "text": "I'm a medium.",
+   "from": "video"
+  },
+  {
+   "id": "me-37824e38",
+   "sp": "me",
+   "text": "Free size, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-289b6a2b",
+   "sp": "me",
+   "text": "M size, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-1125fbe1",
+   "sp": "tc",
+   "text": "A 28, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-129dc27e",
+   "sp": "tc",
+   "text": "A 30, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d39d841c",
+   "sp": "tc",
+   "text": "A 32, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-cb3d1dea",
+   "sp": "tc",
+   "text": "A 34, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6a8c7e37",
+   "sp": "tc",
+   "text": "A size 7, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-18259990",
+   "sp": "tc",
+   "text": "A size 8, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-00706401",
+   "sp": "tc",
+   "text": "A size 9, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e55209eb",
+   "sp": "tc",
+   "text": "A size 10, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-0f8c3d0b",
+   "sp": "us",
+   "text": "Would you like it in navy or gray?",
+   "from": "video"
+  },
+  {
+   "id": "tc-44e6f0ac",
+   "sp": "tc",
+   "text": "Navy, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c8cc6e1d",
+   "sp": "tc",
+   "text": "Gray, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-144427f3",
+   "sp": "me",
+   "text": "Navy, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-e18e370a",
+   "sp": "us",
+   "text": "Sure! Here you go.",
+   "from": "video"
+  },
+  {
+   "id": "us-74a94741",
+   "sp": "us",
+   "text": "Do you have this in a medium?",
+   "from": "video"
+  },
+  {
+   "id": "me-18a9772f",
+   "sp": "me",
+   "text": "Give me a bigger one.",
+   "from": "video"
+  },
+  {
+   "id": "me-6b405fc5",
+   "sp": "me",
+   "text": "Do you have this in a large?",
+   "from": "video"
+  },
+  {
+   "id": "ca-589f6a47",
+   "sp": "ca",
+   "text": "The fitting rooms are right over there.",
+   "from": "video"
+  },
+  {
+   "id": "me-26548bf5",
+   "sp": "me",
+   "text": "Excuse me, could I try this on?",
+   "from": "video"
+  },
+  {
+   "id": "ca-6dcb4bd8",
+   "sp": "ca",
+   "text": "Could I try this on?",
+   "from": "video"
+  },
+  {
+   "id": "me-37943d0a",
+   "sp": "me",
+   "text": "Can I fitting?",
+   "from": "video"
+  },
+  {
+   "id": "me-5836f060",
+   "sp": "me",
+   "text": "Can I wear this?",
+   "from": "video"
+  },
+  {
+   "id": "ca-612f1263",
+   "sp": "ca",
+   "text": "Sure! How many items do you have?",
+   "from": "video"
+  },
+  {
+   "id": "me-c3feeeb1",
+   "sp": "me",
+   "text": "Two.",
+   "from": "video"
+  },
+  {
+   "id": "ca-accc0e91",
+   "sp": "ca",
+   "text": "How did everything fit?",
+   "from": "video"
+  },
+  {
+   "id": "me-7079c846",
+   "sp": "me",
+   "text": "Yes, it did.",
+   "from": "video"
+  },
+  {
+   "id": "me-0e58963b",
+   "sp": "me",
+   "text": "It's a little tight.",
+   "from": "video"
+  },
+  {
+   "id": "me-4658b66a",
+   "sp": "me",
+   "text": "They're a little loose.",
+   "from": "video"
+  },
+  {
+   "id": "me-1e6ec40c",
+   "sp": "me",
+   "text": "It fits great, thanks. I'll take it.",
+   "from": "video"
+  },
+  {
+   "id": "ca-9608dce2",
+   "sp": "ca",
+   "text": "Would you like to try a different size?",
+   "from": "video"
+  },
+  {
+   "id": "me-f26ffd6c",
+   "sp": "me",
+   "text": "Yes, could I try a small?",
+   "from": "video"
+  },
+  {
+   "id": "me-0bdc7674",
+   "sp": "me",
+   "text": "Yes, could I try a large?",
+   "from": "video"
+  },
+  {
+   "id": "us-530f7e0f",
+   "sp": "us",
+   "text": "Let me know if you have any questions!",
+   "from": "video"
+  },
+  {
+   "id": "me-5c8741ae",
+   "sp": "me",
+   "text": "Excuse me, how much is this?",
+   "from": "video"
+  },
+  {
+   "id": "me-36c4f06d",
+   "sp": "me",
+   "text": "Excuse me, how much are these?",
+   "from": "video"
+  },
+  {
+   "id": "me-e2cef96f",
+   "sp": "me",
+   "text": "How much money?",
+   "from": "video"
+  },
+  {
+   "id": "me-e45928ee",
+   "sp": "me",
+   "text": "D.C. is possible?",
+   "from": "video"
+  },
+  {
+   "id": "me-7b77359f",
+   "sp": "me",
+   "text": "Excuse me, is this on sale?",
+   "from": "video"
+  },
+  {
+   "id": "us-ae8557d6",
+   "sp": "us",
+   "text": "It's fifteen dollars today. That's fifty percent off.",
+   "from": "video"
+  },
+  {
+   "id": "tc-ed080235",
+   "sp": "tc",
+   "text": "fifteen, fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3b5eea6b",
+   "sp": "tc",
+   "text": "thirteen, thirty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d24f11b0",
+   "sp": "tc",
+   "text": "fourteen, forty",
+   "from": "video-say"
+  },
+  {
+   "id": "me-4beda6de",
+   "sp": "me",
+   "text": "Sorry, did you say fifteen dollars?",
+   "from": "video"
+  },
+  {
+   "id": "us-2cb2e244",
+   "sp": "us",
+   "text": "Yes, fifteen. One-five.",
+   "from": "video"
+  },
+  {
+   "id": "me-1edc1742",
+   "sp": "me",
+   "text": "Too expensive. Cheaper, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-690d343e",
+   "sp": "me",
+   "text": "Great. I'll take it.",
+   "from": "video"
+  },
+  {
+   "id": "us-2719c093",
+   "sp": "us",
+   "text": "Great choice.",
+   "from": "video"
+  },
+  {
+   "id": "us-399cd16a",
+   "sp": "us",
+   "text": "Our socks are buy one, get one free. Would you like to grab a pair?",
+   "from": "video"
+  },
+  {
+   "id": "tc-b58bb09a",
+   "sp": "tc",
+   "text": "buy one, get one free",
+   "from": "video-say"
+  },
+  {
+   "id": "me-14e2ea5b",
+   "sp": "me",
+   "text": "Oh, one plus one?",
+   "from": "video"
+  },
+  {
+   "id": "au-54d3dfc8",
+   "sp": "au",
+   "text": "Hi there! Did you find everything okay?",
+   "from": "video"
+  },
+  {
+   "id": "me-2020736f",
+   "sp": "me",
+   "text": "Yes, I found.",
+   "from": "video"
+  },
+  {
+   "id": "me-fa620cc1",
+   "sp": "me",
+   "text": "Yes, I did. Thanks.",
+   "from": "video"
+  },
+  {
+   "id": "au-52f8a423",
+   "sp": "au",
+   "text": "Do you have a rewards card with us?",
+   "from": "video"
+  },
+  {
+   "id": "me-852aee8b",
+   "sp": "me",
+   "text": "No, I don't have.",
+   "from": "video"
+  },
+  {
+   "id": "me-89f7a6af",
+   "sp": "me",
+   "text": "No, I don't.",
+   "from": "video"
+  },
+  {
+   "id": "au-34e23446",
+   "sp": "au",
+   "text": "Would you like a bag?",
+   "from": "video"
+  },
+  {
+   "id": "me-65b128e3",
+   "sp": "me",
+   "text": "Vinyl bag, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-578a69d4",
+   "sp": "me",
+   "text": "No, thanks. I have one.",
+   "from": "video"
+  },
+  {
+   "id": "au-b1e2e634",
+   "sp": "au",
+   "text": "Your total is twenty-one dollars. Cash or card?",
+   "from": "video"
+  },
+  {
+   "id": "me-9930bb05",
+   "sp": "me",
+   "text": "Card, please.",
+   "from": "video"
+  },
+  {
+   "id": "au-0ee655d8",
+   "sp": "au",
+   "text": "Would you like your receipt?",
+   "from": "video"
+  },
+  {
+   "id": "au-e078f3d8",
+   "sp": "au",
+   "text": "Hi, how can I help you?",
+   "from": "video"
+  },
+  {
+   "id": "me-5eb3b307",
+   "sp": "me",
+   "text": "Change, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-770cf8ff",
+   "sp": "me",
+   "text": "I'd like to exchange these.",
+   "from": "video"
+  },
+  {
+   "id": "me-e1e8037f",
+   "sp": "me",
+   "text": "Refund me.",
+   "from": "video"
+  },
+  {
+   "id": "me-54b19da1",
+   "sp": "me",
+   "text": "I'd like to return this.",
+   "from": "video"
+  },
+  {
+   "id": "au-6b09cbea",
+   "sp": "au",
+   "text": "Sure. Do you have your receipt?",
+   "from": "video"
+  },
+  {
+   "id": "me-1178d8e1",
+   "sp": "me",
+   "text": "Yes, here it is.",
+   "from": "video"
+  },
+  {
+   "id": "au-ee9118d2",
+   "sp": "au",
+   "text": "Okay. What's the reason for the exchange?",
+   "from": "video"
+  },
+  {
+   "id": "me-89ebfc0e",
+   "sp": "me",
+   "text": "They're too small.",
+   "from": "video"
+  },
+  {
+   "id": "au-387fa0de",
+   "sp": "au",
+   "text": "No problem. What size would you like instead?",
+   "from": "video"
+  },
+  {
+   "id": "me-fdc93aa7",
+   "sp": "me",
+   "text": "A 32, please.",
+   "from": "video"
+  },
+  {
+   "id": "au-c8c51c7f",
+   "sp": "au",
+   "text": "Would you like a refund or store credit?",
+   "from": "video"
+  },
+  {
+   "id": "tc-ab691de7",
+   "sp": "tc",
+   "text": "a refund",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-24d1c8be",
+   "sp": "tc",
+   "text": "store credit",
+   "from": "video-say"
+  },
+  {
+   "id": "me-cda76521",
+   "sp": "me",
+   "text": "Sorry, what's store credit?",
+   "from": "video"
+  },
+  {
+   "id": "au-ec2fa711",
+   "sp": "au",
+   "text": "It's money you can only spend in our store.",
+   "from": "video"
+  },
+  {
+   "id": "me-68609482",
+   "sp": "me",
+   "text": "A refund, please.",
+   "from": "video"
+  },
+  {
+   "id": "au-cddb52d4",
+   "sp": "au",
+   "text": "I'm sorry, but we only take returns within thirty days.",
+   "from": "video"
+  },
+  {
+   "id": "me-a61aae80",
+   "sp": "me",
+   "text": "That's not fair! Give me my money back.",
+   "from": "video"
+  },
+  {
+   "id": "me-6ae6497d",
+   "sp": "me",
+   "text": "I see. Thank you anyway.",
+   "from": "video"
+  },
+  {
+   "id": "tc-f46e05f7",
+   "sp": "tc",
+   "text": "Your total is twenty-one dollars. Cash or card?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c123855f",
+   "sp": "tc",
+   "text": "I'm just looking, thanks.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9cdb570c",
+   "sp": "tc",
+   "text": "Excuse me, where can I find jeans?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-52c4195d",
+   "sp": "tc",
+   "text": "Excuse me, could I try these on?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-765584cf",
+   "sp": "tc",
+   "text": "Excuse me, how much is this?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f9781a5a",
+   "sp": "tc",
+   "text": "Card, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-96777618",
+   "sp": "tc",
+   "text": "I'd like to exchange these.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7a9e9d2e",
+   "sp": "tc",
+   "text": "Do you have this in a 32?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8a9e0d61",
+   "sp": "tc",
+   "text": "Do you have these in a 30?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8aa28a8f",
+   "sp": "tc",
+   "text": "Do you have these in a 32?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-146ed983",
+   "sp": "tc",
+   "text": "Yes, it did.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-89c8f6f1",
+   "sp": "tc",
+   "text": "It fits great, thanks. I'll take it.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-68121f76",
+   "sp": "tc",
+   "text": "They fit great, thanks. I'll take them.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1284aa1",
+   "sp": "tc",
+   "text": "Yes, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-069f04f1",
+   "sp": "tc",
+   "text": "Cash, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ff3b937a",
+   "sp": "tc",
+   "text": "Refund me.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9fb04c28",
+   "sp": "tc",
+   "text": "Change, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-429fede9",
+   "sp": "tc",
+   "text": "I'd like to return these.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f89ce7ff",
+   "sp": "tc",
+   "text": "I'm just looking, thanks. · Yes, I'm looking for a hoodie.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-35886503",
+   "sp": "tc",
+   "text": "A medium, please. · Do you have this in a medium?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0cca01e0",
+   "sp": "tc",
+   "text": "Could I try this on? · It's a little tight.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9e2d0d39",
+   "sp": "tc",
+   "text": "Excuse me, how much is this? · Great. I'll take it.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bf844a63",
+   "sp": "tc",
+   "text": "No, I don't. · Yes, please. · Card, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-95119888",
+   "sp": "tc",
+   "text": "I'd like to exchange these. · A refund, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-52357f7f",
+   "sp": "tc",
+   "text": "Do you have this in a medium in navy?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0b17a90a",
+   "sp": "tc",
+   "text": "Sorry, did you say fifteen dollars? · Sorry, what's store credit?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-238dbf1a",
+   "sp": "tc",
+   "text": "Hiya, are you alright there?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9edae45d",
+   "sp": "tc",
+   "text": "Yes, I'm looking for a hoodie.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b8dad192",
+   "sp": "tc",
+   "text": "Sure! What are you looking for?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9b154f92",
+   "sp": "tc",
+   "text": "Excuse me, where can I find hoodies?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b5eaf028",
+   "sp": "tc",
+   "text": "I'm looking for a hoodie.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a2089e81",
+   "sp": "tc",
+   "text": "What size are you looking for?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-300d2c6c",
+   "sp": "tc",
+   "text": "How did everything fit?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d0ae0c0a",
+   "sp": "tc",
+   "text": "It's a little tight.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-603a18f7",
+   "sp": "tc",
+   "text": "It's fifteen dollars today. That's fifty percent off.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9037c98b",
+   "sp": "tc",
+   "text": "Great. I'll take it.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d886adde",
+   "sp": "tc",
+   "text": "Yes, I did. Thanks.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2163a896",
+   "sp": "tc",
+   "text": "Would you like a refund or store credit?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-450dd4d0",
+   "sp": "tc",
+   "text": "I'd like to return this.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f20b7209",
+   "sp": "tc",
+   "text": "A refund, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f1272c2d",
+   "sp": "tc",
+   "text": "fifteen",
+   "from": "lab"
+  },
+  {
+   "id": "tc-6b6ef6f2",
+   "sp": "tc",
+   "text": "fifty",
+   "from": "lab"
+  },
+  {
+   "id": "tc-b7a46db3",
+   "sp": "tc",
+   "text": "thirteen",
+   "from": "lab"
+  },
+  {
+   "id": "tc-f8a08c24",
+   "sp": "tc",
+   "text": "thirty",
+   "from": "lab"
+  },
+  {
+   "id": "tc-41f43b54",
+   "sp": "tc",
+   "text": "fourteen",
+   "from": "lab"
+  },
+  {
+   "id": "tc-3a6e5d5c",
+   "sp": "tc",
+   "text": "forty",
+   "from": "lab"
+  },
+  {
+   "id": "me-77c0ada5",
+   "sp": "me",
+   "text": "An extra small, please.",
+   "from": "lab"
+  },
+  {
+   "id": "us-3ba47e3f",
+   "sp": "us",
+   "text": "Sure! What are you looking for?",
+   "from": "lab"
+  },
+  {
+   "id": "me-5465b7e8",
+   "sp": "me",
+   "text": "Excuse me, could I try these on?",
+   "from": "lab"
+  },
+  {
+   "id": "me-1a76ac5f",
+   "sp": "me",
+   "text": "Yes, I'm looking for a T-shirt.",
+   "from": "drill"
+  },
+  {
+   "id": "us-9b077434",
+   "sp": "us",
+   "text": "Hey, you guys need help finding anything today?",
+   "from": "drill"
+  },
+  {
+   "id": "me-dc0c4169",
+   "sp": "me",
+   "text": "Sorry, did you ask if I need help?",
+   "from": "drill"
+  },
+  {
+   "id": "me-c7ae5d67",
+   "sp": "me",
+   "text": "Sorry, did you say a bag?",
+   "from": "drill"
+  },
+  {
+   "id": "me-0e3310b4",
+   "sp": "me",
+   "text": "I'm looking for a one-piece.",
+   "from": "drill"
+  },
+  {
+   "id": "me-69e9068c",
+   "sp": "me",
+   "text": "I'm looking for a dress.",
+   "from": "drill"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "drill"
+  },
+  {
+   "id": "me-4de1bacb",
+   "sp": "me",
+   "text": "I'm looking for a puffer jacket.",
+   "from": "drill"
+  },
+  {
+   "id": "me-5c3ef9e4",
+   "sp": "me",
+   "text": "Jeans where?",
+   "from": "drill"
+  },
+  {
+   "id": "me-a6491751",
+   "sp": "me",
+   "text": "A large, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-69119a74",
+   "sp": "me",
+   "text": "Do you have this in a size 9?",
+   "from": "drill"
+  },
+  {
+   "id": "me-53216391",
+   "sp": "me",
+   "text": "Do you have these in black?",
+   "from": "drill"
+  },
+  {
+   "id": "me-7276414f",
+   "sp": "me",
+   "text": "Do you have these in a size 9?",
+   "from": "drill"
+  },
+  {
+   "id": "me-1dd0a02e",
+   "sp": "me",
+   "text": "Gray, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-01157f34",
+   "sp": "me",
+   "text": "Black, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-30f1b54f",
+   "sp": "me",
+   "text": "Can I wear these?",
+   "from": "drill"
+  },
+  {
+   "id": "me-742dcc4d",
+   "sp": "me",
+   "text": "It's a little loose.",
+   "from": "drill"
+  },
+  {
+   "id": "me-b044071b",
+   "sp": "me",
+   "text": "Great. I'll take them.",
+   "from": "drill"
+  },
+  {
+   "id": "au-2ce2423a",
+   "sp": "au",
+   "text": "You want a bag for that?",
+   "from": "drill"
+  },
+  {
+   "id": "me-dd3a7df2",
+   "sp": "me",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-e877188e",
+   "sp": "me",
+   "text": "Cash, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-9f24821e",
+   "sp": "me",
+   "text": "Receipt, no need.",
+   "from": "drill"
+  },
+  {
+   "id": "me-2af2cdca",
+   "sp": "me",
+   "text": "I'd like to exchange this.",
+   "from": "drill"
+  },
+  {
+   "id": "me-0651be67",
+   "sp": "me",
+   "text": "Sorry, did you say fifty dollars?",
+   "from": "drill"
+  },
+  {
+   "id": "us-8da7c2cc",
+   "sp": "us",
+   "text": "Can I help you find anything?",
+   "from": "shadow"
+  },
+  {
+   "id": "gb-0cceaa43",
+   "sp": "gb",
+   "text": "Are you alright there?",
+   "from": "shadow"
+  },
+  {
+   "id": "us-8556548c",
+   "sp": "us",
+   "text": "Let me know if you need anything!",
+   "from": "shadow"
+  },
+  {
+   "id": "us-eb952753",
+   "sp": "us",
+   "text": "What are you looking for?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-45346746",
+   "sp": "me",
+   "text": "Could I try this on?",
+   "from": "shadow"
+  },
+  {
+   "id": "ca-72e724ef",
+   "sp": "ca",
+   "text": "How many items do you have?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-dec5bbd0",
+   "sp": "me",
+   "text": "Is this on sale?",
+   "from": "shadow"
+  },
+  {
+   "id": "us-ac2131e0",
+   "sp": "us",
+   "text": "Our socks are buy one, get one free.",
+   "from": "shadow"
+  },
+  {
+   "id": "au-eef780f4",
+   "sp": "au",
+   "text": "Did you find everything okay?",
+   "from": "shadow"
+  },
+  {
+   "id": "au-63f42ef7",
+   "sp": "au",
+   "text": "Do you have your receipt?",
+   "from": "shadow"
+  },
+  {
+   "id": "gb-5bb7d66f",
+   "sp": "gb",
+   "text": "Have you got your receipt?",
+   "from": "q"
+  },
+  {
+   "id": "au-8b004267",
+   "sp": "au",
+   "text": "Okay. What's the reason for the return?",
+   "from": "q"
+  },
+  {
+   "id": "au-24ad78e6",
+   "sp": "au",
+   "text": "Without a receipt, we can only give you store credit. Is that okay?",
+   "from": "q"
+  }
+ ]
+}

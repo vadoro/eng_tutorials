@@ -326,5 +326,17 @@ window.EN_CATALOG = {
       thumb: 'directions/docs/poster.jpg',
       added: '2026-11-05',
     },
+    {
+      slug: 'shopping',
+      track: 'talk',
+      title: '쇼핑, 이것에 바꿀 점만 더한다',
+      topic: '쇼핑 · 둘러보기 · 물건 찾기 · 크기와 색 · 탈의실 · 값과 할인 · 계산 · 교환과 환불',
+      summary: '옷 가게에서 정말 필요한 말은 내가 먼저 꺼낼 때가 많아요. 다른 크기 · 색을 찾을 때는 손에 든 옷을 보여 주며 이것 + 바꿀 점(Do you have this in a medium in navy?) — 같은 점은 빼고, 둘이 짝이면 these예요. 아이쇼핑(I\'m just looking) · 후드 티(a hoodie) · 패딩(a puffer jacket) · 프리 사이즈(one size) · 원 플러스 원(buy one, get one free) 같은 함정과 fifteen · fifty 값 듣기, 입어 본 느낌(It\'s a little tight), 영수증과 교환 · 환불까지 듣고 따라 말하며 익혀요.',
+      length: '6:36',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '쇼핑 시뮬레이터', '바꿀 점 한 줄', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'shopping/docs/poster.jpg',
+      added: '2026-11-08',
+    },
   ],
 };

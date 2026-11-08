@@ -1,0 +1,291 @@
+1
+00:00:00,400 --> 00:00:05,500
+옷 가게에서는 직원이 먼저 말을 걸지만, 크기와 색을 바꾸고 값을 묻는 건 내가 먼저 해야 해요.
+
+2
+00:00:05,500 --> 00:00:10,500
+검은색 S 후드 티를 들고 있어요. M 크기를 찾고 싶어서 → M size is there?
+
+3
+00:00:10,500 --> 00:00:16,000
+직원이 고개를 갸웃해요. 묻는 틀이 없어서 무엇을 바라는지 알아듣기 어렵거든요.
+
+4
+00:00:16,000 --> 00:00:21,000
+이것 + 바꿀 점 → Do you have this in a medium? 손에 든 것에 바꿀 점만 더해요.
+
+5
+00:00:21,000 --> 00:00:26,000
+세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.
+
+6
+00:00:26,400 --> 00:00:32,000
+옷 가게에서 보내는 시간을 일곱 곳으로 나눠 봐요. 들어가면 직원이 인사하고, 찾는 물건을 물어봐요.
+
+7
+00:00:32,000 --> 00:00:38,000
+진열대에서 크기와 색을 고르고, 탈의실에서 입어 봐요. 그다음 값과 할인을 확인해요.
+
+8
+00:00:38,000 --> 00:00:44,000
+계산대에서 계산하고, 며칠 뒤에 교환이나 환불을 하러 다시 올 수도 있어요.
+
+9
+00:00:44,000 --> 00:00:50,000
+보라 테두리 → 내가 먼저 말을 꺼내는 곳이에요. 물건 찾기, 입어 보기, 값 묻기, 교환과 환불.
+
+10
+00:00:50,000 --> 00:00:56,000
+가게 이름과 값, 규칙은 지어낸 것이에요. 실제 가게마다 차례와 규칙이 달라요.
+
+11
+00:00:56,400 --> 00:01:02,000
+쇼핑 영어의 뼈대는 하나예요. 손에 든 것을 보여 주며 → Do you have this …? 그리고 바꿀 점을 더해요.
+
+12
+00:01:02,000 --> 00:01:08,000
+크기만 다르면 → Do you have this in a medium? 색만 다르면 → Do you have this in navy?
+
+13
+00:01:08,000 --> 00:01:14,000
+둘 다 다르면 이어서 → Do you have this in a medium in navy? 크기와 색은 어느 쪽이 먼저여도 돼요.
+
+14
+00:01:14,000 --> 00:01:20,000
+같은 점은 말하지 않아요. 손에 든 것도 검은색인데 → in black? 그러면 직원이 헷갈려요.
+
+15
+00:01:20,000 --> 00:01:26,000
+청바지, 운동화, 양말 → 둘이 짝이라 this 대신 these. Do you have these in a 32?
+
+16
+00:01:26,000 --> 00:01:32,000
+긴 말도 통하지만 → this hoodie in medium size in navy color. 짧게 → this in a medium in navy.
+
+17
+00:01:32,400 --> 00:01:38,000
+Can I help you find anything? → 도와주겠다는 Yes/No 질문이에요. 그냥 보는 중이면 → I'm just looking, thanks.
+
+18
+00:01:38,000 --> 00:01:43,500
+아이쇼핑을 옮긴 Just eye shopping. → 영어로는 통하지 않아요. No. → 한 마디로 끊으면 무뚝뚝하게 들려요.
+
+19
+00:01:43,500 --> 00:01:49,000
+찾는 게 있으면 → Yes, I'm looking for a hoodie. 영국에서는 → Are you alright there? 같은 뜻이에요.
+
+20
+00:01:49,000 --> 00:01:54,500
+둘러보다 직원이 지나가면 → Let me know if you need anything! 이제 내가 먼저 물을 차례예요.
+
+21
+00:01:54,500 --> 00:02:00,000
+Excuse me, where can I find jeans? 이 틀 하나면 물건이 하나든 여럿이든 → is · are 고민이 없어요.
+
+22
+00:02:00,000 --> 00:02:06,000
+물건 이름도 조심해요. 후드 티 → a hoodie, 원피스 → a dress, 패딩 → a puffer jacket, 와이셔츠 → a shirt.
+
+23
+00:02:06,400 --> 00:02:12,000
+What size are you looking for? → 정보 질문. Yes, please. → 크기가 없어요. → A medium, please.
+
+24
+00:02:12,000 --> 00:02:17,500
+I'm a medium. → 이렇게 말해도 돼요. Free size → 공짜로 들릴 수 있어요. 한 가지 크기는 → one size.
+
+25
+00:02:17,500 --> 00:02:23,000
+M size → 알아듣지만 보통 → a medium. 바지는 허리 숫자 → a 32, 신발은 → a size 9.
+
+26
+00:02:23,000 --> 00:02:28,500
+Would you like it in navy or gray? → 고르는 질문. 고른 것 + please → Navy, please.
+
+27
+00:02:28,500 --> 00:02:34,500
+Are you finding everything okay? → 바꿀 점을 바로 말해요 → Do you have this in a medium?
+
+28
+00:02:34,500 --> 00:02:40,000
+this in → 이어서 → thi-sin. Give me a bigger one. → 명령처럼 들리고 얼마나 큰지도 몰라요.
+
+29
+00:02:40,400 --> 00:02:46,000
+The fitting rooms are right over there. → 안내예요. 입어 보고 싶으면 내가 먼저 → Could I try this on?
+
+30
+00:02:46,000 --> 00:02:51,500
+Can I fitting? → 통하지 않아요. Can I wear this? → 사서 입고 나가겠다는 말처럼 들려요.
+
+31
+00:02:51,500 --> 00:02:57,000
+How many items do you have? → 정보 질문. 수만 말해요 → Two. 번호표를 받는 곳도 있어요.
+
+32
+00:02:57,000 --> 00:03:02,500
+How did everything fit? → 어땠는지 묻는 정보 질문. Yes, it did. → 어땠는지가 빠졌어요.
+
+33
+00:03:02,500 --> 00:03:08,000
+맞지 않으면 → It's a little tight. 둘이 짝이면 → They're a little loose. 잘 맞으면 → It fits great.
+
+34
+00:03:08,000 --> 00:03:14,000
+Would you like to try a different size? 꽉 끼면 한 칸 큰 것 → Yes, could I try a large?
+
+35
+00:03:14,400 --> 00:03:20,000
+값표가 없으면 내가 먼저 물어요 → Excuse me, how much is this? 둘이 짝이면 → how much are these?
+
+36
+00:03:20,000 --> 00:03:25,500
+How much money? → 값을 물을 땐 money 없이 말해요. D.C.(디시) → 영어로는 → Is this on sale?
+
+37
+00:03:25,500 --> 00:03:31,000
+직원 → It's $15.00 today. That's fifty percent off. 15와 50 → fifteen → 뒤를 세게, fifty → 앞을 세게 말해요.
+
+38
+00:03:31,000 --> 00:03:36,500
+헷갈리면 되물어요 → Sorry, did you say fifteen dollars? 숫자만 확인하면 되니 겁내지 말고 물어요.
+
+39
+00:03:36,500 --> 00:03:42,000
+Too expensive. Cheaper, please. → 이런 가게에서는 보통 값을 깎지 않아요. 사려면 → Great. I'll take it.
+
+40
+00:03:42,000 --> 00:03:48,000
+Our socks are buy one, get one free. 원 플러스 원 → 영어로는 buy one, get one free. 원하면 → Yes, please.
+
+41
+00:03:48,400 --> 00:03:54,000
+Did you find everything okay? → Yes, I found. → 문장이 끝나지 않아요. → Yes, I did. Thanks.
+
+42
+00:03:54,000 --> 00:03:59,500
+Do you have a rewards card with us? → 회원 카드예요. 없으면 → No, I don't. (No, I don't have. → 끝이 비어요)
+
+43
+00:03:59,500 --> 00:04:05,000
+Would you like a bag? → 비닐봉지를 옮긴 vinyl bag → 어색해요. 필요하면 → Yes, please. 아니면 → No, thanks. I have one.
+
+44
+00:04:05,000 --> 00:04:10,500
+Your total is $21.00. Cash or card? → 고르는 질문. Yes, please. → 고른 것이 없어요. → Card, please.
+
+45
+00:04:10,500 --> 00:04:15,500
+후드 티 15달러와 양말 두 켤레 6달러 → 모두 21달러. 세금은 빼고 계산한 지어낸 값이에요.
+
+46
+00:04:15,500 --> 00:04:20,000
+Would you like your receipt? → 교환 · 환불하려면 영수증이 필요해요 → Yes, please.
+
+47
+00:04:20,400 --> 00:04:26,000
+며칠 뒤, 청바지가 작아서 바꾸러 왔어요. Hi, how can I help you? → 하고 싶은 것을 말해요.
+
+48
+00:04:26,000 --> 00:04:32,000
+교환 → change? 거스름돈으로 들려요. → I'd like to exchange these. 돌려주고 돈을 받으려면 → return.
+
+49
+00:04:32,000 --> 00:04:38,000
+Refund me. → 명령처럼 들려요. → I'd like to return this. Do you have your receipt? → Yes, here it is.
+
+50
+00:04:38,000 --> 00:04:44,000
+What's the reason? → They're too small. What size would you like instead? → A 32, please.
+
+51
+00:04:44,000 --> 00:04:50,000
+환불이면 → Would you like a refund or store credit? store credit → 그 가게에서만 쓰는 돈이에요. 모르면 물어요.
+
+52
+00:04:50,000 --> 00:04:56,000
+규칙상 안 되면 → I'm sorry, but we only take returns within thirty days. 따지지 말고 → I see. Thank you anyway.
+
+53
+00:04:56,400 --> 00:05:01,500
+지금까지 배운 것을 3단계 말하기 법으로 묶어요.
+
+54
+00:05:01,500 --> 00:05:07,500
+① 열쇠 낱말과 질문의 모양 잡기 → or → 고르기, how · what → 정보, Can I · Do you → Yes/No.
+
+55
+00:05:07,500 --> 00:05:13,500
+② 틀에 내 정보 넣기 → 이것 + 바꿀 점. A medium, please. 둘이 짝이면 these · they · them.
+
+56
+00:05:13,500 --> 00:05:19,000
+③ 공손하게 끝내기 → please, thanks, Could I …? 부를 때는 → Excuse me.
+
+57
+00:05:19,000 --> 00:05:24,000
+일곱 곳에 한 줄씩 적용했어요. 내가 먼저 말하는 곳도 직원의 말에 대한 대답으로 볼 수 있어요.
+
+58
+00:05:24,400 --> 00:05:28,500
+실전이에요. 쇼핑 카드 → 청바지 30을 들고, 32를 찾아요. 첫 질문 → Are you finding everything okay?
+
+59
+00:05:28,500 --> 00:05:32,500
+① 셋 모두 바꿀 점을 묻는 말이에요. ② (A) this → 청바지는 these. (B) 30 → 손에 든 것과 같아요.
+
+60
+00:05:32,500 --> 00:05:36,500
+정답 (C) → Do you have these in a 32?
+
+61
+00:05:36,900 --> 00:05:41,000
+How did everything fit? ① 정보 질문 → (A) Yes, it did. 어땠는지가 빠져 탈락.
+
+62
+00:05:41,000 --> 00:05:45,000
+② (B) It fits → 청바지는 둘이 짝이라 → They fit. 탈락.
+
+63
+00:05:45,000 --> 00:05:49,000
+정답 (C) → They fit great, thanks.
+
+64
+00:05:49,400 --> 00:05:53,500
+계산대 → Cash or card? ① 고르는 질문 → (B) Yes, please. 탈락.
+
+65
+00:05:53,500 --> 00:05:57,500
+② (C) Cash → 카드로 내기로 했어요. 탈락.
+
+66
+00:05:57,500 --> 00:06:01,500
+정답 (A) → Card, please.
+
+67
+00:06:01,900 --> 00:06:06,000
+며칠 뒤 → How can I help you? ① 셋 모두 돌려주는 일에 대한 말이에요.
+
+68
+00:06:06,000 --> 00:06:10,000
+② (B) Change, please. → 거스름돈으로 들려 탈락.
+
+69
+00:06:10,000 --> 00:06:14,000
+③ (A) Refund me. → 명령처럼 들려 탈락. 정답 (C) → I'd like to return these.
+
+70
+00:06:14,400 --> 00:06:20,000
+정리해요. 바꾸고 싶으면 → 이것 + 바꿀 점. Do you have this in a medium? 같은 점은 빼요.
+
+71
+00:06:20,000 --> 00:06:26,000
+둘이 짝인 물건 → these · they · them. 내가 먼저 → Excuse me, where can I find …? Could I try this on?
+
+72
+00:06:26,000 --> 00:06:31,000
+값 → How much is this? 숫자가 헷갈리면 → Sorry, did you say fifteen dollars?
+
+73
+00:06:31,000 --> 00:06:36,000
+아래 쇼핑 시뮬레이터에서 내 쇼핑 카드로 입구부터 교환 · 환불까지 해 보세요.

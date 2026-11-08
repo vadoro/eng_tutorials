@@ -31,6 +31,7 @@
 | 상황별 영어 회화 | [호텔, 부탁은 질문으로 한다](hotel/) | 6:32 · 12장면 | 공항 · 카페와 달리 내가 먼저 말을 꺼내는 곳: 부탁은 질문으로(Could I get …? · Could you …?), 문제는 사실 + 부탁(The air conditioner isn't working. Could you send someone to look at it?). 호텔 일곱 곳(체크인 · 방 열쇠와 안내 · 전화 부탁 · 문제 · 조식 식당 · 컨시어지 · 체크아웃)을 단면도로, 3단계 말하기 법, 2박 3일 = two nights(Three days ×), 방 번호와 시각 듣기(twelve-oh-seven · from seven to ten · fifteen과 fifty), 철자 부르기(K-I-M), 되묻기, 콩글리시(콘센트 · 리모컨 · 서비스 · 모닝콜 · 드라이기), 문제와 어울리는 부탁, 청구서의 실수를 따지지 않고 알리기(I think there's a mistake on my bill.), 전화 한 줄(인사 → 방 번호 → 부탁 → please)과 직원이 건너뛰는 질문, 호텔 숙박 시뮬레이터(방 번호는 카드 키 봉투에), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기 |
 | 상황별 영어 회화 | [식당, 질문의 모양이 대답을 정한다](restaurant/) | 6:34 · 12장면 | 서버의 짧은 질문이 쏟아지는 곳: 질문의 모양이 대답의 모양을 정한다 — Yes/No 질문(Yes · No + 한 마디, 권하는 말이면 원하는 것을 바로: Just water, please.) · 고르는 질문(Still or sparkling? → Sparkling, please.) · 정보 질문(How would you like your steak? → Medium, please.), 고르는 · 정보 질문에 Yes. ×, 끝이 내려가는 고르는 질문. 식당 일곱 곳(입구 · 자리와 음료 · 주문 · 알레르기와 요청 · 식사 중 · 디저트와 포장 · 계산)을 평면도로, 3단계 말하기 법(열쇠 낱말 + 모양 → 틀에 내 정보 → 공손하게), 15분과 50분, 굽기(medium-rare · middle ×), 콩글리시(사이다 → a lemon-lime soda · Calculate · Dutch pay · I have peanut. · packing), 알레르기 묻기와 빼고 만들기(지어낸 메뉴로 계산), 서버 부르기(Excuse me · Hey! · Waiter! · Here! ×), 다른 음식이 나왔을 때 사실 + 내가 시킨 것, 계산서 나눠 내기(That's $28.50 each.)와 팁은 나라마다, 한 줄 주문(음식 → 굽기 → with 곁들임 → 드레싱 → please)과 서버가 건너뛰는 질문, 식당 시뮬레이터(식사 카드 + 메뉴판, 스페셜과 나온 음식을 듣고 쓰기), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기 |
 | 상황별 영어 회화 | [길 묻기, 들은 길은 되짚어 확인한다](directions/) | 6:33 · 12장면 | 묻는 말은 쉽고 대답이 어려운 곳: 길고 빠른 대답을 동작(go straight · turn left · take the second left · cross · until you get to) + 기준점(at the bank · at the lights) + 도착 위치(on your right · across from · next to · between) 조각으로 듣고, 한 줄로 되짚어 확인한다(So, I go straight for two blocks, turn left at the bank, and it's on my right? → That's right! · 틀린 조각만 Not quite — …). 대화의 일곱 단계, 3단계 말하기 법, Excuse me · Hey! ×, 묻는 틀 셋과 teach me the way, 곳 이름(마트 → supermarket · 편의점 → convenience store, 영국 영어), left · right는 걷는 사람이 바라보는 쪽 기준, the second left ≠ turn left twice, turn left(동작) ≠ on your left(위치), across from ≠ next to, too far to walk → Which bus should I take?, fifteen과 fifty · the third stop · Exit 3, 다시 묻기(say that again more slowly · left or right? · show me on the map)와 Thanks anyway, 지어낸 동네 지도와 규칙 엔진의 길 계산, 길 찾기 시뮬레이터(가려는 곳이 표시되지 않은 지도에서 듣고 되짚고 찾아가기), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기 |
+| 상황별 영어 회화 | [쇼핑, 이것에 바꿀 점만 더한다](shopping/) | 6:36 · 12장면 | 정말 필요한 말은 내가 먼저 꺼내는 곳: 다른 크기 · 색을 찾을 때는 손에 든 옷을 보여 주며 이것 + 바꿀 점(Do you have this in a medium in navy?) — 같은 점은 빼고, 둘이 짝(청바지 · 운동화)이면 these · they · them, M size is there? ×. 옷 가게 일곱 곳(입구 · 물건 찾기 · 진열대 · 탈의실 · 값 · 계산대 · 교환과 환불)을 평면도로, 3단계 말하기 법(열쇠 낱말 + 모양 → 틀에 내 정보 → 공손하게), 질문의 모양(What size? · Cash or card? · How did everything fit?에 Yes ×)과 안내 뒤 내가 먼저(Excuse me, where can I find …? · Could I try this on?), 크기(a medium · a 32 · a size 9 · one size)와 맞음새(It's a little tight → 한 칸 큰 것), 콩글리시(아이쇼핑 · 후드 티 · 패딩 · 원피스 · 프리 사이즈 · 피팅 · 디시 · 원 플러스 원 · 비닐봉지 · 교환 change), fifteen과 fifty 값 되묻기, 할인과 영수증(지어낸 값, 세금 없이), 교환 · 환불 규칙(30일 · final sale · 영수증 없으면 store credit)과 I see. Thank you anyway., 바꿀 점 한 줄로 직원이 건너뛰는 질문, 쇼핑 시뮬레이터(쇼핑 카드, 직원이 말한 값을 듣고 쓰기, 끝은 영수증), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기 |
 
 모든 튜토리얼에 자막과 음성 해설(한국어는 한국어 음성, 영어는 영어 음성), 발음 듣기, 장면별 ‘직접 해 보기’, 놀이터, 연습 문제, 퀴즈, 핵심 정리가 있습니다.
 
@@ -44,7 +45,7 @@
 단계별로 하나씩 만들어 갑니다.
 
 1. **토익** — 자주 틀리는 유형 100개를 21개 카테고리, 튜토리얼 17개로 정리하고([docs/toeic-100-types.md](docs/toeic-100-types.md)) 17개를 모두 만들었어요. 문법 Part 5·6(T01–T14), 듣기 Part 1–4(T15–T16), 독해 Part 7(T17)이에요. 남은 일은 우리 학생들의 실제 오답으로 순서와 문제를 다듬는 것이에요(문서의 ‘다음 단계’).
-2. **상황별 영어 회화** — 공항(시범) · 카페 · 호텔 · 식당 · 길 묻기 튜토리얼을 만들었고, 같은 형식으로 쇼핑 등으로 넓혀요. 곳마다 거의 정해진 질문을 열쇠 낱말로 잡고 짧은 대답 틀로 답하며, 듣고 따라 말하며 연습합니다.
+2. **상황별 영어 회화** — 공항(시범) · 카페 · 호텔 · 식당 · 길 묻기 · 쇼핑 튜토리얼을 만들었고, 같은 형식으로 다른 상황으로 넓혀요. 곳마다 거의 정해진 질문을 열쇠 낱말로 잡고 짧은 대답 틀로 답하며, 듣고 따라 말하며 연습합니다.
 3. **새 영역** — 필요할 때마다 `assets/catalog.js`의 `tracks`에 영역을 더해 넓혀 갑니다.
 
 ## 구조
@@ -85,6 +86,7 @@ cafe/                   카페, 주문에는 순서가 있다 (상황별 영어 
 hotel/                  호텔, 부탁은 질문으로 한다 (상황별 영어 회화 · 호텔)
 restaurant/             식당, 질문의 모양이 대답을 정한다 (상황별 영어 회화 · 식당)
 directions/             길 묻기, 들은 길은 되짚어 확인한다 (상황별 영어 회화 · 길 묻기)
+shopping/               쇼핑, 이것에 바꿀 점만 더한다 (상황별 영어 회화 · 쇼핑)
 docs/toeic-100-types.md 토익에서 자주 틀리는 100개 유형, 21개 카테고리, 튜토리얼 17개 계획
 CLAUDE.md               새 튜토리얼을 만들 때 지킬 규칙과 확인 목록
 ```
