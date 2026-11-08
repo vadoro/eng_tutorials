@@ -1,0 +1,1524 @@
+{
+ "slug": "transit",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 138,
+  "en": 114,
+  "koChars": 2168,
+  "enChars": 2346
+ },
+ "pieces": [
+  {
+   "id": "ka0e49456",
+   "lang": "ko",
+   "text": "기차역 매표소에서는 직원이 차례대로 물어요. 지하철에서는 길을 물으면 길고 빠른 대답이 돌아와요.",
+   "cap": 0
+  },
+  {
+   "id": "kfa30c2e4",
+   "lang": "ko",
+   "text": "매표소 직원",
+   "cap": 1
+  },
+  {
+   "id": "e53390a04",
+   "lang": "en",
+   "text": "Single or return?",
+   "cap": 1
+  },
+  {
+   "id": "kb48b9591",
+   "lang": "ko",
+   "text": "왕복표를 사려고 해서",
+   "cap": 1
+  },
+  {
+   "id": "e60161af3",
+   "lang": "en",
+   "text": "Yes, please.",
+   "cap": 1
+  },
+  {
+   "id": "k71264e7a",
+   "lang": "ko",
+   "text": "직원이 다시 물어요. 고르는 질문에",
+   "cap": 2
+  },
+  {
+   "id": "e08efdc4d",
+   "lang": "en",
+   "text": "Yes",
+   "cap": 2
+  },
+  {
+   "id": "ke3f06b2f",
+   "lang": "ko",
+   "text": "만 하면 무엇을 골랐는지 몰라요. 고른 것을 말해요",
+   "cap": 2
+  },
+  {
+   "id": "e4820a38f",
+   "lang": "en",
+   "text": "A return, please.",
+   "cap": 2
+  },
+  {
+   "id": "k1b54ff65",
+   "lang": "ko",
+   "text": "갈아타는 길을 들은 뒤",
+   "cap": 3
+  },
+  {
+   "id": "e3729b2a4",
+   "lang": "en",
+   "text": "Okay.",
+   "cap": 3
+  },
+  {
+   "id": "e68fca163",
+   "lang": "en",
+   "text": "Thanks.",
+   "cap": 3
+  },
+  {
+   "id": "ka482ddd2",
+   "lang": "ko",
+   "text": "하고 끝내지 말고, 들은 조각을 한 줄로 되짚어 확인해요.",
+   "cap": 3
+  },
+  {
+   "id": "k9c45b11a",
+   "lang": "ko",
+   "text": "세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.",
+   "cap": 4
+  },
+  {
+   "id": "kfe68715d",
+   "lang": "ko",
+   "text": "오늘의 여행을 일곱 곳으로 나눠 봐요. 먼저 기차역 매표소에서",
+   "cap": 5
+  },
+  {
+   "id": "ee1493432",
+   "lang": "en",
+   "text": "Oakbridge",
+   "cap": 5
+  },
+  {
+   "id": "kea26ebb9",
+   "lang": "ko",
+   "text": "가는 표를 사요.",
+   "cap": 5
+  },
+  {
+   "id": "kf59e1c83",
+   "lang": "ko",
+   "text": "매표소에서 어디까지 가는지, 표 종류와 사람 수를 말하고, 할인 카드와 값을 확인해요. 그다음 승강장과 시각을 들어요.",
+   "cap": 6
+  },
+  {
+   "id": "k7377e5d6",
+   "lang": "ko",
+   "text": "시내에서는 지하철을 타요. 안내 데스크에서 길을 묻고, 갈아타는 길을 들은 뒤, 승강장과 열차 안에서 확인해요.",
+   "cap": 7
+  },
+  {
+   "id": "k5ecc360a",
+   "lang": "ko",
+   "text": "보라 테두리 , 내가 먼저 말을 꺼내는 곳이에요. 안내 데스크에서 길 묻기, 승강장과 열차 안.",
+   "cap": 8
+  },
+  {
+   "id": "kbb0c84a1",
+   "lang": "ko",
+   "text": "역 이름, 노선, 값, 시각은 모두 지어낸 것이에요. 실제 역과 나라마다 절차가 달라요.",
+   "cap": 9
+  },
+  {
+   "id": "kffed777d",
+   "lang": "ko",
+   "text": "매표소 직원의 질문은 짧고 모양이 정해져 있어요.",
+   "cap": 10
+  },
+  {
+   "id": "e60c915fd",
+   "lang": "en",
+   "text": "Where are you traveling to today?",
+   "cap": 10
+  },
+  {
+   "id": "k7788325e",
+   "lang": "ko",
+   "text": "열쇠 낱말",
+   "cap": 10
+  },
+  {
+   "id": "ecac17909",
+   "lang": "en",
+   "text": "where",
+   "cap": 10
+  },
+  {
+   "id": "k1ca6a4ea",
+   "lang": "ko",
+   "text": "정보 질문이에요.",
+   "cap": 10
+  },
+  {
+   "id": "ke5ba7c60",
+   "lang": "ko",
+   "text": "정보 질문에",
+   "cap": 11
+  },
+  {
+   "id": "e7497efd9",
+   "lang": "en",
+   "text": "Yes.",
+   "cap": 11
+  },
+  {
+   "id": "kb4ac8364",
+   "lang": "ko",
+   "text": "이렇게만 하면 대답이 아니에요. 가는 곳",
+   "cap": 11
+  },
+  {
+   "id": "e803bf497",
+   "lang": "en",
+   "text": "please , To Oakbridge, please.",
+   "cap": 11
+  },
+  {
+   "id": "k582536ca",
+   "lang": "ko",
+   "text": "고르는 질문. 고른 것",
+   "cap": 12
+  },
+  {
+   "id": "eb2faafee",
+   "lang": "en",
+   "text": "please.",
+   "cap": 12
+  },
+  {
+   "id": "e9447babd",
+   "lang": "en",
+   "text": "Do you have a student card?",
+   "cap": 12
+  },
+  {
+   "id": "e888e6819",
+   "lang": "en",
+   "text": "Yes or No",
+   "cap": 12
+  },
+  {
+   "id": "kbfc1d2dd",
+   "lang": "ko",
+   "text": "질문.",
+   "cap": 12
+  },
+  {
+   "id": "e1dc0589d",
+   "lang": "en",
+   "text": "It leaves at ten fifteen from platform four.",
+   "cap": 13
+  },
+  {
+   "id": "kabc3e9ce",
+   "lang": "ko",
+   "text": "물음표가 없는 안내예요. 이럴 때는 들은 숫자를 되짚어요",
+   "cap": 13
+  },
+  {
+   "id": "ecbcb3f45",
+   "lang": "en",
+   "text": "So, platform four at ten fifteen?",
+   "cap": 13
+  },
+  {
+   "id": "e0d48af34",
+   "lang": "en",
+   "text": "I go to Oakbridge.",
+   "cap": 14
+  },
+  {
+   "id": "k9a26f422",
+   "lang": "ko",
+   "text": "한국어 가요를 옮긴 말이에요.",
+   "cap": 14
+  },
+  {
+   "id": "eb83c9c41",
+   "lang": "en",
+   "text": "Give me a ticket to Oakbridge.",
+   "cap": 14
+  },
+  {
+   "id": "kfbe1684b",
+   "lang": "ko",
+   "text": "명령처럼 들려요.",
+   "cap": 14
+  },
+  {
+   "id": "kfb28b657",
+   "lang": "ko",
+   "text": "편도까지 한 번에",
+   "cap": 15
+  },
+  {
+   "id": "e0d8e9314",
+   "lang": "en",
+   "text": "A single to Oakbridge, please.",
+   "cap": 15
+  },
+  {
+   "id": "k7ba6d17b",
+   "lang": "ko",
+   "text": "영국 매표소",
+   "cap": 15
+  },
+  {
+   "id": "eb5442cf1",
+   "lang": "en",
+   "text": "Morning!",
+   "cap": 15
+  },
+  {
+   "id": "e4f9dcb7b",
+   "lang": "en",
+   "text": "Where to?",
+   "cap": 15
+  },
+  {
+   "id": "kc2fef94f",
+   "lang": "ko",
+   "text": "같은 뜻이에요.",
+   "cap": 15
+  },
+  {
+   "id": "k81045915",
+   "lang": "ko",
+   "text": "편도",
+   "cap": 16
+  },
+  {
+   "id": "e8238e31a",
+   "lang": "en",
+   "text": "single",
+   "cap": 16
+  },
+  {
+   "id": "k79267c83",
+   "lang": "ko",
+   "text": "왕복",
+   "cap": 16
+  },
+  {
+   "id": "ec66e0146",
+   "lang": "en",
+   "text": "return.",
+   "cap": 16
+  },
+  {
+   "id": "k1852d547",
+   "lang": "ko",
+   "text": "오늘 갔다가 돌아오면",
+   "cap": 16
+  },
+  {
+   "id": "e63a53ee4",
+   "lang": "en",
+   "text": "go-and-back ticket",
+   "cap": 17
+  },
+  {
+   "id": "kb14a8579",
+   "lang": "ko",
+   "text": "통하지 않아요. 미국에서는",
+   "cap": 17
+  },
+  {
+   "id": "ef2a96be1",
+   "lang": "en",
+   "text": "One-way or round trip?",
+   "cap": 17
+  },
+  {
+   "id": "k13918a73",
+   "lang": "ko",
+   "text": "왕복이면",
+   "cap": 17
+  },
+  {
+   "id": "efe645dc3",
+   "lang": "en",
+   "text": "Round trip, please.",
+   "cap": 17
+  },
+  {
+   "id": "k03b2c6b9",
+   "lang": "ko",
+   "text": "많이 쓰는 말 , 영국",
+   "cap": 18
+  },
+  {
+   "id": "ee227691c",
+   "lang": "en",
+   "text": "single , return",
+   "cap": 18
+  },
+  {
+   "id": "k0ef373fa",
+   "lang": "ko",
+   "text": "미국",
+   "cap": 18
+  },
+  {
+   "id": "e01249de7",
+   "lang": "en",
+   "text": "one-way , round trip.",
+   "cap": 18
+  },
+  {
+   "id": "kf12b8a8c",
+   "lang": "ko",
+   "text": "어느 쪽을 말해도 알아들어요.",
+   "cap": 18
+  },
+  {
+   "id": "e6ed2a1ae",
+   "lang": "en",
+   "text": "And how many people are traveling?",
+   "cap": 19
+  },
+  {
+   "id": "kdf0c0132",
+   "lang": "ko",
+   "text": "정보 질문. 혼자면",
+   "cap": 19
+  },
+  {
+   "id": "efa797bce",
+   "lang": "en",
+   "text": "Just me, please.",
+   "cap": 19
+  },
+  {
+   "id": "e0c3dfc5f",
+   "lang": "en",
+   "text": "me alone",
+   "cap": 19
+  },
+  {
+   "id": "k8745e268",
+   "lang": "ko",
+   "text": "쓸쓸하게 들려 어색해요.",
+   "cap": 19
+  },
+  {
+   "id": "k1675dda8",
+   "lang": "ko",
+   "text": "여럿이면 어른과 어린이를 나눠요",
+   "cap": 20
+  },
+  {
+   "id": "ea0623dce",
+   "lang": "en",
+   "text": "Two adults and one child, please.",
+   "cap": 20
+  },
+  {
+   "id": "e75a417a2",
+   "lang": "en",
+   "text": "two persons",
+   "cap": 20
+  },
+  {
+   "id": "kdfc716e6",
+   "lang": "ko",
+   "text": "알아듣지만 딱딱해요.",
+   "cap": 20
+  },
+  {
+   "id": "eb01eb06e",
+   "lang": "en",
+   "text": "Off-peak or anytime?",
+   "cap": 21
+  },
+  {
+   "id": "kacd40e9c",
+   "lang": "ko",
+   "text": "모르는 낱말이면 물어요",
+   "cap": 21
+  },
+  {
+   "id": "e697417e8",
+   "lang": "en",
+   "text": "Sorry, what's an off-peak ticket?",
+   "cap": 21
+  },
+  {
+   "id": "k685a7a39",
+   "lang": "ko",
+   "text": "덜 붐비는 시간에 타는 싼 표예요.",
+   "cap": 21
+  },
+  {
+   "id": "k2220f1ab",
+   "lang": "ko",
+   "text": "질문. 없으면",
+   "cap": 22
+  },
+  {
+   "id": "e94694f54",
+   "lang": "en",
+   "text": "No, I don't.",
+   "cap": 22
+  },
+  {
+   "id": "eddd4867a",
+   "lang": "en",
+   "text": "No, I don't have.",
+   "cap": 22
+  },
+  {
+   "id": "e3856506c",
+   "lang": "en",
+   "text": "have",
+   "cap": 22
+  },
+  {
+   "id": "k38e2607d",
+   "lang": "ko",
+   "text": "뒤가 비어서 틀려요.",
+   "cap": 22
+  },
+  {
+   "id": "k5cd1c5a5",
+   "lang": "ko",
+   "text": "영국에서는",
+   "cap": 23
+  },
+  {
+   "id": "e541bb865",
+   "lang": "en",
+   "text": "Have you got a railcard?",
+   "cap": 23
+  },
+  {
+   "id": "keed0f440",
+   "lang": "ko",
+   "text": "모르는 낱말이면",
+   "cap": 23
+  },
+  {
+   "id": "e046a6137",
+   "lang": "en",
+   "text": "Sorry, what's a railcard?",
+   "cap": 23
+  },
+  {
+   "id": "kcc451331",
+   "lang": "ko",
+   "text": "기차 할인 카드예요.",
+   "cap": 23
+  },
+  {
+   "id": "k77db1d08",
+   "lang": "ko",
+   "text": "직원",
+   "cap": 24
+  },
+  {
+   "id": "eb2b360ef",
+   "lang": "en",
+   "text": "Okay, that's fourteen fifty, please.",
+   "cap": 24
+  },
+  {
+   "id": "k506656d4",
+   "lang": "ko",
+   "text": "읽기",
+   "cap": 24
+  },
+  {
+   "id": "e05de99b2",
+   "lang": "en",
+   "text": "fourteen fifty.",
+   "cap": 24
+  },
+  {
+   "id": "k7ef9bc75",
+   "lang": "ko",
+   "text": "14와 40은 소리가 비슷해요.",
+   "cap": 24
+  },
+  {
+   "id": "e6443ea4a",
+   "lang": "en",
+   "text": "fourteen",
+   "cap": 25
+  },
+  {
+   "id": "k1f516987",
+   "lang": "ko",
+   "text": "뒤를 세게",
+   "cap": 25
+  },
+  {
+   "id": "e318cbeb2",
+   "lang": "en",
+   "text": "forty",
+   "cap": 25
+  },
+  {
+   "id": "kd788386c",
+   "lang": "ko",
+   "text": "앞을 세게 말해요. 헷갈리면",
+   "cap": 25
+  },
+  {
+   "id": "eb02322a3",
+   "lang": "en",
+   "text": "Sorry, did you say fourteen fifty?",
+   "cap": 25
+  },
+  {
+   "id": "kcba5ac4f",
+   "lang": "ko",
+   "text": "카드로 내고 싶으면",
+   "cap": 26
+  },
+  {
+   "id": "e271199f9",
+   "lang": "en",
+   "text": "Can I pay by card?",
+   "cap": 26
+  },
+  {
+   "id": "e6231858d",
+   "lang": "en",
+   "text": "Card is okay?",
+   "cap": 26
+  },
+  {
+   "id": "k395c9a0d",
+   "lang": "ko",
+   "text": "낱말만 옮긴 말이라 어색해요.",
+   "cap": 26
+  },
+  {
+   "id": "e21749d3d",
+   "lang": "en",
+   "text": "So expensive.",
+   "cap": 27
+  },
+  {
+   "id": "e8e9ab526",
+   "lang": "en",
+   "text": "Cheaper, please.",
+   "cap": 27
+  },
+  {
+   "id": "k459d5594",
+   "lang": "ko",
+   "text": "기차표 값은 정해져 있어 깎지 않아요. 조르는 말처럼 들려요.",
+   "cap": 27
+  },
+  {
+   "id": "kf3860f6c",
+   "lang": "ko",
+   "text": "숫자가 둘이에요.",
+   "cap": 28
+  },
+  {
+   "id": "ec3d9f1e7",
+   "lang": "en",
+   "text": "Platform where?",
+   "cap": 28
+  },
+  {
+   "id": "kb80abc55",
+   "lang": "ko",
+   "text": "되짚는 틀",
+   "cap": 29
+  },
+  {
+   "id": "k6cc885e3",
+   "lang": "ko",
+   "text": "10시 50분으로 잘못 되짚으면 직원이 바로 고쳐 줘요.",
+   "cap": 29
+  },
+  {
+   "id": "kd67eecca",
+   "lang": "ko",
+   "text": "시각 읽기 , 10시 15분",
+   "cap": 30
+  },
+  {
+   "id": "e3800a792",
+   "lang": "en",
+   "text": "ten fifteen.",
+   "cap": 30
+  },
+  {
+   "id": "k6b7e5bfd",
+   "lang": "ko",
+   "text": "9시 5분",
+   "cap": 30
+  },
+  {
+   "id": "ec81fc43f",
+   "lang": "en",
+   "text": "nine oh five.",
+   "cap": 30
+  },
+  {
+   "id": "k82827f66",
+   "lang": "ko",
+   "text": "3시",
+   "cap": 30
+  },
+  {
+   "id": "e5e337f84",
+   "lang": "en",
+   "text": "three o'clock.",
+   "cap": 30
+  },
+  {
+   "id": "kdd8dad16",
+   "lang": "ko",
+   "text": "시와 분을 끊어 읽어요.",
+   "cap": 30
+  },
+  {
+   "id": "k87488904",
+   "lang": "ko",
+   "text": "영국 역무원",
+   "cap": 31
+  },
+  {
+   "id": "e58fb5811",
+   "lang": "en",
+   "text": "Right, the next one's the ten fifty from platform two.",
+   "cap": 31
+  },
+  {
+   "id": "kc36fb8dc",
+   "lang": "ko",
+   "text": "확인하려면",
+   "cap": 31
+  },
+  {
+   "id": "ee69de7d0",
+   "lang": "en",
+   "text": "Sorry, did you say platform two at ten fifty?",
+   "cap": 31
+  },
+  {
+   "id": "ka9993b1b",
+   "lang": "ko",
+   "text": "안내처럼 빠른 말",
+   "cap": 32
+  },
+  {
+   "id": "e7c23ccf0",
+   "lang": "en",
+   "text": "Sorry folks, platform change!",
+   "cap": 32
+  },
+  {
+   "id": "kbae10881",
+   "lang": "ko",
+   "text": "숫자를 놓쳤으면",
+   "cap": 32
+  },
+  {
+   "id": "ed94f373c",
+   "lang": "en",
+   "text": "Sorry, which platform?",
+   "cap": 32
+  },
+  {
+   "id": "k68f3e11c",
+   "lang": "ko",
+   "text": "출발 안내판에서도 확인해요. 시각, 가는 곳, 승강장 , 10시 15분",
+   "cap": 33
+  },
+  {
+   "id": "ec23d0814",
+   "lang": "en",
+   "text": "Oakbridge.",
+   "cap": 33
+  },
+  {
+   "id": "kdd9910fc",
+   "lang": "ko",
+   "text": "6번 승강장.",
+   "cap": 33
+  },
+  {
+   "id": "k3a7f934d",
+   "lang": "ko",
+   "text": "지하철 안내 데스크",
+   "cap": 34
+  },
+  {
+   "id": "edf31895c",
+   "lang": "en",
+   "text": "Next, please!",
+   "cap": 34
+  },
+  {
+   "id": "k79df5005",
+   "lang": "ko",
+   "text": "안내라서 내가 먼저 말해요",
+   "cap": 34
+  },
+  {
+   "id": "e11e6e241",
+   "lang": "en",
+   "text": "Hi.",
+   "cap": 34
+  },
+  {
+   "id": "e135b1404",
+   "lang": "en",
+   "text": "How do I get to Museum, please?",
+   "cap": 34
+  },
+  {
+   "id": "ef93f42de",
+   "lang": "en",
+   "text": "Teach me the way to Museum.",
+   "cap": 35
+  },
+  {
+   "id": "ked844377",
+   "lang": "ko",
+   "text": "낱말만 옮긴 말이라 어색해요. 노선을 물어도 돼요",
+   "cap": 35
+  },
+  {
+   "id": "edd0c8bc1",
+   "lang": "en",
+   "text": "Which line goes to Museum?",
+   "cap": 35
+  },
+  {
+   "id": "eb2dddfdc",
+   "lang": "en",
+   "text": "Would you like a new metro card?",
+   "cap": 36
+  },
+  {
+   "id": "kc9b1961b",
+   "lang": "ko",
+   "text": "카드가 있으면",
+   "cap": 36
+  },
+  {
+   "id": "e2eb57f9a",
+   "lang": "en",
+   "text": "No, thanks.",
+   "cap": 36
+  },
+  {
+   "id": "e0dc1fecc",
+   "lang": "en",
+   "text": "I'd like to top up my card.",
+   "cap": 36
+  },
+  {
+   "id": "kc4a69d7c",
+   "lang": "ko",
+   "text": "충전",
+   "cap": 37
+  },
+  {
+   "id": "efcb830b7",
+   "lang": "en",
+   "text": "charge?",
+   "cap": 37
+  },
+  {
+   "id": "k021c1f53",
+   "lang": "ko",
+   "text": "카드로 값을 낸다는 말로 들려요. 돈을 넣는 것",
+   "cap": 37
+  },
+  {
+   "id": "ef823294c",
+   "lang": "en",
+   "text": "top up.",
+   "cap": 37
+  },
+  {
+   "id": "k943b8dc6",
+   "lang": "ko",
+   "text": "얼마를 넣을지 물으면",
+   "cap": 37
+  },
+  {
+   "id": "ef7d9eea0",
+   "lang": "en",
+   "text": "Twenty dollars, please.",
+   "cap": 37
+  },
+  {
+   "id": "k6a3bba2b",
+   "lang": "ko",
+   "text": "노선도 읽기 , 노선은 색 이름으로, 방향은 그 노선의 끝 역 이름으로 말해요.",
+   "cap": 38
+  },
+  {
+   "id": "e2a6c371c",
+   "lang": "en",
+   "text": "Park Road",
+   "cap": 38
+  },
+  {
+   "id": "k4dcad9aa",
+   "lang": "ko",
+   "text": "역에서 동쪽",
+   "cap": 38
+  },
+  {
+   "id": "eca1bad29",
+   "lang": "en",
+   "text": "towards East Pier.",
+   "cap": 38
+  },
+  {
+   "id": "kdc2d41f5",
+   "lang": "ko",
+   "text": "흰 동그라미는 갈아타는 역이에요",
+   "cap": 39
+  },
+  {
+   "id": "ed6dae917",
+   "lang": "en",
+   "text": "Central, City Hall, University.",
+   "cap": 39
+  },
+  {
+   "id": "k8d7a2282",
+   "lang": "ko",
+   "text": "직원은 갈아타기가 가장 적은 길을 알려 줘요.",
+   "cap": 39
+  },
+  {
+   "id": "kb04ff4a1",
+   "lang": "ko",
+   "text": "직원의 대답이 길어요",
+   "cap": 40
+  },
+  {
+   "id": "ef373291b",
+   "lang": "en",
+   "text": "Take the Green Line towards East Pier and change at Central.",
+   "cap": 40
+  },
+  {
+   "id": "ea465a017",
+   "lang": "en",
+   "text": "Then take the Blue Line towards South Bay and get off at Museum.",
+   "cap": 40
+  },
+  {
+   "id": "k645aa504",
+   "lang": "ko",
+   "text": "조각으로 나눠 들어요. 탈 노선 , 방향 , 갈아타는 역 , 갈아탈 노선 , 내릴 역.",
+   "cap": 41
+  },
+  {
+   "id": "e28f01777",
+   "lang": "en",
+   "text": "change at",
+   "cap": 41
+  },
+  {
+   "id": "ke520a6df",
+   "lang": "ko",
+   "text": "이어서",
+   "cap": 41
+  },
+  {
+   "id": "e77977f41",
+   "lang": "en",
+   "text": "chain-jat",
+   "cap": 41
+  },
+  {
+   "id": "k6663ff29",
+   "lang": "ko",
+   "text": "소리가 나요.",
+   "cap": 41
+  },
+  {
+   "id": "k25ef5f6a",
+   "lang": "ko",
+   "text": "들은 조각을 한 줄로 되짚어요",
+   "cap": 42
+  },
+  {
+   "id": "e7ec7323b",
+   "lang": "en",
+   "text": "So, I take the Green Line towards East Pier, change at Central to the Blue Line, and get off at Museum?",
+   "cap": 42
+  },
+  {
+   "id": "kbb6ea924",
+   "lang": "ko",
+   "text": "조각 하나가 틀리면 직원이 그 조각만 고쳐 줘요",
+   "cap": 43
+  },
+  {
+   "id": "ebdcba5f1",
+   "lang": "en",
+   "text": "Not quite",
+   "cap": 43
+  },
+  {
+   "id": "eff4f985f",
+   "lang": "en",
+   "text": "towards East Pier, not Westfield.",
+   "cap": 43
+  },
+  {
+   "id": "k4fac0ffe",
+   "lang": "ko",
+   "text": "되짚지 않으면 틀린 곳을 몰라요. 열차에서 내리다",
+   "cap": 44
+  },
+  {
+   "id": "eb8916d67",
+   "lang": "en",
+   "text": "get down?",
+   "cap": 44
+  },
+  {
+   "id": "kb45a8344",
+   "lang": "ko",
+   "text": "영어로는",
+   "cap": 44
+  },
+  {
+   "id": "e9412cf0b",
+   "lang": "en",
+   "text": "get off.",
+   "cap": 44
+  },
+  {
+   "id": "kdc1167eb",
+   "lang": "ko",
+   "text": "갈아타는 곳을 놓쳤으면",
+   "cap": 45
+  },
+  {
+   "id": "e2ae087c9",
+   "lang": "en",
+   "text": "Sorry, where do I change?",
+   "cap": 45
+  },
+  {
+   "id": "k85405a89",
+   "lang": "ko",
+   "text": "다 들었으면",
+   "cap": 45
+  },
+  {
+   "id": "ee74133e5",
+   "lang": "en",
+   "text": "No, that's all.",
+   "cap": 45
+  },
+  {
+   "id": "e133f0bad",
+   "lang": "en",
+   "text": "Thank you so much!",
+   "cap": 45
+  },
+  {
+   "id": "k50cd34f5",
+   "lang": "ko",
+   "text": "열차 안 안내방송",
+   "cap": 46
+  },
+  {
+   "id": "e53434e73",
+   "lang": "en",
+   "text": "The next station is Central.",
+   "cap": 46
+  },
+  {
+   "id": "e1840afb0",
+   "lang": "en",
+   "text": "Change here for the Blue Line.",
+   "cap": 46
+  },
+  {
+   "id": "k08467ced",
+   "lang": "ko",
+   "text": "빠르고 한 번만 나와요.",
+   "cap": 46
+  },
+  {
+   "id": "k9ca306d4",
+   "lang": "ko",
+   "text": "놓쳤으면 옆 사람에게 물어요",
+   "cap": 47
+  },
+  {
+   "id": "e4f9a341e",
+   "lang": "en",
+   "text": "Excuse me, what did the announcement say?",
+   "cap": 47
+  },
+  {
+   "id": "k53e9ffd5",
+   "lang": "ko",
+   "text": "방송은 다시 말해 주지 않아요.",
+   "cap": 47
+  },
+  {
+   "id": "e55c8aaab",
+   "lang": "en",
+   "text": "Central",
+   "cap": 48
+  },
+  {
+   "id": "ka16d3d99",
+   "lang": "ko",
+   "text": "역 승강장",
+   "cap": 48
+  },
+  {
+   "id": "ef59f0839",
+   "lang": "en",
+   "text": "Please stand behind the yellow line.",
+   "cap": 48
+  },
+  {
+   "id": "kfc027d58",
+   "lang": "ko",
+   "text": "안내예요. 이제 내가 먼저 확인해요",
+   "cap": 48
+  },
+  {
+   "id": "e2847bff2",
+   "lang": "en",
+   "text": "Excuse me, does this train go to Museum?",
+   "cap": 48
+  },
+  {
+   "id": "e8afda062",
+   "lang": "en",
+   "text": "Is this train go to Museum?",
+   "cap": 49
+  },
+  {
+   "id": "e5dd1fc66",
+   "lang": "en",
+   "text": "is",
+   "cap": 49
+  },
+  {
+   "id": "k9f34a81b",
+   "lang": "ko",
+   "text": "와",
+   "cap": 49
+  },
+  {
+   "id": "e79c31df0",
+   "lang": "en",
+   "text": "go",
+   "cap": 49
+  },
+  {
+   "id": "kc1ef938b",
+   "lang": "ko",
+   "text": "를 함께 써서 틀린 문장이에요. 승강장을 물어도 돼요",
+   "cap": 49
+  },
+  {
+   "id": "e85561d35",
+   "lang": "en",
+   "text": "Excuse me, is this the right platform for Museum?",
+   "cap": 49
+  },
+  {
+   "id": "eb5fd3486",
+   "lang": "en",
+   "text": "No, this one goes to North Gate.",
+   "cap": 50
+  },
+  {
+   "id": "e7b7e5275",
+   "lang": "en",
+   "text": "You need the train on the other side.",
+   "cap": 50
+  },
+  {
+   "id": "kae116f2a",
+   "lang": "ko",
+   "text": "고맙다는 말과 함께",
+   "cap": 50
+  },
+  {
+   "id": "e821afec9",
+   "lang": "en",
+   "text": "Oh, the other side.",
+   "cap": 50
+  },
+  {
+   "id": "ea1172844",
+   "lang": "en",
+   "text": "Thank you!",
+   "cap": 50
+  },
+  {
+   "id": "kd324352d",
+   "lang": "ko",
+   "text": "열차 안",
+   "cap": 51
+  },
+  {
+   "id": "ea57280f4",
+   "lang": "en",
+   "text": "Excuse me, is anyone sitting here?",
+   "cap": 51
+  },
+  {
+   "id": "k92b05b91",
+   "lang": "ko",
+   "text": "비어 있으면",
+   "cap": 51
+  },
+  {
+   "id": "e60031414",
+   "lang": "en",
+   "text": "No, go ahead.",
+   "cap": 51
+  },
+  {
+   "id": "e0fa7d945",
+   "lang": "en",
+   "text": "Yes, sit down.",
+   "cap": 51
+  },
+  {
+   "id": "k756113f8",
+   "lang": "ko",
+   "text": "누가 앉아 있다는 말이 돼요.",
+   "cap": 51
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 52
+  },
+  {
+   "id": "k38842679",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말과 질문의 모양 잡기",
+   "cap": 53
+  },
+  {
+   "id": "e66d687bf",
+   "lang": "en",
+   "text": "or",
+   "cap": 53
+  },
+  {
+   "id": "k544eebd7",
+   "lang": "ko",
+   "text": "고르기",
+   "cap": 53
+  },
+  {
+   "id": "e4681d538",
+   "lang": "en",
+   "text": "where , how much",
+   "cap": 53
+  },
+  {
+   "id": "k86332d30",
+   "lang": "ko",
+   "text": "정보",
+   "cap": 53
+  },
+  {
+   "id": "e4365904f",
+   "lang": "en",
+   "text": "Do you , Yes or No",
+   "cap": 53
+  },
+  {
+   "id": "k6804e469",
+   "lang": "ko",
+   "text": "물음표가 없으면 안내.",
+   "cap": 53
+  },
+  {
+   "id": "k3c81e6d5",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기",
+   "cap": 54
+  },
+  {
+   "id": "e8ff972f5",
+   "lang": "en",
+   "text": "To Oakbridge, please.",
+   "cap": 54
+  },
+  {
+   "id": "ke6326067",
+   "lang": "ko",
+   "text": "들은 숫자와 길은 조각을 모아 되짚어요",
+   "cap": 54
+  },
+  {
+   "id": "e59914ec4",
+   "lang": "en",
+   "text": "So",
+   "cap": 54
+  },
+  {
+   "id": "k383245d4",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기",
+   "cap": 55
+  },
+  {
+   "id": "e23811400",
+   "lang": "en",
+   "text": "please, thanks, Excuse me.",
+   "cap": 55
+  },
+  {
+   "id": "kd77b8186",
+   "lang": "ko",
+   "text": "놓쳤으면",
+   "cap": 55
+  },
+  {
+   "id": "kf1a7a233",
+   "lang": "ko",
+   "text": "일곱 곳에 한 줄씩 적용했어요. 길고 빠른 말일수록 되짚기가 힘이 돼요.",
+   "cap": 56
+  },
+  {
+   "id": "k2491e57a",
+   "lang": "ko",
+   "text": "실전이에요. 여행 카드",
+   "cap": 57
+  },
+  {
+   "id": "e9d12843b",
+   "lang": "en",
+   "text": "Ashby",
+   "cap": 57
+  },
+  {
+   "id": "k47c506f9",
+   "lang": "ko",
+   "text": "왕복, 어른 두 명. 첫 질문",
+   "cap": 57
+  },
+  {
+   "id": "k6eb631ee",
+   "lang": "ko",
+   "text": "첫째, 고르는 질문 , 비",
+   "cap": 58
+  },
+  {
+   "id": "k12244f89",
+   "lang": "ko",
+   "text": "고른 것이 없어 탈락. 둘째, 씨",
+   "cap": 58
+  },
+  {
+   "id": "kd01a678e",
+   "lang": "ko",
+   "text": "한국식 말이라 탈락.",
+   "cap": 58
+  },
+  {
+   "id": "k6fdeff0d",
+   "lang": "ko",
+   "text": "정답 에이",
+   "cap": 59
+  },
+  {
+   "id": "kc0d91ee6",
+   "lang": "ko",
+   "text": "승강장 안내",
+   "cap": 60
+  },
+  {
+   "id": "kbfc195c2",
+   "lang": "ko",
+   "text": "셋 모두 승강장과 시각에 대한 말이에요.",
+   "cap": 60
+  },
+  {
+   "id": "kf0f7c975",
+   "lang": "ko",
+   "text": "둘째, 에이 10시 50분 , 들은 시각과 달라 탈락. 비",
+   "cap": 61
+  },
+  {
+   "id": "k043168b5",
+   "lang": "ko",
+   "text": "낱말만 옮긴 말이라 탈락.",
+   "cap": 61
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 62
+  },
+  {
+   "id": "k20967ab0",
+   "lang": "ko",
+   "text": "지하철 안내 데스크 , 갈아타는 길을 들었어요. 셋 모두 그 길에 대한 말이에요.",
+   "cap": 63
+  },
+  {
+   "id": "k2c0eae61",
+   "lang": "ko",
+   "text": "둘째, 에이",
+   "cap": 64
+  },
+  {
+   "id": "kfb05050e",
+   "lang": "ko",
+   "text": "되짚지 않아 탈락. 비",
+   "cap": 64
+  },
+  {
+   "id": "ef6a386c1",
+   "lang": "en",
+   "text": "change at City Hall",
+   "cap": 64
+  },
+  {
+   "id": "k443f1789",
+   "lang": "ko",
+   "text": "들은 역과 달라 탈락.",
+   "cap": 64
+  },
+  {
+   "id": "k17ab1190",
+   "lang": "ko",
+   "text": "마지막",
+   "cap": 66
+  },
+  {
+   "id": "ee2e2e72b",
+   "lang": "en",
+   "text": "Is there anything else I can help you with?",
+   "cap": 66
+  },
+  {
+   "id": "ka16a254a",
+   "lang": "ko",
+   "text": "첫째",
+   "cap": 66
+  },
+  {
+   "id": "k1483c984",
+   "lang": "ko",
+   "text": "질문 , 셋 모두",
+   "cap": 66
+  },
+  {
+   "id": "e73cef8d8",
+   "lang": "en",
+   "text": "Yes , No",
+   "cap": 66
+  },
+  {
+   "id": "k8baa3fca",
+   "lang": "ko",
+   "text": "로 답해요.",
+   "cap": 66
+  },
+  {
+   "id": "k6ce3fb6c",
+   "lang": "ko",
+   "text": "더 도와줄 것이 없는데 부탁하는 말이라 탈락.",
+   "cap": 67
+  },
+  {
+   "id": "k8982e596",
+   "lang": "ko",
+   "text": "셋째, 비",
+   "cap": 68
+  },
+  {
+   "id": "eea9a376d",
+   "lang": "en",
+   "text": "No.",
+   "cap": 68
+  },
+  {
+   "id": "k42e2ba3d",
+   "lang": "ko",
+   "text": "고맙다는 말 없이 끊겨 탈락. 정답 씨",
+   "cap": 68
+  },
+  {
+   "id": "kc84d9cf6",
+   "lang": "ko",
+   "text": "정리해요. 매표소에서는 질문의 모양을 잡고, 고른 것이나 정보",
+   "cap": 69
+  },
+  {
+   "id": "efcefaa85",
+   "lang": "en",
+   "text": "please , A return, please.",
+   "cap": 69
+  },
+  {
+   "id": "k46e64a94",
+   "lang": "ko",
+   "text": "숫자를 들으면 되짚어요",
+   "cap": 70
+  },
+  {
+   "id": "k531b754a",
+   "lang": "ko",
+   "text": "값이 헷갈리면",
+   "cap": 70
+  },
+  {
+   "id": "kc59dd2ec",
+   "lang": "ko",
+   "text": "길을 들으면 조각을 모아 한 줄로",
+   "cap": 71
+  },
+  {
+   "id": "e5b8cf2ee",
+   "lang": "en",
+   "text": "So, I take , and get off at Museum?",
+   "cap": 71
+  },
+  {
+   "id": "k86185772",
+   "lang": "ko",
+   "text": "틀린 조각만 다시 들으면 돼요.",
+   "cap": 71
+  },
+  {
+   "id": "kf013a1c8",
+   "lang": "ko",
+   "text": "아래 대중교통 시뮬레이터에서 내 여행 카드로 매표소부터 열차 안까지 해 보세요.",
+   "cap": 72
+  }
+ ]
+}

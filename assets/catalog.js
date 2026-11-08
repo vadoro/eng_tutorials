@@ -338,5 +338,17 @@ window.EN_CATALOG = {
       thumb: 'shopping/docs/poster.jpg',
       added: '2026-11-08',
     },
+    {
+      slug: 'transit',
+      track: 'talk',
+      title: '대중교통, 표는 골라 말하고 길은 되짚는다',
+      topic: '대중교통 · 기차표 사기 · 편도와 왕복 · 할인 · 값 · 승강장과 출발 시각 · 지하철 노선도 · 갈아타기 되짚기 · 열차 안',
+      summary: '기차역 매표소에서는 직원이 짧은 질문을 빠르게 이어서 해요. Single or return?에 Yes.는 대답이 아니에요 — 질문의 모양을 잡고 골라서 말해요(A return, please.). 값 · 승강장 · 출발 시각은 직원이 한 번 말하고 끝이니 되짚어 확인하고(So, platform 4 at 10:15?), 지하철 안내 데스크에서는 내가 먼저 길을 물은 뒤 긴 갈아타기 안내를 조각으로 듣고 한 줄로 되짚어요(So, I take the Green Line towards East Pier, change at Central …?). 왕복표(go-and-back ×) · 카드 충전(top up) · 내리다(get off) 같은 함정과 fourteen · forty, ten fifteen · ten fifty까지, 지어낸 기차표와 노선도로 익혀요.',
+      length: '6:34',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '대중교통 시뮬레이터', '갈아타기 되짚기', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'transit/docs/poster.jpg',
+      added: '2026-11-08',
+    },
   ],
 };

@@ -1,0 +1,1298 @@
+{
+ "slug": "transit",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 8,
+  "ca": 14,
+  "gb": 17,
+  "me": 85,
+  "tc": 73,
+  "us": 17
+ },
+ "lines": [
+  {
+   "id": "gb-850fa972",
+   "sp": "gb",
+   "text": "Single or return?",
+   "from": "video"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-327b7e0b",
+   "sp": "gb",
+   "text": "Sorry — single or return?",
+   "from": "video"
+  },
+  {
+   "id": "me-81a582d6",
+   "sp": "me",
+   "text": "A return, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-7b163b29",
+   "sp": "tc",
+   "text": "A return, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-e1c9a857",
+   "sp": "ca",
+   "text": "Take the Green Line towards East Pier and change at Central. Then take the Blue Line towards South Bay and get off at Museum.",
+   "from": "video"
+  },
+  {
+   "id": "me-bd17fdf4",
+   "sp": "me",
+   "text": "Okay. Thanks.",
+   "from": "video"
+  },
+  {
+   "id": "me-143de7d6",
+   "sp": "me",
+   "text": "So, I take the Green Line towards East Pier, change at Central to the Blue Line, and get off at Museum?",
+   "from": "video"
+  },
+  {
+   "id": "tc-ab2ca96e",
+   "sp": "tc",
+   "text": "Single or return?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-84fea267",
+   "sp": "tc",
+   "text": "So, platform four at ten fifteen?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-18671f73",
+   "sp": "tc",
+   "text": "Sorry, where do I change?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f69aa0aa",
+   "sp": "tc",
+   "text": "Hi there. Where are you traveling to today?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fd9c0653",
+   "sp": "tc",
+   "text": "Do you have a student card?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-33c9ffa7",
+   "sp": "tc",
+   "text": "It leaves at ten fifteen from platform four.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5b33b3ea",
+   "sp": "tc",
+   "text": "Next, please!",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-eb5ca6d2",
+   "sp": "tc",
+   "text": "Take the Green Line towards East Pier and change at Central. Then take the Blue Line towards South Bay and get off at Museum.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-529afe3f",
+   "sp": "tc",
+   "text": "Please stand behind the yellow line.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-b2038213",
+   "sp": "us",
+   "text": "Hi there. Where are you traveling to today?",
+   "from": "video"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "video"
+  },
+  {
+   "id": "me-189f5fbc",
+   "sp": "me",
+   "text": "To Oakbridge, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-3f5b5850",
+   "sp": "me",
+   "text": "A single, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-9cc27922",
+   "sp": "us",
+   "text": "Do you have a student card?",
+   "from": "video"
+  },
+  {
+   "id": "me-f823dd7b",
+   "sp": "me",
+   "text": "No, thanks.",
+   "from": "video"
+  },
+  {
+   "id": "us-f0111540",
+   "sp": "us",
+   "text": "It leaves at ten fifteen from platform four.",
+   "from": "video"
+  },
+  {
+   "id": "me-0c4b40c0",
+   "sp": "me",
+   "text": "So, platform four at ten fifteen?",
+   "from": "video"
+  },
+  {
+   "id": "me-bbea45e7",
+   "sp": "me",
+   "text": "I go to Oakbridge.",
+   "from": "video"
+  },
+  {
+   "id": "me-fb4b8baa",
+   "sp": "me",
+   "text": "Give me a ticket to Oakbridge.",
+   "from": "video"
+  },
+  {
+   "id": "me-9c54b14b",
+   "sp": "me",
+   "text": "A single to Oakbridge, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-d2ba972e",
+   "sp": "gb",
+   "text": "Morning! Where to?",
+   "from": "video"
+  },
+  {
+   "id": "me-a67997fa",
+   "sp": "me",
+   "text": "A go-and-back ticket, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-583f20f0",
+   "sp": "us",
+   "text": "One-way or round trip?",
+   "from": "video"
+  },
+  {
+   "id": "me-57bf1722",
+   "sp": "me",
+   "text": "Round trip, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-52f37051",
+   "sp": "tc",
+   "text": "a single",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0c2396e6",
+   "sp": "tc",
+   "text": "one-way",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d0f19307",
+   "sp": "tc",
+   "text": "a return",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d2b802af",
+   "sp": "tc",
+   "text": "round trip",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-fb2e2de0",
+   "sp": "gb",
+   "text": "And how many people are traveling?",
+   "from": "video"
+  },
+  {
+   "id": "me-aab67a94",
+   "sp": "me",
+   "text": "Me alone, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-458ac335",
+   "sp": "me",
+   "text": "Just me, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-247392c5",
+   "sp": "me",
+   "text": "Two persons, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-1938c6c3",
+   "sp": "me",
+   "text": "Two adults and one child, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-62a67744",
+   "sp": "gb",
+   "text": "Off-peak or anytime?",
+   "from": "video"
+  },
+  {
+   "id": "me-64b05df9",
+   "sp": "me",
+   "text": "Sorry, what's an off-peak ticket?",
+   "from": "video"
+  },
+  {
+   "id": "gb-9a90ee49",
+   "sp": "gb",
+   "text": "It's cheaper, but you can't travel before nine thirty in the morning.",
+   "from": "video"
+  },
+  {
+   "id": "me-929036e6",
+   "sp": "me",
+   "text": "Off-peak, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-852aee8b",
+   "sp": "me",
+   "text": "No, I don't have.",
+   "from": "video"
+  },
+  {
+   "id": "me-89f7a6af",
+   "sp": "me",
+   "text": "No, I don't.",
+   "from": "video"
+  },
+  {
+   "id": "gb-af7ab80b",
+   "sp": "gb",
+   "text": "Have you got a railcard?",
+   "from": "video"
+  },
+  {
+   "id": "me-5f0d826a",
+   "sp": "me",
+   "text": "Sorry, what's a railcard?",
+   "from": "video"
+  },
+  {
+   "id": "gb-7be256cf",
+   "sp": "gb",
+   "text": "It's a discount card for trains.",
+   "from": "video"
+  },
+  {
+   "id": "us-1cc9d8ae",
+   "sp": "us",
+   "text": "Okay, that's fourteen fifty, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d24f11b0",
+   "sp": "tc",
+   "text": "fourteen, forty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ed080235",
+   "sp": "tc",
+   "text": "fifteen, fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3b5eea6b",
+   "sp": "tc",
+   "text": "thirteen, thirty",
+   "from": "video-say"
+  },
+  {
+   "id": "me-58ebd31a",
+   "sp": "me",
+   "text": "Sorry, did you say forty fifty?",
+   "from": "video"
+  },
+  {
+   "id": "me-fc37fdec",
+   "sp": "me",
+   "text": "Sorry, did you say fourteen fifty?",
+   "from": "video"
+  },
+  {
+   "id": "us-2a9ce71e",
+   "sp": "us",
+   "text": "Yes, fourteen fifty.",
+   "from": "video"
+  },
+  {
+   "id": "me-7eedfc00",
+   "sp": "me",
+   "text": "Card is okay?",
+   "from": "video"
+  },
+  {
+   "id": "me-4a4710ce",
+   "sp": "me",
+   "text": "Can I pay by card?",
+   "from": "video"
+  },
+  {
+   "id": "us-2afa6fac",
+   "sp": "us",
+   "text": "Sure. Just tap your card here.",
+   "from": "video"
+  },
+  {
+   "id": "me-2ef5aa08",
+   "sp": "me",
+   "text": "So expensive. Cheaper, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-4f793332",
+   "sp": "me",
+   "text": "Platform where?",
+   "from": "video"
+  },
+  {
+   "id": "me-93b895d5",
+   "sp": "me",
+   "text": "So, platform four at ten fifty?",
+   "from": "video"
+  },
+  {
+   "id": "us-018f4bc2",
+   "sp": "us",
+   "text": "No — I said platform four at ten fifteen.",
+   "from": "video"
+  },
+  {
+   "id": "tc-6546dcc6",
+   "sp": "tc",
+   "text": "ten fifteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6860db39",
+   "sp": "tc",
+   "text": "nine oh five",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ed45febc",
+   "sp": "tc",
+   "text": "three o'clock",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9be5f625",
+   "sp": "tc",
+   "text": "ten fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-7df6b0eb",
+   "sp": "gb",
+   "text": "Right, the next one's the ten fifty from platform two.",
+   "from": "video"
+  },
+  {
+   "id": "me-39bd3e25",
+   "sp": "me",
+   "text": "Sorry, did you say platform two at ten fifty?",
+   "from": "video"
+  },
+  {
+   "id": "gb-260ac45c",
+   "sp": "gb",
+   "text": "That's right. Platform two.",
+   "from": "video"
+  },
+  {
+   "id": "gb-5eea2b77",
+   "sp": "gb",
+   "text": "Sorry folks, platform change! The ten fifteen to Oakbridge now leaves from platform six.",
+   "from": "video"
+  },
+  {
+   "id": "me-3d00bddf",
+   "sp": "me",
+   "text": "Sorry, which platform?",
+   "from": "video"
+  },
+  {
+   "id": "gb-c4e7730b",
+   "sp": "gb",
+   "text": "Platform six. Six.",
+   "from": "video"
+  },
+  {
+   "id": "tc-182996c4",
+   "sp": "tc",
+   "text": "Oakbridge",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5721f2eb",
+   "sp": "tc",
+   "text": "platform six",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-731ef75f",
+   "sp": "ca",
+   "text": "Next, please!",
+   "from": "video"
+  },
+  {
+   "id": "me-571e1916",
+   "sp": "me",
+   "text": "Hi. How do I get to Museum, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-fb06bb93",
+   "sp": "me",
+   "text": "Teach me the way to Museum.",
+   "from": "video"
+  },
+  {
+   "id": "me-e045e783",
+   "sp": "me",
+   "text": "Hi. Which line goes to Museum?",
+   "from": "video"
+  },
+  {
+   "id": "ca-88b739e3",
+   "sp": "ca",
+   "text": "Hi! Would you like a new metro card?",
+   "from": "video"
+  },
+  {
+   "id": "me-c0ae28b5",
+   "sp": "me",
+   "text": "No, thanks. I'd like to top up my card.",
+   "from": "video"
+  },
+  {
+   "id": "me-41589e62",
+   "sp": "me",
+   "text": "No. I'd like to charge my card.",
+   "from": "video"
+  },
+  {
+   "id": "ca-11752a4b",
+   "sp": "ca",
+   "text": "Sure. How much would you like to put on it?",
+   "from": "video"
+  },
+  {
+   "id": "me-19fedb35",
+   "sp": "me",
+   "text": "twenty dollars, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-b459dd43",
+   "sp": "tc",
+   "text": "The Green Line. Towards Westfield, or towards East Pier.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-df3aa409",
+   "sp": "tc",
+   "text": "The Blue Line. Towards North Gate, or towards South Bay.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5480bab4",
+   "sp": "tc",
+   "text": "The Red Line. Towards Lakeside, or towards Airport.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-47ac70cb",
+   "sp": "tc",
+   "text": "towards East Pier",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2b9f8f6f",
+   "sp": "tc",
+   "text": "take the Green Line",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fd3c3b28",
+   "sp": "tc",
+   "text": "change at Central",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-881c83c2",
+   "sp": "tc",
+   "text": "take the Blue Line",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f0541d75",
+   "sp": "tc",
+   "text": "towards South Bay",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-902bbb96",
+   "sp": "tc",
+   "text": "get off at Museum",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-4d524141",
+   "sp": "ca",
+   "text": "Change at Central.",
+   "from": "video"
+  },
+  {
+   "id": "ca-df6e7921",
+   "sp": "ca",
+   "text": "That's right!",
+   "from": "video"
+  },
+  {
+   "id": "me-cbf99840",
+   "sp": "me",
+   "text": "So, I take the Green Line towards Westfield, change at Central to the Blue Line, and get off at Museum?",
+   "from": "video"
+  },
+  {
+   "id": "ca-79fd194b",
+   "sp": "ca",
+   "text": "Not quite — towards East Pier, not Westfield.",
+   "from": "video"
+  },
+  {
+   "id": "me-77f6d0cf",
+   "sp": "me",
+   "text": "So, I take the Green Line towards East Pier, change at Central to the Blue Line, and get down at Museum?",
+   "from": "video"
+  },
+  {
+   "id": "ca-3933f875",
+   "sp": "ca",
+   "text": "Sorry — get down? Oh, you mean get off.",
+   "from": "video"
+  },
+  {
+   "id": "ca-0d098462",
+   "sp": "ca",
+   "text": "Take the Green Line towards East Pier and change at Central, then take the Blue Line towards South Bay, get off at Museum.",
+   "from": "video"
+  },
+  {
+   "id": "me-6c6a5560",
+   "sp": "me",
+   "text": "Sorry, where do I change?",
+   "from": "video"
+  },
+  {
+   "id": "ca-9f788148",
+   "sp": "ca",
+   "text": "Is there anything else I can help you with?",
+   "from": "video"
+  },
+  {
+   "id": "me-4d042e88",
+   "sp": "me",
+   "text": "No.",
+   "from": "video"
+  },
+  {
+   "id": "me-3180523f",
+   "sp": "me",
+   "text": "No, that's all. Thank you so much!",
+   "from": "video"
+  },
+  {
+   "id": "gb-7c64eecf",
+   "sp": "gb",
+   "text": "The next station is Central. Change here for the Blue Line. Doors open on the left.",
+   "from": "video"
+  },
+  {
+   "id": "me-dd3a7df2",
+   "sp": "me",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-b7450eaf",
+   "sp": "me",
+   "text": "Excuse me, what did the announcement say?",
+   "from": "video"
+  },
+  {
+   "id": "au-53c88195",
+   "sp": "au",
+   "text": "It said change here for the Blue Line.",
+   "from": "video"
+  },
+  {
+   "id": "gb-10dacebb",
+   "sp": "gb",
+   "text": "Please stand behind the yellow line.",
+   "from": "video"
+  },
+  {
+   "id": "me-488555c1",
+   "sp": "me",
+   "text": "Excuse me, does this train go to Museum?",
+   "from": "video"
+  },
+  {
+   "id": "me-471ce6d6",
+   "sp": "me",
+   "text": "Excuse me, is this train go to Museum?",
+   "from": "video"
+  },
+  {
+   "id": "me-3f57cddc",
+   "sp": "me",
+   "text": "Excuse me, is this the right platform for Museum?",
+   "from": "video"
+  },
+  {
+   "id": "au-383ccc62",
+   "sp": "au",
+   "text": "No, this one goes to North Gate. You need the train on the other side.",
+   "from": "video"
+  },
+  {
+   "id": "me-0655ee45",
+   "sp": "me",
+   "text": "Okay. Bye.",
+   "from": "video"
+  },
+  {
+   "id": "me-0d95d12e",
+   "sp": "me",
+   "text": "Oh, the other side. Thank you!",
+   "from": "video"
+  },
+  {
+   "id": "au-72e57dab",
+   "sp": "au",
+   "text": "Excuse me, is anyone sitting here?",
+   "from": "video"
+  },
+  {
+   "id": "me-1593cf8a",
+   "sp": "me",
+   "text": "Yes, sit down.",
+   "from": "video"
+  },
+  {
+   "id": "me-c837439d",
+   "sp": "me",
+   "text": "No, go ahead.",
+   "from": "video"
+  },
+  {
+   "id": "au-09381003",
+   "sp": "au",
+   "text": "Thanks!",
+   "from": "video"
+  },
+  {
+   "id": "tc-4a56ba9b",
+   "sp": "tc",
+   "text": "To Oakbridge, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-aa8298e6",
+   "sp": "tc",
+   "text": "No, I don't.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-310e5a29",
+   "sp": "tc",
+   "text": "Hi. How do I get to Museum, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b48834ed",
+   "sp": "tc",
+   "text": "So, I take the Green Line towards East Pier, change at Central to the Blue Line, and get off at Museum?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9e59fae4",
+   "sp": "tc",
+   "text": "Excuse me, does this train go to Museum?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1284aa1",
+   "sp": "tc",
+   "text": "Yes, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1ea1db4d",
+   "sp": "tc",
+   "text": "A go-and-back ticket, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f7379032",
+   "sp": "tc",
+   "text": "So, platform four at ten fifty?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d277d8c5",
+   "sp": "tc",
+   "text": "Platform where?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6bc0f583",
+   "sp": "tc",
+   "text": "Okay. Thanks.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-701e6a18",
+   "sp": "tc",
+   "text": "So, I take the Green Line towards East Pier, change at City Hall to the Blue Line, and get off at Museum?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-844e06e7",
+   "sp": "tc",
+   "text": "No.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f2d29a22",
+   "sp": "tc",
+   "text": "No, that's all. Thank you so much!",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6bc3cac6",
+   "sp": "tc",
+   "text": "To Oakbridge, please. · A single to Oakbridge.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e5507ab0",
+   "sp": "tc",
+   "text": "A return, please. · Just me, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5cf14620",
+   "sp": "tc",
+   "text": "No, I don't. · Sorry, did you say fourteen fifty?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1aa6f11c",
+   "sp": "tc",
+   "text": "So, platform four at ten fifteen? · Sorry, which platform?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-52a1e7e6",
+   "sp": "tc",
+   "text": "Hi. How do I get to Museum, please? · I'd like to top up my card.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2020ca56",
+   "sp": "tc",
+   "text": "So, I take the Green Line, change at Central, and get off at Museum?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c29f4f87",
+   "sp": "tc",
+   "text": "Excuse me, does this train go to Museum? · No, go ahead.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2b015892",
+   "sp": "tc",
+   "text": "That's right! Not quite — towards East Pier.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-69ae5ada",
+   "sp": "tc",
+   "text": "Sorry, where do I change? · Excuse me, what did the announcement say?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-198d67ca",
+   "sp": "tc",
+   "text": "Morning! Where to?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bd5afbc4",
+   "sp": "tc",
+   "text": "And how many people are traveling?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f124daf7",
+   "sp": "tc",
+   "text": "A single, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-896ea918",
+   "sp": "tc",
+   "text": "Just me, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-949124c1",
+   "sp": "tc",
+   "text": "Okay, that's fourteen fifty, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-08b89bbb",
+   "sp": "tc",
+   "text": "Can I pay by card?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-59e81a4f",
+   "sp": "tc",
+   "text": "Right, the next one's the ten fifty from platform two.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5dc71996",
+   "sp": "tc",
+   "text": "So, platform two at ten fifty?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-603b6a40",
+   "sp": "tc",
+   "text": "Hi! Would you like a new metro card?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3c8a2302",
+   "sp": "tc",
+   "text": "No, thanks. I'd like to top up my card.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-27930925",
+   "sp": "tc",
+   "text": "Is there anything else I can help you with?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b06826a2",
+   "sp": "tc",
+   "text": "Excuse me, is anyone sitting here?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2ccd9c46",
+   "sp": "tc",
+   "text": "No, go ahead.",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-892cb33c",
+   "sp": "gb",
+   "text": "Would you like a window or an aisle seat?",
+   "from": "lab"
+  },
+  {
+   "id": "me-1070ebcb",
+   "sp": "me",
+   "text": "A window seat, please.",
+   "from": "lab"
+  },
+  {
+   "id": "tc-41f43b54",
+   "sp": "tc",
+   "text": "fourteen",
+   "from": "lab"
+  },
+  {
+   "id": "tc-3a6e5d5c",
+   "sp": "tc",
+   "text": "forty",
+   "from": "lab"
+  },
+  {
+   "id": "tc-f1272c2d",
+   "sp": "tc",
+   "text": "fifteen",
+   "from": "lab"
+  },
+  {
+   "id": "tc-6b6ef6f2",
+   "sp": "tc",
+   "text": "fifty",
+   "from": "lab"
+  },
+  {
+   "id": "tc-b7a46db3",
+   "sp": "tc",
+   "text": "thirteen",
+   "from": "lab"
+  },
+  {
+   "id": "tc-f8a08c24",
+   "sp": "tc",
+   "text": "thirty",
+   "from": "lab"
+  },
+  {
+   "id": "me-3de1c8a2",
+   "sp": "me",
+   "text": "Two adults, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-90eb29a4",
+   "sp": "me",
+   "text": "One adult and one child, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-119571df",
+   "sp": "me",
+   "text": "One-way, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-be0e58fd",
+   "sp": "me",
+   "text": "An aisle seat, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-233654b4",
+   "sp": "me",
+   "text": "Anytime, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9b878e4c",
+   "sp": "me",
+   "text": "So, platform five at ten fifteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-9ec1b8e7",
+   "sp": "us",
+   "text": "It leaves at ten fifty from platform two.",
+   "from": "lab"
+  },
+  {
+   "id": "me-814297d3",
+   "sp": "me",
+   "text": "So, platform two at ten fifty?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a757544a",
+   "sp": "me",
+   "text": "So, platform two at ten fifteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-4a71f943",
+   "sp": "us",
+   "text": "No — I said platform two at ten fifty.",
+   "from": "lab"
+  },
+  {
+   "id": "me-798ca001",
+   "sp": "me",
+   "text": "So, platform three at ten fifty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-37dd6ec5",
+   "sp": "us",
+   "text": "It leaves at eleven thirteen from platform seven.",
+   "from": "lab"
+  },
+  {
+   "id": "me-26950c87",
+   "sp": "me",
+   "text": "So, platform seven at eleven thirteen?",
+   "from": "lab"
+  },
+  {
+   "id": "me-aeefc852",
+   "sp": "me",
+   "text": "So, platform seven at eleven thirty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-8a2c64a7",
+   "sp": "us",
+   "text": "No — I said platform seven at eleven thirteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-0723eaa1",
+   "sp": "me",
+   "text": "So, platform eight at eleven thirteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-dfe71911",
+   "sp": "us",
+   "text": "It leaves at eleven thirty from platform five.",
+   "from": "lab"
+  },
+  {
+   "id": "me-eb824fb7",
+   "sp": "me",
+   "text": "So, platform five at eleven thirty?",
+   "from": "lab"
+  },
+  {
+   "id": "me-bc46a356",
+   "sp": "me",
+   "text": "So, platform five at eleven thirteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-3093c7b1",
+   "sp": "us",
+   "text": "No — I said platform five at eleven thirty.",
+   "from": "lab"
+  },
+  {
+   "id": "me-56e69c2f",
+   "sp": "me",
+   "text": "So, platform six at eleven thirty?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-3caaf7ed",
+   "sp": "ca",
+   "text": "Take the Green Line towards Westfield and change at City Hall. Then take the Red Line towards Lakeside and get off at Old Town.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-665f2ce4",
+   "sp": "ca",
+   "text": "Take the Blue Line towards South Bay and get off at South Bay. It's four stops.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-8db5ef1e",
+   "sp": "gb",
+   "text": "Yes, it does!",
+   "from": "lab"
+  },
+  {
+   "id": "me-dc250770",
+   "sp": "me",
+   "text": "This train, Museum?",
+   "from": "lab"
+  },
+  {
+   "id": "au-177c5b86",
+   "sp": "au",
+   "text": "No worries!",
+   "from": "lab"
+  },
+  {
+   "id": "me-aed9ad79",
+   "sp": "me",
+   "text": "Oh, this side. Thanks!",
+   "from": "lab"
+  },
+  {
+   "id": "me-6f2d4964",
+   "sp": "me",
+   "text": "Sorry, someone's sitting here.",
+   "from": "lab"
+  },
+  {
+   "id": "au-7fd34450",
+   "sp": "au",
+   "text": "Oh, no problem.",
+   "from": "lab"
+  },
+  {
+   "id": "au-10692db0",
+   "sp": "au",
+   "text": "It said the next station is Central. Change there for the Blue Line.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1e8d22fb",
+   "sp": "me",
+   "text": "To Ashby, please.",
+   "from": "drill"
+  },
+  {
+   "id": "us-08b294cf",
+   "sp": "us",
+   "text": "Hi, where you headed today?",
+   "from": "drill"
+  },
+  {
+   "id": "me-8574fb7c",
+   "sp": "me",
+   "text": "Sorry, did you ask where I'm going?",
+   "from": "drill"
+  },
+  {
+   "id": "me-754c0e83",
+   "sp": "me",
+   "text": "To Millbrook, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-1a0f74e5",
+   "sp": "me",
+   "text": "One adult, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-1239402f",
+   "sp": "me",
+   "text": "Yes, I do. Here it is.",
+   "from": "drill"
+  },
+  {
+   "id": "me-fe6c0464",
+   "sp": "me",
+   "text": "Here you go.",
+   "from": "drill"
+  },
+  {
+   "id": "me-5d77dd04",
+   "sp": "me",
+   "text": "So, platform six at ten fifteen?",
+   "from": "drill"
+  },
+  {
+   "id": "me-77be2ea9",
+   "sp": "me",
+   "text": "Sorry, did you ask about discount cards?",
+   "from": "drill"
+  },
+  {
+   "id": "me-24b6371e",
+   "sp": "me",
+   "text": "Hi. How do I get to Market, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-5c2a7db3",
+   "sp": "me",
+   "text": "So, I take the Green Line towards East Pier, change at City Hall to the Blue Line, and get off at Museum?",
+   "from": "drill"
+  },
+  {
+   "id": "me-f7055785",
+   "sp": "me",
+   "text": "Excuse me, does this train go to Market?",
+   "from": "drill"
+  },
+  {
+   "id": "me-670e4540",
+   "sp": "me",
+   "text": "I go to Millbrook.",
+   "from": "drill"
+  },
+  {
+   "id": "us-26854bd6",
+   "sp": "us",
+   "text": "Where are you traveling to today?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-bc74ff4e",
+   "sp": "me",
+   "text": "A return to Millbrook, please.",
+   "from": "shadow"
+  },
+  {
+   "id": "gb-7469afd5",
+   "sp": "gb",
+   "text": "The next one's the ten fifty from platform two.",
+   "from": "shadow"
+  },
+  {
+   "id": "ca-79629221",
+   "sp": "ca",
+   "text": "Would you like a new metro card?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-130f8f55",
+   "sp": "me",
+   "text": "Twenty dollars, please.",
+   "from": "shadow"
+  },
+  {
+   "id": "ca-78378a19",
+   "sp": "ca",
+   "text": "Take the Green Line towards East Pier.",
+   "from": "shadow"
+  },
+  {
+   "id": "au-a414f7cc",
+   "sp": "au",
+   "text": "You need the train on the other side.",
+   "from": "shadow"
+  },
+  {
+   "id": "us-c7578d84",
+   "sp": "us",
+   "text": "You got any discount cards today?",
+   "from": "q"
+  }
+ ]
+}

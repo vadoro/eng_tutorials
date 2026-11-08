@@ -1,0 +1,291 @@
+1
+00:00:00,400 --> 00:00:05,500
+기차역 매표소에서는 직원이 차례대로 물어요. 지하철에서는 길을 물으면 길고 빠른 대답이 돌아와요.
+
+2
+00:00:05,500 --> 00:00:10,500
+매표소 직원 → Single or return? 왕복표를 사려고 해서 → Yes, please.
+
+3
+00:00:10,500 --> 00:00:16,000
+직원이 다시 물어요. 고르는 질문에 Yes만 하면 무엇을 골랐는지 몰라요. 고른 것을 말해요 → A return, please.
+
+4
+00:00:16,000 --> 00:00:21,000
+갈아타는 길을 들은 뒤 → Okay. Thanks. 하고 끝내지 말고, 들은 조각을 한 줄로 되짚어 확인해요.
+
+5
+00:00:21,000 --> 00:00:26,000
+세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.
+
+6
+00:00:26,400 --> 00:00:32,000
+오늘의 여행을 일곱 곳으로 나눠 봐요. 먼저 기차역 매표소에서 Oakbridge 가는 표를 사요.
+
+7
+00:00:32,000 --> 00:00:38,000
+매표소에서 어디까지 가는지, 표 종류와 사람 수를 말하고, 할인 카드와 값을 확인해요. 그다음 승강장과 시각을 들어요.
+
+8
+00:00:38,000 --> 00:00:44,000
+시내에서는 지하철을 타요. 안내 데스크에서 길을 묻고, 갈아타는 길을 들은 뒤, 승강장과 열차 안에서 확인해요.
+
+9
+00:00:44,000 --> 00:00:50,000
+보라 테두리 → 내가 먼저 말을 꺼내는 곳이에요. 안내 데스크에서 길 묻기, 승강장과 열차 안.
+
+10
+00:00:50,000 --> 00:00:56,000
+역 이름, 노선, 값, 시각은 모두 지어낸 것이에요. 실제 역과 나라마다 절차가 달라요.
+
+11
+00:00:56,400 --> 00:01:02,000
+매표소 직원의 질문은 짧고 모양이 정해져 있어요. Where are you traveling to today? → 열쇠 낱말 where → 정보 질문이에요.
+
+12
+00:01:02,000 --> 00:01:07,500
+정보 질문에 → Yes. 이렇게만 하면 대답이 아니에요. 가는 곳 + please → To Oakbridge, please.
+
+13
+00:01:07,500 --> 00:01:13,000
+Single or return? → 고르는 질문. 고른 것 + please. Do you have a student card? → Yes/No 질문.
+
+14
+00:01:13,000 --> 00:01:18,500
+It leaves at 10:15 from platform 4. → 물음표가 없는 안내예요. 이럴 때는 들은 숫자를 되짚어요 → So, platform 4 at 10:15?
+
+15
+00:01:18,500 --> 00:01:24,000
+I go to Oakbridge. → 한국어 ‘가요’를 옮긴 말이에요. Give me a ticket to Oakbridge. → 명령처럼 들려요.
+
+16
+00:01:24,000 --> 00:01:30,000
+편도까지 한 번에 → A single to Oakbridge, please. 영국 매표소 → Morning! Where to? 같은 뜻이에요.
+
+17
+00:01:30,400 --> 00:01:36,000
+Single or return? → 편도 → single, 왕복 → return. 오늘 갔다가 돌아오면 → A return, please.
+
+18
+00:01:36,000 --> 00:01:41,500
+go-and-back ticket → 통하지 않아요. 미국에서는 → One-way or round trip? 왕복이면 → Round trip, please.
+
+19
+00:01:41,500 --> 00:01:47,000
+많이 쓰는 말 → 영국 single · return, 미국 one-way · round trip. 어느 쪽을 말해도 알아들어요.
+
+20
+00:01:47,000 --> 00:01:52,500
+And how many people are traveling? → 정보 질문. 혼자면 → Just me, please. me alone → 쓸쓸하게 들려 어색해요.
+
+21
+00:01:52,500 --> 00:01:58,000
+여럿이면 어른과 어린이를 나눠요 → Two adults and one child, please. two persons → 알아듣지만 딱딱해요.
+
+22
+00:01:58,000 --> 00:02:04,000
+Off-peak or anytime? 모르는 낱말이면 물어요 → Sorry, what's an off-peak ticket? 덜 붐비는 시간에 타는 싼 표예요.
+
+23
+00:02:04,400 --> 00:02:10,000
+Do you have a student card? → Yes/No 질문. 없으면 → No, I don't. No, I don't have. → have 뒤가 비어서 틀려요.
+
+24
+00:02:10,000 --> 00:02:15,500
+영국에서는 → Have you got a railcard? 모르는 낱말이면 → Sorry, what's a railcard? 기차 할인 카드예요.
+
+25
+00:02:15,500 --> 00:02:21,000
+직원 → Okay, that's $14.50, please. 읽기 → fourteen fifty. 14와 40은 소리가 비슷해요.
+
+26
+00:02:21,000 --> 00:02:26,500
+fourteen → 뒤를 세게, forty → 앞을 세게 말해요. 헷갈리면 → Sorry, did you say fourteen fifty?
+
+27
+00:02:26,500 --> 00:02:32,000
+카드로 내고 싶으면 → Can I pay by card? Card is okay? → 낱말만 옮긴 말이라 어색해요.
+
+28
+00:02:32,000 --> 00:02:38,000
+So expensive. Cheaper, please. → 기차표 값은 정해져 있어 깎지 않아요. 조르는 말처럼 들려요.
+
+29
+00:02:38,400 --> 00:02:44,000
+It leaves at 10:15 from platform 4. → 숫자가 둘이에요. Platform where? → 낱말만 옮긴 말이라 어색해요.
+
+30
+00:02:44,000 --> 00:02:49,500
+되짚는 틀 → So, platform 4 at 10:15? 10:50으로 잘못 되짚으면 직원이 바로 고쳐 줘요.
+
+31
+00:02:49,500 --> 00:02:55,000
+시각 읽기 → 10:15 → ten fifteen. 9:05 → nine oh five. 3:00 → three o'clock. 시와 분을 끊어 읽어요.
+
+32
+00:02:55,000 --> 00:03:00,500
+영국 역무원 → Right, the next one's the 10:50 from platform 2. 확인하려면 → Sorry, did you say platform 2 at 10:50?
+
+33
+00:03:00,500 --> 00:03:05,500
+안내처럼 빠른 말 → Sorry folks, platform change! 숫자를 놓쳤으면 → Sorry, which platform?
+
+34
+00:03:05,500 --> 00:03:10,000
+출발 안내판에서도 확인해요. 시각, 가는 곳, 승강장 → 10:15 · OAKBRIDGE. 6번 승강장.
+
+35
+00:03:10,400 --> 00:03:16,000
+지하철 안내 데스크 → Next, please! 안내라서 내가 먼저 말해요 → Hi. How do I get to Museum, please?
+
+36
+00:03:16,000 --> 00:03:21,500
+Teach me the way to Museum. → 낱말만 옮긴 말이라 어색해요. 노선을 물어도 돼요 → Hi. Which line goes to Museum?
+
+37
+00:03:21,500 --> 00:03:27,000
+Would you like a new metro card? 카드가 있으면 → No, thanks. I'd like to top up my card.
+
+38
+00:03:27,000 --> 00:03:32,500
+‘충전’ → charge? 카드로 값을 낸다는 말로 들려요. 돈을 넣는 것 → top up. 얼마를 넣을지 물으면 → Twenty dollars, please.
+
+39
+00:03:32,500 --> 00:03:38,000
+노선도 읽기 → 노선은 색 이름으로, 방향은 그 노선의 끝 역 이름으로 말해요. Park Road 역에서 동쪽 → towards East Pier.
+
+40
+00:03:38,000 --> 00:03:44,000
+흰 동그라미는 갈아타는 역이에요 → Central, City Hall, University. 직원은 갈아타기가 가장 적은 길을 알려 줘요.
+
+41
+00:03:44,400 --> 00:03:50,500
+직원의 대답이 길어요 → Take the Green Line towards East Pier and change at Central. Then take the Blue Line towards South Bay and get off at Museum.
+
+42
+00:03:50,500 --> 00:03:56,500
+조각으로 나눠 들어요. 탈 노선 → 방향 → 갈아타는 역 → 갈아탈 노선 → 내릴 역. change at → 이어서 chain-jat 소리가 나요.
+
+43
+00:03:56,500 --> 00:04:02,500
+들은 조각을 한 줄로 되짚어요 → So, I take the Green Line towards East Pier, change at Central to the Blue Line, and get off at Museum?
+
+44
+00:04:02,500 --> 00:04:08,000
+조각 하나가 틀리면 직원이 그 조각만 고쳐 줘요 → Not quite — towards East Pier, not Westfield.
+
+45
+00:04:08,000 --> 00:04:14,000
+Okay. Thanks. → 되짚지 않으면 틀린 곳을 몰라요. 열차에서 내리다 → get down? 영어로는 → get off.
+
+46
+00:04:14,000 --> 00:04:20,000
+갈아타는 곳을 놓쳤으면 → Sorry, where do I change? 다 들었으면 → No, that's all. Thank you so much!
+
+47
+00:04:20,400 --> 00:04:26,000
+열차 안 안내방송 → The next station is Central. Change here for the Blue Line. 빠르고 한 번만 나와요.
+
+48
+00:04:26,000 --> 00:04:31,500
+놓쳤으면 옆 사람에게 물어요 → Excuse me, what did the announcement say? 방송은 다시 말해 주지 않아요.
+
+49
+00:04:31,500 --> 00:04:37,000
+Central 역 승강장 → Please stand behind the yellow line. 안내예요. 이제 내가 먼저 확인해요 → Excuse me, does this train go to Museum?
+
+50
+00:04:37,000 --> 00:04:42,500
+Is this train go to Museum? → is와 go를 함께 써서 틀린 문장이에요. 승강장을 물어도 돼요 → Excuse me, is this the right platform for Museum?
+
+51
+00:04:42,500 --> 00:04:48,000
+No, this one goes to North Gate. You need the train on the other side. 고맙다는 말과 함께 → Oh, the other side. Thank you!
+
+52
+00:04:48,000 --> 00:04:54,000
+열차 안 → Excuse me, is anyone sitting here? 비어 있으면 → No, go ahead. Yes, sit down. → 누가 앉아 있다는 말이 돼요.
+
+53
+00:04:54,400 --> 00:04:59,500
+지금까지 배운 것을 3단계 말하기 법으로 묶어요.
+
+54
+00:04:59,500 --> 00:05:05,500
+① 열쇠 낱말과 질문의 모양 잡기 → or → 고르기, where · how much → 정보, Do you → Yes/No, 물음표가 없으면 안내.
+
+55
+00:05:05,500 --> 00:05:11,500
+② 틀에 내 정보 넣기 → To Oakbridge, please. 들은 숫자와 길은 조각을 모아 되짚어요 → So, …?
+
+56
+00:05:11,500 --> 00:05:17,000
+③ 공손하게 끝내기 → please, thanks, Excuse me. 놓쳤으면 → Sorry, which platform?
+
+57
+00:05:17,000 --> 00:05:22,000
+일곱 곳에 한 줄씩 적용했어요. 길고 빠른 말일수록 되짚기가 힘이 돼요.
+
+58
+00:05:22,400 --> 00:05:26,500
+실전이에요. 여행 카드 → Ashby 왕복, 어른 두 명. 첫 질문 → Single or return?
+
+59
+00:05:26,500 --> 00:05:30,500
+① 고르는 질문 → (B) Yes, please. 고른 것이 없어 탈락. ② (C) go-and-back ticket → 한국식 말이라 탈락.
+
+60
+00:05:30,500 --> 00:05:34,500
+정답 (A) → A return, please.
+
+61
+00:05:34,900 --> 00:05:39,000
+승강장 안내 → It leaves at 10:15 from platform 4. 셋 모두 승강장과 시각에 대한 말이에요.
+
+62
+00:05:39,000 --> 00:05:43,000
+② (A) 10:50 → 들은 시각과 달라 탈락. (B) Platform where? → 낱말만 옮긴 말이라 탈락.
+
+63
+00:05:43,000 --> 00:05:47,000
+정답 (C) → So, platform 4 at 10:15?
+
+64
+00:05:47,400 --> 00:05:51,500
+지하철 안내 데스크 → 갈아타는 길을 들었어요. 셋 모두 그 길에 대한 말이에요.
+
+65
+00:05:51,500 --> 00:05:55,500
+② (A) Okay. Thanks. → 되짚지 않아 탈락. (B) change at City Hall → 들은 역과 달라 탈락.
+
+66
+00:05:55,500 --> 00:05:59,500
+정답 (C) → So, I take the Green Line towards East Pier, change at Central to the Blue Line, and get off at Museum?
+
+67
+00:05:59,900 --> 00:06:04,000
+마지막 → Is there anything else I can help you with? ① Yes/No 질문 → 셋 모두 Yes · No로 답해요.
+
+68
+00:06:04,000 --> 00:06:08,000
+② (A) Yes, please. → 더 도와줄 것이 없는데 부탁하는 말이라 탈락.
+
+69
+00:06:08,000 --> 00:06:12,000
+③ (B) No. → 고맙다는 말 없이 끊겨 탈락. 정답 (C) → No, that's all. Thank you so much!
+
+70
+00:06:12,400 --> 00:06:18,000
+정리해요. 매표소에서는 질문의 모양을 잡고, 고른 것이나 정보 + please → A return, please.
+
+71
+00:06:18,000 --> 00:06:24,000
+숫자를 들으면 되짚어요 → So, platform 4 at 10:15? 값이 헷갈리면 → Sorry, did you say fourteen fifty?
+
+72
+00:06:24,000 --> 00:06:29,000
+길을 들으면 조각을 모아 한 줄로 → So, I take … and get off at Museum? 틀린 조각만 다시 들으면 돼요.
+
+73
+00:06:29,000 --> 00:06:34,000
+아래 여행 시뮬레이터에서 내 여행 카드로 매표소부터 열차 안까지 해 보세요.

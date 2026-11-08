@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>대중교통, 표는 골라 말하고 길은 되짚는다 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="상황별 영어 회화 튜토리얼: 대중교통. 기차역 매표소에서는 질문의 모양(Single or return? · How many people? · Do you have a student card?)을 잡아 짧게 고르고, 값 · 승강장 · 출발 시각은 So, platform 4 at 10:15?처럼 되짚어요. 지하철 안내 데스크에서는 내가 먼저 길을 묻고, 갈아타는 길 안내를 탈 노선 · 방향 → 갈아탈 역 → 내릴 역 차례로 되짚어요. 영상 · 대중교통 시뮬레이터 · 따라 말하기 · 듣고 대답 고르기 · 퀴즈.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 열쇠 낱말 · 대답 틀 · 내 정보 · 공손한 말 · 함정 · 빈칸 */
+  --c-key:#2266C4; --c-frame:#A86A00; --c-slot:#1F7A55; --c-pol:#6A45C2; --c-trap:#C2531F; --c-gap:#C2346E;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --paper:#F4F1E8; --ink:#1E2630;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-key); --en-cue:var(--c-pol); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-key:#6EC8FF; --c-frame:#FFC15E; --c-slot:#7FE0A8; --c-pol:#C9A7FF; --c-trap:#FF9F7A; --c-gap:#FF7AA8;
+    --paper:#E9E4D6; --ink:#1E2630;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-key:#6EC8FF; --c-frame:#FFC15E; --c-slot:#7FE0A8; --c-pol:#C9A7FF; --c-trap:#FF9F7A; --c-gap:#FF7AA8;
+  --paper:#E9E4D6; --ink:#1E2630;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+svg.pi{width:16px;height:16px;flex:none;vertical-align:-3px;margin-right:4px}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.steps3{display:flex;flex-wrap:wrap;gap:6px 10px;margin:4px 0 0;padding:0;list-style:none}
+.steps3 li{padding:4px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:14px;font-weight:600}
+.steps3 b{font-family:var(--mono);margin-right:4px;color:var(--accent)}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+.honest{margin:0;padding:10px 14px;border-left:4px solid var(--warn);border-radius:0 10px 10px 0;background:var(--surface);font-size:14px;color:var(--muted);max-width:84ch}
+.honest b{color:var(--text)}
+.voice-note{display:block;margin-top:4px;font-size:12.5px;font-family:var(--mono)}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.lab-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 12px}
+.lab-top h3{margin:0}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.lab .seg{margin-top:8px}
+.seg button{display:inline-flex;align-items:center;gap:4px;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button small{font-weight:500;color:var(--muted)}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;flex-wrap:wrap;gap:4px 6px;margin:10px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.lab .mo{margin-top:8px}
+.mo.mo-col{display:flex;flex-direction:column;align-items:stretch}
+.mo button{min-height:34px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer;text-align:left}
+.mo button:hover:not(:disabled){border-color:var(--accent)}
+.mo button.right{border-color:var(--ok);color:var(--ok)}
+.mo button.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.mr{margin:0;font-size:14px;color:var(--muted)}
+.mr:empty{display:none}
+.ox{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.ox li{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 10px;border-radius:10px;background:var(--surface-2)}
+.ox .ox-t{flex:1 1 14em;font-weight:600;font-size:15px}
+.ox .mo{flex-basis:100%}
+.ox .mr{flex-basis:100%}
+.lab h3.mt{margin-top:16px}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.links{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.qlist{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.qlist li{display:flex;align-items:flex-start;gap:8px;padding:6px 10px;border-radius:10px;background:var(--surface-2)}
+.qlist li > span{display:flex;flex-direction:column;font-weight:600}
+.qlist small{color:var(--muted);font-weight:400;font-size:13px}
+.qlist li.off{opacity:.5}
+.lnum{display:inline-grid;place-items:center;width:20px;height:20px;margin-right:4px;border-radius:50%;background:var(--c-frame);color:#1D1305;font-size:12px;font-weight:800}
+.mcard{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:4px 12px;margin:8px 0 0;padding:8px 12px;border-radius:10px;background:var(--paper);color:var(--ink);font-size:13.5px}
+.mcard div{display:flex;gap:6px}
+.mcard dt{color:#5B6168;font-weight:600}
+.mcard dd{margin:0;font-weight:700}
+.cv-row{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:8px;align-items:center;margin-top:8px}
+.cv-row .seg{margin-top:0}
+.cv-lab{font-weight:700;font-size:13.5px;color:var(--muted)}
+.lab .lmini{margin-top:10px}
+.lab .lmini .edr-card{padding:12px 14px}
+
+/* ---------- 듣기 단추 ---------- */
+.lp-play{display:inline-grid;place-items:center;flex:none;width:32px;height:32px;padding:0;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--accent);cursor:pointer}
+.lp-play svg{width:15px;height:15px;margin-left:2px}
+.lp-play:hover{border-color:var(--accent)}
+.lp-play.saying{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.lsn{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:0 0 12px}
+.lbtn{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 12px 0 10px;border:1px solid var(--accent);border-radius:999px;background:var(--surface);color:var(--accent);font-size:13.5px;font-weight:700;cursor:pointer}
+.lbtn svg{width:16px;height:16px;flex:none}
+.lbtn small{font-family:var(--mono);font-weight:500;opacity:.75}
+.lbtn[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.lbtn.tog{border-color:var(--line);color:var(--text);font-weight:600}
+.lbtn.tog[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.lbtn:disabled{opacity:.5;cursor:default}
+.ldr-now{font-size:13px;color:var(--muted)}
+.ldr-nosay{margin:0 0 10px;font-size:13.5px;color:var(--warn)}
+
+/* ---------- 역할 색 칠하기 ---------- */
+mark[class^="mk-"]{padding:0;border-radius:3px;background:transparent;color:inherit;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.mk-key{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-key) 30%, transparent)}
+mark.mk-frame{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-frame) 32%, transparent)}
+mark.mk-slot,mark.mk-ok{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-slot) 32%, transparent)}
+mark.mk-pol{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-pol) 30%, transparent)}
+mark.mk-trap{box-shadow:inset 0 -0.45em 0 color-mix(in srgb, var(--c-trap) 36%, transparent)}
+i.blank{display:inline-block;font-style:normal;padding:0 6px;border:1.5px dashed var(--c-gap);border-radius:5px;color:var(--c-gap);line-height:1.3}
+
+/* ---------- 듣고 대답 고르기 (공통 부품 .edr 모양 + 듣기 줄) ---------- */
+.ldr-hid{display:inline-block;height:.82em;vertical-align:-.06em;border-radius:3px;background:color-mix(in srgb, var(--text) 18%, transparent)}
+.adr-place{display:inline-flex;align-items:center;gap:2px;padding:1px 10px 1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-family:var(--body);font-weight:700}
+.adr-sit{margin:0 0 10px;padding:8px 12px;border-left:3px solid var(--c-slot);border-radius:0 10px 10px 0;background:var(--surface-2);font-size:15px}
+.adr-sit b{margin-right:8px;color:var(--c-slot)}
+.adr-ask{margin:4px 0 6px;font-size:13px;font-weight:700;color:var(--muted)}
+.adr-fast{margin-left:auto;padding:1px 8px;border-radius:999px;border:1px solid var(--c-trap);color:var(--c-trap);font-size:12.5px;font-weight:700;white-space:nowrap}
+.ldr-q{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 6px;padding:8px 12px;border-radius:10px;background:var(--surface-2);font-size:clamp(16px,2.1vw,19px);font-weight:500;line-height:1.6}
+.ldr-q > b{font-size:13px;color:var(--accent)}
+.ldr-q.now,.ldr-row.now .ldr-opt,.sim-bub.now{box-shadow:0 0 0 1px var(--accent);background:var(--accent-soft)}
+.ldr-opts{display:flex;flex-direction:column;gap:8px}
+.ldr-row{display:flex;align-items:center;gap:8px}
+.ldr-opt{flex:1;min-width:0;min-height:46px;padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);font-size:16px;line-height:1.55;text-align:left;cursor:pointer}
+.ldr-opt b{font-family:var(--mono);font-weight:500;color:var(--muted);margin-right:4px}
+.ldr-opt:hover:not(:disabled){border-color:var(--accent)}
+.ldr-opt:disabled{cursor:default}
+.ldr-row.right .ldr-opt{border-color:var(--ok);color:var(--ok);font-weight:600}
+.ldr-row.wrong .ldr-opt{border-color:var(--no);color:var(--no)}
+.ldr-row.wrong .ldr-t{text-decoration:line-through}
+.ldr-row.off .ldr-opt{opacity:.75}
+.ldr-ko{margin:12px 0 0;padding:10px 0 0;list-style:none;border-top:1px dashed var(--line);display:flex;flex-direction:column;gap:6px;font-size:14.5px}
+.ldr-ko li{display:flex;align-items:flex-start;gap:8px}
+.ldr-ko li > span{display:flex;flex-direction:column}
+.ldr-ko small{color:var(--muted);font-size:13.5px}
+.edr-btn svg{width:15px;height:15px;vertical-align:-2px}
+
+/* ---------- 놀이터: 호텔 숙박 시뮬레이터 ---------- */
+.sim{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:16px;align-items:start;outline:none}
+.sim-side{display:flex;flex-direction:column;gap:10px}
+.tcard{border-radius:12px;background:var(--paper);color:var(--ink);overflow:hidden;box-shadow:0 8px 20px -14px rgba(0,0,0,.6)}
+.tc-head{display:flex;align-items:center;gap:6px;margin:0;padding:8px 12px;background:#22324A;color:#fff;font-size:14px}
+.tc-head span{font-family:var(--mono);font-size:12px;opacity:.85}
+.tcard dl{margin:0;padding:8px 12px;display:flex;flex-direction:column;gap:4px}
+.tcard dl div{display:grid;grid-template-columns:6.4em minmax(0,1fr);gap:6px;font-size:14px}
+.tcard dt{color:#5B6168;font-weight:600}
+.tcard dd{margin:0;font-weight:700}
+.tc-foot{margin:0;padding:6px 12px 10px;font-size:12.5px;color:#5B6168;border-top:1px dashed rgba(30,38,48,.25)}
+.sim-prog{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.sim-prog li{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;border:1.5px solid var(--line);font-family:var(--mono);font-size:13px;color:var(--muted)}
+.sim-prog li.cur{border-color:var(--accent);color:var(--accent);font-weight:700}
+.sim-prog li.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+.sim-prog li.late{background:color-mix(in srgb, var(--warn) 70%, transparent);border-color:var(--warn);color:#fff}
+.sim-main{min-width:0;display:flex;flex-direction:column;gap:10px}
+.sim-start p{margin:0 0 12px;color:var(--muted)}
+.sim-officer{display:flex;align-items:flex-start;gap:10px}
+.sim-av{width:48px;height:48px;flex:none}
+.sim-bub{position:relative;flex:1;min-width:0;display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0;padding:10px 14px;border-radius:14px;background:var(--surface-2);border:1px solid color-mix(in srgb, var(--c-key) 40%, transparent);font-size:clamp(16px,2.1vw,19px);line-height:1.6}
+.sim-react{margin:0;padding:8px 12px;border-radius:10px;background:var(--surface-2);font-size:15px}
+.sim-react.ok{border-left:4px solid var(--ok)} .sim-react.no{border-left:4px solid var(--no)} .sim-react.repair{border-left:4px solid var(--c-pol)}
+.sim-react small{display:block;color:var(--muted);font-size:13.5px}
+.who{display:inline-block;margin-right:8px;padding:0 8px;border-radius:999px;background:color-mix(in srgb, var(--c-key) 18%, transparent);color:var(--c-key);font-size:12.5px;font-weight:700}
+.who.me{background:color-mix(in srgb, var(--c-trap) 16%, transparent);color:var(--c-trap)}
+.sim-lab{margin:4px 0 0;font-size:13px;font-weight:700;color:var(--muted)}
+.sim-lab small{font-family:var(--mono);font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chipf,.chips-s{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:4px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);font-size:15.5px;font-weight:600;cursor:pointer;text-align:left}
+.chipf{border-color:color-mix(in srgb, var(--c-frame) 55%, var(--line))}
+.chips-s{border-color:color-mix(in srgb, var(--c-slot) 55%, var(--line))}
+.chipf small,.chips-s small{font-family:var(--mono);font-weight:500;color:var(--muted)}
+.chipf[aria-pressed="true"]{background:color-mix(in srgb, var(--c-frame) 18%, var(--surface));border-color:var(--c-frame)}
+.chips-s[aria-pressed="true"]{background:color-mix(in srgb, var(--c-slot) 18%, var(--surface));border-color:var(--c-slot)}
+.sim-ans{display:flex;align-items:center;flex-wrap:wrap;gap:4px;min-height:48px;padding:8px 12px;border-radius:12px;border:1.5px dashed var(--line);font-size:17px;font-weight:600}
+.sim-why{padding:10px 12px;border-radius:10px;background:var(--surface-2);font-size:14.5px}
+.sim-why p{margin:0 0 4px;display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
+.sim-why.ok b{color:var(--ok)} .sim-why.no b{color:var(--no)}
+.sim-why small{color:var(--muted)}
+.sim-mic svg{width:17px;height:17px}
+.sim-mic.on{background:var(--no);border-color:var(--no);color:#fff}
+.sim-end{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:16px;align-items:start}
+.sim-score{margin:0 0 8px;font-size:17px}
+.sim-score b{font-family:var(--disp);font-size:26px;color:var(--accent)}
+.sim-log{margin:10px 0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:15px}
+.sim-log li{line-height:2}
+.sim-log .lp-play{width:28px;height:28px;vertical-align:middle;margin-right:4px}
+.tg-acts{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn svg{width:16px;height:16px}
+.okeys{margin:0;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+
+/* ---------- 따라 말하기 ---------- */
+.sh-mode{margin:0;padding:10px 14px;border-radius:10px;background:var(--surface);border:1px solid var(--line);font-size:14.5px}
+.sh-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:12px;align-items:start}
+.sh-grp{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.sh-grp h3{display:flex;align-items:center;gap:4px;margin:0 0 8px;font-size:16px}
+.sh-grp h3 span{margin-left:6px;font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted)}
+.sh-grp ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.sh-row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;align-items:center;padding:8px 10px;border-radius:10px;background:var(--surface-2)}
+.sh-btns{display:flex;gap:6px;grid-row:span 2;align-self:start}
+.sh-btns .lbtn{min-height:32px;padding:0 10px 0 8px;font-size:13px}
+.sh-btns .lbtn span{display:none}
+.sh-mic.on{background:var(--no);border-color:var(--no);color:#fff}
+.sh-t{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px}
+.sh-en{font-weight:600;font-size:16px}
+.sh-t small{flex-basis:100%;color:var(--muted);font-size:13px}
+.sh-who{font-size:12px;font-weight:700;padding:0 8px;border-radius:999px;background:color-mix(in srgb, var(--c-key) 18%, transparent);color:var(--c-key)}
+.sh-who.me{background:color-mix(in srgb, var(--c-trap) 16%, transparent);color:var(--c-trap)}
+.sh-res{grid-column:2;font-size:14px}
+.sh-res:empty{display:none}
+.sh-res p{margin:2px 0}
+.sh-cmp{font-size:16px;font-weight:600}
+.w-ok{color:var(--ok);box-shadow:inset 0 -2px 0 var(--ok)} .w-no{color:var(--c-trap);box-shadow:inset 0 -2px 0 var(--c-trap)}
+.sh-err{color:var(--no)}
+.sh-play{display:inline-flex;align-items:center;gap:6px}
+.sh-play svg{width:14px;height:14px}
+.sh-play.saying{border-color:var(--accent);color:var(--accent)}
+@media (min-width:761px){ .sh-btns .lbtn span{display:inline} }
+
+/* ---------- 대중교통 전용: 질문의 모양 · 되짚기 한 줄 · 값 목록과 기차표 · 노선도 · 끝 그림 ---------- */
+.shp{display:inline-flex;align-items:center;gap:2px;padding:1px 9px 1px 6px;border-radius:999px;font-family:var(--body);font-size:12.5px;font-weight:700;white-space:nowrap;vertical-align:1px}
+.shp svg.pi{width:15px;height:15px;margin-right:2px}
+.shp-yn{background:color-mix(in srgb, var(--c-key) 16%, transparent);color:var(--c-key)}
+.shp-or{background:color-mix(in srgb, var(--c-frame) 18%, transparent);color:var(--c-frame)}
+.shp-wh{background:color-mix(in srgb, var(--c-slot) 18%, transparent);color:var(--c-slot)}
+.shp-note{background:color-mix(in srgb, var(--c-pol) 16%, transparent);color:var(--c-pol)}
+.shapes3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:4px 0 0;padding:0;list-style:none;max-width:900px}
+.shapes3 li{padding:10px 12px;border-radius:12px;background:var(--surface);border:1px solid var(--line);font-size:14px}
+.shapes3 li b{display:flex;align-items:center;gap:4px;font-size:15px;margin-bottom:2px}
+.shapes3 li i{font-style:normal;color:var(--muted)}
+.mt8{margin-top:8px}
+.honest-mini{border-left:3px solid var(--warn);padding-left:8px}
+.rlist{margin:10px 0 0;padding:8px 12px;list-style:none;border-radius:10px;background:var(--paper);color:var(--ink);font-family:var(--mono);font-size:14px}
+.rlist li{display:flex;justify-content:space-between;gap:10px;padding:2px 0}
+.rlist li.tot{border-top:1.5px dashed rgba(30,38,48,.35);margin-top:4px;padding-top:6px;font-weight:700;font-family:var(--body)}
+.rlist li.tot b{color:#B8432B;font-family:var(--mono)}
+.read{color:var(--muted);font-size:14px;font-weight:600}
+.sim-build{display:flex;flex-direction:column;gap:6px;padding:10px 12px;border-radius:12px;border:1.5px solid color-mix(in srgb, var(--c-slot) 45%, var(--line));background:color-mix(in srgb, var(--c-slot) 6%, var(--surface))}
+.sim-build .cv-row{margin-top:2px}
+.chipf.chip-line{border-style:dashed;border-color:var(--c-slot);color:var(--c-slot)}
+.sim-prog li.skip{border-style:dashed;border-color:var(--c-slot);color:var(--c-slot);text-decoration:line-through}
+.sim-saved{margin:0 0 8px;font-size:15px}
+.sim-saved b{color:var(--c-slot)}
+.sim-bub .who{flex:none}
+.end-art{display:flex;flex-direction:column;align-items:center;gap:12px}
+.rcpt{width:100%;max-width:300px;padding:12px 14px 14px;background:var(--paper);color:var(--ink);font-family:var(--mono);font-size:13px;border-radius:4px;box-shadow:0 8px 20px -14px rgba(0,0,0,.6)}
+.rcpt p{margin:0}
+.rc-h{text-align:center;font-weight:700;font-size:14px}
+.rc-g{text-align:center;font-size:11px;color:#5B6168;padding-bottom:6px;border-bottom:1.5px dashed rgba(30,38,48,.35)}
+.rcpt ul{margin:6px 0;padding:0;list-style:none}
+.rcpt li{display:flex;justify-content:space-between;gap:8px}
+.rc-t{display:flex;justify-content:space-between;font-weight:700;font-size:15px;border-top:1.5px solid rgba(30,38,48,.5);padding-top:4px}
+.rc-t b{color:#B8432B}
+.rc-n{font-family:var(--body);font-size:12px;color:#5B6168;margin-top:6px!important}
+.sim-map{margin:0;display:flex;flex-direction:column;align-items:center;gap:4px;width:100%}
+.sim-map canvas{display:block;width:100%;max-width:520px;aspect-ratio:380/320;height:auto;border-radius:14px;background:var(--stage)}
+.sim-map figcaption{font-size:12.5px;color:var(--muted);text-align:center}
+select.sel{font:inherit;font-size:15px;padding:5px 30px 5px 10px;border-radius:9px;border:1px solid var(--line);background-color:var(--surface);color:var(--text);max-width:100%;min-width:0;appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);background-position:calc(100% - 15px) 52%,calc(100% - 10px) 52%;background-size:5px 5px;background-repeat:no-repeat}
+select.sel:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* ---------- 블록 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px;scroll-margin-top:12px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td[lang]{font-weight:500}
+.sum td.k{font-weight:700;color:var(--c-key)}
+.sum td.pl{font-weight:700;white-space:nowrap}
+.sum b.f{color:var(--c-frame)} .sum b.s{color:var(--c-slot)} .sum b.p{color:var(--c-pol)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 4px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .sim{grid-template-columns:minmax(0,1fr)}
+  .sim-end{grid-template-columns:minmax(0,1fr)}
+  .end-art{flex-direction:row;justify-content:center;flex-wrap:wrap}
+  .shapes3{grid-template-columns:minmax(0,1fr)}
+  .cv-row{grid-template-columns:minmax(0,1fr);gap:4px}
+}
+@media (max-width:480px){ .okeys.kb{display:none} .chipf,.chips-s{font-size:14.5px;padding:4px 10px} }
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="transit"></script>
+<script src="../assets/to-top.js"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">상황별 영어 회화 · 대중교통 · <span id="durLbl">6분 34초</span></p>
+    <h1><em>대중교통</em>, 표는 <em>골라</em> 말하고 길은 <em>되짚는다</em></h1>
+    <p class="lead">기차역 매표소에서는 직원이 짧은 질문을 빠르게 이어서 해요. 어디까지 가는지(정보 질문), 편도인지 왕복인지(고르는 질문 <i lang="en">Single or return?</i>), 몇 명인지, 할인 카드가 있는지(Yes/No 질문). 먼저 <b>질문의 모양</b>을 잡으면 대답이 짧아져요 → <i lang="en">A return, please.</i> 값 · 승강장 · 출발 시각은 직원이 한 번 말하고 끝이니 <b>들은 숫자를 되짚어요</b> → <i lang="en">So, platform 4 at 10:15?</i> 지하철 안내 데스크에서는 <b>내가 먼저</b> 길을 묻고, 길고 빠른 갈아타기 안내를 조각으로 들어요. 탈 노선과 방향(끝 역 이름) → 갈아탈 역 → 내릴 역. 그리고 들은 차례대로 되짚어요 → <i lang="en">So, I take the Green Line towards East Pier, change at Central to the Blue Line, and get off at Museum?</i> 고맙다고만 하면 길이 맞는지 확인하지 못해요. 왕복표는 <i lang="en">a return · round trip</i>, 카드 충전은 <i lang="en">top up</i>이에요.</p>
+    <ol class="steps3" aria-label="3단계 말하기 법"><li><b>①</b>열쇠 낱말 + 질문의 모양 잡기</li><li><b>②</b>틀에 내 정보 넣기 · 들은 것 되짚기</li><li><b>③</b>공손하게 끝내기</li></ol>
+    <ul class="shapes3" aria-label="갈아타는 길을 되짚는 한 줄의 차례">
+      <li><b><span class="lnum">1</span>탈 노선 + 방향</b><i><span lang="en">I take the Green Line towards East Pier</span> — 방향은 그 노선의 끝 역 이름이에요</i></li>
+      <li><b><span class="lnum">2</span>갈아탈 역</b><i><span lang="en">change at Central to the Blue Line</span> — 갈아타지 않는 길이면 빼요</i></li>
+      <li><b><span class="lnum">3</span>내릴 역</b><i><span lang="en">and get off at Museum?</span> — <span lang="en">So, …?</span>로 시작해 끝을 올려 확인해요</i></li>
+    </ul>
+    <ul class="legend" aria-label="문장 색의 뜻">
+      <li><i style="background:var(--c-key)"></i>열쇠 낱말 (무엇을 묻나 · or · how many · platform · change at)</li>
+      <li><i style="background:var(--c-frame)"></i>대답 틀</li>
+      <li><i style="background:var(--c-slot)"></i>내 정보 (칸에 넣는 말 · 되짚는 조각)</li>
+      <li><i style="border:2px dashed var(--c-gap)"></i>빈칸</li>
+      <li><i style="background:var(--c-pol)"></i>공손한 말 (please · thanks · Excuse me · Sorry?)</li>
+      <li><i style="background:var(--c-trap)"></i>함정 (Yes만 하기 · 한국어 그대로 · 콩글리시 · 무례한 말 · 되짚지 않기)</li>
+    </ul>
+    <p class="honest"><b>먼저 알려 드려요.</b> 도시(<i lang="en">Kellport</i>) · 기차역 · 행선지(<i lang="en">Oakbridge · Millbrook · Ashby</i>) · 값 · 출발 시각 · 승강장 · 지하철 노선 셋과 역 열다섯은 모두 지어낸 것이에요(실제 도시 · 철도 회사와 상관없어요). 어린이 반값 · 학생 카드 20% 할인도 지어낸 규칙이에요. 표의 종류와 부르는 말은 나라마다 달라요 — 영국은 <i lang="en">single · return · off-peak · railcard</i>, 미국은 <i lang="en">one-way · round trip</i>. 지하철 길은 갈아타기가 가장 적은 길(같으면 정거장이 적은 길)로 단순하게 계산해요. 소리는 녹음이 아니라 합성 음성이에요. 영상 · 직접 해 보기 · 듣고 대답 고르기 · 따라 말하기처럼 글이 정해진 말은 VoiceStudio로 미리 만든 목소리(말하는 사람마다 다른 목소리)로, 대중교통 시뮬레이터처럼 카드마다 바뀌는 말과 내가 칩으로 만든 문장은 브라우저에 들어 있는 영어 음성(speechSynthesis)으로 읽어요. 실제 역의 소리와는 달라요.<span class="voice-note"></span></p>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">대중교통 시뮬레이터</a><a href="#shadow">따라 말하기</a><a href="#drill">듣고 대답 고르기</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="대중교통 회화 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="기차역 매표소에서 지하철 열차 안까지 일곱 곳의 길 지도에서 직원의 말풍선과 나의 대답 말풍선이 나타나고, 표 종류 · 사람 수 · 값 · 출발 안내판, 지하철 노선도 위의 갈아타는 길과 되짚는 한 줄이 차례로 그려지는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">대중교통 시뮬레이터 — 내 여행 카드로 매표소부터 열차 안까지</h2>
+      <p>왼쪽 <b>여행 카드</b>가 오늘의 사실이에요(기차표 · 시간대와 자리 · 할인 카드와 내는 방법 · 지하철 카드 · 지하철에서 갈 역 · 열차 안). 직원의 말을 <b>듣기</b>(R) · <b>천천히</b>(S)로 듣고, 먼저 <b>질문의 모양</b>을 잡아요. 직원의 말이 질문이 아니면(안내) 들은 것을 되짚거나 <b>내가 먼저</b> 말할 차례예요. 그다음 ① <b>대답 틀</b> 칩 가운데 하나를 고른 뒤 ② <b>내 정보</b> 칩을 넣어 대답해요. 틀 칩 가운데 하나만 맞고, 하나는 함정(Yes만 하기 · 한국어 그대로 · 콩글리시 · 무례한 말), 하나는 다른 질문의 대답이에요. 값 · 승강장 · 출발 시각은 카드에 없어요 — 직원이 말하는 숫자(fourteen이냐 forty냐)를 잘 듣고 되짚거나, 헷갈리면 되물어요. 지하철 안내 데스크에서 길을 물으면 갈아타는 길 안내가 길고 빠르게 나와요. <b>조각 칩</b>(탈 노선 · 방향 · 갈아탈 역 · 내릴 역)을 들은 차례대로 눌러 되짚으면, 직원이 맞는 조각은 확인하고 틀린 조각만 고쳐 줘요. 규칙 엔진이 ①②③ 단계로 판정하면 직원이 반응하고, 왜 그런지와 모범 대답이 나와요. 끝나면 기차표와 노선도 위의 길을 보여 줘요. 브라우저가 음성 인식을 지원하면 마이크로 말해서 대답할 수도 있어요.</p>
+    </div>
+    <div class="card sim" id="sim" tabindex="-1">
+      <div class="sim-side"><div class="tcard" id="simCard"></div><ol class="sim-prog" id="simProg" aria-label="질문 진행"></ol><button type="button" class="btn ghost" id="simNew">새 카드 만들기</button></div>
+      <div class="sim-main" id="simMain" aria-live="polite"></div>
+    </div>
+    <p class="okeys kb">키보드: R 듣기 · S 천천히 · T 대본 · 1~4 대답 틀 · A~C 내 정보 · Enter 대답하기 · Backspace 지우기(되짚기에서는 조각 하나) · M 말로 대답하기 · N 새 카드</p>
+  </section>
+
+  <section class="block" id="shadow" aria-labelledby="shTitle">
+    <div class="bhead">
+      <p class="eyebrow">따라 말하기</p>
+      <h2 id="shTitle">대중교통 표현 따라 말하기 — 28문장</h2>
+      <p>곳마다 직원 · 안내방송에서 듣는 말과 내가 하는 말을 골랐어요. <b>듣기</b>로 한 번, <b>천천히</b>로 한 번 듣고 따라 말해 보세요. 마이크 단추를 누르면 내가 말한 문장을 원래 문장과 맞춰 봐요.</p>
+    </div>
+    <p class="sh-mode" id="shMode"></p>
+    <div class="sh-list" id="shList"></div>
+    <p class="honest"><b>음성 인식에 대해 정직하게 알려 드려요.</b> 맞춰 보는 것은 <b>낱말</b>뿐이에요. 발음이 좋은지 나쁜지는 판정하지 않아요. 크롬(Chrome) 같은 브라우저는 말을 글로 바꾸려고 소리를 브라우저 회사의 서버로 보내요. 이 사이트는 소리도 글도 저장하지 않아요. 녹음으로 연습할 때 녹음은 이 화면에만 잠깐 있다가 페이지를 닫으면 사라져요. 역 이름(Oakbridge · East Pier 같은)은 음성 인식이 다르게 적기 쉬워요.</p>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">듣고 대답 고르기</p>
+      <h2 id="drillTitle">직원의 말을 듣고 내 대답 고르기 — 16문제</h2>
+      <p>기차역과 지하철의 일곱 곳과 ‘못 알아들었을 때’를 골고루 담았어요. 문제마다 <b>상황</b>이 한 줄 있고, 직원의 말과 안내방송은 소리로 먼저 들려줘요(<b>듣기</b> R · <b>천천히</b> S, 꼭 필요하면 <b>대본 보기</b> T). 대답 넷은 글로 보여요. 막히면 <b>힌트</b>(H)를 누르세요. ① 열쇠 낱말과 질문의 모양(직원의 말 옆에 모양 표시) → ② 틀과 내 정보 · 되짚는 조각 → ③ 공손한 말 순서로 색과 함께 열려요. 답하면 보기마다 규칙 엔진의 까닭, 해석, 대화 듣기가 나와요.</p>
+      <p class="honest">합성 음성이라 실제 역의 말소리 · 안내방송과 다르게 들릴 수 있어요. 잘 안 들리면 천천히 듣기를 켜 보세요. ‘아주 빠르게’ 표시가 있는 문제는 일부러 빠르게 읽어요.<span class="voice-note"></span></p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림 속 모양 표시 · 출발 안내판의 줄 · 노선도의 역을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 대중교통 영어</h2>
+      <p>① 열쇠 낱말로 무엇을 묻는지, 그리고 질문의 모양(Yes/No · 고르기 · 정보 · 안내)을 잡고 ② 짧은 대답 틀에 내 정보(여행 카드와 맞게)를 넣거나 들은 숫자 · 길을 되짚고 ③ please · thanks · Excuse me로 공손하게 끝내요. 매표소의 질문은 대부분 고르기 · 정보 질문이라 Yes · No만 하면 안 돼요. 안내 데스크에서는 내가 먼저 길을 묻고, 갈아타는 길 안내는 탈 노선 · 방향 → 갈아탈 역 → 내릴 역 차례로 되짚어요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">곳</th><th scope="col">열쇠 낱말 · 모양</th><th scope="col">대답 틀</th></tr></thead>
+        <tbody>
+          <tr><td class="pl">1. 매표소 · 어디까지</td><td class="k" lang="en">Where are you traveling to (정보) · Where to? (영국)</td><td lang="en"><b class="f">To</b> <b class="s">Oakbridge</b>, <b class="p">please</b>. · <b class="f">A ticket to</b> <b class="s">Millbrook</b>, <b class="p">please</b>.</td></tr>
+          <tr><td class="pl">2. 표 종류 · 몇 명</td><td class="k" lang="en">Single or return (영국) · One-way or round trip (미국) · Off-peak or anytime · window or aisle (고르기) · How many people (정보)</td><td lang="en"><b class="s">A return</b>, <b class="p">please</b>. · <b class="s">Round trip</b>, <b class="p">please</b>. · <b class="s">Two adults and one child</b>, <b class="p">please</b>. · <b class="s">Just me</b>, <b class="p">please</b>.</td></tr>
+          <tr><td class="pl">3. 할인 · 값</td><td class="k" lang="en">student card · railcard (Yes/No) · That's $14.50 (안내)</td><td lang="en"><b class="f">Yes, I do. Here it is.</b> · <b class="f">No, I don't.</b> · <b class="f">Can I pay by card?</b> · <b class="p">Sorry</b>, <b class="f">did you say</b> <b class="s">$14.50</b>?</td></tr>
+          <tr><td class="pl">4. 승강장 · 출발 시각</td><td class="k" lang="en">It leaves at 10:15 from platform 4 (안내) · platform change</td><td lang="en"><b class="f">So,</b> <b class="s">platform 4 at 10:15</b>? · <b class="p">Sorry</b>, <b class="f">which platform?</b></td></tr>
+          <tr><td class="pl">5. 지하철 안내 데스크</td><td class="k" lang="en">(내가 먼저) Next, please · new metro card (Yes/No) · How much … put on it (정보)</td><td lang="en"><b class="f">Hi. How do I get to</b> <b class="s">Museum</b>, <b class="p">please</b>? · <b class="f">No,</b> <b class="p">thanks</b>. <b class="f">I'd like to top up my card.</b> · <b class="s">$20.00</b>, <b class="p">please</b>.</td></tr>
+          <tr><td class="pl">6. 갈아타기 안내</td><td class="k" lang="en">take · towards · change at · get off at (안내) · anything else (Yes/No)</td><td lang="en"><b class="f">So, I take</b> <b class="s">the Green Line</b> <b class="f">towards</b> <b class="s">East Pier</b>, <b class="f">change at</b> <b class="s">Central</b> <b class="f">to</b> <b class="s">the Blue Line</b>, <b class="f">and get off at</b> <b class="s">Museum</b>? · <b class="f">No, that's all.</b> <b class="p">Thank you so much</b>!</td></tr>
+          <tr><td class="pl">7. 승강장 · 열차 안</td><td class="k" lang="en">(내가 먼저) yellow line · the other side · anyone sitting here (Yes/No) · announcement</td><td lang="en"><b class="p">Excuse me</b>, <b class="f">does this train go to</b> <b class="s">Museum</b>? · <b class="f">Oh, the other side.</b> <b class="p">Thank you</b>! · <b class="f">No, go ahead.</b> · <b class="p">Sorry</b>, <b class="f">someone's sitting here.</b></td></tr>
+          <tr><td class="pl">되짚기 한 줄</td><td class="k">탈 노선 + 방향(끝 역) → 갈아탈 역 → 내릴 역 (들은 차례대로)</td><td lang="en"><b class="f">So, I take</b> <b class="s">the Red Line</b> <b class="f">towards</b> <b class="s">Airport</b> <b class="f">and get off at</b> <b class="s">Old Town</b>?</td></tr>
+          <tr><td class="pl">못 알아들었을 때</td><td class="k">빠른 말 · 숫자 · 안내방송 · 모르는 낱말</td><td lang="en"><b class="p">Sorry</b>, <b class="f">which platform?</b> · <b class="p">Sorry</b>, <b class="f">where do I change?</b> · <b class="p">Excuse me</b>, <b class="f">what did the announcement say?</b> · <b class="p">Sorry</b>, <b class="f">what's</b> <b class="s">a railcard</b>?</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>① 열쇠 낱말 + 질문의 모양 잡기</h3>
+        <dl>
+          <dt>고르는 질문 <span>choice question · A or B?</span></dt><dd>or가 들리면 둘 가운데 하나를 고르라는 말이에요. → 고른 것 + please. <i lang="en">Single or return? → A return, please.</i> Yes.로는 무엇을 골랐는지 알 수 없어요. 매표소의 질문은 고르기가 많아요(편도 · 왕복, 시간대, 창가 · 통로).</dd>
+          <dt>정보 질문 <span>wh-question</span></dt><dd>Where …? · How many …? · How much …? → 정보 + please. <i lang="en">How many people are traveling? → Two adults and one child, please.</i></dd>
+          <dt>Yes/No 질문 <span>yes/no question</span></dt><dd>Do you have …? · Have you got …? · Is anyone …? → Yes · No + 한 마디. <i lang="en">Do you have a student card? → No, I don't.</i> <i lang="en">Is anyone sitting here?</i>에는 거꾸로예요 → 비어 있으면 <i lang="en">No, go ahead.</i></dd>
+          <dt>안내 · 되짚기 · 내가 먼저 <span>statement</span></dt><dd>질문이 아니라 알려 주는 말 → 들은 숫자 · 길을 되짚거나 내가 먼저 말할 차례예요. <i lang="en">It leaves at 10:15 from platform 4. → So, platform 4 at 10:15?</i> · <i lang="en">Next, please! → Hi. How do I get to Museum, please?</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>② 틀에 내 정보 넣기 · 들은 것 되짚기</h3>
+        <dl>
+          <dt>표 종류 <span>ticket type</span></dt><dd>편도 → <i lang="en">a single</i>(영국) · <i lang="en">one-way</i>(미국) · 왕복 → <i lang="en">a return</i>(영국) · <i lang="en">round trip</i>(미국). 덜 붐비는 시간에만 쓰는 싼 표 → <i lang="en">off-peak</i> · 아무 때나 → <i lang="en">anytime</i>.</dd>
+          <dt>사람 수 <span>party</span></dt><dd>혼자면 → <i lang="en">Just me, please.</i> · 어른 · 어린이 → <i lang="en">two adults and one child</i>. <i lang="en">two persons</i>도 알아듣지만 보통 <i lang="en">two adults · two people</i>.</dd>
+          <dt>값 · 시각 · 승강장 <span>numbers</span></dt><dd>fourteen(뒤를 세게) · forty(앞을 세게). 값은 점 앞 + 점 뒤 → <i lang="en">$14.50 → fourteen fifty</i>. 시각도 둘로 → <i lang="en">10:15 → ten fifteen</i>. 들은 숫자는 되짚어요 → <i lang="en">So, platform 4 at 10:15?</i></dd>
+          <dt>노선 · 방향 <span>line · towards</span></dt><dd>노선은 색 이름 → <i lang="en">the Green Line</i>. 방향은 그 노선의 끝 역 이름 → <i lang="en">towards East Pier</i>. 같은 승강장의 반대쪽은 반대 방향이에요(<i lang="en">the other side</i>).</dd>
+          <dt>갈아타기 되짚기 <span>check back</span></dt><dd><i lang="en">So, I take … towards …, change at … to …, and get off at …?</i> 들은 차례대로. 일부만 확인해도 맞는 조각이면 직원이 <i lang="en">That's right</i>, 틀린 조각이 있으면 그 조각만 고쳐 줘요(<i lang="en">Not quite — change at Central.</i>).</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>③ 공손하게 끝내기</h3>
+        <dl>
+          <dt>Excuse me, does this train …?</dt><dd>모르는 사람에게 먼저 말을 걸 때 → <i lang="en">Excuse me.</i> 열차를 확인할 때 → <i lang="en">Does this train go to Museum? · Is this the right platform for Museum?</i></dd>
+          <dt>다시 묻기 <span>repair</span></dt><dd>못 알아들었으면 → <i lang="en">Sorry? Could you say that again, please?</i> 일부만 들렸으면 → <i lang="en">Sorry, which platform? · Sorry, where do I change?</i> 모르는 낱말이면 → <i lang="en">Sorry, what's a railcard?</i> 안내방송을 놓쳤으면 옆 사람에게 → <i lang="en">Excuse me, what did the announcement say?</i> <i lang="en">What?</i> 한 낱말은 퉁명스러워요.</dd>
+          <dt>무례하게 들리는 말 <span>blunt</span></dt><dd><i lang="en">Give me a ticket to Oakbridge. · So expensive. Cheaper, please.</i> → 명령하거나 조르는 말처럼 들려요. 기차표 값은 정해져 있어 깎지 않아요. 길을 알려 준 사람에게 그냥 <i lang="en">No.</i> · <i lang="en">Okay. Bye.</i>도 무뚝뚝해요 → <i lang="en">No, that's all. Thank you so much!</i></dd>
+        </dl>
+      </section>
+      <section>
+        <h3>④ 한국어와 다른 점 · 콩글리시</h3>
+        <dl>
+          <dt>왕복표 · 편도표</dt><dd>→ <i lang="en">a return · round trip</i> · <i lang="en">a single · one-way</i>. <i lang="en">a go-and-back ticket</i>은 통하지 않아요.</dd>
+          <dt>카드 충전</dt><dd>→ <i lang="en">top up my card · add money to my card</i>. <i lang="en">charge my card</i>는 ‘카드로 값을 치르다(결제하다)’로 들려요.</dd>
+          <dt>나 혼자요</dt><dd>→ <i lang="en">Just me, please.</i> <i lang="en">Me alone.</i>은 ‘나 홀로 외롭게’처럼 들려요.</dd>
+          <dt>○○역 어떻게 가요?</dt><dd>→ <i lang="en">How do I get to Museum? · Which line goes to Museum?</i> <i lang="en">Teach me the way</i>는 수업처럼 가르쳐 달라는 말로 들리고, <i lang="en">Museum, how?</i>는 무엇을 묻는지 알기 어려워요.</dd>
+          <dt>이 열차 ○○ 가요?</dt><dd>→ <i lang="en">Does this train go to Museum?</i> <i lang="en">Is this train go …?</i>는 is와 go를 함께 써서 틀린 문장이에요.</dd>
+          <dt>여기 사람 있어요</dt><dd>→ <i lang="en">Sorry, someone's sitting here.</i> <i lang="en">Is anyone sitting here?</i>에 <i lang="en">Yes, sit down.</i>은 ‘네, 누가 앉아 있어요’인데 앉으라는 말이라 헷갈려요.</dd>
+          <dt>지하철 · 승강장 · 개찰구</dt><dd>→ <i lang="en">the metro · the subway</i>(미국) · <i lang="en">the underground · the Tube</i>(런던) · 승강장 → <i lang="en">platform</i> · 개찰구 → <i lang="en">the ticket gates</i>. 나라와 도시마다 부르는 말이 달라요.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 영상 속 ✓·×, 질문의 모양(적어 둔 모양과 글의 모양이 같은지도 점검), 표 값(어른 · 어린이 반값 · 학생 카드 할인)의 계산, 출발 안내판의 승강장과 시각, 지하철 노선도에서 갈아타는 길(탈 노선 · 방향 · 갈아탈 역 · 내릴 역)과 직원의 안내, 되짚는 한 줄의 판정(맞는 조각 · 틀린 조각 · 빠진 조각 · 순서)과 고쳐 주는 말, 직접 해 보기의 채점, 대중교통 시뮬레이터의 판정과 직원의 반응, 듣고 대답 고르기의 힌트와 보기별 해설, 퀴즈 대부분의 정답은 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 길은 다른 방법으로 한 번 더 계산해 맞춰 보고, 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요.</p>
+    <p>단순하게 줄인 부분도 있어요. 엔진은 소리를 듣지 않아요. 직원의 말마다 뜻 · 모양 · 열쇠 낱말을, 대답마다 틀과 칸의 정보를 적어 두었고, 엔진은 그것을 여행 카드(또는 상황)의 사실과 맞춰요. 대답 틀은 역에서 자주 쓰는 것만 골랐고, 같은 뜻의 다른 자연스러운 대답도 많아요. 지하철 길은 갈아타기가 가장 적은 길(같으면 정거장이 적은 길) 하나만 계산하고, 되짚는 한 줄의 차례(탈 노선 · 방향 → 갈아탈 역 → 내릴 역)는 자주 쓰는 차례를 단순하게 줄인 규칙이에요. 고르는 질문 · 정보 질문에 Yes · No만 하면 ①단계에서 걸러요. <i lang="en">Give me a ticket. · So expensive. Cheaper, please. · What?</i> 같은 말은 ③단계에서 ‘더 공손하게’로 봤어요 — 실제로는 말투와 표정으로도 공손함이 전해져요. 뜻이 통하지 않거나 다른 뜻이 되는 말(<i lang="en">a go-and-back ticket · charge my card · Teach me the way · Is this train go …? · No, I don't have.</i>)은 ②단계에서 걸러요. 통하지만 더 흔한 말이 있는 말(<i lang="en">two persons</i>)은 통과시키고 알림을 붙여요. 말로 대답하기와 따라 말하기는 음성 인식이 글로 바꾼 낱말만 맞춰 봐요. 숫자는 15든 fifteen이든 같은 숫자로 맞추고, 발음과 공손함은 판정하지 않아요.</p>
+    <p>도시 · 역 · 행선지 · 노선 · 값 · 시각 · 할인 규칙은 모두 지어낸 것이고(실제 도시 · 철도 회사와 상관없어요), 대화는 직접 만든 것이에요. 표의 종류 · 할인 카드 · 지하철 카드와 안내방송은 나라와 도시마다 달라요. 영어 소리는 합성 음성이에요 — 글이 정해진 말은 VoiceStudio(OmniVoice 엔진)로 미리 만든 목소리, 카드마다 바뀌는 말과 내가 만든 문장은 브라우저의 음성(speechSynthesis)이에요. 같은 형식의 회화 튜토리얼은 <a href="../airport/index.html">공항, 질문은 정해져 있다</a> · <a href="../cafe/index.html">카페, 주문에는 순서가 있다</a> · <a href="../hotel/index.html">호텔, 부탁은 질문으로 한다</a> · <a href="../restaurant/index.html">식당, 질문의 모양이 대답을 정한다</a> · <a href="../directions/index.html">길 묻기, 들은 길은 되짚어 확인한다</a> · <a href="../shopping/index.html">쇼핑, 이것에 바꿀 점만 더한다</a>이고, 숫자 듣기는 토익 듣기 튜토리얼 <a href="../listening-part1-2/index.html">T15</a> · <a href="../listening-part3-4/index.html">T16</a>에서도 다뤄요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 상황별 영어 회화 일곱 번째 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/voices.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
+<script src="audio/dialogue/clips.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
