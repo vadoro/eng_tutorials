@@ -1,0 +1,1434 @@
+{
+ "slug": "bank",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 122,
+  "en": 115,
+  "koChars": 2042,
+  "enChars": 2739
+ },
+ "pieces": [
+  {
+   "id": "k14aa257a",
+   "lang": "ko",
+   "text": "은행, 환전 창구, 휴대폰 가게에서는 정해진 질문이 이어져요. 대답은 서류와 숫자예요.",
+   "cap": 0
+  },
+  {
+   "id": "k5e59ebf3",
+   "lang": "ko",
+   "text": "얼마를 바꿀지 물으면",
+   "cap": 1
+  },
+  {
+   "id": "ed607d99f",
+   "lang": "en",
+   "text": "Thirty man won?",
+   "cap": 1
+  },
+  {
+   "id": "k48bb7b51",
+   "lang": "ko",
+   "text": "만은 영어에 없어요. 세 자리씩 끊어",
+   "cap": 1
+  },
+  {
+   "id": "e7fb8090e",
+   "lang": "en",
+   "text": "three hundred thousand won.",
+   "cap": 1
+  },
+  {
+   "id": "k9fc70f79",
+   "lang": "ko",
+   "text": "여권을 보여 달라면",
+   "cap": 2
+  },
+  {
+   "id": "ed978c589",
+   "lang": "en",
+   "text": "I have passport.",
+   "cap": 2
+  },
+  {
+   "id": "k950d3d5f",
+   "lang": "ko",
+   "text": "있다고만 하지 말고 내밀면서",
+   "cap": 2
+  },
+  {
+   "id": "e0c556ed3",
+   "lang": "en",
+   "text": "Sure.",
+   "cap": 2
+  },
+  {
+   "id": "e8604c1b8",
+   "lang": "en",
+   "text": "Here's my passport.",
+   "cap": 2
+  },
+  {
+   "id": "k5b7f048b",
+   "lang": "ko",
+   "text": "새 번호를 들으면",
+   "cap": 3
+  },
+  {
+   "id": "e3729b2a4",
+   "lang": "en",
+   "text": "Okay.",
+   "cap": 3
+  },
+  {
+   "id": "e68fca163",
+   "lang": "en",
+   "text": "Thanks.",
+   "cap": 3
+  },
+  {
+   "id": "kea3aaa9e",
+   "lang": "ko",
+   "text": "로 끝내지 말고, 묶음으로 끊어 되짚어요",
+   "cap": 3
+  },
+  {
+   "id": "e8054ec25",
+   "lang": "en",
+   "text": "So, it's five-five-five, oh-one-four-seven?",
+   "cap": 3
+  },
+  {
+   "id": "k9c45b11a",
+   "lang": "ko",
+   "text": "세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.",
+   "cap": 4
+  },
+  {
+   "id": "k4753ab03",
+   "lang": "ko",
+   "text": "오늘의 이야기를 일곱 곳으로 나눠 봐요. 교환학생으로 도착해서, 먼저 환전 창구에서 원을 달러로 바꿔요.",
+   "cap": 5
+  },
+  {
+   "id": "k8e4e4f75",
+   "lang": "ko",
+   "text": "다음은 휴대폰 가게예요. 요금제를 고르고 유심을 넣으면 새 번호를 알려 줘요. 그 번호를 되짚어 적어 둬요.",
+   "cap": 6
+  },
+  {
+   "id": "k264a7667",
+   "lang": "ko",
+   "text": "그리고 은행에 가요. 용건을 말하고, 서류를 내밀고, 주소와 전화번호를 말하고, 카드를 만들어요.",
+   "cap": 7
+  },
+  {
+   "id": "k88ecb364",
+   "lang": "ko",
+   "text": "보라 테두리 , 내가 먼저 말을 꺼내는 곳이에요. 환전 창구, 휴대폰 가게, 은행 창구에서는 용건부터 말해요.",
+   "cap": 8
+  },
+  {
+   "id": "ke6fd864b",
+   "lang": "ko",
+   "text": "은행 이름, 환율, 요금, 주소, 전화번호는 모두 지어낸 예시예요. 실제 서류와 절차는 은행마다 달라요.",
+   "cap": 9
+  },
+  {
+   "id": "kf45e3dee",
+   "lang": "ko",
+   "text": "환전 창구",
+   "cap": 10
+  },
+  {
+   "id": "e664b12df",
+   "lang": "en",
+   "text": "How can I help you today?",
+   "cap": 10
+  },
+  {
+   "id": "k3a65f68d",
+   "lang": "ko",
+   "text": "이거 달러로 바꿔요",
+   "cap": 10
+  },
+  {
+   "id": "e54996963",
+   "lang": "en",
+   "text": "Change this into dollars.",
+   "cap": 10
+  },
+  {
+   "id": "kfbe1684b",
+   "lang": "ko",
+   "text": "명령처럼 들려요.",
+   "cap": 10
+  },
+  {
+   "id": "k1cf3eb91",
+   "lang": "ko",
+   "text": "용건은 부탁 틀로",
+   "cap": 11
+  },
+  {
+   "id": "e36fcfec7",
+   "lang": "en",
+   "text": "I'd like to change three hundred thousand won into US dollars, please.",
+   "cap": 11
+  },
+  {
+   "id": "e07df9266",
+   "lang": "en",
+   "text": "How much would you like to change?",
+   "cap": 12
+  },
+  {
+   "id": "kc6adf7a2",
+   "lang": "ko",
+   "text": "30만을",
+   "cap": 12
+  },
+  {
+   "id": "e0a43a97f",
+   "lang": "en",
+   "text": "thirty man won?",
+   "cap": 12
+  },
+  {
+   "id": "k9b17eb2b",
+   "lang": "ko",
+   "text": "만을 그대로 읽으면 못 알아들어요.",
+   "cap": 12
+  },
+  {
+   "id": "e06b3f06c",
+   "lang": "en",
+   "text": "thirty thousand",
+   "cap": 13
+  },
+  {
+   "id": "k3868bfda",
+   "lang": "ko",
+   "text": "는 3만",
+   "cap": 13
+  },
+  {
+   "id": "e3bb62646",
+   "lang": "en",
+   "text": "three million",
+   "cap": 13
+  },
+  {
+   "id": "k5e19c5f9",
+   "lang": "ko",
+   "text": "은 300만이에요. 영어는 세 자리씩 , 30만",
+   "cap": 13
+  },
+  {
+   "id": "e075b74e6",
+   "lang": "en",
+   "text": "Large bills or small bills?",
+   "cap": 14
+  },
+  {
+   "id": "e60161af3",
+   "lang": "en",
+   "text": "Yes, please.",
+   "cap": 14
+  },
+  {
+   "id": "k0693ecf8",
+   "lang": "ko",
+   "text": "는 고른 것이 없어요. 지폐는",
+   "cap": 14
+  },
+  {
+   "id": "ea3b0ecf4",
+   "lang": "en",
+   "text": "paper",
+   "cap": 14
+  },
+  {
+   "id": "kd978a94b",
+   "lang": "ko",
+   "text": "가 아니라",
+   "cap": 14
+  },
+  {
+   "id": "ec6604527",
+   "lang": "en",
+   "text": "bills , Small bills, please.",
+   "cap": 14
+  },
+  {
+   "id": "e28ca9b1c",
+   "lang": "en",
+   "text": "At today's rate, that comes to two hundred forty dollars.",
+   "cap": 15
+  },
+  {
+   "id": "k5dabb45a",
+   "lang": "ko",
+   "text": "로 넘기면 확인이 안 돼요.",
+   "cap": 15
+  },
+  {
+   "id": "e6443ea4a",
+   "lang": "en",
+   "text": "fourteen",
+   "cap": 15
+  },
+  {
+   "id": "ka3464f39",
+   "lang": "ko",
+   "text": "으로 잘못 들으면 214달러예요.",
+   "cap": 15
+  },
+  {
+   "id": "k970faa3a",
+   "lang": "ko",
+   "text": "되짚어 확인해요",
+   "cap": 16
+  },
+  {
+   "id": "e9e21796b",
+   "lang": "en",
+   "text": "So, that's two hundred forty dollars?",
+   "cap": 16
+  },
+  {
+   "id": "e318cbeb2",
+   "lang": "en",
+   "text": "forty",
+   "cap": 16
+  },
+  {
+   "id": "k184491af",
+   "lang": "ko",
+   "text": "는 앞을",
+   "cap": 16
+  },
+  {
+   "id": "kd7dfc73b",
+   "lang": "ko",
+   "text": "은 뒤를 세게 말해요.",
+   "cap": 16
+  },
+  {
+   "id": "k1b061c01",
+   "lang": "ko",
+   "text": "휴대폰 가게",
+   "cap": 17
+  },
+  {
+   "id": "e7398cb04",
+   "lang": "en",
+   "text": "What can I do for you today?",
+   "cap": 17
+  },
+  {
+   "id": "kd991607a",
+   "lang": "ko",
+   "text": "개통을 그대로",
+   "cap": 17
+  },
+  {
+   "id": "e4d74d11a",
+   "lang": "en",
+   "text": "I want to open my phone.",
+   "cap": 17
+  },
+  {
+   "id": "kec61b87a",
+   "lang": "ko",
+   "text": "휴대폰을 뜯는다는 말처럼 들려요.",
+   "cap": 17
+  },
+  {
+   "id": "e2e543b12",
+   "lang": "en",
+   "text": "USIM card, please.",
+   "cap": 18
+  },
+  {
+   "id": "k06b922d2",
+   "lang": "ko",
+   "text": "도 한국에서 쓰는 말이에요. 용건을 부탁 틀로",
+   "cap": 18
+  },
+  {
+   "id": "ed31ffdbd",
+   "lang": "en",
+   "text": "I'd like to get a SIM card for my phone, please.",
+   "cap": 18
+  },
+  {
+   "id": "e084fe89c",
+   "lang": "en",
+   "text": "Prepaid or monthly?",
+   "cap": 19
+  },
+  {
+   "id": "k4a9574cb",
+   "lang": "ko",
+   "text": "빠르면",
+   "cap": 19
+  },
+  {
+   "id": "e7ffc0cac",
+   "lang": "en",
+   "text": "pre-PAI-dor",
+   "cap": 19
+  },
+  {
+   "id": "k69428a15",
+   "lang": "ko",
+   "text": "처럼 이어져요. 고르는 질문이라",
+   "cap": 19
+  },
+  {
+   "id": "e08efdc4d",
+   "lang": "en",
+   "text": "Yes",
+   "cap": 19
+  },
+  {
+   "id": "kadb87cce",
+   "lang": "ko",
+   "text": "대신 고른 것",
+   "cap": 19
+  },
+  {
+   "id": "e7ad5b7e3",
+   "lang": "en",
+   "text": "Prepaid, please.",
+   "cap": 19
+  },
+  {
+   "id": "e640a562a",
+   "lang": "en",
+   "text": "How much data do you need?",
+   "cap": 20
+  },
+  {
+   "id": "k2d3be689",
+   "lang": "ko",
+   "text": "무제한을",
+   "cap": 20
+  },
+  {
+   "id": "ee43bd014",
+   "lang": "en",
+   "text": "data free",
+   "cap": 20
+  },
+  {
+   "id": "kdcedb9ec",
+   "lang": "ko",
+   "text": "로 옮기면 공짜로 들려요. 내 카드대로",
+   "cap": 20
+  },
+  {
+   "id": "ef30a5374",
+   "lang": "en",
+   "text": "fifteen gigabytes, please.",
+   "cap": 20
+  },
+  {
+   "id": "edd9ccfc1",
+   "lang": "en",
+   "text": "How long are you staying?",
+   "cap": 21
+  },
+  {
+   "id": "kb14fd898",
+   "lang": "ko",
+   "text": "동안",
+   "cap": 21
+  },
+  {
+   "id": "ee64dd4cf",
+   "lang": "en",
+   "text": "During six months?",
+   "cap": 21
+  },
+  {
+   "id": "kac3a3bd2",
+   "lang": "ko",
+   "text": "숫자로 센 기간은",
+   "cap": 21
+  },
+  {
+   "id": "ebbc98f19",
+   "lang": "en",
+   "text": "for , For six months.",
+   "cap": 21
+  },
+  {
+   "id": "k11e0d351",
+   "lang": "ko",
+   "text": "빠른 말",
+   "cap": 22
+  },
+  {
+   "id": "e5a898d49",
+   "lang": "en",
+   "text": "How much data d'you reckon you need?",
+   "cap": 22
+  },
+  {
+   "id": "k35cc7680",
+   "lang": "ko",
+   "text": "짐작하지 말고 놓친 것만 물어요",
+   "cap": 22
+  },
+  {
+   "id": "ee52c46bd",
+   "lang": "en",
+   "text": "Sorry, how much data?",
+   "cap": 22
+  },
+  {
+   "id": "eec3f5f1a",
+   "lang": "en",
+   "text": "That's thirty dollars for the first month.",
+   "cap": 23
+  },
+  {
+   "id": "k5225e337",
+   "lang": "ko",
+   "text": "되물을 때",
+   "cap": 23
+  },
+  {
+   "id": "e0e1d1de1",
+   "lang": "en",
+   "text": "thirteen",
+   "cap": 23
+  },
+  {
+   "id": "k060d9ad3",
+   "lang": "ko",
+   "text": "이라고 하면 들은 값과 달라요. 카드로 낼 때",
+   "cap": 23
+  },
+  {
+   "id": "e271199f9",
+   "lang": "en",
+   "text": "Can I pay by card?",
+   "cap": 23
+  },
+  {
+   "id": "ed9eddf0b",
+   "lang": "en",
+   "text": "Is your phone unlocked?",
+   "cap": 24
+  },
+  {
+   "id": "e5d824a86",
+   "lang": "en",
+   "text": "Is",
+   "cap": 24
+  },
+  {
+   "id": "k4f58f70d",
+   "lang": "ko",
+   "text": "로 물었으니",
+   "cap": 24
+  },
+  {
+   "id": "e0ae2cd56",
+   "lang": "en",
+   "text": "Yes, it is.",
+   "cap": 24
+  },
+  {
+   "id": "ebdd8007c",
+   "lang": "en",
+   "text": "Yes, I am.",
+   "cap": 24
+  },
+  {
+   "id": "k552349d5",
+   "lang": "ko",
+   "text": "은 짝이 어긋나요.",
+   "cap": 24
+  },
+  {
+   "id": "ef5e5d1a7",
+   "lang": "en",
+   "text": "Your new number is five-five-five, oh-one-four-seven.",
+   "cap": 25
+  },
+  {
+   "id": "k016d5fb6",
+   "lang": "ko",
+   "text": "되짚지 않으면 틀린 번호를 은행 서류에 쓰게 돼요.",
+   "cap": 25
+  },
+  {
+   "id": "kfbad34fb",
+   "lang": "ko",
+   "text": "번호를 큰 수처럼",
+   "cap": 26
+  },
+  {
+   "id": "eeab7f0bc",
+   "lang": "en",
+   "text": "five hundred fifty-five?",
+   "cap": 26
+  },
+  {
+   "id": "k1e2ae962",
+   "lang": "ko",
+   "text": "한 자리씩 묶음으로",
+   "cap": 26
+  },
+  {
+   "id": "eb4a55099",
+   "lang": "en",
+   "text": "five-five-five, oh-one-four-seven.",
+   "cap": 26
+  },
+  {
+   "id": "kf8746291",
+   "lang": "ko",
+   "text": "0은",
+   "cap": 26
+  },
+  {
+   "id": "e80d6b0ad",
+   "lang": "en",
+   "text": "oh",
+   "cap": 26
+  },
+  {
+   "id": "k033d7412",
+   "lang": "ko",
+   "text": "로 읽어요.",
+   "cap": 26
+  },
+  {
+   "id": "k0960c2c2",
+   "lang": "ko",
+   "text": "끝 두 자리를 바꿔 되짚으면 직원이 바로잡아 줘요. 맞게",
+   "cap": 27
+  },
+  {
+   "id": "ebbfa88df",
+   "lang": "en",
+   "text": "That's right.",
+   "cap": 27
+  },
+  {
+   "id": "e387e87e7",
+   "lang": "en",
+   "text": "Righto, new number's five-five-five, oh-one-four-seven.",
+   "cap": 28
+  },
+  {
+   "id": "kd77b8186",
+   "lang": "ko",
+   "text": "놓쳤으면",
+   "cap": 28
+  },
+  {
+   "id": "ef28cd8ef",
+   "lang": "en",
+   "text": "Sorry, could you say the number again, slowly?",
+   "cap": 28
+  },
+  {
+   "id": "eee5691a4",
+   "lang": "en",
+   "text": "auto top-up",
+   "cap": 29
+  },
+  {
+   "id": "kdf840464",
+   "lang": "ko",
+   "text": "모르는 낱말은 물어요",
+   "cap": 29
+  },
+  {
+   "id": "e04ad4613",
+   "lang": "en",
+   "text": "Sorry, what does top-up mean?",
+   "cap": 29
+  },
+  {
+   "id": "kf7b4b828",
+   "lang": "ko",
+   "text": "직접 충전할 거면",
+   "cap": 29
+  },
+  {
+   "id": "e2eb57f9a",
+   "lang": "en",
+   "text": "No, thanks.",
+   "cap": 29
+  },
+  {
+   "id": "e6a438089",
+   "lang": "en",
+   "text": "I'll top it up myself.",
+   "cap": 29
+  },
+  {
+   "id": "kb6645d13",
+   "lang": "ko",
+   "text": "은행 창구",
+   "cap": 30
+  },
+  {
+   "id": "k6eb3d1e7",
+   "lang": "ko",
+   "text": "통장을 만들고 싶다고",
+   "cap": 30
+  },
+  {
+   "id": "ea23db1bc",
+   "lang": "en",
+   "text": "I want to make a bankbook.",
+   "cap": 30
+  },
+  {
+   "id": "ke990b49e",
+   "lang": "ko",
+   "text": "영어로는 계좌를 열어요.",
+   "cap": 30
+  },
+  {
+   "id": "e6cfce954",
+   "lang": "en",
+   "text": "Make me an account.",
+   "cap": 31
+  },
+  {
+   "id": "k1c419c37",
+   "lang": "ko",
+   "text": "는 명령이고",
+   "cap": 31
+  },
+  {
+   "id": "e3bc3129c",
+   "lang": "en",
+   "text": "I'm an exchange student.",
+   "cap": 31
+  },
+  {
+   "id": "k7b40b6c6",
+   "lang": "ko",
+   "text": "는 사실만 말했어요. 용건은",
+   "cap": 31
+  },
+  {
+   "id": "e88d64ab6",
+   "lang": "en",
+   "text": "I'd like to open a bank account, please.",
+   "cap": 31
+  },
+  {
+   "id": "e17a28e3d",
+   "lang": "en",
+   "text": "Checking or savings?",
+   "cap": 32
+  },
+  {
+   "id": "k0b95f5d7",
+   "lang": "ko",
+   "text": "고르는 질문이에요. 월세와 생활비를 넣고 빼는 통장은",
+   "cap": 32
+  },
+  {
+   "id": "e78111b0c",
+   "lang": "en",
+   "text": "A checking account, please.",
+   "cap": 32
+  },
+  {
+   "id": "e1ec08560",
+   "lang": "en",
+   "text": "Are you a student?",
+   "cap": 33
+  },
+  {
+   "id": "ecc87671c",
+   "lang": "en",
+   "text": "Are",
+   "cap": 33
+  },
+  {
+   "id": "e8797c4f5",
+   "lang": "en",
+   "text": "Yes, I do.",
+   "cap": 33
+  },
+  {
+   "id": "kab915531",
+   "lang": "ko",
+   "text": "는 짝이 어긋나요.",
+   "cap": 33
+  },
+  {
+   "id": "ef0f7fd87",
+   "lang": "en",
+   "text": "Are you",
+   "cap": 33
+  },
+  {
+   "id": "e7497efd9",
+   "lang": "en",
+   "text": "Yes.",
+   "cap": 34
+  },
+  {
+   "id": "kcbfc3a70",
+   "lang": "ko",
+   "text": "만 해도 통하지만, 어느 학교 학생인지 덧붙이면 더 좋아요",
+   "cap": 34
+  },
+  {
+   "id": "e66d662c8",
+   "lang": "en",
+   "text": "I'm an exchange student at Kellport University.",
+   "cap": 34
+  },
+  {
+   "id": "ec58bb8fa",
+   "lang": "en",
+   "text": "Can I see your passport, please?",
+   "cap": 35
+  },
+  {
+   "id": "ede5890e6",
+   "lang": "en",
+   "text": "Do you have a second form of ID?",
+   "cap": 36
+  },
+  {
+   "id": "e70124fc8",
+   "lang": "en",
+   "text": "Yes, I have.",
+   "cap": 36
+  },
+  {
+   "id": "k074c73a8",
+   "lang": "ko",
+   "text": "는 끝이 비고",
+   "cap": 36
+  },
+  {
+   "id": "k02c647d9",
+   "lang": "ko",
+   "text": "은 짝이 어긋나요",
+   "cap": 36
+  },
+  {
+   "id": "e6b4702aa",
+   "lang": "en",
+   "text": "Here's my student ID.",
+   "cap": 36
+  },
+  {
+   "id": "e8ff2c732",
+   "lang": "en",
+   "text": "Do you have proof of address?",
+   "cap": 37
+  },
+  {
+   "id": "k09524668",
+   "lang": "ko",
+   "text": "주소가 적힌 서류",
+   "cap": 37
+  },
+  {
+   "id": "ec8b958eb",
+   "lang": "en",
+   "text": "my housing contract.",
+   "cap": 37
+  },
+  {
+   "id": "ef64406f7",
+   "lang": "en",
+   "text": "dormitory paper",
+   "cap": 37
+  },
+  {
+   "id": "k1b8eb9d3",
+   "lang": "ko",
+   "text": "는 무슨 서류인지 몰라요.",
+   "cap": 37
+  },
+  {
+   "id": "k4732a739",
+   "lang": "ko",
+   "text": "서류가 없으면",
+   "cap": 38
+  },
+  {
+   "id": "e94694f54",
+   "lang": "en",
+   "text": "No, I don't.",
+   "cap": 38
+  },
+  {
+   "id": "kc11449be",
+   "lang": "ko",
+   "text": "로 끝내지 말고 사실에 부탁을 붙여요",
+   "cap": 38
+  },
+  {
+   "id": "e418eba04",
+   "lang": "en",
+   "text": "Would a letter from my university work?",
+   "cap": 38
+  },
+  {
+   "id": "e4516a3aa",
+   "lang": "en",
+   "text": "Got some ID?",
+   "cap": 39
+  },
+  {
+   "id": "kc625893a",
+   "lang": "ko",
+   "text": "짐작해서 내밀지 말고 물어요",
+   "cap": 39
+  },
+  {
+   "id": "eda8a888f",
+   "lang": "en",
+   "text": "Sorry, did you ask for my ID?",
+   "cap": 39
+  },
+  {
+   "id": "k575379e7",
+   "lang": "ko",
+   "text": "서류 넷 , 여권, 학생증, 주소가 적힌 계약서, 학교 확인서. 내밀 때는",
+   "cap": 40
+  },
+  {
+   "id": "ef61b46c4",
+   "lang": "en",
+   "text": "Here's my",
+   "cap": 40
+  },
+  {
+   "id": "e7553458e",
+   "lang": "en",
+   "text": "What's your address here?",
+   "cap": 41
+  },
+  {
+   "id": "edf129922",
+   "lang": "en",
+   "text": "I live in a dormitory.",
+   "cap": 41
+  },
+  {
+   "id": "k4f2a7f9f",
+   "lang": "ko",
+   "text": "사실이지만 주소가 없어요. 카드와 편지가 그 주소로 와요.",
+   "cap": 41
+  },
+  {
+   "id": "k683ef2ab",
+   "lang": "ko",
+   "text": "한국 주소처럼 큰 곳부터",
+   "cap": 42
+  },
+  {
+   "id": "e9c150c78",
+   "lang": "en",
+   "text": "Kellport, four-oh-two-one-three",
+   "cap": 42
+  },
+  {
+   "id": "ke526e55f",
+   "lang": "ko",
+   "text": "영어 주소는 거꾸로, 작은 곳에서 큰 곳으로 가요.",
+   "cap": 42
+  },
+  {
+   "id": "k17958409",
+   "lang": "ko",
+   "text": "번지는 길 이름 앞에",
+   "cap": 43
+  },
+  {
+   "id": "ec3f0bfbd",
+   "lang": "en",
+   "text": "two hundred College Avenue.",
+   "cap": 43
+  },
+  {
+   "id": "kf3142429",
+   "lang": "ko",
+   "text": "방 번호를 421로 잘못 말하거나 길을 빼면 직원이 다시 물어요.",
+   "cap": 43
+  },
+  {
+   "id": "kc2678af9",
+   "lang": "ko",
+   "text": "모두 맞게",
+   "cap": 44
+  },
+  {
+   "id": "e9f4fd2c5",
+   "lang": "en",
+   "text": "It's Room four-twelve, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "cap": 44
+  },
+  {
+   "id": "k2f9ef78c",
+   "lang": "ko",
+   "text": "방 번호는",
+   "cap": 44
+  },
+  {
+   "id": "ec12739dc",
+   "lang": "en",
+   "text": "four-twelve",
+   "cap": 44
+  },
+  {
+   "id": "e825a8f28",
+   "lang": "en",
+   "text": "What's a good phone number for you?",
+   "cap": 45
+  },
+  {
+   "id": "k3828a9a3",
+   "lang": "ko",
+   "text": "휴대폰 가게에서 되짚어 둔 번호를 묶음으로",
+   "cap": 45
+  },
+  {
+   "id": "edc3e45b8",
+   "lang": "en",
+   "text": "It's five-five-five, oh-one-four-seven.",
+   "cap": 45
+  },
+  {
+   "id": "edadf67ed",
+   "lang": "en",
+   "text": "Please sign here.",
+   "cap": 46
+  },
+  {
+   "id": "e47f3f4be",
+   "lang": "en",
+   "text": "I'll do my sign.",
+   "cap": 46
+  },
+  {
+   "id": "k567f872d",
+   "lang": "ko",
+   "text": "은 어색해요. 서명은",
+   "cap": 46
+  },
+  {
+   "id": "e929d7435",
+   "lang": "en",
+   "text": "signature , Sure.",
+   "cap": 46
+  },
+  {
+   "id": "e60c0f173",
+   "lang": "en",
+   "text": "Right here?",
+   "cap": 46
+  },
+  {
+   "id": "e3344d379",
+   "lang": "en",
+   "text": "And what's the address there?",
+   "cap": 47
+  },
+  {
+   "id": "e4489b83e",
+   "lang": "en",
+   "text": "Sorry, did you ask for my address?",
+   "cap": 47
+  },
+  {
+   "id": "k1c60e88a",
+   "lang": "ko",
+   "text": "직불 카드가 필요한지 물어요. 체크카드를 그대로",
+   "cap": 48
+  },
+  {
+   "id": "ec06f5f6a",
+   "lang": "en",
+   "text": "a check card?",
+   "cap": 48
+  },
+  {
+   "id": "kb45a8344",
+   "lang": "ko",
+   "text": "영어로는",
+   "cap": 48
+  },
+  {
+   "id": "e31248fd0",
+   "lang": "en",
+   "text": "debit card.",
+   "cap": 48
+  },
+  {
+   "id": "k86e00855",
+   "lang": "ko",
+   "text": "필요하면",
+   "cap": 48
+  },
+  {
+   "id": "e060a800c",
+   "lang": "en",
+   "text": "Please enter a four-digit PIN on the keypad.",
+   "cap": 49
+  },
+  {
+   "id": "ed077e472",
+   "lang": "en",
+   "text": "It's seven three nine one.",
+   "cap": 49
+  },
+  {
+   "id": "kbed58ad1",
+   "lang": "ko",
+   "text": "비밀번호를 소리 내어 말하면 안 돼요.",
+   "cap": 49
+  },
+  {
+   "id": "kb3030b0a",
+   "lang": "ko",
+   "text": "숫자판에 누르기만 하고 짧게 답해요",
+   "cap": 50
+  },
+  {
+   "id": "e98171a19",
+   "lang": "en",
+   "text": "Thank you.",
+   "cap": 50
+  },
+  {
+   "id": "ee2e2e72b",
+   "lang": "en",
+   "text": "Is there anything else I can help you with?",
+   "cap": 51
+  },
+  {
+   "id": "kd2a42150",
+   "lang": "ko",
+   "text": "만 하면 무엇인지 다시 물어요.",
+   "cap": 51
+  },
+  {
+   "id": "e3b7000b8",
+   "lang": "en",
+   "text": "Where is ATM?",
+   "cap": 51
+  },
+  {
+   "id": "kf56c246a",
+   "lang": "ko",
+   "text": "은 툭 던지는 말이에요.",
+   "cap": 51
+  },
+  {
+   "id": "kd7faf586",
+   "lang": "ko",
+   "text": "물어볼 것은",
+   "cap": 52
+  },
+  {
+   "id": "k3445754b",
+   "lang": "ko",
+   "text": "뒤에 바로, 질문으로",
+   "cap": 52
+  },
+  {
+   "id": "eaed7c9d0",
+   "lang": "en",
+   "text": "Could you tell me where the nearest ATM is?",
+   "cap": 52
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 53
+  },
+  {
+   "id": "k38842679",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말과 질문의 모양 잡기",
+   "cap": 54
+  },
+  {
+   "id": "e66d687bf",
+   "lang": "en",
+   "text": "or",
+   "cap": 54
+  },
+  {
+   "id": "k544eebd7",
+   "lang": "ko",
+   "text": "고르기",
+   "cap": 54
+  },
+  {
+   "id": "eca63a1f9",
+   "lang": "en",
+   "text": "How much",
+   "cap": 54
+  },
+  {
+   "id": "k86332d30",
+   "lang": "ko",
+   "text": "정보",
+   "cap": 54
+  },
+  {
+   "id": "ef2406ba4",
+   "lang": "en",
+   "text": "Do you , Are you , Is it",
+   "cap": 54
+  },
+  {
+   "id": "k305302fb",
+   "lang": "ko",
+   "text": "첫 낱말로 짧은 대답.",
+   "cap": 54
+  },
+  {
+   "id": "kc011091f",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기 , 서류는 내밀면서",
+   "cap": 55
+  },
+  {
+   "id": "k74d5f733",
+   "lang": "ko",
+   "text": "금액은 세 자리씩, 번호는 묶음으로 끊어 되짚어요.",
+   "cap": 55
+  },
+  {
+   "id": "k31ec3cc3",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기 , 부탁은 질문으로",
+   "cap": 56
+  },
+  {
+   "id": "k291ec7fb",
+   "lang": "ko",
+   "text": "일곱 곳에 한 줄씩 적용했어요. 숫자와 서류가 많은 곳일수록 되짚기가 힘이 돼요.",
+   "cap": 57
+  },
+  {
+   "id": "ke5608720",
+   "lang": "ko",
+   "text": "실전이에요. 내 카드 , 60만 원을 바꿔요. 첫 질문",
+   "cap": 58
+  },
+  {
+   "id": "k40d46bf7",
+   "lang": "ko",
+   "text": "첫째, 정보 질문 , 에이",
+   "cap": 59
+  },
+  {
+   "id": "kd415b061",
+   "lang": "ko",
+   "text": "정보가 없어 탈락. 둘째, 비",
+   "cap": 59
+  },
+  {
+   "id": "e036801a9",
+   "lang": "en",
+   "text": "sixty thousand won",
+   "cap": 59
+  },
+  {
+   "id": "k775d19d4",
+   "lang": "ko",
+   "text": "은 6만 원이라 탈락.",
+   "cap": 59
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 60
+  },
+  {
+   "id": "ec6903c68",
+   "lang": "en",
+   "text": "Six hundred thousand won, please.",
+   "cap": 60
+  },
+  {
+   "id": "ed9bb01c8",
+   "lang": "en",
+   "text": "Your new number is five-five-five, oh-one-six-two.",
+   "cap": 61
+  },
+  {
+   "id": "k98a0f0c6",
+   "lang": "ko",
+   "text": "셋 모두 번호 안내에 맞는 말이에요.",
+   "cap": 61
+  },
+  {
+   "id": "k2c0eae61",
+   "lang": "ko",
+   "text": "둘째, 에이",
+   "cap": 62
+  },
+  {
+   "id": "kfb05050e",
+   "lang": "ko",
+   "text": "되짚지 않아 탈락. 비",
+   "cap": 62
+  },
+  {
+   "id": "ead78c9cc",
+   "lang": "en",
+   "text": "five-five-five, oh-one-two-six",
+   "cap": 62
+  },
+  {
+   "id": "kd63fa55b",
+   "lang": "ko",
+   "text": "끝 두 자리가 달라 탈락.",
+   "cap": 62
+  },
+  {
+   "id": "ebc95c7ec",
+   "lang": "en",
+   "text": "So, it's five-five-five, oh-one-six-two?",
+   "cap": 63
+  },
+  {
+   "id": "k35798fd6",
+   "lang": "ko",
+   "text": "은행",
+   "cap": 64
+  },
+  {
+   "id": "kcf606c85",
+   "lang": "ko",
+   "text": "카드 , 주소 증명 서류는 없고 학교 확인서가 있어요.",
+   "cap": 64
+  },
+  {
+   "id": "kce7bc991",
+   "lang": "ko",
+   "text": "부탁이 빠져 탈락. 씨",
+   "cap": 65
+  },
+  {
+   "id": "e49664789",
+   "lang": "en",
+   "text": "housing contract",
+   "cap": 65
+  },
+  {
+   "id": "k5db07d26",
+   "lang": "ko",
+   "text": "카드와 달라 탈락.",
+   "cap": 65
+  },
+  {
+   "id": "ka80f7ea7",
+   "lang": "ko",
+   "text": "정답 비",
+   "cap": 66
+  },
+  {
+   "id": "k17ab1190",
+   "lang": "ko",
+   "text": "마지막",
+   "cap": 67
+  },
+  {
+   "id": "k48705126",
+   "lang": "ko",
+   "text": "셋 모두 주소 한 줄이에요. 카드 , 방은 315호, 건물은",
+   "cap": 67
+  },
+  {
+   "id": "e242cbc58",
+   "lang": "en",
+   "text": "Cedar Hall",
+   "cap": 67
+  },
+  {
+   "id": "k4b7b0757",
+   "lang": "ko",
+   "text": "이에요.",
+   "cap": 67
+  },
+  {
+   "id": "k2bb4629f",
+   "lang": "ko",
+   "text": "둘째, 에이 한국식 차례라 탈락. 비 번지 300이",
+   "cap": 68
+  },
+  {
+   "id": "e8113f583",
+   "lang": "en",
+   "text": "College Avenue",
+   "cap": 68
+  },
+  {
+   "id": "kda1b90ca",
+   "lang": "ko",
+   "text": "뒤에 와 탈락.",
+   "cap": 68
+  },
+  {
+   "id": "eb7134c23",
+   "lang": "en",
+   "text": "It's Room three-fifteen, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "cap": 69
+  },
+  {
+   "id": "kf5fa4ad4",
+   "lang": "ko",
+   "text": "정리해요. 용건은 부탁 틀로",
+   "cap": 70
+  },
+  {
+   "id": "k22e6b05d",
+   "lang": "ko",
+   "text": "서류는 내밀면서",
+   "cap": 70
+  },
+  {
+   "id": "k55ae5c1f",
+   "lang": "ko",
+   "text": "숫자는 끊어요. 30만",
+   "cap": 71
+  },
+  {
+   "id": "k09d7b5fa",
+   "lang": "ko",
+   "text": "들은 금액과 번호는 되짚어요",
+   "cap": 71
+  },
+  {
+   "id": "kc12d350c",
+   "lang": "ko",
+   "text": "주소는 작은 곳에서 큰 곳으로, 비밀번호는 말하지 않고 눌러요.",
+   "cap": 72
+  },
+  {
+   "id": "k94e83ec2",
+   "lang": "ko",
+   "text": "아래 은행 , 휴대폰 시뮬레이터에서 내 카드로 환전 창구부터 은행 카드까지 해 보세요.",
+   "cap": 73
+  }
+ ]
+}

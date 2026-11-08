@@ -362,5 +362,17 @@ window.EN_CATALOG = {
       thumb: 'pharmacy/docs/poster.jpg',
       added: '2026-11-08',
     },
+    {
+      slug: 'bank',
+      track: 'talk',
+      title: '은행 · 환전 · 휴대폰, 서류는 내밀고 숫자는 끊어 말한다',
+      topic: '환전 · 휴대폰 개통 · 요금제 · 새 번호 되짚기 · 은행 계좌 열기 · 서류 내밀기 · 주소 한 줄 · 전화번호 · 서명 · 직불 카드 · 비밀번호',
+      summary: '교환학생으로 도착해 환전 창구 → 휴대폰 가게 → 은행 창구를 차례로 가요. 세 곳 모두 내가 먼저 용건을 부탁 틀로 말하고(I\'d like to open a bank account, please.), 그다음 정해진 질문에는 서류와 숫자로 답해요. 서류는 있다고만 하지 말고 내밀면서(Sure. Here\'s my passport.), 큰 금액은 세 자리씩(30만 원 → three hundred thousand won), 전화번호는 묶음으로 한 자리씩(five-five-five, oh-one-four-seven), 주소는 작은 곳에서 큰 곳으로(It\'s Room 412, Maple Hall, 200 College Avenue, Kellport, 40213.). 받을 달러와 새 번호는 되짚어 확인해요(So, it\'s 555-0147?). Thirty man won · open my phone · data free · bankbook · I have passport · College Avenue 200 · check card 같은 한국어 그대로의 말도 함께. 은행 이름 · 환율 · 요금 · 주소 · 전화번호는 지어낸 예시예요.',
+      length: '6:37',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '은행 · 휴대폰 시뮬레이터', '주소 한 줄 만들기', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'bank/docs/poster.jpg',
+      added: '2026-11-09',
+    },
   ],
 };

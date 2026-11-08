@@ -1,0 +1,295 @@
+1
+00:00:00,400 --> 00:00:05,400
+은행, 환전 창구, 휴대폰 가게에서는 정해진 질문이 이어져요. 대답은 서류와 숫자예요.
+
+2
+00:00:05,400 --> 00:00:11,800
+얼마를 바꿀지 물으면 → Thirty man won? 만은 영어에 없어요. 세 자리씩 끊어 → three hundred thousand won.
+
+3
+00:00:11,800 --> 00:00:16,400
+여권을 보여 달라면 → I have passport. 있다고만 하지 말고 내밀면서 → Sure. Here's my passport.
+
+4
+00:00:16,400 --> 00:00:21,000
+새 번호를 들으면 Okay. Thanks.로 끝내지 말고, 묶음으로 끊어 되짚어요 → So, it's 555-0147?
+
+5
+00:00:21,000 --> 00:00:26,000
+세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.
+
+6
+00:00:26,400 --> 00:00:32,000
+오늘의 이야기를 일곱 곳으로 나눠 봐요. 교환학생으로 도착해서, 먼저 환전 창구에서 원을 달러로 바꿔요.
+
+7
+00:00:32,000 --> 00:00:38,000
+다음은 휴대폰 가게예요. 요금제를 고르고 유심을 넣으면 새 번호를 알려 줘요. 그 번호를 되짚어 적어 둬요.
+
+8
+00:00:38,000 --> 00:00:44,000
+그리고 은행에 가요. 용건을 말하고, 서류를 내밀고, 주소와 전화번호를 말하고, 카드를 만들어요.
+
+9
+00:00:44,000 --> 00:00:50,000
+보라 테두리 → 내가 먼저 말을 꺼내는 곳이에요. 환전 창구, 휴대폰 가게, 은행 창구에서는 용건부터 말해요.
+
+10
+00:00:50,000 --> 00:00:56,000
+은행 이름, 환율, 요금, 주소, 전화번호는 모두 지어낸 예시예요. 실제 서류와 절차는 은행마다 달라요.
+
+11
+00:00:56,400 --> 00:01:02,000
+환전 창구 → How can I help you today? 이거 달러로 바꿔요 → Change this into dollars. 명령처럼 들려요.
+
+12
+00:01:02,000 --> 00:01:07,500
+용건은 부탁 틀로 → I'd like to change 300,000 won into US dollars, please.
+
+13
+00:01:07,500 --> 00:01:13,500
+How much would you like to change? 30만을 → thirty man won? 만을 그대로 읽으면 못 알아들어요.
+
+14
+00:01:13,500 --> 00:01:19,000
+thirty thousand는 3만, three million은 300만이에요. 영어는 세 자리씩 → 30만 = three hundred thousand won.
+
+15
+00:01:19,000 --> 00:01:25,000
+Large bills or small bills? → Yes, please.는 고른 것이 없어요. 지폐는 paper가 아니라 bills → Small bills, please.
+
+16
+00:01:25,000 --> 00:01:30,500
+At today's rate, that comes to $240. Okay.로 넘기면 확인이 안 돼요. fourteen으로 잘못 들으면 214달러예요.
+
+17
+00:01:30,500 --> 00:01:36,000
+되짚어 확인해요 → So, that's $240? forty는 앞을, fourteen은 뒤를 세게 말해요.
+
+18
+00:01:36,400 --> 00:01:42,000
+휴대폰 가게 → What can I do for you today? 개통을 그대로 → I want to open my phone. 휴대폰을 뜯는다는 말처럼 들려요.
+
+19
+00:01:42,000 --> 00:01:47,500
+USIM card, please.도 한국에서 쓰는 말이에요. 용건을 부탁 틀로 → I'd like to get a SIM card for my phone, please.
+
+20
+00:01:47,500 --> 00:01:53,000
+Prepaid or monthly? 빠르면 pre-PAI-dor처럼 이어져요. 고르는 질문이라 Yes 대신 고른 것 → Prepaid, please.
+
+21
+00:01:53,000 --> 00:01:58,500
+How much data do you need? 무제한을 data free로 옮기면 ‘공짜’로 들려요. 내 카드대로 → 15 GB, please.
+
+22
+00:01:58,500 --> 00:02:04,000
+How long are you staying? 동안 → During six months? 숫자로 센 기간은 for → For six months.
+
+23
+00:02:04,000 --> 00:02:09,000
+빠른 말 → How much data d'you reckon you need? 짐작하지 말고 놓친 것만 물어요 → Sorry, how much data?
+
+24
+00:02:09,000 --> 00:02:15,000
+That's $30 for the first month. 되물을 때 thirteen이라고 하면 들은 값과 달라요. 카드로 낼 때 → Can I pay by card?
+
+25
+00:02:15,400 --> 00:02:21,000
+Is your phone unlocked? → Is로 물었으니 Yes, it is. Yes, I am.은 짝이 어긋나요.
+
+26
+00:02:21,000 --> 00:02:27,000
+Your new number is 555-0147. → Okay. Thanks. 되짚지 않으면 틀린 번호를 은행 서류에 쓰게 돼요.
+
+27
+00:02:27,000 --> 00:02:33,000
+번호를 큰 수처럼 → five hundred fifty-five? 한 자리씩 묶음으로 → five-five-five, oh-one-four-seven. 0은 oh로 읽어요.
+
+28
+00:02:33,000 --> 00:02:38,500
+끝 두 자리를 바꿔 되짚으면 직원이 바로잡아 줘요. 맞게 → So, it's 555-0147? → That's right.
+
+29
+00:02:38,500 --> 00:02:42,500
+빠른 말 → Righto, new number's 555-0147. 놓쳤으면 → Sorry, could you say the number again, slowly?
+
+30
+00:02:42,500 --> 00:02:48,000
+auto top-up → 모르는 낱말은 물어요 → Sorry, what does top-up mean? 직접 충전할 거면 → No, thanks. I'll top it up myself.
+
+31
+00:02:48,400 --> 00:02:54,000
+은행 창구 → What can I do for you today? 통장을 만들고 싶다고 → I want to make a bankbook. 영어로는 계좌를 열어요.
+
+32
+00:02:54,000 --> 00:02:59,500
+Make me an account.는 명령이고, I'm an exchange student.는 사실만 말했어요. 용건은 → I'd like to open a bank account, please.
+
+33
+00:02:59,500 --> 00:03:05,000
+Checking or savings? → 고르는 질문이에요. 월세와 생활비를 넣고 빼는 통장은 → A checking account, please.
+
+34
+00:03:05,000 --> 00:03:10,500
+Are you a student? → Are로 물었으니 Yes, I do.는 짝이 어긋나요. Are you …? → Yes, I am.
+
+35
+00:03:10,500 --> 00:03:16,000
+Yes.만 해도 통하지만, 어느 학교 학생인지 덧붙이면 더 좋아요 → I'm an exchange student at Kellport University.
+
+36
+00:03:16,400 --> 00:03:22,000
+Can I see your passport, please? → I have passport. 있다고만 하지 말고 내밀면서 → Sure. Here's my passport.
+
+37
+00:03:22,000 --> 00:03:28,000
+Do you have a second form of ID? → Yes, I have.는 끝이 비고, Yes, I am.은 짝이 어긋나요 → Yes, I do. Here's my student ID.
+
+38
+00:03:28,000 --> 00:03:33,500
+Do you have proof of address? 주소가 적힌 서류 → my housing contract. dormitory paper는 무슨 서류인지 몰라요.
+
+39
+00:03:33,500 --> 00:03:39,500
+서류가 없으면 No, I don't.로 끝내지 말고 사실에 부탁을 붙여요 → Would a letter from my university work?
+
+40
+00:03:39,500 --> 00:03:45,000
+빠른 말 → Got some ID? 짐작해서 내밀지 말고 물어요 → Sorry, did you ask for my ID?
+
+41
+00:03:45,000 --> 00:03:50,000
+서류 넷 → 여권, 학생증, 주소가 적힌 계약서, 학교 확인서. 내밀 때는 Here's my …
+
+42
+00:03:50,400 --> 00:03:56,000
+What's your address here? → I live in a dormitory. 사실이지만 주소가 없어요. 카드와 편지가 그 주소로 와요.
+
+43
+00:03:56,000 --> 00:04:02,000
+한국 주소처럼 큰 곳부터 → Kellport, 40213, … 영어 주소는 거꾸로, 작은 곳에서 큰 곳으로 가요.
+
+44
+00:04:02,000 --> 00:04:08,000
+번지는 길 이름 앞에 → 200 College Avenue. 방 번호를 421로 잘못 말하거나 길을 빼면 직원이 다시 물어요.
+
+45
+00:04:08,000 --> 00:04:14,000
+모두 맞게 → It's Room 412, Maple Hall, 200 College Avenue, Kellport, 40213. 방 번호는 four-twelve로 읽어요.
+
+46
+00:04:14,000 --> 00:04:19,500
+What's a good phone number for you? 휴대폰 가게에서 되짚어 둔 번호를 묶음으로 → It's 555-0147.
+
+47
+00:04:19,500 --> 00:04:24,000
+Please sign here. → I'll do my sign.은 어색해요. 서명은 signature → Sure. Right here?
+
+48
+00:04:24,000 --> 00:04:29,000
+빠른 말 → And what's the address there? 놓쳤으면 → Sorry, did you ask for my address?
+
+49
+00:04:29,400 --> 00:04:35,000
+직불 카드가 필요한지 물어요. 체크카드를 그대로 → a check card? 영어로는 debit card. 필요하면 → Yes, please.
+
+50
+00:04:35,000 --> 00:04:41,000
+Please enter a four-digit PIN on the keypad. → It's 7-3-9-1. 비밀번호를 소리 내어 말하면 안 돼요.
+
+51
+00:04:41,000 --> 00:04:46,000
+숫자판에 누르기만 하고 짧게 답해요 → Okay. Thank you.
+
+52
+00:04:46,000 --> 00:04:51,500
+Is there anything else I can help you with? → Yes.만 하면 무엇인지 다시 물어요. Where is ATM?은 툭 던지는 말이에요.
+
+53
+00:04:51,500 --> 00:04:57,000
+물어볼 것은 Yes 뒤에 바로, 질문으로 → Yes. Could you tell me where the nearest ATM is?
+
+54
+00:04:57,400 --> 00:05:02,500
+지금까지 배운 것을 3단계 말하기 법으로 묶어요.
+
+55
+00:05:02,500 --> 00:05:08,500
+① 열쇠 낱말과 질문의 모양 잡기 → or → 고르기, How much → 정보, Do you · Are you · Is it → 첫 낱말로 짧은 대답.
+
+56
+00:05:08,500 --> 00:05:14,500
+② 틀에 내 정보 넣기 → 서류는 내밀면서 Here's my passport. 금액은 세 자리씩, 번호는 묶음으로 끊어 되짚어요.
+
+57
+00:05:14,500 --> 00:05:20,000
+③ 공손하게 끝내기 → 부탁은 질문으로 → Would a letter from my university work? 놓쳤으면 → Sorry, how much data?
+
+58
+00:05:20,000 --> 00:05:25,000
+일곱 곳에 한 줄씩 적용했어요. 숫자와 서류가 많은 곳일수록 되짚기가 힘이 돼요.
+
+59
+00:05:25,400 --> 00:05:29,500
+실전이에요. 내 카드 → 60만 원을 바꿔요. 첫 질문 → How much would you like to change?
+
+60
+00:05:29,500 --> 00:05:33,500
+① 정보 질문 → (A) Yes. 정보가 없어 탈락. ② (B) sixty thousand won은 6만 원이라 탈락.
+
+61
+00:05:33,500 --> 00:05:37,500
+정답 (C) → Six hundred thousand won, please.
+
+62
+00:05:37,900 --> 00:05:42,000
+휴대폰 가게 → Your new number is 555-0162. 셋 모두 번호 안내에 맞는 말이에요.
+
+63
+00:05:42,000 --> 00:05:46,000
+② (A) Okay. Thanks. → 되짚지 않아 탈락. (B) 555-0126 → 끝 두 자리가 달라 탈락.
+
+64
+00:05:46,000 --> 00:05:50,000
+정답 (C) → So, it's 555-0162?
+
+65
+00:05:50,400 --> 00:05:54,500
+은행 → Do you have proof of address? 카드 → 주소 증명 서류는 없고 학교 확인서가 있어요.
+
+66
+00:05:54,500 --> 00:05:58,500
+② (A) No, I don't. → 부탁이 빠져 탈락. (C) housing contract → 카드와 달라 탈락.
+
+67
+00:05:58,500 --> 00:06:02,500
+정답 (B) → No, I don't. Would a letter from my university work?
+
+68
+00:06:02,900 --> 00:06:07,000
+마지막 → What's your address here? 셋 모두 주소 한 줄이에요. 카드 → 방은 315호, 건물은 Cedar Hall이에요.
+
+69
+00:06:07,000 --> 00:06:11,000
+② (A) 한국식 차례라 탈락. (B) 번지 300이 College Avenue 뒤에 와 탈락.
+
+70
+00:06:11,000 --> 00:06:15,000
+정답 (C) → It's Room 315, Cedar Hall, 300 College Avenue, Kellport, 40213.
+
+71
+00:06:15,400 --> 00:06:21,000
+정리해요. 용건은 부탁 틀로 → I'd like to open a bank account, please. 서류는 내밀면서 → Here's my passport.
+
+72
+00:06:21,000 --> 00:06:27,000
+숫자는 끊어요. 30만 = three hundred thousand won. 들은 금액과 번호는 되짚어요 → So, it's 555-0147?
+
+73
+00:06:27,000 --> 00:06:32,000
+주소는 작은 곳에서 큰 곳으로, 비밀번호는 말하지 않고 눌러요.
+
+74
+00:06:32,000 --> 00:06:37,000
+아래 은행 · 휴대폰 시뮬레이터에서 내 카드로 환전 창구부터 은행 카드까지 해 보세요.

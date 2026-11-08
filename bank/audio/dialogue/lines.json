@@ -1,0 +1,2606 @@
+{
+ "slug": "bank",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 29,
+  "ca": 28,
+  "gb": 11,
+  "me": 258,
+  "tc": 89,
+  "us": 17
+ },
+ "lines": [
+  {
+   "id": "gb-9c9e4343",
+   "sp": "gb",
+   "text": "Sure. How much would you like to change?",
+   "from": "video"
+  },
+  {
+   "id": "me-1a6ea01f",
+   "sp": "me",
+   "text": "Thirty man won, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-b0beda12",
+   "sp": "tc",
+   "text": "three hundred thousand won",
+   "from": "video-say"
+  },
+  {
+   "id": "me-2b713be9",
+   "sp": "me",
+   "text": "Three hundred thousand won, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-57c6d5ac",
+   "sp": "gb",
+   "text": "Can I see your passport, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-2e66e69e",
+   "sp": "me",
+   "text": "I have passport.",
+   "from": "video"
+  },
+  {
+   "id": "me-e6cbb5f8",
+   "sp": "me",
+   "text": "Sure. Here's my passport.",
+   "from": "video"
+  },
+  {
+   "id": "au-cb80f577",
+   "sp": "au",
+   "text": "Alright, you're all set. Your new number is five-five-five, oh-one-four-seven.",
+   "from": "video"
+  },
+  {
+   "id": "me-bd17fdf4",
+   "sp": "me",
+   "text": "Okay. Thanks.",
+   "from": "video"
+  },
+  {
+   "id": "tc-e49e9107",
+   "sp": "tc",
+   "text": "five-five-five, oh-one-four-seven",
+   "from": "video-say"
+  },
+  {
+   "id": "me-d4f6f070",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-four-seven?",
+   "from": "video"
+  },
+  {
+   "id": "tc-ad4f5304",
+   "sp": "tc",
+   "text": "Large bills or small bills?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ee1b845b",
+   "sp": "tc",
+   "text": "So, it's five-five-five, oh-one-four-seven?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e203d986",
+   "sp": "tc",
+   "text": "Would a letter from my university work?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a2e11022",
+   "sp": "tc",
+   "text": "Hello! How can I help you today?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4fda35d6",
+   "sp": "tc",
+   "text": "Hi there! What can I do for you today?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e2d8cfb9",
+   "sp": "tc",
+   "text": "Is your phone unlocked?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b2c93541",
+   "sp": "tc",
+   "text": "Good morning. What can I do for you today?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e1ba0030",
+   "sp": "tc",
+   "text": "Can I see your passport, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9a833a2e",
+   "sp": "tc",
+   "text": "Okay. What's your address here?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-332843d7",
+   "sp": "tc",
+   "text": "Would you like a debit card with your account?",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-fc2f0486",
+   "sp": "gb",
+   "text": "Hello! How can I help you today?",
+   "from": "video"
+  },
+  {
+   "id": "me-0877ee7e",
+   "sp": "me",
+   "text": "Change this into dollars.",
+   "from": "video"
+  },
+  {
+   "id": "me-845eb958",
+   "sp": "me",
+   "text": "I'd like to change three hundred thousand won into US dollars, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-b0ce59b9",
+   "sp": "me",
+   "text": "I'd like to change some money, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-d857b7ff",
+   "sp": "me",
+   "text": "Thirty thousand won, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-8023de3a",
+   "sp": "tc",
+   "text": "thirty thousand",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b24a3618",
+   "sp": "tc",
+   "text": "three million",
+   "from": "video-say"
+  },
+  {
+   "id": "me-be9ef2b9",
+   "sp": "me",
+   "text": "Three million won, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-3ffa9a29",
+   "sp": "gb",
+   "text": "Would you like large bills or small bills?",
+   "from": "video"
+  },
+  {
+   "id": "tc-a8c01019",
+   "sp": "tc",
+   "text": "Large bills",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e2ea6201",
+   "sp": "tc",
+   "text": "Small bills",
+   "from": "video-say"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-f24d5aea",
+   "sp": "me",
+   "text": "Small paper, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-1f1e30a2",
+   "sp": "me",
+   "text": "Small bills, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-e68dabf2",
+   "sp": "gb",
+   "text": "At today's rate, that comes to two hundred forty dollars.",
+   "from": "video"
+  },
+  {
+   "id": "tc-da885639",
+   "sp": "tc",
+   "text": "two hundred forty dollars",
+   "from": "video-say"
+  },
+  {
+   "id": "me-1359f3ce",
+   "sp": "me",
+   "text": "So, that's two hundred fourteen dollars?",
+   "from": "video"
+  },
+  {
+   "id": "gb-65157873",
+   "sp": "gb",
+   "text": "No — it comes to two hundred forty dollars.",
+   "from": "video"
+  },
+  {
+   "id": "me-0d68a3d6",
+   "sp": "me",
+   "text": "So, that's two hundred forty dollars?",
+   "from": "video"
+  },
+  {
+   "id": "tc-361203c0",
+   "sp": "tc",
+   "text": "sixteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b66f3a3b",
+   "sp": "tc",
+   "text": "sixty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-41f43b54",
+   "sp": "tc",
+   "text": "fourteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3a6e5d5c",
+   "sp": "tc",
+   "text": "forty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f1272c2d",
+   "sp": "tc",
+   "text": "fifteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6b6ef6f2",
+   "sp": "tc",
+   "text": "fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-0c97e586",
+   "sp": "gb",
+   "text": "That's right. Here you go.",
+   "from": "video"
+  },
+  {
+   "id": "me-e3a2c87f",
+   "sp": "me",
+   "text": "Sorry, did you say two hundred forty dollars?",
+   "from": "video"
+  },
+  {
+   "id": "au-40b5b22f",
+   "sp": "au",
+   "text": "Hi there! What can I do for you today?",
+   "from": "video"
+  },
+  {
+   "id": "me-55680eb5",
+   "sp": "me",
+   "text": "I want to open my phone.",
+   "from": "video"
+  },
+  {
+   "id": "me-d32e271d",
+   "sp": "me",
+   "text": "USIM card, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-566d337e",
+   "sp": "me",
+   "text": "I'd like to get a SIM card for my phone, please.",
+   "from": "video"
+  },
+  {
+   "id": "au-87a8de2e",
+   "sp": "au",
+   "text": "Would you like a prepaid plan or a monthly plan?",
+   "from": "video"
+  },
+  {
+   "id": "au-103b31dd",
+   "sp": "au",
+   "text": "Prepaid or monthly?",
+   "from": "video"
+  },
+  {
+   "id": "me-34af2594",
+   "sp": "me",
+   "text": "Prepaid, please.",
+   "from": "video"
+  },
+  {
+   "id": "au-567d63ba",
+   "sp": "au",
+   "text": "And how much data do you need?",
+   "from": "video"
+  },
+  {
+   "id": "me-4b7e9b4f",
+   "sp": "me",
+   "text": "Data free, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-f6c75f27",
+   "sp": "me",
+   "text": "fifteen gigabytes, please.",
+   "from": "video"
+  },
+  {
+   "id": "au-8b8c4a20",
+   "sp": "au",
+   "text": "How long are you staying?",
+   "from": "video"
+  },
+  {
+   "id": "me-70281aff",
+   "sp": "me",
+   "text": "During six months.",
+   "from": "video"
+  },
+  {
+   "id": "tc-784cf02c",
+   "sp": "tc",
+   "text": "For six months.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-68c673b4",
+   "sp": "tc",
+   "text": "During my stay.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-4006e7ef",
+   "sp": "me",
+   "text": "For six months.",
+   "from": "video"
+  },
+  {
+   "id": "au-ad0ad5d2",
+   "sp": "au",
+   "text": "How much data d'you reckon you need?",
+   "from": "video"
+  },
+  {
+   "id": "tc-a7c06fd6",
+   "sp": "tc",
+   "text": "d'you reckon",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d5d075b0",
+   "sp": "tc",
+   "text": "How much data do you need?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-2e770a5c",
+   "sp": "me",
+   "text": "Sorry, how much data?",
+   "from": "video"
+  },
+  {
+   "id": "au-ae9f52fd",
+   "sp": "au",
+   "text": "How much data do you need?",
+   "from": "video"
+  },
+  {
+   "id": "au-baee61c9",
+   "sp": "au",
+   "text": "Okay, that's thirty dollars for the first month.",
+   "from": "video"
+  },
+  {
+   "id": "tc-a7d4a65b",
+   "sp": "tc",
+   "text": "thirty dollars",
+   "from": "video-say"
+  },
+  {
+   "id": "me-e3152dea",
+   "sp": "me",
+   "text": "Sorry, did you say thirteen dollars?",
+   "from": "video"
+  },
+  {
+   "id": "tc-08b89bbb",
+   "sp": "tc",
+   "text": "Can I pay by card?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-b64aa1db",
+   "sp": "me",
+   "text": "Sorry, did you say thirty dollars?",
+   "from": "video"
+  },
+  {
+   "id": "me-7eedfc00",
+   "sp": "me",
+   "text": "Card is okay?",
+   "from": "video"
+  },
+  {
+   "id": "tc-e8a4fddd",
+   "sp": "tc",
+   "text": "Here you go.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-4a4710ce",
+   "sp": "me",
+   "text": "Can I pay by card?",
+   "from": "video"
+  },
+  {
+   "id": "au-6d8146a6",
+   "sp": "au",
+   "text": "Is your phone unlocked?",
+   "from": "video"
+  },
+  {
+   "id": "tc-23d3be5b",
+   "sp": "tc",
+   "text": "Yes, I do.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-39bb1b46",
+   "sp": "tc",
+   "text": "Yes, I am.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-8bbb4c2b",
+   "sp": "me",
+   "text": "Yes, I am.",
+   "from": "video"
+  },
+  {
+   "id": "tc-649cb778",
+   "sp": "tc",
+   "text": "Yes, it is.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-f6aaa97f",
+   "sp": "me",
+   "text": "Yes, it is.",
+   "from": "video"
+  },
+  {
+   "id": "tc-54a9105a",
+   "sp": "tc",
+   "text": "five-five-five",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d11bdf3d",
+   "sp": "tc",
+   "text": "oh-one-four-seven",
+   "from": "video-say"
+  },
+  {
+   "id": "me-1e900430",
+   "sp": "me",
+   "text": "So, it's five hundred fifty-five, one hundred forty-seven?",
+   "from": "video"
+  },
+  {
+   "id": "me-3c1a17e4",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-seven-four?",
+   "from": "video"
+  },
+  {
+   "id": "au-1c5fe340",
+   "sp": "au",
+   "text": "No — it's five-five-five, oh-one-four-seven.",
+   "from": "video"
+  },
+  {
+   "id": "au-ab9c243a",
+   "sp": "au",
+   "text": "That's right.",
+   "from": "video"
+  },
+  {
+   "id": "au-ba4664d2",
+   "sp": "au",
+   "text": "Righto, new number's five-five-five, oh-one-four-seven.",
+   "from": "video"
+  },
+  {
+   "id": "tc-78d8ced0",
+   "sp": "tc",
+   "text": "Righto, new number's …",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9a1b34d2",
+   "sp": "tc",
+   "text": "Could you say the number again, slowly?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-62bf0d48",
+   "sp": "me",
+   "text": "Sorry, could you say the number again, slowly?",
+   "from": "video"
+  },
+  {
+   "id": "au-7f0ee911",
+   "sp": "au",
+   "text": "Would you like to set up auto top-up?",
+   "from": "video"
+  },
+  {
+   "id": "me-a13c4c46",
+   "sp": "me",
+   "text": "Sorry, what does top-up mean?",
+   "from": "video"
+  },
+  {
+   "id": "tc-8d42d1ac",
+   "sp": "tc",
+   "text": "top up · top-up",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c9042c1a",
+   "sp": "tc",
+   "text": "auto top-up",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-47e006ce",
+   "sp": "tc",
+   "text": "charge my phone",
+   "from": "video-say"
+  },
+  {
+   "id": "au-290df5ac",
+   "sp": "au",
+   "text": "It means we add money to your plan every month, automatically.",
+   "from": "video"
+  },
+  {
+   "id": "me-3b419dae",
+   "sp": "me",
+   "text": "No, thanks. I'll top it up myself.",
+   "from": "video"
+  },
+  {
+   "id": "us-318a9b76",
+   "sp": "us",
+   "text": "Good morning. What can I do for you today?",
+   "from": "video"
+  },
+  {
+   "id": "me-9d98bef3",
+   "sp": "me",
+   "text": "I want to make a bankbook.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2b5d82ec",
+   "sp": "tc",
+   "text": "open a bank account",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5584ec4a",
+   "sp": "tc",
+   "text": "a bankbook",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-faa48019",
+   "sp": "tc",
+   "text": "a debit card",
+   "from": "video-say"
+  },
+  {
+   "id": "me-574cff75",
+   "sp": "me",
+   "text": "Make me an account.",
+   "from": "video"
+  },
+  {
+   "id": "me-8494e6b7",
+   "sp": "me",
+   "text": "I'm an exchange student.",
+   "from": "video"
+  },
+  {
+   "id": "me-f34dad71",
+   "sp": "me",
+   "text": "I'd like to open a bank account, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-d125422b",
+   "sp": "us",
+   "text": "Would you like a checking account or a savings account?",
+   "from": "video"
+  },
+  {
+   "id": "tc-b7d5b5be",
+   "sp": "tc",
+   "text": "a checking account",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c365dab7",
+   "sp": "tc",
+   "text": "a savings account",
+   "from": "video-say"
+  },
+  {
+   "id": "me-ffa922c5",
+   "sp": "me",
+   "text": "A bankbook, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-a3ec3e51",
+   "sp": "me",
+   "text": "A checking account, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-d6283a45",
+   "sp": "us",
+   "text": "Are you a student?",
+   "from": "video"
+  },
+  {
+   "id": "me-2a96164a",
+   "sp": "me",
+   "text": "Yes, I do.",
+   "from": "video"
+  },
+  {
+   "id": "me-541076c1",
+   "sp": "me",
+   "text": "Yes, I am. I'm an exchange student at Kellport University.",
+   "from": "video"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "video"
+  },
+  {
+   "id": "us-8e2c074b",
+   "sp": "us",
+   "text": "Can I see your passport, please?",
+   "from": "video"
+  },
+  {
+   "id": "tc-e521cb1e",
+   "sp": "tc",
+   "text": "Here's my passport.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0e916248",
+   "sp": "tc",
+   "text": "Here's my student ID.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d3bfbb2d",
+   "sp": "tc",
+   "text": "Here's my housing contract.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-446cfbc5",
+   "sp": "tc",
+   "text": "Here's a letter from my university.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-437defdb",
+   "sp": "us",
+   "text": "Do you have a second form of ID?",
+   "from": "video"
+  },
+  {
+   "id": "me-90c7a89b",
+   "sp": "me",
+   "text": "Yes, I have.",
+   "from": "video"
+  },
+  {
+   "id": "me-5f89a60e",
+   "sp": "me",
+   "text": "Yes, I do. Here's my student ID.",
+   "from": "video"
+  },
+  {
+   "id": "us-1f2b1765",
+   "sp": "us",
+   "text": "Do you have proof of address?",
+   "from": "video"
+  },
+  {
+   "id": "me-bf8959d5",
+   "sp": "me",
+   "text": "Yes. Here's my dormitory paper.",
+   "from": "video"
+  },
+  {
+   "id": "me-4b08527f",
+   "sp": "me",
+   "text": "Yes, I do. Here's my housing contract.",
+   "from": "video"
+  },
+  {
+   "id": "me-89f7a6af",
+   "sp": "me",
+   "text": "No, I don't.",
+   "from": "video"
+  },
+  {
+   "id": "me-eba8985d",
+   "sp": "me",
+   "text": "No, I don't. Would a letter from my university work?",
+   "from": "video"
+  },
+  {
+   "id": "us-6c356d4c",
+   "sp": "us",
+   "text": "Yes, a letter from your university works.",
+   "from": "video"
+  },
+  {
+   "id": "us-a4196aaf",
+   "sp": "us",
+   "text": "Got some ID?",
+   "from": "video"
+  },
+  {
+   "id": "me-8922aa8e",
+   "sp": "me",
+   "text": "Sorry, did you ask for my ID?",
+   "from": "video"
+  },
+  {
+   "id": "us-505a9d5c",
+   "sp": "us",
+   "text": "Yes — can I see your passport?",
+   "from": "video"
+  },
+  {
+   "id": "ca-daa2041b",
+   "sp": "ca",
+   "text": "Okay. What's your address here?",
+   "from": "video"
+  },
+  {
+   "id": "me-02b5d1d5",
+   "sp": "me",
+   "text": "I live in a dormitory.",
+   "from": "video"
+  },
+  {
+   "id": "ca-edb88bb3",
+   "sp": "ca",
+   "text": "Okay — and what's the full address?",
+   "from": "video"
+  },
+  {
+   "id": "me-3bb5c2fc",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, two hundred College Avenue, Maple Hall, Room four-twelve.",
+   "from": "video"
+  },
+  {
+   "id": "tc-bdcdb5eb",
+   "sp": "tc",
+   "text": "It's Room four-twelve, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-fa4561d8",
+   "sp": "me",
+   "text": "It's Room four-twelve, Maple Hall, College Avenue 200, Kellport, four-oh-two-one-three.",
+   "from": "video"
+  },
+  {
+   "id": "ca-f2d4fb08",
+   "sp": "ca",
+   "text": "Oh — two hundred College Avenue?",
+   "from": "video"
+  },
+  {
+   "id": "me-9acb58a9",
+   "sp": "me",
+   "text": "It's Room four-twenty-one, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "video"
+  },
+  {
+   "id": "ca-07d89280",
+   "sp": "ca",
+   "text": "Sorry — Room four-twenty-one? Could you check that for me?",
+   "from": "video"
+  },
+  {
+   "id": "me-37868143",
+   "sp": "me",
+   "text": "It's Room four-twelve, Maple Hall, Kellport, four-oh-two-one-three.",
+   "from": "video"
+  },
+  {
+   "id": "ca-6715b023",
+   "sp": "ca",
+   "text": "And the street address?",
+   "from": "video"
+  },
+  {
+   "id": "me-02924644",
+   "sp": "me",
+   "text": "It's Room four-twelve, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "video"
+  },
+  {
+   "id": "ca-2935a92f",
+   "sp": "ca",
+   "text": "Great, thank you.",
+   "from": "video"
+  },
+  {
+   "id": "tc-bc0b177c",
+   "sp": "tc",
+   "text": "Room four-twelve. four-oh-two-one-three.",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-226b82ea",
+   "sp": "ca",
+   "text": "And what's a good phone number for you?",
+   "from": "video"
+  },
+  {
+   "id": "me-d28fb279",
+   "sp": "me",
+   "text": "It's five hundred fifty-five, one hundred forty-seven.",
+   "from": "video"
+  },
+  {
+   "id": "me-1e5c7815",
+   "sp": "me",
+   "text": "It's five-five-five, oh-one-seven-four.",
+   "from": "video"
+  },
+  {
+   "id": "me-c5a2a7b1",
+   "sp": "me",
+   "text": "It's five-five-five, oh-one-four-seven.",
+   "from": "video"
+  },
+  {
+   "id": "ca-7733892d",
+   "sp": "ca",
+   "text": "Great. Please sign here.",
+   "from": "video"
+  },
+  {
+   "id": "me-165045a7",
+   "sp": "me",
+   "text": "Okay. I'll do my sign.",
+   "from": "video"
+  },
+  {
+   "id": "me-5293dfb3",
+   "sp": "me",
+   "text": "Sure. Right here?",
+   "from": "video"
+  },
+  {
+   "id": "ca-26fd12fa",
+   "sp": "ca",
+   "text": "And what's the address there?",
+   "from": "video"
+  },
+  {
+   "id": "me-18d5ded5",
+   "sp": "me",
+   "text": "Sorry, did you ask for my address?",
+   "from": "video"
+  },
+  {
+   "id": "ca-644c3440",
+   "sp": "ca",
+   "text": "Would you like a debit card with your account?",
+   "from": "video"
+  },
+  {
+   "id": "me-0651fc45",
+   "sp": "me",
+   "text": "Yes, a check card, please.",
+   "from": "video"
+  },
+  {
+   "id": "ca-a830dfd9",
+   "sp": "ca",
+   "text": "Please enter a four-digit PIN on the keypad.",
+   "from": "video"
+  },
+  {
+   "id": "me-0e0bc472",
+   "sp": "me",
+   "text": "It's seven-three-nine-one.",
+   "from": "video"
+  },
+  {
+   "id": "ca-6d673cae",
+   "sp": "ca",
+   "text": "Oh — please don't say it out loud! Just type it on the keypad.",
+   "from": "video"
+  },
+  {
+   "id": "me-f6033158",
+   "sp": "me",
+   "text": "Okay. Thank you.",
+   "from": "video"
+  },
+  {
+   "id": "ca-90473588",
+   "sp": "ca",
+   "text": "All done.",
+   "from": "video"
+  },
+  {
+   "id": "ca-9f788148",
+   "sp": "ca",
+   "text": "Is there anything else I can help you with?",
+   "from": "video"
+  },
+  {
+   "id": "me-81c125d9",
+   "sp": "me",
+   "text": "Where is ATM?",
+   "from": "video"
+  },
+  {
+   "id": "me-e7bdb6c0",
+   "sp": "me",
+   "text": "Yes. Could you tell me where the nearest ATM is?",
+   "from": "video"
+  },
+  {
+   "id": "ca-d7751203",
+   "sp": "ca",
+   "text": "Sure. It's right outside, on your left.",
+   "from": "video"
+  },
+  {
+   "id": "tc-6c15abd6",
+   "sp": "tc",
+   "text": "At today's rate, that comes to two hundred forty dollars.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1a40d127",
+   "sp": "tc",
+   "text": "Would you like a prepaid plan or a monthly plan?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9a2391d2",
+   "sp": "tc",
+   "text": "Alright, you're all set. Your new number is five-five-five, oh-one-four-seven.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f133e9bc",
+   "sp": "tc",
+   "text": "Do you have proof of address?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-be31c39e",
+   "sp": "tc",
+   "text": "Please enter a four-digit PIN on the keypad.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2eefd04d",
+   "sp": "tc",
+   "text": "So, that's two hundred forty dollars?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b5b84221",
+   "sp": "tc",
+   "text": "Prepaid, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b7c5d8f8",
+   "sp": "tc",
+   "text": "I'd like to open a bank account, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-21d67494",
+   "sp": "tc",
+   "text": "No, I don't. Would a letter from my university work?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-617d7d39",
+   "sp": "tc",
+   "text": "Okay. Thank you.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a32711a3",
+   "sp": "tc",
+   "text": "Yes.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-cae8d199",
+   "sp": "tc",
+   "text": "Sixty thousand won, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8d0fad0a",
+   "sp": "tc",
+   "text": "Six hundred thousand won, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "au-dacd9f38",
+   "sp": "au",
+   "text": "Alright, you're all set. Your new number is five-five-five, oh-one-six-two.",
+   "from": "video"
+  },
+  {
+   "id": "tc-6bc0f583",
+   "sp": "tc",
+   "text": "Okay. Thanks.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2592111e",
+   "sp": "tc",
+   "text": "So, it's five-five-five, oh-one-two-six?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ebda995a",
+   "sp": "tc",
+   "text": "So, it's five-five-five, oh-one-six-two?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-aa8298e6",
+   "sp": "tc",
+   "text": "No, I don't.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a378564a",
+   "sp": "tc",
+   "text": "Yes, I do. Here's my housing contract.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2df20d81",
+   "sp": "tc",
+   "text": "It's Kellport, four-oh-two-one-three, three hundred College Avenue, Cedar Hall, Room three-fifteen.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-21be3da4",
+   "sp": "tc",
+   "text": "It's Room three-fifteen, Cedar Hall, College Avenue 300, Kellport, four-oh-two-one-three.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ddbaac69",
+   "sp": "tc",
+   "text": "It's Room three-fifteen, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-56a01ffe",
+   "sp": "tc",
+   "text": "Three hundred thousand won, please. · So, that's two hundred forty dollars?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-62aa22cf",
+   "sp": "tc",
+   "text": "Prepaid, please. · fifteen gigabytes, please. · For six months.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-15fac34a",
+   "sp": "tc",
+   "text": "Yes, it is. · So, it's five-five-five, oh-one-four-seven?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-31607dc7",
+   "sp": "tc",
+   "text": "I'd like to open a bank account, please. · A checking account, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6b359c06",
+   "sp": "tc",
+   "text": "Here's my passport. No, I don't. Would a letter from my university work?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5719b181",
+   "sp": "tc",
+   "text": "It's Room four-twelve, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three. It's five-five-five, oh-one-four-seven.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a2513d9c",
+   "sp": "tc",
+   "text": "Yes, please. · Okay. · Yes. Could you tell me where the nearest ATM is?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5c7a38b3",
+   "sp": "tc",
+   "text": "three hundred thousand won. five-five-five, oh-one-four-seven.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-db25c135",
+   "sp": "tc",
+   "text": "Sorry, could you say the number again, slowly? · Sorry, what does top-up mean?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ef4b7555",
+   "sp": "tc",
+   "text": "I'd like to change three hundred thousand won into US dollars, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fda1a9a7",
+   "sp": "tc",
+   "text": "I'd like to get a SIM card for my phone, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1dcd4bc6",
+   "sp": "tc",
+   "text": "Would you like a checking account or a savings account?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-acee7fce",
+   "sp": "tc",
+   "text": "A checking account, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d5184d77",
+   "sp": "tc",
+   "text": "Sure. Here's my passport.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a36e15f3",
+   "sp": "tc",
+   "text": "And what's a good phone number for you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c5d10e0e",
+   "sp": "tc",
+   "text": "It's five-five-five, oh-one-four-seven.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1284aa1",
+   "sp": "tc",
+   "text": "Yes, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-8cc91bdd",
+   "sp": "me",
+   "text": "Here's my passport.",
+   "from": "lab"
+  },
+  {
+   "id": "me-28381e5f",
+   "sp": "me",
+   "text": "Here's my student ID.",
+   "from": "lab"
+  },
+  {
+   "id": "me-aec633aa",
+   "sp": "me",
+   "text": "Here's my housing contract.",
+   "from": "lab"
+  },
+  {
+   "id": "me-25b92de6",
+   "sp": "me",
+   "text": "Here's a letter from my university.",
+   "from": "lab"
+  },
+  {
+   "id": "me-87104c27",
+   "sp": "me",
+   "text": "Two hundred thousand won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-acde13aa",
+   "sp": "me",
+   "text": "Large bills, please.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-2396e161",
+   "sp": "gb",
+   "text": "At today's rate, that comes to one hundred sixty dollars.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4e2f1719",
+   "sp": "me",
+   "text": "So, that's one hundred sixty dollars?",
+   "from": "lab"
+  },
+  {
+   "id": "me-32bc9a04",
+   "sp": "me",
+   "text": "Twenty man won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-8e96d24e",
+   "sp": "me",
+   "text": "Twenty thousand won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6250f4d7",
+   "sp": "me",
+   "text": "Two million won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-71f8a269",
+   "sp": "me",
+   "text": "Six hundred thousand won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-3aed7f62",
+   "sp": "gb",
+   "text": "At today's rate, that comes to four hundred eighty dollars.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5ace3faa",
+   "sp": "me",
+   "text": "So, that's four hundred eighty dollars?",
+   "from": "lab"
+  },
+  {
+   "id": "me-2defee98",
+   "sp": "me",
+   "text": "Sixty man won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-bd9d4a12",
+   "sp": "me",
+   "text": "Sixty thousand won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-970f9239",
+   "sp": "me",
+   "text": "Six million won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-25699b18",
+   "sp": "me",
+   "text": "Seven hundred thousand won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-7d18e3eb",
+   "sp": "gb",
+   "text": "At today's rate, that comes to five hundred sixty dollars.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a6a12c65",
+   "sp": "me",
+   "text": "So, that's five hundred sixty dollars?",
+   "from": "lab"
+  },
+  {
+   "id": "me-f12fd23f",
+   "sp": "me",
+   "text": "Seventy man won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-d283689f",
+   "sp": "me",
+   "text": "Seventy thousand won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-35aed48a",
+   "sp": "me",
+   "text": "Seven million won, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-64643bdb",
+   "sp": "me",
+   "text": "For four months.",
+   "from": "lab"
+  },
+  {
+   "id": "me-05c0c08b",
+   "sp": "me",
+   "text": "During four months.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f708c600",
+   "sp": "me",
+   "text": "For ten months.",
+   "from": "lab"
+  },
+  {
+   "id": "me-001b2ab0",
+   "sp": "me",
+   "text": "During ten months.",
+   "from": "lab"
+  },
+  {
+   "id": "me-8e5d665a",
+   "sp": "me",
+   "text": "fifty gigabytes, please.",
+   "from": "lab"
+  },
+  {
+   "id": "au-dacf8600",
+   "sp": "au",
+   "text": "Okay, that's forty-five dollars for the first month.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b0325400",
+   "sp": "me",
+   "text": "Unlimited data, please.",
+   "from": "lab"
+  },
+  {
+   "id": "au-aae8ce24",
+   "sp": "au",
+   "text": "Okay, that's sixty dollars for the first month.",
+   "from": "lab"
+  },
+  {
+   "id": "au-6f4b9ee6",
+   "sp": "au",
+   "text": "Five hundred…? Oh — five-five-five?",
+   "from": "lab"
+  },
+  {
+   "id": "au-b25f9fd3",
+   "sp": "au",
+   "text": "Sure. Did you get that number?",
+   "from": "lab"
+  },
+  {
+   "id": "me-f6ccd37f",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-six-two?",
+   "from": "lab"
+  },
+  {
+   "id": "me-e90df5eb",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-two-six?",
+   "from": "lab"
+  },
+  {
+   "id": "au-2e2c9345",
+   "sp": "au",
+   "text": "No — it's five-five-five, oh-one-six-two.",
+   "from": "lab"
+  },
+  {
+   "id": "me-df6b77e8",
+   "sp": "me",
+   "text": "So, it's five hundred fifty-five, one hundred sixty-two?",
+   "from": "lab"
+  },
+  {
+   "id": "me-73b583e4",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-three-eight?",
+   "from": "lab"
+  },
+  {
+   "id": "au-fd4fe94b",
+   "sp": "au",
+   "text": "Alright, you're all set. Your new number is five-five-five, oh-one-three-eight.",
+   "from": "lab"
+  },
+  {
+   "id": "me-bb04fc14",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-eight-three?",
+   "from": "lab"
+  },
+  {
+   "id": "au-73292bba",
+   "sp": "au",
+   "text": "No — it's five-five-five, oh-one-three-eight.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e8dfd8d8",
+   "sp": "me",
+   "text": "So, it's five hundred fifty-five, one hundred thirty-eight?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b0dde17e",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-eight-five?",
+   "from": "lab"
+  },
+  {
+   "id": "au-bdcb565d",
+   "sp": "au",
+   "text": "Alright, you're all set. Your new number is five-five-five, oh-one-eight-five.",
+   "from": "lab"
+  },
+  {
+   "id": "me-369831e2",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-five-eight?",
+   "from": "lab"
+  },
+  {
+   "id": "au-efe8eeba",
+   "sp": "au",
+   "text": "No — it's five-five-five, oh-one-eight-five.",
+   "from": "lab"
+  },
+  {
+   "id": "me-d578ce6b",
+   "sp": "me",
+   "text": "So, it's five hundred fifty-five, one hundred eighty-five?",
+   "from": "lab"
+  },
+  {
+   "id": "me-98467f83",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-two-nine?",
+   "from": "lab"
+  },
+  {
+   "id": "au-dff5cc9c",
+   "sp": "au",
+   "text": "Alright, you're all set. Your new number is five-five-five, oh-one-two-nine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ffdaf741",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-nine-two?",
+   "from": "lab"
+  },
+  {
+   "id": "au-dafd6a73",
+   "sp": "au",
+   "text": "No — it's five-five-five, oh-one-two-nine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4490183c",
+   "sp": "me",
+   "text": "So, it's five hundred fifty-five, one hundred twenty-nine?",
+   "from": "lab"
+  },
+  {
+   "id": "me-16ea7f5b",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-five-three?",
+   "from": "lab"
+  },
+  {
+   "id": "au-9ab3c834",
+   "sp": "au",
+   "text": "Alright, you're all set. Your new number is five-five-five, oh-one-five-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e8580a5d",
+   "sp": "me",
+   "text": "So, it's five-five-five, oh-one-three-five?",
+   "from": "lab"
+  },
+  {
+   "id": "au-1db0cd2f",
+   "sp": "au",
+   "text": "No — it's five-five-five, oh-one-five-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-bcff3765",
+   "sp": "me",
+   "text": "So, it's five hundred fifty-five, one hundred fifty-three?",
+   "from": "lab"
+  },
+  {
+   "id": "me-22e701b8",
+   "sp": "me",
+   "text": "A savings account, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9f133be4",
+   "sp": "me",
+   "text": "No, it isn't.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f823dd7b",
+   "sp": "me",
+   "text": "No, thanks.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4d042e88",
+   "sp": "me",
+   "text": "No.",
+   "from": "lab"
+  },
+  {
+   "id": "us-49b77df4",
+   "sp": "us",
+   "text": "Thank you.",
+   "from": "lab"
+  },
+  {
+   "id": "us-fa9197bf",
+   "sp": "us",
+   "text": "Great — may I see it?",
+   "from": "lab"
+  },
+  {
+   "id": "us-b60963d6",
+   "sp": "us",
+   "text": "Hmm, are you sure?",
+   "from": "lab"
+  },
+  {
+   "id": "us-c16b10b3",
+   "sp": "us",
+   "text": "You have…?",
+   "from": "lab"
+  },
+  {
+   "id": "us-f2ae12e5",
+   "sp": "us",
+   "text": "Sorry — do you have one?",
+   "from": "lab"
+  },
+  {
+   "id": "us-0e21e772",
+   "sp": "us",
+   "text": "Perfect.",
+   "from": "lab"
+  },
+  {
+   "id": "us-1a857e49",
+   "sp": "us",
+   "text": "I see. Hmm, we need proof of address for a new account.",
+   "from": "lab"
+  },
+  {
+   "id": "us-1874f79c",
+   "sp": "us",
+   "text": "Your dormitory paper…? Is your address on it?",
+   "from": "lab"
+  },
+  {
+   "id": "me-bc0608c0",
+   "sp": "me",
+   "text": "It's Room two-twelve, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-7a0c2f94",
+   "sp": "me",
+   "text": "It's Room two-twelve, Maple Hall, College Avenue 200, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-095bd5bd",
+   "sp": "me",
+   "text": "It's Room two-twenty-one, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-c8db8f54",
+   "sp": "ca",
+   "text": "Sorry — Room two-twenty-one? Could you check that for me?",
+   "from": "lab"
+  },
+  {
+   "id": "me-7e9d7c1c",
+   "sp": "me",
+   "text": "It's Room two-twelve, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-e124ad12",
+   "sp": "ca",
+   "text": "Sorry — Kellport, four-oh-two-three-one? Could you check that for me?",
+   "from": "lab"
+  },
+  {
+   "id": "me-4c6144ae",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, two hundred College Avenue, Maple Hall, Room two-twelve.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-d3fa3a07",
+   "sp": "ca",
+   "text": "Sorry — let me write that down. What's the room number first?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a1daaea8",
+   "sp": "me",
+   "text": "It's Maple Hall, Room two-twelve, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-f309e6c3",
+   "sp": "ca",
+   "text": "Sorry, could you say that again?",
+   "from": "lab"
+  },
+  {
+   "id": "me-f7349e3d",
+   "sp": "me",
+   "text": "It's Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-c77c8900",
+   "sp": "ca",
+   "text": "And the room number?",
+   "from": "lab"
+  },
+  {
+   "id": "me-3130e71c",
+   "sp": "me",
+   "text": "It's Room two-twelve, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-d0d65d2a",
+   "sp": "ca",
+   "text": "And the building?",
+   "from": "lab"
+  },
+  {
+   "id": "me-55f7acdf",
+   "sp": "me",
+   "text": "It's Room two-twelve, Maple Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-57f5343a",
+   "sp": "me",
+   "text": "It's Room two-twelve, Maple Hall, two hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-239da846",
+   "sp": "ca",
+   "text": "And the city and ZIP code?",
+   "from": "lab"
+  },
+  {
+   "id": "me-1fdd7da8",
+   "sp": "me",
+   "text": "It's Room two-twelve, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1b0950e9",
+   "sp": "me",
+   "text": "It's Room two-twelve, Cedar Hall, College Avenue 300, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-69e33616",
+   "sp": "ca",
+   "text": "Oh — three hundred College Avenue?",
+   "from": "lab"
+  },
+  {
+   "id": "me-2dde2235",
+   "sp": "me",
+   "text": "It's Room two-twenty-one, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-fc770a64",
+   "sp": "me",
+   "text": "It's Room two-twelve, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e067004e",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, three hundred College Avenue, Cedar Hall, Room two-twelve.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6450de14",
+   "sp": "me",
+   "text": "It's Cedar Hall, Room two-twelve, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9c555eb5",
+   "sp": "me",
+   "text": "It's Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b4e3eb4e",
+   "sp": "me",
+   "text": "It's Room two-twelve, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3b5d4275",
+   "sp": "me",
+   "text": "It's Room two-twelve, Cedar Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ba3ece82",
+   "sp": "me",
+   "text": "It's Room two-twelve, Cedar Hall, three hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-16d3d693",
+   "sp": "me",
+   "text": "It's Room two-twelve, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9af508d0",
+   "sp": "me",
+   "text": "It's Room two-twelve, Birch Hall, College Avenue 500, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-78650986",
+   "sp": "ca",
+   "text": "Oh — five hundred College Avenue?",
+   "from": "lab"
+  },
+  {
+   "id": "me-19571178",
+   "sp": "me",
+   "text": "It's Room two-twenty-one, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1aca48d7",
+   "sp": "me",
+   "text": "It's Room two-twelve, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b98fe7c1",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, five hundred College Avenue, Birch Hall, Room two-twelve.",
+   "from": "lab"
+  },
+  {
+   "id": "me-44642ae9",
+   "sp": "me",
+   "text": "It's Birch Hall, Room two-twelve, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-059ab2f8",
+   "sp": "me",
+   "text": "It's Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-66ff856c",
+   "sp": "me",
+   "text": "It's Room two-twelve, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-0c813f2e",
+   "sp": "me",
+   "text": "It's Room two-twelve, Birch Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ac40e533",
+   "sp": "me",
+   "text": "It's Room two-twelve, Birch Hall, five hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-dd115336",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-10451f6e",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Maple Hall, College Avenue 200, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-0ff4e598",
+   "sp": "me",
+   "text": "It's Room three-fifty-one, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-f1c30159",
+   "sp": "ca",
+   "text": "Sorry — Room three-fifty-one? Could you check that for me?",
+   "from": "lab"
+  },
+  {
+   "id": "me-8fba7102",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a33bf4d6",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, two hundred College Avenue, Maple Hall, Room three-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-fe5414d6",
+   "sp": "me",
+   "text": "It's Maple Hall, Room three-fifteen, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-66b9a282",
+   "sp": "me",
+   "text": "It's Room three-fifteen, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ef7bfab1",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Maple Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-13540ccc",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Maple Hall, two hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5f7b521a",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-490c65b3",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Cedar Hall, College Avenue 300, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4751f620",
+   "sp": "me",
+   "text": "It's Room three-fifty-one, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a65c0696",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-67a04076",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, three hundred College Avenue, Cedar Hall, Room three-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-41893d52",
+   "sp": "me",
+   "text": "It's Cedar Hall, Room three-fifteen, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-218a5d30",
+   "sp": "me",
+   "text": "It's Room three-fifteen, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ac13d8a7",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Cedar Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-02b74f48",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Cedar Hall, three hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-2a26a649",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-db9e63f2",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Birch Hall, College Avenue 500, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6b79f95b",
+   "sp": "me",
+   "text": "It's Room three-fifty-one, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1e80f58d",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ff5fe913",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, five hundred College Avenue, Birch Hall, Room three-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-7ce457e1",
+   "sp": "me",
+   "text": "It's Birch Hall, Room three-fifteen, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ae2be886",
+   "sp": "me",
+   "text": "It's Room three-fifteen, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-856060dc",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Birch Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3fb38845",
+   "sp": "me",
+   "text": "It's Room three-fifteen, Birch Hall, five hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b00ad7b0",
+   "sp": "me",
+   "text": "It's Room four-twelve, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3a34d924",
+   "sp": "me",
+   "text": "It's Maple Hall, Room four-twelve, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-02039830",
+   "sp": "me",
+   "text": "It's Room four-twelve, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1565c9d6",
+   "sp": "me",
+   "text": "It's Room four-twelve, Maple Hall, two hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-fc8d0054",
+   "sp": "me",
+   "text": "It's Room four-twelve, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-25343605",
+   "sp": "me",
+   "text": "It's Room four-twelve, Cedar Hall, College Avenue 300, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-04cafb69",
+   "sp": "me",
+   "text": "It's Room four-twenty-one, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-730441c0",
+   "sp": "me",
+   "text": "It's Room four-twelve, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a389aa9c",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, three hundred College Avenue, Cedar Hall, Room four-twelve.",
+   "from": "lab"
+  },
+  {
+   "id": "me-311fca38",
+   "sp": "me",
+   "text": "It's Cedar Hall, Room four-twelve, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6ce26682",
+   "sp": "me",
+   "text": "It's Room four-twelve, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1717b6b1",
+   "sp": "me",
+   "text": "It's Room four-twelve, Cedar Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-8e2328e6",
+   "sp": "me",
+   "text": "It's Room four-twelve, Cedar Hall, three hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f5c4c247",
+   "sp": "me",
+   "text": "It's Room four-twelve, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-0fe05634",
+   "sp": "me",
+   "text": "It's Room four-twelve, Birch Hall, College Avenue 500, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ce5527d4",
+   "sp": "me",
+   "text": "It's Room four-twenty-one, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-21e61dfb",
+   "sp": "me",
+   "text": "It's Room four-twelve, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e4123095",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, five hundred College Avenue, Birch Hall, Room four-twelve.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f7c52b5b",
+   "sp": "me",
+   "text": "It's Birch Hall, Room four-twelve, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a2febc28",
+   "sp": "me",
+   "text": "It's Room four-twelve, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-470ebdfa",
+   "sp": "me",
+   "text": "It's Room four-twelve, Birch Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4f84879f",
+   "sp": "me",
+   "text": "It's Room four-twelve, Birch Hall, five hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-12fc889c",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-8475f920",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Maple Hall, College Avenue 200, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-63b3b64a",
+   "sp": "me",
+   "text": "It's Room five-eighty-one, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-d0e2b43f",
+   "sp": "ca",
+   "text": "Sorry — Room five-eighty-one? Could you check that for me?",
+   "from": "lab"
+  },
+  {
+   "id": "me-e3f07be8",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ffcb5b2c",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, two hundred College Avenue, Maple Hall, Room five-eighteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a9188d9c",
+   "sp": "me",
+   "text": "It's Maple Hall, Room five-eighteen, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ebe56b08",
+   "sp": "me",
+   "text": "It's Room five-eighteen, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-0e182d9b",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Maple Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e154e1ae",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Maple Hall, two hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5b343e0c",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-92b0330d",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Cedar Hall, College Avenue 300, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-eb514cd6",
+   "sp": "me",
+   "text": "It's Room five-eighty-one, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b2f7b5d8",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4cc737cc",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, three hundred College Avenue, Cedar Hall, Room five-eighteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-cc27703c",
+   "sp": "me",
+   "text": "It's Cedar Hall, Room five-eighteen, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-8bd306ba",
+   "sp": "me",
+   "text": "It's Room five-eighteen, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-af3b5669",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Cedar Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f817009e",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Cedar Hall, three hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4830db4f",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3aa13cbc",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Birch Hall, College Avenue 500, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-02407d7d",
+   "sp": "me",
+   "text": "It's Room five-eighty-one, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ad95f0e3",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-30459cd1",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, five hundred College Avenue, Birch Hall, Room five-eighteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-aa9961cb",
+   "sp": "me",
+   "text": "It's Birch Hall, Room five-eighteen, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a3c3a4b0",
+   "sp": "me",
+   "text": "It's Room five-eighteen, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-00c17072",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Birch Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-cf35f7c7",
+   "sp": "me",
+   "text": "It's Room five-eighteen, Birch Hall, five hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b53c09fb",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-07f5e0b7",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Maple Hall, College Avenue 200, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-7b595dda",
+   "sp": "me",
+   "text": "It's Room six-forty-one, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-5da36503",
+   "sp": "ca",
+   "text": "Sorry — Room six-forty-one? Could you check that for me?",
+   "from": "lab"
+  },
+  {
+   "id": "me-981c525f",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Maple Hall, two hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1fa617ff",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, two hundred College Avenue, Maple Hall, Room six-fourteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6798aa13",
+   "sp": "me",
+   "text": "It's Maple Hall, Room six-fourteen, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-8dc6df27",
+   "sp": "me",
+   "text": "It's Room six-fourteen, two hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-90dd3a50",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Maple Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-2a93a69b",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Maple Hall, two hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1cd8ff37",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6b3d8de2",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Cedar Hall, College Avenue 300, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-50156326",
+   "sp": "me",
+   "text": "It's Room six-forty-one, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-03528a2b",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Cedar Hall, three hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-51855b1f",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, three hundred College Avenue, Cedar Hall, Room six-fourteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-812ae3eb",
+   "sp": "me",
+   "text": "It's Cedar Hall, Room six-fourteen, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a97cbbd1",
+   "sp": "me",
+   "text": "It's Room six-fourteen, three hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-7ae354f2",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Cedar Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ff421acf",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Cedar Hall, three hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5b1ed9c6",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-64c5c91b",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Birch Hall, College Avenue 500, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-8c00e90d",
+   "sp": "me",
+   "text": "It's Room six-forty-one, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e8ccd492",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Birch Hall, five hundred College Avenue, Kellport, four-oh-two-three-one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-fb150850",
+   "sp": "me",
+   "text": "It's Kellport, four-oh-two-one-three, five hundred College Avenue, Birch Hall, Room six-fourteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6376c7b0",
+   "sp": "me",
+   "text": "It's Birch Hall, Room six-fourteen, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3c4974f9",
+   "sp": "me",
+   "text": "It's Room six-fourteen, five hundred College Avenue, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-835c7e3d",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Birch Hall, Kellport, four-oh-two-one-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-c85fae9c",
+   "sp": "me",
+   "text": "It's Room six-fourteen, Birch Hall, five hundred College Avenue.",
+   "from": "lab"
+  },
+  {
+   "id": "me-41de2ab2",
+   "sp": "me",
+   "text": "No, that's everything. Thank you!",
+   "from": "lab"
+  },
+  {
+   "id": "ca-afb1e21d",
+   "sp": "ca",
+   "text": "You're welcome. Have a great day!",
+   "from": "lab"
+  },
+  {
+   "id": "me-57be9606",
+   "sp": "me",
+   "text": "I'd like to change seventy thousand won into US dollars, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-63c50f15",
+   "sp": "me",
+   "text": "I'd like to change seven hundred thousand won into US dollars, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-71827e20",
+   "sp": "me",
+   "text": "It's two-five-eight-zero.",
+   "from": "drill"
+  },
+  {
+   "id": "me-a03a6157",
+   "sp": "me",
+   "text": "I'd like to change sixty thousand won into US dollars, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-ae594850",
+   "sp": "me",
+   "text": "I'd like to change six hundred thousand won into US dollars, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-3b3741c1",
+   "sp": "me",
+   "text": "It's five-five-five, oh-one-three-eight.",
+   "from": "drill"
+  },
+  {
+   "id": "me-474d0085",
+   "sp": "me",
+   "text": "It's five hundred fifty-five, one hundred thirty-eight.",
+   "from": "drill"
+  },
+  {
+   "id": "me-94b76619",
+   "sp": "me",
+   "text": "It's five-five-five, oh-one-eight-three.",
+   "from": "drill"
+  },
+  {
+   "id": "me-b3d5b527",
+   "sp": "me",
+   "text": "Prepaid, please. I'm here for six months.",
+   "from": "shadow"
+  },
+  {
+   "id": "gb-dc5f6e8c",
+   "sp": "gb",
+   "text": "Hiya, what can I do for you?",
+   "from": "q"
+  }
+ ]
+}
