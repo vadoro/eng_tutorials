@@ -1,0 +1,1712 @@
+{
+ "slug": "pharmacy",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 1,
+  "ca": 27,
+  "gb": 9,
+  "me": 126,
+  "tc": 86,
+  "us": 34
+ },
+ "lines": [
+  {
+   "id": "us-9e4bdef7",
+   "sp": "us",
+   "text": "Hi there. What can I get for you today?",
+   "from": "video"
+  },
+  {
+   "id": "me-280869d4",
+   "sp": "me",
+   "text": "I have a sore throat.",
+   "from": "video"
+  },
+  {
+   "id": "us-35c94148",
+   "sp": "us",
+   "text": "Oh, okay… so what would you like?",
+   "from": "video"
+  },
+  {
+   "id": "me-f11d4825",
+   "sp": "me",
+   "text": "I have a sore throat. Could you recommend something for it?",
+   "from": "video"
+  },
+  {
+   "id": "us-8d566398",
+   "sp": "us",
+   "text": "Take two tablets three times a day after meals, for five days.",
+   "from": "video"
+  },
+  {
+   "id": "me-bd17fdf4",
+   "sp": "me",
+   "text": "Okay. Thanks.",
+   "from": "video"
+  },
+  {
+   "id": "me-8fa0a700",
+   "sp": "me",
+   "text": "So, I take two tablets, three times a day, after meals, for five days?",
+   "from": "video"
+  },
+  {
+   "id": "tc-470f3f8f",
+   "sp": "tc",
+   "text": "Tablets or liquid?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8ec17db1",
+   "sp": "tc",
+   "text": "So, I take two tablets, three times a day, after meals, for five days?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8e1c874d",
+   "sp": "tc",
+   "text": "Could you recommend something for it?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6bbf21fe",
+   "sp": "tc",
+   "text": "Hi there. What can I get for you today?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-baafd888",
+   "sp": "tc",
+   "text": "Okay. How long have you had it?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bc355aef",
+   "sp": "tc",
+   "text": "Take two tablets three times a day after meals, for five days.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5eb15dd6",
+   "sp": "tc",
+   "text": "Hi there. Do you have an appointment?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ee13afd3",
+   "sp": "tc",
+   "text": "Hi, I'm Dr. Hall. So, what seems to be the problem?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1b875d5",
+   "sp": "tc",
+   "text": "Okay. Where does it hurt?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-369d6195",
+   "sp": "tc",
+   "text": "I'm going to give you some antibiotics. Take one capsule twice a day with food, for seven days.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8227e583",
+   "sp": "tc",
+   "text": "I have a sore throat.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d0004e1c",
+   "sp": "tc",
+   "text": "I have a cough.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-57130fbc",
+   "sp": "tc",
+   "text": "I have a stomachache.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f2f54c9d",
+   "sp": "tc",
+   "text": "I have an earache.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-fa4eac81",
+   "sp": "me",
+   "text": "My throat is sick.",
+   "from": "video"
+  },
+  {
+   "id": "me-9ef031d9",
+   "sp": "me",
+   "text": "Give me medicine for a sore throat.",
+   "from": "video"
+  },
+  {
+   "id": "me-044cddbb",
+   "sp": "me",
+   "text": "I have a sore throat. Do you have anything for it?",
+   "from": "video"
+  },
+  {
+   "id": "tc-6d8a7853",
+   "sp": "tc",
+   "text": "Do you have anything for it?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-1d8c9ed9",
+   "sp": "us",
+   "text": "Okay. How long have you had it?",
+   "from": "video"
+  },
+  {
+   "id": "me-02f8f275",
+   "sp": "me",
+   "text": "During two days.",
+   "from": "video"
+  },
+  {
+   "id": "me-ca046925",
+   "sp": "me",
+   "text": "For two days.",
+   "from": "video"
+  },
+  {
+   "id": "tc-cd665712",
+   "sp": "tc",
+   "text": "For two days.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-a601e91d",
+   "sp": "me",
+   "text": "From yesterday.",
+   "from": "video"
+  },
+  {
+   "id": "me-f824b0f5",
+   "sp": "me",
+   "text": "Since yesterday.",
+   "from": "video"
+  },
+  {
+   "id": "tc-50767274",
+   "sp": "tc",
+   "text": "Since yesterday.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-2ae4237d",
+   "sp": "us",
+   "text": "Do you have a fever?",
+   "from": "video"
+  },
+  {
+   "id": "me-89f7a6af",
+   "sp": "me",
+   "text": "No, I don't.",
+   "from": "video"
+  },
+  {
+   "id": "us-77f9fb91",
+   "sp": "us",
+   "text": "Are you allergic to any medicine?",
+   "from": "video"
+  },
+  {
+   "id": "me-3638fcca",
+   "sp": "me",
+   "text": "No, I'm not.",
+   "from": "video"
+  },
+  {
+   "id": "us-3d014c42",
+   "sp": "us",
+   "text": "Would you prefer tablets or liquid?",
+   "from": "video"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-06d618fa",
+   "sp": "me",
+   "text": "Tablets, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "video"
+  },
+  {
+   "id": "me-852aee8b",
+   "sp": "me",
+   "text": "No, I don't have.",
+   "from": "video"
+  },
+  {
+   "id": "me-8bbb4c2b",
+   "sp": "me",
+   "text": "Yes, I am.",
+   "from": "video"
+  },
+  {
+   "id": "us-5d37c420",
+   "sp": "us",
+   "text": "Are you taking any other medication?",
+   "from": "video"
+  },
+  {
+   "id": "me-67d5f838",
+   "sp": "me",
+   "text": "Yes, I'm eating vitamins.",
+   "from": "video"
+  },
+  {
+   "id": "tc-40d9b29b",
+   "sp": "tc",
+   "text": "eat breakfast · eat an apple",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-400bebfc",
+   "sp": "tc",
+   "text": "take medicine · take two tablets",
+   "from": "video-say"
+  },
+  {
+   "id": "me-249e4bc6",
+   "sp": "me",
+   "text": "Yes, I'm taking vitamins.",
+   "from": "video"
+  },
+  {
+   "id": "us-2bb2f097",
+   "sp": "us",
+   "text": "You allergic to anything?",
+   "from": "video"
+  },
+  {
+   "id": "tc-d5230b26",
+   "sp": "tc",
+   "text": "You allergic to anything?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c566905c",
+   "sp": "tc",
+   "text": "Are you allergic to anything?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-e6c743d9",
+   "sp": "me",
+   "text": "Sorry, did you ask about allergies?",
+   "from": "video"
+  },
+  {
+   "id": "us-22f9992c",
+   "sp": "us",
+   "text": "Tablets or liquid?",
+   "from": "video"
+  },
+  {
+   "id": "tc-4d1dd177",
+   "sp": "tc",
+   "text": "two tablets",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1a7ef4db",
+   "sp": "tc",
+   "text": "three times a day",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-eea73e2a",
+   "sp": "tc",
+   "text": "after meals",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-75a518bc",
+   "sp": "tc",
+   "text": "for five days",
+   "from": "video-say"
+  },
+  {
+   "id": "me-dc56e765",
+   "sp": "me",
+   "text": "So, I eat two tablets, three times a day, after meals, for five days?",
+   "from": "video"
+  },
+  {
+   "id": "me-fdff730d",
+   "sp": "me",
+   "text": "So, I take two tablets, three times one day, after meals, for five days?",
+   "from": "video"
+  },
+  {
+   "id": "me-10de1dfa",
+   "sp": "me",
+   "text": "So, I take two tablets, twice a day, after meals, for five days?",
+   "from": "video"
+  },
+  {
+   "id": "us-e37182eb",
+   "sp": "us",
+   "text": "Not quite — three times a day, not twice a day.",
+   "from": "video"
+  },
+  {
+   "id": "us-870fb9f1",
+   "sp": "us",
+   "text": "That's right!",
+   "from": "video"
+  },
+  {
+   "id": "us-3c659244",
+   "sp": "us",
+   "text": "Two tablets, three times a day after meals, five days.",
+   "from": "video"
+  },
+  {
+   "id": "me-4848f7a5",
+   "sp": "me",
+   "text": "Sorry, how many times a day?",
+   "from": "video"
+  },
+  {
+   "id": "us-97a46418",
+   "sp": "us",
+   "text": "Three times a day.",
+   "from": "video"
+  },
+  {
+   "id": "us-fc7ed2df",
+   "sp": "us",
+   "text": "Okay, that's thirteen fifty, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-4d72bc55",
+   "sp": "tc",
+   "text": "thirteen fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b7a46db3",
+   "sp": "tc",
+   "text": "thirteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f8a08c24",
+   "sp": "tc",
+   "text": "thirty",
+   "from": "video-say"
+  },
+  {
+   "id": "me-e10711d8",
+   "sp": "me",
+   "text": "Sorry, did you say thirty fifty?",
+   "from": "video"
+  },
+  {
+   "id": "tc-f1272c2d",
+   "sp": "tc",
+   "text": "fifteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6b6ef6f2",
+   "sp": "tc",
+   "text": "fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-41f43b54",
+   "sp": "tc",
+   "text": "fourteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3a6e5d5c",
+   "sp": "tc",
+   "text": "forty",
+   "from": "video-say"
+  },
+  {
+   "id": "me-ccdf1b61",
+   "sp": "me",
+   "text": "Sorry, did you say thirteen fifty?",
+   "from": "video"
+  },
+  {
+   "id": "me-7eedfc00",
+   "sp": "me",
+   "text": "Card is okay?",
+   "from": "video"
+  },
+  {
+   "id": "me-4a4710ce",
+   "sp": "me",
+   "text": "Can I pay by card?",
+   "from": "video"
+  },
+  {
+   "id": "us-8a5c4c7d",
+   "sp": "us",
+   "text": "This one may make you a little drowsy, so don't drive after you take it.",
+   "from": "video"
+  },
+  {
+   "id": "me-596618e1",
+   "sp": "me",
+   "text": "Sorry, what does drowsy mean?",
+   "from": "video"
+  },
+  {
+   "id": "us-6b6eb81f",
+   "sp": "us",
+   "text": "It means sleepy. So, no driving today.",
+   "from": "video"
+  },
+  {
+   "id": "me-2eb97fa2",
+   "sp": "me",
+   "text": "Okay, I won't drive. Thanks.",
+   "from": "video"
+  },
+  {
+   "id": "gb-8926a7c2",
+   "sp": "gb",
+   "text": "Hi there. Do you have an appointment?",
+   "from": "video"
+  },
+  {
+   "id": "me-a8b9eb10",
+   "sp": "me",
+   "text": "No. I want doctor.",
+   "from": "video"
+  },
+  {
+   "id": "me-3e8c6b6e",
+   "sp": "me",
+   "text": "No, I don't. I'd like to see a doctor, please.",
+   "from": "video"
+  },
+  {
+   "id": "gb-b3ff9c61",
+   "sp": "gb",
+   "text": "Is this your first visit here?",
+   "from": "video"
+  },
+  {
+   "id": "me-6217d17d",
+   "sp": "me",
+   "text": "Yes, I am first.",
+   "from": "video"
+  },
+  {
+   "id": "me-f6aaa97f",
+   "sp": "me",
+   "text": "Yes, it is.",
+   "from": "video"
+  },
+  {
+   "id": "gb-8f056223",
+   "sp": "gb",
+   "text": "Okay. What's your last name?",
+   "from": "video"
+  },
+  {
+   "id": "me-4085aece",
+   "sp": "me",
+   "text": "It's Kim, K, I, M.",
+   "from": "video"
+  },
+  {
+   "id": "gb-56bf6abb",
+   "sp": "gb",
+   "text": "Could you spell that for me, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-0c927a25",
+   "sp": "me",
+   "text": "Sure. K, I, M.",
+   "from": "video"
+  },
+  {
+   "id": "gb-0ef7555f",
+   "sp": "gb",
+   "text": "And what's your date of birth?",
+   "from": "video"
+  },
+  {
+   "id": "me-590cb385",
+   "sp": "me",
+   "text": "It's March fourth, two thousand five.",
+   "from": "video"
+  },
+  {
+   "id": "tc-438512da",
+   "sp": "tc",
+   "text": "It's March fourth, two thousand five.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2094c1c7",
+   "sp": "tc",
+   "text": "March",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7f9d7df4",
+   "sp": "tc",
+   "text": "fourth",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e70e64bc",
+   "sp": "tc",
+   "text": "two thousand five",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-741fe29d",
+   "sp": "gb",
+   "text": "Do you have any health insurance?",
+   "from": "video"
+  },
+  {
+   "id": "me-90c7a89b",
+   "sp": "me",
+   "text": "Yes, I have.",
+   "from": "video"
+  },
+  {
+   "id": "me-d397e3c1",
+   "sp": "me",
+   "text": "Yes, I do. I have travel insurance. Here's my card.",
+   "from": "video"
+  },
+  {
+   "id": "gb-074a0fe6",
+   "sp": "gb",
+   "text": "Great. Please fill out this form and take a seat.",
+   "from": "video"
+  },
+  {
+   "id": "me-73266959",
+   "sp": "me",
+   "text": "Sure. Thank you.",
+   "from": "video"
+  },
+  {
+   "id": "ca-c71c521e",
+   "sp": "ca",
+   "text": "Hi, I'm Dr. Hall. So, what seems to be the problem?",
+   "from": "video"
+  },
+  {
+   "id": "me-9ff6937d",
+   "sp": "me",
+   "text": "My throat hurts.",
+   "from": "video"
+  },
+  {
+   "id": "ca-5d92c948",
+   "sp": "ca",
+   "text": "Have you taken anything for it?",
+   "from": "video"
+  },
+  {
+   "id": "me-a6b06a4f",
+   "sp": "me",
+   "text": "Yes, I ate some cold medicine.",
+   "from": "video"
+  },
+  {
+   "id": "me-7aecc66e",
+   "sp": "me",
+   "text": "Yes, I took some cold medicine.",
+   "from": "video"
+  },
+  {
+   "id": "ca-4419641a",
+   "sp": "ca",
+   "text": "So what brings you in today?",
+   "from": "video"
+  },
+  {
+   "id": "tc-25800994",
+   "sp": "tc",
+   "text": "What seems to be the problem?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e02060cb",
+   "sp": "tc",
+   "text": "What brings you in today?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-eeaadace",
+   "sp": "tc",
+   "text": "What's wrong?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-1874c1db",
+   "sp": "me",
+   "text": "Sorry, did you ask what's wrong?",
+   "from": "video"
+  },
+  {
+   "id": "ca-0126e4d4",
+   "sp": "ca",
+   "text": "Yes — what's the problem today?",
+   "from": "video"
+  },
+  {
+   "id": "tc-b81582e4",
+   "sp": "tc",
+   "text": "My throat hurts.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0c7a2331",
+   "sp": "tc",
+   "text": "My chest hurts.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-58da5411",
+   "sp": "tc",
+   "text": "My stomach hurts.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-aa5ba05a",
+   "sp": "tc",
+   "text": "My ear hurts.",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-fe22036c",
+   "sp": "ca",
+   "text": "Okay. Where does it hurt?",
+   "from": "video"
+  },
+  {
+   "id": "me-b8561dff",
+   "sp": "me",
+   "text": "Here is pain.",
+   "from": "video"
+  },
+  {
+   "id": "me-0b33c799",
+   "sp": "me",
+   "text": "It hurts in my throat.",
+   "from": "video"
+  },
+  {
+   "id": "ca-3a6f9ea7",
+   "sp": "ca",
+   "text": "Does it hurt when I press here?",
+   "from": "video"
+  },
+  {
+   "id": "me-1be5bef4",
+   "sp": "me",
+   "text": "Yes, it does.",
+   "from": "video"
+  },
+  {
+   "id": "ca-1e5cb855",
+   "sp": "ca",
+   "text": "How bad is the pain, on a scale of one to ten?",
+   "from": "video"
+  },
+  {
+   "id": "me-f4f5e857",
+   "sp": "me",
+   "text": "Very pain.",
+   "from": "video"
+  },
+  {
+   "id": "me-77a22891",
+   "sp": "me",
+   "text": "About a six.",
+   "from": "video"
+  },
+  {
+   "id": "ca-b7bb8110",
+   "sp": "ca",
+   "text": "Do you have any allergies to medication?",
+   "from": "video"
+  },
+  {
+   "id": "tc-69d3be34",
+   "sp": "tc",
+   "text": "Are you allergic to any medicine?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bf3b5943",
+   "sp": "tc",
+   "text": "Do you have any allergies to medication?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-3971277c",
+   "sp": "me",
+   "text": "Yes, I'm allergic to penicillin.",
+   "from": "video"
+  },
+  {
+   "id": "tc-ed4468d8",
+   "sp": "tc",
+   "text": "I'm allergic to penicillin.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a5da85cd",
+   "sp": "tc",
+   "text": "I'm allergic to aspirin.",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-be1d3a05",
+   "sp": "ca",
+   "text": "Thanks for telling me. That's important.",
+   "from": "video"
+  },
+  {
+   "id": "ca-a47bde79",
+   "sp": "ca",
+   "text": "Since you're allergic to penicillin, I'll give you a different antibiotic.",
+   "from": "video"
+  },
+  {
+   "id": "ca-acc3d428",
+   "sp": "ca",
+   "text": "I'm going to give you some antibiotics. Take one capsule twice a day with food, for seven days.",
+   "from": "video"
+  },
+  {
+   "id": "me-f34ee8eb",
+   "sp": "me",
+   "text": "So, I take one capsule, three times a day, with food, for seven days?",
+   "from": "video"
+  },
+  {
+   "id": "ca-26fbd03f",
+   "sp": "ca",
+   "text": "Not quite — twice a day, not three times a day.",
+   "from": "video"
+  },
+  {
+   "id": "me-84d8c321",
+   "sp": "me",
+   "text": "So, I take one capsule, twice a day, with food, for seven days?",
+   "from": "video"
+  },
+  {
+   "id": "ca-df6e7921",
+   "sp": "ca",
+   "text": "That's right!",
+   "from": "video"
+  },
+  {
+   "id": "ca-341c13f7",
+   "sp": "ca",
+   "text": "If you're not feeling better in three days, please come back and see me.",
+   "from": "video"
+  },
+  {
+   "id": "me-8b621cc8",
+   "sp": "me",
+   "text": "So, I should come back in a week if I'm not better?",
+   "from": "video"
+  },
+  {
+   "id": "me-a5a39d26",
+   "sp": "me",
+   "text": "So, I should come back in three days if I'm not better?",
+   "from": "video"
+  },
+  {
+   "id": "ca-7b5c85dd",
+   "sp": "ca",
+   "text": "Do you have any other questions?",
+   "from": "video"
+  },
+  {
+   "id": "me-db947af1",
+   "sp": "me",
+   "text": "Yes. Please write me a diagnosis.",
+   "from": "video"
+  },
+  {
+   "id": "tc-cba64e26",
+   "sp": "tc",
+   "text": "a diagnosis",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0890b7b0",
+   "sp": "tc",
+   "text": "a doctor's note",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7361b625",
+   "sp": "tc",
+   "text": "a sick note",
+   "from": "video-say"
+  },
+  {
+   "id": "me-f3307464",
+   "sp": "me",
+   "text": "Yes. Could I get a doctor's note for my class?",
+   "from": "video"
+  },
+  {
+   "id": "ca-b8e356da",
+   "sp": "ca",
+   "text": "Sure, I can write one for you. Feel better soon!",
+   "from": "video"
+  },
+  {
+   "id": "tc-0c5f13f3",
+   "sp": "tc",
+   "text": "And what's your date of birth?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-87c4700e",
+   "sp": "tc",
+   "text": "Does it hurt when I press here?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2c08ad54",
+   "sp": "tc",
+   "text": "If you're not feeling better in three days, please come back and see me.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-eefbb9c2",
+   "sp": "tc",
+   "text": "I have a sore throat. Could you recommend something for it?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7ade6fab",
+   "sp": "tc",
+   "text": "No, I'm not.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3db926f3",
+   "sp": "tc",
+   "text": "Yes, it does.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-15538019",
+   "sp": "tc",
+   "text": "So, I should come back in three days if I'm not better?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1284aa1",
+   "sp": "tc",
+   "text": "Yes, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4018deab",
+   "sp": "tc",
+   "text": "Tablets, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c3f601b0",
+   "sp": "tc",
+   "text": "Liquid, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-a2118a57",
+   "sp": "us",
+   "text": "Take ten milliliters every six hours, for five days.",
+   "from": "video"
+  },
+  {
+   "id": "tc-6bc0f583",
+   "sp": "tc",
+   "text": "Okay. Thanks.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d1ef6b32",
+   "sp": "tc",
+   "text": "So, I take ten milliliters, every six hours, after meals, for five days?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5feecf22",
+   "sp": "tc",
+   "text": "So, I take ten milliliters, every six hours, for five days?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c32daadf",
+   "sp": "tc",
+   "text": "It's November twelfth, two thousand four.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a32711a3",
+   "sp": "tc",
+   "text": "Yes.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-844e06e7",
+   "sp": "tc",
+   "text": "No.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f2d29a22",
+   "sp": "tc",
+   "text": "No, that's all. Thank you so much!",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a6e33306",
+   "sp": "tc",
+   "text": "No, I don't. · No, I'm not. · Tablets, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-688d2c57",
+   "sp": "tc",
+   "text": "So, I take two tablets, three times a day, after meals, for five days? Sorry, did you say thirteen fifty?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f1542428",
+   "sp": "tc",
+   "text": "It's Kim, K, I, M. · It's March fourth, two thousand five.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b307680b",
+   "sp": "tc",
+   "text": "I have a sore throat. · Yes, I took some cold medicine.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-13efd909",
+   "sp": "tc",
+   "text": "It hurts in my throat. · Yes, it does. · About a six.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2aaa036e",
+   "sp": "tc",
+   "text": "So, I should come back in three days? · Could I get a doctor's note?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-50fb0906",
+   "sp": "tc",
+   "text": "That's right! Not quite — three times a day.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6f66479f",
+   "sp": "tc",
+   "text": "Sorry, how many times a day? · Sorry, what does drowsy mean?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8be2f108",
+   "sp": "tc",
+   "text": "Morning! What can I do for you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-54661c67",
+   "sp": "tc",
+   "text": "Would you prefer tablets or liquid?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b6a2da4c",
+   "sp": "tc",
+   "text": "Okay, that's thirteen fifty, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-08b89bbb",
+   "sp": "tc",
+   "text": "Can I pay by card?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9d90b8db",
+   "sp": "tc",
+   "text": "No, I don't. I'd like to see a doctor, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2fc2c9b1",
+   "sp": "tc",
+   "text": "Have you taken anything for it?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2bbaac21",
+   "sp": "tc",
+   "text": "Yes, I took some cold medicine.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-179146ac",
+   "sp": "tc",
+   "text": "It hurts in my throat.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ff4436a6",
+   "sp": "tc",
+   "text": "Do you have any other questions?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8701a6ce",
+   "sp": "tc",
+   "text": "So, I take one capsule, twice a day, with food, for seven days?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8cc6e79d",
+   "sp": "tc",
+   "text": "Yes. Could I get a doctor's note for my class?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-1fbddf7c",
+   "sp": "us",
+   "text": "Drowsy means sleepy. So please don't drive after you take it.",
+   "from": "lab"
+  },
+  {
+   "id": "au-6a599f77",
+   "sp": "au",
+   "text": "Morning! What can I do for you?",
+   "from": "lab"
+  },
+  {
+   "id": "me-0616d9ca",
+   "sp": "me",
+   "text": "Give me medicine for a cough.",
+   "from": "lab"
+  },
+  {
+   "id": "me-edd382e2",
+   "sp": "me",
+   "text": "I have a stomachache. Do you have anything for it?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b2004b2e",
+   "sp": "me",
+   "text": "My stomach is sick.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e5da4039",
+   "sp": "me",
+   "text": "I have an earache. Could you recommend something for it?",
+   "from": "lab"
+  },
+  {
+   "id": "me-6139cc6f",
+   "sp": "me",
+   "text": "I have an earache. Do you have anything for it?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b86e1750",
+   "sp": "me",
+   "text": "I have an earache.",
+   "from": "lab"
+  },
+  {
+   "id": "me-d3e9579d",
+   "sp": "me",
+   "text": "My ear is sick.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f382bfd7",
+   "sp": "me",
+   "text": "Give me medicine for an earache.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f823dd7b",
+   "sp": "me",
+   "text": "No, thanks.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ba6864e9",
+   "sp": "me",
+   "text": "Yes, I'm allergy to penicillin.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9f133be4",
+   "sp": "me",
+   "text": "No, it isn't.",
+   "from": "lab"
+  },
+  {
+   "id": "me-51acf015",
+   "sp": "me",
+   "text": "No, it doesn't.",
+   "from": "lab"
+  },
+  {
+   "id": "me-2b556e5c",
+   "sp": "me",
+   "text": "No, I haven't.",
+   "from": "lab"
+  },
+  {
+   "id": "us-426126c0",
+   "sp": "us",
+   "text": "Take fifteen milliliters three times a day after meals, for five days.",
+   "from": "lab"
+  },
+  {
+   "id": "us-89b6720c",
+   "sp": "us",
+   "text": "Okay, that's fourteen forty, please.",
+   "from": "lab"
+  },
+  {
+   "id": "us-752aa86a",
+   "sp": "us",
+   "text": "Take one tablet every six hours, for five days.",
+   "from": "lab"
+  },
+  {
+   "id": "us-9a6ca95e",
+   "sp": "us",
+   "text": "Okay, that's eleven sixty, please.",
+   "from": "lab"
+  },
+  {
+   "id": "us-286b53d9",
+   "sp": "us",
+   "text": "Okay, that's twelve fifty, please.",
+   "from": "lab"
+  },
+  {
+   "id": "us-45e27459",
+   "sp": "us",
+   "text": "Take two tablets three times a day before meals, for three days.",
+   "from": "lab"
+  },
+  {
+   "id": "us-037dc384",
+   "sp": "us",
+   "text": "Okay, that's nine forty, please.",
+   "from": "lab"
+  },
+  {
+   "id": "us-082f604b",
+   "sp": "us",
+   "text": "Take ten milliliters three times a day before meals, for three days.",
+   "from": "lab"
+  },
+  {
+   "id": "us-c87e650b",
+   "sp": "us",
+   "text": "Okay, that's ten thirty, please.",
+   "from": "lab"
+  },
+  {
+   "id": "us-d41efb57",
+   "sp": "us",
+   "text": "Take one tablet twice a day with food, for three days.",
+   "from": "lab"
+  },
+  {
+   "id": "us-bdce037e",
+   "sp": "us",
+   "text": "Okay, that's fourteen eighty, please.",
+   "from": "lab"
+  },
+  {
+   "id": "us-64f068de",
+   "sp": "us",
+   "text": "Take fifteen milliliters twice a day with food, for three days.",
+   "from": "lab"
+  },
+  {
+   "id": "us-cde51f3d",
+   "sp": "us",
+   "text": "Okay, that's fifteen seventy, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-72ab9b18",
+   "sp": "me",
+   "text": "Yes, I do. I have student health insurance. Here's my card.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b3ff70d8",
+   "sp": "me",
+   "text": "It's November twelfth, two thousand four.",
+   "from": "lab"
+  },
+  {
+   "id": "me-cbac83e7",
+   "sp": "me",
+   "text": "It's August twenty-first, two thousand six.",
+   "from": "lab"
+  },
+  {
+   "id": "me-bc0911de",
+   "sp": "me",
+   "text": "It's December ninth, two thousand three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-91f09fda",
+   "sp": "me",
+   "text": "It's January fifteenth, two thousand seven.",
+   "from": "lab"
+  },
+  {
+   "id": "me-37e7c624",
+   "sp": "me",
+   "text": "It's Park, P, A, R, K.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ad940b50",
+   "sp": "me",
+   "text": "Sure. P, A, R, K.",
+   "from": "lab"
+  },
+  {
+   "id": "me-fbd37b80",
+   "sp": "me",
+   "text": "It's Lee, L, E, E.",
+   "from": "lab"
+  },
+  {
+   "id": "me-d1ab1202",
+   "sp": "me",
+   "text": "Sure. L, E, E.",
+   "from": "lab"
+  },
+  {
+   "id": "me-0a870d2c",
+   "sp": "me",
+   "text": "It's Choi, C, H, O, I.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4b439b11",
+   "sp": "me",
+   "text": "Sure. C, H, O, I.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e557aeb6",
+   "sp": "me",
+   "text": "It's Han, H, A, N.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b08e6ce5",
+   "sp": "me",
+   "text": "Sure. H, A, N.",
+   "from": "lab"
+  },
+  {
+   "id": "me-41c2793c",
+   "sp": "me",
+   "text": "It's Jung, J, U, N, G.",
+   "from": "lab"
+  },
+  {
+   "id": "me-8ab0fca2",
+   "sp": "me",
+   "text": "Sure. J, U, N, G.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e76ddad6",
+   "sp": "me",
+   "text": "Yes, I took some cough medicine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3ac5d00d",
+   "sp": "me",
+   "text": "Yes, I ate some cough medicine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9c98c1dd",
+   "sp": "me",
+   "text": "Yes, I took some stomach medicine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-7c59be22",
+   "sp": "me",
+   "text": "Yes, I ate some stomach medicine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3bca15d5",
+   "sp": "me",
+   "text": "Yes, I took some pain relievers.",
+   "from": "lab"
+  },
+  {
+   "id": "me-fee55302",
+   "sp": "me",
+   "text": "Yes, I ate some pain relievers.",
+   "from": "lab"
+  },
+  {
+   "id": "me-02c50c46",
+   "sp": "me",
+   "text": "My chest hurts.",
+   "from": "lab"
+  },
+  {
+   "id": "me-35d5dd06",
+   "sp": "me",
+   "text": "My stomach hurts.",
+   "from": "lab"
+  },
+  {
+   "id": "me-08b33ec9",
+   "sp": "me",
+   "text": "My ear hurts.",
+   "from": "lab"
+  },
+  {
+   "id": "me-c341da01",
+   "sp": "me",
+   "text": "About a one.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6318afe3",
+   "sp": "me",
+   "text": "About a two.",
+   "from": "lab"
+  },
+  {
+   "id": "me-640fa221",
+   "sp": "me",
+   "text": "About a three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f64739f7",
+   "sp": "me",
+   "text": "About a four.",
+   "from": "lab"
+  },
+  {
+   "id": "me-11a7e88b",
+   "sp": "me",
+   "text": "About a five.",
+   "from": "lab"
+  },
+  {
+   "id": "me-39a6e3c2",
+   "sp": "me",
+   "text": "About a seven.",
+   "from": "lab"
+  },
+  {
+   "id": "me-097fcc48",
+   "sp": "me",
+   "text": "About an eight.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b0b0675b",
+   "sp": "me",
+   "text": "About a nine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-35d15bc0",
+   "sp": "me",
+   "text": "About a ten.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5c69e8ea",
+   "sp": "me",
+   "text": "It hurts in my chest.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1634b1ce",
+   "sp": "me",
+   "text": "It hurts in my stomach.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e05bf215",
+   "sp": "me",
+   "text": "It hurts in my ear.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3180523f",
+   "sp": "me",
+   "text": "No, that's all. Thank you so much!",
+   "from": "lab"
+  },
+  {
+   "id": "ca-0a828c78",
+   "sp": "ca",
+   "text": "You're welcome. Feel better soon!",
+   "from": "lab"
+  },
+  {
+   "id": "ca-a9ba72e6",
+   "sp": "ca",
+   "text": "Since you're allergic to penicillin, I'll give you a different antibiotic. Take one tablet once a day with food, for five days.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-3a4ee42b",
+   "sp": "ca",
+   "text": "I'm going to give you a stronger cough syrup. Take ten milliliters three times a day after meals, for seven days.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-2b644ba5",
+   "sp": "ca",
+   "text": "If you're not feeling better in a week, please come back and see me.",
+   "from": "lab"
+  },
+  {
+   "id": "me-55e48858",
+   "sp": "me",
+   "text": "So, I should come back in two days if I'm not better?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-12e171d8",
+   "sp": "ca",
+   "text": "I'm going to give you some stomach tablets. Take one tablet twice a day before meals, for five days.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-8a7e2855",
+   "sp": "ca",
+   "text": "If you're not feeling better in two days, please come back and see me.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ffd67938",
+   "sp": "me",
+   "text": "So, I should come back in five days if I'm not better?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-ce5e1b9e",
+   "sp": "ca",
+   "text": "I'm going to give you some antibiotics. Take one capsule three times a day with food, for seven days.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-b54c4e75",
+   "sp": "ca",
+   "text": "If you're not feeling better in five days, please come back and see me.",
+   "from": "lab"
+  },
+  {
+   "id": "me-beb2a9cf",
+   "sp": "me",
+   "text": "I have a stomachache.",
+   "from": "drill"
+  },
+  {
+   "id": "me-66e3b5a6",
+   "sp": "me",
+   "text": "I have a stomachache. Could you recommend something for it?",
+   "from": "drill"
+  },
+  {
+   "id": "me-333c080e",
+   "sp": "me",
+   "text": "Give me medicine for a stomachache.",
+   "from": "drill"
+  },
+  {
+   "id": "me-8bc1f1e2",
+   "sp": "me",
+   "text": "I have a cough. Could you recommend something for it?",
+   "from": "drill"
+  },
+  {
+   "id": "us-43ff2740",
+   "sp": "us",
+   "text": "Hi, what can I getcha?",
+   "from": "drill"
+  },
+  {
+   "id": "me-dd3a7df2",
+   "sp": "me",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-747a9f87",
+   "sp": "me",
+   "text": "Liquid, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-2ef5aa08",
+   "sp": "me",
+   "text": "So expensive. Cheaper, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-9004d70d",
+   "sp": "me",
+   "text": "It's April third, two thousand five.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-013b8be1",
+   "sp": "gb",
+   "text": "And what's the date of birth?",
+   "from": "drill"
+  },
+  {
+   "id": "me-c39ad213",
+   "sp": "me",
+   "text": "Sorry, did you ask what I need?",
+   "from": "drill"
+  },
+  {
+   "id": "me-a3f65bc1",
+   "sp": "me",
+   "text": "Sorry, did you ask for my date of birth?",
+   "from": "drill"
+  },
+  {
+   "id": "me-fcc2681c",
+   "sp": "me",
+   "text": "Give me a doctor's note.",
+   "from": "drill"
+  },
+  {
+   "id": "me-10f91aee",
+   "sp": "me",
+   "text": "My chest is sick.",
+   "from": "drill"
+  },
+  {
+   "id": "me-104523ce",
+   "sp": "me",
+   "text": "I have a cough. Do you have anything for it?",
+   "from": "drill"
+  },
+  {
+   "id": "me-709537e3",
+   "sp": "me",
+   "text": "I have a cough.",
+   "from": "drill"
+  },
+  {
+   "id": "me-5d365cc8",
+   "sp": "me",
+   "text": "It's December eleventh, two thousand four.",
+   "from": "drill"
+  },
+  {
+   "id": "us-0c1cc557",
+   "sp": "us",
+   "text": "How long have you had it?",
+   "from": "shadow"
+  },
+  {
+   "id": "gb-0f5e43d7",
+   "sp": "gb",
+   "text": "Do you have an appointment?",
+   "from": "shadow"
+  },
+  {
+   "id": "ca-0ffb0c17",
+   "sp": "ca",
+   "text": "So, what seems to be the problem?",
+   "from": "shadow"
+  },
+  {
+   "id": "me-0b068b02",
+   "sp": "me",
+   "text": "I have a sore throat. It started two days ago.",
+   "from": "shadow"
+  },
+  {
+   "id": "ca-006a1833",
+   "sp": "ca",
+   "text": "Take one capsule twice a day with food, for seven days.",
+   "from": "shadow"
+  },
+  {
+   "id": "me-bf61e195",
+   "sp": "me",
+   "text": "Could I get a doctor's note for my class?",
+   "from": "shadow"
+  },
+  {
+   "id": "ca-f73e06ce",
+   "sp": "ca",
+   "text": "Antibiotics. One capsule, twice a day with food, seven days.",
+   "from": "q"
+  }
+ ]
+}

@@ -350,5 +350,17 @@ window.EN_CATALOG = {
       thumb: 'transit/docs/poster.jpg',
       added: '2026-11-08',
     },
+    {
+      slug: 'pharmacy',
+      track: 'talk',
+      title: '약국 · 병원, 증상은 사실 + 부탁, 복용법은 되짚는다',
+      topic: '약국 · 병원 · 증상 알리기 · 약사의 질문 · 복용법 되짚기 · 값 · 병원 접수 · 이름 철자와 생년월일 · 진찰 · 처방 · 진단서',
+      summary: '약국에서는 내가 먼저 증상을 사실로 말하고 바라는 것은 질문으로 부탁해요(I have a sore throat. Could you recommend something for it?). 약사 · 의사의 짧은 질문은 모양이 대답을 정하고, Yes/No 질문은 첫 낱말이 짧은 대답의 짝을 정해요(Are you …? → No, I\'m not. · Does it …? → Yes, it does.). 길고 숫자가 많은 복용법은 양 → 하루 몇 번 → 언제 → 며칠 차례로 되짚어요(So, I take two tablets, three times a day, after meals, for five days?). 병원 접수에서는 이름 철자(K-I-M)와 생년월일(It\'s March 4th, 2005.)을, 진찰에서는 아픈 곳과 정도를 말해요. My throat is sick · eat medicine · I\'m allergy to · Here is pain · a diagnosis 같은 한국어 그대로의 말도 함께. 약 이름 · 먹는 양 · 값은 지어낸 예시이고 의학 조언이 아니에요.',
+      length: '6:36',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '약국 · 병원 시뮬레이터', '복용법 되짚기', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'pharmacy/docs/poster.jpg',
+      added: '2026-11-08',
+    },
   ],
 };

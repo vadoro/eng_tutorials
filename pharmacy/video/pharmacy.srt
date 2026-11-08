@@ -1,0 +1,283 @@
+1
+00:00:00,400 --> 00:00:05,500
+약국에서는 증상을 말하고 약을 부탁해요. 병원에서는 접수부터 처방까지 정해진 질문이 이어져요.
+
+2
+00:00:05,500 --> 00:00:10,500
+약국 카운터 → What can I get for you today? 목이 아파서 → I have a sore throat.
+
+3
+00:00:10,500 --> 00:00:16,000
+사실만 말하고 끝내면 약사가 무엇을 바라는지 다시 물어요. 사실에 부탁을 붙여요 → Could you recommend something for it?
+
+4
+00:00:16,000 --> 00:00:21,000
+먹는 법을 들은 뒤 → Okay. Thanks. 하고 끝내지 말고, 들은 조각을 한 줄로 되짚어 확인해요.
+
+5
+00:00:21,000 --> 00:00:26,000
+세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.
+
+6
+00:00:26,400 --> 00:00:32,000
+오늘의 이야기를 일곱 곳으로 나눠 봐요. 목이 아파서 먼저 Elm Street Pharmacy, 약국에 가요.
+
+7
+00:00:32,000 --> 00:00:38,000
+약국에서는 증상을 알리고, 약사의 질문에 답하고, 먹는 법과 값을 듣고 되짚어요.
+
+8
+00:00:38,000 --> 00:00:44,000
+사흘이 지나도 낫지 않아서 병원에 가요. 접수, 진료실, 진찰, 처방 순서예요.
+
+9
+00:00:44,000 --> 00:00:50,000
+보라 테두리 → 내가 먼저 말을 꺼내는 곳이에요. 약국 카운터에서 증상 알리기, 처방 끝에 진단서 부탁하기.
+
+10
+00:00:50,000 --> 00:00:56,000
+약 이름, 먹는 양, 값은 모두 지어낸 예시예요. 의학 조언이 아니니 실제로는 약사와 의사의 말을 따르세요.
+
+11
+00:00:56,400 --> 00:01:02,000
+약사 → What can I get for you today? 목이 아프다고 → My throat is sick. 목이 병들었다는 말처럼 들려요.
+
+12
+00:01:02,000 --> 00:01:07,500
+Give me medicine for a sore throat. → ‘약 주세요’를 그대로 옮기면 명령처럼 들려요.
+
+13
+00:01:07,500 --> 00:01:13,000
+증상은 → I have a sore throat. 사실만 말하고 끝내지 말고 부탁을 질문으로 붙여요 → Could you recommend something for it?
+
+14
+00:01:13,000 --> 00:01:18,500
+다른 부탁 → Do you have anything for it? 사실 + 부탁, 두 문장이면 약사가 바로 알아들어요.
+
+15
+00:01:18,500 --> 00:01:24,000
+How long have you had it? → 정보 질문. 이틀 동안 → During two days? 숫자로 센 기간은 → For two days.
+
+16
+00:01:24,000 --> 00:01:30,000
+어제부터 → From yesterday? 지금까지 이어지는 일이 시작된 때는 → Since yesterday.
+
+17
+00:01:30,400 --> 00:01:35,500
+약사의 질문은 모양이 정해져 있어요. Do you have a fever? Are you allergic to any medicine? → Yes/No 질문이에요.
+
+18
+00:01:35,500 --> 00:01:41,000
+Tablets or liquid? → 고르는 질문이라 Yes만으로는 답이 안 돼요. How long → 정보 질문이에요.
+
+19
+00:01:41,000 --> 00:01:47,000
+Yes/No 질문은 첫 낱말로 짧은 대답을 만들어요. Do you → No, I don't. Are you → No, I'm not. 짝이 어긋나면 틀려요.
+
+20
+00:01:47,000 --> 00:01:52,500
+Are you taking any other medication? 약은 eat이 아니라 take → Yes, I'm taking vitamins.
+
+21
+00:01:52,500 --> 00:01:58,000
+빠른 말 → You allergic to anything? 열쇠 낱말을 놓쳤으면 짐작하지 말고 → Sorry, did you ask about allergies?
+
+22
+00:01:58,000 --> 00:02:04,000
+Tablets or liquid? → 빠르면 두 낱말이 이어져 들려요 → TAB-let-ser. 고를 것을 세게 말해요.
+
+23
+00:02:04,400 --> 00:02:10,500
+약사 → Take two tablets three times a day after meals, for five days. 조각 넷 → 양, 하루 몇 번, 언제, 며칠.
+
+24
+00:02:10,500 --> 00:02:16,500
+Okay. Thanks. → 되짚지 않으면 틀린 곳을 몰라요. 약은 eat이 아니라 take, 하루 세 번은 three times a day.
+
+25
+00:02:16,500 --> 00:02:22,500
+하루 몇 번을 잘못 되짚으면 약사가 그 조각만 고쳐 줘요. 모두 맞게 → So, I take two tablets, three times a day, after meals, for five days?
+
+26
+00:02:22,500 --> 00:02:28,000
+빠른 말 → Two tablets, three times a day … 놓친 조각만 물어요 → Sorry, how many times a day?
+
+27
+00:02:28,000 --> 00:02:34,000
+That's $13.50. → thirteen fifty. thirteen → 뒤를, thirty → 앞을 세게 말해요. 카드로 낼 때 → Can I pay by card?
+
+28
+00:02:34,000 --> 00:02:40,000
+may make you drowsy → 모르는 낱말이면 → Sorry, what does drowsy mean? 졸릴 수 있다는 뜻이에요 → Okay, I won't drive. Thanks.
+
+29
+00:02:40,400 --> 00:02:46,000
+병원 접수 → Do you have an appointment? 예약 없이 왔으면 → No, I don't. I'd like to see a doctor, please.
+
+30
+00:02:46,000 --> 00:02:51,500
+Is this your first visit here? → Yes, I am first. 줄의 1등이라는 말로 들려요. Is this로 물으면 → Yes, it is.
+
+31
+00:02:51,500 --> 00:02:57,500
+What's your last name? → It's Kim, K-I-M. 철자를 불러 달라면 Yes만 하지 말고 한 글자씩 → Sure. K-I-M.
+
+32
+00:02:57,500 --> 00:03:04,000
+date of birth → 2005, 3, 4. 숫자만 말하면 3월 4일인지 4월 3일인지 헷갈려요. 달은 이름으로 → It's March 4th, 2005.
+
+33
+00:03:04,000 --> 00:03:10,000
+읽기 → March fourth, two thousand five. 미국 서류에는 달, 날, 해 순서로 03/04/2005라고 써요.
+
+34
+00:03:10,000 --> 00:03:16,000
+health insurance → Yes, I have. have 뒤가 비어 틀려요 → Yes, I do. I have travel insurance.
+
+35
+00:03:16,400 --> 00:03:22,000
+의사 → So, what seems to be the problem? 약국에서처럼 → My throat is sick. 이렇게 말하면 어색해요.
+
+36
+00:03:22,000 --> 00:03:28,000
+증상은 → I have a sore throat. 아픈 곳을 앞에 두고 → My throat hurts. 둘 다 좋아요.
+
+37
+00:03:28,000 --> 00:03:34,000
+Have you taken anything for it? 약은 take, 지난 일이라 took → Yes, I took some cold medicine.
+
+38
+00:03:34,000 --> 00:03:40,000
+빠른 말 → So what brings you in today? 놓쳤으면 → Sorry, did you ask what's wrong?
+
+39
+00:03:40,000 --> 00:03:46,000
+증상 넷 → sore throat, cough, stomachache, earache. I have a … 또는 My … hurts로 말해요.
+
+40
+00:03:46,400 --> 00:03:52,500
+Where does it hurt? → Here is pain. 낱말 그대로 옮긴 틀린 문장이에요 → It hurts in my throat.
+
+41
+00:03:52,500 --> 00:03:58,500
+Does it hurt when I press here? → Does로 물었으니 → Yes, it does. Yes, it is.는 짝이 어긋나요.
+
+42
+00:03:58,500 --> 00:04:06,000
+How bad is the pain, on a scale of one to ten? → Very pain. 숫자가 없어요. 1부터 10 가운데 → About a six.
+
+43
+00:04:06,000 --> 00:04:13,000
+Do you have any allergies to medication? → 약국에서는 Are you로 물어서 No, I'm not. 여기는 Do you라서 → No, I don't.
+
+44
+00:04:13,000 --> 00:04:20,000
+알레르기가 있으면 꼭 말해요 → Yes, I'm allergic to penicillin. 의사가 다른 약으로 바꿔 줘요.
+
+45
+00:04:20,400 --> 00:04:26,500
+의사 → I'm going to give you some antibiotics. Take one capsule twice a day with food, for seven days.
+
+46
+00:04:26,500 --> 00:04:32,500
+Okay. Thanks. → 되짚지 않았어요. 하루 세 번으로 잘못 되짚으면 → Not quite — twice a day, not three times a day.
+
+47
+00:04:32,500 --> 00:04:38,500
+바르게 되짚으면 → So, I take one capsule, twice a day, with food, for seven days? → That's right!
+
+48
+00:04:38,500 --> 00:04:44,500
+If you're not feeling better in three days, please come back. 숫자를 되짚어요 → So, I should come back in three days if I'm not better?
+
+49
+00:04:44,500 --> 00:04:50,500
+Do you have any other questions? 진단서를 diagnosis로 옮기면 병의 이름이에요. 학교에 낼 확인서는 → a doctor's note.
+
+50
+00:04:50,500 --> 00:04:56,000
+물어볼 것은 Yes 뒤에 바로 물어요 → Yes. Could I get a doctor's note for my class?
+
+51
+00:04:56,400 --> 00:05:01,500
+지금까지 배운 것을 3단계 말하기 법으로 묶어요.
+
+52
+00:05:01,500 --> 00:05:07,500
+① 열쇠 낱말과 질문의 모양 잡기 → or → 고르기, How long → 정보, Do you · Are you · Does it → 첫 낱말로 짧은 대답.
+
+53
+00:05:07,500 --> 00:05:13,500
+② 틀에 내 정보 넣기 → I have a sore throat. 들은 복용법과 숫자는 조각을 모아 되짚어요 → So, I take …?
+
+54
+00:05:13,500 --> 00:05:19,000
+③ 공손하게 끝내기 → 부탁은 질문으로 → Could you recommend something? 놓쳤으면 → Sorry, how many times a day?
+
+55
+00:05:19,000 --> 00:05:24,000
+일곱 곳에 한 줄씩 적용했어요. 숫자가 많은 말일수록 되짚기가 힘이 돼요.
+
+56
+00:05:24,400 --> 00:05:28,500
+실전이에요. 환자 카드 → 기침, 물약이 좋아요. 첫 질문 → Would you prefer tablets or liquid?
+
+57
+00:05:28,500 --> 00:05:32,500
+① 고르는 질문 → (A) Yes, please. 고른 것이 없어 탈락. ② (B) Tablets, please. → 카드와 달라 탈락.
+
+58
+00:05:32,500 --> 00:05:36,500
+정답 (C) → Liquid, please.
+
+59
+00:05:36,900 --> 00:05:41,000
+약사 → Take 10 ml every six hours, for five days. 셋 모두 먹는 법에 대한 말이에요.
+
+60
+00:05:41,000 --> 00:05:45,000
+② (A) Okay. Thanks. → 되짚지 않아 탈락. (B) after meals → 들은 말에 없는 조각이라 탈락.
+
+61
+00:05:45,000 --> 00:05:49,000
+정답 (C) → So, I take 10 ml, every six hours, for five days?
+
+62
+00:05:49,400 --> 00:05:53,500
+병원 접수 → And what's your date of birth? 카드 → 2004년 11월 12일. 정보 질문이에요.
+
+63
+00:05:53,500 --> 00:05:57,500
+① (B) Yes. → 정보가 없어 탈락. ② (C) 2004, 11, 12. → 숫자만 한국식 순서라 탈락.
+
+64
+00:05:57,500 --> 00:06:01,500
+정답 (A) → It's November 12th, 2004.
+
+65
+00:06:01,900 --> 00:06:06,000
+마지막 → Do you have any other questions? ① Yes/No 질문 → 셋 모두 Yes · No로 답해요.
+
+66
+00:06:06,000 --> 00:06:10,000
+② (A) Yes, please. → 물어볼 것이 없는데 Yes라서 탈락.
+
+67
+00:06:10,000 --> 00:06:14,000
+③ (B) No. → 고맙다는 말 없이 끊겨 탈락. 정답 (C) → No, that's all. Thank you so much!
+
+68
+00:06:14,400 --> 00:06:20,000
+정리해요. 약국에서는 사실에 부탁을 붙여요 → I have a sore throat. Could you recommend something for it?
+
+69
+00:06:20,000 --> 00:06:26,000
+먹는 법은 조각을 모아 되짚어요 → So, I take two tablets, three times a day, after meals, for five days?
+
+70
+00:06:26,000 --> 00:06:31,000
+병원에서는 질문의 첫 낱말에 맞춰 짧게 답하고, 생년월일은 달 이름으로 말해요.
+
+71
+00:06:31,000 --> 00:06:36,000
+아래 약국 · 병원 시뮬레이터에서 내 환자 카드로 약국부터 처방까지 해 보세요.

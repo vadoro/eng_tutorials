@@ -1,0 +1,1398 @@
+{
+ "slug": "pharmacy",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 118,
+  "en": 113,
+  "koChars": 1863,
+  "enChars": 2547
+ },
+ "pieces": [
+  {
+   "id": "k8129c825",
+   "lang": "ko",
+   "text": "약국에서는 증상을 말하고 약을 부탁해요. 병원에서는 접수부터 처방까지 정해진 질문이 이어져요.",
+   "cap": 0
+  },
+  {
+   "id": "kf7ee277b",
+   "lang": "ko",
+   "text": "약국 카운터",
+   "cap": 1
+  },
+  {
+   "id": "e1a186e75",
+   "lang": "en",
+   "text": "What can I get for you today?",
+   "cap": 1
+  },
+  {
+   "id": "kc42c6508",
+   "lang": "ko",
+   "text": "목이 아파서",
+   "cap": 1
+  },
+  {
+   "id": "e957664d1",
+   "lang": "en",
+   "text": "I have a sore throat.",
+   "cap": 1
+  },
+  {
+   "id": "ke5ef3e20",
+   "lang": "ko",
+   "text": "사실만 말하고 끝내면 약사가 무엇을 바라는지 다시 물어요. 사실에 부탁을 붙여요",
+   "cap": 2
+  },
+  {
+   "id": "eba5cbe7b",
+   "lang": "en",
+   "text": "Could you recommend something for it?",
+   "cap": 2
+  },
+  {
+   "id": "k7743ff87",
+   "lang": "ko",
+   "text": "먹는 법을 들은 뒤",
+   "cap": 3
+  },
+  {
+   "id": "e3729b2a4",
+   "lang": "en",
+   "text": "Okay.",
+   "cap": 3
+  },
+  {
+   "id": "e68fca163",
+   "lang": "en",
+   "text": "Thanks.",
+   "cap": 3
+  },
+  {
+   "id": "ka482ddd2",
+   "lang": "ko",
+   "text": "하고 끝내지 말고, 들은 조각을 한 줄로 되짚어 확인해요.",
+   "cap": 3
+  },
+  {
+   "id": "k9c45b11a",
+   "lang": "ko",
+   "text": "세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.",
+   "cap": 4
+  },
+  {
+   "id": "k644e70be",
+   "lang": "ko",
+   "text": "오늘의 이야기를 일곱 곳으로 나눠 봐요. 목이 아파서 먼저",
+   "cap": 5
+  },
+  {
+   "id": "e16aef8d6",
+   "lang": "en",
+   "text": "Elm Street Pharmacy",
+   "cap": 5
+  },
+  {
+   "id": "kd09ca0f3",
+   "lang": "ko",
+   "text": "약국에 가요.",
+   "cap": 5
+  },
+  {
+   "id": "k3c4a9d88",
+   "lang": "ko",
+   "text": "약국에서는 증상을 알리고, 약사의 질문에 답하고, 먹는 법과 값을 듣고 되짚어요.",
+   "cap": 6
+  },
+  {
+   "id": "k05328d2f",
+   "lang": "ko",
+   "text": "사흘이 지나도 낫지 않아서 병원에 가요. 접수, 진료실, 진찰, 처방 순서예요.",
+   "cap": 7
+  },
+  {
+   "id": "k089f4037",
+   "lang": "ko",
+   "text": "보라 테두리 , 내가 먼저 말을 꺼내는 곳이에요. 약국 카운터에서 증상 알리기, 처방 끝에 진단서 부탁하기.",
+   "cap": 8
+  },
+  {
+   "id": "k953a058a",
+   "lang": "ko",
+   "text": "약 이름, 먹는 양, 값은 모두 지어낸 예시예요. 의학 조언이 아니니 실제로는 약사와 의사의 말을 따르세요.",
+   "cap": 9
+  },
+  {
+   "id": "kb8d46440",
+   "lang": "ko",
+   "text": "약사",
+   "cap": 10
+  },
+  {
+   "id": "kabe93428",
+   "lang": "ko",
+   "text": "목이 아프다고",
+   "cap": 10
+  },
+  {
+   "id": "ef94c163e",
+   "lang": "en",
+   "text": "My throat is sick.",
+   "cap": 10
+  },
+  {
+   "id": "k8f591407",
+   "lang": "ko",
+   "text": "목이 병들었다는 말처럼 들려요.",
+   "cap": 10
+  },
+  {
+   "id": "e3f372b04",
+   "lang": "en",
+   "text": "Give me medicine for a sore throat.",
+   "cap": 11
+  },
+  {
+   "id": "k12d37a0a",
+   "lang": "ko",
+   "text": "약 주세요를 그대로 옮기면 명령처럼 들려요.",
+   "cap": 11
+  },
+  {
+   "id": "k1e842f95",
+   "lang": "ko",
+   "text": "증상은",
+   "cap": 12
+  },
+  {
+   "id": "k0c9cf740",
+   "lang": "ko",
+   "text": "사실만 말하고 끝내지 말고 부탁을 질문으로 붙여요",
+   "cap": 12
+  },
+  {
+   "id": "k9a1b247c",
+   "lang": "ko",
+   "text": "다른 부탁",
+   "cap": 13
+  },
+  {
+   "id": "e8b77df81",
+   "lang": "en",
+   "text": "Do you have anything for it?",
+   "cap": 13
+  },
+  {
+   "id": "ke358c534",
+   "lang": "ko",
+   "text": "사실, 부탁, 두 문장이면 약사가 바로 알아들어요.",
+   "cap": 13
+  },
+  {
+   "id": "e58466968",
+   "lang": "en",
+   "text": "How long have you had it?",
+   "cap": 14
+  },
+  {
+   "id": "ke6a8d017",
+   "lang": "ko",
+   "text": "정보 질문. 이틀 동안",
+   "cap": 14
+  },
+  {
+   "id": "e26833eb5",
+   "lang": "en",
+   "text": "During two days?",
+   "cap": 14
+  },
+  {
+   "id": "kac3a3bd2",
+   "lang": "ko",
+   "text": "숫자로 센 기간은",
+   "cap": 14
+  },
+  {
+   "id": "ecfccc300",
+   "lang": "en",
+   "text": "For two days.",
+   "cap": 14
+  },
+  {
+   "id": "kdc7fb409",
+   "lang": "ko",
+   "text": "어제부터",
+   "cap": 15
+  },
+  {
+   "id": "e33bd7317",
+   "lang": "en",
+   "text": "From yesterday?",
+   "cap": 15
+  },
+  {
+   "id": "kef9308d8",
+   "lang": "ko",
+   "text": "지금까지 이어지는 일이 시작된 때는",
+   "cap": 15
+  },
+  {
+   "id": "e1732e2aa",
+   "lang": "en",
+   "text": "Since yesterday.",
+   "cap": 15
+  },
+  {
+   "id": "k68104fbc",
+   "lang": "ko",
+   "text": "약사의 질문은 모양이 정해져 있어요.",
+   "cap": 16
+  },
+  {
+   "id": "ec577b83c",
+   "lang": "en",
+   "text": "Do you have a fever?",
+   "cap": 16
+  },
+  {
+   "id": "e174ffd6e",
+   "lang": "en",
+   "text": "Are you allergic to any medicine?",
+   "cap": 16
+  },
+  {
+   "id": "e888e6819",
+   "lang": "en",
+   "text": "Yes or No",
+   "cap": 16
+  },
+  {
+   "id": "k9df2a92f",
+   "lang": "ko",
+   "text": "질문이에요.",
+   "cap": 16
+  },
+  {
+   "id": "e758ca499",
+   "lang": "en",
+   "text": "Tablets or liquid?",
+   "cap": 17
+  },
+  {
+   "id": "k4e2fcdb1",
+   "lang": "ko",
+   "text": "고르는 질문이라",
+   "cap": 17
+  },
+  {
+   "id": "e08efdc4d",
+   "lang": "en",
+   "text": "Yes",
+   "cap": 17
+  },
+  {
+   "id": "ka6304e58",
+   "lang": "ko",
+   "text": "만으로는 답이 안 돼요.",
+   "cap": 17
+  },
+  {
+   "id": "e4418d302",
+   "lang": "en",
+   "text": "How long",
+   "cap": 17
+  },
+  {
+   "id": "k1ca6a4ea",
+   "lang": "ko",
+   "text": "정보 질문이에요.",
+   "cap": 17
+  },
+  {
+   "id": "k85bc86c7",
+   "lang": "ko",
+   "text": "질문은 첫 낱말로 짧은 대답을 만들어요.",
+   "cap": 18
+  },
+  {
+   "id": "e00083c32",
+   "lang": "en",
+   "text": "Do you , No, I don't.",
+   "cap": 18
+  },
+  {
+   "id": "ee71506ba",
+   "lang": "en",
+   "text": "Are you , No, I'm not.",
+   "cap": 18
+  },
+  {
+   "id": "kd2e4b925",
+   "lang": "ko",
+   "text": "짝이 어긋나면 틀려요.",
+   "cap": 18
+  },
+  {
+   "id": "e535c0e49",
+   "lang": "en",
+   "text": "Are you taking any other medication?",
+   "cap": 19
+  },
+  {
+   "id": "k24d83444",
+   "lang": "ko",
+   "text": "약은",
+   "cap": 19
+  },
+  {
+   "id": "e1adae528",
+   "lang": "en",
+   "text": "eat",
+   "cap": 19
+  },
+  {
+   "id": "k0ba8fc97",
+   "lang": "ko",
+   "text": "이 아니라",
+   "cap": 19
+  },
+  {
+   "id": "e1c32af94",
+   "lang": "en",
+   "text": "take , Yes, I'm taking vitamins.",
+   "cap": 19
+  },
+  {
+   "id": "k11e0d351",
+   "lang": "ko",
+   "text": "빠른 말",
+   "cap": 20
+  },
+  {
+   "id": "ee8250f4c",
+   "lang": "en",
+   "text": "You allergic to anything?",
+   "cap": 20
+  },
+  {
+   "id": "kdfdaf414",
+   "lang": "ko",
+   "text": "열쇠 낱말을 놓쳤으면 짐작하지 말고",
+   "cap": 20
+  },
+  {
+   "id": "ee838c9f8",
+   "lang": "en",
+   "text": "Sorry, did you ask about allergies?",
+   "cap": 20
+  },
+  {
+   "id": "kaecc5070",
+   "lang": "ko",
+   "text": "빠르면 두 낱말이 이어져 들려요",
+   "cap": 21
+  },
+  {
+   "id": "ed5a1a1b0",
+   "lang": "en",
+   "text": "tab let ser.",
+   "cap": 21
+  },
+  {
+   "id": "k09292bce",
+   "lang": "ko",
+   "text": "고를 것을 세게 말해요.",
+   "cap": 21
+  },
+  {
+   "id": "ed3c8be19",
+   "lang": "en",
+   "text": "Take two tablets three times a day after meals, for five days.",
+   "cap": 22
+  },
+  {
+   "id": "kbba41d71",
+   "lang": "ko",
+   "text": "조각 넷 , 양, 하루 몇 번, 언제, 며칠.",
+   "cap": 22
+  },
+  {
+   "id": "k4f5daeb7",
+   "lang": "ko",
+   "text": "되짚지 않으면 틀린 곳을 몰라요. 약은",
+   "cap": 23
+  },
+  {
+   "id": "e16d366a9",
+   "lang": "en",
+   "text": "take",
+   "cap": 23
+  },
+  {
+   "id": "k4dd33fc3",
+   "lang": "ko",
+   "text": "하루 세 번은",
+   "cap": 23
+  },
+  {
+   "id": "ec5abc019",
+   "lang": "en",
+   "text": "three times a day.",
+   "cap": 23
+  },
+  {
+   "id": "k92e89e39",
+   "lang": "ko",
+   "text": "하루 몇 번을 잘못 되짚으면 약사가 그 조각만 고쳐 줘요. 모두 맞게",
+   "cap": 24
+  },
+  {
+   "id": "e4661dc6b",
+   "lang": "en",
+   "text": "So, I take two tablets, three times a day, after meals, for five days?",
+   "cap": 24
+  },
+  {
+   "id": "ec8d2df00",
+   "lang": "en",
+   "text": "Two tablets, three times a day",
+   "cap": 25
+  },
+  {
+   "id": "kd8786977",
+   "lang": "ko",
+   "text": "놓친 조각만 물어요",
+   "cap": 25
+  },
+  {
+   "id": "e6daa8c32",
+   "lang": "en",
+   "text": "Sorry, how many times a day?",
+   "cap": 25
+  },
+  {
+   "id": "ecf518868",
+   "lang": "en",
+   "text": "That's thirteen fifty.",
+   "cap": 26
+  },
+  {
+   "id": "ea58f6927",
+   "lang": "en",
+   "text": "thirteen fifty.",
+   "cap": 26
+  },
+  {
+   "id": "e0e1d1de1",
+   "lang": "en",
+   "text": "thirteen",
+   "cap": 26
+  },
+  {
+   "id": "kf8189121",
+   "lang": "ko",
+   "text": "뒤를",
+   "cap": 26
+  },
+  {
+   "id": "ef2b77f8e",
+   "lang": "en",
+   "text": "thirty",
+   "cap": 26
+  },
+  {
+   "id": "k4c185205",
+   "lang": "ko",
+   "text": "앞을 세게 말해요. 카드로 낼 때",
+   "cap": 26
+  },
+  {
+   "id": "e271199f9",
+   "lang": "en",
+   "text": "Can I pay by card?",
+   "cap": 26
+  },
+  {
+   "id": "e41b7a47c",
+   "lang": "en",
+   "text": "may make you drowsy",
+   "cap": 27
+  },
+  {
+   "id": "keed0f440",
+   "lang": "ko",
+   "text": "모르는 낱말이면",
+   "cap": 27
+  },
+  {
+   "id": "ee420c8b8",
+   "lang": "en",
+   "text": "Sorry, what does drowsy mean?",
+   "cap": 27
+  },
+  {
+   "id": "k03ae7604",
+   "lang": "ko",
+   "text": "졸릴 수 있다는 뜻이에요",
+   "cap": 27
+  },
+  {
+   "id": "e9c3e88fc",
+   "lang": "en",
+   "text": "Okay, I won't drive.",
+   "cap": 27
+  },
+  {
+   "id": "kae8ded19",
+   "lang": "ko",
+   "text": "병원 접수",
+   "cap": 28
+  },
+  {
+   "id": "eb731f74d",
+   "lang": "en",
+   "text": "Do you have an appointment?",
+   "cap": 28
+  },
+  {
+   "id": "kf156bf58",
+   "lang": "ko",
+   "text": "예약 없이 왔으면",
+   "cap": 28
+  },
+  {
+   "id": "e94694f54",
+   "lang": "en",
+   "text": "No, I don't.",
+   "cap": 28
+  },
+  {
+   "id": "ef0e58e0b",
+   "lang": "en",
+   "text": "I'd like to see a doctor, please.",
+   "cap": 28
+  },
+  {
+   "id": "e04f4d8f7",
+   "lang": "en",
+   "text": "Is this your first visit here?",
+   "cap": 29
+  },
+  {
+   "id": "e7e27d666",
+   "lang": "en",
+   "text": "Yes, I am first.",
+   "cap": 29
+  },
+  {
+   "id": "k4bad6901",
+   "lang": "ko",
+   "text": "줄의 1등이라는 말로 들려요.",
+   "cap": 29
+  },
+  {
+   "id": "eaca01e22",
+   "lang": "en",
+   "text": "Is this",
+   "cap": 29
+  },
+  {
+   "id": "kaaa8b7db",
+   "lang": "ko",
+   "text": "로 물으면",
+   "cap": 29
+  },
+  {
+   "id": "e0ae2cd56",
+   "lang": "en",
+   "text": "Yes, it is.",
+   "cap": 29
+  },
+  {
+   "id": "e629c4eef",
+   "lang": "en",
+   "text": "What's your last name?",
+   "cap": 30
+  },
+  {
+   "id": "e504d07d3",
+   "lang": "en",
+   "text": "It's Kim, K-I-M.",
+   "cap": 30
+  },
+  {
+   "id": "kb9e375e5",
+   "lang": "ko",
+   "text": "철자를 불러 달라면",
+   "cap": 30
+  },
+  {
+   "id": "kd5f27748",
+   "lang": "ko",
+   "text": "만 하지 말고 한 글자씩",
+   "cap": 30
+  },
+  {
+   "id": "e0c556ed3",
+   "lang": "en",
+   "text": "Sure.",
+   "cap": 30
+  },
+  {
+   "id": "eb51fafff",
+   "lang": "en",
+   "text": "K-I-M.",
+   "cap": 30
+  },
+  {
+   "id": "ec564b142",
+   "lang": "en",
+   "text": "date of birth , 2005, 3, 4.",
+   "cap": 31
+  },
+  {
+   "id": "kc883488f",
+   "lang": "ko",
+   "text": "숫자만 말하면 3월 4일인지 4월 3일인지 헷갈려요. 달은 이름으로",
+   "cap": 31
+  },
+  {
+   "id": "e67a906cf",
+   "lang": "en",
+   "text": "It's March 4th, 2005.",
+   "cap": 31
+  },
+  {
+   "id": "k506656d4",
+   "lang": "ko",
+   "text": "읽기",
+   "cap": 32
+  },
+  {
+   "id": "ead7899bd",
+   "lang": "en",
+   "text": "March fourth, two thousand five.",
+   "cap": 32
+  },
+  {
+   "id": "k3f1ebc0d",
+   "lang": "ko",
+   "text": "미국 서류에는 달, 날, 해 순서로 공삼, 공사, 2005라고 써요.",
+   "cap": 32
+  },
+  {
+   "id": "e6191998a",
+   "lang": "en",
+   "text": "health insurance , Yes, I have.",
+   "cap": 33
+  },
+  {
+   "id": "e3856506c",
+   "lang": "en",
+   "text": "have",
+   "cap": 33
+  },
+  {
+   "id": "k08f07e77",
+   "lang": "ko",
+   "text": "뒤가 비어 틀려요",
+   "cap": 33
+  },
+  {
+   "id": "e8797c4f5",
+   "lang": "en",
+   "text": "Yes, I do.",
+   "cap": 33
+  },
+  {
+   "id": "e3efd7bc7",
+   "lang": "en",
+   "text": "I have travel insurance.",
+   "cap": 33
+  },
+  {
+   "id": "kda52e06d",
+   "lang": "ko",
+   "text": "의사",
+   "cap": 34
+  },
+  {
+   "id": "eaadf8e08",
+   "lang": "en",
+   "text": "So, what seems to be the problem?",
+   "cap": 34
+  },
+  {
+   "id": "kad9da99b",
+   "lang": "ko",
+   "text": "약국에서처럼",
+   "cap": 34
+  },
+  {
+   "id": "k45636c13",
+   "lang": "ko",
+   "text": "이렇게 말하면 어색해요.",
+   "cap": 34
+  },
+  {
+   "id": "keb914732",
+   "lang": "ko",
+   "text": "아픈 곳을 앞에 두고",
+   "cap": 35
+  },
+  {
+   "id": "e3ec34b56",
+   "lang": "en",
+   "text": "My throat hurts.",
+   "cap": 35
+  },
+  {
+   "id": "k58c89f6c",
+   "lang": "ko",
+   "text": "둘 다 좋아요.",
+   "cap": 35
+  },
+  {
+   "id": "e6320bdbf",
+   "lang": "en",
+   "text": "Have you taken anything for it?",
+   "cap": 36
+  },
+  {
+   "id": "k0c595e51",
+   "lang": "ko",
+   "text": "지난 일이라",
+   "cap": 36
+  },
+  {
+   "id": "ece0af19c",
+   "lang": "en",
+   "text": "took , Yes, I took some cold medicine.",
+   "cap": 36
+  },
+  {
+   "id": "ee9b13553",
+   "lang": "en",
+   "text": "So what brings you in today?",
+   "cap": 37
+  },
+  {
+   "id": "kd77b8186",
+   "lang": "ko",
+   "text": "놓쳤으면",
+   "cap": 37
+  },
+  {
+   "id": "eb812b188",
+   "lang": "en",
+   "text": "Sorry, did you ask what's wrong?",
+   "cap": 37
+  },
+  {
+   "id": "kcc671066",
+   "lang": "ko",
+   "text": "증상 넷",
+   "cap": 38
+  },
+  {
+   "id": "e22850012",
+   "lang": "en",
+   "text": "sore throat, cough, stomachache, earache.",
+   "cap": 38
+  },
+  {
+   "id": "e3c8b644a",
+   "lang": "en",
+   "text": "I have a",
+   "cap": 38
+  },
+  {
+   "id": "k57dde4ad",
+   "lang": "ko",
+   "text": "또는",
+   "cap": 38
+  },
+  {
+   "id": "ef26e1cae",
+   "lang": "en",
+   "text": "My , hurts",
+   "cap": 38
+  },
+  {
+   "id": "k645c47eb",
+   "lang": "ko",
+   "text": "로 말해요.",
+   "cap": 38
+  },
+  {
+   "id": "ee6500f35",
+   "lang": "en",
+   "text": "Where does it hurt?",
+   "cap": 39
+  },
+  {
+   "id": "eba27088e",
+   "lang": "en",
+   "text": "Here is pain.",
+   "cap": 39
+  },
+  {
+   "id": "k3dc2f63f",
+   "lang": "ko",
+   "text": "낱말 그대로 옮긴 틀린 문장이에요",
+   "cap": 39
+  },
+  {
+   "id": "ecfae0622",
+   "lang": "en",
+   "text": "It hurts in my throat.",
+   "cap": 39
+  },
+  {
+   "id": "e63e30e00",
+   "lang": "en",
+   "text": "Does it hurt when I press here?",
+   "cap": 40
+  },
+  {
+   "id": "eb526fe0f",
+   "lang": "en",
+   "text": "Does",
+   "cap": 40
+  },
+  {
+   "id": "k4f58f70d",
+   "lang": "ko",
+   "text": "로 물었으니",
+   "cap": 40
+  },
+  {
+   "id": "ea37191ad",
+   "lang": "en",
+   "text": "Yes, it does.",
+   "cap": 40
+  },
+  {
+   "id": "kab915531",
+   "lang": "ko",
+   "text": "는 짝이 어긋나요.",
+   "cap": 40
+  },
+  {
+   "id": "eb38162f0",
+   "lang": "en",
+   "text": "How bad is the pain, on a scale of one to ten?",
+   "cap": 41
+  },
+  {
+   "id": "eee5aa280",
+   "lang": "en",
+   "text": "Very pain.",
+   "cap": 41
+  },
+  {
+   "id": "k2062a16e",
+   "lang": "ko",
+   "text": "숫자가 없어요. 1부터 10 가운데",
+   "cap": 41
+  },
+  {
+   "id": "ef571d852",
+   "lang": "en",
+   "text": "About a six.",
+   "cap": 41
+  },
+  {
+   "id": "eff8b4f69",
+   "lang": "en",
+   "text": "Do you have any allergies to medication?",
+   "cap": 42
+  },
+  {
+   "id": "k751f5f71",
+   "lang": "ko",
+   "text": "약국에서는",
+   "cap": 42
+  },
+  {
+   "id": "ef0f7fd87",
+   "lang": "en",
+   "text": "Are you",
+   "cap": 42
+  },
+  {
+   "id": "kc8d8ad6b",
+   "lang": "ko",
+   "text": "로 물어서",
+   "cap": 42
+  },
+  {
+   "id": "ea07c3ed1",
+   "lang": "en",
+   "text": "No, I'm not.",
+   "cap": 42
+  },
+  {
+   "id": "k7d97c59b",
+   "lang": "ko",
+   "text": "여기는",
+   "cap": 42
+  },
+  {
+   "id": "e7f99755c",
+   "lang": "en",
+   "text": "Do you",
+   "cap": 42
+  },
+  {
+   "id": "k52bed959",
+   "lang": "ko",
+   "text": "라서",
+   "cap": 42
+  },
+  {
+   "id": "k18b419f4",
+   "lang": "ko",
+   "text": "알레르기가 있으면 꼭 말해요",
+   "cap": 43
+  },
+  {
+   "id": "e5dfb1883",
+   "lang": "en",
+   "text": "Yes, I'm allergic to penicillin.",
+   "cap": 43
+  },
+  {
+   "id": "kb16f6398",
+   "lang": "ko",
+   "text": "의사가 다른 약으로 바꿔 줘요.",
+   "cap": 43
+  },
+  {
+   "id": "e4c90f029",
+   "lang": "en",
+   "text": "I'm going to give you some antibiotics.",
+   "cap": 44
+  },
+  {
+   "id": "ee889732c",
+   "lang": "en",
+   "text": "Take one capsule twice a day with food, for seven days.",
+   "cap": 44
+  },
+  {
+   "id": "kdfc6202a",
+   "lang": "ko",
+   "text": "되짚지 않았어요. 하루 세 번으로 잘못 되짚으면",
+   "cap": 45
+  },
+  {
+   "id": "ebdcba5f1",
+   "lang": "en",
+   "text": "Not quite",
+   "cap": 45
+  },
+  {
+   "id": "ecf2c0a8b",
+   "lang": "en",
+   "text": "twice a day, not three times a day.",
+   "cap": 45
+  },
+  {
+   "id": "k9cc6ad17",
+   "lang": "ko",
+   "text": "바르게 되짚으면",
+   "cap": 46
+  },
+  {
+   "id": "ee4ccca14",
+   "lang": "en",
+   "text": "So, I take one capsule, twice a day, with food, for seven days?",
+   "cap": 46
+  },
+  {
+   "id": "ec0fa90be",
+   "lang": "en",
+   "text": "That's right!",
+   "cap": 46
+  },
+  {
+   "id": "e78df6d2e",
+   "lang": "en",
+   "text": "If you're not feeling better in three days, please come back.",
+   "cap": 47
+  },
+  {
+   "id": "k14aa07b0",
+   "lang": "ko",
+   "text": "숫자를 되짚어요",
+   "cap": 47
+  },
+  {
+   "id": "e2f71ca97",
+   "lang": "en",
+   "text": "So, I should come back in three days if I'm not better?",
+   "cap": 47
+  },
+  {
+   "id": "ee5ac8ea0",
+   "lang": "en",
+   "text": "Do you have any other questions?",
+   "cap": 48
+  },
+  {
+   "id": "k367504bd",
+   "lang": "ko",
+   "text": "진단서를",
+   "cap": 48
+  },
+  {
+   "id": "edd6bb6ef",
+   "lang": "en",
+   "text": "diagnosis",
+   "cap": 48
+  },
+  {
+   "id": "k318ddf90",
+   "lang": "ko",
+   "text": "로 옮기면 병의 이름이에요. 학교에 낼 확인서는",
+   "cap": 48
+  },
+  {
+   "id": "ec2eab2cc",
+   "lang": "en",
+   "text": "a doctor's note.",
+   "cap": 48
+  },
+  {
+   "id": "kd7faf586",
+   "lang": "ko",
+   "text": "물어볼 것은",
+   "cap": 49
+  },
+  {
+   "id": "k5b950cab",
+   "lang": "ko",
+   "text": "뒤에 바로 물어요",
+   "cap": 49
+  },
+  {
+   "id": "e7497efd9",
+   "lang": "en",
+   "text": "Yes.",
+   "cap": 49
+  },
+  {
+   "id": "ec18edcb4",
+   "lang": "en",
+   "text": "Could I get a doctor's note for my class?",
+   "cap": 49
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 50
+  },
+  {
+   "id": "k38842679",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말과 질문의 모양 잡기",
+   "cap": 51
+  },
+  {
+   "id": "e66d687bf",
+   "lang": "en",
+   "text": "or",
+   "cap": 51
+  },
+  {
+   "id": "k544eebd7",
+   "lang": "ko",
+   "text": "고르기",
+   "cap": 51
+  },
+  {
+   "id": "k86332d30",
+   "lang": "ko",
+   "text": "정보",
+   "cap": 51
+  },
+  {
+   "id": "ed851d6eb",
+   "lang": "en",
+   "text": "Do you , Are you , Does it",
+   "cap": 51
+  },
+  {
+   "id": "k305302fb",
+   "lang": "ko",
+   "text": "첫 낱말로 짧은 대답.",
+   "cap": 51
+  },
+  {
+   "id": "k3c81e6d5",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기",
+   "cap": 52
+  },
+  {
+   "id": "kfce8dc0e",
+   "lang": "ko",
+   "text": "들은 복용법과 숫자는 조각을 모아 되짚어요",
+   "cap": 52
+  },
+  {
+   "id": "e77d918ba",
+   "lang": "en",
+   "text": "So, I take",
+   "cap": 52
+  },
+  {
+   "id": "k31ec3cc3",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기 , 부탁은 질문으로",
+   "cap": 53
+  },
+  {
+   "id": "e34b80d23",
+   "lang": "en",
+   "text": "Could you recommend something?",
+   "cap": 53
+  },
+  {
+   "id": "k5af8c2a0",
+   "lang": "ko",
+   "text": "일곱 곳에 한 줄씩 적용했어요. 숫자가 많은 말일수록 되짚기가 힘이 돼요.",
+   "cap": 54
+  },
+  {
+   "id": "kb1f7260a",
+   "lang": "ko",
+   "text": "실전이에요. 환자 카드 , 기침, 물약이 좋아요. 첫 질문",
+   "cap": 55
+  },
+  {
+   "id": "e495bb42d",
+   "lang": "en",
+   "text": "Would you prefer tablets or liquid?",
+   "cap": 55
+  },
+  {
+   "id": "kdb209fda",
+   "lang": "ko",
+   "text": "첫째, 고르는 질문 , 에이",
+   "cap": 56
+  },
+  {
+   "id": "e60161af3",
+   "lang": "en",
+   "text": "Yes, please.",
+   "cap": 56
+  },
+  {
+   "id": "kbec2ca4d",
+   "lang": "ko",
+   "text": "고른 것이 없어 탈락. 둘째, 비",
+   "cap": 56
+  },
+  {
+   "id": "ecf61faf1",
+   "lang": "en",
+   "text": "Tablets, please.",
+   "cap": 56
+  },
+  {
+   "id": "k5db07d26",
+   "lang": "ko",
+   "text": "카드와 달라 탈락.",
+   "cap": 56
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 57
+  },
+  {
+   "id": "e8164f42a",
+   "lang": "en",
+   "text": "Liquid, please.",
+   "cap": 57
+  },
+  {
+   "id": "eb92ad5b6",
+   "lang": "en",
+   "text": "Take ten milliliters every six hours, for five days.",
+   "cap": 58
+  },
+  {
+   "id": "ke05eb86a",
+   "lang": "ko",
+   "text": "셋 모두 먹는 법에 대한 말이에요.",
+   "cap": 58
+  },
+  {
+   "id": "k2c0eae61",
+   "lang": "ko",
+   "text": "둘째, 에이",
+   "cap": 59
+  },
+  {
+   "id": "kfb05050e",
+   "lang": "ko",
+   "text": "되짚지 않아 탈락. 비",
+   "cap": 59
+  },
+  {
+   "id": "e51523a70",
+   "lang": "en",
+   "text": "after meals",
+   "cap": 59
+  },
+  {
+   "id": "kc6c738d1",
+   "lang": "ko",
+   "text": "들은 말에 없는 조각이라 탈락.",
+   "cap": 59
+  },
+  {
+   "id": "e86a729e8",
+   "lang": "en",
+   "text": "So, I take ten milliliters, every six hours, for five days?",
+   "cap": 60
+  },
+  {
+   "id": "e125b983d",
+   "lang": "en",
+   "text": "And what's your date of birth?",
+   "cap": 61
+  },
+  {
+   "id": "kd55624d3",
+   "lang": "ko",
+   "text": "카드 , 2004년 11월 12일. 정보 질문이에요.",
+   "cap": 61
+  },
+  {
+   "id": "kccecb476",
+   "lang": "ko",
+   "text": "첫째, 비",
+   "cap": 62
+  },
+  {
+   "id": "kc40fb88a",
+   "lang": "ko",
+   "text": "정보가 없어 탈락. 둘째, 씨 2004, 11, 12. , 숫자만 한국식 순서라 탈락.",
+   "cap": 62
+  },
+  {
+   "id": "k6fdeff0d",
+   "lang": "ko",
+   "text": "정답 에이",
+   "cap": 63
+  },
+  {
+   "id": "e2c1a750c",
+   "lang": "en",
+   "text": "It's November 12th, 2004.",
+   "cap": 63
+  },
+  {
+   "id": "k17ab1190",
+   "lang": "ko",
+   "text": "마지막",
+   "cap": 64
+  },
+  {
+   "id": "ka16a254a",
+   "lang": "ko",
+   "text": "첫째",
+   "cap": 64
+  },
+  {
+   "id": "k1483c984",
+   "lang": "ko",
+   "text": "질문 , 셋 모두",
+   "cap": 64
+  },
+  {
+   "id": "e73cef8d8",
+   "lang": "en",
+   "text": "Yes , No",
+   "cap": 64
+  },
+  {
+   "id": "k8baa3fca",
+   "lang": "ko",
+   "text": "로 답해요.",
+   "cap": 64
+  },
+  {
+   "id": "k8066b744",
+   "lang": "ko",
+   "text": "물어볼 것이 없는데",
+   "cap": 65
+  },
+  {
+   "id": "kda235f76",
+   "lang": "ko",
+   "text": "라서 탈락.",
+   "cap": 65
+  },
+  {
+   "id": "k8982e596",
+   "lang": "ko",
+   "text": "셋째, 비",
+   "cap": 66
+  },
+  {
+   "id": "eea9a376d",
+   "lang": "en",
+   "text": "No.",
+   "cap": 66
+  },
+  {
+   "id": "k42e2ba3d",
+   "lang": "ko",
+   "text": "고맙다는 말 없이 끊겨 탈락. 정답 씨",
+   "cap": 66
+  },
+  {
+   "id": "ee74133e5",
+   "lang": "en",
+   "text": "No, that's all.",
+   "cap": 66
+  },
+  {
+   "id": "e133f0bad",
+   "lang": "en",
+   "text": "Thank you so much!",
+   "cap": 66
+  },
+  {
+   "id": "kb289e196",
+   "lang": "ko",
+   "text": "정리해요. 약국에서는 사실에 부탁을 붙여요",
+   "cap": 67
+  },
+  {
+   "id": "k9b6fa616",
+   "lang": "ko",
+   "text": "먹는 법은 조각을 모아 되짚어요",
+   "cap": 68
+  },
+  {
+   "id": "k46fd2995",
+   "lang": "ko",
+   "text": "병원에서는 질문의 첫 낱말에 맞춰 짧게 답하고, 생년월일은 달 이름으로 말해요.",
+   "cap": 69
+  },
+  {
+   "id": "k7bac2a6b",
+   "lang": "ko",
+   "text": "아래 약국 , 병원 시뮬레이터에서 내 환자 카드로 약국부터 처방까지 해 보세요.",
+   "cap": 70
+  }
+ ]
+}
