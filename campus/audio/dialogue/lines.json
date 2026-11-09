@@ -1,0 +1,2180 @@
+{
+ "slug": "campus",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 10,
+  "ca": 41,
+  "gb": 12,
+  "me": 171,
+  "tc": 100,
+  "us": 27
+ },
+ "lines": [
+  {
+   "id": "us-fe5ce9b4",
+   "sp": "us",
+   "text": "Hi there. What can I help you with?",
+   "from": "video"
+  },
+  {
+   "id": "me-355ed5ff",
+   "sp": "me",
+   "text": "I want to apply English two-ten.",
+   "from": "video"
+  },
+  {
+   "id": "me-bf8ed7c5",
+   "sp": "me",
+   "text": "I'd like to register for English two-ten, please.",
+   "from": "video"
+  },
+  {
+   "id": "ca-bdeec22f",
+   "sp": "ca",
+   "text": "Yes? Did you have a question?",
+   "from": "video"
+  },
+  {
+   "id": "me-2fec9234",
+   "sp": "me",
+   "text": "Teacher, when is your office time?",
+   "from": "video"
+  },
+  {
+   "id": "tc-e4220c46",
+   "sp": "tc",
+   "text": "Tuesdays and Thursdays, from two to four. Room three-eighteen.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-3b170d2a",
+   "sp": "me",
+   "text": "Yes. Could you tell me when your office hours are?",
+   "from": "video"
+  },
+  {
+   "id": "us-64f99fe3",
+   "sp": "us",
+   "text": "Okay. You're number thirteen on the waitlist.",
+   "from": "video"
+  },
+  {
+   "id": "tc-b7a46db3",
+   "sp": "tc",
+   "text": "thirteen",
+   "from": "video-say"
+  },
+  {
+   "id": "me-bd17fdf4",
+   "sp": "me",
+   "text": "Okay. Thanks.",
+   "from": "video"
+  },
+  {
+   "id": "me-5f371c83",
+   "sp": "me",
+   "text": "So, I'm number thirteen?",
+   "from": "video"
+  },
+  {
+   "id": "tc-0d3987fa",
+   "sp": "tc",
+   "text": "Morning or afternoon?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-adc01f4a",
+   "sp": "tc",
+   "text": "So, I'm number thirteen?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-66d70b2f",
+   "sp": "tc",
+   "text": "Could you send someone to look at it?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-26e8ee51",
+   "sp": "tc",
+   "text": "Hi there. What can I help you with?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-dca0d527",
+   "sp": "tc",
+   "text": "Hmm, it looks like the morning section is full.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-597b643a",
+   "sp": "tc",
+   "text": "Yes? Did you have a question?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-64e8ad60",
+   "sp": "tc",
+   "text": "Come on in! What can I do for you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b6549f32",
+   "sp": "tc",
+   "text": "Is there anything else?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ee88ed06",
+   "sp": "tc",
+   "text": "Hello, Housing Office. How can I help?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8f04981d",
+   "sp": "tc",
+   "text": "Hey! What's up?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-8494e6b7",
+   "sp": "me",
+   "text": "I'm an exchange student.",
+   "from": "video"
+  },
+  {
+   "id": "me-4d1900f9",
+   "sp": "me",
+   "text": "Register me for English two-ten.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2eab9208",
+   "sp": "tc",
+   "text": "two-ten",
+   "from": "video-say"
+  },
+  {
+   "id": "me-46c60f9a",
+   "sp": "me",
+   "text": "I'd like to register for English two-oh-one, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-4a374538",
+   "sp": "us",
+   "text": "Would you like the morning section or the afternoon section?",
+   "from": "video"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-ce88d99d",
+   "sp": "me",
+   "text": "The afternoon section, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-7c7f8c31",
+   "sp": "me",
+   "text": "The morning section, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-783453c3",
+   "sp": "us",
+   "text": "Morning or afternoon?",
+   "from": "video"
+  },
+  {
+   "id": "tc-c5986ea4",
+   "sp": "tc",
+   "text": "the morning section",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d828737c",
+   "sp": "tc",
+   "text": "the afternoon section",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c6ab0a7e",
+   "sp": "tc",
+   "text": "a course · a class",
+   "from": "video-say"
+  },
+  {
+   "id": "us-344ea813",
+   "sp": "us",
+   "text": "Have you taken a college English class before?",
+   "from": "video"
+  },
+  {
+   "id": "tc-23d3be5b",
+   "sp": "tc",
+   "text": "Yes, I do.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-62c92393",
+   "sp": "tc",
+   "text": "Yes, I did.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-7b94c444",
+   "sp": "me",
+   "text": "Yes, I did.",
+   "from": "video"
+  },
+  {
+   "id": "tc-39bb1b46",
+   "sp": "tc",
+   "text": "Yes, I am.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-649cb778",
+   "sp": "tc",
+   "text": "Yes, it is.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0c767a96",
+   "sp": "tc",
+   "text": "Yes, I have.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-0d195d90",
+   "sp": "me",
+   "text": "Yes, I have. I took a similar class in Korea.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2844fe30",
+   "sp": "tc",
+   "text": "No, I haven't. Could I still sign up?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-b2ea867c",
+   "sp": "us",
+   "text": "Hey, whatcha need?",
+   "from": "video"
+  },
+  {
+   "id": "tc-6ad2c545",
+   "sp": "tc",
+   "text": "whatcha need?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-0e12df3c",
+   "sp": "tc",
+   "text": "Sorry, did you ask what I need?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-c39ad213",
+   "sp": "me",
+   "text": "Sorry, did you ask what I need?",
+   "from": "video"
+  },
+  {
+   "id": "us-b422e08d",
+   "sp": "us",
+   "text": "What can I help you with?",
+   "from": "video"
+  },
+  {
+   "id": "us-06e6609e",
+   "sp": "us",
+   "text": "Hmm, it looks like the morning section is full.",
+   "from": "video"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "video"
+  },
+  {
+   "id": "me-b1b9868c",
+   "sp": "me",
+   "text": "Oh, okay.",
+   "from": "video"
+  },
+  {
+   "id": "me-7dda7b8a",
+   "sp": "me",
+   "text": "Can I make a reservation for the class?",
+   "from": "video"
+  },
+  {
+   "id": "me-9fba26f2",
+   "sp": "me",
+   "text": "Just put me in the class.",
+   "from": "video"
+  },
+  {
+   "id": "me-b3a2be98",
+   "sp": "me",
+   "text": "Could you put me on the waitlist, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-76a46ec9",
+   "sp": "me",
+   "text": "Oh, I see. Could I join the afternoon section instead?",
+   "from": "video"
+  },
+  {
+   "id": "me-3eb6f696",
+   "sp": "me",
+   "text": "So, I'm number thirty?",
+   "from": "video"
+  },
+  {
+   "id": "us-fedd96ad",
+   "sp": "us",
+   "text": "No — you're number thirteen.",
+   "from": "video"
+  },
+  {
+   "id": "us-82719f1a",
+   "sp": "us",
+   "text": "That's right. We'll email you if a spot opens up.",
+   "from": "video"
+  },
+  {
+   "id": "tc-f8a08c24",
+   "sp": "tc",
+   "text": "thirty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-41f43b54",
+   "sp": "tc",
+   "text": "fourteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3a6e5d5c",
+   "sp": "tc",
+   "text": "forty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2657b075",
+   "sp": "tc",
+   "text": "eighteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-56996e7a",
+   "sp": "tc",
+   "text": "eighty",
+   "from": "video-say"
+  },
+  {
+   "id": "us-5ee747c2",
+   "sp": "us",
+   "text": "Kay, you're thirteen on the list.",
+   "from": "video"
+  },
+  {
+   "id": "tc-3e3ac977",
+   "sp": "tc",
+   "text": "Kay, you're thirteen on the list.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8953f65f",
+   "sp": "tc",
+   "text": "Sorry, what number am I on the waitlist?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-c292ce2e",
+   "sp": "me",
+   "text": "Sorry, what number am I on the waitlist?",
+   "from": "video"
+  },
+  {
+   "id": "us-aef57595",
+   "sp": "us",
+   "text": "You're number thirteen on the waitlist.",
+   "from": "video"
+  },
+  {
+   "id": "tc-83d406ef",
+   "sp": "tc",
+   "text": "Professor Hale",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c112d6a2",
+   "sp": "tc",
+   "text": "Teacher",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5ea26083",
+   "sp": "tc",
+   "text": "office hours",
+   "from": "video-say"
+  },
+  {
+   "id": "me-c46a7b28",
+   "sp": "me",
+   "text": "Tell me your office hours.",
+   "from": "video"
+  },
+  {
+   "id": "ca-c5f4996f",
+   "sp": "ca",
+   "text": "Of course.",
+   "from": "video"
+  },
+  {
+   "id": "ca-249d6ae5",
+   "sp": "ca",
+   "text": "My office hours are Tuesdays and Thursdays from two to four, in Room three-eighteen.",
+   "from": "video"
+  },
+  {
+   "id": "me-24907eab",
+   "sp": "me",
+   "text": "So, Mondays and Wednesdays, in Room three-eighteen?",
+   "from": "video"
+  },
+  {
+   "id": "me-9ed18557",
+   "sp": "me",
+   "text": "So, Tuesdays and Thursdays, in Room three-eighty?",
+   "from": "video"
+  },
+  {
+   "id": "me-654d51f6",
+   "sp": "me",
+   "text": "So, Tuesdays and Thursdays, in Room three-eighteen?",
+   "from": "video"
+  },
+  {
+   "id": "ca-8a6d6036",
+   "sp": "ca",
+   "text": "That's right. See you then!",
+   "from": "video"
+  },
+  {
+   "id": "ca-32466b94",
+   "sp": "ca",
+   "text": "Office hours, Tuesdays, Thursdays, two to four, three-eighteen.",
+   "from": "video"
+  },
+  {
+   "id": "tc-6d71fd66",
+   "sp": "tc",
+   "text": "three-eighteen",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-53e84eed",
+   "sp": "tc",
+   "text": "two to four",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-30f62f66",
+   "sp": "tc",
+   "text": "Sorry, when are your office hours?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-dd4bed3b",
+   "sp": "me",
+   "text": "Sorry, when are your office hours?",
+   "from": "video"
+  },
+  {
+   "id": "ca-afff555b",
+   "sp": "ca",
+   "text": "Come on in! What can I do for you?",
+   "from": "video"
+  },
+  {
+   "id": "me-fcf8d34f",
+   "sp": "me",
+   "text": "Teacher, I don't understand the class.",
+   "from": "video"
+  },
+  {
+   "id": "me-044dee1e",
+   "sp": "me",
+   "text": "Help me with the readings.",
+   "from": "video"
+  },
+  {
+   "id": "tc-be64ec47",
+   "sp": "tc",
+   "text": "Help me with …",
+   "from": "video-say"
+  },
+  {
+   "id": "me-41ed9a28",
+   "sp": "me",
+   "text": "I'm having trouble with the readings.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d8ed0fcf",
+   "sp": "tc",
+   "text": "I'm having trouble with the readings.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-3ec34d44",
+   "sp": "me",
+   "text": "I'm having trouble with the readings. Could you give me some advice?",
+   "from": "video"
+  },
+  {
+   "id": "tc-e71e03a0",
+   "sp": "tc",
+   "text": "Could you give me some advice?",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-e3bcb4bb",
+   "sp": "ca",
+   "text": "Of course. Let's take a look.",
+   "from": "video"
+  },
+  {
+   "id": "ca-952bb39f",
+   "sp": "ca",
+   "text": "I see. Is it the vocabulary or the main ideas?",
+   "from": "video"
+  },
+  {
+   "id": "tc-bfded709",
+   "sp": "tc",
+   "text": "the vocabulary",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a66dbdc0",
+   "sp": "tc",
+   "text": "the main ideas",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-171cbd62",
+   "sp": "tc",
+   "text": "Mostly the main ideas.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-ca005415",
+   "sp": "me",
+   "text": "Mostly the topic.",
+   "from": "video"
+  },
+  {
+   "id": "me-703f89ef",
+   "sp": "me",
+   "text": "Mostly the main ideas.",
+   "from": "video"
+  },
+  {
+   "id": "ca-64edb804",
+   "sp": "ca",
+   "text": "I see. Is it the topic or the structure?",
+   "from": "video"
+  },
+  {
+   "id": "ca-5af728e7",
+   "sp": "ca",
+   "text": "Topic or structure?",
+   "from": "video"
+  },
+  {
+   "id": "tc-abe28744",
+   "sp": "tc",
+   "text": "the topic",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-29035b46",
+   "sp": "tc",
+   "text": "the structure",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-8c49afc3",
+   "sp": "ca",
+   "text": "Have you tried the study guide on the course website?",
+   "from": "video"
+  },
+  {
+   "id": "me-2a96164a",
+   "sp": "me",
+   "text": "Yes, I do.",
+   "from": "video"
+  },
+  {
+   "id": "me-cb5e8ceb",
+   "sp": "me",
+   "text": "Yes, I have, but it didn't help much.",
+   "from": "video"
+  },
+  {
+   "id": "ca-c245a751",
+   "sp": "ca",
+   "text": "Okay. Let's go over a few strategies, then.",
+   "from": "video"
+  },
+  {
+   "id": "ca-13e5f17f",
+   "sp": "ca",
+   "text": "Is there anything else?",
+   "from": "video"
+  },
+  {
+   "id": "ca-41712e66",
+   "sp": "ca",
+   "text": "Sure — what is it?",
+   "from": "video"
+  },
+  {
+   "id": "me-d7cfcb47",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. Would it be possible to get a two-day extension on my essay?",
+   "from": "video"
+  },
+  {
+   "id": "tc-330e5448",
+   "sp": "tc",
+   "text": "I was sick this week",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-af596cf7",
+   "sp": "tc",
+   "text": "Would it be possible to get",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a20b889d",
+   "sp": "tc",
+   "text": "a two-day extension on my essay",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-1a58accf",
+   "sp": "ca",
+   "text": "I'm sorry to hear that. Sure, that's fine.",
+   "from": "video"
+  },
+  {
+   "id": "me-a818c858",
+   "sp": "me",
+   "text": "Teacher, I was sick this week. Would it be possible to get a two-day extension on my essay?",
+   "from": "video"
+  },
+  {
+   "id": "ca-8ea7d694",
+   "sp": "ca",
+   "text": "Oh — you can call me Professor Hale. What is it?",
+   "from": "video"
+  },
+  {
+   "id": "me-85791839",
+   "sp": "me",
+   "text": "Professor Hale, would it be possible to get a two-day extension on my essay?",
+   "from": "video"
+  },
+  {
+   "id": "ca-ac5c7da2",
+   "sp": "ca",
+   "text": "Hmm… can I ask why?",
+   "from": "video"
+  },
+  {
+   "id": "me-484cf18c",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. I want a two-day extension on my essay.",
+   "from": "video"
+  },
+  {
+   "id": "ca-1305d9ab",
+   "sp": "ca",
+   "text": "… Well, okay. Two more days.",
+   "from": "video"
+  },
+  {
+   "id": "me-bed45ff3",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. Would it be possible to get more time for my report?",
+   "from": "video"
+  },
+  {
+   "id": "ca-82c8a189",
+   "sp": "ca",
+   "text": "Your report…? Oh — you mean your essay?",
+   "from": "video"
+  },
+  {
+   "id": "ca-61a45c85",
+   "sp": "ca",
+   "text": "How many more days do you need?",
+   "from": "video"
+  },
+  {
+   "id": "tc-80da058b",
+   "sp": "tc",
+   "text": "a two-day extension",
+   "from": "video-say"
+  },
+  {
+   "id": "me-02f8f275",
+   "sp": "me",
+   "text": "During two days.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d40b56b6",
+   "sp": "tc",
+   "text": "two more days",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b9b5fce9",
+   "sp": "tc",
+   "text": "during the break",
+   "from": "video-say"
+  },
+  {
+   "id": "me-b13a9b11",
+   "sp": "me",
+   "text": "Just two more days, if possible.",
+   "from": "video"
+  },
+  {
+   "id": "ca-1087f67d",
+   "sp": "ca",
+   "text": "Okay. Please send it to me by Sunday at midnight.",
+   "from": "video"
+  },
+  {
+   "id": "tc-087389bc",
+   "sp": "tc",
+   "text": "by Sunday at midnight",
+   "from": "video-say"
+  },
+  {
+   "id": "me-c20e9052",
+   "sp": "me",
+   "text": "So, by Monday at midnight?",
+   "from": "video"
+  },
+  {
+   "id": "me-b248e506",
+   "sp": "me",
+   "text": "So, by Sunday at midnight?",
+   "from": "video"
+  },
+  {
+   "id": "ca-d96326fb",
+   "sp": "ca",
+   "text": "Kay, just get it to me by Sunday, midnight.",
+   "from": "video"
+  },
+  {
+   "id": "tc-e39cb2cd",
+   "sp": "tc",
+   "text": "just get it to me by …",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bea34303",
+   "sp": "tc",
+   "text": "Sorry, when is the new deadline?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-60542e56",
+   "sp": "me",
+   "text": "Sorry, when is the new deadline?",
+   "from": "video"
+  },
+  {
+   "id": "ca-49b48409",
+   "sp": "ca",
+   "text": "By Sunday at midnight.",
+   "from": "video"
+  },
+  {
+   "id": "gb-a0dd2982",
+   "sp": "gb",
+   "text": "Hello, Housing Office. How can I help?",
+   "from": "video"
+  },
+  {
+   "id": "tc-8eeaad21",
+   "sp": "tc",
+   "text": "heater",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b9e1babe",
+   "sp": "tc",
+   "text": "shower",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-751f4b98",
+   "sp": "tc",
+   "text": "light",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4196130e",
+   "sp": "tc",
+   "text": "Wi-Fi",
+   "from": "video-say"
+  },
+  {
+   "id": "me-932dae20",
+   "sp": "me",
+   "text": "The boiler in my room isn't working. Could you send someone to look at it?",
+   "from": "video"
+  },
+  {
+   "id": "me-dd4014b7",
+   "sp": "me",
+   "text": "Fix my heater.",
+   "from": "video"
+  },
+  {
+   "id": "me-d12a508f",
+   "sp": "me",
+   "text": "The heater in my room isn't working.",
+   "from": "video"
+  },
+  {
+   "id": "me-a23497ac",
+   "sp": "me",
+   "text": "The heater in my room isn't working. Could you send someone to look at it?",
+   "from": "video"
+  },
+  {
+   "id": "gb-b8aa324a",
+   "sp": "gb",
+   "text": "Oh dear, sorry about that. I'll put in a request.",
+   "from": "video"
+  },
+  {
+   "id": "gb-bbdd1153",
+   "sp": "gb",
+   "text": "Right. And what's your room number?",
+   "from": "video"
+  },
+  {
+   "id": "tc-d8c2d63d",
+   "sp": "tc",
+   "text": "two-fourteen",
+   "from": "video-say"
+  },
+  {
+   "id": "me-02b5d1d5",
+   "sp": "me",
+   "text": "I live in a dormitory.",
+   "from": "video"
+  },
+  {
+   "id": "me-130de9cf",
+   "sp": "me",
+   "text": "It's Room two-forty, in Maple Hall.",
+   "from": "video"
+  },
+  {
+   "id": "me-e17eadd9",
+   "sp": "me",
+   "text": "It's Room two-fourteen, in Cedar Hall.",
+   "from": "video"
+  },
+  {
+   "id": "me-838991c7",
+   "sp": "me",
+   "text": "It's Room two-fourteen, in Maple Hall.",
+   "from": "video"
+  },
+  {
+   "id": "gb-59d7dd09",
+   "sp": "gb",
+   "text": "What's yer room number, love?",
+   "from": "video"
+  },
+  {
+   "id": "tc-db3169dd",
+   "sp": "tc",
+   "text": "What's yer room number, love?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-79e6c338",
+   "sp": "tc",
+   "text": "Sorry, did you ask for my room number?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-7e39d8b9",
+   "sp": "me",
+   "text": "Sorry, did you ask for my room number?",
+   "from": "video"
+  },
+  {
+   "id": "gb-3b78d8c2",
+   "sp": "gb",
+   "text": "Is it alright if maintenance goes in while you're out?",
+   "from": "video"
+  },
+  {
+   "id": "me-2274fe60",
+   "sp": "me",
+   "text": "Sorry, what does maintenance mean?",
+   "from": "video"
+  },
+  {
+   "id": "gb-b61175cc",
+   "sp": "gb",
+   "text": "It means our repair staff — the people who fix things.",
+   "from": "video"
+  },
+  {
+   "id": "me-ef42d2bd",
+   "sp": "me",
+   "text": "Yes, that's fine.",
+   "from": "video"
+  },
+  {
+   "id": "me-a3ffe3d7",
+   "sp": "me",
+   "text": "Actually, I'd rather be there, if that's okay.",
+   "from": "video"
+  },
+  {
+   "id": "gb-593852f8",
+   "sp": "gb",
+   "text": "Someone will come by tomorrow between nine and eleven.",
+   "from": "video"
+  },
+  {
+   "id": "me-bfe6b6fe",
+   "sp": "me",
+   "text": "So, tomorrow between one and three?",
+   "from": "video"
+  },
+  {
+   "id": "me-00d39483",
+   "sp": "me",
+   "text": "So, tomorrow between nine and eleven?",
+   "from": "video"
+  },
+  {
+   "id": "au-21e604ee",
+   "sp": "au",
+   "text": "Hey! What's up?",
+   "from": "video"
+  },
+  {
+   "id": "me-252c3809",
+   "sp": "me",
+   "text": "Here is too noisy.",
+   "from": "video"
+  },
+  {
+   "id": "me-a507a076",
+   "sp": "me",
+   "text": "Change my room.",
+   "from": "video"
+  },
+  {
+   "id": "me-8396a69a",
+   "sp": "me",
+   "text": "My roommate plays loud music late at night.",
+   "from": "video"
+  },
+  {
+   "id": "tc-02ef095b",
+   "sp": "tc",
+   "text": "My roommate plays loud music late at night,",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-10f16e73",
+   "sp": "tc",
+   "text": "so I can't sleep.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5cf07b67",
+   "sp": "tc",
+   "text": "Could I get some advice?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-99bf9a92",
+   "sp": "me",
+   "text": "My roommate plays loud music late at night, so I can't sleep. Could I get some advice?",
+   "from": "video"
+  },
+  {
+   "id": "au-8ed233d3",
+   "sp": "au",
+   "text": "Oh no, that sounds tough.",
+   "from": "video"
+  },
+  {
+   "id": "au-8a3f35f0",
+   "sp": "au",
+   "text": "Have you talked to your roommate about it?",
+   "from": "video"
+  },
+  {
+   "id": "me-89f7a6af",
+   "sp": "me",
+   "text": "No, I don't.",
+   "from": "video"
+  },
+  {
+   "id": "me-bfcfca37",
+   "sp": "me",
+   "text": "No, I haven't. I'm not sure what to say.",
+   "from": "video"
+  },
+  {
+   "id": "au-ab429010",
+   "sp": "au",
+   "text": "That's totally normal.",
+   "from": "video"
+  },
+  {
+   "id": "au-c0bb8195",
+   "sp": "au",
+   "text": "Ya talked to 'em about it yet?",
+   "from": "video"
+  },
+  {
+   "id": "tc-e881be10",
+   "sp": "tc",
+   "text": "Ya talked to 'em …?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-94752a75",
+   "sp": "tc",
+   "text": "Sorry, did you ask if I talked to my roommate?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-fbecf89c",
+   "sp": "me",
+   "text": "Sorry, did you ask if I talked to my roommate?",
+   "from": "video"
+  },
+  {
+   "id": "au-f3f82875",
+   "sp": "au",
+   "text": "Would you like me to be there when you talk to them?",
+   "from": "video"
+  },
+  {
+   "id": "me-f38eaf15",
+   "sp": "me",
+   "text": "Yes. You come with me.",
+   "from": "video"
+  },
+  {
+   "id": "me-d7ba45fc",
+   "sp": "me",
+   "text": "Yes, please. That would really help.",
+   "from": "video"
+  },
+  {
+   "id": "tc-569e8e55",
+   "sp": "tc",
+   "text": "Yes, please. That would really help.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e1ef1f0e",
+   "sp": "tc",
+   "text": "No, thanks. I'll try talking to them first.",
+   "from": "video-say"
+  },
+  {
+   "id": "au-bf70a2c1",
+   "sp": "au",
+   "text": "No worries. Let's find a time.",
+   "from": "video"
+  },
+  {
+   "id": "tc-ffd38d72",
+   "sp": "tc",
+   "text": "Okay. You're number thirteen on the waitlist.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-af01ffae",
+   "sp": "tc",
+   "text": "I'd like to register for English two-ten, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-19da7113",
+   "sp": "tc",
+   "text": "Yes. Could you tell me when your office hours are?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-d652c741",
+   "sp": "tc",
+   "text": "I'm having trouble with the readings. Could you give me some advice?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b4c68f1a",
+   "sp": "tc",
+   "text": "Professor Hale, I was sick this week. Would it be possible to get a two-day extension on my essay?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6304a2a1",
+   "sp": "tc",
+   "text": "The heater in my room isn't working. Could you send someone to look at it?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-cb42c943",
+   "sp": "tc",
+   "text": "My roommate plays loud music late at night, so I can't sleep. Could I get some advice?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1284aa1",
+   "sp": "tc",
+   "text": "Yes, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ed865a48",
+   "sp": "tc",
+   "text": "The morning section, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-be7437a0",
+   "sp": "tc",
+   "text": "The afternoon section, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-99148116",
+   "sp": "us",
+   "text": "Hmm, it looks like the afternoon section is full.",
+   "from": "video"
+  },
+  {
+   "id": "tc-4d010b8c",
+   "sp": "tc",
+   "text": "Oh, I see. Could I join the afternoon section instead?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-242759f4",
+   "sp": "tc",
+   "text": "Oh, I see. Could I join the morning section instead?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fabe94a7",
+   "sp": "tc",
+   "text": "Could you put me on the waitlist, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1f4019f9",
+   "sp": "tc",
+   "text": "Professor Hale, I had three exams this week. I want a three-day extension on my essay.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8a5b7742",
+   "sp": "tc",
+   "text": "Professor Hale, I had three exams this week. Would it be possible to get a two-day extension on my essay?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-faaec964",
+   "sp": "tc",
+   "text": "Professor Hale, I had three exams this week. Would it be possible to get a three-day extension on my essay?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-19e07c6b",
+   "sp": "tc",
+   "text": "It's Room three-sixty, in Cedar Hall.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a32711a3",
+   "sp": "tc",
+   "text": "Yes.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8121eb94",
+   "sp": "tc",
+   "text": "It's Room three-sixteen, in Cedar Hall.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-789c8fe5",
+   "sp": "tc",
+   "text": "I'd like to register for English two-ten, please. · The morning section, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1825e40c",
+   "sp": "tc",
+   "text": "Could you put me on the waitlist, please? · So, I'm number thirteen?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b8891f83",
+   "sp": "tc",
+   "text": "two-ten. thirteen. thirty.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4b25eb7b",
+   "sp": "tc",
+   "text": "Sorry, what number am I on the waitlist? · Sorry, what does maintenance mean?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b9550ff7",
+   "sp": "tc",
+   "text": "Would you like the morning section or the afternoon section?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1f856792",
+   "sp": "tc",
+   "text": "My office hours are Tuesdays and Thursdays from two to four, in Room three-eighteen.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2290e915",
+   "sp": "tc",
+   "text": "So, Tuesdays and Thursdays, in Room three-eighteen?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3eb2f3e0",
+   "sp": "tc",
+   "text": "I see. Is it the vocabulary or the main ideas?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e5895cdc",
+   "sp": "tc",
+   "text": "Okay. Please send it to me by Sunday at midnight.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e60be30f",
+   "sp": "tc",
+   "text": "So, by Sunday at midnight?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ad9a370c",
+   "sp": "tc",
+   "text": "Someone will come by tomorrow between nine and eleven.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b762d640",
+   "sp": "tc",
+   "text": "So, tomorrow between nine and eleven?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b1ca3b58",
+   "sp": "tc",
+   "text": "Would you like me to be there when you talk to them?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-be09cac7",
+   "sp": "us",
+   "text": "Sure! Let me pull up the class list.",
+   "from": "lab"
+  },
+  {
+   "id": "me-526cbcff",
+   "sp": "me",
+   "text": "No, I haven't. Could I still sign up?",
+   "from": "lab"
+  },
+  {
+   "id": "us-ed2cd834",
+   "sp": "us",
+   "text": "Sure.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-b218b375",
+   "sp": "ca",
+   "text": "That's right. Good luck!",
+   "from": "lab"
+  },
+  {
+   "id": "gb-6a115a88",
+   "sp": "gb",
+   "text": "Maintenance means the staff who fix things in the building, like the heater or the lights.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-f16b45f8",
+   "sp": "gb",
+   "text": "That's right. Cheers!",
+   "from": "lab"
+  },
+  {
+   "id": "us-b60963d6",
+   "sp": "us",
+   "text": "Hmm, are you sure?",
+   "from": "lab"
+  },
+  {
+   "id": "us-2c7b61b9",
+   "sp": "us",
+   "text": "Okay… Is there anything you'd like to do?",
+   "from": "lab"
+  },
+  {
+   "id": "us-2a12b8b3",
+   "sp": "us",
+   "text": "A reservation…? Oh — the waitlist?",
+   "from": "lab"
+  },
+  {
+   "id": "us-b670c3a9",
+   "sp": "us",
+   "text": "... Okay.",
+   "from": "lab"
+  },
+  {
+   "id": "us-1b3b0a1a",
+   "sp": "us",
+   "text": "Yes, there's space in the afternoon section. You're all set!",
+   "from": "lab"
+  },
+  {
+   "id": "us-9daa9fb3",
+   "sp": "us",
+   "text": "Sure. Did you get your number?",
+   "from": "lab"
+  },
+  {
+   "id": "me-1b7539c2",
+   "sp": "me",
+   "text": "So, I'm number fourteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-4a11f142",
+   "sp": "us",
+   "text": "Okay. You're number fourteen on the waitlist.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e2a3b488",
+   "sp": "me",
+   "text": "So, I'm number forty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-8652a27c",
+   "sp": "us",
+   "text": "No — you're number fourteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ebe9e1c7",
+   "sp": "me",
+   "text": "So, I'm number fifteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-fe761697",
+   "sp": "us",
+   "text": "Okay. You're number fifteen on the waitlist.",
+   "from": "lab"
+  },
+  {
+   "id": "me-531f9492",
+   "sp": "me",
+   "text": "So, I'm number fifty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-55f7545f",
+   "sp": "us",
+   "text": "No — you're number fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5e92d904",
+   "sp": "me",
+   "text": "So, I'm number sixteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-a43e0e08",
+   "sp": "us",
+   "text": "Okay. You're number sixteen on the waitlist.",
+   "from": "lab"
+  },
+  {
+   "id": "me-2ac4e321",
+   "sp": "me",
+   "text": "So, I'm number sixty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-4a54fd6c",
+   "sp": "us",
+   "text": "No — you're number sixteen.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-acc3e89a",
+   "sp": "ca",
+   "text": "Oh — you can call me Professor Hale. My office hours?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-22088619",
+   "sp": "ca",
+   "text": "... Okay.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-ebbe8bec",
+   "sp": "ca",
+   "text": "No — Tuesdays and Thursdays, in Room three-eighteen.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-7ddc059e",
+   "sp": "ca",
+   "text": "Sure. Did you get the room number?",
+   "from": "lab"
+  },
+  {
+   "id": "me-70fa7ab2",
+   "sp": "me",
+   "text": "So, Mondays and Wednesdays, in Room four-sixteen?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-b4bc2489",
+   "sp": "ca",
+   "text": "My office hours are Mondays and Wednesdays from one to three, in Room four-sixteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-95726e85",
+   "sp": "me",
+   "text": "So, Wednesdays and Fridays, in Room four-sixteen?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-fb333d40",
+   "sp": "ca",
+   "text": "No — Mondays and Wednesdays, in Room four-sixteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-d2629cfb",
+   "sp": "me",
+   "text": "So, Mondays and Wednesdays, in Room four-sixty?",
+   "from": "lab"
+  },
+  {
+   "id": "me-e3da18d2",
+   "sp": "me",
+   "text": "So, Wednesdays and Fridays, in Room two-fifteen?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-a6267091",
+   "sp": "ca",
+   "text": "My office hours are Wednesdays and Fridays from ten to twelve, in Room two-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-d61536e4",
+   "sp": "me",
+   "text": "So, Tuesdays and Thursdays, in Room two-fifteen?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-362eff62",
+   "sp": "ca",
+   "text": "No — Wednesdays and Fridays, in Room two-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3aeb1f9b",
+   "sp": "me",
+   "text": "So, Wednesdays and Fridays, in Room two-fifty?",
+   "from": "lab"
+  },
+  {
+   "id": "me-78ba5219",
+   "sp": "me",
+   "text": "I'm having trouble with my essay. Could you give me some advice?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-70acfd83",
+   "sp": "ca",
+   "text": "I see. And how can I help?",
+   "from": "lab"
+  },
+  {
+   "id": "me-79343317",
+   "sp": "me",
+   "text": "I'm having trouble with my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-0bed5115",
+   "sp": "me",
+   "text": "Help me with my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-10004fcc",
+   "sp": "ca",
+   "text": "Oh — you can call me Professor Hale. Which part is hard?",
+   "from": "lab"
+  },
+  {
+   "id": "me-da0c55b3",
+   "sp": "me",
+   "text": "Professor Hale, would it be possible to get a two-day extension on my essay? I was sick this week.",
+   "from": "lab"
+  },
+  {
+   "id": "me-bcd8b147",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. A two-day extension on my essay. Would it be possible to get?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-f309e6c3",
+   "sp": "ca",
+   "text": "Sorry, could you say that again?",
+   "from": "lab"
+  },
+  {
+   "id": "me-78f6a229",
+   "sp": "me",
+   "text": "I was sick this week. Would it be possible to get a two-day extension on my essay, Professor Hale?",
+   "from": "lab"
+  },
+  {
+   "id": "me-772282fc",
+   "sp": "me",
+   "text": "I was sick this week. Would it be possible to get a two-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b7727ab9",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. A two-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-1d6ff1a6",
+   "sp": "ca",
+   "text": "Okay… and what would you like?",
+   "from": "lab"
+  },
+  {
+   "id": "me-74a00388",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. Would it be possible to get?",
+   "from": "lab"
+  },
+  {
+   "id": "me-dbf2ba11",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. Would it be possible to get a two-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-e9466d4b",
+   "sp": "ca",
+   "text": "Hmm, is that right?",
+   "from": "lab"
+  },
+  {
+   "id": "me-f7716e45",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. Would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a49f7317",
+   "sp": "me",
+   "text": "Just three more days, if possible.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-03668511",
+   "sp": "ca",
+   "text": "Okay. Please send it to me by Monday at midnight.",
+   "from": "lab"
+  },
+  {
+   "id": "me-97ae2991",
+   "sp": "me",
+   "text": "Professor Hale, would it be possible to get a three-day extension on my essay? I was sick this week.",
+   "from": "lab"
+  },
+  {
+   "id": "me-804e856d",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. A three-day extension on my essay. Would it be possible to get?",
+   "from": "lab"
+  },
+  {
+   "id": "me-03bc1cf3",
+   "sp": "me",
+   "text": "I was sick this week. Would it be possible to get a three-day extension on my essay, Professor Hale?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b74b8a1a",
+   "sp": "me",
+   "text": "I was sick this week. Would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-1b70668b",
+   "sp": "me",
+   "text": "Professor Hale, would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a5ba533b",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. A three-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-91f04686",
+   "sp": "me",
+   "text": "Teacher, I was sick this week. Would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-0c265e83",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. Would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-28162baa",
+   "sp": "me",
+   "text": "Professor Hale, I was sick this week. I want a three-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-14aca23d",
+   "sp": "ca",
+   "text": "… Well, okay. Three more days.",
+   "from": "lab"
+  },
+  {
+   "id": "me-386c8f19",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. Would it be possible to get a two-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-a45333bf",
+   "sp": "ca",
+   "text": "Three exams? That's a busy week. Sure, that's fine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-75c0f4fb",
+   "sp": "me",
+   "text": "Professor Hale, would it be possible to get a two-day extension on my essay? I had three exams this week.",
+   "from": "lab"
+  },
+  {
+   "id": "me-bd8821d1",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. A two-day extension on my essay. Would it be possible to get?",
+   "from": "lab"
+  },
+  {
+   "id": "me-9b8b14e9",
+   "sp": "me",
+   "text": "I had three exams this week. Would it be possible to get a two-day extension on my essay, Professor Hale?",
+   "from": "lab"
+  },
+  {
+   "id": "me-4743243c",
+   "sp": "me",
+   "text": "I had three exams this week. Would it be possible to get a two-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b990eb47",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. A two-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b5113aea",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. Would it be possible to get?",
+   "from": "lab"
+  },
+  {
+   "id": "me-49a0ceb8",
+   "sp": "me",
+   "text": "Teacher, I had three exams this week. Would it be possible to get a two-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b3e7f43e",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. I want a two-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e48d9d6b",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. Would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-729f9055",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. Would it be possible to get more time for my report?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a0dd89d1",
+   "sp": "me",
+   "text": "Professor Hale, would it be possible to get a three-day extension on my essay? I had three exams this week.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e47bbb3b",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. A three-day extension on my essay. Would it be possible to get?",
+   "from": "lab"
+  },
+  {
+   "id": "me-0fc690b3",
+   "sp": "me",
+   "text": "I had three exams this week. Would it be possible to get a three-day extension on my essay, Professor Hale?",
+   "from": "lab"
+  },
+  {
+   "id": "me-05df565a",
+   "sp": "me",
+   "text": "I had three exams this week. Would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-ed76d1c5",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. A three-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-42f8bb66",
+   "sp": "me",
+   "text": "Teacher, I had three exams this week. Would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-d37a7a50",
+   "sp": "me",
+   "text": "Professor Hale, I had three exams this week. I want a three-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-e3aa39ff",
+   "sp": "ca",
+   "text": "I'm sorry to hear that. Of course.",
+   "from": "lab"
+  },
+  {
+   "id": "me-2710ead9",
+   "sp": "me",
+   "text": "Professor Hale, would it be possible to get a two-day extension on my essay? I had a family emergency.",
+   "from": "lab"
+  },
+  {
+   "id": "me-365cd4a9",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. A two-day extension on my essay. Would it be possible to get?",
+   "from": "lab"
+  },
+  {
+   "id": "me-aacd2dbb",
+   "sp": "me",
+   "text": "I had a family emergency. Would it be possible to get a two-day extension on my essay, Professor Hale?",
+   "from": "lab"
+  },
+  {
+   "id": "me-03e4e372",
+   "sp": "me",
+   "text": "I had a family emergency. Would it be possible to get a two-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-d9943e2f",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. A two-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b8e251b2",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. Would it be possible to get?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a8b23636",
+   "sp": "me",
+   "text": "Teacher, I had a family emergency. Would it be possible to get a two-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-c14d7696",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. I want a two-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e8b22d5d",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. Would it be possible to get more time for my report?",
+   "from": "lab"
+  },
+  {
+   "id": "me-2cafc69b",
+   "sp": "me",
+   "text": "Professor Hale, would it be possible to get a three-day extension on my essay? I had a family emergency.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f2cb5493",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. A three-day extension on my essay. Would it be possible to get?",
+   "from": "lab"
+  },
+  {
+   "id": "me-c31f5a71",
+   "sp": "me",
+   "text": "I had a family emergency. Would it be possible to get a three-day extension on my essay, Professor Hale?",
+   "from": "lab"
+  },
+  {
+   "id": "me-1b130c94",
+   "sp": "me",
+   "text": "I had a family emergency. Would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-0b3ae08d",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. A three-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1160cfd8",
+   "sp": "me",
+   "text": "Teacher, I had a family emergency. Would it be possible to get a three-day extension on my essay?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b8579fe8",
+   "sp": "me",
+   "text": "Professor Hale, I had a family emergency. I want a three-day extension on my essay.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-ba74b9d2",
+   "sp": "gb",
+   "text": "Oh dear. And… what would you like us to do?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-fa0019e4",
+   "sp": "gb",
+   "text": "... Okay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-26c9fb5b",
+   "sp": "me",
+   "text": "The shower in my room isn't working. Could you send someone to look at it?",
+   "from": "lab"
+  },
+  {
+   "id": "me-59be1e60",
+   "sp": "me",
+   "text": "The shower in my room isn't working.",
+   "from": "lab"
+  },
+  {
+   "id": "me-738455ce",
+   "sp": "me",
+   "text": "Fix my shower.",
+   "from": "lab"
+  },
+  {
+   "id": "me-2bed7b25",
+   "sp": "me",
+   "text": "The light in my room isn't working. Could you send someone to look at it?",
+   "from": "lab"
+  },
+  {
+   "id": "me-8bb1856a",
+   "sp": "me",
+   "text": "The light in my room isn't working.",
+   "from": "lab"
+  },
+  {
+   "id": "me-dff9efa0",
+   "sp": "me",
+   "text": "Fix my light.",
+   "from": "lab"
+  },
+  {
+   "id": "me-33ecf6d3",
+   "sp": "me",
+   "text": "The Wi-Fi in my room isn't working. Could you send someone to look at it?",
+   "from": "lab"
+  },
+  {
+   "id": "me-e53150d8",
+   "sp": "me",
+   "text": "The Wi-Fi in my room isn't working.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4a80a9fa",
+   "sp": "me",
+   "text": "Fix my Wi-Fi.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-5502ce96",
+   "sp": "gb",
+   "text": "Sorry?",
+   "from": "lab"
+  },
+  {
+   "id": "me-3eea2c0b",
+   "sp": "me",
+   "text": "The boiler in my room isn't working.",
+   "from": "lab"
+  },
+  {
+   "id": "me-cf35a483",
+   "sp": "me",
+   "text": "Fix my boiler.",
+   "from": "lab"
+  },
+  {
+   "id": "me-2b556e5c",
+   "sp": "me",
+   "text": "No, I haven't.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a448ef8d",
+   "sp": "me",
+   "text": "No, I haven't. I'll take a look at it.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f6aaa97f",
+   "sp": "me",
+   "text": "Yes, it is.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e51dc8e7",
+   "sp": "me",
+   "text": "Yes, I have, but nothing changed.",
+   "from": "lab"
+  },
+  {
+   "id": "au-a3c9ab8e",
+   "sp": "au",
+   "text": "Okay. Thanks for trying.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5976fa45",
+   "sp": "me",
+   "text": "No, thanks. I'll try talking to them first.",
+   "from": "lab"
+  },
+  {
+   "id": "au-7a8ad5cf",
+   "sp": "au",
+   "text": "Sounds good. Let me know how it goes.",
+   "from": "lab"
+  },
+  {
+   "id": "au-1632dc15",
+   "sp": "au",
+   "text": "Oh, that's rough. So, what can I do for you?",
+   "from": "lab"
+  },
+  {
+   "id": "me-928a172d",
+   "sp": "me",
+   "text": "My roommate has friends over late at night, so I can't sleep. Could I get some advice?",
+   "from": "lab"
+  },
+  {
+   "id": "me-c350109f",
+   "sp": "me",
+   "text": "My roommate has friends over late at night.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1295433a",
+   "sp": "me",
+   "text": "My roommate's alarm goes off at five a.m., so I can't sleep. Could I get some advice?",
+   "from": "lab"
+  },
+  {
+   "id": "me-5dc124d2",
+   "sp": "me",
+   "text": "My roommate's alarm goes off at five a.m..",
+   "from": "lab"
+  },
+  {
+   "id": "me-f5e485f7",
+   "sp": "me",
+   "text": "I want to apply English two-forty-five.",
+   "from": "drill"
+  },
+  {
+   "id": "me-fa3e6aa3",
+   "sp": "me",
+   "text": "I'd like to register for English two-fifty-four, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-b281e8fd",
+   "sp": "me",
+   "text": "I'd like to register for English two-forty-five, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-797bc816",
+   "sp": "me",
+   "text": "It's Room five-seventy, in Birch Hall.",
+   "from": "drill"
+  },
+  {
+   "id": "me-b779b029",
+   "sp": "me",
+   "text": "It's Room five-seventeen, in Birch Hall.",
+   "from": "drill"
+  },
+  {
+   "id": "me-f823dd7b",
+   "sp": "me",
+   "text": "No, thanks.",
+   "from": "drill"
+  },
+  {
+   "id": "me-9287f6d2",
+   "sp": "me",
+   "text": "I'd like to register for English two-oh-six, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-5d71a1bd",
+   "sp": "me",
+   "text": "I'd like to register for English two-sixty, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-57b1e437",
+   "sp": "me",
+   "text": "I want to apply English two-sixty.",
+   "from": "drill"
+  },
+  {
+   "id": "me-d27be00b",
+   "sp": "me",
+   "text": "Mostly the structure.",
+   "from": "drill"
+  },
+  {
+   "id": "me-195b5960",
+   "sp": "me",
+   "text": "Mostly the vocabulary.",
+   "from": "drill"
+  },
+  {
+   "id": "me-85ba204c",
+   "sp": "me",
+   "text": "It's Room three-sixty, in Cedar Hall.",
+   "from": "drill"
+  },
+  {
+   "id": "me-997ae79e",
+   "sp": "me",
+   "text": "It's Room three-sixteen, in Birch Hall.",
+   "from": "drill"
+  },
+  {
+   "id": "me-41b931ef",
+   "sp": "me",
+   "text": "It's Room three-sixteen, in Cedar Hall.",
+   "from": "drill"
+  }
+ ]
+}

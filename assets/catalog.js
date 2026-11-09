@@ -374,5 +374,17 @@ window.EN_CATALOG = {
       thumb: 'bank/docs/poster.jpg',
       added: '2026-11-09',
     },
+    {
+      slug: 'campus',
+      track: 'talk',
+      title: '교환학생 생활, 부탁은 질문으로 · 문제는 사실부터',
+      topic: '수업 등록 · 반 고르기 · 대기 명단과 번호 되짚기 · 교수에게 면담 시간 묻기 · 교수 면담 · 마감 연장 부탁 한 줄 · 기숙사 고장 알리기 · 방 번호 · RA 상담',
+      summary: '교환학생의 첫 주에는 내가 먼저 말을 꺼내는 곳이 많아요 — 수업 등록 창구, 수업이 끝난 교실, 교수 연구실, 기숙사 사무실, RA. 부탁은 질문으로(Could you put me on the waitlist, please?), 문제는 사실부터 짧게 말하고 바라는 것을 붙여요(The heater in my room isn\'t working. Could you send someone to look at it?). 교수님은 Teacher가 아니라 Professor Hale, 마감 연장은 부르는 말 → 까닭 → 부탁 틀 → 바라는 것의 한 줄로(Professor Hale, I was sick this week. Would it be possible to get a two-day extension on my essay?). 대기 번호 · 면담 시간 · 새 마감 · 수리 시간은 되짚어요(So, I\'m number 13?). apply · reservation · office time · report · During two days · boiler · Here is too noisy 같은 한국어 그대로의 말도 함께. 대학 · 교수 · 기숙사 이름, 과목 번호, 면담 시간, 방 번호는 지어낸 예시이고 실제 절차는 학교마다 달라요.',
+      length: '6:56',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '교환학생 시뮬레이터', '부탁 한 줄 만들기', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'campus/docs/poster.jpg',
+      added: '2026-11-09',
+    },
   ],
 };

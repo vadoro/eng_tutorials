@@ -35,6 +35,7 @@
 | 상황별 영어 회화 | [대중교통, 표는 골라 말하고 길은 되짚는다](transit/) | 6:34 · 12장면 | 기차역 매표소의 짧고 빠른 질문은 모양부터: Single or return?(고르기) · Where are you traveling to?(정보) · Do you have a student card?(Yes/No)에 Yes만 하면 대답이 아니에요. 값 · 승강장 · 출발 시각은 안내라 되짚고(So, platform 4 at 10:15?), 지하철 안내 데스크에서는 내가 먼저 길을 물은 뒤(How do I get to Museum?) 긴 갈아타기 안내를 조각으로 듣고 한 줄로 되짚기(So, I take the Green Line towards East Pier, change at Central to the Blue Line, and get off at Museum? → That's right! · Not quite — …). 기차역과 지하철 일곱 곳(매표소 · 표 종류 · 할인과 값 · 승강장 · 안내 데스크 · 갈아타기 · 열차 안)을 지도로, 3단계 말하기 법, 편도 · 왕복(single · return / one-way · round trip), 사람 수(Just me · Two adults and one child), 콩글리시(go-and-back ticket · me alone · charge my card · Teach me the way · get down · Is this train go …?), fourteen과 forty · ten fifteen과 ten fifty, 시각 읽기(nine oh five), 노선도의 노선 색 · 방향(towards 끝 역) · 갈아타는 역, 안내방송과 Excuse me, does this train go to …?, 대중교통 시뮬레이터(여행 카드, 직원이 말한 값 · 승강장 · 시각을 듣고 쓰기, 조각 칩으로 갈아타기 되짚기, 끝은 기차표와 노선도 위의 길), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기 |
 | 상황별 영어 회화 | [약국 · 병원, 증상은 사실 + 부탁, 복용법은 되짚는다](pharmacy/) | 6:36 · 12장면 | 내가 먼저 증상을 알리는 곳: 증상은 사실, 바라는 것은 질문으로 부탁(I have a sore throat. Could you recommend something for it? — 사실만 말하면 부탁이 빠짐). 약사의 짧은 질문은 모양부터(Tablets or liquid?에 Yes ×), Yes/No 질문은 첫 낱말이 짧은 대답의 짝을 정함(Do you → I do · Are you → I'm not · Is this → it is · Does it → it does · Have you → I haven't). 길고 숫자가 많은 복용법은 조각으로 듣고 한 줄로 되짚기(So, I take two tablets, three times a day, after meals, for five days? → That's right! · Not quite — …). 약국 셋과 병원 넷(카운터 · 약사의 질문 · 복용법과 값 · 접수 · 진료실 · 진찰 · 처방)을 지도로, 3단계 말하기 법, for와 since, 이름 철자(K-I-M)와 생년월일(It's March 4th, 2005. — 숫자만 말하면 3월 4일인지 4월 3일인지 헷갈림), thirteen과 thirty, 아픈 곳 · 통증 점수(About a six.), 알레르기에 따라 바뀌는 처방, 다시 올 날 되짚기, 진단서(a doctor's note), 콩글리시(My throat is sick · eat medicine · During two days · I'm allergy to · Here is pain · Very pain · a diagnosis), 약국 · 병원 시뮬레이터(환자 카드, 상대가 말한 복용법 · 값 · 다시 올 날을 듣고 쓰기, 조각 칩으로 되짚기, 끝은 약 봉투 라벨 둘과 하루 복용 시간표), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기. 약과 복용법은 지어낸 예시이고 의학 조언이 아님 |
 | 상황별 영어 회화 | [은행 · 환전 · 휴대폰, 서류는 내밀고 숫자는 끊어 말한다](bank/) | 6:37 · 12장면 | 교환학생의 첫 며칠 — 환전 창구 → 휴대폰 가게 → 은행 창구. 세 곳 모두 내가 먼저 용건을 부탁 틀로(I'd like to change 300,000 won into US dollars, please. · I'd like to open a bank account, please. — Change this into dollars.는 명령처럼 들림), 그다음 정해진 질문에는 서류와 숫자로 답하기: 서류는 내밀면서(I have passport. × → Sure. Here's my passport.), 없으면 사실 + 부탁(No, I don't. Would a letter from my university work?). 큰 금액은 세 자리씩(Thirty man won? × → three hundred thousand won), 받을 달러는 되짚기(So, that's $240? — forty와 fourteen), 새 전화번호는 묶음으로 한 자리씩 되짚어 두었다가 은행 서류에 다시 쓰기(So, it's 555-0147? — 0은 oh). 주소는 조각으로 한 줄, 작은 곳에서 큰 곳으로(It's Room 412, Maple Hall, 200 College Avenue, Kellport, 40213. — 한국식 차례 · College Avenue 200 ×, 틀린 조각만 직원이 다시 물음). 고르는 질문(Prepaid or monthly? · Checking or savings? · Large bills or small bills?)에 Yes ×, Yes/No 질문은 첫 낱말이 짝을 정함(Is it → it is · Are you → I am · Do you → I do), 비밀번호는 말하지 않고 누르기, 콩글리시(open my phone · USIM card · data free · During six months · bankbook · dormitory paper · I'll do my sign · check card), 은행 · 휴대폰 시뮬레이터(내 카드, 상대가 말한 받을 달러 · 요금 · 새 번호를 듣고 쓰기, 주소 조각 칩, 끝은 영수증), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기. 은행 이름 · 환율 · 요금 · 주소 · 전화번호는 지어낸 예시 |
+| 상황별 영어 회화 | [교환학생 생활, 부탁은 질문으로 · 문제는 사실부터](campus/) | 6:56 · 12장면 | 교환학생의 첫 주 — 수업 등록 창구 → 정원 · 대기 명단 → 수업 뒤 교수에게 → 교수 면담 → 마감 연장 → 기숙사 사무실 → RA. 내가 먼저 말을 꺼내는 곳이 많아 부탁은 질문으로(I'd like to register for English 210, please. · Could you put me on the waitlist, please? — I want to apply English 210. · Just put me in the class. ×), 문제는 사실부터 + 부탁(I'm having trouble with the readings. Could you give me some advice? · The heater in my room isn't working. Could you send someone to look at it? — 사실만 말하면 ②, Fix my heater.는 ③). 교수님은 Teacher가 아니라 Professor Hale, 마감 연장은 조각으로 한 줄(부르는 말 → 까닭 → 부탁 틀 → 바라는 것: Professor Hale, I was sick this week. Would it be possible to get a two-day extension on my essay? — 틀린 조각만 교수가 다시 말함, 날수까지 말하면 ‘며칠 더’를 건너뜀). 대기 번호 · 면담 시간 · 새 마감 · 수리 시간은 되짚기(So, I'm number 13? — thirteen과 thirty · So, Tuesdays and Thursdays, in Room 318? · So, by Sunday at midnight?), 과목 · 방 번호는 두 묶음으로(210 → two-ten · 214 → two-fourteen). 고르는 질문(the morning section or the afternoon section? · the vocabulary or the main ideas?)에 Yes ×, Yes/No 질문은 첫 낱말이 짝을 정함(Have you → I have · Is it → it is), 콩글리시(apply · Teacher · office time · reservation · report · During two days · boiler · Here is too noisy), 교환학생 시뮬레이터(내 카드, 상대가 말한 번호 · 요일 · 시간을 듣고 되짚기, 부탁 한 줄 조각 칩, 끝은 학기 첫 주 정리표), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기. 대학 · 교수 · 기숙사 이름 · 과목 번호 · 면담 시간 · 방 번호는 지어낸 예시, 실제 절차는 학교마다 다름 |
 
 모든 튜토리얼에 자막과 음성 해설(한국어는 한국어 음성, 영어는 영어 음성), 발음 듣기, 장면별 ‘직접 해 보기’, 놀이터, 연습 문제, 퀴즈, 핵심 정리가 있습니다.
 
@@ -48,7 +49,7 @@
 단계별로 하나씩 만들어 갑니다.
 
 1. **토익** — 자주 틀리는 유형 100개를 21개 카테고리, 튜토리얼 17개로 정리하고([docs/toeic-100-types.md](docs/toeic-100-types.md)) 17개를 모두 만들었어요. 문법 Part 5·6(T01–T14), 듣기 Part 1–4(T15–T16), 독해 Part 7(T17)이에요. 남은 일은 우리 학생들의 실제 오답으로 순서와 문제를 다듬는 것이에요(문서의 ‘다음 단계’).
-2. **상황별 영어 회화** — 공항(시범) · 카페 · 호텔 · 식당 · 길 묻기 · 쇼핑 · 대중교통 · 약국 · 병원 · 은행 · 환전 · 휴대폰 튜토리얼을 만들었고, 같은 형식으로 다른 상황으로 넓혀요. 곳마다 거의 정해진 질문을 열쇠 낱말로 잡고 짧은 대답 틀로 답하며, 듣고 따라 말하며 연습합니다.
+2. **상황별 영어 회화** — 공항(시범) · 카페 · 호텔 · 식당 · 길 묻기 · 쇼핑 · 대중교통 · 약국 · 병원 · 은행 · 환전 · 휴대폰 · 교환학생 생활 튜토리얼을 만들었고, 같은 형식으로 다른 상황으로 넓혀요. 곳마다 거의 정해진 질문을 열쇠 낱말로 잡고 짧은 대답 틀로 답하며, 듣고 따라 말하며 연습합니다.
 3. **새 영역** — 필요할 때마다 `assets/catalog.js`의 `tracks`에 영역을 더해 넓혀 갑니다.
 
 ## 구조
@@ -66,7 +67,7 @@ shared/quiz.js          공통 부품: 퀴즈 (EN.quiz)
 shared/components.css   공통 부품 모양
 tools/render-video.cjs  어느 튜토리얼이든 MP4 · 자막 원고 · 미리보기 그림으로 내보내기
 tools/narration-pieces.cjs · tools/voicestudio-narration.py  음성 해설을 미리 만든 목소리(VoiceStudio)로 읽게 하기 (CLAUDE.md의 EN.narration)
-tools/dialogue-lines.cjs · tools/voicestudio-dialogue.py      대화를 말하는 사람마다 미리 만든 목소리(VoiceStudio)로 읽게 하기 (지금은 회화 아홉과 토익 듣기 T15 · T16)
+tools/dialogue-lines.cjs · tools/voicestudio-dialogue.py      대화를 말하는 사람마다 미리 만든 목소리(VoiceStudio)로 읽게 하기 (지금은 회화 열과 토익 듣기 T15 · T16)
 relative-pronouns/      관계대명사, 빈자리를 찾아라 (토익 문법 T01)
 parts-of-speech/        빈칸의 자리가 품사를 정한다 (토익 문법 T02)
 verb-agreement-voice/   주어가 수를, 목적어가 태를 정한다 (토익 문법 T03)
@@ -93,6 +94,7 @@ shopping/               쇼핑, 이것에 바꿀 점만 더한다 (상황별 영
 transit/                대중교통, 표는 골라 말하고 길은 되짚는다 (상황별 영어 회화 · 대중교통)
 pharmacy/               약국 · 병원, 증상은 사실 + 부탁, 복용법은 되짚는다 (상황별 영어 회화 · 약국 · 병원)
 bank/                   은행 · 환전 · 휴대폰, 서류는 내밀고 숫자는 끊어 말한다 (상황별 영어 회화 · 은행 · 환전 · 휴대폰)
+campus/                 교환학생 생활, 부탁은 질문으로 · 문제는 사실부터 (상황별 영어 회화 · 교환학생 생활)
 docs/toeic-100-types.md 토익에서 자주 틀리는 100개 유형, 21개 카테고리, 튜토리얼 17개 계획
 CLAUDE.md               새 튜토리얼을 만들 때 지킬 규칙과 확인 목록
 ```

@@ -1,0 +1,1620 @@
+{
+ "slug": "campus",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 128,
+  "en": 140,
+  "koChars": 2130,
+  "enChars": 3418
+ },
+ "pieces": [
+  {
+   "id": "k880c450e",
+   "lang": "ko",
+   "text": "교환학생의 첫 주에는 내가 먼저 말을 꺼내는 곳이 많아요. 부탁은 질문으로, 문제는 사실부터 말해요.",
+   "cap": 0
+  },
+  {
+   "id": "kb3eb10a0",
+   "lang": "ko",
+   "text": "학생처 창구에서 수강 신청을 그대로",
+   "cap": 1
+  },
+  {
+   "id": "e80f45acc",
+   "lang": "en",
+   "text": "I want to apply English two-ten.",
+   "cap": 1
+  },
+  {
+   "id": "k5b09c186",
+   "lang": "ko",
+   "text": "수업은",
+   "cap": 1
+  },
+  {
+   "id": "e7d11868a",
+   "lang": "en",
+   "text": "apply",
+   "cap": 1
+  },
+  {
+   "id": "kd978a94b",
+   "lang": "ko",
+   "text": "가 아니라",
+   "cap": 1
+  },
+  {
+   "id": "e8e570c50",
+   "lang": "en",
+   "text": "I'd like to register for English two-ten, please.",
+   "cap": 1
+  },
+  {
+   "id": "kedfd5156",
+   "lang": "ko",
+   "text": "수업 뒤 교수에게",
+   "cap": 2
+  },
+  {
+   "id": "e227c2f73",
+   "lang": "en",
+   "text": "Teacher, when is your office time?",
+   "cap": 2
+  },
+  {
+   "id": "k7a779bf9",
+   "lang": "ko",
+   "text": "교수님은",
+   "cap": 2
+  },
+  {
+   "id": "ee0f51209",
+   "lang": "en",
+   "text": "Professor Hale",
+   "cap": 2
+  },
+  {
+   "id": "k636db189",
+   "lang": "ko",
+   "text": "면담 시간은",
+   "cap": 2
+  },
+  {
+   "id": "ee9d2443a",
+   "lang": "en",
+   "text": "Could you tell me when your office hours are?",
+   "cap": 2
+  },
+  {
+   "id": "kd5b13459",
+   "lang": "ko",
+   "text": "대기 번호를 들으면",
+   "cap": 3
+  },
+  {
+   "id": "e3729b2a4",
+   "lang": "en",
+   "text": "Okay.",
+   "cap": 3
+  },
+  {
+   "id": "e68fca163",
+   "lang": "en",
+   "text": "Thanks.",
+   "cap": 3
+  },
+  {
+   "id": "k8bac8c9a",
+   "lang": "ko",
+   "text": "로 끝내지 말고 되짚어요",
+   "cap": 3
+  },
+  {
+   "id": "e39f3d72c",
+   "lang": "en",
+   "text": "So, I'm number thirteen?",
+   "cap": 3
+  },
+  {
+   "id": "k9c45b11a",
+   "lang": "ko",
+   "text": "세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.",
+   "cap": 4
+  },
+  {
+   "id": "ke41e79b1",
+   "lang": "ko",
+   "text": "오늘의 이야기를 일곱 곳으로 나눠 봐요. 교환학생으로 도착한 첫 주, 먼저 학생처 창구에서 수업을 등록해요.",
+   "cap": 5
+  },
+  {
+   "id": "k68d82674",
+   "lang": "ko",
+   "text": "반이 다 찼으면 대기 명단에 이름을 올리고 번호를 되짚어요. 수업이 끝나면 교수에게 면담 시간을 물어요.",
+   "cap": 6
+  },
+  {
+   "id": "k21232ba2",
+   "lang": "ko",
+   "text": "교수 면담에서 어려운 것을 말하고 마감 연장을 부탁해요. 기숙사에서는 고장을 알리고, 룸메이트 문제를",
+   "cap": 7
+  },
+  {
+   "id": "e8b8f5ee3",
+   "lang": "en",
+   "text": "RA",
+   "cap": 7
+  },
+  {
+   "id": "ka4a81961",
+   "lang": "ko",
+   "text": "와 의논해요.",
+   "cap": 7
+  },
+  {
+   "id": "kdaa11c68",
+   "lang": "ko",
+   "text": "보라 테두리 , 내가 먼저 말을 꺼내는 곳이에요. 다섯 곳에서 용건을 사실과 부탁으로 말해요.",
+   "cap": 8
+  },
+  {
+   "id": "k800a041a",
+   "lang": "ko",
+   "text": "대학, 교수, 기숙사 이름, 과목 번호, 면담 시간, 방 번호는 모두 지어낸 예시예요. 실제 절차는 학교마다 달라요.",
+   "cap": 9
+  },
+  {
+   "id": "kd462ae56",
+   "lang": "ko",
+   "text": "학생처 창구",
+   "cap": 10
+  },
+  {
+   "id": "ef4185be2",
+   "lang": "en",
+   "text": "What can I help you with?",
+   "cap": 10
+  },
+  {
+   "id": "k1b208d07",
+   "lang": "ko",
+   "text": "수강 신청을 그대로",
+   "cap": 10
+  },
+  {
+   "id": "k6b17e433",
+   "lang": "ko",
+   "text": "는 입학이나 일자리에 지원할 때 써요.",
+   "cap": 10
+  },
+  {
+   "id": "e3bc3129c",
+   "lang": "en",
+   "text": "I'm an exchange student.",
+   "cap": 11
+  },
+  {
+   "id": "k83daf3cb",
+   "lang": "ko",
+   "text": "는 사실만 말했고",
+   "cap": 11
+  },
+  {
+   "id": "e7a230393",
+   "lang": "en",
+   "text": "Register me",
+   "cap": 11
+  },
+  {
+   "id": "kbe1011d3",
+   "lang": "ko",
+   "text": "는 명령이에요. 용건은 부탁 틀로",
+   "cap": 11
+  },
+  {
+   "id": "k86e4b93b",
+   "lang": "ko",
+   "text": "과목 번호는 두 묶음으로 , 210",
+   "cap": 12
+  },
+  {
+   "id": "e6cbdc4c0",
+   "lang": "en",
+   "text": "two-ten.",
+   "cap": 12
+  },
+  {
+   "id": "k138e9211",
+   "lang": "ko",
+   "text": "201로 말하면 다른 과목이에요. 0은",
+   "cap": 12
+  },
+  {
+   "id": "e80d6b0ad",
+   "lang": "en",
+   "text": "oh",
+   "cap": 12
+  },
+  {
+   "id": "k27bced15",
+   "lang": "ko",
+   "text": "로 읽어요 , 201",
+   "cap": 12
+  },
+  {
+   "id": "ee6aef3c1",
+   "lang": "en",
+   "text": "two-oh-one.",
+   "cap": 12
+  },
+  {
+   "id": "ea7450415",
+   "lang": "en",
+   "text": "Would you like the morning section or the afternoon section?",
+   "cap": 13
+  },
+  {
+   "id": "e60161af3",
+   "lang": "en",
+   "text": "Yes, please.",
+   "cap": 13
+  },
+  {
+   "id": "k4cdbb5cd",
+   "lang": "ko",
+   "text": "는 고른 것이 없어요. 고른 것",
+   "cap": 13
+  },
+  {
+   "id": "e817911f4",
+   "lang": "en",
+   "text": "please , The morning section, please.",
+   "cap": 13
+  },
+  {
+   "id": "e3a5d61e3",
+   "lang": "en",
+   "text": "morning or",
+   "cap": 14
+  },
+  {
+   "id": "kd27e5df7",
+   "lang": "ko",
+   "text": "는",
+   "cap": 14
+  },
+  {
+   "id": "e63a62f41",
+   "lang": "en",
+   "text": "mor-nin-gor",
+   "cap": 14
+  },
+  {
+   "id": "k40ade9ca",
+   "lang": "ko",
+   "text": "처럼 이어져 들려요. 고를 것은 세게 말해요",
+   "cap": 14
+  },
+  {
+   "id": "e8a3e0954",
+   "lang": "en",
+   "text": "MORning , afterNOON.",
+   "cap": 14
+  },
+  {
+   "id": "ea2eb16a6",
+   "lang": "en",
+   "text": "Have you taken a college English class before?",
+   "cap": 15
+  },
+  {
+   "id": "ebafd058c",
+   "lang": "en",
+   "text": "Have",
+   "cap": 15
+  },
+  {
+   "id": "k4f58f70d",
+   "lang": "ko",
+   "text": "로 물었으니",
+   "cap": 15
+  },
+  {
+   "id": "e89f0979d",
+   "lang": "en",
+   "text": "Yes, I did.",
+   "cap": 15
+  },
+  {
+   "id": "k8a7b9885",
+   "lang": "ko",
+   "text": "는 짝이 어긋나요",
+   "cap": 15
+  },
+  {
+   "id": "e70124fc8",
+   "lang": "en",
+   "text": "Yes, I have.",
+   "cap": 15
+  },
+  {
+   "id": "e2b144d8b",
+   "lang": "en",
+   "text": "I took a similar class in Korea.",
+   "cap": 15
+  },
+  {
+   "id": "k11e0d351",
+   "lang": "ko",
+   "text": "빠른 말",
+   "cap": 16
+  },
+  {
+   "id": "efe185895",
+   "lang": "en",
+   "text": "Hey, whatcha need?",
+   "cap": 16
+  },
+  {
+   "id": "k1c7e1af5",
+   "lang": "ko",
+   "text": "짐작해서 답하지 말고 들린 만큼 되물어요",
+   "cap": 16
+  },
+  {
+   "id": "e327377ae",
+   "lang": "en",
+   "text": "Sorry, did you ask what I need?",
+   "cap": 16
+  },
+  {
+   "id": "e4b060fe5",
+   "lang": "en",
+   "text": "Hmm, it looks like the morning section is full.",
+   "cap": 17
+  },
+  {
+   "id": "e7497efd9",
+   "lang": "en",
+   "text": "Yes.",
+   "cap": 17
+  },
+  {
+   "id": "k9882445a",
+   "lang": "ko",
+   "text": "는 묻는 말이 아니라 맞지 않고",
+   "cap": 17
+  },
+  {
+   "id": "ebfe235e1",
+   "lang": "en",
+   "text": "Oh, okay.",
+   "cap": 17
+  },
+  {
+   "id": "kba8ec5c3",
+   "lang": "ko",
+   "text": "로 끝내면 수업을 들을 방법이 없어요.",
+   "cap": 17
+  },
+  {
+   "id": "k893e99cc",
+   "lang": "ko",
+   "text": "대기 예약을 그대로",
+   "cap": 18
+  },
+  {
+   "id": "ea11c550f",
+   "lang": "en",
+   "text": "Can I make a reservation for the class?",
+   "cap": 18
+  },
+  {
+   "id": "efab18d34",
+   "lang": "en",
+   "text": "reservation",
+   "cap": 18
+  },
+  {
+   "id": "k185d4ed2",
+   "lang": "ko",
+   "text": "은 식당과 호텔의 예약이에요.",
+   "cap": 18
+  },
+  {
+   "id": "e763092eb",
+   "lang": "en",
+   "text": "Just put me in the class.",
+   "cap": 18
+  },
+  {
+   "id": "k55eae4e9",
+   "lang": "ko",
+   "text": "는 조르는 말이에요.",
+   "cap": 18
+  },
+  {
+   "id": "k4ffc0349",
+   "lang": "ko",
+   "text": "할 수 있는 방법을 질문으로",
+   "cap": 19
+  },
+  {
+   "id": "ebdd897ed",
+   "lang": "en",
+   "text": "Could you put me on the waitlist, please?",
+   "cap": 19
+  },
+  {
+   "id": "k28782993",
+   "lang": "ko",
+   "text": "다른 반도 괜찮으면",
+   "cap": 19
+  },
+  {
+   "id": "e94ca81ff",
+   "lang": "en",
+   "text": "Could I join the afternoon section instead?",
+   "cap": 19
+  },
+  {
+   "id": "ebc417d52",
+   "lang": "en",
+   "text": "You're number thirteen on the waitlist.",
+   "cap": 20
+  },
+  {
+   "id": "k73ec6f25",
+   "lang": "ko",
+   "text": "로 넘기면 번호를 확인하지 못해요.",
+   "cap": 20
+  },
+  {
+   "id": "ef2b77f8e",
+   "lang": "en",
+   "text": "thirty",
+   "cap": 20
+  },
+  {
+   "id": "k2de20eb7",
+   "lang": "ko",
+   "text": "로 잘못 들으면 30번이에요.",
+   "cap": 20
+  },
+  {
+   "id": "k970faa3a",
+   "lang": "ko",
+   "text": "되짚어 확인해요",
+   "cap": 21
+  },
+  {
+   "id": "e0e1d1de1",
+   "lang": "en",
+   "text": "thirteen",
+   "cap": 21
+  },
+  {
+   "id": "ke9124f59",
+   "lang": "ko",
+   "text": "은 뒤를",
+   "cap": 21
+  },
+  {
+   "id": "k6e1c02dd",
+   "lang": "ko",
+   "text": "는 앞을 세게 말해요.",
+   "cap": 21
+  },
+  {
+   "id": "e72216b99",
+   "lang": "en",
+   "text": "Kay, you're thirteen on the list.",
+   "cap": 22
+  },
+  {
+   "id": "k35cc7680",
+   "lang": "ko",
+   "text": "짐작하지 말고 놓친 것만 물어요",
+   "cap": 22
+  },
+  {
+   "id": "e7af46089",
+   "lang": "en",
+   "text": "Sorry, what number am I on the waitlist?",
+   "cap": 22
+  },
+  {
+   "id": "k400f4391",
+   "lang": "ko",
+   "text": "수업이 끝나고 교수에게 다가가요.",
+   "cap": 23
+  },
+  {
+   "id": "e83980776",
+   "lang": "en",
+   "text": "Yes?",
+   "cap": 23
+  },
+  {
+   "id": "e1f25d89c",
+   "lang": "en",
+   "text": "Did you have a question?",
+   "cap": 23
+  },
+  {
+   "id": "kd2a42150",
+   "lang": "ko",
+   "text": "만 하면 무엇인지 다시 물어요.",
+   "cap": 23
+  },
+  {
+   "id": "kf1f3780a",
+   "lang": "ko",
+   "text": "선생님과 면담 시간을 그대로",
+   "cap": 24
+  },
+  {
+   "id": "eb79163b5",
+   "lang": "en",
+   "text": "office hours",
+   "cap": 24
+  },
+  {
+   "id": "kafede0c1",
+   "lang": "ko",
+   "text": "예요.",
+   "cap": 24
+  },
+  {
+   "id": "e8f2d3f1b",
+   "lang": "en",
+   "text": "Tell me your office hours.",
+   "cap": 25
+  },
+  {
+   "id": "kf19609d6",
+   "lang": "ko",
+   "text": "는 명령이에요. 물을 것은",
+   "cap": 25
+  },
+  {
+   "id": "e08efdc4d",
+   "lang": "en",
+   "text": "Yes",
+   "cap": 25
+  },
+  {
+   "id": "k9dff7efd",
+   "lang": "ko",
+   "text": "뒤에 바로 질문으로",
+   "cap": 25
+  },
+  {
+   "id": "e23f605ec",
+   "lang": "en",
+   "text": "My office hours are Tuesdays and Thursdays from two to four, in Room three-eighteen.",
+   "cap": 26
+  },
+  {
+   "id": "kd8a9e230",
+   "lang": "ko",
+   "text": "로 넘기면 찾아갈 요일과 방을 확인하지 못해요.",
+   "cap": 26
+  },
+  {
+   "id": "k12c1e2a6",
+   "lang": "ko",
+   "text": "월요일과 수요일로, 380호로 잘못 들으면 엉뚱한 날 엉뚱한 방에 가요. 되짚어요",
+   "cap": 27
+  },
+  {
+   "id": "e014a0ecf",
+   "lang": "en",
+   "text": "So, Tuesdays and Thursdays, in Room three-eighteen?",
+   "cap": 27
+  },
+  {
+   "id": "e24df5aa3",
+   "lang": "en",
+   "text": "Office hours, Tuesdays, Thursdays, two to four, three-eighteen.",
+   "cap": 28
+  },
+  {
+   "id": "kd77b8186",
+   "lang": "ko",
+   "text": "놓쳤으면",
+   "cap": 28
+  },
+  {
+   "id": "eae9c21b0",
+   "lang": "en",
+   "text": "Sorry, when are your office hours?",
+   "cap": 28
+  },
+  {
+   "id": "k217d990f",
+   "lang": "ko",
+   "text": "면담 시간에 연구실을 찾아가요.",
+   "cap": 29
+  },
+  {
+   "id": "e3cc9c6ad",
+   "lang": "en",
+   "text": "Come on in!",
+   "cap": 29
+  },
+  {
+   "id": "effb1f1cb",
+   "lang": "en",
+   "text": "What can I do for you?",
+   "cap": 29
+  },
+  {
+   "id": "e0aab64c4",
+   "lang": "en",
+   "text": "Teacher, I don't understand the class.",
+   "cap": 29
+  },
+  {
+   "id": "kd3a8203c",
+   "lang": "ko",
+   "text": "무엇이 어려운지 없어요.",
+   "cap": 29
+  },
+  {
+   "id": "e3b95fc39",
+   "lang": "en",
+   "text": "Help me with the readings.",
+   "cap": 30
+  },
+  {
+   "id": "k1c419c37",
+   "lang": "ko",
+   "text": "는 명령이고",
+   "cap": 30
+  },
+  {
+   "id": "e65e681b5",
+   "lang": "en",
+   "text": "I'm having trouble with the readings.",
+   "cap": 30
+  },
+  {
+   "id": "k47157d45",
+   "lang": "ko",
+   "text": "는 사실만 말했어요.",
+   "cap": 30
+  },
+  {
+   "id": "k45da72da",
+   "lang": "ko",
+   "text": "사실, 부탁",
+   "cap": 31
+  },
+  {
+   "id": "e83136116",
+   "lang": "en",
+   "text": "Could you give me some advice?",
+   "cap": 31
+  },
+  {
+   "id": "e853fd194",
+   "lang": "en",
+   "text": "Is it the vocabulary or the main ideas?",
+   "cap": 32
+  },
+  {
+   "id": "kd81b6117",
+   "lang": "ko",
+   "text": "고르는 질문이에요.",
+   "cap": 32
+  },
+  {
+   "id": "k4d25ad72",
+   "lang": "ko",
+   "text": "도, 묻지 않은",
+   "cap": 32
+  },
+  {
+   "id": "e95db69c5",
+   "lang": "en",
+   "text": "topic",
+   "cap": 32
+  },
+  {
+   "id": "kb6534f75",
+   "lang": "ko",
+   "text": "도 아니에요",
+   "cap": 32
+  },
+  {
+   "id": "e16b8bfb4",
+   "lang": "en",
+   "text": "Mostly the main ideas.",
+   "cap": 32
+  },
+  {
+   "id": "k234a5e24",
+   "lang": "ko",
+   "text": "에세이가 어렵다면",
+   "cap": 33
+  },
+  {
+   "id": "e15fc77f7",
+   "lang": "en",
+   "text": "Is it the topic or the structure?",
+   "cap": 33
+  },
+  {
+   "id": "e82fe2de6",
+   "lang": "en",
+   "text": "topic or",
+   "cap": 33
+  },
+  {
+   "id": "e91022704",
+   "lang": "en",
+   "text": "to-pi-kor",
+   "cap": 33
+  },
+  {
+   "id": "k3068bedc",
+   "lang": "ko",
+   "text": "처럼 이어져요. 고를 것은 세게",
+   "cap": 33
+  },
+  {
+   "id": "ef767dc3a",
+   "lang": "en",
+   "text": "TOPic , STRUCture.",
+   "cap": 33
+  },
+  {
+   "id": "ead0c3b98",
+   "lang": "en",
+   "text": "Have you tried the study guide on the course website?",
+   "cap": 34
+  },
+  {
+   "id": "e8797c4f5",
+   "lang": "en",
+   "text": "Yes, I do.",
+   "cap": 34
+  },
+  {
+   "id": "e484b1ae2",
+   "lang": "en",
+   "text": "Yes, I have, but it didn't help much.",
+   "cap": 34
+  },
+  {
+   "id": "k62e903a6",
+   "lang": "ko",
+   "text": "면담 끝에",
+   "cap": 35
+  },
+  {
+   "id": "e37be2018",
+   "lang": "en",
+   "text": "Is there anything else?",
+   "cap": 35
+  },
+  {
+   "id": "k07c479da",
+   "lang": "ko",
+   "text": "만 하면 무엇을 부탁하는지 몰라요. 마감을 미뤄 달라는 부탁을 한 줄로 말해요.",
+   "cap": 35
+  },
+  {
+   "id": "k30c00060",
+   "lang": "ko",
+   "text": "부르는 말, 까닭, 부탁 틀, 바라는 것",
+   "cap": 36
+  },
+  {
+   "id": "e7e3a19c5",
+   "lang": "en",
+   "text": "Professor Hale, I was sick this week.",
+   "cap": 36
+  },
+  {
+   "id": "e4dc7458d",
+   "lang": "en",
+   "text": "Would it be possible to get a two-day extension on my essay?",
+   "cap": 36
+  },
+  {
+   "id": "ebfaa70a4",
+   "lang": "en",
+   "text": "Teacher",
+   "cap": 37
+  },
+  {
+   "id": "k03451ac3",
+   "lang": "ko",
+   "text": "로 부르면 교수가 고쳐 줘요",
+   "cap": 37
+  },
+  {
+   "id": "e29954013",
+   "lang": "en",
+   "text": "Oh, you can call me Professor Hale.",
+   "cap": 37
+  },
+  {
+   "id": "e01e6a5bb",
+   "lang": "en",
+   "text": "Professor",
+   "cap": 37
+  },
+  {
+   "id": "k1bd20142",
+   "lang": "ko",
+   "text": "성이에요.",
+   "cap": 37
+  },
+  {
+   "id": "kc9f53412",
+   "lang": "ko",
+   "text": "까닭이 빠지면",
+   "cap": 38
+  },
+  {
+   "id": "e8a885437",
+   "lang": "en",
+   "text": "Hmm, can I ask why?",
+   "cap": 38
+  },
+  {
+   "id": "e6db4dd4d",
+   "lang": "en",
+   "text": "I want",
+   "cap": 38
+  },
+  {
+   "id": "kfe3a04ba",
+   "lang": "ko",
+   "text": "는 조르는 말이에요. 부탁은 질문으로 해요.",
+   "cap": 38
+  },
+  {
+   "id": "k68f8f631",
+   "lang": "ko",
+   "text": "리포트를 그대로",
+   "cap": 39
+  },
+  {
+   "id": "e463b15a8",
+   "lang": "en",
+   "text": "more time for my report?",
+   "cap": 39
+  },
+  {
+   "id": "k4d554d36",
+   "lang": "ko",
+   "text": "수업에 내는 글은",
+   "cap": 39
+  },
+  {
+   "id": "e3cb5cb2d",
+   "lang": "en",
+   "text": "essay",
+   "cap": 39
+  },
+  {
+   "id": "k1f5a2212",
+   "lang": "ko",
+   "text": "마감을 미루는 것은",
+   "cap": 39
+  },
+  {
+   "id": "e8b4007f3",
+   "lang": "en",
+   "text": "extension",
+   "cap": 39
+  },
+  {
+   "id": "k4b7b0757",
+   "lang": "ko",
+   "text": "이에요.",
+   "cap": 39
+  },
+  {
+   "id": "k61040710",
+   "lang": "ko",
+   "text": "날수를 빼고 부탁하면 교수가 물어요",
+   "cap": 40
+  },
+  {
+   "id": "e9be08546",
+   "lang": "en",
+   "text": "How many more days do you need?",
+   "cap": 40
+  },
+  {
+   "id": "e158323f2",
+   "lang": "en",
+   "text": "During two days.",
+   "cap": 40
+  },
+  {
+   "id": "k4493018e",
+   "lang": "ko",
+   "text": "는 어색해요",
+   "cap": 40
+  },
+  {
+   "id": "e9b88253a",
+   "lang": "en",
+   "text": "Just two more days, if possible.",
+   "cap": 40
+  },
+  {
+   "id": "e97ef75fc",
+   "lang": "en",
+   "text": "Please send it to me by Sunday at midnight.",
+   "cap": 41
+  },
+  {
+   "id": "kcb780e5f",
+   "lang": "ko",
+   "text": "금요일 마감이 이틀 미뤄져 일요일이에요. 되짚어요",
+   "cap": 41
+  },
+  {
+   "id": "e26a79c8d",
+   "lang": "en",
+   "text": "So, by Sunday at midnight?",
+   "cap": 41
+  },
+  {
+   "id": "e20a95e18",
+   "lang": "en",
+   "text": "Kay, just get it to me by Sunday, midnight.",
+   "cap": 42
+  },
+  {
+   "id": "ea53228ed",
+   "lang": "en",
+   "text": "Sorry, when is the new deadline?",
+   "cap": 42
+  },
+  {
+   "id": "kafb111a2",
+   "lang": "ko",
+   "text": "기숙사 사무실",
+   "cap": 43
+  },
+  {
+   "id": "e91eaf0cb",
+   "lang": "en",
+   "text": "Hello, Housing Office.",
+   "cap": 43
+  },
+  {
+   "id": "e7ceb9e8d",
+   "lang": "en",
+   "text": "How can I help?",
+   "cap": 43
+  },
+  {
+   "id": "k6a49ed42",
+   "lang": "ko",
+   "text": "난방기를 보일러로",
+   "cap": 43
+  },
+  {
+   "id": "e8789b868",
+   "lang": "en",
+   "text": "The boiler in my room isn't working.",
+   "cap": 43
+  },
+  {
+   "id": "ed45495a7",
+   "lang": "en",
+   "text": "boiler",
+   "cap": 43
+  },
+  {
+   "id": "k648d05b5",
+   "lang": "ko",
+   "text": "는 건물 전체의 물을 데우는 큰 기계예요.",
+   "cap": 43
+  },
+  {
+   "id": "e8a12f370",
+   "lang": "en",
+   "text": "Fix my heater.",
+   "cap": 44
+  },
+  {
+   "id": "kbcb06dc5",
+   "lang": "ko",
+   "text": "는 명령이고, 고장만 말하면 사실만 있어요. 사실, 부탁",
+   "cap": 44
+  },
+  {
+   "id": "e84273be0",
+   "lang": "en",
+   "text": "The heater in my room isn't working.",
+   "cap": 44
+  },
+  {
+   "id": "eb3121109",
+   "lang": "en",
+   "text": "Could you send someone to look at it?",
+   "cap": 44
+  },
+  {
+   "id": "e9227b10e",
+   "lang": "en",
+   "text": "What's your room number?",
+   "cap": 45
+  },
+  {
+   "id": "edf129922",
+   "lang": "en",
+   "text": "I live in a dormitory.",
+   "cap": 45
+  },
+  {
+   "id": "k3530c983",
+   "lang": "ko",
+   "text": "는 번호가 없어요. 240호나",
+   "cap": 45
+  },
+  {
+   "id": "e242cbc58",
+   "lang": "en",
+   "text": "Cedar Hall",
+   "cap": 45
+  },
+  {
+   "id": "k7d565486",
+   "lang": "ko",
+   "text": "로 말하면 다른 방이에요",
+   "cap": 45
+  },
+  {
+   "id": "ee3f4b6d8",
+   "lang": "en",
+   "text": "It's Room two-fourteen, in Maple Hall.",
+   "cap": 45
+  },
+  {
+   "id": "ea4c390cb",
+   "lang": "en",
+   "text": "What's yer room number, love?",
+   "cap": 46
+  },
+  {
+   "id": "efade042a",
+   "lang": "en",
+   "text": "love",
+   "cap": 46
+  },
+  {
+   "id": "k08e630c2",
+   "lang": "ko",
+   "text": "는 친근하게 부르는 말이에요. 놓쳤으면",
+   "cap": 46
+  },
+  {
+   "id": "ed3e9e37a",
+   "lang": "en",
+   "text": "Sorry, did you ask for my room number?",
+   "cap": 46
+  },
+  {
+   "id": "ed26e2f24",
+   "lang": "en",
+   "text": "Is it alright if maintenance goes in while you're out?",
+   "cap": 47
+  },
+  {
+   "id": "e5d824a86",
+   "lang": "en",
+   "text": "Is",
+   "cap": 47
+  },
+  {
+   "id": "k4f927b3a",
+   "lang": "ko",
+   "text": "는 짝이 어긋나요. 모르는 낱말은 물어요",
+   "cap": 47
+  },
+  {
+   "id": "e81aad5c3",
+   "lang": "en",
+   "text": "Sorry, what does maintenance mean?",
+   "cap": 47
+  },
+  {
+   "id": "kb66cc8fb",
+   "lang": "ko",
+   "text": "괜찮으면",
+   "cap": 48
+  },
+  {
+   "id": "e18b7d6c0",
+   "lang": "en",
+   "text": "Yes, that's fine.",
+   "cap": 48
+  },
+  {
+   "id": "k65fb18bc",
+   "lang": "ko",
+   "text": "내가 있을 때 오면 좋겠으면",
+   "cap": 48
+  },
+  {
+   "id": "e49cf54fc",
+   "lang": "en",
+   "text": "Actually, I'd rather be there, if that's okay.",
+   "cap": 48
+  },
+  {
+   "id": "e6eb28f9e",
+   "lang": "en",
+   "text": "Someone will come by tomorrow between nine and eleven.",
+   "cap": 49
+  },
+  {
+   "id": "k8f92f10d",
+   "lang": "ko",
+   "text": "1시에서 3시로 잘못 들으면 그때 방에 없어요. 되짚어요",
+   "cap": 49
+  },
+  {
+   "id": "ee4ef152e",
+   "lang": "en",
+   "text": "So, tomorrow between nine and eleven?",
+   "cap": 49
+  },
+  {
+   "id": "e670d152c",
+   "lang": "en",
+   "text": "RA , Hey!",
+   "cap": 50
+  },
+  {
+   "id": "e8bf543a4",
+   "lang": "en",
+   "text": "What's up?",
+   "cap": 50
+  },
+  {
+   "id": "kd66b01c9",
+   "lang": "ko",
+   "text": "여기가 시끄러워요를 그대로",
+   "cap": 50
+  },
+  {
+   "id": "e07a76a1a",
+   "lang": "en",
+   "text": "Here is too noisy.",
+   "cap": 50
+  },
+  {
+   "id": "e96023ca4",
+   "lang": "en",
+   "text": "here",
+   "cap": 50
+  },
+  {
+   "id": "k0682aae1",
+   "lang": "ko",
+   "text": "는 주어 자리에 오지 않아요.",
+   "cap": 50
+  },
+  {
+   "id": "e5527e623",
+   "lang": "en",
+   "text": "Change my room.",
+   "cap": 50
+  },
+  {
+   "id": "k9c6ded61",
+   "lang": "ko",
+   "text": "은 명령이에요.",
+   "cap": 50
+  },
+  {
+   "id": "kac3411aa",
+   "lang": "ko",
+   "text": "사실만 말하지 말고 그래서 어떤지와 부탁을 덧붙여요",
+   "cap": 51
+  },
+  {
+   "id": "e1e424d32",
+   "lang": "en",
+   "text": "My roommate plays loud music late at night, so I can't sleep.",
+   "cap": 51
+  },
+  {
+   "id": "e87a455ed",
+   "lang": "en",
+   "text": "Could I get some advice?",
+   "cap": 51
+  },
+  {
+   "id": "e12183847",
+   "lang": "en",
+   "text": "Have you talked to your roommate about it?",
+   "cap": 52
+  },
+  {
+   "id": "e94694f54",
+   "lang": "en",
+   "text": "No, I don't.",
+   "cap": 52
+  },
+  {
+   "id": "ecf6f721b",
+   "lang": "en",
+   "text": "No, I haven't.",
+   "cap": 52
+  },
+  {
+   "id": "e49a02f35",
+   "lang": "en",
+   "text": "I'm not sure what to say.",
+   "cap": 52
+  },
+  {
+   "id": "ef7150dac",
+   "lang": "en",
+   "text": "Ya talked to",
+   "cap": 53
+  },
+  {
+   "id": "e5416ff49",
+   "lang": "en",
+   "text": "em about it yet?",
+   "cap": 53
+  },
+  {
+   "id": "k42167832",
+   "lang": "ko",
+   "text": "짐작하지 말고",
+   "cap": 53
+  },
+  {
+   "id": "e9a59df7b",
+   "lang": "en",
+   "text": "Sorry, did you ask if I talked to my roommate?",
+   "cap": 53
+  },
+  {
+   "id": "e6650f442",
+   "lang": "en",
+   "text": "Would you like me to be there when you talk to them?",
+   "cap": 54
+  },
+  {
+   "id": "e4e113d45",
+   "lang": "en",
+   "text": "You come with me.",
+   "cap": 54
+  },
+  {
+   "id": "k1e13d28f",
+   "lang": "ko",
+   "text": "는 명령처럼 들려요.",
+   "cap": 54
+  },
+  {
+   "id": "kd3476646",
+   "lang": "ko",
+   "text": "도와주겠다는 말을 받을 때는",
+   "cap": 55
+  },
+  {
+   "id": "e56699c0a",
+   "lang": "en",
+   "text": "That would really help.",
+   "cap": 55
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 56
+  },
+  {
+   "id": "k38842679",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말과 질문의 모양 잡기",
+   "cap": 57
+  },
+  {
+   "id": "e66d687bf",
+   "lang": "en",
+   "text": "or",
+   "cap": 57
+  },
+  {
+   "id": "k544eebd7",
+   "lang": "ko",
+   "text": "고르기",
+   "cap": 57
+  },
+  {
+   "id": "e3eb0ece8",
+   "lang": "en",
+   "text": "What",
+   "cap": 57
+  },
+  {
+   "id": "k86332d30",
+   "lang": "ko",
+   "text": "정보",
+   "cap": 57
+  },
+  {
+   "id": "e36aa9dbe",
+   "lang": "en",
+   "text": "Have you , Is it",
+   "cap": 57
+  },
+  {
+   "id": "k305302fb",
+   "lang": "ko",
+   "text": "첫 낱말로 짧은 대답.",
+   "cap": 57
+  },
+  {
+   "id": "k53d3038d",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기 , 문제는 사실로 말하고, 들은 번호와 요일은 되짚어요",
+   "cap": 58
+  },
+  {
+   "id": "k31ec3cc3",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기 , 부탁은 질문으로",
+   "cap": 59
+  },
+  {
+   "id": "e48cb9365",
+   "lang": "en",
+   "text": "Professor Hale.",
+   "cap": 59
+  },
+  {
+   "id": "k2271cded",
+   "lang": "ko",
+   "text": "일곱 곳에 한 줄씩 적용했어요. 내가 먼저 말하는 곳일수록 사실, 부탁이 힘이 돼요.",
+   "cap": 60
+  },
+  {
+   "id": "kfde87d41",
+   "lang": "ko",
+   "text": "실전이에요. 내 카드",
+   "cap": 61
+  },
+  {
+   "id": "e7b1db8f8",
+   "lang": "en",
+   "text": "English two-forty-five",
+   "cap": 61
+  },
+  {
+   "id": "k3c53ce1e",
+   "lang": "ko",
+   "text": "오후 반이에요. 첫 질문",
+   "cap": 61
+  },
+  {
+   "id": "kdb209fda",
+   "lang": "ko",
+   "text": "첫째, 고르는 질문 , 에이",
+   "cap": 62
+  },
+  {
+   "id": "kbec2ca4d",
+   "lang": "ko",
+   "text": "고른 것이 없어 탈락. 둘째, 비",
+   "cap": 62
+  },
+  {
+   "id": "eb6bf1a2a",
+   "lang": "en",
+   "text": "morning",
+   "cap": 62
+  },
+  {
+   "id": "k5db07d26",
+   "lang": "ko",
+   "text": "카드와 달라 탈락.",
+   "cap": 62
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 63
+  },
+  {
+   "id": "e12cbf1ce",
+   "lang": "en",
+   "text": "The afternoon section, please.",
+   "cap": 63
+  },
+  {
+   "id": "k677011cf",
+   "lang": "ko",
+   "text": "오후 반이 다 찼대요. 셋 모두 방법을 묻는 말이에요. 카드 , 오전 반도 괜찮아요.",
+   "cap": 64
+  },
+  {
+   "id": "k2c0eae61",
+   "lang": "ko",
+   "text": "둘째, 에이",
+   "cap": 65
+  },
+  {
+   "id": "efb662bd2",
+   "lang": "en",
+   "text": "afternoon",
+   "cap": 65
+  },
+  {
+   "id": "k3d4bbe34",
+   "lang": "ko",
+   "text": "다 찬 반이라 탈락. 씨",
+   "cap": 65
+  },
+  {
+   "id": "e4251e3df",
+   "lang": "en",
+   "text": "waitlist",
+   "cap": 65
+  },
+  {
+   "id": "ka80f7ea7",
+   "lang": "ko",
+   "text": "정답 비",
+   "cap": 66
+  },
+  {
+   "id": "e2b6ca9e7",
+   "lang": "en",
+   "text": "Oh, I see.",
+   "cap": 66
+  },
+  {
+   "id": "e33575377",
+   "lang": "en",
+   "text": "Could I join the morning section instead?",
+   "cap": 66
+  },
+  {
+   "id": "k5f358852",
+   "lang": "ko",
+   "text": "면담 끝",
+   "cap": 67
+  },
+  {
+   "id": "k299ed72f",
+   "lang": "ko",
+   "text": "카드 , 시험이 세 개 있었고, 마감을 사흘 미루고 싶어요.",
+   "cap": 67
+  },
+  {
+   "id": "k575d4ed3",
+   "lang": "ko",
+   "text": "둘째, 비",
+   "cap": 68
+  },
+  {
+   "id": "e9ec83bd3",
+   "lang": "en",
+   "text": "two-day",
+   "cap": 68
+  },
+  {
+   "id": "k4a5fcc08",
+   "lang": "ko",
+   "text": "카드(사흘)와 달라 탈락. 셋째, 에이",
+   "cap": 68
+  },
+  {
+   "id": "k29c363d4",
+   "lang": "ko",
+   "text": "조르는 말이라 탈락.",
+   "cap": 68
+  },
+  {
+   "id": "ec1299075",
+   "lang": "en",
+   "text": "Professor Hale, I had three exams this week.",
+   "cap": 69
+  },
+  {
+   "id": "e0266f45f",
+   "lang": "en",
+   "text": "Would it be possible to get a three-day extension on my essay?",
+   "cap": 69
+  },
+  {
+   "id": "k74da850e",
+   "lang": "ko",
+   "text": "기숙사",
+   "cap": 70
+  },
+  {
+   "id": "k0d2eebb7",
+   "lang": "ko",
+   "text": "카드 , 시더 홀 316호예요.",
+   "cap": 70
+  },
+  {
+   "id": "kccecb476",
+   "lang": "ko",
+   "text": "첫째, 비",
+   "cap": 71
+  },
+  {
+   "id": "k7f282437",
+   "lang": "ko",
+   "text": "정보가 없어 탈락. 둘째, 에이 360 , 카드와 달라 탈락.",
+   "cap": 71
+  },
+  {
+   "id": "ead6ae483",
+   "lang": "en",
+   "text": "three-sixteen",
+   "cap": 71
+  },
+  {
+   "id": "k2aae227f",
+   "lang": "ko",
+   "text": "과",
+   "cap": 71
+  },
+  {
+   "id": "e0f0dab54",
+   "lang": "en",
+   "text": "three-sixty",
+   "cap": 71
+  },
+  {
+   "id": "e57b9685e",
+   "lang": "en",
+   "text": "It's Room three-sixteen, in Cedar Hall.",
+   "cap": 72
+  },
+  {
+   "id": "kf5fa4ad4",
+   "lang": "ko",
+   "text": "정리해요. 용건은 부탁 틀로",
+   "cap": 73
+  },
+  {
+   "id": "k61a67c32",
+   "lang": "ko",
+   "text": "문제는 사실, 부탁",
+   "cap": 74
+  },
+  {
+   "id": "k26d161dd",
+   "lang": "ko",
+   "text": "들은 번호와 요일은 되짚어요",
+   "cap": 75
+  },
+  {
+   "id": "k4012ba4a",
+   "lang": "ko",
+   "text": "아래 교환학생 시뮬레이터에서 내 카드로 수업 등록부터",
+   "cap": 76
+  },
+  {
+   "id": "k80269c36",
+   "lang": "ko",
+   "text": "상담까지 해 보세요.",
+   "cap": 76
+  }
+ ]
+}
