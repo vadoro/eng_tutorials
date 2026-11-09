@@ -386,5 +386,17 @@ window.EN_CATALOG = {
       thumb: 'campus/docs/poster.jpg',
       added: '2026-11-09',
     },
+    {
+      slug: 'phone',
+      track: 'talk',
+      title: '전화 영어, 철자는 as in · 숫자는 되짚기',
+      topic: '식당 예약 · 다 찬 시간과 빈 시각 되짚기 · 이름 철자 부르기(as in) · 문의 전화 · 수업 안내 되짚기 · 메시지 남기기 한 줄 · 전화번호 불러 주기 · 걸려 온 전화 받기',
+      summary: '전화에서는 얼굴도 몸짓도 보이지 않아요. 듣기만으로 주고받으니 이름 철자는 as in으로(H-A-N, N as in Nancy), 들은 시각 · 요일 · 값은 되짚기로(So, 8:15?) 확인해요. 전화를 건 사람은 첫마디에 용건을(Hi, I\'d like to make a reservation for Friday, please.), 나를 밝힐 때는 This is …, 찾는 사람이 없으면 누구 → 무슨 일 → 부탁 → 번호의 메시지 한 줄로(This is Jiwoo Han. I\'m calling about the beginner swimming class. Could you ask him to call me back at 555-0139?). 전화번호는 하나씩, 0은 oh, 잘못 되짚으면 바로잡기(No, N as in Nancy. · No, it isn\'t. It\'s 555-0139.). reserve Friday · We are four · inquiry · Here is · handphone 같은 한국어 그대로의 말과 fifteen · fifty도 함께. 식당 · 센터 · 사람 이름 · 시간과 값 · 전화번호(555-01XX)는 지어낸 예시예요.',
+      length: '7:00',
+      scenes: 12,
+      features: ['음성 해설', '화자별 대화 듣기', '장면별 실습', '전화 시뮬레이터', '메시지 한 줄 만들기', '따라 말하기 28', '듣고 대답 고르기 16', '퀴즈'],
+      thumb: 'phone/docs/poster.jpg',
+      added: '2026-11-09',
+    },
   ],
 };

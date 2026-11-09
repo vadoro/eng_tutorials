@@ -1,0 +1,1692 @@
+{
+ "slug": "phone",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 138,
+  "en": 142,
+  "koChars": 2310,
+  "enChars": 3096
+ },
+ "pieces": [
+  {
+   "id": "k57abbfb6",
+   "lang": "ko",
+   "text": "전화에서는 얼굴도 몸짓도 보이지 않아요. 듣기만으로 주고받으니, 이름 철자와 숫자는 꼭 되짚어요.",
+   "cap": 0
+  },
+  {
+   "id": "kef3c41f6",
+   "lang": "ko",
+   "text": "식당에 전화해서 예약하다를 그대로",
+   "cap": 1
+  },
+  {
+   "id": "e5e041ef8",
+   "lang": "en",
+   "text": "Hi, I want to reserve Friday.",
+   "cap": 1
+  },
+  {
+   "id": "k1cf3eb91",
+   "lang": "ko",
+   "text": "용건은 부탁 틀로",
+   "cap": 1
+  },
+  {
+   "id": "e69d85cac",
+   "lang": "en",
+   "text": "Hi, I'd like to make a reservation for Friday, please.",
+   "cap": 1
+  },
+  {
+   "id": "ke2b496b3",
+   "lang": "ko",
+   "text": "직원이 철자를 잘못 되짚었어요",
+   "cap": 2
+  },
+  {
+   "id": "e63685c90",
+   "lang": "en",
+   "text": "Was that M as in Mary?",
+   "cap": 2
+  },
+  {
+   "id": "e5f1fb486",
+   "lang": "en",
+   "text": "Yes, that's right.",
+   "cap": 2
+  },
+  {
+   "id": "k1ea6b3eb",
+   "lang": "ko",
+   "text": "로 넘기면 이름이 잘못 적혀요",
+   "cap": 2
+  },
+  {
+   "id": "e3fcd192f",
+   "lang": "en",
+   "text": "No, N as in Nancy.",
+   "cap": 2
+  },
+  {
+   "id": "kb82eb636",
+   "lang": "ko",
+   "text": "빈 시각을 들으면",
+   "cap": 3
+  },
+  {
+   "id": "e3729b2a4",
+   "lang": "en",
+   "text": "Okay.",
+   "cap": 3
+  },
+  {
+   "id": "e68fca163",
+   "lang": "en",
+   "text": "Thanks.",
+   "cap": 3
+  },
+  {
+   "id": "k8bac8c9a",
+   "lang": "ko",
+   "text": "로 끝내지 말고 되짚어요",
+   "cap": 3
+  },
+  {
+   "id": "e83e03e1c",
+   "lang": "en",
+   "text": "So, eight-fifteen?",
+   "cap": 3
+  },
+  {
+   "id": "k9c45b11a",
+   "lang": "ko",
+   "text": "세 단계로 말해요. 열쇠 낱말과 모양을 잡고, 틀에 내 정보를 넣고, 공손하게 끝내요.",
+   "cap": 4
+  },
+  {
+   "id": "k2ffc4568",
+   "lang": "ko",
+   "text": "오늘의 이야기를 일곱 곳으로 나눠 봐요. 첫 번째 전화는 식당 예약이에요. 용건을 말하고, 시간을 맞추고, 이름 철자를 불러요.",
+   "cap": 5
+  },
+  {
+   "id": "kaa3d8497",
+   "lang": "ko",
+   "text": "두 번째 전화는 스포츠 센터예요. 수영 강습을 묻고, 코치가 없으면 메시지를 남기고, 내 번호를 불러 줘요.",
+   "cap": 6
+  },
+  {
+   "id": "k431ad143",
+   "lang": "ko",
+   "text": "세 번째 전화는 코치가 다시 걸어 와요. 전화를 받고, 끊긴 말은 다시 묻고, 준비물과 요일을 되짚어요.",
+   "cap": 7
+  },
+  {
+   "id": "ka8c3ceca",
+   "lang": "ko",
+   "text": "보라 테두리 , 내가 먼저 말을 꺼내는 곳이에요. 전화를 건 사람이 첫마디에 용건을 말해요.",
+   "cap": 8
+  },
+  {
+   "id": "kcf78f752",
+   "lang": "ko",
+   "text": "식당, 스포츠 센터, 사람 이름, 시간과 값은 모두 지어낸 예시예요. 전화번호도 영화에서 쓰는 지어낸 번호예요.",
+   "cap": 9
+  },
+  {
+   "id": "e99e23e5a",
+   "lang": "en",
+   "text": "Lantern Bistro, this is Ben.",
+   "cap": 10
+  },
+  {
+   "id": "ed41665bc",
+   "lang": "en",
+   "text": "How can I help you?",
+   "cap": 10
+  },
+  {
+   "id": "k1fe7b4ba",
+   "lang": "ko",
+   "text": "예약하다를 그대로",
+   "cap": 10
+  },
+  {
+   "id": "edb479cfe",
+   "lang": "en",
+   "text": "reserve",
+   "cap": 10
+  },
+  {
+   "id": "k20b6e9b1",
+   "lang": "ko",
+   "text": "뒤에는 잡을 것이 와요.",
+   "cap": 10
+  },
+  {
+   "id": "eddaa5c5b",
+   "lang": "en",
+   "text": "I'm calling about Friday.",
+   "cap": 11
+  },
+  {
+   "id": "k208059fe",
+   "lang": "ko",
+   "text": "는 무엇을 하고 싶은지 빠졌고",
+   "cap": 11
+  },
+  {
+   "id": "e49674f2c",
+   "lang": "en",
+   "text": "Give me a table",
+   "cap": 11
+  },
+  {
+   "id": "ka5b87d95",
+   "lang": "ko",
+   "text": "은 명령이에요",
+   "cap": 11
+  },
+  {
+   "id": "ef6363b14",
+   "lang": "en",
+   "text": "Is that for lunch or dinner?",
+   "cap": 12
+  },
+  {
+   "id": "e60161af3",
+   "lang": "en",
+   "text": "Yes, please.",
+   "cap": 12
+  },
+  {
+   "id": "k4cdbb5cd",
+   "lang": "ko",
+   "text": "는 고른 것이 없어요. 고른 것",
+   "cap": 12
+  },
+  {
+   "id": "eba97e260",
+   "lang": "en",
+   "text": "please , Dinner, please.",
+   "cap": 12
+  },
+  {
+   "id": "ea6c46ccb",
+   "lang": "en",
+   "text": "lunch or",
+   "cap": 13
+  },
+  {
+   "id": "kd27e5df7",
+   "lang": "ko",
+   "text": "는",
+   "cap": 13
+  },
+  {
+   "id": "e12099c06",
+   "lang": "en",
+   "text": "lun-chor",
+   "cap": 13
+  },
+  {
+   "id": "k40ade9ca",
+   "lang": "ko",
+   "text": "처럼 이어져 들려요. 고를 것은 세게 말해요",
+   "cap": 13
+  },
+  {
+   "id": "e94ed5d7c",
+   "lang": "en",
+   "text": "lunch , dinner.",
+   "cap": 13
+  },
+  {
+   "id": "k72722265",
+   "lang": "ko",
+   "text": "몇 분이냐고 물으면, 우리는 네 명이에요를 그대로",
+   "cap": 14
+  },
+  {
+   "id": "ee41d58ba",
+   "lang": "en",
+   "text": "We are four.",
+   "cap": 14
+  },
+  {
+   "id": "k23ee5ab7",
+   "lang": "ko",
+   "text": "사람 수는",
+   "cap": 14
+  },
+  {
+   "id": "eeb466879",
+   "lang": "en",
+   "text": "For four, please.",
+   "cap": 14
+  },
+  {
+   "id": "k19d4eed4",
+   "lang": "ko",
+   "text": "빠른 첫마디",
+   "cap": 15
+  },
+  {
+   "id": "e152c636c",
+   "lang": "en",
+   "text": "Lantern Bistro, Ben speakin'.",
+   "cap": 15
+  },
+  {
+   "id": "e64de7053",
+   "lang": "en",
+   "text": "How c'n I help?",
+   "cap": 15
+  },
+  {
+   "id": "kccf93056",
+   "lang": "ko",
+   "text": "가게 이름을 놓쳤는데 짐작해서 용건부터 말하면, 엉뚱한 곳에 예약할 수도 있어요.",
+   "cap": 15
+  },
+  {
+   "id": "k6669a569",
+   "lang": "ko",
+   "text": "들린 만큼 되물어요",
+   "cap": 16
+  },
+  {
+   "id": "efd183147",
+   "lang": "en",
+   "text": "Sorry, is this Lantern Bistro?",
+   "cap": 16
+  },
+  {
+   "id": "kbc5a4d0f",
+   "lang": "ko",
+   "text": "맞는 곳에 걸었는지부터 확인해요.",
+   "cap": 16
+  },
+  {
+   "id": "e6d470113",
+   "lang": "en",
+   "text": "What time would you like?",
+   "cap": 17
+  },
+  {
+   "id": "e7497efd9",
+   "lang": "en",
+   "text": "Yes.",
+   "cap": 17
+  },
+  {
+   "id": "k50addebb",
+   "lang": "ko",
+   "text": "는 정보가 없어요. 바라는 시각",
+   "cap": 17
+  },
+  {
+   "id": "e6c1e6776",
+   "lang": "en",
+   "text": "At 7, please.",
+   "cap": 17
+  },
+  {
+   "id": "e915d788e",
+   "lang": "en",
+   "text": "I'm sorry, we're fully booked at seven.",
+   "cap": 18
+  },
+  {
+   "id": "k22806ee7",
+   "lang": "ko",
+   "text": "도",
+   "cap": 18
+  },
+  {
+   "id": "ebfe235e1",
+   "lang": "en",
+   "text": "Oh, okay.",
+   "cap": 18
+  },
+  {
+   "id": "kab053628",
+   "lang": "ko",
+   "text": "도 예약을 못 하고 전화가 끝나요.",
+   "cap": 18
+  },
+  {
+   "id": "k05cbea8a",
+   "lang": "ko",
+   "text": "가능한 시간을 그대로",
+   "cap": 19
+  },
+  {
+   "id": "e32cc3822",
+   "lang": "en",
+   "text": "Then what time is possible?",
+   "cap": 19
+  },
+  {
+   "id": "kc7887615",
+   "lang": "ko",
+   "text": "자리가 있는지는",
+   "cap": 19
+  },
+  {
+   "id": "e2b6ca9e7",
+   "lang": "en",
+   "text": "Oh, I see.",
+   "cap": 19
+  },
+  {
+   "id": "e26ff6fe3",
+   "lang": "en",
+   "text": "Do you have anything later?",
+   "cap": 19
+  },
+  {
+   "id": "e457674c3",
+   "lang": "en",
+   "text": "We have a table at eight",
+   "cap": 20
+  },
+  {
+   "id": "kc633b3db",
+   "lang": "ko",
+   "text": ":15.",
+   "cap": 20
+  },
+  {
+   "id": "k7f9637e8",
+   "lang": "ko",
+   "text": "로 넘기면 시각을 확인하지 못해요.",
+   "cap": 20
+  },
+  {
+   "id": "e3ae737c6",
+   "lang": "en",
+   "text": "eight-fifty",
+   "cap": 20
+  },
+  {
+   "id": "k5c752499",
+   "lang": "ko",
+   "text": "로 잘못 들으면 8시 50분이에요.",
+   "cap": 20
+  },
+  {
+   "id": "k970faa3a",
+   "lang": "ko",
+   "text": "되짚어 확인해요",
+   "cap": 21
+  },
+  {
+   "id": "e321c045b",
+   "lang": "en",
+   "text": "fifteen",
+   "cap": 21
+  },
+  {
+   "id": "ke9124f59",
+   "lang": "ko",
+   "text": "은 뒤를",
+   "cap": 21
+  },
+  {
+   "id": "eb58319ec",
+   "lang": "en",
+   "text": "fifty",
+   "cap": 21
+  },
+  {
+   "id": "k6e1c02dd",
+   "lang": "ko",
+   "text": "는 앞을 세게 말해요.",
+   "cap": 21
+  },
+  {
+   "id": "k1aac4c20",
+   "lang": "ko",
+   "text": "빠른 말 , '",
+   "cap": 22
+  },
+  {
+   "id": "efbdff0b6",
+   "lang": "en",
+   "text": "Kay, got a table at eight-fifteen.",
+   "cap": 22
+  },
+  {
+   "id": "k35cc7680",
+   "lang": "ko",
+   "text": "짐작하지 말고 놓친 것만 물어요",
+   "cap": 22
+  },
+  {
+   "id": "ef6e7753d",
+   "lang": "en",
+   "text": "Sorry, what time was that?",
+   "cap": 22
+  },
+  {
+   "id": "edc16762f",
+   "lang": "en",
+   "text": "What name is the reservation under?",
+   "cap": 23
+  },
+  {
+   "id": "ke22f0f0f",
+   "lang": "ko",
+   "text": "이름은 한이에요를 그대로",
+   "cap": 23
+  },
+  {
+   "id": "eb8abe6e6",
+   "lang": "en",
+   "text": "Name is Han.",
+   "cap": 23
+  },
+  {
+   "id": "k8e243204",
+   "lang": "ko",
+   "text": "이름 하나만 짧게",
+   "cap": 23
+  },
+  {
+   "id": "eae42816c",
+   "lang": "en",
+   "text": "It's Han.",
+   "cap": 23
+  },
+  {
+   "id": "ef9915d0b",
+   "lang": "en",
+   "text": "Could you spell that for me?",
+   "cap": 24
+  },
+  {
+   "id": "k08453943",
+   "lang": "ko",
+   "text": "는 철자가 아니고",
+   "cap": 24
+  },
+  {
+   "id": "k9ceb4f15",
+   "lang": "ko",
+   "text": "은 이름을 한 번 더 말했을 뿐이에요.",
+   "cap": 24
+  },
+  {
+   "id": "e16e38e49",
+   "lang": "en",
+   "text": "H, A, N",
+   "cap": 25
+  },
+  {
+   "id": "k80127b2c",
+   "lang": "ko",
+   "text": "만 불러도 통하지만",
+   "cap": 25
+  },
+  {
+   "id": "e6256b8e4",
+   "lang": "en",
+   "text": "N",
+   "cap": 25
+  },
+  {
+   "id": "k2aae227f",
+   "lang": "ko",
+   "text": "과",
+   "cap": 25
+  },
+  {
+   "id": "e6556bd9d",
+   "lang": "en",
+   "text": "M",
+   "cap": 25
+  },
+  {
+   "id": "k8daf3b0f",
+   "lang": "ko",
+   "text": "은 전화에서 헷갈려요. 헷갈리는 글자에는",
+   "cap": 25
+  },
+  {
+   "id": "e8def57e5",
+   "lang": "en",
+   "text": "as in",
+   "cap": 25
+  },
+  {
+   "id": "k65ce6383",
+   "lang": "ko",
+   "text": "흔한 이름",
+   "cap": 25
+  },
+  {
+   "id": "e0c556ed3",
+   "lang": "en",
+   "text": "Sure.",
+   "cap": 25
+  },
+  {
+   "id": "ee4b1e688",
+   "lang": "en",
+   "text": "It's H, A, N, N as in Nancy.",
+   "cap": 25
+  },
+  {
+   "id": "e689ae61e",
+   "lang": "en",
+   "text": "N, B",
+   "cap": 26
+  },
+  {
+   "id": "k9f34a81b",
+   "lang": "ko",
+   "text": "와",
+   "cap": 26
+  },
+  {
+   "id": "e03513344",
+   "lang": "en",
+   "text": "P, F",
+   "cap": 26
+  },
+  {
+   "id": "e6756c0c3",
+   "lang": "en",
+   "text": "S",
+   "cap": 26
+  },
+  {
+   "id": "k90a29c5c",
+   "lang": "ko",
+   "text": "는 전화에서 특히 헷갈려요. 흔한 이름을 붙여 불러요",
+   "cap": 26
+  },
+  {
+   "id": "e83b20159",
+   "lang": "en",
+   "text": "M as in Mary , N as in Nancy.",
+   "cap": 26
+  },
+  {
+   "id": "kc3624b05",
+   "lang": "ko",
+   "text": "틀렸는데",
+   "cap": 27
+  },
+  {
+   "id": "k46bdb47b",
+   "lang": "ko",
+   "text": "로 넘기면",
+   "cap": 27
+  },
+  {
+   "id": "e13e38990",
+   "lang": "en",
+   "text": "H, A, M",
+   "cap": 27
+  },
+  {
+   "id": "kac0a377c",
+   "lang": "ko",
+   "text": "으로 적혀요.",
+   "cap": 27
+  },
+  {
+   "id": "e737e821b",
+   "lang": "en",
+   "text": "Was",
+   "cap": 27
+  },
+  {
+   "id": "k4f58f70d",
+   "lang": "ko",
+   "text": "로 물었으니",
+   "cap": 27
+  },
+  {
+   "id": "e1bc39d4d",
+   "lang": "en",
+   "text": "No, it isn't.",
+   "cap": 27
+  },
+  {
+   "id": "kab915531",
+   "lang": "ko",
+   "text": "는 짝이 어긋나요.",
+   "cap": 27
+  },
+  {
+   "id": "eea9a376d",
+   "lang": "en",
+   "text": "No.",
+   "cap": 28
+  },
+  {
+   "id": "k5db67766",
+   "lang": "ko",
+   "text": "만 하면 맞는 글자를 몰라요. 바로잡아요",
+   "cap": 28
+  },
+  {
+   "id": "k9ac02b1d",
+   "lang": "ko",
+   "text": "스포츠 센터",
+   "cap": 29
+  },
+  {
+   "id": "eec0cc233",
+   "lang": "en",
+   "text": "Kellport Sports Center, Grace speaking.",
+   "cap": 29
+  },
+  {
+   "id": "kce98e89f",
+   "lang": "ko",
+   "text": "문의하다를 그대로",
+   "cap": 29
+  },
+  {
+   "id": "e1e283d45",
+   "lang": "en",
+   "text": "I want to inquiry swimming lessons.",
+   "cap": 29
+  },
+  {
+   "id": "e514d3477",
+   "lang": "en",
+   "text": "inquiry",
+   "cap": 29
+  },
+  {
+   "id": "ke128cb7f",
+   "lang": "ko",
+   "text": "는 이름씨예요.",
+   "cap": 29
+  },
+  {
+   "id": "e4e09c89b",
+   "lang": "en",
+   "text": "Hi, I have a question.",
+   "cap": 30
+  },
+  {
+   "id": "kebd7d7e5",
+   "lang": "ko",
+   "text": "은 무엇을 묻는지 없고",
+   "cap": 30
+  },
+  {
+   "id": "eb60e5fd8",
+   "lang": "en",
+   "text": "Tell me about",
+   "cap": 30
+  },
+  {
+   "id": "ed4e7767a",
+   "lang": "en",
+   "text": "Hi, I'm calling to ask about your swimming lessons.",
+   "cap": 30
+  },
+  {
+   "id": "e50195759",
+   "lang": "en",
+   "text": "Is that for the beginner class or the intermediate class?",
+   "cap": 31
+  },
+  {
+   "id": "k338ea6b3",
+   "lang": "ko",
+   "text": "는 고른 것이 없어요. 모르는 낱말은 물어요",
+   "cap": 31
+  },
+  {
+   "id": "eb99267dd",
+   "lang": "en",
+   "text": "Sorry, what does intermediate mean?",
+   "cap": 31
+  },
+  {
+   "id": "e626aa717",
+   "lang": "en",
+   "text": "intermediate",
+   "cap": 32
+  },
+  {
+   "id": "ke7ee26ab",
+   "lang": "ko",
+   "text": "는 중급이에요. 처음 배우면",
+   "cap": 32
+  },
+  {
+   "id": "e74f903f3",
+   "lang": "en",
+   "text": "The beginner class, please.",
+   "cap": 32
+  },
+  {
+   "id": "kc145d338",
+   "lang": "ko",
+   "text": "고를 것은 세게",
+   "cap": 32
+  },
+  {
+   "id": "e2d0eaa7d",
+   "lang": "en",
+   "text": "beginner , intermediate.",
+   "cap": 32
+  },
+  {
+   "id": "e29544672",
+   "lang": "en",
+   "text": "The beginner class is on Tuesdays and Thursdays from six to seven, and it's forty dollars a month.",
+   "cap": 33
+  },
+  {
+   "id": "k13e0f701",
+   "lang": "ko",
+   "text": "로 넘기면 요일과 값을 확인하지 못해요.",
+   "cap": 33
+  },
+  {
+   "id": "eb866f90d",
+   "lang": "en",
+   "text": "fourteen dollars",
+   "cap": 34
+  },
+  {
+   "id": "ke94e572f",
+   "lang": "ko",
+   "text": "로, 월요일과 수요일로 잘못 들으면 다른 수업이에요. 되짚어요",
+   "cap": 34
+  },
+  {
+   "id": "ef88c6a91",
+   "lang": "en",
+   "text": "So, Tuesdays and Thursdays from six to seven, forty dollars a month?",
+   "cap": 34
+  },
+  {
+   "id": "k11e0d351",
+   "lang": "ko",
+   "text": "빠른 말",
+   "cap": 35
+  },
+  {
+   "id": "e6479b611",
+   "lang": "en",
+   "text": "Beginners're Tuesdays",
+   "cap": 35
+  },
+  {
+   "id": "ef72d102a",
+   "lang": "en",
+   "text": "n Thursdays, six to seven, forty a month.",
+   "cap": 35
+  },
+  {
+   "id": "kd77b8186",
+   "lang": "ko",
+   "text": "놓쳤으면",
+   "cap": 35
+  },
+  {
+   "id": "eee3cb084",
+   "lang": "en",
+   "text": "Sorry, when is the class, and how much is it?",
+   "cap": 35
+  },
+  {
+   "id": "kcbc19b81",
+   "lang": "ko",
+   "text": "코치가 자리에 없대요",
+   "cap": 36
+  },
+  {
+   "id": "eda586090",
+   "lang": "en",
+   "text": "Would you like to leave a message?",
+   "cap": 36
+  },
+  {
+   "id": "k682d9ab3",
+   "lang": "ko",
+   "text": "남길게요를 그대로",
+   "cap": 36
+  },
+  {
+   "id": "e5709fbd3",
+   "lang": "en",
+   "text": "Please leave a message.",
+   "cap": 36
+  },
+  {
+   "id": "kcd78d162",
+   "lang": "ko",
+   "text": "상대에게 남기라는 말이 돼요.",
+   "cap": 36
+  },
+  {
+   "id": "k588dc0ed",
+   "lang": "ko",
+   "text": "내가 남길 때는",
+   "cap": 37
+  },
+  {
+   "id": "k191fa880",
+   "lang": "ko",
+   "text": "그러면 상대가",
+   "cap": 37
+  },
+  {
+   "id": "e290ae29e",
+   "lang": "en",
+   "text": "Of course.",
+   "cap": 37
+  },
+  {
+   "id": "ea1ffef55",
+   "lang": "en",
+   "text": "Go ahead.",
+   "cap": 37
+  },
+  {
+   "id": "k42ab0bde",
+   "lang": "ko",
+   "text": "누구, 무슨 일, 부탁, 번호 차례로 한 줄",
+   "cap": 38
+  },
+  {
+   "id": "ed15e720d",
+   "lang": "en",
+   "text": "This is Jiwoo Han.",
+   "cap": 38
+  },
+  {
+   "id": "e85c79356",
+   "lang": "en",
+   "text": "I'm calling about the beginner swimming class.",
+   "cap": 38
+  },
+  {
+   "id": "ecb3c5013",
+   "lang": "en",
+   "text": "Could you ask him to call me back at five-five-five, oh-one-three-nine?",
+   "cap": 38
+  },
+  {
+   "id": "k259f3357",
+   "lang": "ko",
+   "text": "여기는 지우예요를 그대로",
+   "cap": 39
+  },
+  {
+   "id": "ea55cdc9b",
+   "lang": "en",
+   "text": "Here is Jiwoo Han.",
+   "cap": 39
+  },
+  {
+   "id": "ec031f644",
+   "lang": "en",
+   "text": "Here is",
+   "cap": 39
+  },
+  {
+   "id": "k011dd0c0",
+   "lang": "ko",
+   "text": "는 물건을 건넬 때 써요. 전화에서 나를 밝힐 때는",
+   "cap": 39
+  },
+  {
+   "id": "e6ec9677a",
+   "lang": "en",
+   "text": "This is",
+   "cap": 39
+  },
+  {
+   "id": "e4482e381",
+   "lang": "en",
+   "text": "Tell him to call me back",
+   "cap": 40
+  },
+  {
+   "id": "k395535c0",
+   "lang": "ko",
+   "text": "은 명령처럼 들려요. 전해 달라는 부탁도 질문으로",
+   "cap": 40
+  },
+  {
+   "id": "e84f3918e",
+   "lang": "en",
+   "text": "Could you ask him to call me back?",
+   "cap": 40
+  },
+  {
+   "id": "kdb329c1d",
+   "lang": "ko",
+   "text": "누구인지 빠지면",
+   "cap": 41
+  },
+  {
+   "id": "e40294a63",
+   "lang": "en",
+   "text": "And may I ask who's calling?",
+   "cap": 41
+  },
+  {
+   "id": "k93d7051d",
+   "lang": "ko",
+   "text": "무슨 일인지 빠지면",
+   "cap": 41
+  },
+  {
+   "id": "eda0f8a04",
+   "lang": "en",
+   "text": "And what is it regarding?",
+   "cap": 41
+  },
+  {
+   "id": "kc0da38d9",
+   "lang": "ko",
+   "text": "받아 적는 사람이 다시 물어요.",
+   "cap": 41
+  },
+  {
+   "id": "kba7eb640",
+   "lang": "ko",
+   "text": "번호를 부탁보다 먼저 툭 말하면 차례가 뒤섞여요. 번호는 부탁 바로 뒤",
+   "cap": 42
+  },
+  {
+   "id": "e51380d0d",
+   "lang": "en",
+   "text": "call me back at five-five-five, oh-one-three-nine?",
+   "cap": 42
+  },
+  {
+   "id": "ee1a91ace",
+   "lang": "en",
+   "text": "He's out, I'm",
+   "cap": 43
+  },
+  {
+   "id": "e6b8d838e",
+   "lang": "en",
+   "text": "fraid.",
+   "cap": 43
+  },
+  {
+   "id": "ee324003b",
+   "lang": "en",
+   "text": "D'you wanna leave a message?",
+   "cap": 43
+  },
+  {
+   "id": "e18386f43",
+   "lang": "en",
+   "text": "Sorry, did you ask if I'd like to leave a message?",
+   "cap": 43
+  },
+  {
+   "id": "ke6929475",
+   "lang": "ko",
+   "text": "번호를 빼고 남기면",
+   "cap": 44
+  },
+  {
+   "id": "e09b39630",
+   "lang": "en",
+   "text": "What's the best number to reach you?",
+   "cap": 44
+  },
+  {
+   "id": "k6d3b2555",
+   "lang": "ko",
+   "text": "핸드폰을 그대로",
+   "cap": 44
+  },
+  {
+   "id": "e014f41e0",
+   "lang": "en",
+   "text": "My handphone number is",
+   "cap": 44
+  },
+  {
+   "id": "k8da13c66",
+   "lang": "ko",
+   "text": "핸드폰은 한국에서 만든 말이에요.",
+   "cap": 44
+  },
+  {
+   "id": "k547e33cd",
+   "lang": "ko",
+   "text": "휴대폰은",
+   "cap": 45
+  },
+  {
+   "id": "e85b25a06",
+   "lang": "en",
+   "text": "cell phone",
+   "cap": 45
+  },
+  {
+   "id": "k5cd1c5a5",
+   "lang": "ko",
+   "text": "영국에서는",
+   "cap": 45
+  },
+  {
+   "id": "ec0d6dc54",
+   "lang": "en",
+   "text": "mobile",
+   "cap": 45
+  },
+  {
+   "id": "k4b7b0757",
+   "lang": "ko",
+   "text": "이에요.",
+   "cap": 45
+  },
+  {
+   "id": "k0ba8face",
+   "lang": "ko",
+   "text": "만 하면 번호가 없어요. 번호만 짧게",
+   "cap": 45
+  },
+  {
+   "id": "e7bf149f9",
+   "lang": "en",
+   "text": "It's five-five-five, oh-one-three-nine.",
+   "cap": 45
+  },
+  {
+   "id": "kcffd6945",
+   "lang": "ko",
+   "text": "번호는 숫자를 하나씩, 0은",
+   "cap": 46
+  },
+  {
+   "id": "e80d6b0ad",
+   "lang": "en",
+   "text": "oh",
+   "cap": 46
+  },
+  {
+   "id": "k02cc79c5",
+   "lang": "ko",
+   "text": "로 읽고, 세 자리와 네 자리 사이에서 쉬어요. 끝 두 자리를 바꾸면 다른 번호예요.",
+   "cap": 46
+  },
+  {
+   "id": "e579ab2e9",
+   "lang": "en",
+   "text": "What's th' best number t' reach ya?",
+   "cap": 47
+  },
+  {
+   "id": "e768fb1b3",
+   "lang": "en",
+   "text": "Sorry, did you ask for my phone number?",
+   "cap": 47
+  },
+  {
+   "id": "e33663cd9",
+   "lang": "en",
+   "text": "Let me read that back.",
+   "cap": 48
+  },
+  {
+   "id": "e159e7f2a",
+   "lang": "en",
+   "text": "five-five-five, oh-one-nine-three.",
+   "cap": 48
+  },
+  {
+   "id": "e4f3fa4c2",
+   "lang": "en",
+   "text": "Is that right?",
+   "cap": 48
+  },
+  {
+   "id": "kb01aa72b",
+   "lang": "ko",
+   "text": "로 넘기면 코치가 다른 번호로 전화해요.",
+   "cap": 48
+  },
+  {
+   "id": "e5d824a86",
+   "lang": "en",
+   "text": "Is",
+   "cap": 49
+  },
+  {
+   "id": "ed3a210cc",
+   "lang": "en",
+   "text": "No, it wasn't.",
+   "cap": 49
+  },
+  {
+   "id": "kcc25adcd",
+   "lang": "ko",
+   "text": "만 하면 맞는 번호를 몰라요",
+   "cap": 49
+  },
+  {
+   "id": "k7794620f",
+   "lang": "ko",
+   "text": "코치가 다시 걸어 왔어요",
+   "cap": 50
+  },
+  {
+   "id": "e3b19cff0",
+   "lang": "en",
+   "text": "Hi, this is Matt Diaz from Kellport Sports Center.",
+   "cap": 50
+  },
+  {
+   "id": "efe1c712b",
+   "lang": "en",
+   "text": "Is this Jiwoo?",
+   "cap": 50
+  },
+  {
+   "id": "e02101290",
+   "lang": "en",
+   "text": "Who are you?",
+   "cap": 50
+  },
+  {
+   "id": "kbc55a7ba",
+   "lang": "ko",
+   "text": "는 퉁명스럽게 들려요.",
+   "cap": 50
+  },
+  {
+   "id": "k2d9f6a94",
+   "lang": "ko",
+   "text": "는 찾는 사람이 아니라는 뜻이에요. 나를 찾는 전화면",
+   "cap": 51
+  },
+  {
+   "id": "eaf5d5737",
+   "lang": "en",
+   "text": "Yes, speaking.",
+   "cap": 51
+  },
+  {
+   "id": "e0ae2cd56",
+   "lang": "en",
+   "text": "Yes, it is.",
+   "cap": 51
+  },
+  {
+   "id": "kfb6830fc",
+   "lang": "ko",
+   "text": "도 좋아요.",
+   "cap": 51
+  },
+  {
+   "id": "k6063851d",
+   "lang": "ko",
+   "text": "소리가 끊겨요",
+   "cap": 52
+  },
+  {
+   "id": "ea244fe36",
+   "lang": "en",
+   "text": "Great!",
+   "cap": 52
+  },
+  {
+   "id": "e00fcc08c",
+   "lang": "en",
+   "text": "So for the , you'll need",
+   "cap": 52
+  },
+  {
+   "id": "k378a298c",
+   "lang": "ko",
+   "text": "짐작해서 되짚지 말고",
+   "cap": 52
+  },
+  {
+   "id": "e7bd7d786",
+   "lang": "en",
+   "text": "Sorry, you're breaking up.",
+   "cap": 52
+  },
+  {
+   "id": "e24dcd809",
+   "lang": "en",
+   "text": "Could you say that again?",
+   "cap": 52
+  },
+  {
+   "id": "eefc5fbb0",
+   "lang": "en",
+   "text": "You'll need to bring a swimsuit and goggles on Tuesday.",
+   "cap": 53
+  },
+  {
+   "id": "kb763d757",
+   "lang": "ko",
+   "text": "로 넘기면 준비물과 요일을 확인하지 못해요.",
+   "cap": 53
+  },
+  {
+   "id": "k3a2ca24c",
+   "lang": "ko",
+   "text": "목요일로 잘못 들으면 첫 수업을 놓쳐요. 되짚어요",
+   "cap": 54
+  },
+  {
+   "id": "eba7e12ca",
+   "lang": "en",
+   "text": "So, a swimsuit and goggles on Tuesday?",
+   "cap": 54
+  },
+  {
+   "id": "ee2e2e72b",
+   "lang": "en",
+   "text": "Is there anything else I can help you with?",
+   "cap": 55
+  },
+  {
+   "id": "kb0d38f9e",
+   "lang": "ko",
+   "text": "만 하면 물어볼 것을 기다려요.",
+   "cap": 55
+  },
+  {
+   "id": "ecb98ac7c",
+   "lang": "en",
+   "text": "Bye.",
+   "cap": 55
+  },
+  {
+   "id": "k445aea83",
+   "lang": "ko",
+   "text": "는 퉁명스럽게 끝나요.",
+   "cap": 55
+  },
+  {
+   "id": "k2c5127d4",
+   "lang": "ko",
+   "text": "더 물어볼 것이 없으면",
+   "cap": 56
+  },
+  {
+   "id": "ee74133e5",
+   "lang": "en",
+   "text": "No, that's all.",
+   "cap": 56
+  },
+  {
+   "id": "e6ffd836f",
+   "lang": "en",
+   "text": "Thanks for calling back.",
+   "cap": 56
+  },
+  {
+   "id": "ed298b781",
+   "lang": "en",
+   "text": "Bye!",
+   "cap": 56
+  },
+  {
+   "id": "kf6a52084",
+   "lang": "ko",
+   "text": "지금까지 배운 것을 3단계 말하기 법으로 묶어요.",
+   "cap": 57
+  },
+  {
+   "id": "k38842679",
+   "lang": "ko",
+   "text": "첫째, 열쇠 낱말과 질문의 모양 잡기",
+   "cap": 58
+  },
+  {
+   "id": "e66d687bf",
+   "lang": "en",
+   "text": "or",
+   "cap": 58
+  },
+  {
+   "id": "k544eebd7",
+   "lang": "ko",
+   "text": "고르기",
+   "cap": 58
+  },
+  {
+   "id": "e6873f342",
+   "lang": "en",
+   "text": "What , How",
+   "cap": 58
+  },
+  {
+   "id": "k86332d30",
+   "lang": "ko",
+   "text": "정보",
+   "cap": 58
+  },
+  {
+   "id": "eae8504d0",
+   "lang": "en",
+   "text": "Is this , Was that",
+   "cap": 58
+  },
+  {
+   "id": "k305302fb",
+   "lang": "ko",
+   "text": "첫 낱말로 짧은 대답.",
+   "cap": 58
+  },
+  {
+   "id": "kd799b727",
+   "lang": "ko",
+   "text": "둘째, 틀에 내 정보 넣기 , 철자에는",
+   "cap": 59
+  },
+  {
+   "id": "kd56466af",
+   "lang": "ko",
+   "text": "번호는 하나씩. 들은 시각과 요일은 되짚어요",
+   "cap": 59
+  },
+  {
+   "id": "k31ec3cc3",
+   "lang": "ko",
+   "text": "셋째, 공손하게 끝내기 , 부탁은 질문으로",
+   "cap": 60
+  },
+  {
+   "id": "kdb1ae03c",
+   "lang": "ko",
+   "text": "끝인사에는",
+   "cap": 60
+  },
+  {
+   "id": "e832802df",
+   "lang": "en",
+   "text": "Thanks",
+   "cap": 60
+  },
+  {
+   "id": "k885fc626",
+   "lang": "ko",
+   "text": "를 붙여요.",
+   "cap": 60
+  },
+  {
+   "id": "ka7948b01",
+   "lang": "ko",
+   "text": "일곱 곳에 한 줄씩 적용했어요. 얼굴이 보이지 않는 전화에서는 되짚기가 가장 큰 힘이에요.",
+   "cap": 61
+  },
+  {
+   "id": "k4eb17417",
+   "lang": "ko",
+   "text": "실전이에요. 내 카드 , 토요일 점심, 두 명이에요. 첫 질문",
+   "cap": 62
+  },
+  {
+   "id": "kdb209fda",
+   "lang": "ko",
+   "text": "첫째, 고르는 질문 , 에이",
+   "cap": 63
+  },
+  {
+   "id": "kbec2ca4d",
+   "lang": "ko",
+   "text": "고른 것이 없어 탈락. 둘째, 비",
+   "cap": 63
+  },
+  {
+   "id": "eca0fe042",
+   "lang": "en",
+   "text": "dinner",
+   "cap": 63
+  },
+  {
+   "id": "k5db07d26",
+   "lang": "ko",
+   "text": "카드와 달라 탈락.",
+   "cap": 63
+  },
+  {
+   "id": "kfcaf01e3",
+   "lang": "ko",
+   "text": "정답 씨",
+   "cap": 64
+  },
+  {
+   "id": "e6dd86262",
+   "lang": "en",
+   "text": "Lunch, please.",
+   "cap": 64
+  },
+  {
+   "id": "k8903d196",
+   "lang": "ko",
+   "text": "12시가 다 차서 더 이른 시간을 물었어요",
+   "cap": 65
+  },
+  {
+   "id": "ed53515d5",
+   "lang": "en",
+   "text": "We have a table at eleven",
+   "cap": 65
+  },
+  {
+   "id": "k0b56b38b",
+   "lang": "ko",
+   "text": ":30. 빈 시각을 알려 주는 안내예요.",
+   "cap": 65
+  },
+  {
+   "id": "k47f15792",
+   "lang": "ko",
+   "text": "첫째, 에이",
+   "cap": 66
+  },
+  {
+   "id": "k244785e5",
+   "lang": "ko",
+   "text": "묻는 말이 아니라 탈락. 둘째, 비",
+   "cap": 66
+  },
+  {
+   "id": "e7d7c8735",
+   "lang": "en",
+   "text": "eleven-thirteen",
+   "cap": 66
+  },
+  {
+   "id": "k52b6a19f",
+   "lang": "ko",
+   "text": "들은 시각과 달라 탈락.",
+   "cap": 66
+  },
+  {
+   "id": "e3ad39c7d",
+   "lang": "en",
+   "text": "So, eleven-thirty?",
+   "cap": 67
+  },
+  {
+   "id": "ee24b843a",
+   "lang": "en",
+   "text": "eleven-thirty",
+   "cap": 67
+  },
+  {
+   "id": "ke4c972f9",
+   "lang": "ko",
+   "text": "코치가 없어요",
+   "cap": 68
+  },
+  {
+   "id": "k25158cdf",
+   "lang": "ko",
+   "text": "카드 , 중급 반, 내 번호는",
+   "cap": 68
+  },
+  {
+   "id": "e13bc708d",
+   "lang": "en",
+   "text": "five-five-five, oh-one-four-seven",
+   "cap": 68
+  },
+  {
+   "id": "k575d4ed3",
+   "lang": "ko",
+   "text": "둘째, 비",
+   "cap": 69
+  },
+  {
+   "id": "effe8ac48",
+   "lang": "en",
+   "text": "beginner",
+   "cap": 69
+  },
+  {
+   "id": "k19c207c6",
+   "lang": "ko",
+   "text": "카드(중급 반)와 달라 탈락. 셋째, 에이",
+   "cap": 69
+  },
+  {
+   "id": "ee0739e9b",
+   "lang": "en",
+   "text": "Tell him",
+   "cap": 69
+  },
+  {
+   "id": "k051441e6",
+   "lang": "ko",
+   "text": "명령처럼 들려 탈락.",
+   "cap": 69
+  },
+  {
+   "id": "e9c5f5121",
+   "lang": "en",
+   "text": "This is Minji Park.",
+   "cap": 70
+  },
+  {
+   "id": "ec20f317d",
+   "lang": "en",
+   "text": "I'm calling about the intermediate swimming class.",
+   "cap": 70
+  },
+  {
+   "id": "e9ed538fa",
+   "lang": "en",
+   "text": "Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "cap": 70
+  },
+  {
+   "id": "ke9c208ed",
+   "lang": "ko",
+   "text": "사무실이 번호를 되짚어요",
+   "cap": 71
+  },
+  {
+   "id": "eb4a55099",
+   "lang": "en",
+   "text": "five-five-five, oh-one-four-seven.",
+   "cap": 71
+  },
+  {
+   "id": "kd3a54778",
+   "lang": "ko",
+   "text": "첫째, 에이 다시 묻기 , 알아들었는데 다시 물어 탈락. 둘째, 비",
+   "cap": 72
+  },
+  {
+   "id": "e598482d1",
+   "lang": "en",
+   "text": "No",
+   "cap": 72
+  },
+  {
+   "id": "k1ca2a52a",
+   "lang": "ko",
+   "text": "맞게 되짚었는데 아니라고 해서 탈락.",
+   "cap": 72
+  },
+  {
+   "id": "k1496835a",
+   "lang": "ko",
+   "text": "정리해요. 전화 첫마디에 용건을",
+   "cap": 74
+  },
+  {
+   "id": "ka9323016",
+   "lang": "ko",
+   "text": "나를 밝힐 때는",
+   "cap": 74
+  },
+  {
+   "id": "k8327cebf",
+   "lang": "ko",
+   "text": "철자는",
+   "cap": 75
+  },
+  {
+   "id": "k23774784",
+   "lang": "ko",
+   "text": "번호는 하나씩",
+   "cap": 75
+  },
+  {
+   "id": "e77431a07",
+   "lang": "en",
+   "text": "H, A, N, N as in Nancy.",
+   "cap": 75
+  },
+  {
+   "id": "e1dd0f922",
+   "lang": "en",
+   "text": "five-five-five, oh-one-three-nine",
+   "cap": 75
+  },
+  {
+   "id": "e918d6244",
+   "lang": "en",
+   "text": "oh-one-three-nine",
+   "cap": 75
+  },
+  {
+   "id": "k99fcc134",
+   "lang": "ko",
+   "text": "으로 읽어요.",
+   "cap": 75
+  },
+  {
+   "id": "kc302d370",
+   "lang": "ko",
+   "text": "들은 시각, 요일, 값은 되짚어요",
+   "cap": 76
+  },
+  {
+   "id": "k71285491",
+   "lang": "ko",
+   "text": "잘못 되짚으면 바로잡아요",
+   "cap": 76
+  },
+  {
+   "id": "kf1b6f7ec",
+   "lang": "ko",
+   "text": "아래 전화 시뮬레이터에서 내 카드로 식당 예약부터 코치의 전화까지 해 보세요.",
+   "cap": 77
+  }
+ ]
+}

@@ -1,0 +1,2576 @@
+{
+ "slug": "phone",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "au": 19,
+  "ca": 15,
+  "gb": 34,
+  "me": 200,
+  "tc": 102,
+  "us": 57
+ },
+ "lines": [
+  {
+   "id": "us-f0e05a45",
+   "sp": "us",
+   "text": "Lantern Bistro, this is Ben. How can I help you?",
+   "from": "video"
+  },
+  {
+   "id": "me-6094b3e1",
+   "sp": "me",
+   "text": "Hi, I want to reserve Friday.",
+   "from": "video"
+  },
+  {
+   "id": "me-9184c38f",
+   "sp": "me",
+   "text": "Hi, I'd like to make a reservation for Friday, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-85d2043d",
+   "sp": "us",
+   "text": "Was that M as in Mary?",
+   "from": "video"
+  },
+  {
+   "id": "tc-4c9ae8d3",
+   "sp": "tc",
+   "text": "H, A, N",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4a131ff0",
+   "sp": "tc",
+   "text": "N as in Nancy",
+   "from": "video-say"
+  },
+  {
+   "id": "me-c6a42155",
+   "sp": "me",
+   "text": "Yes, that's right.",
+   "from": "video"
+  },
+  {
+   "id": "me-73a39d64",
+   "sp": "me",
+   "text": "No, N as in Nancy.",
+   "from": "video"
+  },
+  {
+   "id": "us-fff92dd0",
+   "sp": "us",
+   "text": "We have a table at eight-fifteen.",
+   "from": "video"
+  },
+  {
+   "id": "tc-55dde37f",
+   "sp": "tc",
+   "text": "eight-fifteen",
+   "from": "video-say"
+  },
+  {
+   "id": "me-bd17fdf4",
+   "sp": "me",
+   "text": "Okay. Thanks.",
+   "from": "video"
+  },
+  {
+   "id": "me-82dc45ef",
+   "sp": "me",
+   "text": "So, eight-fifteen?",
+   "from": "video"
+  },
+  {
+   "id": "tc-4308786c",
+   "sp": "tc",
+   "text": "Lunch or dinner?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-df5165b2",
+   "sp": "tc",
+   "text": "So, eight-fifteen?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-646c21d4",
+   "sp": "tc",
+   "text": "Could you ask him to call me back?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-89c7b652",
+   "sp": "tc",
+   "text": "Lantern Bistro, this is Ben. How can I help you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-61754330",
+   "sp": "tc",
+   "text": "I'm sorry, we're fully booked at seven.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a7e658e1",
+   "sp": "tc",
+   "text": "Great. And what name is the reservation under?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6af899d7",
+   "sp": "tc",
+   "text": "Kellport Sports Center, Grace speaking. How can I help you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6517a03c",
+   "sp": "tc",
+   "text": "Swim office, Olivia speaking. I'm afraid Coach Diaz isn't in right now. Would you like to leave a message?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e90541dd",
+   "sp": "tc",
+   "text": "And what's the best number to reach you?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-1e3adb6b",
+   "sp": "tc",
+   "text": "Hi, this is Matt Diaz from Kellport Sports Center. Is this Jiwoo?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-61a78d23",
+   "sp": "me",
+   "text": "Hi, I'm calling about Friday.",
+   "from": "video"
+  },
+  {
+   "id": "me-0b716b31",
+   "sp": "me",
+   "text": "Give me a table for Friday.",
+   "from": "video"
+  },
+  {
+   "id": "us-ca2b81f6",
+   "sp": "us",
+   "text": "Sure. Is that for lunch or dinner?",
+   "from": "video"
+  },
+  {
+   "id": "me-cda5c3d0",
+   "sp": "me",
+   "text": "Yes, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-23d8eb2d",
+   "sp": "me",
+   "text": "Lunch, please.",
+   "from": "video"
+  },
+  {
+   "id": "me-14d6c2cf",
+   "sp": "me",
+   "text": "Dinner, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-2793671f",
+   "sp": "us",
+   "text": "Lunch or dinner?",
+   "from": "video"
+  },
+  {
+   "id": "tc-f08e6e30",
+   "sp": "tc",
+   "text": "lunch",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6c9df950",
+   "sp": "tc",
+   "text": "dinner",
+   "from": "video-say"
+  },
+  {
+   "id": "us-65a25b8c",
+   "sp": "us",
+   "text": "And how many people will there be?",
+   "from": "video"
+  },
+  {
+   "id": "me-c6b85671",
+   "sp": "me",
+   "text": "We are four.",
+   "from": "video"
+  },
+  {
+   "id": "me-828d7324",
+   "sp": "me",
+   "text": "For four, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-d574b0be",
+   "sp": "us",
+   "text": "Lantern Bistro, Ben speakin'. How c'n I help?",
+   "from": "video"
+  },
+  {
+   "id": "tc-217e6215",
+   "sp": "tc",
+   "text": "Ben speakin'",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-96437fc1",
+   "sp": "tc",
+   "text": "How c'n I help?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-54c0d8a1",
+   "sp": "tc",
+   "text": "Sorry, is this Lantern Bistro?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-28296550",
+   "sp": "me",
+   "text": "Sorry, is this Lantern Bistro?",
+   "from": "video"
+  },
+  {
+   "id": "us-6a735725",
+   "sp": "us",
+   "text": "Yes, this is Lantern Bistro. How can I help you?",
+   "from": "video"
+  },
+  {
+   "id": "us-7782f600",
+   "sp": "us",
+   "text": "What time would you like?",
+   "from": "video"
+  },
+  {
+   "id": "me-ca00ba26",
+   "sp": "me",
+   "text": "Yes.",
+   "from": "video"
+  },
+  {
+   "id": "me-7b131137",
+   "sp": "me",
+   "text": "At seven, please.",
+   "from": "video"
+  },
+  {
+   "id": "us-07291255",
+   "sp": "us",
+   "text": "I'm sorry, we're fully booked at seven.",
+   "from": "video"
+  },
+  {
+   "id": "me-b1b9868c",
+   "sp": "me",
+   "text": "Oh, okay.",
+   "from": "video"
+  },
+  {
+   "id": "me-fa883d93",
+   "sp": "me",
+   "text": "Then what time is possible?",
+   "from": "video"
+  },
+  {
+   "id": "tc-6dd6e2f1",
+   "sp": "tc",
+   "text": "Do you have anything later?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-bb7429af",
+   "sp": "tc",
+   "text": "Do you have anything earlier?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2b1e006d",
+   "sp": "tc",
+   "text": "Is eight o'clock available?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-44aec21d",
+   "sp": "me",
+   "text": "Oh, I see. Do you have anything later?",
+   "from": "video"
+  },
+  {
+   "id": "us-bddc7b99",
+   "sp": "us",
+   "text": "Let me see…",
+   "from": "video"
+  },
+  {
+   "id": "me-8d31e75a",
+   "sp": "me",
+   "text": "So, eight-fifty?",
+   "from": "video"
+  },
+  {
+   "id": "us-800faeec",
+   "sp": "us",
+   "text": "That's right.",
+   "from": "video"
+  },
+  {
+   "id": "tc-4bb4a2c8",
+   "sp": "tc",
+   "text": "eight-fifty",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b82d2fcb",
+   "sp": "tc",
+   "text": "fourteen dollars",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a2e59fe3",
+   "sp": "tc",
+   "text": "forty dollars",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3e3f3546",
+   "sp": "tc",
+   "text": "fifteen dollars",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ac77fca5",
+   "sp": "tc",
+   "text": "fifty dollars",
+   "from": "video-say"
+  },
+  {
+   "id": "us-93e7d8ab",
+   "sp": "us",
+   "text": "Kay, got a table at eight-fifteen.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d122b213",
+   "sp": "tc",
+   "text": "'Kay, got a table …",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8e7940f7",
+   "sp": "tc",
+   "text": "Sorry, what time was that?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-7b57e4fe",
+   "sp": "me",
+   "text": "Sorry, what time was that?",
+   "from": "video"
+  },
+  {
+   "id": "us-5e1b4bf0",
+   "sp": "us",
+   "text": "At eight-fifteen. eight-fifteen.",
+   "from": "video"
+  },
+  {
+   "id": "us-ed4e1106",
+   "sp": "us",
+   "text": "Great. And what name is the reservation under?",
+   "from": "video"
+  },
+  {
+   "id": "me-879e9b39",
+   "sp": "me",
+   "text": "Name is Han.",
+   "from": "video"
+  },
+  {
+   "id": "me-0bcea11d",
+   "sp": "me",
+   "text": "It's Han.",
+   "from": "video"
+  },
+  {
+   "id": "us-1b1dc672",
+   "sp": "us",
+   "text": "Could you spell that for me?",
+   "from": "video"
+  },
+  {
+   "id": "me-67fb681c",
+   "sp": "me",
+   "text": "Sure. It's H, A, N.",
+   "from": "video"
+  },
+  {
+   "id": "me-0be32fc8",
+   "sp": "me",
+   "text": "Sure. It's H, A, N, N as in Nancy.",
+   "from": "video"
+  },
+  {
+   "id": "us-7afba43c",
+   "sp": "us",
+   "text": "Okay, let me write that down.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2548fbf3",
+   "sp": "tc",
+   "text": "M as in Mary",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-326220ea",
+   "sp": "tc",
+   "text": "B as in Bob",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6c9d13ed",
+   "sp": "tc",
+   "text": "P as in Peter",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2ee0537c",
+   "sp": "tc",
+   "text": "It's H, A, N,",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-29f14581",
+   "sp": "tc",
+   "text": "F as in Frank",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-76a8ac75",
+   "sp": "tc",
+   "text": "S as in Sam",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7a1b2a7a",
+   "sp": "tc",
+   "text": "N as in Nancy.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-57a0091a",
+   "sp": "tc",
+   "text": "Could you spell that?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-b32874a2",
+   "sp": "me",
+   "text": "No, it isn't. N as in Nancy.",
+   "from": "video"
+  },
+  {
+   "id": "tc-850ab08b",
+   "sp": "tc",
+   "text": "No, it isn't.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b27a84ea",
+   "sp": "tc",
+   "text": "No, it wasn't.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-aa8298e6",
+   "sp": "tc",
+   "text": "No, I don't.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-4d042e88",
+   "sp": "me",
+   "text": "No.",
+   "from": "video"
+  },
+  {
+   "id": "us-ec4e52f6",
+   "sp": "us",
+   "text": "Sorry about that. You're all set for Friday at eight-fifteen. See you then!",
+   "from": "video"
+  },
+  {
+   "id": "ca-c67c15d2",
+   "sp": "ca",
+   "text": "Kellport Sports Center, Grace speaking. How can I help you?",
+   "from": "video"
+  },
+  {
+   "id": "me-99298b70",
+   "sp": "me",
+   "text": "I want to inquiry swimming lessons.",
+   "from": "video"
+  },
+  {
+   "id": "me-8f100a68",
+   "sp": "me",
+   "text": "Hi, I have a question.",
+   "from": "video"
+  },
+  {
+   "id": "me-338b331e",
+   "sp": "me",
+   "text": "Tell me about your swimming lessons.",
+   "from": "video"
+  },
+  {
+   "id": "me-bbafef67",
+   "sp": "me",
+   "text": "Hi, I'm calling to ask about your swimming lessons.",
+   "from": "video"
+  },
+  {
+   "id": "ca-9df5aac7",
+   "sp": "ca",
+   "text": "Sure. Is that for the beginner class or the intermediate class?",
+   "from": "video"
+  },
+  {
+   "id": "tc-5869d456",
+   "sp": "tc",
+   "text": "beginner",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-be1aaba1",
+   "sp": "tc",
+   "text": "intermediate",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-238a75c4",
+   "sp": "tc",
+   "text": "Sorry, what does … mean?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-787ad930",
+   "sp": "me",
+   "text": "Sorry, what does intermediate mean?",
+   "from": "video"
+  },
+  {
+   "id": "ca-a3b155e5",
+   "sp": "ca",
+   "text": "Intermediate is the middle level, for people who can already swim a little.",
+   "from": "video"
+  },
+  {
+   "id": "me-f8f9dc2e",
+   "sp": "me",
+   "text": "The beginner class, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-543ffcc8",
+   "sp": "tc",
+   "text": "The beginner class is on Tuesdays and Thursdays from six to seven, and it's forty dollars a month.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fc35495f",
+   "sp": "tc",
+   "text": "The intermediate class is on Mondays and Wednesdays from seven to eight, and it's fifty dollars a month.",
+   "from": "video-say"
+  },
+  {
+   "id": "ca-0568c100",
+   "sp": "ca",
+   "text": "Beginner or intermediate?",
+   "from": "video"
+  },
+  {
+   "id": "ca-469edf57",
+   "sp": "ca",
+   "text": "The beginner class is on Tuesdays and Thursdays from six to seven, and it's forty dollars a month.",
+   "from": "video"
+  },
+  {
+   "id": "me-9340f770",
+   "sp": "me",
+   "text": "So, Tuesdays and Thursdays from six to seven, fourteen dollars a month?",
+   "from": "video"
+  },
+  {
+   "id": "me-0a340c15",
+   "sp": "me",
+   "text": "So, Mondays and Wednesdays from six to seven, forty dollars a month?",
+   "from": "video"
+  },
+  {
+   "id": "me-31caecfa",
+   "sp": "me",
+   "text": "So, Tuesdays and Thursdays from six to seven, forty dollars a month?",
+   "from": "video"
+  },
+  {
+   "id": "ca-f9c17005",
+   "sp": "ca",
+   "text": "That's right. Let me put you through to the swim office. Please hold.",
+   "from": "video"
+  },
+  {
+   "id": "ca-6e168a61",
+   "sp": "ca",
+   "text": "Beginners're Tuesdays 'n Thursdays, six to seven, forty a month.",
+   "from": "video"
+  },
+  {
+   "id": "tc-f1cce7df",
+   "sp": "tc",
+   "text": "Beginners're …",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ae08cf6d",
+   "sp": "tc",
+   "text": "forty a month",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b3970202",
+   "sp": "tc",
+   "text": "Sorry, when is the class, and how much is it?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-79aa4855",
+   "sp": "me",
+   "text": "Sorry, when is the class, and how much is it?",
+   "from": "video"
+  },
+  {
+   "id": "gb-c15bf618",
+   "sp": "gb",
+   "text": "Swim office, Olivia speaking. I'm afraid Coach Diaz isn't in right now. Would you like to leave a message?",
+   "from": "video"
+  },
+  {
+   "id": "me-4043fa83",
+   "sp": "me",
+   "text": "Yes. Please leave a message.",
+   "from": "video"
+  },
+  {
+   "id": "gb-d6d1730b",
+   "sp": "gb",
+   "text": "Of course. Go ahead.",
+   "from": "video"
+  },
+  {
+   "id": "me-376f5c4f",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-three-nine?",
+   "from": "video"
+  },
+  {
+   "id": "tc-3269734f",
+   "sp": "tc",
+   "text": "This is Jiwoo Han.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7de43f1a",
+   "sp": "tc",
+   "text": "I'm calling about the beginner swimming class",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4b6bfa79",
+   "sp": "tc",
+   "text": "Could you ask him to call me back ",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ce9be26e",
+   "sp": "tc",
+   "text": " at five-five-five, oh-one-three-nine?",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-0ff38f5c",
+   "sp": "gb",
+   "text": "Got it. I'll make sure he gets the message.",
+   "from": "video"
+  },
+  {
+   "id": "me-52b69e91",
+   "sp": "me",
+   "text": "Here is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-three-nine?",
+   "from": "video"
+  },
+  {
+   "id": "gb-b9f98602",
+   "sp": "gb",
+   "text": "Sorry — who's calling, please?",
+   "from": "video"
+  },
+  {
+   "id": "me-0c5a6a28",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Tell him to call me back at five-five-five, oh-one-three-nine.",
+   "from": "video"
+  },
+  {
+   "id": "gb-57f2cba6",
+   "sp": "gb",
+   "text": "… Right. I'll let him know.",
+   "from": "video"
+  },
+  {
+   "id": "me-025100e4",
+   "sp": "me",
+   "text": "I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-three-nine?",
+   "from": "video"
+  },
+  {
+   "id": "gb-d4dd92e2",
+   "sp": "gb",
+   "text": "Sure. And may I ask who's calling?",
+   "from": "video"
+  },
+  {
+   "id": "me-66f9b18f",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-three-nine?",
+   "from": "video"
+  },
+  {
+   "id": "gb-1abc0548",
+   "sp": "gb",
+   "text": "Okay… and what is it regarding?",
+   "from": "video"
+  },
+  {
+   "id": "me-f6c0bc4d",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. At five-five-five, oh-one-three-nine. Could you ask him to call me back?",
+   "from": "video"
+  },
+  {
+   "id": "gb-43fac1cc",
+   "sp": "gb",
+   "text": "Sorry, could you say that again?",
+   "from": "video"
+  },
+  {
+   "id": "gb-6744c446",
+   "sp": "gb",
+   "text": "He's out, I'm 'fraid. D'you wanna leave a message?",
+   "from": "video"
+  },
+  {
+   "id": "tc-7947910d",
+   "sp": "tc",
+   "text": "He's out, I'm 'fraid.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b389766a",
+   "sp": "tc",
+   "text": "D'you wanna …?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b53fcfcd",
+   "sp": "tc",
+   "text": "Sorry, did you ask if I'd like to leave a message?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-e167cdd8",
+   "sp": "me",
+   "text": "Sorry, did you ask if I'd like to leave a message?",
+   "from": "video"
+  },
+  {
+   "id": "gb-e496491f",
+   "sp": "gb",
+   "text": "Yes — would you like to leave a message?",
+   "from": "video"
+  },
+  {
+   "id": "gb-7d5a4141",
+   "sp": "gb",
+   "text": "And what's the best number to reach you?",
+   "from": "video"
+  },
+  {
+   "id": "me-358f6433",
+   "sp": "me",
+   "text": "My handphone number is five-five-five, oh-one-three-nine.",
+   "from": "video"
+  },
+  {
+   "id": "tc-e77311f4",
+   "sp": "tc",
+   "text": "cell phone",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-38c5fd6e",
+   "sp": "tc",
+   "text": "mobile",
+   "from": "video-say"
+  },
+  {
+   "id": "me-86be675c",
+   "sp": "me",
+   "text": "It's five-five-five, oh-one-three-nine.",
+   "from": "video"
+  },
+  {
+   "id": "gb-e75d8acf",
+   "sp": "gb",
+   "text": "Thank you.",
+   "from": "video"
+  },
+  {
+   "id": "tc-443d2288",
+   "sp": "tc",
+   "text": "five-five-five, oh-one-three-nine",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-4acd4847",
+   "sp": "gb",
+   "text": "What's th' best number t' reach ya?",
+   "from": "video"
+  },
+  {
+   "id": "tc-dc8b4aaa",
+   "sp": "tc",
+   "text": "th' best number t' reach ya",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ee0a4639",
+   "sp": "tc",
+   "text": "Sorry, did you ask for my phone number?",
+   "from": "video-say"
+  },
+  {
+   "id": "me-2ee371b6",
+   "sp": "me",
+   "text": "Sorry, did you ask for my phone number?",
+   "from": "video"
+  },
+  {
+   "id": "gb-1f08666f",
+   "sp": "gb",
+   "text": "Yes — what's the best number to reach you?",
+   "from": "video"
+  },
+  {
+   "id": "gb-9c6134ab",
+   "sp": "gb",
+   "text": "Let me read that back. five-five-five, oh-one-nine-three. Is that right?",
+   "from": "video"
+  },
+  {
+   "id": "me-d89ba33c",
+   "sp": "me",
+   "text": "No, it wasn't. It's five-five-five, oh-one-three-nine.",
+   "from": "video"
+  },
+  {
+   "id": "me-74e20f53",
+   "sp": "me",
+   "text": "No, it isn't. It's five-five-five, oh-one-three-nine.",
+   "from": "video"
+  },
+  {
+   "id": "gb-34613f89",
+   "sp": "gb",
+   "text": "Sorry about that. He'll call you back this afternoon.",
+   "from": "video"
+  },
+  {
+   "id": "au-0a9eade4",
+   "sp": "au",
+   "text": "Hi, this is Matt Diaz from Kellport Sports Center. Is this Jiwoo?",
+   "from": "video"
+  },
+  {
+   "id": "me-da058a17",
+   "sp": "me",
+   "text": "Who are you?",
+   "from": "video"
+  },
+  {
+   "id": "me-2cbc7e34",
+   "sp": "me",
+   "text": "Yes, speaking.",
+   "from": "video"
+  },
+  {
+   "id": "me-f6aaa97f",
+   "sp": "me",
+   "text": "Yes, it is.",
+   "from": "video"
+  },
+  {
+   "id": "au-6123a5bb",
+   "sp": "au",
+   "text": "Great! So for the— … you'll need— … on Tues—",
+   "from": "video"
+  },
+  {
+   "id": "tc-78163574",
+   "sp": "tc",
+   "text": "Sorry, you're breaking up.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-b5260689",
+   "sp": "me",
+   "text": "So, a swimsuit and goggles on Tuesday?",
+   "from": "video"
+  },
+  {
+   "id": "tc-d9801893",
+   "sp": "tc",
+   "text": "Could you say that again?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8a1cd0b4",
+   "sp": "tc",
+   "text": "The line is bad.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-73c5a1c2",
+   "sp": "me",
+   "text": "Sorry, you're breaking up. Could you say that again?",
+   "from": "video"
+  },
+  {
+   "id": "au-80f00e05",
+   "sp": "au",
+   "text": "You'll need to bring a swimsuit and goggles on Tuesday.",
+   "from": "video"
+  },
+  {
+   "id": "tc-1b71af13",
+   "sp": "tc",
+   "text": "Tuesday",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f413eac9",
+   "sp": "tc",
+   "text": "swimsuit",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ecf2ceb8",
+   "sp": "tc",
+   "text": "goggles",
+   "from": "video-say"
+  },
+  {
+   "id": "me-535072f4",
+   "sp": "me",
+   "text": "So, a swimsuit and goggles on Thursday?",
+   "from": "video"
+  },
+  {
+   "id": "au-028d7623",
+   "sp": "au",
+   "text": "That's right. See you on Tuesday!",
+   "from": "video"
+  },
+  {
+   "id": "au-00202e8e",
+   "sp": "au",
+   "text": "Is there anything else I can help you with?",
+   "from": "video"
+  },
+  {
+   "id": "me-0655ee45",
+   "sp": "me",
+   "text": "Okay. Bye.",
+   "from": "video"
+  },
+  {
+   "id": "tc-059aea17",
+   "sp": "tc",
+   "text": "No, that's all.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-16e94d1d",
+   "sp": "tc",
+   "text": "Thanks for calling back.",
+   "from": "video-say"
+  },
+  {
+   "id": "me-47b55d54",
+   "sp": "me",
+   "text": "No, that's all. Thanks for calling back. Bye!",
+   "from": "video"
+  },
+  {
+   "id": "tc-19005be1",
+   "sp": "tc",
+   "text": "Bye! · Have a good day!",
+   "from": "video-say"
+  },
+  {
+   "id": "au-e58c843d",
+   "sp": "au",
+   "text": "You're welcome. Bye!",
+   "from": "video"
+  },
+  {
+   "id": "tc-f1700025",
+   "sp": "tc",
+   "text": "We have a table at eight-fifteen.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6648e76a",
+   "sp": "tc",
+   "text": "Was that M as in Mary?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e66bd007",
+   "sp": "tc",
+   "text": "Of course. Go ahead.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f0a0fe97",
+   "sp": "tc",
+   "text": "Let me read that back. five-five-five, oh-one-nine-three. Is that right?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-16266c2a",
+   "sp": "tc",
+   "text": "Hi, I'd like to make a reservation for Friday, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-fa52f88d",
+   "sp": "tc",
+   "text": "No, N as in Nancy.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-cd7be5bc",
+   "sp": "tc",
+   "text": "Hi, I'm calling to ask about your swimming lessons.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-f5532628",
+   "sp": "tc",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-three-nine?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-6c0063cc",
+   "sp": "tc",
+   "text": "No, it isn't. It's five-five-five, oh-one-three-nine.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ae8c5559",
+   "sp": "tc",
+   "text": "Yes, speaking.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-c1284aa1",
+   "sp": "tc",
+   "text": "Yes, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-9a3557c4",
+   "sp": "tc",
+   "text": "Dinner, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-efd243a4",
+   "sp": "tc",
+   "text": "Lunch, please.",
+   "from": "video-say"
+  },
+  {
+   "id": "us-e8ffca15",
+   "sp": "us",
+   "text": "We have a table at eleven-thirty.",
+   "from": "video"
+  },
+  {
+   "id": "tc-a32711a3",
+   "sp": "tc",
+   "text": "Yes.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-28ea77be",
+   "sp": "tc",
+   "text": "So, eleven-thirteen?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-efd93edf",
+   "sp": "tc",
+   "text": "So, eleven-thirty?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-e164bea9",
+   "sp": "tc",
+   "text": "This is Minji Park. I'm calling about the intermediate swimming class. Tell him to call me back at five-five-five, oh-one-four-seven.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3f9a8615",
+   "sp": "tc",
+   "text": "This is Minji Park. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-3eb6e65a",
+   "sp": "tc",
+   "text": "This is Minji Park. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "from": "video-say"
+  },
+  {
+   "id": "gb-d62f4c1a",
+   "sp": "gb",
+   "text": "Let me read that back. five-five-five, oh-one-four-seven. Is that right?",
+   "from": "video"
+  },
+  {
+   "id": "tc-b02a382f",
+   "sp": "tc",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-90c73945",
+   "sp": "tc",
+   "text": "No, it isn't. It's five-five-five, oh-one-seven-four.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ba2bff30",
+   "sp": "tc",
+   "text": "Yes, that's right.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a22326fd",
+   "sp": "tc",
+   "text": "Do you have anything later? So, eight-fifteen?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-29db708b",
+   "sp": "tc",
+   "text": "It's H, A, N, N as in Nancy. No, N as in Nancy.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-8df1bf5e",
+   "sp": "tc",
+   "text": "Yes, speaking. No, that's all. Thanks for calling back. Bye!",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-5a8f63f8",
+   "sp": "tc",
+   "text": "eight-fifteen. oh-one-three-nine. forty dollars.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-89605176",
+   "sp": "tc",
+   "text": "Sorry, what time was that? · Sorry, you're breaking up.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-51c8e7f5",
+   "sp": "tc",
+   "text": "Sure. Is that for lunch or dinner?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-7d1b6d44",
+   "sp": "tc",
+   "text": "Oh, I see. Do you have anything later?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-b32ec3da",
+   "sp": "tc",
+   "text": "It's Han.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-2fcee057",
+   "sp": "tc",
+   "text": "So, Tuesdays and Thursdays from six to seven, forty dollars a month?",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-4c94ad5b",
+   "sp": "tc",
+   "text": "It's five-five-five, oh-one-three-nine.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-a9ff7d12",
+   "sp": "tc",
+   "text": "You'll need to bring a swimsuit and goggles on Tuesday.",
+   "from": "video-say"
+  },
+  {
+   "id": "tc-ab161f30",
+   "sp": "tc",
+   "text": "So, a swimsuit and goggles on Tuesday?",
+   "from": "video-say"
+  },
+  {
+   "id": "us-b7d521e6",
+   "sp": "us",
+   "text": "Sure, I can help you with that.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-6676d679",
+   "sp": "ca",
+   "text": "Sure!",
+   "from": "lab"
+  },
+  {
+   "id": "me-8710846f",
+   "sp": "me",
+   "text": "The intermediate class, please.",
+   "from": "lab"
+  },
+  {
+   "id": "au-a17a910e",
+   "sp": "au",
+   "text": "Hi! I got your message.",
+   "from": "lab"
+  },
+  {
+   "id": "me-d09a58b6",
+   "sp": "me",
+   "text": "For two, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-05875125",
+   "sp": "me",
+   "text": "We are two.",
+   "from": "lab"
+  },
+  {
+   "id": "me-822c8a88",
+   "sp": "me",
+   "text": "For three, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5fd51db7",
+   "sp": "me",
+   "text": "We are three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3f3d81b8",
+   "sp": "me",
+   "text": "For five, please.",
+   "from": "lab"
+  },
+  {
+   "id": "me-d8b0a281",
+   "sp": "me",
+   "text": "We are five.",
+   "from": "lab"
+  },
+  {
+   "id": "us-2817442e",
+   "sp": "us",
+   "text": "Reserve…? Oh — you'd like to book a table?",
+   "from": "lab"
+  },
+  {
+   "id": "us-b7afac9e",
+   "sp": "us",
+   "text": "Sure… and what can I do for you?",
+   "from": "lab"
+  },
+  {
+   "id": "us-b670c3a9",
+   "sp": "us",
+   "text": "... Okay.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a2e4b34b",
+   "sp": "me",
+   "text": "Hi, I'm calling about Saturday.",
+   "from": "lab"
+  },
+  {
+   "id": "me-c2c72241",
+   "sp": "me",
+   "text": "Give me a table for Saturday.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f168880a",
+   "sp": "me",
+   "text": "So, one-fifteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-13d63ded",
+   "sp": "us",
+   "text": "I'm sorry, we're fully booked at twelve.",
+   "from": "lab"
+  },
+  {
+   "id": "us-f700ebc1",
+   "sp": "us",
+   "text": "We have a table at one-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "us-68a1f031",
+   "sp": "us",
+   "text": "Okay… would you like to try another time?",
+   "from": "lab"
+  },
+  {
+   "id": "us-7e48fb9e",
+   "sp": "us",
+   "text": "Possible…? Oh — you mean what's available?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a8ed6c93",
+   "sp": "me",
+   "text": "So, one-fifty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-4c4ae222",
+   "sp": "us",
+   "text": "No — one-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "us-1a0eb2dd",
+   "sp": "us",
+   "text": "Great. Did you get the time?",
+   "from": "lab"
+  },
+  {
+   "id": "me-81dc090d",
+   "sp": "me",
+   "text": "So, one-thirty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-2a4bd386",
+   "sp": "us",
+   "text": "We have a table at one-thirty.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9cf9c138",
+   "sp": "me",
+   "text": "So, one-thirteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-7c85280b",
+   "sp": "us",
+   "text": "No — one-thirty.",
+   "from": "lab"
+  },
+  {
+   "id": "me-c9a337b7",
+   "sp": "me",
+   "text": "So, eleven-fifteen?",
+   "from": "lab"
+  },
+  {
+   "id": "me-ab14c22b",
+   "sp": "me",
+   "text": "Oh, I see. Do you have anything earlier?",
+   "from": "lab"
+  },
+  {
+   "id": "us-bc43f108",
+   "sp": "us",
+   "text": "We have a table at eleven-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5143c462",
+   "sp": "me",
+   "text": "So, eleven-fifty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-c041f9ad",
+   "sp": "us",
+   "text": "No — eleven-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1b4202c6",
+   "sp": "me",
+   "text": "So, eleven-thirty?",
+   "from": "lab"
+  },
+  {
+   "id": "me-140949d3",
+   "sp": "me",
+   "text": "So, eleven-thirteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-035c6eaa",
+   "sp": "us",
+   "text": "No — eleven-thirty.",
+   "from": "lab"
+  },
+  {
+   "id": "us-b6ccd82f",
+   "sp": "us",
+   "text": "No — eight-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-8cf0701e",
+   "sp": "me",
+   "text": "So, eight-thirty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-9f72601d",
+   "sp": "us",
+   "text": "We have a table at eight-thirty.",
+   "from": "lab"
+  },
+  {
+   "id": "me-be09c48b",
+   "sp": "me",
+   "text": "So, eight-thirteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-13d944e0",
+   "sp": "us",
+   "text": "No — eight-thirty.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6c3f7e78",
+   "sp": "me",
+   "text": "So, five-fifteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-64cd64c7",
+   "sp": "us",
+   "text": "We have a table at five-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f746ea4d",
+   "sp": "me",
+   "text": "So, five-fifty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-dfe8bf36",
+   "sp": "us",
+   "text": "No — five-fifteen.",
+   "from": "lab"
+  },
+  {
+   "id": "me-ec6a4187",
+   "sp": "me",
+   "text": "So, five-thirty?",
+   "from": "lab"
+  },
+  {
+   "id": "us-3dcc1218",
+   "sp": "us",
+   "text": "We have a table at five-thirty.",
+   "from": "lab"
+  },
+  {
+   "id": "me-99e01846",
+   "sp": "me",
+   "text": "So, five-thirteen?",
+   "from": "lab"
+  },
+  {
+   "id": "us-c356f0a7",
+   "sp": "us",
+   "text": "No — five-thirty.",
+   "from": "lab"
+  },
+  {
+   "id": "us-c62ee45a",
+   "sp": "us",
+   "text": "Oh — so how do you spell it?",
+   "from": "lab"
+  },
+  {
+   "id": "us-45961fae",
+   "sp": "us",
+   "text": "Was that N as in Nancy?",
+   "from": "lab"
+  },
+  {
+   "id": "us-48436c51",
+   "sp": "us",
+   "text": "Sorry — so it wasn't that letter?",
+   "from": "lab"
+  },
+  {
+   "id": "us-78775c8c",
+   "sp": "us",
+   "text": "Perfect. You're all set for Friday at eight-fifteen. See you then!",
+   "from": "lab"
+  },
+  {
+   "id": "us-44cc871a",
+   "sp": "us",
+   "text": "Oh — so what's the right letter?",
+   "from": "lab"
+  },
+  {
+   "id": "us-0d2c934b",
+   "sp": "us",
+   "text": "Great, so that's H, A, M.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9df01b2a",
+   "sp": "me",
+   "text": "Sure. It's H, A, M, M as in Mary.",
+   "from": "lab"
+  },
+  {
+   "id": "us-63f75e54",
+   "sp": "us",
+   "text": "Sorry — could you say your name again?",
+   "from": "lab"
+  },
+  {
+   "id": "us-faf56b0e",
+   "sp": "us",
+   "text": "Right… and how do you spell that?",
+   "from": "lab"
+  },
+  {
+   "id": "us-a92c4643",
+   "sp": "us",
+   "text": "Great — go ahead.",
+   "from": "lab"
+  },
+  {
+   "id": "me-5ed7e76f",
+   "sp": "me",
+   "text": "No, P as in Peter.",
+   "from": "lab"
+  },
+  {
+   "id": "me-c71ac6d4",
+   "sp": "me",
+   "text": "It's Park.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3e610812",
+   "sp": "me",
+   "text": "Sure. It's P, A, R, K, P as in Peter.",
+   "from": "lab"
+  },
+  {
+   "id": "us-283c5f81",
+   "sp": "us",
+   "text": "Was that P as in Peter?",
+   "from": "lab"
+  },
+  {
+   "id": "me-7fe71641",
+   "sp": "me",
+   "text": "No, it isn't. P as in Peter.",
+   "from": "lab"
+  },
+  {
+   "id": "us-51bcbf7c",
+   "sp": "us",
+   "text": "Was that B as in Bob?",
+   "from": "lab"
+  },
+  {
+   "id": "us-3cf97745",
+   "sp": "us",
+   "text": "Great, so that's B, A, R, K.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1297b875",
+   "sp": "me",
+   "text": "Sure. It's B, A, R, K, B as in Bob.",
+   "from": "lab"
+  },
+  {
+   "id": "me-192448a9",
+   "sp": "me",
+   "text": "No, M as in Mary.",
+   "from": "lab"
+  },
+  {
+   "id": "me-dee0c065",
+   "sp": "me",
+   "text": "It's Kim.",
+   "from": "lab"
+  },
+  {
+   "id": "me-79f6228d",
+   "sp": "me",
+   "text": "Sure. It's K, I, M, M as in Mary.",
+   "from": "lab"
+  },
+  {
+   "id": "me-64cc7e2f",
+   "sp": "me",
+   "text": "No, it isn't. M as in Mary.",
+   "from": "lab"
+  },
+  {
+   "id": "us-64e5756b",
+   "sp": "us",
+   "text": "Great, so that's K, I, N.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1dbc72c1",
+   "sp": "me",
+   "text": "Sure. It's K, I, N, N as in Nancy.",
+   "from": "lab"
+  },
+  {
+   "id": "me-c7c3189b",
+   "sp": "me",
+   "text": "No, S as in Sam.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b261ffc3",
+   "sp": "me",
+   "text": "It's Seo.",
+   "from": "lab"
+  },
+  {
+   "id": "me-d375ca29",
+   "sp": "me",
+   "text": "Sure. It's S, E, O, S as in Sam.",
+   "from": "lab"
+  },
+  {
+   "id": "us-f6dd5c01",
+   "sp": "us",
+   "text": "Was that S as in Sam?",
+   "from": "lab"
+  },
+  {
+   "id": "me-c9609fb9",
+   "sp": "me",
+   "text": "No, it isn't. S as in Sam.",
+   "from": "lab"
+  },
+  {
+   "id": "us-b8e11ee5",
+   "sp": "us",
+   "text": "Was that F as in Frank?",
+   "from": "lab"
+  },
+  {
+   "id": "us-3de2349f",
+   "sp": "us",
+   "text": "Great, so that's F, E, O.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f7036256",
+   "sp": "me",
+   "text": "Sure. It's F, E, O, F as in Frank.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-b749ae9d",
+   "sp": "ca",
+   "text": "Of course. What would you like to know?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-22088619",
+   "sp": "ca",
+   "text": "... Okay.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-16413dfc",
+   "sp": "ca",
+   "text": "Oh — you'd like to ask about our lessons?",
+   "from": "lab"
+  },
+  {
+   "id": "me-98234b8f",
+   "sp": "me",
+   "text": "Hi, I'm calling to ask about your yoga classes.",
+   "from": "lab"
+  },
+  {
+   "id": "me-895dc24a",
+   "sp": "me",
+   "text": "Tell me about your yoga classes.",
+   "from": "lab"
+  },
+  {
+   "id": "me-773f2860",
+   "sp": "me",
+   "text": "I want to inquiry yoga classes.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-1082444e",
+   "sp": "ca",
+   "text": "No — Tuesdays and Thursdays from six to seven, forty dollars a month.",
+   "from": "lab"
+  },
+  {
+   "id": "ca-9de1b1f7",
+   "sp": "ca",
+   "text": "Sure. Did you get all that?",
+   "from": "lab"
+  },
+  {
+   "id": "me-fb012486",
+   "sp": "me",
+   "text": "So, Mondays and Wednesdays from seven to eight, fifty dollars a month?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-dad0cce4",
+   "sp": "ca",
+   "text": "The intermediate class is on Mondays and Wednesdays from seven to eight, and it's fifty dollars a month.",
+   "from": "lab"
+  },
+  {
+   "id": "me-53901a2b",
+   "sp": "me",
+   "text": "So, Mondays and Wednesdays from seven to eight, fifteen dollars a month?",
+   "from": "lab"
+  },
+  {
+   "id": "ca-5c35f092",
+   "sp": "ca",
+   "text": "No — Mondays and Wednesdays from seven to eight, fifty dollars a month.",
+   "from": "lab"
+  },
+  {
+   "id": "me-37bd0d7d",
+   "sp": "me",
+   "text": "So, Tuesdays and Thursdays from seven to eight, fifty dollars a month?",
+   "from": "lab"
+  },
+  {
+   "id": "me-1f174ecd",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-three-nine? I'm calling about the beginner swimming class.",
+   "from": "lab"
+  },
+  {
+   "id": "me-c4c82167",
+   "sp": "me",
+   "text": "I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-three-nine? This is Jiwoo Han.",
+   "from": "lab"
+  },
+  {
+   "id": "me-f39e65d3",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. At five-five-five, oh-one-three-nine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-9f7b8132",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-ef2edfda",
+   "sp": "gb",
+   "text": "Got it. I'll pass that on.",
+   "from": "lab"
+  },
+  {
+   "id": "me-27f3471c",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-three-nine?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-7b54c55a",
+   "sp": "gb",
+   "text": "Hmm, is that right?",
+   "from": "lab"
+  },
+  {
+   "id": "me-d4c24275",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-nine-three?",
+   "from": "lab"
+  },
+  {
+   "id": "me-213404de",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "from": "lab"
+  },
+  {
+   "id": "me-ef5fa32e",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-four-seven? I'm calling about the beginner swimming class.",
+   "from": "lab"
+  },
+  {
+   "id": "me-597bf61e",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. At five-five-five, oh-one-four-seven. Could you ask him to call me back?",
+   "from": "lab"
+  },
+  {
+   "id": "me-3b9bfaa8",
+   "sp": "me",
+   "text": "I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven? This is Jiwoo Han.",
+   "from": "lab"
+  },
+  {
+   "id": "me-76dfc855",
+   "sp": "me",
+   "text": "I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "from": "lab"
+  },
+  {
+   "id": "me-9714411e",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b9de1dc6",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. At five-five-five, oh-one-four-seven.",
+   "from": "lab"
+  },
+  {
+   "id": "me-c5c8a42c",
+   "sp": "me",
+   "text": "Here is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "from": "lab"
+  },
+  {
+   "id": "me-3429c08d",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "from": "lab"
+  },
+  {
+   "id": "me-84c4a8f5",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Tell him to call me back at five-five-five, oh-one-four-seven.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a4e918a2",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-seven-four?",
+   "from": "lab"
+  },
+  {
+   "id": "me-79b94ff5",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-six-two?",
+   "from": "lab"
+  },
+  {
+   "id": "me-6a952efb",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-six-two? I'm calling about the beginner swimming class.",
+   "from": "lab"
+  },
+  {
+   "id": "me-649f9315",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. At five-five-five, oh-one-six-two. Could you ask him to call me back?",
+   "from": "lab"
+  },
+  {
+   "id": "me-c0b165ef",
+   "sp": "me",
+   "text": "I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-six-two? This is Jiwoo Han.",
+   "from": "lab"
+  },
+  {
+   "id": "me-1486297c",
+   "sp": "me",
+   "text": "I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-six-two?",
+   "from": "lab"
+  },
+  {
+   "id": "me-78dc3b35",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-six-two?",
+   "from": "lab"
+  },
+  {
+   "id": "me-bb2c52eb",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. At five-five-five, oh-one-six-two.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b474eff3",
+   "sp": "me",
+   "text": "Here is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-six-two?",
+   "from": "lab"
+  },
+  {
+   "id": "me-dd181f74",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-six-two?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a41ccb8e",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Tell him to call me back at five-five-five, oh-one-six-two.",
+   "from": "lab"
+  },
+  {
+   "id": "me-62493e51",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-two-six?",
+   "from": "lab"
+  },
+  {
+   "id": "me-001c5a20",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-eight-five?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a48c87f0",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-eight-five? I'm calling about the beginner swimming class.",
+   "from": "lab"
+  },
+  {
+   "id": "me-81a9d65c",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. At five-five-five, oh-one-eight-five. Could you ask him to call me back?",
+   "from": "lab"
+  },
+  {
+   "id": "me-87f43da2",
+   "sp": "me",
+   "text": "I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-eight-five? This is Jiwoo Han.",
+   "from": "lab"
+  },
+  {
+   "id": "me-19ba8dfb",
+   "sp": "me",
+   "text": "I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-eight-five?",
+   "from": "lab"
+  },
+  {
+   "id": "me-857a5560",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-eight-five?",
+   "from": "lab"
+  },
+  {
+   "id": "me-4a4e41b4",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. At five-five-five, oh-one-eight-five.",
+   "from": "lab"
+  },
+  {
+   "id": "me-84f350e2",
+   "sp": "me",
+   "text": "Here is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-eight-five?",
+   "from": "lab"
+  },
+  {
+   "id": "me-2234e323",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-eight-five?",
+   "from": "lab"
+  },
+  {
+   "id": "me-fc4abf8f",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Tell him to call me back at five-five-five, oh-one-eight-five.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e83311a4",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at five-five-five, oh-one-five-eight?",
+   "from": "lab"
+  },
+  {
+   "id": "me-a58328b2",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-three-nine? I'm calling about the intermediate swimming class.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a344731c",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. At five-five-five, oh-one-three-nine. Could you ask him to call me back?",
+   "from": "lab"
+  },
+  {
+   "id": "me-85c685ca",
+   "sp": "me",
+   "text": "I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-three-nine? This is Jiwoo Han.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4dd13033",
+   "sp": "me",
+   "text": "I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-three-nine?",
+   "from": "lab"
+  },
+  {
+   "id": "me-f23287f4",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. At five-five-five, oh-one-three-nine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-10a9625b",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back?",
+   "from": "lab"
+  },
+  {
+   "id": "me-cf5a6eaa",
+   "sp": "me",
+   "text": "Here is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-three-nine?",
+   "from": "lab"
+  },
+  {
+   "id": "me-cb20d251",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Tell him to call me back at five-five-five, oh-one-three-nine.",
+   "from": "lab"
+  },
+  {
+   "id": "me-434dea9a",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-nine-three?",
+   "from": "lab"
+  },
+  {
+   "id": "me-2bfd7805",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-four-seven? I'm calling about the intermediate swimming class.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a33cebd3",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. At five-five-five, oh-one-four-seven. Could you ask him to call me back?",
+   "from": "lab"
+  },
+  {
+   "id": "me-2d6e7559",
+   "sp": "me",
+   "text": "I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven? This is Jiwoo Han.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b1553d9a",
+   "sp": "me",
+   "text": "I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "from": "lab"
+  },
+  {
+   "id": "me-5440b069",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. At five-five-five, oh-one-four-seven.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4ca96867",
+   "sp": "me",
+   "text": "Here is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-four-seven?",
+   "from": "lab"
+  },
+  {
+   "id": "me-bde09ff0",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Tell him to call me back at five-five-five, oh-one-four-seven.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4ee01595",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-seven-four?",
+   "from": "lab"
+  },
+  {
+   "id": "me-b2dcfaac",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-six-two? I'm calling about the intermediate swimming class.",
+   "from": "lab"
+  },
+  {
+   "id": "me-7321695a",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. At five-five-five, oh-one-six-two. Could you ask him to call me back?",
+   "from": "lab"
+  },
+  {
+   "id": "me-26809c14",
+   "sp": "me",
+   "text": "I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-six-two? This is Jiwoo Han.",
+   "from": "lab"
+  },
+  {
+   "id": "me-be710d59",
+   "sp": "me",
+   "text": "I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-six-two?",
+   "from": "lab"
+  },
+  {
+   "id": "me-505373da",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. At five-five-five, oh-one-six-two.",
+   "from": "lab"
+  },
+  {
+   "id": "me-b69c1c0e",
+   "sp": "me",
+   "text": "Here is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-six-two?",
+   "from": "lab"
+  },
+  {
+   "id": "me-6a6dc895",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Tell him to call me back at five-five-five, oh-one-six-two.",
+   "from": "lab"
+  },
+  {
+   "id": "me-33841338",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-two-six?",
+   "from": "lab"
+  },
+  {
+   "id": "me-d2cdd2cb",
+   "sp": "me",
+   "text": "This is Jiwoo Han. Could you ask him to call me back at five-five-five, oh-one-eight-five? I'm calling about the intermediate swimming class.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a0a8a3e5",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. At five-five-five, oh-one-eight-five. Could you ask him to call me back?",
+   "from": "lab"
+  },
+  {
+   "id": "me-68be7b67",
+   "sp": "me",
+   "text": "I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-eight-five? This is Jiwoo Han.",
+   "from": "lab"
+  },
+  {
+   "id": "me-97724ee4",
+   "sp": "me",
+   "text": "I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-eight-five?",
+   "from": "lab"
+  },
+  {
+   "id": "me-d6b533db",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. At five-five-five, oh-one-eight-five.",
+   "from": "lab"
+  },
+  {
+   "id": "me-6714ff39",
+   "sp": "me",
+   "text": "Here is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-eight-five?",
+   "from": "lab"
+  },
+  {
+   "id": "me-ef5712ea",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Tell him to call me back at five-five-five, oh-one-eight-five.",
+   "from": "lab"
+  },
+  {
+   "id": "me-30631853",
+   "sp": "me",
+   "text": "This is Jiwoo Han. I'm calling about the intermediate swimming class. Could you ask him to call me back at five-five-five, oh-one-five-eight?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-fbb1a087",
+   "sp": "gb",
+   "text": "Oh — what's the right number, then?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-9db64c59",
+   "sp": "gb",
+   "text": "Let me read that back. five-five-five, oh-one-three-nine. Is that right?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-1cf438a0",
+   "sp": "gb",
+   "text": "Sorry — so that's not right?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-8ed0e0e9",
+   "sp": "gb",
+   "text": "Great. He'll call you back this afternoon.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-0f9e3326",
+   "sp": "gb",
+   "text": "Oh — what's the right number?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-6564e256",
+   "sp": "gb",
+   "text": "Great, so that's five-five-five, oh-one-nine-three.",
+   "from": "lab"
+  },
+  {
+   "id": "me-3b21c746",
+   "sp": "me",
+   "text": "No, it isn't. It's five-five-five, oh-one-four-seven.",
+   "from": "lab"
+  },
+  {
+   "id": "me-a4bd3291",
+   "sp": "me",
+   "text": "No, it wasn't. It's five-five-five, oh-one-four-seven.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-f38d7b02",
+   "sp": "gb",
+   "text": "Let me read that back. five-five-five, oh-one-seven-four. Is that right?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-d0082411",
+   "sp": "gb",
+   "text": "Great, so that's five-five-five, oh-one-seven-four.",
+   "from": "lab"
+  },
+  {
+   "id": "me-dfa3df6b",
+   "sp": "me",
+   "text": "No, it isn't. It's five-five-five, oh-one-six-two.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-765e03d1",
+   "sp": "gb",
+   "text": "Let me read that back. five-five-five, oh-one-six-two. Is that right?",
+   "from": "lab"
+  },
+  {
+   "id": "me-82658182",
+   "sp": "me",
+   "text": "No, it wasn't. It's five-five-five, oh-one-six-two.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-0bbf09a5",
+   "sp": "gb",
+   "text": "Let me read that back. five-five-five, oh-one-two-six. Is that right?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-01e380f2",
+   "sp": "gb",
+   "text": "Great, so that's five-five-five, oh-one-two-six.",
+   "from": "lab"
+  },
+  {
+   "id": "me-cb91eb34",
+   "sp": "me",
+   "text": "No, it isn't. It's five-five-five, oh-one-eight-five.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-f8826044",
+   "sp": "gb",
+   "text": "Let me read that back. five-five-five, oh-one-eight-five. Is that right?",
+   "from": "lab"
+  },
+  {
+   "id": "me-aa3e7e53",
+   "sp": "me",
+   "text": "No, it wasn't. It's five-five-five, oh-one-eight-five.",
+   "from": "lab"
+  },
+  {
+   "id": "gb-5bbf56a4",
+   "sp": "gb",
+   "text": "Let me read that back. five-five-five, oh-one-five-eight. Is that right?",
+   "from": "lab"
+  },
+  {
+   "id": "gb-23dabd7b",
+   "sp": "gb",
+   "text": "Great, so that's five-five-five, oh-one-five-eight.",
+   "from": "lab"
+  },
+  {
+   "id": "me-09b4acc3",
+   "sp": "me",
+   "text": "No, it wasn't. N as in Nancy.",
+   "from": "lab"
+  },
+  {
+   "id": "au-56909d9b",
+   "sp": "au",
+   "text": "No — a swimsuit and goggles on Tuesday.",
+   "from": "lab"
+  },
+  {
+   "id": "au-02bfb107",
+   "sp": "au",
+   "text": "No problem. Did you get the day?",
+   "from": "lab"
+  },
+  {
+   "id": "me-be9ae0c0",
+   "sp": "me",
+   "text": "So, a swimsuit and a swim cap on Tuesday?",
+   "from": "lab"
+  },
+  {
+   "id": "au-f9e73276",
+   "sp": "au",
+   "text": "You'll need to bring a swimsuit and a swim cap on Tuesday.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4c9db87f",
+   "sp": "me",
+   "text": "So, a swimsuit and a swim cap on Thursday?",
+   "from": "lab"
+  },
+  {
+   "id": "au-e70ad080",
+   "sp": "au",
+   "text": "No — a swimsuit and a swim cap on Tuesday.",
+   "from": "lab"
+  },
+  {
+   "id": "me-eefd4546",
+   "sp": "me",
+   "text": "So, a swimsuit and goggles on Monday?",
+   "from": "lab"
+  },
+  {
+   "id": "au-7ae5d0c8",
+   "sp": "au",
+   "text": "That's right. See you on Monday!",
+   "from": "lab"
+  },
+  {
+   "id": "au-70c6a1ec",
+   "sp": "au",
+   "text": "You'll need to bring a swimsuit and goggles on Monday.",
+   "from": "lab"
+  },
+  {
+   "id": "me-e0b3be04",
+   "sp": "me",
+   "text": "So, a swimsuit and goggles on Wednesday?",
+   "from": "lab"
+  },
+  {
+   "id": "au-bfb1d8da",
+   "sp": "au",
+   "text": "No — a swimsuit and goggles on Monday.",
+   "from": "lab"
+  },
+  {
+   "id": "me-07d08ba5",
+   "sp": "me",
+   "text": "So, a swimsuit and a swim cap on Monday?",
+   "from": "lab"
+  },
+  {
+   "id": "au-9ec47af9",
+   "sp": "au",
+   "text": "You'll need to bring a swimsuit and a swim cap on Monday.",
+   "from": "lab"
+  },
+  {
+   "id": "me-4c075501",
+   "sp": "me",
+   "text": "So, a swimsuit and a swim cap on Wednesday?",
+   "from": "lab"
+  },
+  {
+   "id": "au-e82dbca3",
+   "sp": "au",
+   "text": "No — a swimsuit and a swim cap on Monday.",
+   "from": "lab"
+  },
+  {
+   "id": "au-a08afeab",
+   "sp": "au",
+   "text": "Hi, this is Matt Diaz from Kellport Sports Center. Is this Minji?",
+   "from": "lab"
+  },
+  {
+   "id": "au-3184246c",
+   "sp": "au",
+   "text": "Hi, this is Matt Diaz from Kellport Sports Center. Is this Hana?",
+   "from": "lab"
+  },
+  {
+   "id": "au-a5d4c0eb",
+   "sp": "au",
+   "text": "Hi, this is Matt Diaz from Kellport Sports Center. Is this Yuna?",
+   "from": "lab"
+  },
+  {
+   "id": "me-c860fb47",
+   "sp": "me",
+   "text": "Hi, I'd like to make a reservation for Saturday, please.",
+   "from": "drill"
+  },
+  {
+   "id": "me-dd3a7df2",
+   "sp": "me",
+   "text": "Sorry? Could you say that again, please?",
+   "from": "drill"
+  },
+  {
+   "id": "me-8b379b10",
+   "sp": "me",
+   "text": "Sorry, what do I need to bring?",
+   "from": "drill"
+  },
+  {
+   "id": "me-95353a62",
+   "sp": "me",
+   "text": "No, thanks. I'll call back later.",
+   "from": "drill"
+  },
+  {
+   "id": "me-f1a4fb4b",
+   "sp": "me",
+   "text": "My handphone number is five-five-five, oh-one-six-two.",
+   "from": "drill"
+  },
+  {
+   "id": "me-324771de",
+   "sp": "me",
+   "text": "It's five-five-five, oh-one-two-six.",
+   "from": "drill"
+  },
+  {
+   "id": "me-4d5658a2",
+   "sp": "me",
+   "text": "It's five-five-five, oh-one-six-two.",
+   "from": "drill"
+  },
+  {
+   "id": "me-03a8bb11",
+   "sp": "me",
+   "text": "Hi, I want to reserve Saturday.",
+   "from": "drill"
+  },
+  {
+   "id": "me-af2c25b7",
+   "sp": "me",
+   "text": "It's five-five-five, oh-one-five-eight.",
+   "from": "drill"
+  },
+  {
+   "id": "me-c3eb7594",
+   "sp": "me",
+   "text": "My handphone number is five-five-five, oh-one-eight-five.",
+   "from": "drill"
+  },
+  {
+   "id": "me-545fabf3",
+   "sp": "me",
+   "text": "It's five-five-five, oh-one-eight-five.",
+   "from": "drill"
+  },
+  {
+   "id": "gb-3cb130fa",
+   "sp": "gb",
+   "text": "I'm afraid Coach Diaz isn't in right now. Would you like to leave a message?",
+   "from": "shadow"
+  }
+ ]
+}
