@@ -29,7 +29,6 @@ import re
 import sys
 import time
 import urllib.error
-import wave
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import voicestudio_common as vs  # noqa: E402
@@ -108,12 +107,7 @@ def main():
         elif p['id'] in old and old[p['id']][0] == fn:
             final[p['id']] = old[p['id']]
         else:
-            path = os.path.join(d, fn)
-            dur = 0
-            if fn.endswith('.wav'):
-                with wave.open(path) as w:
-                    dur = w.getnframes() / w.getframerate()
-            final[p['id']] = [fn, round(dur, 2) or 3]
+            final[p['id']] = [fn, round(vs.duration(os.path.join(d, fn)), 2) or 3]   # 직접 넣은 파일: 길이를 재요(못 재면 3초)
     stale = sorted(set(have) - {p['id'] for p in pieces})
     out = {'voice': f"{prof.get('name')} · VoiceStudio 합성 음성"}
     has_en = any(p['lang'] == 'en' and p['id'] in final for p in pieces)

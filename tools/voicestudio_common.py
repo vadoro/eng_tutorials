@@ -198,6 +198,27 @@ def save(wav, path, enc):
         os.unlink(tf.name)
 
 
+def duration(path):
+    """음성 파일 길이(초). WAV는 직접 읽고, m4a · mp3는 macOS afinfo나 ffprobe로 재요. 못 재면 0."""
+    if path.endswith('.wav'):
+        with wave.open(path) as w:
+            return w.getnframes() / w.getframerate()
+    tools = [('afinfo', [path], r'estimated duration:\s*([\d.]+)'),
+             ('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', path], r'\s*([\d.]+)')]
+    for name, args, pat in tools:
+        exe = shutil.which(name)
+        if not exe:
+            continue
+        try:
+            out = subprocess.run([exe] + args, capture_output=True, text=True, timeout=30).stdout
+        except (OSError, subprocess.SubprocessError):
+            continue
+        m = re.search(pat, out)
+        if m:
+            return float(m.group(1))
+    return 0
+
+
 def read_clips_js(path, var):
     """clips.js의 window.<var> = {...}; 를 읽어요(없으면 {})"""
     if not os.path.exists(path):

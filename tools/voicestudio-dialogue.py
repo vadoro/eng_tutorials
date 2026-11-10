@@ -102,7 +102,7 @@ def main():
         fn = have.get(l['id'])
         if not fn:
             continue
-        final[l['id']] = clips.get(l['id']) or (old[l['id']] if l['id'] in old and old[l['id']][0] == fn else [fn, 3])
+        final[l['id']] = clips.get(l['id']) or (old[l['id']] if l['id'] in old and old[l['id']][0] == fn else [fn, round(vs.duration(os.path.join(d, fn)), 2) or 3])
     stale = sorted(set(have) - {l['id'] for l in lines})
     out = {'voices': {sp: v.get('label') or prof[sp].get('name') for sp, v in voices.items() if sp in prof}, 'base': 'audio/dialogue/', 'clips': final}
     with open(cj, 'w', encoding='utf-8') as f:
