@@ -1,0 +1,2173 @@
+{
+ "slug": "word-stress",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "ko": 40,
+  "tc": 99,
+  "tf": 74,
+  "uf": 73,
+  "um": 74
+ },
+ "lines": [
+  {
+   "id": "ko-41b819bf",
+   "sp": "ko",
+   "text": "바나나",
+   "from": "video"
+  },
+  {
+   "id": "tc-f81ea3d5",
+   "sp": "tc",
+   "text": "banana",
+   "from": "video"
+  },
+  {
+   "id": "tc-e1679e76",
+   "sp": "tc",
+   "text": "hotel",
+   "from": "video"
+  },
+  {
+   "id": "tc-2e750a0a",
+   "sp": "tc",
+   "text": "vitamin",
+   "from": "video"
+  },
+  {
+   "id": "tc-d7d4f5f5",
+   "sp": "tc",
+   "text": "desert",
+   "from": "video"
+  },
+  {
+   "id": "tc-5fba93c6",
+   "sp": "tc",
+   "text": "dessert",
+   "from": "video"
+  },
+  {
+   "id": "tf-1d0f3170",
+   "sp": "tf",
+   "text": "desert",
+   "from": "video"
+  },
+  {
+   "id": "tf-7a004415",
+   "sp": "tf",
+   "text": "dessert",
+   "from": "video"
+  },
+  {
+   "id": "uf-a3a8571b",
+   "sp": "uf",
+   "text": "desert",
+   "from": "video"
+  },
+  {
+   "id": "uf-e2c2b1d4",
+   "sp": "uf",
+   "text": "dessert",
+   "from": "video"
+  },
+  {
+   "id": "um-a034f4f8",
+   "sp": "um",
+   "text": "desert",
+   "from": "video"
+  },
+  {
+   "id": "um-13e87b8d",
+   "sp": "um",
+   "text": "dessert",
+   "from": "video"
+  },
+  {
+   "id": "ko-f7c650e5",
+   "sp": "ko",
+   "text": "호텔",
+   "from": "video"
+  },
+  {
+   "id": "ko-aa20005b",
+   "sp": "ko",
+   "text": "비타민",
+   "from": "video"
+  },
+  {
+   "id": "ko-a1366df6",
+   "sp": "ko",
+   "text": "초콜릿",
+   "from": "video"
+  },
+  {
+   "id": "tc-deac0946",
+   "sp": "tc",
+   "text": "chocolate",
+   "from": "video"
+  },
+  {
+   "id": "tc-63758a29",
+   "sp": "tc",
+   "text": "about",
+   "from": "video"
+  },
+  {
+   "id": "tc-71242dd5",
+   "sp": "tc",
+   "text": "today",
+   "from": "video"
+  },
+  {
+   "id": "tc-3ac85431",
+   "sp": "tc",
+   "text": "pencil",
+   "from": "video"
+  },
+  {
+   "id": "tc-ad42ee5b",
+   "sp": "tc",
+   "text": "support",
+   "from": "video"
+  },
+  {
+   "id": "tc-2806ecc6",
+   "sp": "tc",
+   "text": "Canada",
+   "from": "video"
+  },
+  {
+   "id": "tc-f8a08c24",
+   "sp": "tc",
+   "text": "thirty",
+   "from": "video"
+  },
+  {
+   "id": "tc-b7a46db3",
+   "sp": "tc",
+   "text": "thirteen",
+   "from": "video"
+  },
+  {
+   "id": "tc-6b6ef6f2",
+   "sp": "tc",
+   "text": "fifty",
+   "from": "video"
+  },
+  {
+   "id": "tc-f1272c2d",
+   "sp": "tc",
+   "text": "fifteen",
+   "from": "video"
+  },
+  {
+   "id": "tc-56996e7a",
+   "sp": "tc",
+   "text": "eighty",
+   "from": "video"
+  },
+  {
+   "id": "tc-2657b075",
+   "sp": "tc",
+   "text": "eighteen",
+   "from": "video"
+  },
+  {
+   "id": "tc-37b630f9",
+   "sp": "tc",
+   "text": "She broke the world record.",
+   "from": "video"
+  },
+  {
+   "id": "tc-ff71aa0e",
+   "sp": "tc",
+   "text": "Can I record your answer?",
+   "from": "video"
+  },
+  {
+   "id": "tc-7f7c341e",
+   "sp": "tc",
+   "text": "This is a present for you.",
+   "from": "video"
+  },
+  {
+   "id": "tc-9f54cbee",
+   "sp": "tc",
+   "text": "We will present our project.",
+   "from": "video"
+  },
+  {
+   "id": "tc-a03603ab",
+   "sp": "tc",
+   "text": "What is that strange object?",
+   "from": "video"
+  },
+  {
+   "id": "tc-305fd105",
+   "sp": "tc",
+   "text": "Does anyone object?",
+   "from": "video"
+  },
+  {
+   "id": "tc-3a6e5d5c",
+   "sp": "tc",
+   "text": "forty",
+   "from": "video"
+  },
+  {
+   "id": "tc-41f43b54",
+   "sp": "tc",
+   "text": "fourteen",
+   "from": "video"
+  },
+  {
+   "id": "tc-b66f3a3b",
+   "sp": "tc",
+   "text": "sixty",
+   "from": "video"
+  },
+  {
+   "id": "tc-361203c0",
+   "sp": "tc",
+   "text": "sixteen",
+   "from": "video"
+  },
+  {
+   "id": "tc-450dd952",
+   "sp": "tc",
+   "text": "seventy",
+   "from": "video"
+  },
+  {
+   "id": "tc-b092c48d",
+   "sp": "tc",
+   "text": "seventeen",
+   "from": "video"
+  },
+  {
+   "id": "tc-f614aeb3",
+   "sp": "tc",
+   "text": "ninety",
+   "from": "video"
+  },
+  {
+   "id": "tc-7e037ab8",
+   "sp": "tc",
+   "text": "nineteen",
+   "from": "video"
+  },
+  {
+   "id": "ko-a1b6e48b",
+   "sp": "ko",
+   "text": "토마토",
+   "from": "video"
+  },
+  {
+   "id": "tc-760b8a0e",
+   "sp": "tc",
+   "text": "tomato",
+   "from": "video"
+  },
+  {
+   "id": "ko-b83dbd67",
+   "sp": "ko",
+   "text": "컴퓨터",
+   "from": "video"
+  },
+  {
+   "id": "tc-0ecaafdd",
+   "sp": "tc",
+   "text": "computer",
+   "from": "video"
+  },
+  {
+   "id": "ko-6a549789",
+   "sp": "ko",
+   "text": "아이디어",
+   "from": "video"
+  },
+  {
+   "id": "tc-deeb7eaf",
+   "sp": "tc",
+   "text": "idea",
+   "from": "video"
+  },
+  {
+   "id": "ko-0c10690a",
+   "sp": "ko",
+   "text": "인터넷",
+   "from": "video"
+  },
+  {
+   "id": "tc-1a5f38a1",
+   "sp": "tc",
+   "text": "internet",
+   "from": "video"
+  },
+  {
+   "id": "ko-62965d5b",
+   "sp": "ko",
+   "text": "에너지",
+   "from": "video"
+  },
+  {
+   "id": "tc-d66d2a18",
+   "sp": "tc",
+   "text": "energy",
+   "from": "video"
+  },
+  {
+   "id": "ko-6637a7f4",
+   "sp": "ko",
+   "text": "마케팅",
+   "from": "video"
+  },
+  {
+   "id": "tc-49123ff4",
+   "sp": "tc",
+   "text": "marketing",
+   "from": "video"
+  },
+  {
+   "id": "ko-7f11c211",
+   "sp": "ko",
+   "text": "기타",
+   "from": "video"
+  },
+  {
+   "id": "tc-b8d29e3e",
+   "sp": "tc",
+   "text": "guitar",
+   "from": "video"
+  },
+  {
+   "id": "ko-175761e7",
+   "sp": "ko",
+   "text": "디자인",
+   "from": "video"
+  },
+  {
+   "id": "tc-e70f7eea",
+   "sp": "tc",
+   "text": "design",
+   "from": "video"
+  },
+  {
+   "id": "ko-0f3dd72d",
+   "sp": "ko",
+   "text": "바이올린",
+   "from": "video"
+  },
+  {
+   "id": "tc-e1ab3d31",
+   "sp": "tc",
+   "text": "violin",
+   "from": "video"
+  },
+  {
+   "id": "ko-1d29ad51",
+   "sp": "ko",
+   "text": "비즈니스",
+   "from": "video"
+  },
+  {
+   "id": "tc-99bf3e16",
+   "sp": "tc",
+   "text": "business",
+   "from": "video"
+  },
+  {
+   "id": "ko-b61d72ef",
+   "sp": "ko",
+   "text": "패밀리",
+   "from": "video"
+  },
+  {
+   "id": "tc-2d137c7c",
+   "sp": "tc",
+   "text": "family",
+   "from": "video"
+  },
+  {
+   "id": "ko-5fb52043",
+   "sp": "ko",
+   "text": "오렌지",
+   "from": "video"
+  },
+  {
+   "id": "tc-da1138ce",
+   "sp": "tc",
+   "text": "orange",
+   "from": "video"
+  },
+  {
+   "id": "tc-68226379",
+   "sp": "tc",
+   "text": "Canadian",
+   "from": "video"
+  },
+  {
+   "id": "tc-5c17746c",
+   "sp": "tc",
+   "text": "photograph",
+   "from": "video"
+  },
+  {
+   "id": "tc-5efd2a1b",
+   "sp": "tc",
+   "text": "photographer",
+   "from": "video"
+  },
+  {
+   "id": "tc-75f2c0f4",
+   "sp": "tc",
+   "text": "photographic",
+   "from": "video"
+  },
+  {
+   "id": "tc-2c71747c",
+   "sp": "tc",
+   "text": "economy",
+   "from": "video"
+  },
+  {
+   "id": "tc-f5728afd",
+   "sp": "tc",
+   "text": "economic",
+   "from": "video"
+  },
+  {
+   "id": "tc-8e414978",
+   "sp": "tc",
+   "text": "Japan",
+   "from": "video"
+  },
+  {
+   "id": "tc-d4bd649b",
+   "sp": "tc",
+   "text": "Japanese",
+   "from": "video"
+  },
+  {
+   "id": "tc-77c717cb",
+   "sp": "tc",
+   "text": "I'd like a banana, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-ce0dc29c",
+   "sp": "tc",
+   "text": "The hotel is next to the station.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d623b262",
+   "sp": "tc",
+   "text": "It's fifteen dollars, not fifty.",
+   "from": "video"
+  },
+  {
+   "id": "tc-909edabe",
+   "sp": "tc",
+   "text": "See you tomorrow!",
+   "from": "video"
+  },
+  {
+   "id": "tc-d56f1b6b",
+   "sp": "tc",
+   "text": "sofa",
+   "from": "video"
+  },
+  {
+   "id": "tc-152c4353",
+   "sp": "tc",
+   "text": "problem",
+   "from": "video"
+  },
+  {
+   "id": "tc-043d563d",
+   "sp": "tc",
+   "text": "human",
+   "from": "video"
+  },
+  {
+   "id": "tc-048eec88",
+   "sp": "tc",
+   "text": "humane",
+   "from": "video"
+  },
+  {
+   "id": "tc-3011fd84",
+   "sp": "tc",
+   "text": "personal",
+   "from": "video"
+  },
+  {
+   "id": "tc-f5abd9cc",
+   "sp": "tc",
+   "text": "personnel",
+   "from": "video"
+  },
+  {
+   "id": "tc-04389c98",
+   "sp": "tc",
+   "text": "insight",
+   "from": "video"
+  },
+  {
+   "id": "tc-4244c8f0",
+   "sp": "tc",
+   "text": "incite",
+   "from": "video"
+  },
+  {
+   "id": "tc-c4e014c5",
+   "sp": "tc",
+   "text": "There was a big increase in sales.",
+   "from": "video"
+  },
+  {
+   "id": "tc-3ec86a16",
+   "sp": "tc",
+   "text": "Prices will increase next year.",
+   "from": "video"
+  },
+  {
+   "id": "tc-df246258",
+   "sp": "tc",
+   "text": "station",
+   "from": "video"
+  },
+  {
+   "id": "tc-b49fd0e2",
+   "sp": "tc",
+   "text": "I take a vitamin every morning.",
+   "from": "video"
+  },
+  {
+   "id": "tc-7c710fe2",
+   "sp": "tc",
+   "text": "My computer is too slow.",
+   "from": "video"
+  },
+  {
+   "id": "tc-64561c0b",
+   "sp": "tc",
+   "text": "That's a great idea!",
+   "from": "video"
+  },
+  {
+   "id": "tc-b686980f",
+   "sp": "tc",
+   "text": "She plays the guitar and the violin.",
+   "from": "video"
+  },
+  {
+   "id": "tc-50835786",
+   "sp": "tc",
+   "text": "Can I have some chocolate?",
+   "from": "video"
+  },
+  {
+   "id": "tc-8c4b409a",
+   "sp": "tc",
+   "text": "The bus leaves in thirteen minutes.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d1735caf",
+   "sp": "tc",
+   "text": "My grandmother is ninety years old.",
+   "from": "video"
+  },
+  {
+   "id": "tc-37740491",
+   "sp": "tc",
+   "text": "We had ice cream for dessert.",
+   "from": "video"
+  },
+  {
+   "id": "tc-9467613a",
+   "sp": "tc",
+   "text": "The camel walked across the desert.",
+   "from": "video"
+  },
+  {
+   "id": "tc-e8200a05",
+   "sp": "tc",
+   "text": "Please turn to page sixteen.",
+   "from": "video"
+  },
+  {
+   "id": "tc-445c95be",
+   "sp": "tc",
+   "text": "There are eighteen students in my class.",
+   "from": "video"
+  },
+  {
+   "id": "tc-c14dce25",
+   "sp": "tc",
+   "text": "What are you talking about?",
+   "from": "video"
+  },
+  {
+   "id": "tc-96c067e7",
+   "sp": "tc",
+   "text": "Can I borrow a pencil?",
+   "from": "video"
+  },
+  {
+   "id": "tc-1a652cce",
+   "sp": "tc",
+   "text": "Thank you for your support.",
+   "from": "video"
+  },
+  {
+   "id": "tc-44a3e7f7",
+   "sp": "tc",
+   "text": "Is there a problem?",
+   "from": "video"
+  },
+  {
+   "id": "tc-6323b4fe",
+   "sp": "tc",
+   "text": "I visited Canada last summer.",
+   "from": "video"
+  },
+  {
+   "id": "tc-3454c4d8",
+   "sp": "tc",
+   "text": "Let's sit on the sofa.",
+   "from": "video"
+  },
+  {
+   "id": "tc-514c8623",
+   "sp": "tc",
+   "text": "tomorrow",
+   "from": "video"
+  },
+  {
+   "id": "tc-744c6b40",
+   "sp": "tc",
+   "text": "He took a photograph of the lake.",
+   "from": "video"
+  },
+  {
+   "id": "tc-711572ca",
+   "sp": "tc",
+   "text": "My sister is a photographer.",
+   "from": "video"
+  },
+  {
+   "id": "tc-65d44c05",
+   "sp": "tc",
+   "text": "I'm studying Japanese.",
+   "from": "video"
+  },
+  {
+   "id": "tc-57004326",
+   "sp": "tc",
+   "text": "The economy is growing.",
+   "from": "video"
+  },
+  {
+   "id": "tf-d5a459e9",
+   "sp": "tf",
+   "text": "thirty",
+   "from": "lab"
+  },
+  {
+   "id": "tf-625a0672",
+   "sp": "tf",
+   "text": "thirteen",
+   "from": "lab"
+  },
+  {
+   "id": "uf-33416956",
+   "sp": "uf",
+   "text": "thirty",
+   "from": "lab"
+  },
+  {
+   "id": "uf-e212d129",
+   "sp": "uf",
+   "text": "thirteen",
+   "from": "lab"
+  },
+  {
+   "id": "um-2c6e8341",
+   "sp": "um",
+   "text": "thirty",
+   "from": "lab"
+  },
+  {
+   "id": "um-d6009b8a",
+   "sp": "um",
+   "text": "thirteen",
+   "from": "lab"
+  },
+  {
+   "id": "tf-9b11aa33",
+   "sp": "tf",
+   "text": "forty",
+   "from": "lab"
+  },
+  {
+   "id": "tf-614e0c3d",
+   "sp": "tf",
+   "text": "fourteen",
+   "from": "lab"
+  },
+  {
+   "id": "uf-5c9c145a",
+   "sp": "uf",
+   "text": "forty",
+   "from": "lab"
+  },
+  {
+   "id": "uf-9974e6e2",
+   "sp": "uf",
+   "text": "fourteen",
+   "from": "lab"
+  },
+  {
+   "id": "um-499b394b",
+   "sp": "um",
+   "text": "forty",
+   "from": "lab"
+  },
+  {
+   "id": "um-6601b265",
+   "sp": "um",
+   "text": "fourteen",
+   "from": "lab"
+  },
+  {
+   "id": "tf-faa40625",
+   "sp": "tf",
+   "text": "fifty",
+   "from": "lab"
+  },
+  {
+   "id": "tf-f4db6cc6",
+   "sp": "tf",
+   "text": "fifteen",
+   "from": "lab"
+  },
+  {
+   "id": "uf-5e947354",
+   "sp": "uf",
+   "text": "fifty",
+   "from": "lab"
+  },
+  {
+   "id": "uf-1702ec83",
+   "sp": "uf",
+   "text": "fifteen",
+   "from": "lab"
+  },
+  {
+   "id": "um-0bb82cdd",
+   "sp": "um",
+   "text": "fifty",
+   "from": "lab"
+  },
+  {
+   "id": "um-0f977dfe",
+   "sp": "um",
+   "text": "fifteen",
+   "from": "lab"
+  },
+  {
+   "id": "tf-eb918920",
+   "sp": "tf",
+   "text": "sixty",
+   "from": "lab"
+  },
+  {
+   "id": "tf-65ce9f17",
+   "sp": "tf",
+   "text": "sixteen",
+   "from": "lab"
+  },
+  {
+   "id": "uf-6ecf5369",
+   "sp": "uf",
+   "text": "sixty",
+   "from": "lab"
+  },
+  {
+   "id": "uf-a2e15bf2",
+   "sp": "uf",
+   "text": "sixteen",
+   "from": "lab"
+  },
+  {
+   "id": "um-f876cbc8",
+   "sp": "um",
+   "text": "sixty",
+   "from": "lab"
+  },
+  {
+   "id": "um-0b0ab47f",
+   "sp": "um",
+   "text": "sixteen",
+   "from": "lab"
+  },
+  {
+   "id": "tf-92042409",
+   "sp": "tf",
+   "text": "seventy",
+   "from": "lab"
+  },
+  {
+   "id": "tf-df99c192",
+   "sp": "tf",
+   "text": "seventeen",
+   "from": "lab"
+  },
+  {
+   "id": "uf-a0b665c0",
+   "sp": "uf",
+   "text": "seventy",
+   "from": "lab"
+  },
+  {
+   "id": "uf-fbb25db7",
+   "sp": "uf",
+   "text": "seventeen",
+   "from": "lab"
+  },
+  {
+   "id": "um-ac179261",
+   "sp": "um",
+   "text": "seventy",
+   "from": "lab"
+  },
+  {
+   "id": "um-e12fa3aa",
+   "sp": "um",
+   "text": "seventeen",
+   "from": "lab"
+  },
+  {
+   "id": "tf-82e08f27",
+   "sp": "tf",
+   "text": "eighty",
+   "from": "lab"
+  },
+  {
+   "id": "tf-565ae4c4",
+   "sp": "tf",
+   "text": "eighteen",
+   "from": "lab"
+  },
+  {
+   "id": "uf-02da9f8c",
+   "sp": "uf",
+   "text": "eighty",
+   "from": "lab"
+  },
+  {
+   "id": "uf-adcd0ffb",
+   "sp": "uf",
+   "text": "eighteen",
+   "from": "lab"
+  },
+  {
+   "id": "um-22cc851f",
+   "sp": "um",
+   "text": "eighty",
+   "from": "lab"
+  },
+  {
+   "id": "um-d88c7c5c",
+   "sp": "um",
+   "text": "eighteen",
+   "from": "lab"
+  },
+  {
+   "id": "tf-6d37cc72",
+   "sp": "tf",
+   "text": "ninety",
+   "from": "lab"
+  },
+  {
+   "id": "tf-0d45bdad",
+   "sp": "tf",
+   "text": "nineteen",
+   "from": "lab"
+  },
+  {
+   "id": "uf-6cdecde1",
+   "sp": "uf",
+   "text": "ninety",
+   "from": "lab"
+  },
+  {
+   "id": "uf-5c420b2a",
+   "sp": "uf",
+   "text": "nineteen",
+   "from": "lab"
+  },
+  {
+   "id": "um-159ca1fa",
+   "sp": "um",
+   "text": "ninety",
+   "from": "lab"
+  },
+  {
+   "id": "um-6c32cff5",
+   "sp": "um",
+   "text": "nineteen",
+   "from": "lab"
+  },
+  {
+   "id": "tf-153f1bae",
+   "sp": "tf",
+   "text": "human",
+   "from": "lab"
+  },
+  {
+   "id": "tf-3d58c091",
+   "sp": "tf",
+   "text": "humane",
+   "from": "lab"
+  },
+  {
+   "id": "uf-4bd642ab",
+   "sp": "uf",
+   "text": "human",
+   "from": "lab"
+  },
+  {
+   "id": "uf-304b2a4a",
+   "sp": "uf",
+   "text": "humane",
+   "from": "lab"
+  },
+  {
+   "id": "um-739b1f96",
+   "sp": "um",
+   "text": "human",
+   "from": "lab"
+  },
+  {
+   "id": "um-f0334b89",
+   "sp": "um",
+   "text": "humane",
+   "from": "lab"
+  },
+  {
+   "id": "tf-d2cee841",
+   "sp": "tf",
+   "text": "personal",
+   "from": "lab"
+  },
+  {
+   "id": "tf-797f88cf",
+   "sp": "tf",
+   "text": "personnel",
+   "from": "lab"
+  },
+  {
+   "id": "uf-bdd1b81a",
+   "sp": "uf",
+   "text": "personal",
+   "from": "lab"
+  },
+  {
+   "id": "uf-6efffdb2",
+   "sp": "uf",
+   "text": "personnel",
+   "from": "lab"
+  },
+  {
+   "id": "um-8d12b4f9",
+   "sp": "um",
+   "text": "personal",
+   "from": "lab"
+  },
+  {
+   "id": "um-caa8c827",
+   "sp": "um",
+   "text": "personnel",
+   "from": "lab"
+  },
+  {
+   "id": "tf-9f4fbaaf",
+   "sp": "tf",
+   "text": "insight",
+   "from": "lab"
+  },
+  {
+   "id": "tf-e5affd99",
+   "sp": "tf",
+   "text": "incite",
+   "from": "lab"
+  },
+  {
+   "id": "uf-8586959e",
+   "sp": "uf",
+   "text": "insight",
+   "from": "lab"
+  },
+  {
+   "id": "uf-583c2cbe",
+   "sp": "uf",
+   "text": "incite",
+   "from": "lab"
+  },
+  {
+   "id": "um-f6b05707",
+   "sp": "um",
+   "text": "insight",
+   "from": "lab"
+  },
+  {
+   "id": "um-8432bad1",
+   "sp": "um",
+   "text": "incite",
+   "from": "lab"
+  },
+  {
+   "id": "tf-e0a21fc2",
+   "sp": "tf",
+   "text": "She broke the world record.",
+   "from": "lab"
+  },
+  {
+   "id": "tf-703870e5",
+   "sp": "tf",
+   "text": "Can I record your answer?",
+   "from": "lab"
+  },
+  {
+   "id": "uf-196ac5ef",
+   "sp": "uf",
+   "text": "She broke the world record.",
+   "from": "lab"
+  },
+  {
+   "id": "uf-b7a97f74",
+   "sp": "uf",
+   "text": "Can I record your answer?",
+   "from": "lab"
+  },
+  {
+   "id": "um-a6e194ba",
+   "sp": "um",
+   "text": "She broke the world record.",
+   "from": "lab"
+  },
+  {
+   "id": "um-d74ba76d",
+   "sp": "um",
+   "text": "Can I record your answer?",
+   "from": "lab"
+  },
+  {
+   "id": "tf-31014773",
+   "sp": "tf",
+   "text": "This is a present for you.",
+   "from": "lab"
+  },
+  {
+   "id": "tf-0c06680f",
+   "sp": "tf",
+   "text": "We will present our project.",
+   "from": "lab"
+  },
+  {
+   "id": "uf-68a18384",
+   "sp": "uf",
+   "text": "This is a present for you.",
+   "from": "lab"
+  },
+  {
+   "id": "uf-bd3fb22c",
+   "sp": "uf",
+   "text": "We will present our project.",
+   "from": "lab"
+  },
+  {
+   "id": "um-06d2b0db",
+   "sp": "um",
+   "text": "This is a present for you.",
+   "from": "lab"
+  },
+  {
+   "id": "um-3903d0b7",
+   "sp": "um",
+   "text": "We will present our project.",
+   "from": "lab"
+  },
+  {
+   "id": "tf-532464d2",
+   "sp": "tf",
+   "text": "What is that strange object?",
+   "from": "lab"
+  },
+  {
+   "id": "tf-4a8c5b32",
+   "sp": "tf",
+   "text": "Does anyone object?",
+   "from": "lab"
+  },
+  {
+   "id": "uf-d8ad0195",
+   "sp": "uf",
+   "text": "What is that strange object?",
+   "from": "lab"
+  },
+  {
+   "id": "uf-921e2a0f",
+   "sp": "uf",
+   "text": "Does anyone object?",
+   "from": "lab"
+  },
+  {
+   "id": "um-9d9b2f2a",
+   "sp": "um",
+   "text": "What is that strange object?",
+   "from": "lab"
+  },
+  {
+   "id": "um-154e464a",
+   "sp": "um",
+   "text": "Does anyone object?",
+   "from": "lab"
+  },
+  {
+   "id": "tf-a90b7254",
+   "sp": "tf",
+   "text": "There was a big increase in sales.",
+   "from": "lab"
+  },
+  {
+   "id": "tf-aebe899d",
+   "sp": "tf",
+   "text": "Prices will increase next year.",
+   "from": "lab"
+  },
+  {
+   "id": "uf-598307cf",
+   "sp": "uf",
+   "text": "There was a big increase in sales.",
+   "from": "lab"
+  },
+  {
+   "id": "uf-b53705b4",
+   "sp": "uf",
+   "text": "Prices will increase next year.",
+   "from": "lab"
+  },
+  {
+   "id": "um-5c00ba1c",
+   "sp": "um",
+   "text": "There was a big increase in sales.",
+   "from": "lab"
+  },
+  {
+   "id": "um-5a274fd5",
+   "sp": "um",
+   "text": "Prices will increase next year.",
+   "from": "lab"
+  },
+  {
+   "id": "tf-a82cba64",
+   "sp": "tf",
+   "text": "banana",
+   "from": "lab"
+  },
+  {
+   "id": "uf-999e2187",
+   "sp": "uf",
+   "text": "banana",
+   "from": "lab"
+  },
+  {
+   "id": "um-9ca5b18c",
+   "sp": "um",
+   "text": "banana",
+   "from": "lab"
+  },
+  {
+   "id": "tf-b82aef59",
+   "sp": "tf",
+   "text": "hotel",
+   "from": "lab"
+  },
+  {
+   "id": "uf-125c3cac",
+   "sp": "uf",
+   "text": "hotel",
+   "from": "lab"
+  },
+  {
+   "id": "um-9c78a801",
+   "sp": "um",
+   "text": "hotel",
+   "from": "lab"
+  },
+  {
+   "id": "tf-8a4c9ced",
+   "sp": "tf",
+   "text": "vitamin",
+   "from": "lab"
+  },
+  {
+   "id": "uf-a629d844",
+   "sp": "uf",
+   "text": "vitamin",
+   "from": "lab"
+  },
+  {
+   "id": "um-5ca4b565",
+   "sp": "um",
+   "text": "vitamin",
+   "from": "lab"
+  },
+  {
+   "id": "tf-b474da54",
+   "sp": "tf",
+   "text": "computer",
+   "from": "lab"
+  },
+  {
+   "id": "uf-291ad477",
+   "sp": "uf",
+   "text": "computer",
+   "from": "lab"
+  },
+  {
+   "id": "um-f10bc63c",
+   "sp": "um",
+   "text": "computer",
+   "from": "lab"
+  },
+  {
+   "id": "tf-efc8c5eb",
+   "sp": "tf",
+   "text": "guitar",
+   "from": "lab"
+  },
+  {
+   "id": "uf-e262fe14",
+   "sp": "uf",
+   "text": "guitar",
+   "from": "lab"
+  },
+  {
+   "id": "um-80bd2883",
+   "sp": "um",
+   "text": "guitar",
+   "from": "lab"
+  },
+  {
+   "id": "tf-a047066e",
+   "sp": "tf",
+   "text": "idea",
+   "from": "lab"
+  },
+  {
+   "id": "uf-002e6db5",
+   "sp": "uf",
+   "text": "idea",
+   "from": "lab"
+  },
+  {
+   "id": "um-7bf1a346",
+   "sp": "um",
+   "text": "idea",
+   "from": "lab"
+  },
+  {
+   "id": "tf-b7cab8f0",
+   "sp": "tf",
+   "text": "internet",
+   "from": "lab"
+  },
+  {
+   "id": "uf-1cd8502b",
+   "sp": "uf",
+   "text": "internet",
+   "from": "lab"
+  },
+  {
+   "id": "um-90e6f6c8",
+   "sp": "um",
+   "text": "internet",
+   "from": "lab"
+  },
+  {
+   "id": "tf-89aecc19",
+   "sp": "tf",
+   "text": "energy",
+   "from": "lab"
+  },
+  {
+   "id": "uf-bf5b3da2",
+   "sp": "uf",
+   "text": "energy",
+   "from": "lab"
+  },
+  {
+   "id": "um-23afeb01",
+   "sp": "um",
+   "text": "energy",
+   "from": "lab"
+  },
+  {
+   "id": "tf-0efb795f",
+   "sp": "tf",
+   "text": "tomato",
+   "from": "lab"
+  },
+  {
+   "id": "uf-091792f4",
+   "sp": "uf",
+   "text": "tomato",
+   "from": "lab"
+  },
+  {
+   "id": "um-65c5a2b7",
+   "sp": "um",
+   "text": "tomato",
+   "from": "lab"
+  },
+  {
+   "id": "tf-fb71cb04",
+   "sp": "tf",
+   "text": "violin",
+   "from": "lab"
+  },
+  {
+   "id": "uf-55cf5083",
+   "sp": "uf",
+   "text": "violin",
+   "from": "lab"
+  },
+  {
+   "id": "um-9a23b13c",
+   "sp": "um",
+   "text": "violin",
+   "from": "lab"
+  },
+  {
+   "id": "tf-c38054f3",
+   "sp": "tf",
+   "text": "marketing",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-44d1d21e",
+   "sp": "uf",
+   "text": "marketing",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-0a163beb",
+   "sp": "um",
+   "text": "marketing",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-646b7633",
+   "sp": "tf",
+   "text": "design",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-7019666c",
+   "sp": "uf",
+   "text": "design",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-c7893b9b",
+   "sp": "um",
+   "text": "design",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-cec7cb8d",
+   "sp": "tf",
+   "text": "chocolate",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-3e0afec8",
+   "sp": "uf",
+   "text": "chocolate",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-308abb05",
+   "sp": "um",
+   "text": "chocolate",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-aaa5c9a7",
+   "sp": "tf",
+   "text": "business",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d466e250",
+   "sp": "uf",
+   "text": "business",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-a6ddff4f",
+   "sp": "um",
+   "text": "business",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-15765485",
+   "sp": "tf",
+   "text": "family",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-49e80e0e",
+   "sp": "uf",
+   "text": "family",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-1c612dad",
+   "sp": "um",
+   "text": "family",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-50acdf0f",
+   "sp": "tf",
+   "text": "orange",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d1aa1404",
+   "sp": "uf",
+   "text": "orange",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-674310f7",
+   "sp": "um",
+   "text": "orange",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-4e8c8150",
+   "sp": "tc",
+   "text": "America",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-6a8dd177",
+   "sp": "tf",
+   "text": "America",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-cd6aec42",
+   "sp": "uf",
+   "text": "America",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-3ad140cf",
+   "sp": "um",
+   "text": "America",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-e96d8551",
+   "sp": "ko",
+   "text": "아메리카",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-45be03ce",
+   "sp": "tc",
+   "text": "Korea",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-9fc21cf1",
+   "sp": "tf",
+   "text": "Korea",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8b1e6e4c",
+   "sp": "uf",
+   "text": "Korea",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-a47025c9",
+   "sp": "um",
+   "text": "Korea",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-4dcb0a9f",
+   "sp": "ko",
+   "text": "코리아",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-037af8de",
+   "sp": "tc",
+   "text": "technology",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-47abe94b",
+   "sp": "tf",
+   "text": "technology",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d2959798",
+   "sp": "uf",
+   "text": "technology",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-44589fd3",
+   "sp": "um",
+   "text": "technology",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-668f4c1f",
+   "sp": "ko",
+   "text": "테크놀로지",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-7be33456",
+   "sp": "tc",
+   "text": "elevator",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-c9e0f33b",
+   "sp": "tf",
+   "text": "elevator",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-e4e225a0",
+   "sp": "uf",
+   "text": "elevator",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-4f6b71c3",
+   "sp": "um",
+   "text": "elevator",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-d05102eb",
+   "sp": "ko",
+   "text": "엘리베이터",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-3c9ef569",
+   "sp": "tc",
+   "text": "piano",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-3c4f579a",
+   "sp": "tf",
+   "text": "piano",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-7889b6db",
+   "sp": "uf",
+   "text": "piano",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b40072e2",
+   "sp": "um",
+   "text": "piano",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-70728f9b",
+   "sp": "ko",
+   "text": "피아노",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-9874dc5d",
+   "sp": "tc",
+   "text": "percent",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-3cca4206",
+   "sp": "tf",
+   "text": "percent",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-5e1e47ab",
+   "sp": "uf",
+   "text": "percent",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-94b3974e",
+   "sp": "um",
+   "text": "percent",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-0c097653",
+   "sp": "ko",
+   "text": "퍼센트",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-06a4accc",
+   "sp": "tc",
+   "text": "event",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-34fa89d3",
+   "sp": "tf",
+   "text": "event",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-cf93d816",
+   "sp": "uf",
+   "text": "event",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-c03c3f7b",
+   "sp": "um",
+   "text": "event",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-b21a8b63",
+   "sp": "ko",
+   "text": "이벤트",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-d562738a",
+   "sp": "tc",
+   "text": "calendar",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-fba9ff63",
+   "sp": "tf",
+   "text": "calendar",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-113249dc",
+   "sp": "uf",
+   "text": "calendar",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-9ed482cb",
+   "sp": "um",
+   "text": "calendar",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-04d3d5b7",
+   "sp": "ko",
+   "text": "캘린더",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-d7e4ea18",
+   "sp": "tc",
+   "text": "coffee",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-8694929d",
+   "sp": "tf",
+   "text": "coffee",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c11bc406",
+   "sp": "uf",
+   "text": "coffee",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-77e7fd15",
+   "sp": "um",
+   "text": "coffee",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-5cd476a1",
+   "sp": "ko",
+   "text": "커피",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-12da34a1",
+   "sp": "tc",
+   "text": "image",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-4d78fcbe",
+   "sp": "tf",
+   "text": "image",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-6dd69ecf",
+   "sp": "uf",
+   "text": "image",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-21c82f36",
+   "sp": "um",
+   "text": "image",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-a4abbcc7",
+   "sp": "ko",
+   "text": "이미지",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-81ea936f",
+   "sp": "tf",
+   "text": "station",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-1e052a36",
+   "sp": "uf",
+   "text": "station",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b8248db7",
+   "sp": "um",
+   "text": "station",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-f1e33865",
+   "sp": "ko",
+   "text": "스테이션",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-926882c2",
+   "sp": "tf",
+   "text": "about",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-5e1dac13",
+   "sp": "uf",
+   "text": "about",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-19bdf6ea",
+   "sp": "um",
+   "text": "about",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-7619af92",
+   "sp": "tf",
+   "text": "today",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-ad53393b",
+   "sp": "uf",
+   "text": "today",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-61ee62aa",
+   "sp": "um",
+   "text": "today",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-c439bbda",
+   "sp": "tf",
+   "text": "tomorrow",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-690e0b51",
+   "sp": "uf",
+   "text": "tomorrow",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-a0efd282",
+   "sp": "um",
+   "text": "tomorrow",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-7552e270",
+   "sp": "tf",
+   "text": "pencil",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-dc3facbf",
+   "sp": "uf",
+   "text": "pencil",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-715620a8",
+   "sp": "um",
+   "text": "pencil",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-8d914b2c",
+   "sp": "tf",
+   "text": "support",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-bb142419",
+   "sp": "uf",
+   "text": "support",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-12e11914",
+   "sp": "um",
+   "text": "support",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-0e1c9e1a",
+   "sp": "tf",
+   "text": "sofa",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-a899724d",
+   "sp": "uf",
+   "text": "sofa",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-e976f6f2",
+   "sp": "um",
+   "text": "sofa",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-0ff471b8",
+   "sp": "tf",
+   "text": "problem",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-552b0ad9",
+   "sp": "uf",
+   "text": "problem",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-c64a1c60",
+   "sp": "um",
+   "text": "problem",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-ab68daef",
+   "sp": "tf",
+   "text": "Canada",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c3444b1c",
+   "sp": "uf",
+   "text": "Canada",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-ff854f07",
+   "sp": "um",
+   "text": "Canada",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-84df4957",
+   "sp": "ko",
+   "text": "캐나다",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-f2576034",
+   "sp": "tf",
+   "text": "Canadian",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-108d3ff3",
+   "sp": "uf",
+   "text": "Canadian",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-f93f516c",
+   "sp": "um",
+   "text": "Canadian",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-1c95600d",
+   "sp": "ko",
+   "text": "캐나디언",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-c6f46f25",
+   "sp": "tf",
+   "text": "photograph",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-def099da",
+   "sp": "uf",
+   "text": "photograph",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-708bd1cd",
+   "sp": "um",
+   "text": "photograph",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-4fdf30f3",
+   "sp": "ko",
+   "text": "포토그래프",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-67c60b36",
+   "sp": "tf",
+   "text": "photographer",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d972640d",
+   "sp": "uf",
+   "text": "photographer",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-f09260be",
+   "sp": "um",
+   "text": "photographer",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-87d6171b",
+   "sp": "ko",
+   "text": "포토그래퍼",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-60e41545",
+   "sp": "tf",
+   "text": "photographic",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c054279e",
+   "sp": "uf",
+   "text": "photographic",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-e9895b5d",
+   "sp": "um",
+   "text": "photographic",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-46df22c8",
+   "sp": "ko",
+   "text": "포토그래픽",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-8c3af7eb",
+   "sp": "tf",
+   "text": "economy",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-34de1776",
+   "sp": "uf",
+   "text": "economy",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-1b5f9113",
+   "sp": "um",
+   "text": "economy",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-b1d551f1",
+   "sp": "ko",
+   "text": "이코노미",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-68fc7fe8",
+   "sp": "tf",
+   "text": "economic",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-2e77143f",
+   "sp": "uf",
+   "text": "economic",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-6798d060",
+   "sp": "um",
+   "text": "economic",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-b0d5505e",
+   "sp": "ko",
+   "text": "이코노믹",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-805b122f",
+   "sp": "tf",
+   "text": "Japan",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-cbaff522",
+   "sp": "uf",
+   "text": "Japan",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-414a4de7",
+   "sp": "um",
+   "text": "Japan",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-3928faf9",
+   "sp": "ko",
+   "text": "재팬",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-76db7256",
+   "sp": "tf",
+   "text": "Japanese",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-6fb2f3a5",
+   "sp": "uf",
+   "text": "Japanese",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-0936da1e",
+   "sp": "um",
+   "text": "Japanese",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-d26e84ed",
+   "sp": "ko",
+   "text": "재패니즈",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-b6bcf917",
+   "sp": "ko",
+   "text": "디저트",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-20dd5ef1",
+   "sp": "ko",
+   "text": "휴먼",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-6a7cea83",
+   "sp": "ko",
+   "text": "퍼스널",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-ae98df39",
+   "sp": "ko",
+   "text": "인사이트",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-6337e273",
+   "sp": "tc",
+   "text": "The bus leaves in thirty minutes.",
+   "from": "drill"
+  },
+  {
+   "id": "tf-f7e4b8d2",
+   "sp": "tf",
+   "text": "It's fifteen dollars.",
+   "from": "drill"
+  },
+  {
+   "id": "um-9b285a99",
+   "sp": "um",
+   "text": "Please turn to page sixty.",
+   "from": "drill"
+  }
+ ]
+}

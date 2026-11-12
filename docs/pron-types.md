@@ -31,7 +31,7 @@
 | B 한국어에 없는 자음 | 5–8 | P02 · P03 · P05 |
 | C 한국어에서는 하나인 자음 | 9–11 | **P04 완료**(9) · P02 · P05 |
 | D 모음 | 12–17 | P06 · P07 · P08 |
-| E 강세 · 리듬 · 억양 | 18–22 | P09 · P10 · P11 · P12 |
+| E 강세 · 리듬 · 억양 | 18–22 | **P09 완료**(18 · 19) · P10 · P11 · P12 |
 
 ## 22개 유형
 
@@ -100,7 +100,7 @@
 | P06 | 긴장한 모음, 느슨한 모음 — i · ɪ · u · ʊ | 12, 13 | 〃 + 모음 지도에 내 모음 찍기(시험 기능) | |
 | P07 | 입을 얼마나 벌리나 — æ · ɛ · ʌ · ɑ | 14, 15 | 〃 | |
 | P08 | ‘오’와 ‘어’ 사이, 그리고 r 모음 | 16, 17 | 〃 | |
-| P09 | 센 음절은 하나 — 낱말 강세와 슈와 | 18, 19 | 강세 공 놓기 | |
+| P09 | 센 음절은 하나 — 낱말 강세와 슈와 (`word-stress`) | 18, 19 | 강세 공 놓기 + 내 발음 확인 | **완료** (2026-11-12) |
 | P10 | 센 낱말, 약한 낱말 — 문장 리듬 | 20 | can · can't 듣기 시합 | |
 | P11 | 미국식 t와 이어 말하기 | 21 | t 바꾸기 실험실 | |
 | P12 | 올리고 내리기 — 억양과 초점 | 22 | 높낮이 선 그리기 · 비교 | |
@@ -138,6 +138,7 @@
 ## 만들면서 정한 것
 
 - **P04 r · l**: 연구들이 낱말 속 자리마다 결과가 달라서(아래 근거 자료), 공통으로 나온 것만 강하게 말해요 — **끝의 l(어두운 l)과 world · girl 같은 /rl/이 가장 어렵고**, 낱말 가운데와 앞 자음과 묶인 자리(play · glass)는 상대적으로 쉬워요. 낱말 처음은 연구마다 달라 ‘한국어 ㄹ 하나로 합쳐지는 자리’라는 원리로만 설명해요. 외래어 표기가 묶음 · 가운데 자리에서는 r · l을 가른다는 것(글라스 glass · 그래스 grass, 벨리 belly · 베리 berry)을 출발점으로 써요. 끝의 r(car · work)은 r 모음이라 P08에서 다뤄요.
+- **P09 낱말 강세와 슈와**: 연구 두 편(낱말 강세 오류가 잦고 알아듣기를 가장 잘 설명함 · 약한 모음을 덜 줄이는 경향)이 보여 준 방향만 말하고 숫자는 옮기지 않아요. 센 음절의 신호는 길이 · 크기 · 높이(그리고 또렷한 모음)로 가르치고, 음절 공 · 높낮이 선은 미리 만든 음성 파일을 따로 재서(`measure.js`) 그려요. 잰 값은 그 파일의 센 음절이 사전과 맞는지 고르는 데에도 써요(길이 · 크기 · 높이 셋 가운데 둘 이상). 같은 철자의 명사 · 동사(record · present · object · increase)는 낱말 하나로는 소리를 정할 수 없어 예문으로만 들려주고, 문장 속 강세 이동(THIRteen MEN)과 문장 리듬은 P10 · P12로 미뤄요.
 
 ## 다음 단계: 우리 학생의 실제 발음으로 순서 바꾸기
 
@@ -152,8 +153,8 @@
 
 갈래 전체 · 우선순위
 - 기능 부담: Munro & Derwing 2006 — [Levis 교재의 요약](https://iastate.pressbooks.pub/teachingpronunciation/chapter/chapter-2-pronunciation-in-language-teaching/) · [Sewell 2021](https://www.frontiersin.org/articles/10.3389/fcomm.2021.627378) (초록)
-- 낱말 강세가 명료도에 미치는 영향: [김현진 2004](https://scholar.kyobobook.co.kr/article/detail/4010017074882) (초록)
-- 약한 모음: [Lee, Guion & Harada 2006](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0272263106060207) (초록)
+- 낱말 강세가 명료도에 미치는 영향: [김현진 2004](https://scholar.kyobobook.co.kr/article/detail/4010017074882) (초록, **P09를 만들며 다시 확인함**)
+- 약한 모음: [Lee, Guion & Harada 2006](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0272263106060207) (초록, **P09를 만들며 다시 확인함**)
 - 듣고 가르기 훈련(HVPT): [Hwang & Lee 2015](https://researchr.org/publication/HwangL15-8) · [ICPhS 2023](https://guarant.cz/icphs2023/348.pdf) (초록)
 
 A 음절 · 끝소리

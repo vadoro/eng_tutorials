@@ -418,5 +418,18 @@ window.EN_CATALOG = {
       thumb: 'r-and-l/docs/poster.jpg',
       added: '2026-11-12',
     },
+    {
+      slug: 'word-stress',
+      track: 'pron',
+      title: '센 음절은 하나 — 낱말 강세와 슈와',
+      topic: '낱말 강세 · 센 음절 하나(길게 · 크게 · 높게) · 약한 음절과 슈와(ə) · 한국어처럼 고르게 읽는 외래어 · 강세로 갈리는 짝(desert · dessert, thirteen · thirty, 명사 · 동사) · 옮겨 가는 센 음절',
+      summary: '한국어 바나나는 세 음절을 고르게 말하지만, 영어 banana → 둘째 음절 하나만 길고 크고 높게 말하고 나머지는 짧고 흐린 어(슈와)로 지나가요. 실제 음성을 재서 그린 음절 공으로 센 음절을 보고, 목소리 넷으로 센 음절을 찾아요. 외래어(호텔 → hoTEL, 비타민 → VItamin, 아이디어 → iDEa), 강세로 갈리는 짝(desert · dessert, thirteen · thirty, 명사 REcord · 동사 reCORD), 끝이 붙으면 옮겨 가는 센 음절(Canada · Canadian)을 익히고, 끝에는 내 발음을 음성 인식으로 확인해요.',
+      length: '6:52',
+      scenes: 10,
+      features: ['음성 해설', '잰 음절 공 · 높낮이 선', '목소리 넷으로 듣기', '장면별 실습', '강세 공 놓기', '내 발음 확인', '따라 말하기 28', '듣고 고르기 16', '퀴즈'],
+      types: [18, 19],
+      thumb: 'word-stress/docs/poster.jpg',
+      added: '2026-11-12',
+    },
   ],
 };

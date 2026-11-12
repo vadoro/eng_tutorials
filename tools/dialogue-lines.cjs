@@ -6,6 +6,8 @@
  * 튜토리얼 페이지를 열어 window.__dialogueLines()(app.js)가 모은 줄을 그대로 받아 적어요.
  * 글이 정해진 말만: 영상의 말풍선 · 발음 칩, 직접 해 보기의 대표 말과 상대의 대답, 듣고 대답 고르기, 따라 말하기, 질문 목록.
  * 줄마다 { id: 목소리 부품(voices.js)의 lineId(말하는 사람, 글), sp: 말하는 사람, text: 읽을 글, from: 나오는 곳 }.
+ * 페이지에 window.__measureMeta(lines)가 있으면(발음 튜토리얼) 잴 줄의 정보도 <폴더>/audio/dialogue/measure-meta.json으로 써요
+ * (tools/measure-syllables.py가 읽음: 줄마다 { id, sp, text, kind: word | ko | other, n: 음절 수, at: 센 음절 }).
  * 다음 단계: VoiceStudio가 있는 맥에서 python3 tools/voicestudio-dialogue.py <폴더>
  * (파일이 없는 줄은 브라우저 음성으로 읽으니, 글을 고친 뒤 다시 만들기 전에도 대화는 끊기지 않아요.)
  *
@@ -41,7 +43,8 @@ if (!slug || !fs.existsSync(path.join(ROOT, slug, 'index.html'))) {
   });
   const res = await page.evaluate(() => {
     const lines = window.__dialogueLines(), C = (window.DIALOGUE_CLIPS && window.DIALOGUE_CLIPS.clips) || {};
-    return { lines, have: lines.filter((l) => C[l.id]).length };
+    const meta = typeof window.__measureMeta === 'function' ? window.__measureMeta(lines) : null;
+    return { lines, meta, have: lines.filter((l) => C[l.id]).length };
   });
   await browser.close();
   const dir = path.join(ROOT, slug, 'audio', 'dialogue');
@@ -55,5 +58,16 @@ if (!slug || !fs.existsSync(path.join(ROOT, slug, 'index.html'))) {
     lines: res.lines,
   };
   fs.writeFileSync(path.join(dir, 'lines.json'), JSON.stringify(out, null, 1) + '\n');
+  if (res.meta) {
+    const kinds = {};
+    res.meta.forEach((m) => { kinds[m.kind] = (kinds[m.kind] || 0) + 1; });
+    fs.writeFileSync(path.join(dir, 'measure-meta.json'), JSON.stringify({
+      slug,
+      note: '잴 줄의 정보 (tools/dialogue-lines.cjs가 페이지의 window.__measureMeta()로 만듦 — 손으로 고치지 마세요). kind: word = 낱말 하나(n 음절 수 · at 센 음절, 0부터) · ko = 한국어식(n 글자 수) · other = 받아쓰기만. tools/measure-syllables.py가 읽어요',
+      count: kinds,
+      lines: res.meta,
+    }, null, 1) + '\n');
+    console.log(`저장: ${slug}/audio/dialogue/measure-meta.json — ${Object.entries(kinds).map(([k, v]) => `${k} ${v}`).join(' · ')}`);
+  }
   console.log(`저장: ${slug}/audio/dialogue/lines.json — 줄 ${res.lines.length}개 (${Object.entries(out.count).map(([k, v]) => `${k} ${v}`).join(' · ')}), 이미 음성 파일이 있는 줄 ${res.have}개`);
 })().catch((e) => { console.error(e); process.exit(1); });
