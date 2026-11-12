@@ -1,0 +1,1807 @@
+{
+ "slug": "r-and-l",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "ko": 62,
+  "tc": 98,
+  "tf": 47,
+  "uf": 45,
+  "um": 47
+ },
+ "lines": [
+  {
+   "id": "tc-5fb6880e",
+   "sp": "tc",
+   "text": "right",
+   "from": "video"
+  },
+  {
+   "id": "tc-751f4b98",
+   "sp": "tc",
+   "text": "light",
+   "from": "video"
+  },
+  {
+   "id": "ko-1eeb334b",
+   "sp": "ko",
+   "text": "라이트",
+   "from": "video"
+  },
+  {
+   "id": "tc-91e75a88",
+   "sp": "tc",
+   "text": "read",
+   "from": "video"
+  },
+  {
+   "id": "tc-b6127392",
+   "sp": "tc",
+   "text": "lead",
+   "from": "video"
+  },
+  {
+   "id": "tc-34d77c2e",
+   "sp": "tc",
+   "text": "grass",
+   "from": "video"
+  },
+  {
+   "id": "tc-c1f563a8",
+   "sp": "tc",
+   "text": "glass",
+   "from": "video"
+  },
+  {
+   "id": "tc-1d8a2682",
+   "sp": "tc",
+   "text": "correct",
+   "from": "video"
+  },
+  {
+   "id": "tc-c1d44876",
+   "sp": "tc",
+   "text": "collect",
+   "from": "video"
+  },
+  {
+   "id": "tf-9a2e6e61",
+   "sp": "tf",
+   "text": "right",
+   "from": "video"
+  },
+  {
+   "id": "tf-dbd17c03",
+   "sp": "tf",
+   "text": "light",
+   "from": "video"
+  },
+  {
+   "id": "uf-8741eb28",
+   "sp": "uf",
+   "text": "right",
+   "from": "video"
+  },
+  {
+   "id": "uf-1e31d7fe",
+   "sp": "uf",
+   "text": "light",
+   "from": "video"
+  },
+  {
+   "id": "um-494d35f9",
+   "sp": "um",
+   "text": "right",
+   "from": "video"
+  },
+  {
+   "id": "um-2da108cb",
+   "sp": "um",
+   "text": "light",
+   "from": "video"
+  },
+  {
+   "id": "ko-ed4b60bd",
+   "sp": "ko",
+   "text": "나라",
+   "from": "video"
+  },
+  {
+   "id": "ko-ea0cce29",
+   "sp": "ko",
+   "text": "달라",
+   "from": "video"
+  },
+  {
+   "id": "ko-222e4435",
+   "sp": "ko",
+   "text": "을라이트",
+   "from": "video"
+  },
+  {
+   "id": "tc-471c3682",
+   "sp": "tc",
+   "text": "long",
+   "from": "video"
+  },
+  {
+   "id": "tc-4b0f70db",
+   "sp": "tc",
+   "text": "lock",
+   "from": "video"
+  },
+  {
+   "id": "tc-10e7a918",
+   "sp": "tc",
+   "text": "late",
+   "from": "video"
+  },
+  {
+   "id": "tc-f03b2754",
+   "sp": "tc",
+   "text": "belly",
+   "from": "video"
+  },
+  {
+   "id": "ko-3a23729d",
+   "sp": "ko",
+   "text": "벨리",
+   "from": "video"
+  },
+  {
+   "id": "tc-b9ed2e1c",
+   "sp": "tc",
+   "text": "jelly",
+   "from": "video"
+  },
+  {
+   "id": "ko-44910231",
+   "sp": "ko",
+   "text": "젤리",
+   "from": "video"
+  },
+  {
+   "id": "ko-c284ea11",
+   "sp": "ko",
+   "text": "우라이트",
+   "from": "video"
+  },
+  {
+   "id": "tc-fe4afca5",
+   "sp": "tc",
+   "text": "rock",
+   "from": "video"
+  },
+  {
+   "id": "tc-c2bb64e1",
+   "sp": "tc",
+   "text": "wrong",
+   "from": "video"
+  },
+  {
+   "id": "tc-b24361e6",
+   "sp": "tc",
+   "text": "rate",
+   "from": "video"
+  },
+  {
+   "id": "ko-a2a96b49",
+   "sp": "ko",
+   "text": "리드",
+   "from": "video"
+  },
+  {
+   "id": "ko-898da90c",
+   "sp": "ko",
+   "text": "록",
+   "from": "video"
+  },
+  {
+   "id": "ko-ad8de1b8",
+   "sp": "ko",
+   "text": "롱",
+   "from": "video"
+  },
+  {
+   "id": "tc-1b255399",
+   "sp": "tc",
+   "text": "rice",
+   "from": "video"
+  },
+  {
+   "id": "tc-b79e19cf",
+   "sp": "tc",
+   "text": "lice",
+   "from": "video"
+  },
+  {
+   "id": "ko-2ad2162f",
+   "sp": "ko",
+   "text": "라이스",
+   "from": "video"
+  },
+  {
+   "id": "tc-134f9ae2",
+   "sp": "tc",
+   "text": "road",
+   "from": "video"
+  },
+  {
+   "id": "tc-340acf78",
+   "sp": "tc",
+   "text": "load",
+   "from": "video"
+  },
+  {
+   "id": "ko-5f26a379",
+   "sp": "ko",
+   "text": "로드",
+   "from": "video"
+  },
+  {
+   "id": "ko-0023bd57",
+   "sp": "ko",
+   "text": "레이트",
+   "from": "video"
+  },
+  {
+   "id": "tc-0c0ede70",
+   "sp": "tc",
+   "text": "row",
+   "from": "video"
+  },
+  {
+   "id": "tc-b4c793d6",
+   "sp": "tc",
+   "text": "low",
+   "from": "video"
+  },
+  {
+   "id": "ko-8a8daa9f",
+   "sp": "ko",
+   "text": "로",
+   "from": "video"
+  },
+  {
+   "id": "ko-a2a088d3",
+   "sp": "ko",
+   "text": "글라스",
+   "from": "video"
+  },
+  {
+   "id": "ko-45be1f8f",
+   "sp": "ko",
+   "text": "그래스",
+   "from": "video"
+  },
+  {
+   "id": "tc-03b1e45e",
+   "sp": "tc",
+   "text": "play",
+   "from": "video"
+  },
+  {
+   "id": "ko-d468b7e3",
+   "sp": "ko",
+   "text": "플레이",
+   "from": "video"
+  },
+  {
+   "id": "tc-c4968388",
+   "sp": "tc",
+   "text": "pray",
+   "from": "video"
+  },
+  {
+   "id": "ko-faf1102b",
+   "sp": "ko",
+   "text": "프레이",
+   "from": "video"
+  },
+  {
+   "id": "tc-e4c02d54",
+   "sp": "tc",
+   "text": "berry",
+   "from": "video"
+  },
+  {
+   "id": "ko-5a1c69b5",
+   "sp": "ko",
+   "text": "베리",
+   "from": "video"
+  },
+  {
+   "id": "ko-5bd5da5e",
+   "sp": "ko",
+   "text": "컬렉트",
+   "from": "video"
+  },
+  {
+   "id": "ko-b3a7e176",
+   "sp": "ko",
+   "text": "커렉트",
+   "from": "video"
+  },
+  {
+   "id": "tc-f5dc7ef8",
+   "sp": "tc",
+   "text": "feel",
+   "from": "video"
+  },
+  {
+   "id": "tc-37db8ca8",
+   "sp": "tc",
+   "text": "school",
+   "from": "video"
+  },
+  {
+   "id": "tc-d125d859",
+   "sp": "tc",
+   "text": "ball",
+   "from": "video"
+  },
+  {
+   "id": "ko-a3203767",
+   "sp": "ko",
+   "text": "필",
+   "from": "video"
+  },
+  {
+   "id": "tc-874b699f",
+   "sp": "tc",
+   "text": "milk",
+   "from": "video"
+  },
+  {
+   "id": "tc-36265f9a",
+   "sp": "tc",
+   "text": "film",
+   "from": "video"
+  },
+  {
+   "id": "ko-af40ef59",
+   "sp": "ko",
+   "text": "필름",
+   "from": "video"
+  },
+  {
+   "id": "tc-cc68f897",
+   "sp": "tc",
+   "text": "help",
+   "from": "video"
+  },
+  {
+   "id": "ko-c1729631",
+   "sp": "ko",
+   "text": "헬프",
+   "from": "video"
+  },
+  {
+   "id": "tc-9fd40054",
+   "sp": "tc",
+   "text": "golf",
+   "from": "video"
+  },
+  {
+   "id": "ko-7c4b4225",
+   "sp": "ko",
+   "text": "골프",
+   "from": "video"
+  },
+  {
+   "id": "tc-704d8690",
+   "sp": "tc",
+   "text": "world",
+   "from": "video"
+  },
+  {
+   "id": "tc-0e55b36e",
+   "sp": "tc",
+   "text": "girl",
+   "from": "video"
+  },
+  {
+   "id": "tc-3c7e1af8",
+   "sp": "tc",
+   "text": "pearl",
+   "from": "video"
+  },
+  {
+   "id": "ko-a8e00671",
+   "sp": "ko",
+   "text": "월드",
+   "from": "video"
+  },
+  {
+   "id": "tc-5e6eacbc",
+   "sp": "tc",
+   "text": "word",
+   "from": "video"
+  },
+  {
+   "id": "ko-cc1bec4f",
+   "sp": "ko",
+   "text": "라디오",
+   "from": "video"
+  },
+  {
+   "id": "tc-79889b4f",
+   "sp": "tc",
+   "text": "radio",
+   "from": "video"
+  },
+  {
+   "id": "ko-b41c2448",
+   "sp": "ko",
+   "text": "로봇",
+   "from": "video"
+  },
+  {
+   "id": "tc-8bd95dac",
+   "sp": "tc",
+   "text": "robot",
+   "from": "video"
+  },
+  {
+   "id": "ko-268ea033",
+   "sp": "ko",
+   "text": "룸",
+   "from": "video"
+  },
+  {
+   "id": "tc-18541fef",
+   "sp": "tc",
+   "text": "room",
+   "from": "video"
+  },
+  {
+   "id": "ko-b05b74bd",
+   "sp": "ko",
+   "text": "레몬",
+   "from": "video"
+  },
+  {
+   "id": "tc-4f3edf27",
+   "sp": "tc",
+   "text": "lemon",
+   "from": "video"
+  },
+  {
+   "id": "ko-13e3f685",
+   "sp": "ko",
+   "text": "렌즈",
+   "from": "video"
+  },
+  {
+   "id": "tc-d11959d8",
+   "sp": "tc",
+   "text": "lens",
+   "from": "video"
+  },
+  {
+   "id": "ko-c486fa99",
+   "sp": "ko",
+   "text": "러브",
+   "from": "video"
+  },
+  {
+   "id": "tc-352fa1e4",
+   "sp": "tc",
+   "text": "love",
+   "from": "video"
+  },
+  {
+   "id": "ko-ac5e9471",
+   "sp": "ko",
+   "text": "레벨",
+   "from": "video"
+  },
+  {
+   "id": "tc-8c4135ca",
+   "sp": "tc",
+   "text": "level",
+   "from": "video"
+  },
+  {
+   "id": "ko-f7c650e5",
+   "sp": "ko",
+   "text": "호텔",
+   "from": "video"
+  },
+  {
+   "id": "tc-e1679e76",
+   "sp": "tc",
+   "text": "hotel",
+   "from": "video"
+  },
+  {
+   "id": "ko-8cb30f79",
+   "sp": "ko",
+   "text": "컬러",
+   "from": "video"
+  },
+  {
+   "id": "tc-8159891b",
+   "sp": "tc",
+   "text": "color",
+   "from": "video"
+  },
+  {
+   "id": "ko-08ed3889",
+   "sp": "ko",
+   "text": "헬로",
+   "from": "video"
+  },
+  {
+   "id": "tc-a148b664",
+   "sp": "tc",
+   "text": "hello",
+   "from": "video"
+  },
+  {
+   "id": "ko-a47eaabb",
+   "sp": "ko",
+   "text": "클래스",
+   "from": "video"
+  },
+  {
+   "id": "tc-a7bcf65c",
+   "sp": "tc",
+   "text": "class",
+   "from": "video"
+  },
+  {
+   "id": "ko-19020995",
+   "sp": "ko",
+   "text": "밀크",
+   "from": "video"
+  },
+  {
+   "id": "ko-6ea92d4a",
+   "sp": "ko",
+   "text": "레스토랑",
+   "from": "video"
+  },
+  {
+   "id": "tc-87ba9c43",
+   "sp": "tc",
+   "text": "restaurant",
+   "from": "video"
+  },
+  {
+   "id": "tc-4a9a21b1",
+   "sp": "tc",
+   "text": "Turn right at the light.",
+   "from": "video"
+  },
+  {
+   "id": "tc-f6ccf75b",
+   "sp": "tc",
+   "text": "Please correct my mistakes.",
+   "from": "video"
+  },
+  {
+   "id": "tc-a8c6c600",
+   "sp": "tc",
+   "text": "I collect old coins.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2d9f017f",
+   "sp": "tc",
+   "text": "Can I have a glass of water, please?",
+   "from": "video"
+  },
+  {
+   "id": "tc-2dfd2577",
+   "sp": "tc",
+   "text": "It's a small world.",
+   "from": "video"
+  },
+  {
+   "id": "tc-3136024f",
+   "sp": "tc",
+   "text": "fry",
+   "from": "video"
+  },
+  {
+   "id": "tc-356c2295",
+   "sp": "tc",
+   "text": "fly",
+   "from": "video"
+  },
+  {
+   "id": "ko-e07accef",
+   "sp": "ko",
+   "text": "프라이",
+   "from": "video"
+  },
+  {
+   "id": "tc-a955d07d",
+   "sp": "tc",
+   "text": "crowd",
+   "from": "video"
+  },
+  {
+   "id": "tc-1900727d",
+   "sp": "tc",
+   "text": "cloud",
+   "from": "video"
+  },
+  {
+   "id": "ko-08c7d885",
+   "sp": "ko",
+   "text": "크라우드",
+   "from": "video"
+  },
+  {
+   "id": "tc-8127392a",
+   "sp": "tc",
+   "text": "crime",
+   "from": "video"
+  },
+  {
+   "id": "tc-27937d59",
+   "sp": "tc",
+   "text": "climb",
+   "from": "video"
+  },
+  {
+   "id": "ko-f48e64d7",
+   "sp": "ko",
+   "text": "크라임",
+   "from": "video"
+  },
+  {
+   "id": "tc-6df361e8",
+   "sp": "tc",
+   "text": "brew",
+   "from": "video"
+  },
+  {
+   "id": "tc-82ebc158",
+   "sp": "tc",
+   "text": "blue",
+   "from": "video"
+  },
+  {
+   "id": "ko-781172a5",
+   "sp": "ko",
+   "text": "브루",
+   "from": "video"
+  },
+  {
+   "id": "tc-3d4041e0",
+   "sp": "tc",
+   "text": "fresh",
+   "from": "video"
+  },
+  {
+   "id": "tc-1058600a",
+   "sp": "tc",
+   "text": "flesh",
+   "from": "video"
+  },
+  {
+   "id": "ko-92ed4673",
+   "sp": "ko",
+   "text": "프레시",
+   "from": "video"
+  },
+  {
+   "id": "tc-819f1967",
+   "sp": "tc",
+   "text": "grow",
+   "from": "video"
+  },
+  {
+   "id": "tc-144951a5",
+   "sp": "tc",
+   "text": "glow",
+   "from": "video"
+  },
+  {
+   "id": "ko-54a1e3bd",
+   "sp": "ko",
+   "text": "그로",
+   "from": "video"
+  },
+  {
+   "id": "tc-c215c90b",
+   "sp": "tc",
+   "text": "arrive",
+   "from": "video"
+  },
+  {
+   "id": "tc-79edc2d5",
+   "sp": "tc",
+   "text": "alive",
+   "from": "video"
+  },
+  {
+   "id": "ko-2911e7e9",
+   "sp": "ko",
+   "text": "어라이브",
+   "from": "video"
+  },
+  {
+   "id": "tc-a56f6245",
+   "sp": "tc",
+   "text": "pirate",
+   "from": "video"
+  },
+  {
+   "id": "tc-78faa9b2",
+   "sp": "tc",
+   "text": "pilot",
+   "from": "video"
+  },
+  {
+   "id": "ko-4535bafa",
+   "sp": "ko",
+   "text": "파이럿",
+   "from": "video"
+  },
+  {
+   "id": "tc-1a716838",
+   "sp": "tc",
+   "text": "fire",
+   "from": "video"
+  },
+  {
+   "id": "tc-2e265302",
+   "sp": "tc",
+   "text": "file",
+   "from": "video"
+  },
+  {
+   "id": "ko-fcb65e0f",
+   "sp": "ko",
+   "text": "파이어",
+   "from": "video"
+  },
+  {
+   "id": "tc-9a05c27a",
+   "sp": "tc",
+   "text": "tire",
+   "from": "video"
+  },
+  {
+   "id": "tc-65d85100",
+   "sp": "tc",
+   "text": "tile",
+   "from": "video"
+  },
+  {
+   "id": "ko-939102ab",
+   "sp": "ko",
+   "text": "타이어",
+   "from": "video"
+  },
+  {
+   "id": "ko-c48351c7",
+   "sp": "ko",
+   "text": "플라이",
+   "from": "video"
+  },
+  {
+   "id": "ko-66a1641d",
+   "sp": "ko",
+   "text": "클라우드",
+   "from": "video"
+  },
+  {
+   "id": "ko-38faa42f",
+   "sp": "ko",
+   "text": "클라임",
+   "from": "video"
+  },
+  {
+   "id": "ko-98df3a4d",
+   "sp": "ko",
+   "text": "블루",
+   "from": "video"
+  },
+  {
+   "id": "ko-3c713a9b",
+   "sp": "ko",
+   "text": "플레시",
+   "from": "video"
+  },
+  {
+   "id": "ko-0b0fc405",
+   "sp": "ko",
+   "text": "글로",
+   "from": "video"
+  },
+  {
+   "id": "ko-c350fc21",
+   "sp": "ko",
+   "text": "얼라이브",
+   "from": "video"
+  },
+  {
+   "id": "ko-45498e42",
+   "sp": "ko",
+   "text": "파일럿",
+   "from": "video"
+  },
+  {
+   "id": "ko-70bfb0bd",
+   "sp": "ko",
+   "text": "스쿨",
+   "from": "video"
+  },
+  {
+   "id": "ko-2a94f27f",
+   "sp": "ko",
+   "text": "볼",
+   "from": "video"
+  },
+  {
+   "id": "tc-98ae9c77",
+   "sp": "tc",
+   "text": "people",
+   "from": "video"
+  },
+  {
+   "id": "ko-d4dd0e49",
+   "sp": "ko",
+   "text": "피플",
+   "from": "video"
+  },
+  {
+   "id": "ko-a6ad52b3",
+   "sp": "ko",
+   "text": "걸",
+   "from": "video"
+  },
+  {
+   "id": "ko-e3172a27",
+   "sp": "ko",
+   "text": "펄",
+   "from": "video"
+  },
+  {
+   "id": "tc-055d80b6",
+   "sp": "tc",
+   "text": "Could you read it out loud?",
+   "from": "video"
+  },
+  {
+   "id": "tc-10c3a2f6",
+   "sp": "tc",
+   "text": "She will lead the team.",
+   "from": "video"
+  },
+  {
+   "id": "tc-96ea19a9",
+   "sp": "tc",
+   "text": "The road is long.",
+   "from": "video"
+  },
+  {
+   "id": "tc-9929cbe9",
+   "sp": "tc",
+   "text": "Is this the right room?",
+   "from": "video"
+  },
+  {
+   "id": "tc-9f97fe62",
+   "sp": "tc",
+   "text": "I'm late. Let's run!",
+   "from": "video"
+  },
+  {
+   "id": "tc-10cf597f",
+   "sp": "tc",
+   "text": "Rice, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-299c2cab",
+   "sp": "tc",
+   "text": "Please keep off the grass.",
+   "from": "video"
+  },
+  {
+   "id": "tc-bce598fe",
+   "sp": "tc",
+   "text": "We fly to Paris tomorrow.",
+   "from": "video"
+  },
+  {
+   "id": "tc-7983eb49",
+   "sp": "tc",
+   "text": "Can you fry an egg?",
+   "from": "video"
+  },
+  {
+   "id": "tc-89b9e6e0",
+   "sp": "tc",
+   "text": "Let's play a game.",
+   "from": "video"
+  },
+  {
+   "id": "tc-ecca4c98",
+   "sp": "tc",
+   "text": "The sky is clear and blue.",
+   "from": "video"
+  },
+  {
+   "id": "tc-54fae08f",
+   "sp": "tc",
+   "text": "I love fresh bread.",
+   "from": "video"
+  },
+  {
+   "id": "tc-e382420e",
+   "sp": "tc",
+   "text": "When did you arrive?",
+   "from": "video"
+  },
+  {
+   "id": "tc-1bc303c8",
+   "sp": "tc",
+   "text": "The fish is still alive.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2cabc0e6",
+   "sp": "tc",
+   "text": "The pilot flew the plane.",
+   "from": "video"
+  },
+  {
+   "id": "tc-6b0f7e8e",
+   "sp": "tc",
+   "text": "Hello! I'm really glad to meet you.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2a59caab",
+   "sp": "tc",
+   "text": "My belly is full.",
+   "from": "video"
+  },
+  {
+   "id": "tc-84c471fe",
+   "sp": "tc",
+   "text": "I feel great.",
+   "from": "video"
+  },
+  {
+   "id": "tc-96e1aac7",
+   "sp": "tc",
+   "text": "I'd like a little milk.",
+   "from": "video"
+  },
+  {
+   "id": "tc-dbfa2198",
+   "sp": "tc",
+   "text": "The school is near the hotel.",
+   "from": "video"
+  },
+  {
+   "id": "tc-077ab289",
+   "sp": "tc",
+   "text": "I'll call you later.",
+   "from": "video"
+  },
+  {
+   "id": "tc-c0ed0536",
+   "sp": "tc",
+   "text": "My girlfriend is from Seoul.",
+   "from": "video"
+  },
+  {
+   "id": "tc-921c2b06",
+   "sp": "tc",
+   "text": "People love the film.",
+   "from": "video"
+  },
+  {
+   "id": "tf-2b418fb9",
+   "sp": "tf",
+   "text": "read",
+   "from": "lab"
+  },
+  {
+   "id": "tf-a26df4cb",
+   "sp": "tf",
+   "text": "lead",
+   "from": "lab"
+  },
+  {
+   "id": "uf-2cafb822",
+   "sp": "uf",
+   "text": "read",
+   "from": "lab"
+  },
+  {
+   "id": "uf-0d6eb078",
+   "sp": "uf",
+   "text": "lead",
+   "from": "lab"
+  },
+  {
+   "id": "um-95b71461",
+   "sp": "um",
+   "text": "read",
+   "from": "lab"
+  },
+  {
+   "id": "um-be176363",
+   "sp": "um",
+   "text": "lead",
+   "from": "lab"
+  },
+  {
+   "id": "tf-8c02c110",
+   "sp": "tf",
+   "text": "rock",
+   "from": "lab"
+  },
+  {
+   "id": "tf-770db4b6",
+   "sp": "tf",
+   "text": "lock",
+   "from": "lab"
+  },
+  {
+   "id": "uf-824d476b",
+   "sp": "uf",
+   "text": "rock",
+   "from": "lab"
+  },
+  {
+   "id": "uf-ba708815",
+   "sp": "uf",
+   "text": "lock",
+   "from": "lab"
+  },
+  {
+   "id": "um-d949f9f8",
+   "sp": "um",
+   "text": "rock",
+   "from": "lab"
+  },
+  {
+   "id": "um-50843bae",
+   "sp": "um",
+   "text": "lock",
+   "from": "lab"
+  },
+  {
+   "id": "tf-2a90a902",
+   "sp": "tf",
+   "text": "wrong",
+   "from": "lab"
+  },
+  {
+   "id": "tf-63296bb7",
+   "sp": "tf",
+   "text": "long",
+   "from": "lab"
+  },
+  {
+   "id": "uf-62b0fa27",
+   "sp": "uf",
+   "text": "wrong",
+   "from": "lab"
+  },
+  {
+   "id": "uf-be7d5a54",
+   "sp": "uf",
+   "text": "long",
+   "from": "lab"
+  },
+  {
+   "id": "um-5dc0b8da",
+   "sp": "um",
+   "text": "wrong",
+   "from": "lab"
+  },
+  {
+   "id": "um-4c77696f",
+   "sp": "um",
+   "text": "long",
+   "from": "lab"
+  },
+  {
+   "id": "tf-670896ff",
+   "sp": "tf",
+   "text": "road",
+   "from": "lab"
+  },
+  {
+   "id": "tf-760935f5",
+   "sp": "tf",
+   "text": "load",
+   "from": "lab"
+  },
+  {
+   "id": "uf-ab4777c8",
+   "sp": "uf",
+   "text": "road",
+   "from": "lab"
+  },
+  {
+   "id": "uf-8f765492",
+   "sp": "uf",
+   "text": "load",
+   "from": "lab"
+  },
+  {
+   "id": "um-e44e8877",
+   "sp": "um",
+   "text": "road",
+   "from": "lab"
+  },
+  {
+   "id": "um-3f7fa3bd",
+   "sp": "um",
+   "text": "load",
+   "from": "lab"
+  },
+  {
+   "id": "tf-fa7ff6fc",
+   "sp": "tf",
+   "text": "rice",
+   "from": "lab"
+  },
+  {
+   "id": "tf-e0903fd2",
+   "sp": "tf",
+   "text": "lice",
+   "from": "lab"
+  },
+  {
+   "id": "uf-f0b6f59f",
+   "sp": "uf",
+   "text": "rice",
+   "from": "lab"
+  },
+  {
+   "id": "uf-d74c7209",
+   "sp": "uf",
+   "text": "lice",
+   "from": "lab"
+  },
+  {
+   "id": "um-77c77b74",
+   "sp": "um",
+   "text": "rice",
+   "from": "lab"
+  },
+  {
+   "id": "um-ec817b5a",
+   "sp": "um",
+   "text": "lice",
+   "from": "lab"
+  },
+  {
+   "id": "tf-8149bd0b",
+   "sp": "tf",
+   "text": "rate",
+   "from": "lab"
+  },
+  {
+   "id": "tf-79d5b6ad",
+   "sp": "tf",
+   "text": "late",
+   "from": "lab"
+  },
+  {
+   "id": "uf-87d63288",
+   "sp": "uf",
+   "text": "rate",
+   "from": "lab"
+  },
+  {
+   "id": "uf-70953776",
+   "sp": "uf",
+   "text": "late",
+   "from": "lab"
+  },
+  {
+   "id": "um-aed8a9b3",
+   "sp": "um",
+   "text": "rate",
+   "from": "lab"
+  },
+  {
+   "id": "um-557ec085",
+   "sp": "um",
+   "text": "late",
+   "from": "lab"
+  },
+  {
+   "id": "tf-6ab311f7",
+   "sp": "tf",
+   "text": "row",
+   "from": "lab"
+  },
+  {
+   "id": "tf-9a34e1d5",
+   "sp": "tf",
+   "text": "low",
+   "from": "lab"
+  },
+  {
+   "id": "uf-03f68a26",
+   "sp": "uf",
+   "text": "row",
+   "from": "lab"
+  },
+  {
+   "id": "uf-f813d960",
+   "sp": "uf",
+   "text": "low",
+   "from": "lab"
+  },
+  {
+   "id": "um-d550265f",
+   "sp": "um",
+   "text": "row",
+   "from": "lab"
+  },
+  {
+   "id": "um-57f279ad",
+   "sp": "um",
+   "text": "low",
+   "from": "lab"
+  },
+  {
+   "id": "tf-e1c4ec11",
+   "sp": "tf",
+   "text": "grass",
+   "from": "lab"
+  },
+  {
+   "id": "tf-de8d0ad7",
+   "sp": "tf",
+   "text": "glass",
+   "from": "lab"
+  },
+  {
+   "id": "uf-bdcc9018",
+   "sp": "uf",
+   "text": "grass",
+   "from": "lab"
+  },
+  {
+   "id": "uf-e94b5c7e",
+   "sp": "uf",
+   "text": "glass",
+   "from": "lab"
+  },
+  {
+   "id": "um-4c951549",
+   "sp": "um",
+   "text": "grass",
+   "from": "lab"
+  },
+  {
+   "id": "um-ebd26f1f",
+   "sp": "um",
+   "text": "glass",
+   "from": "lab"
+  },
+  {
+   "id": "tf-e6c6c59c",
+   "sp": "tf",
+   "text": "fry",
+   "from": "lab"
+  },
+  {
+   "id": "tf-e27b8a9e",
+   "sp": "tf",
+   "text": "fly",
+   "from": "lab"
+  },
+  {
+   "id": "uf-8bdd3111",
+   "sp": "uf",
+   "text": "fry",
+   "from": "lab"
+  },
+  {
+   "id": "uf-880a4a63",
+   "sp": "uf",
+   "text": "fly",
+   "from": "lab"
+  },
+  {
+   "id": "um-c6900344",
+   "sp": "um",
+   "text": "fry",
+   "from": "lab"
+  },
+  {
+   "id": "um-c26d6ab6",
+   "sp": "um",
+   "text": "fly",
+   "from": "lab"
+  },
+  {
+   "id": "tf-b83d83b5",
+   "sp": "tf",
+   "text": "pray",
+   "from": "lab"
+  },
+  {
+   "id": "tf-0d434b2f",
+   "sp": "tf",
+   "text": "play",
+   "from": "lab"
+  },
+  {
+   "id": "uf-9c4572b2",
+   "sp": "uf",
+   "text": "pray",
+   "from": "lab"
+  },
+  {
+   "id": "uf-264b9064",
+   "sp": "uf",
+   "text": "play",
+   "from": "lab"
+  },
+  {
+   "id": "um-f52d25cd",
+   "sp": "um",
+   "text": "pray",
+   "from": "lab"
+  },
+  {
+   "id": "um-16238697",
+   "sp": "um",
+   "text": "play",
+   "from": "lab"
+  },
+  {
+   "id": "tf-7e018b52",
+   "sp": "tf",
+   "text": "crowd",
+   "from": "lab"
+  },
+  {
+   "id": "tf-bdad6eda",
+   "sp": "tf",
+   "text": "cloud",
+   "from": "lab"
+  },
+  {
+   "id": "uf-238a2a1f",
+   "sp": "uf",
+   "text": "crowd",
+   "from": "lab"
+  },
+  {
+   "id": "uf-6c2210bf",
+   "sp": "uf",
+   "text": "cloud",
+   "from": "lab"
+  },
+  {
+   "id": "um-c052313a",
+   "sp": "um",
+   "text": "crowd",
+   "from": "lab"
+  },
+  {
+   "id": "um-2300e712",
+   "sp": "um",
+   "text": "cloud",
+   "from": "lab"
+  },
+  {
+   "id": "tf-88034c81",
+   "sp": "tf",
+   "text": "crime",
+   "from": "lab"
+  },
+  {
+   "id": "tf-3563be56",
+   "sp": "tf",
+   "text": "climb",
+   "from": "lab"
+  },
+  {
+   "id": "uf-66c7c65c",
+   "sp": "uf",
+   "text": "crime",
+   "from": "lab"
+  },
+  {
+   "id": "uf-733d651b",
+   "sp": "uf",
+   "text": "climb",
+   "from": "lab"
+  },
+  {
+   "id": "um-6a2dded9",
+   "sp": "um",
+   "text": "crime",
+   "from": "lab"
+  },
+  {
+   "id": "um-bae00b5e",
+   "sp": "um",
+   "text": "climb",
+   "from": "lab"
+  },
+  {
+   "id": "tf-c7f83ae9",
+   "sp": "tf",
+   "text": "brew",
+   "from": "lab"
+  },
+  {
+   "id": "tf-2c553a79",
+   "sp": "tf",
+   "text": "blue",
+   "from": "lab"
+  },
+  {
+   "id": "uf-d2cc76d2",
+   "sp": "uf",
+   "text": "brew",
+   "from": "lab"
+  },
+  {
+   "id": "uf-99bfc9fa",
+   "sp": "uf",
+   "text": "blue",
+   "from": "lab"
+  },
+  {
+   "id": "um-19dc5971",
+   "sp": "um",
+   "text": "brew",
+   "from": "lab"
+  },
+  {
+   "id": "um-4bb545b1",
+   "sp": "um",
+   "text": "blue",
+   "from": "lab"
+  },
+  {
+   "id": "tf-5c4ab6fb",
+   "sp": "tf",
+   "text": "fresh",
+   "from": "lab"
+  },
+  {
+   "id": "tf-63da1751",
+   "sp": "tf",
+   "text": "flesh",
+   "from": "lab"
+  },
+  {
+   "id": "uf-cefa036e",
+   "sp": "uf",
+   "text": "fresh",
+   "from": "lab"
+  },
+  {
+   "id": "uf-0595114c",
+   "sp": "uf",
+   "text": "flesh",
+   "from": "lab"
+  },
+  {
+   "id": "um-578ffd23",
+   "sp": "um",
+   "text": "fresh",
+   "from": "lab"
+  },
+  {
+   "id": "um-92c3b949",
+   "sp": "um",
+   "text": "flesh",
+   "from": "lab"
+  },
+  {
+   "id": "tf-54454f26",
+   "sp": "tf",
+   "text": "grow",
+   "from": "lab"
+  },
+  {
+   "id": "tf-48629e60",
+   "sp": "tf",
+   "text": "glow",
+   "from": "lab"
+  },
+  {
+   "id": "uf-fb9ef9d5",
+   "sp": "uf",
+   "text": "grow",
+   "from": "lab"
+  },
+  {
+   "id": "uf-cc1d29f7",
+   "sp": "uf",
+   "text": "glow",
+   "from": "lab"
+  },
+  {
+   "id": "um-2189f8fe",
+   "sp": "um",
+   "text": "grow",
+   "from": "lab"
+  },
+  {
+   "id": "um-e3c298a8",
+   "sp": "um",
+   "text": "glow",
+   "from": "lab"
+  },
+  {
+   "id": "tf-5b5cb5a5",
+   "sp": "tf",
+   "text": "correct",
+   "from": "lab"
+  },
+  {
+   "id": "tf-7bc3d5e5",
+   "sp": "tf",
+   "text": "collect",
+   "from": "lab"
+  },
+  {
+   "id": "uf-43e19e18",
+   "sp": "uf",
+   "text": "correct",
+   "from": "lab"
+  },
+  {
+   "id": "uf-517cfbdc",
+   "sp": "uf",
+   "text": "collect",
+   "from": "lab"
+  },
+  {
+   "id": "um-33f07e4d",
+   "sp": "um",
+   "text": "correct",
+   "from": "lab"
+  },
+  {
+   "id": "um-4184560d",
+   "sp": "um",
+   "text": "collect",
+   "from": "lab"
+  },
+  {
+   "id": "tf-0fe87453",
+   "sp": "tf",
+   "text": "berry",
+   "from": "lab"
+  },
+  {
+   "id": "tf-534d7d27",
+   "sp": "tf",
+   "text": "belly",
+   "from": "lab"
+  },
+  {
+   "id": "uf-b509bdea",
+   "sp": "uf",
+   "text": "berry",
+   "from": "lab"
+  },
+  {
+   "id": "uf-12657caa",
+   "sp": "uf",
+   "text": "belly",
+   "from": "lab"
+  },
+  {
+   "id": "um-6ae550db",
+   "sp": "um",
+   "text": "berry",
+   "from": "lab"
+  },
+  {
+   "id": "um-1be04d2f",
+   "sp": "um",
+   "text": "belly",
+   "from": "lab"
+  },
+  {
+   "id": "tf-e3a82772",
+   "sp": "tf",
+   "text": "arrive",
+   "from": "lab"
+  },
+  {
+   "id": "tf-6fc8ffca",
+   "sp": "tf",
+   "text": "alive",
+   "from": "lab"
+  },
+  {
+   "id": "uf-06b9d93d",
+   "sp": "uf",
+   "text": "arrive",
+   "from": "lab"
+  },
+  {
+   "id": "uf-45a0f313",
+   "sp": "uf",
+   "text": "alive",
+   "from": "lab"
+  },
+  {
+   "id": "um-0c8ca28a",
+   "sp": "um",
+   "text": "arrive",
+   "from": "lab"
+  },
+  {
+   "id": "um-60d52862",
+   "sp": "um",
+   "text": "alive",
+   "from": "lab"
+  },
+  {
+   "id": "tf-5a8cc384",
+   "sp": "tf",
+   "text": "pirate",
+   "from": "lab"
+  },
+  {
+   "id": "tf-6fafd0b5",
+   "sp": "tf",
+   "text": "pilot",
+   "from": "lab"
+  },
+  {
+   "id": "uf-82ecaef7",
+   "sp": "uf",
+   "text": "pirate",
+   "from": "lab"
+  },
+  {
+   "id": "uf-8c36b398",
+   "sp": "uf",
+   "text": "pilot",
+   "from": "lab"
+  },
+  {
+   "id": "um-87f4d4dc",
+   "sp": "um",
+   "text": "pirate",
+   "from": "lab"
+  },
+  {
+   "id": "um-27691c7d",
+   "sp": "um",
+   "text": "pilot",
+   "from": "lab"
+  },
+  {
+   "id": "tf-cbaf43ad",
+   "sp": "tf",
+   "text": "fire",
+   "from": "lab"
+  },
+  {
+   "id": "tf-9765501f",
+   "sp": "tf",
+   "text": "file",
+   "from": "lab"
+  },
+  {
+   "id": "uf-5ce5bede",
+   "sp": "uf",
+   "text": "fire",
+   "from": "lab"
+  },
+  {
+   "id": "uf-68cc39dc",
+   "sp": "uf",
+   "text": "file",
+   "from": "lab"
+  },
+  {
+   "id": "um-0d4b62e5",
+   "sp": "um",
+   "text": "fire",
+   "from": "lab"
+  },
+  {
+   "id": "um-392915e7",
+   "sp": "um",
+   "text": "file",
+   "from": "lab"
+  },
+  {
+   "id": "tf-44f86467",
+   "sp": "tf",
+   "text": "tire",
+   "from": "lab"
+  },
+  {
+   "id": "tf-191ab165",
+   "sp": "tf",
+   "text": "tile",
+   "from": "lab"
+  },
+  {
+   "id": "uf-6bc8f6dc",
+   "sp": "uf",
+   "text": "tire",
+   "from": "lab"
+  },
+  {
+   "id": "uf-5fe27bde",
+   "sp": "uf",
+   "text": "tile",
+   "from": "lab"
+  },
+  {
+   "id": "um-68f2cf1f",
+   "sp": "um",
+   "text": "tire",
+   "from": "lab"
+  },
+  {
+   "id": "um-9d3cc2ad",
+   "sp": "um",
+   "text": "tile",
+   "from": "lab"
+  },
+  {
+   "id": "tf-82b7c1cd",
+   "sp": "tf",
+   "text": "Don't step on the glass.",
+   "from": "drill"
+  },
+  {
+   "id": "um-4b78c3d1",
+   "sp": "um",
+   "text": "Can you collect it for me?",
+   "from": "drill"
+  },
+  {
+   "id": "um-7910c297",
+   "sp": "um",
+   "text": "world",
+   "from": "drill"
+  },
+  {
+   "id": "um-9fd9f9a1",
+   "sp": "um",
+   "text": "word",
+   "from": "drill"
+  },
+  {
+   "id": "uf-8284eb92",
+   "sp": "uf",
+   "text": "I saw the pirate.",
+   "from": "drill"
+  },
+  {
+   "id": "tc-0d084e29",
+   "sp": "tc",
+   "text": "They pray every morning.",
+   "from": "drill"
+  },
+  {
+   "id": "tf-9e69c1c9",
+   "sp": "tf",
+   "text": "word",
+   "from": "drill"
+  },
+  {
+   "id": "tf-fd8f51df",
+   "sp": "tf",
+   "text": "world",
+   "from": "drill"
+  }
+ ]
+}

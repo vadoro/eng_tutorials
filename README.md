@@ -37,6 +37,7 @@
 | 상황별 영어 회화 | [은행 · 환전 · 휴대폰, 서류는 내밀고 숫자는 끊어 말한다](bank/) | 6:37 · 12장면 | 교환학생의 첫 며칠 — 환전 창구 → 휴대폰 가게 → 은행 창구. 세 곳 모두 내가 먼저 용건을 부탁 틀로(I'd like to change 300,000 won into US dollars, please. · I'd like to open a bank account, please. — Change this into dollars.는 명령처럼 들림), 그다음 정해진 질문에는 서류와 숫자로 답하기: 서류는 내밀면서(I have passport. × → Sure. Here's my passport.), 없으면 사실 + 부탁(No, I don't. Would a letter from my university work?). 큰 금액은 세 자리씩(Thirty man won? × → three hundred thousand won), 받을 달러는 되짚기(So, that's $240? — forty와 fourteen), 새 전화번호는 묶음으로 한 자리씩 되짚어 두었다가 은행 서류에 다시 쓰기(So, it's 555-0147? — 0은 oh). 주소는 조각으로 한 줄, 작은 곳에서 큰 곳으로(It's Room 412, Maple Hall, 200 College Avenue, Kellport, 40213. — 한국식 차례 · College Avenue 200 ×, 틀린 조각만 직원이 다시 물음). 고르는 질문(Prepaid or monthly? · Checking or savings? · Large bills or small bills?)에 Yes ×, Yes/No 질문은 첫 낱말이 짝을 정함(Is it → it is · Are you → I am · Do you → I do), 비밀번호는 말하지 않고 누르기, 콩글리시(open my phone · USIM card · data free · During six months · bankbook · dormitory paper · I'll do my sign · check card), 은행 · 휴대폰 시뮬레이터(내 카드, 상대가 말한 받을 달러 · 요금 · 새 번호를 듣고 쓰기, 주소 조각 칩, 끝은 영수증), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기. 은행 이름 · 환율 · 요금 · 주소 · 전화번호는 지어낸 예시 |
 | 상황별 영어 회화 | [교환학생 생활, 부탁은 질문으로 · 문제는 사실부터](campus/) | 6:56 · 12장면 | 교환학생의 첫 주 — 수업 등록 창구 → 정원 · 대기 명단 → 수업 뒤 교수에게 → 교수 면담 → 마감 연장 → 기숙사 사무실 → RA. 내가 먼저 말을 꺼내는 곳이 많아 부탁은 질문으로(I'd like to register for English 210, please. · Could you put me on the waitlist, please? — I want to apply English 210. · Just put me in the class. ×), 문제는 사실부터 + 부탁(I'm having trouble with the readings. Could you give me some advice? · The heater in my room isn't working. Could you send someone to look at it? — 사실만 말하면 ②, Fix my heater.는 ③). 교수님은 Teacher가 아니라 Professor Hale, 마감 연장은 조각으로 한 줄(부르는 말 → 까닭 → 부탁 틀 → 바라는 것: Professor Hale, I was sick this week. Would it be possible to get a two-day extension on my essay? — 틀린 조각만 교수가 다시 말함, 날수까지 말하면 ‘며칠 더’를 건너뜀). 대기 번호 · 면담 시간 · 새 마감 · 수리 시간은 되짚기(So, I'm number 13? — thirteen과 thirty · So, Tuesdays and Thursdays, in Room 318? · So, by Sunday at midnight?), 과목 · 방 번호는 두 묶음으로(210 → two-ten · 214 → two-fourteen). 고르는 질문(the morning section or the afternoon section? · the vocabulary or the main ideas?)에 Yes ×, Yes/No 질문은 첫 낱말이 짝을 정함(Have you → I have · Is it → it is), 콩글리시(apply · Teacher · office time · reservation · report · During two days · boiler · Here is too noisy), 교환학생 시뮬레이터(내 카드, 상대가 말한 번호 · 요일 · 시간을 듣고 되짚기, 부탁 한 줄 조각 칩, 끝은 학기 첫 주 정리표), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기. 대학 · 교수 · 기숙사 이름 · 과목 번호 · 면담 시간 · 방 번호는 지어낸 예시, 실제 절차는 학교마다 다름 |
 | 상황별 영어 회화 | [전화 영어, 철자는 as in · 숫자는 되짚기](phone/) | 7:00 · 12장면 | 전화 세 통 — 식당 예약(예약 → 시간 맞추기 → 이름 철자) → 스포츠 센터(문의 → 메시지 → 전화번호) → 코치의 전화(받기 → 준비물 되짚기 → 끝인사). 얼굴이 보이지 않아 듣기만으로 주고받으니 첫마디에 용건을 부탁 틀로(Hi, I'd like to make a reservation for Friday, please. · Hi, I'm calling to ask about your swimming lessons. — I want to reserve Friday. · I want to inquiry … ×, Give me a table …는 ③), 이름 철자는 글자 + as in(Sure. It's H-A-N, N as in Nancy. — M · N, B · P, F · S는 전화에서 헷갈림), 잘못 되짚은 철자 · 번호는 바로잡기(Was that M as in Mary? → No, N as in Nancy. · 555-0193. Is that right? → No, it isn't. It's 555-0139. — Yes, that's right.로 넘기면 ②, 짝이 다른 No, it wasn't.도 ②). 메시지는 조각으로 한 줄(누구 → 무슨 일 → 부탁 → 번호: This is Jiwoo Han. I'm calling about the beginner swimming class. Could you ask him to call me back at 555-0139? — Here is ×, Tell him to call me back은 ③, 빠진 조각은 받아 적는 사람이 다시 물음, 번호까지 말하면 ‘가장 좋은 번호’를 건너뜀). 빈 시각 · 수업 안내 · 준비물은 되짚기(So, 8:15? — fifteen과 fifty · So, Tuesdays and Thursdays from 6 to 7, $40 a month? · So, a swimsuit and goggles on Tuesday?), 전화번호는 하나씩(555-0139 → five-five-five, oh-one-three-nine). 고르는 질문(Is that for lunch or dinner? · the beginner class or the intermediate class?)에 Yes ×, Yes/No 질문은 첫 낱말이 짝을 정함(Is this → it is · Was that → it was), 소리가 끊기면 Sorry, you're breaking up., 콩글리시(reserve Friday · We are four · What time is possible · Name is Han · inquiry · Please leave a message · Here is · handphone), 전화 시뮬레이터(내 카드, 상대가 말한 시각 · 요일 · 값을 듣고 되짚기, 메시지 한 줄 조각 칩, 얼굴 대신 전화기 그림, 끝은 통화 메모 + 준비물 카드), 따라 말하기(음성 인식 · 녹음), 듣고 대답 고르기. 식당 · 센터 · 사람 이름 · 시간과 값 · 전화번호(555-01XX)는 지어낸 예시 |
+| 영어 발음 (미국식) | [r · l, 혀끝이 닿느냐 마느냐](r-and-l/) | 7:26 · 11장면 | 한국어로 적으면 둘 다 ‘라이트’인 right · light. 한국어에는 ㄹ이 하나뿐이라 영어의 두 소리가 하나로 합쳐져요. 열쇠는 혀끝 — l 소리는 혀끝을 윗잇몸에 대고(달라의 ㄹㄹ과 가까움), r 소리는 혀끝을 어디에도 대지 않고 입술을 조금 둥글게. 입 옆 단면도(혀가 입천장에 닿는지를 그림에서 계산), 3단계 발음법(① 듣고 가르기 → ② 입 모양 만들기 → ③ 낱말 · 문장 속에서), 낱말 속 자리마다 조심할 점(처음 right · light · 묶음 grass · glass · 가운데 berry · belly · 끝의 어두운 l feel · milk · world), 외래어 표기의 함정(글라스 = glass · 그래스 = grass, 밀크 · 월드의 으 빼기, 라디오 · 레몬의 처음 ㄹ), 문장 속 r · l. 듣고 가르기 훈련(짝 스물두 쌍 × 목소리 넷, 자리 × 목소리별 기록), 내 발음 확인(음성 인식의 후보 글을 짝 낱말과 맞춤), 따라 말하기 28, 듣고 고르기 16. 근거로 삼은 연구는 페이지 각주 |
 
 모든 튜토리얼에 자막과 음성 해설(한국어는 한국어 음성, 영어는 영어 음성), 발음 듣기, 장면별 ‘직접 해 보기’, 놀이터, 연습 문제, 퀴즈, 핵심 정리가 있습니다.
 
@@ -51,7 +52,8 @@
 
 1. **토익** — 자주 틀리는 유형 100개를 21개 카테고리, 튜토리얼 17개로 정리하고([docs/toeic-100-types.md](docs/toeic-100-types.md)) 17개를 모두 만들었어요. 문법 Part 5·6(T01–T14), 듣기 Part 1–4(T15–T16), 독해 Part 7(T17)이에요. 남은 일은 우리 학생들의 실제 오답으로 순서와 문제를 다듬는 것이에요(문서의 ‘다음 단계’).
 2. **상황별 영어 회화** — 공항(시범) · 카페 · 호텔 · 식당 · 길 묻기 · 쇼핑 · 대중교통 · 약국 · 병원 · 은행 · 환전 · 휴대폰 · 교환학생 생활 · 전화 튜토리얼을 만들었고, 같은 형식으로 다른 상황으로 넓혀요. 곳마다 거의 정해진 질문을 열쇠 낱말로 잡고 짧은 대답 틀로 답하며, 듣고 따라 말하며 연습합니다.
-3. **새 영역** — 필요할 때마다 `assets/catalog.js`의 `tracks`에 영역을 더해 넓혀 갑니다.
+3. **영어 발음 (미국식)** — 한국어 화자가 자주 틀리는 미국식 발음 유형 22개를 튜토리얼 12개로 정리하고([docs/pron-types.md](docs/pron-types.md)) 시범 편 r · l(P04)을 만들었어요. 입 옆 단면도(`shared/mouth.js`), 여러 목소리로 듣고 가르기 훈련, 음성 인식으로 내 발음 확인을 다음 꼭지들이 함께 써요.
+4. **새 영역** — 필요할 때마다 `assets/catalog.js`의 `tracks`에 영역을 더해 넓혀 갑니다.
 
 ## 구조
 
@@ -65,10 +67,11 @@ assets/favicon.svg      파비콘
 shared/narration.js     공통 부품: 음성 해설(한·영 나눠 읽기) + 발음 듣기 (EN.narration, EN.say)
 shared/drill.js         공통 부품: 토익 Part 5 연습 문제, 단계별 힌트 (EN.drill)
 shared/quiz.js          공통 부품: 퀴즈 (EN.quiz)
+shared/mouth.js         공통 부품: 입 옆 단면도 — 혀 · 입술 · 턱 자세와 혀가 입천장에 닿는지 계산 (EN.mouth, 영어 발음 영역)
 shared/components.css   공통 부품 모양
 tools/render-video.cjs  어느 튜토리얼이든 MP4 · 자막 원고 · 미리보기 그림으로 내보내기
 tools/narration-pieces.cjs · tools/voicestudio-narration.py  음성 해설을 미리 만든 목소리(VoiceStudio)로 읽게 하기 (CLAUDE.md의 EN.narration)
-tools/dialogue-lines.cjs · tools/voicestudio-dialogue.py      대화를 말하는 사람마다 미리 만든 목소리(VoiceStudio)로 읽게 하기 (지금은 회화 열하나와 토익 듣기 T15 · T16)
+tools/dialogue-lines.cjs · tools/voicestudio-dialogue.py      대화를 말하는 사람마다 미리 만든 목소리(VoiceStudio)로 읽게 하기 (지금은 회화 열하나 · 토익 듣기 T15 · T16 · 발음 r · l)
 relative-pronouns/      관계대명사, 빈자리를 찾아라 (토익 문법 T01)
 parts-of-speech/        빈칸의 자리가 품사를 정한다 (토익 문법 T02)
 verb-agreement-voice/   주어가 수를, 목적어가 태를 정한다 (토익 문법 T03)
@@ -97,7 +100,9 @@ pharmacy/               약국 · 병원, 증상은 사실 + 부탁, 복용법�
 bank/                   은행 · 환전 · 휴대폰, 서류는 내밀고 숫자는 끊어 말한다 (상황별 영어 회화 · 은행 · 환전 · 휴대폰)
 campus/                 교환학생 생활, 부탁은 질문으로 · 문제는 사실부터 (상황별 영어 회화 · 교환학생 생활)
 phone/                  전화 영어, 철자는 as in · 숫자는 되짚기 (상황별 영어 회화 · 전화 예약 · 문의)
+r-and-l/                r · l, 혀끝이 닿느냐 마느냐 (영어 발음 · 미국식, P04)
 docs/toeic-100-types.md 토익에서 자주 틀리는 100개 유형, 21개 카테고리, 튜토리얼 17개 계획
+docs/pron-types.md      한국어 화자가 자주 틀리는 미국식 발음 유형 22개, 튜토리얼 12개(P01–P12) 계획과 근거 연구
 CLAUDE.md               새 튜토리얼을 만들 때 지킬 규칙과 확인 목록
 ```
 

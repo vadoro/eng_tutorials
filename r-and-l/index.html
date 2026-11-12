@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>r · l, 혀끝이 닿느냐 마느냐 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="영어 발음(미국식) 튜토리얼: r · l. 한국어로 적으면 둘 다 ‘라이트’인 right와 light를 가르는 열쇠는 혀끝이에요. l 소리는 혀끝을 윗잇몸에 대고, r 소리는 혀끝을 어디에도 대지 않아요. 입 옆 단면도로 혀를 보고, 목소리 넷으로 짝 낱말을 듣고 가르고, 음성 인식으로 내 발음을 확인하고, 낱말 속 자리(처음 · 묶음 · 가운데 · 끝)마다 조심할 점과 외래어 표기의 함정을 익혀요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): r 소리 노랑 · l 소리 하늘 · 한국어식 함정 주황 · 넣은 으 분홍 점선 */
+  --c-r:#A86A00; --c-l:#2266C4; --c-trap:#C2531F; --c-ins:#C2346E; --c-mint:#1F7A55; --c-pol:#6A45C2;
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-l); --en-cue:var(--c-r); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-r:#FFC15E; --c-l:#6EC8FF; --c-trap:#FF9F7A; --c-ins:#FF7AA8; --c-mint:#7FE0A8; --c-pol:#C9A7FF;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-r:#FFC15E; --c-l:#6EC8FF; --c-trap:#FF9F7A; --c-ins:#FF7AA8; --c-mint:#7FE0A8; --c-pol:#C9A7FF;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+svg.pi{width:16px;height:16px;flex:none;vertical-align:-3px;margin-right:4px}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.steps3{display:flex;flex-wrap:wrap;gap:6px 10px;margin:4px 0 0;padding:0;list-style:none}
+.steps3 li{padding:4px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:14px;font-weight:600}
+.steps3 b{font-family:var(--mono);margin-right:4px;color:var(--accent)}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+.honest{margin:0;padding:10px 14px;border-left:4px solid var(--warn);border-radius:0 10px 10px 0;background:var(--surface);font-size:14px;color:var(--muted);max-width:84ch}
+.honest b{color:var(--text)}
+.voice-note{display:block;margin-top:4px;font-size:12.5px;font-family:var(--mono)}
+.twokeys{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:4px 0 0;padding:0;list-style:none;max-width:900px}
+.twokeys li{padding:10px 14px;border-radius:12px;background:var(--surface);border:1px solid var(--line);font-size:14px}
+.twokeys li b{display:block;font-size:16px;margin-bottom:2px}
+.twokeys li.r{border-left:4px solid var(--c-r)} .twokeys li.l{border-left:4px solid var(--c-l)}
+.twokeys li i{font-style:normal;color:var(--muted)}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.lab-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 12px}
+.lab-top h3{margin:0}
+.lab > .btn{margin-top:12px}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.lab .seg{margin-top:8px}
+.seg button{display:inline-flex;align-items:center;gap:4px;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;flex-wrap:wrap;gap:4px 6px;margin:10px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer;text-align:left}
+.mo button:hover:not(:disabled){border-color:var(--accent)}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)} .c-mid{color:var(--warn)}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.cv-row{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:8px;align-items:center;margin-top:8px}
+.cv-row .seg{margin-top:0}
+.cv-row .wrow{margin-top:0}
+.cv-lab{font-weight:700;font-size:13.5px;color:var(--muted)}
+.acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+select.lab-sel{font:inherit;font-size:15px;padding:5px 30px 5px 10px;border-radius:9px;border:1px solid var(--line);background-color:var(--surface);color:var(--text);max-width:100%;min-width:0;appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);background-position:calc(100% - 15px) 52%,calc(100% - 10px) 52%;background-size:5px 5px;background-repeat:no-repeat}
+
+/* ---------- 낱말 단추 · 듣기 단추 ---------- */
+.wrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:8px}
+.wbtn{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:2px 12px 2px 8px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:16px;font-weight:600;cursor:pointer;line-height:1.4}
+.wbtn svg{width:13px;height:13px;flex:none;color:var(--accent)}
+.wbtn:hover{border-color:var(--accent)}
+.wbtn.saying{border-color:var(--accent);background:var(--accent-soft)}
+.wbtn.ko{font-family:var(--body)}
+.wbtn.off{cursor:default}
+.arr{color:var(--muted);font-weight:700}
+.pickw{min-height:36px;padding:2px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);font-size:15.5px;font-weight:600;cursor:pointer}
+.pickw:hover:not(:disabled){border-color:var(--accent)}
+.pickw.on,.pickw[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:var(--accent-soft)}
+.pickw.right{border-color:var(--ok);color:var(--ok)}
+.pickw.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.wrow.sel{gap:5px}
+.lp-play{display:inline-grid;place-items:center;flex:none;width:32px;height:32px;padding:0;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--accent);cursor:pointer}
+.lp-play svg{width:15px;height:15px;margin-left:2px}
+.lp-play:hover{border-color:var(--accent)}
+.lp-play.saying{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.lp-play.lp-voice,.lp-play.lp-pair{width:auto;height:32px;display:inline-flex;gap:5px;padding:0 12px 0 9px;border-radius:999px;font-size:13px;font-weight:700}
+.lp-play.lp-voice svg,.lp-play.lp-pair svg{width:14px;height:14px;margin:0}
+.lsn{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:0 0 12px}
+.lbtn{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 12px 0 10px;border:1px solid var(--accent);border-radius:999px;background:var(--surface);color:var(--accent);font-size:13.5px;font-weight:700;cursor:pointer}
+.lbtn svg{width:16px;height:16px;flex:none}
+.lbtn small{font-family:var(--mono);font-weight:500;opacity:.75}
+.lbtn[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.lbtn.tog{border-color:var(--line);color:var(--text);font-weight:600}
+.lbtn:disabled{opacity:.5;cursor:default}
+.ldr-now{font-size:13px;color:var(--muted)}
+.ldr-nosay{margin:0 0 10px;font-size:13.5px;color:var(--warn)}
+
+/* ---------- 소리 칠하기: r 소리 노랑 · l 소리 하늘 · 한국어식 함정 주황 · 넣은 으 분홍 점선 ---------- */
+mark[class^="mk-"]{padding:0 1px;border-radius:3px;background:transparent;color:inherit;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+/* r · l 소리 글자: 영상처럼 글자 색 + 밑줄 */
+mark.mk-a,mark.mk-b{padding:0;font-weight:700;text-decoration:underline;text-decoration-thickness:.11em;text-underline-offset:.2em}
+mark.mk-a{color:var(--c-r)}
+mark.mk-b{color:var(--c-l)}
+mark.mk-trap{box-shadow:inset 0 -0.42em 0 color-mix(in srgb, var(--c-trap) 34%, transparent)}
+mark.mk-ins{outline:1.5px dashed var(--c-ins);outline-offset:1px;color:var(--c-ins)}
+.ptag{display:inline-block;padding:0 8px;border-radius:999px;font-size:12px;font-weight:700;vertical-align:1px;white-space:nowrap;background:color-mix(in srgb, var(--accent) 14%, transparent);color:var(--accent)}
+.ptag.p-end,.ptag.p-rl{background:color-mix(in srgb, var(--c-trap) 16%, transparent);color:var(--c-trap)}
+
+/* ---------- 직접 해 보기: 짝 · 표기 ---------- */
+.pairbox{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+.pb{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:10px 12px;border-radius:10px;background:var(--surface-2)}
+.pb.r{border-left:4px solid var(--c-r)} .pb.l{border-left:4px solid var(--c-l)}
+.pb small{color:var(--muted);font-size:13px}
+.voices4{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px}
+.voices4 > span,.ldr-cmp > span{width:100%;font-size:13px;font-weight:700;color:var(--muted)}
+table.koexp{width:100%;margin-top:10px;border-collapse:collapse;font-size:14px}
+.koexp th,.koexp td{padding:6px 8px;border-top:1px solid var(--line);text-align:left;vertical-align:middle}
+.koexp thead th{border-top:0;font-size:12.5px;color:var(--muted)}
+.koexp td.ko{font-size:17px;font-weight:600}
+.plan{margin:10px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.lq{margin-top:4px}
+
+/* ---------- 듣고 고르기 (공통 부품 .edr 모양 + 듣기 줄) ---------- */
+.adr-place{display:inline-flex;align-items:center;gap:2px;padding:1px 10px 1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-family:var(--body);font-weight:700}
+.adr-sit{margin:0 0 10px;padding:8px 12px;border-left:3px solid var(--c-mint);border-radius:0 10px 10px 0;background:var(--surface-2);font-size:15px}
+.adr-sit b{margin-right:8px;color:var(--c-mint)}
+.edr-tag{margin-left:auto;padding:1px 8px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;font-weight:700;white-space:nowrap;color:var(--muted)}
+.ldr-q{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:8px 12px;border-radius:10px;background:var(--surface-2);font-size:clamp(16px,2.1vw,19px);font-weight:500;line-height:1.6}
+.ldr-q small{flex-basis:100%;font-size:13.5px;color:var(--muted)}
+.ldr-opts{display:flex;flex-direction:column;gap:8px}
+.ldr-opts.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.ldr-row{display:flex;align-items:center;gap:8px}
+.ldr-opt{flex:1;min-width:0;min-height:46px;padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);font-size:16px;line-height:1.55;text-align:left;cursor:pointer}
+.ldr-opt.big{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;min-height:64px;font-size:21px;font-weight:600}
+.ldr-opt.big small{flex-basis:100%;font-size:13px;font-weight:400;color:var(--muted)}
+.ldr-opt b{font-family:var(--mono);font-weight:500;font-size:14px;color:var(--muted);margin-right:4px}
+.ldr-opt:hover:not(:disabled){border-color:var(--accent)}
+.ldr-opt:disabled{cursor:default}
+.ldr-row.right .ldr-opt{border-color:var(--ok);box-shadow:inset 0 0 0 1px var(--ok)}
+.ldr-row.wrong .ldr-opt{border-color:var(--no)}
+.ldr-row.wrong .ldr-t{text-decoration:line-through}
+.ldr-row.off .ldr-opt{opacity:.75}
+.ldr-cmp{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px}
+.edr-btn svg{width:15px;height:15px;vertical-align:-2px}
+
+/* ---------- 놀이터: 듣고 가르기 훈련 · 내 발음 확인 ---------- */
+.pg2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
+.pg2 .card > h3{display:flex;align-items:center;gap:6px;margin:0 0 4px;font-size:18px}
+.pg2 .card > p.note{margin:0 0 6px}
+.hv-hello{margin:12px 0 0;color:var(--muted)}
+.hv-top{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px}
+.hv-who{font-size:13.5px;font-weight:700;color:var(--muted)}
+.hv-opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+.hv-opt{display:flex;flex-direction:column;align-items:center;gap:2px;min-height:96px;padding:10px;border:1.5px solid var(--line);border-radius:14px;background:var(--surface-2);font-size:26px;font-weight:700;cursor:pointer;line-height:1.3}
+.hv-opt b{font-family:var(--mono);font-size:12.5px;font-weight:500;color:var(--muted)}
+.hv-opt small{font-size:13px;font-weight:400;color:var(--muted)}
+.hv-opt:hover:not(:disabled){border-color:var(--accent)}
+.hv-opt:disabled{cursor:default}
+.hv-opt.right{border-color:var(--ok);box-shadow:inset 0 0 0 1px var(--ok)}
+.hv-opt.wrong{border-color:var(--no)}
+.hv-opt.wrong span{text-decoration:line-through}
+.hv-opt.off{opacity:.7}
+.hv-tab{width:100%;margin-top:14px;border-collapse:collapse;font-size:14px}
+.hv-tab caption{text-align:left;font-size:12.5px;font-weight:600;color:var(--muted);padding-bottom:4px}
+.hv-tab th,.hv-tab td{padding:5px 6px;border-top:1px solid var(--line);text-align:left;white-space:nowrap}
+.hv-tab th{font-weight:600}
+.hv-tab td:nth-child(2){font-family:var(--mono);font-size:13px}
+.hv-tab tr.all th,.hv-tab tr.all td{font-weight:700}
+.meter{display:inline-block;width:72px;height:8px;margin-right:6px;border-radius:999px;background:var(--surface-2);overflow:hidden;vertical-align:1px}
+.meter i{display:block;height:100%;background:var(--accent)}
+.mp-ctl .cv-row:first-child{margin-top:4px}
+.mp-body{display:grid;grid-template-columns:minmax(0,200px) minmax(0,1fr);gap:12px;align-items:start;margin-top:12px}
+.mp-fig{display:block;width:100%;max-width:200px;aspect-ratio:260/234;height:auto;border-radius:12px;background:var(--stage)}
+.mp-big{margin:0!important;font-size:34px;font-weight:700;line-height:1.2}
+.mp-word p{margin:4px 0 0}
+.mp-acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.mp-acts .btn.on{background:var(--no);border-color:var(--no);color:#fff}
+.mp-res:empty{display:none}
+.mp-res .mo{margin-top:8px}
+.alt{font-family:var(--mono);font-size:13px}
+.alt.top{font-weight:700;color:var(--text)}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn svg{width:16px;height:16px}
+.btn small{font-family:var(--mono);font-weight:500;opacity:.75}
+.btn.saying{box-shadow:0 0 0 3px var(--accent-soft)}
+.okeys{margin:0;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+
+/* ---------- 따라 말하기 ---------- */
+.sh-mode{margin:0;padding:10px 14px;border-radius:10px;background:var(--surface);border:1px solid var(--line);font-size:14.5px}
+.sh-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:12px;align-items:start}
+.sh-grp{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.sh-grp h3{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:0 0 8px;font-size:16px}
+.sh-grp ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.sh-row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;align-items:center;padding:8px 10px;border-radius:10px;background:var(--surface-2)}
+.sh-btns{display:flex;gap:6px;grid-row:span 2;align-self:start}
+.sh-btns .lbtn{min-height:32px;padding:0 10px 0 8px;font-size:13px}
+.sh-btns .lbtn span{display:none}
+.sh-mic.on{background:var(--no);border-color:var(--no);color:#fff}
+.sh-t{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px}
+.sh-en{font-weight:600;font-size:16px}
+.sh-t small{flex-basis:100%;color:var(--muted);font-size:13px}
+.sh-res{grid-column:2;font-size:14px}
+.sh-res:empty{display:none}
+.sh-res p{margin:2px 0}
+.sh-cmp{font-size:16px;font-weight:600}
+.w-ok{color:var(--ok);box-shadow:inset 0 -2px 0 var(--ok)} .w-no{color:var(--c-trap);box-shadow:inset 0 -2px 0 var(--c-trap)}
+.sh-err{color:var(--no)}
+.sh-play{display:inline-flex;align-items:center;gap:6px}
+.sh-play svg{width:14px;height:14px}
+.sh-play.saying{border-color:var(--accent);color:var(--accent)}
+@media (min-width:761px){ .sh-btns .lbtn span{display:inline} }
+
+/* ---------- 블록 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px;scroll-margin-top:12px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;scroll-margin-top:12px}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td.pl{font-weight:700;white-space:nowrap}
+.sum td.pl.r{color:var(--c-r)} .sum td.pl.l{color:var(--c-l)} .sum td.pl.t{color:var(--c-trap)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 6px;max-width:84ch}
+footer ul{margin:0 0 6px;padding-left:18px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .pg2{grid-template-columns:minmax(0,1fr)}
+  .twokeys{grid-template-columns:minmax(0,1fr)}
+  .cv-row{grid-template-columns:minmax(0,1fr);gap:4px}
+}
+@media (max-width:480px){
+  .mp-body{grid-template-columns:minmax(0,1fr)}
+  .mp-fig{max-width:220px}
+  .pairbox{grid-template-columns:minmax(0,1fr)}
+  .ldr-opt.big{font-size:19px}
+  .okeys.kb{display:none}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="r-and-l"></script>
+<script src="../assets/to-top.js"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">영어 발음 (미국식) · r · l · <span id="durLbl">7분 26초</span></p>
+    <h1><em>r · l</em>, 혀끝이 <em>닿느냐</em> 마느냐</h1>
+    <p class="lead">오른쪽 <i lang="en">right</i>와 빛 <i lang="en">light</i>는 한국어로 적으면 둘 다 ‘라이트’예요. 한국어에는 ㄹ이 하나뿐이라, 영어에서 둘인 소리가 하나로 합쳐져요. 둘을 가르는 열쇠는 <b>혀끝</b>이에요. <b>l 소리</b>는 혀끝을 윗잇몸에 대고, <b>r 소리</b>는 혀끝을 어디에도 대지 않아요. 입 옆 단면도로 혀를 보고, 목소리 넷으로 짝 낱말을 듣고 가르고, 낱말 속 자리(처음 · 묶음 · 가운데 · 끝)마다 무엇을 조심할지 익혀요. 한국어 달라의 ㄹㄹ과 외래어 표기(글라스 <i lang="en">glass</i> · 그래스 <i lang="en">grass</i>)가 좋은 출발점이에요.</p>
+    <ul class="twokeys" aria-label="두 소리의 열쇠">
+      <li class="l"><b>l 소리 — 혀끝을 대요</b><i>혀끝을 윗잇몸에 대고, 공기는 혀 양옆으로. 달라의 ㄹㄹ과 가까워요. 요령 → ‘을’ 하고 댄 채 (을)<span lang="en">light</span></i></li>
+      <li class="r"><b>r 소리 — 혀끝을 띄워요</b><i>혀끝은 어디에도 닿지 않게, 혀 양옆은 위 어금니 안쪽에, 입술은 조금 둥글게. 요령 → ‘우’ 하고 입술을 모은 채 (우)<span lang="en">right</span></i></li>
+    </ul>
+    <ol class="steps3" aria-label="3단계 발음법"><li><b>①</b>듣고 가르기 (짝 낱말 · 여러 목소리)</li><li><b>②</b>입 모양 만들기 (혀끝을 대느냐 띄우느냐)</li><li><b>③</b>낱말 · 문장 속에서 (자리마다 조심할 점)</li></ol>
+    <ul class="legend" aria-label="글자 색의 뜻">
+      <li><i style="background:var(--c-r)"></i>r 소리</li>
+      <li><i style="background:var(--c-l)"></i>l 소리</li>
+      <li><i style="background:var(--c-trap)"></i>한국어식으로 읽은 함정 (톡 치는 ㄹ · 밝은 끝 l)</li>
+      <li><i style="border:2px dashed var(--c-ins)"></i>한국어식으로 넣은 으</li>
+    </ul>
+    <p class="honest"><b>먼저 알려 드려요.</b> 이 페이지는 미국 영어(미국식) 발음을 다뤄요. 입 옆 단면도는 혀와 입천장의 위치 관계를 보여 주려고 단순하게 그린 그림이에요(실제 사람마다 입 모양이 조금씩 달라요). 소리는 녹음이 아니라 합성 음성이에요 — 짝 낱말 · 문장 · 연습 문제처럼 글이 정해진 말은 VoiceStudio로 미리 만든 미국식 목소리 넷으로, 나머지는 브라우저에 들어 있는 영어 음성(speechSynthesis)으로 읽어요. 합성 음성은 실제 사람의 말소리와 조금 다르게 들릴 수 있어요. 끝의 r(<i lang="en">car</i> · <i lang="en">work</i>)은 r 모음이라 다른 꼭지에서 다뤄요.<span class="voice-note"></span></p>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">듣고 가르기 · 내 발음</a><a href="#shadow">따라 말하기</a><a href="#drill">듣고 고르기</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="r · l 발음 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="입 옆 단면도 두 개로 l 소리(혀끝이 윗잇몸에 닿음)와 r 소리(혀끝이 어디에도 닿지 않음)를 견주고, 한국어 나라 · 달라의 ㄹ, 짝 낱말(right · light, grass · glass, berry · belly), 외래어 표기의 ㄹ과 넣은 으, 끝의 어두운 l(feel · milk · world), 외래어 카드 열여섯 장, 문장 속 r · l 소리가 차례로 그려지는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="400" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">귀로 가르고, 입으로 확인하기</h2>
+      <p>먼저 <b>듣고 가르기 훈련</b>으로 귀를 열고, 그다음 <b>내 발음 확인</b>으로 내가 낸 소리가 어느 낱말로 들리는지 확인해요. 듣는 힘이 먼저 자라야 입도 따라와요. 짝 낱말 22쌍은 소리 하나만 r ↔ l로 다른 낱말이에요(규칙 엔진이 소리를 견줘 확인해요).</p>
+    </div>
+    <div class="pg2">
+      <div class="card" id="hvpt" tabindex="-1">
+        <h3>듣고 가르기 훈련</h3>
+        <p class="note">미국식 목소리 넷 × 짝 낱말 22쌍. 한 사람의 목소리만 듣는 것보다 여러 사람의 목소리로 많이 들을 때 새 소리를 가르는 귀가 더 잘 자란다고 알려져 있어요(여러 목소리로 듣는 훈련, HVPT). 자리와 목소리를 골라 연습할 수 있어요.</p>
+        <div id="hvCtl"></div>
+        <div id="hvMain" aria-live="polite"></div>
+        <div id="hvStats"></div>
+        <div class="acts"><button type="button" class="btn ghost" id="hvReset">기록 지우기</button></div>
+        <p class="okeys kb">키보드: R 듣기 · 1 · 2 고르기 · Space/Enter 다음</p>
+      </div>
+      <div class="card" id="mypron">
+        <h3>내 발음 확인</h3>
+        <p class="note">짝과 말할 낱말을 고르고 마이크 단추를 눌러 낱말 하나를 말해 보세요. 음성 인식이 들은 후보를 보고, 목표 낱말로 들었는지 짝 낱말로 들었는지 알려 줘요. 녹음해서 본보기와 번갈아 들을 수도 있어요.</p>
+        <div id="mpMain"></div>
+        <p class="honest">음성 인식은 <b>발음의 질을 판정하지 않아요</b>. 흔한 낱말 쪽으로 기울어(예: <i lang="en">lice</i>보다 <i lang="en">rice</i>), 정확히 말해도 짝 낱말로 적을 때가 있어요. 한 번의 결과보다 여러 번 해 본 흐름을 보세요. 크롬(Chrome) 같은 브라우저는 소리를 브라우저 회사의 서버로 보내 글로 바꿔요. 이 사이트는 소리도 글도 저장하지 않아요.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="shadow" aria-labelledby="shTitle">
+    <div class="bhead">
+      <p class="eyebrow">따라 말하기</p>
+      <h2 id="shTitle">r · l 문장 따라 말하기 — 28문장</h2>
+      <p>낱말 속 자리(처음 · 묶음 · 가운데 · 끝)마다 일곱 문장씩 골랐어요. <b>r 소리는 노랑</b>, <b>l 소리는 하늘</b>로 칠했어요. <b>듣기</b>로 한 번, <b>천천히</b>로 한 번 듣고 따라 말해 보세요. 마이크 단추를 누르면 내가 말한 문장을 원래 문장과 낱말마다 맞춰 봐요.</p>
+    </div>
+    <p class="sh-mode" id="shMode"></p>
+    <div class="sh-list" id="shList"></div>
+    <p class="honest"><b>음성 인식에 대해 정직하게 알려 드려요.</b> 맞춰 보는 것은 <b>낱말</b>뿐이에요. 발음이 좋은지 나쁜지는 판정하지 않고, 문장 속에서는 앞뒤 낱말로 짐작해 맞게 적을 때가 많아요. 그래서 r · l을 가르는 확인은 위의 <a href="#mypron">내 발음 확인</a>(낱말 하나)이 더 정확해요. 녹음으로 연습할 때 녹음은 이 화면에만 잠깐 있다가 페이지를 닫으면 사라져요.</p>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">듣고 고르기</p>
+      <h2 id="drillTitle">듣고 r · l 가르기 — 16문제</h2>
+      <p>낱말 하나 · 문장 속 낱말 · 같은 낱말인지 다른 낱말인지 · 끝에 l 소리가 있는지, 네 가지 문제를 목소리 넷으로 섞었어요. 소리를 먼저 들려주고(<b>듣기</b> R · <b>천천히</b> S), 글은 답한 뒤에 보여요. 막히면 <b>힌트</b>(H)를 누르세요 — ① 들을 곳 → ② 입 모양 → ③ 짝 낱말 순서로 열려요. 답하면 보기마다 소리와 뜻, 같은 목소리로 견줘 듣기가 나와요.</p>
+      <p class="honest">합성 음성이라 실제 사람의 말소리와 다르게 들릴 수 있어요. 잘 안 들리면 천천히 듣기를 켜 보세요.<span class="voice-note"></span></p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 입 그림을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 r · l</h2>
+      <p>① 짝 낱말을 여러 목소리로 듣고 가르고 ② 혀끝을 대느냐(l 소리) 띄우느냐(r 소리)로 입 모양을 만들고 ③ 낱말 속 자리마다 조심할 점을 지켜요. 묶음 · 가운데 자리에서는 외래어 표기의 ㄹ이 힌트가 되고, 끝의 l 소리는 혀 뒤를 올려 어둡게, 으를 붙이지 않고 끝내요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">소리 · 자리</th><th scope="col">혀와 입술</th><th scope="col">요령 · 예</th></tr></thead>
+        <tbody>
+          <tr><td class="pl l">l 소리</td><td>혀끝을 윗잇몸에 대고, 혀 양옆을 내려 공기를 옆으로. 목은 울려요.</td><td>‘을’ 하고 혀끝을 댄 채 이어 말하기 → (을)<i lang="en">light</i> · <i lang="en">lead · long · late</i></td></tr>
+          <tr><td class="pl r">r 소리</td><td>혀끝은 어디에도 닿지 않게(혀끝을 말거나, 혀를 뭉쳐 올리거나). 혀 양옆은 위 어금니 안쪽에, 입술은 조금 둥글게.</td><td>‘우’ 하고 입술을 모은 채 이어 말하기 → (우)<i lang="en">right</i> · <i lang="en">read · rock · rate</i></td></tr>
+          <tr><td class="pl">낱말 처음</td><td>한국어식으로는 둘 다 톡 치는 ㄹ(라이트)이라 표기에 힌트가 없어요.</td><td>혀끝으로 가르기 → <i lang="en">right · light</i>, <i lang="en">rice · lice</i>, <i lang="en">wrong · long</i></td></tr>
+          <tr><td class="pl">자음 뒤 (묶음)</td><td>외래어 표기 ㄹㄹ → l 소리, ㄹ 하나 → r 소리. 자음 사이에 으를 넣지 않아요.</td><td>글라스 <i lang="en">glass</i> · 그래스 <i lang="en">grass</i>, 플레이 <i lang="en">play</i> · 프레이 <i lang="en">pray</i> — 혀끝을 미리 대 놓고 g · p를 소리 내기</td></tr>
+          <tr><td class="pl">모음 사이 (가운데)</td><td>외래어 표기 ㄹㄹ → l 소리, ㄹ 하나 → r 소리.</td><td>벨리 <i lang="en">belly</i> · 베리 <i lang="en">berry</i>, 컬렉트 <i lang="en">collect</i> · 커렉트 <i lang="en">correct</i></td></tr>
+          <tr><td class="pl t">끝 · 어두운 l</td><td>혀끝은 윗잇몸 쪽, 혀 뒤를 여린입천장 쪽으로 올려 어둡게. 으를 붙이지 않아요.</td><td><i lang="en">feel · school · milk · film · help</i> — 필 · 스쿨 · 밀크처럼 밝게 끝내거나 으를 넣지 않기</td></tr>
+          <tr><td class="pl t">r 다음 l</td><td>r 모음에서 혀끝을 윗잇몸으로 옮겨 끝내요. 가장 어려운 자리예요.</td><td><i lang="en">world · girl · pearl</i> — <i lang="en">world</i>와 <i lang="en">word</i>는 끝의 l 소리 하나가 달라요</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>① 듣고 가르기</h3>
+        <dl>
+          <dt>짝 낱말 <span>minimal pair</span></dt><dd>소리 하나만 다른 두 낱말이에요. <i lang="en">right · light</i>, <i lang="en">grass · glass</i>, <i lang="en">berry · belly</i>, <i lang="en">fire · file</i>. <i lang="en">world · word</i>는 소리 수가 달라 짝이 아니에요.</dd>
+          <dt>여러 목소리로 듣기 <span>HVPT</span></dt><dd>여러 사람의 목소리로 짝 낱말을 듣고 고르는 훈련(high variability phonetic training)이에요. 한 사람의 목소리에만 익숙해지지 않고 소리 자체를 가르는 귀를 길러요.</dd>
+          <dt>낱말 속 자리 <span>position</span></dt><dd>처음(<i lang="en">light</i>) · 자음 뒤 묶음(<i lang="en">play</i>) · 모음 사이 가운데(<i lang="en">belly</i>) · 끝(<i lang="en">feel</i>). 자리마다 한국어식으로 바뀌는 모습이 달라요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>② 입 모양 만들기</h3>
+        <dl>
+          <dt>l 소리 <span>lateral</span></dt><dd>혀끝을 윗잇몸에 대고 공기를 혀 양옆으로 내보내는 소리예요. 한국어 달라 · 빨리의 ㄹㄹ과 가까워요.</dd>
+          <dt>r 소리 <span>approximant</span></dt><dd>혀가 입천장에 다가가지만 닿지 않는 소리예요. 혀끝을 마는 혀(<span lang="en">retroflex</span>)와 혀를 뭉쳐 올리는 혀(<span lang="en">bunched</span>) 두 가지가 있고, 미국 사람도 사람마다 달라요. 둘 다 같은 r 소리가 나요.</dd>
+          <dt>톡 치는 ㄹ <span>flap</span></dt><dd>나라 · 라디오의 ㄹ처럼 혀끝이 윗잇몸을 아주 잠깐 치고 지나가는 소리예요. 영어의 r 소리도 l 소리도 아니에요(미국 영어 <i lang="en">water</i>의 가운데 t와 비슷).</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>③ 낱말 · 문장 속에서</h3>
+        <dl>
+          <dt>어두운 l <span>dark l</span></dt><dd>낱말 끝이나 자음 앞의 l 소리예요(<i lang="en">feel · milk</i>). 혀 뒤를 올려 우 · 어처럼 어둡게 울려요. 낱말 처음의 l 소리는 밝은 l(<span lang="en">clear l</span>)이에요.</dd>
+          <dt>외래어 표기의 ㄹ <span>loanword spelling</span></dt><dd>외래어 표기법은 낱말 가운데에서 모음 앞의 l을 ㄹㄹ로 적어요(글라스 · 벨리). 그래서 묶음 · 가운데 자리에서는 ㄹㄹ이면 l 소리, ㄹ 하나면 r 소리라는 힌트가 돼요. 낱말 처음(라이트)과 끝(밀크)에서는 힌트가 되지 않아요.</dd>
+          <dt>넣은 으 <span>vowel insertion</span></dt><dd>한국어는 자음이 이어지거나 자음으로 끝나면 으를 넣어요(글라스 = 글 · 라 · 스). 영어 <i lang="en">glass</i>는 한 음절이에요. 넣은 으는 리듬을 바꾸고 낱말을 알아듣기 어렵게 해요.</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 낱말마다 적은 발음 기호(소리 목록)에서 r · l 소리의 자리(처음 · 묶음 · 가운데 · 끝 · r 다음 l)와 어두운 l, 짝 낱말이 소리 하나만 다른지, 외래어 표기의 ㄹ이 ㄹㄹ인지 하나인지(받침 ㄹ + 첫소리 ㄹ), 한국어식으로 넣은 으와 음절 수, 글자 속에서 r · l 소리를 적은 곳(칠하기), 문장 속 r · l 소리의 수, 입 그림에서 혀가 입천장에 닿는지(입 옆 단면도의 혀와 입천장 사이 거리), 연습 문제 · 퀴즈의 정답과 힌트는 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)과 입 그림 부품(<code>../shared/mouth.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요. 낱말의 발음 기호는 손으로 적은 뒤 공개 발음 사전(misaki의 미국 영어 사전)과 맞춰 봤어요.</p>
+    <p>단순하게 줄인 부분도 있어요. 입 옆 단면도는 혀가 닿느냐 마느냐를 보여 주려고 그린 그림이고, 실제 혀의 모양을 잰 것이 아니에요. 엔진은 소리를 듣지 않아요 — 내 발음 확인은 음성 인식이 적은 후보 글을 짝 낱말과 맞춰 볼 뿐, 발음이 좋은지 나쁜지 판정하지 않아요. 끝의 r(<i lang="en">car · work</i>)은 r 모음이라 이 꼭지에서는 묶음 · 가운데 · 처음의 r 소리만 다뤄요. 외래어 표기의 힌트는 표준 표기를 기준으로 했어요(실제로 쓰는 표기는 조금씩 달라요).</p>
+    <p>참고한 연구 (초록 · 요약으로 확인한 범위)</p>
+    <ul>
+      <li>낱말 속 자리마다 결과가 달라요: <a href="https://koreascience.kr/article/JAKO199915637237323.page">Kang 1999, 음성과학 6</a> — l에서 더 많이 틀리고 모음 사이에서 가장 적게 틀림 · Ingram &amp; Park 1998, <i lang="en">Journal of the Acoustical Society of America</i> 103(2) — 한국인 · 일본인 청자의 r · l 듣기</li>
+      <li>끝의 어두운 l과 r 다음 l: <a href="https://koreascience.kr/article/JAKO202211039250772.page">Cho 2022, 말소리와 음성과학 14(1)</a> — <i lang="en">pearl · world</i>의 끝 l을 어둡게 내기 어려움</li>
+      <li>여러 목소리로 듣는 훈련: <a href="https://jcaa.caa-aca.ca/index.php/jcaa/article/view/797">Yu &amp; Jamieson 1993, Canadian Acoustics 21(3)</a> · <a href="https://researchr.org/publication/HwangL15-8">Hwang &amp; Lee 2015</a></li>
+      <li>짝이 많이 가르는 소리일수록 알아듣기에 중요해요(기능 부담): Munro &amp; Derwing 2006 — <a href="https://iastate.pressbooks.pub/teachingpronunciation/chapter/chapter-2-pronunciation-in-language-teaching/">Levis 교재의 요약</a></li>
+    </ul>
+    <p>연구마다 대상 · 방법이 달라 결과가 엇갈리는 곳(특히 낱말 처음)은 강하게 말하지 않고, 공통으로 나온 것(끝의 l과 r 다음 l이 가장 어려움)만 강조했어요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 영어 발음(미국식) 첫 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="../shared/mouth.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/voices.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
+<script src="audio/dialogue/clips.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

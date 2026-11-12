@@ -14,6 +14,7 @@
     <폴더>/audio/dialogue/lines.json   만들 줄 목록 — node tools/dialogue-lines.cjs <폴더> (페이지의 window.__dialogueLines())
     <폴더>/audio/dialogue/voices.json  말하는 사람 → VoiceStudio 프로필 이름(또는 id)과 화면에 보일 이름
         { "us": { "profile": "길 묻기 · 길에서 만난 사람 (미국 남성)", "label": "미국 남성" }, ... }
+        한국어로 읽을 사람(예: 발음 튜토리얼의 한국어식 비교 소리)은 "lang": "ko"를 더하면 한국어 목소리로 만들어요(기본은 영어).
 
 하는 일
     줄마다 POST /generate로 WAV를 만들어 다듬고 MP3(ffmpeg) 또는 AAC .m4a(afconvert)로 줄여 <말하는 사람>-<id>.<확장자>로 저장한 뒤,
@@ -82,7 +83,9 @@ def main():
     clips, odd = {}, []
     for k, l in enumerate(todo, 1):
         try:
-            wav, dur, sd = vs.generate(server, vs.readable(l['text']), 'en', prof[l['sp']]['id'], o.seed)
+            lang = voices[l['sp']].get('lang', 'en')
+            text = vs.bare(l['text']) if lang == 'ko' else vs.readable(l['text'])
+            wav, dur, sd = vs.generate(server, text, lang, prof[l['sp']]['id'], o.seed)
         except (urllib.error.HTTPError, RuntimeError) as e:
             print(f'  [{k}/{len(todo)}] {l["id"]} 실패: {e}')
             continue
