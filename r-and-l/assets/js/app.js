@@ -430,8 +430,10 @@ const NARR = (window.EN && EN.narration) ? EN.narration({
   read: [[/ㄹㄹ(은|이|을|과)?/g, (m, j) => '리을 두 개' + (j ? { 은: '는', 이: '가', 을: '를', 과: '와' }[j] : '')], [/ㄹ/g, '리을'], [/(^|[^A-Za-z'’])([rlgkt])(?=[\s가-힣.,]|$)/g, (m, a, c) => a + LETTER_KO[c]], [/\s\+\s/g, ', '], [/ = /g, ', ']],
   rate: () => speed,
   holdBefore: 0.05,
+  enRate: RLV.EN_RATE,      // 영어 조각만 살짝 느리게 (voices.js의 EN_RATE — 낱말 소리와 같은 빠르기)
   clips: window.EN_CLIPS,   // 미리 만든 음성 파일(audio/narration/) — 있는 조각은 그 목소리로, 없는 조각은 브라우저 음성으로
 }) : { supported: false, reset() {}, hold: (T, next) => next, sync() {} };
+if (window.EN && EN.say) EN.say.rate = RLV.EN_RATE;   // 발음 듣기 단추도 같은 빠르기
 
 /* =========================================================
    9. 음성 인식 · 녹음 (따라 말하기 · 내 발음 확인)

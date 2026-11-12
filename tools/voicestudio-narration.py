@@ -12,10 +12,15 @@
     --server URL          VoiceStudio 주소 (기본: http://localhost:3900)
     --seed N              같은 글이면 같은 소리가 나도록 고정 (기본: 7). 소리가 이상하면(무음 · 너무 빠르거나 느림) seed를 바꿔 두 번까지, 세 낱말 이하의 짧은 영어는 네 번까지, 한두 음절 한국어(가 · 을 · 비 · 디)는 일곱 번까지 다시 만들어요
     --force               이미 있는 파일도 다시 만들기 (목소리를 바꿨을 때)
+    --word-lists          · 로 늘어놓은 영어 낱말은 낱말마다 만들어 쉼을 넣기 (발음 튜토리얼, 아래 2번)
 
 하는 일
     1. <폴더>/audio/narration/pieces.json(tools/narration-pieces.cjs가 만든 읽기 조각 목록)을 읽어요.
     2. 조각마다 VoiceStudio(POST /generate)로 WAV를 만들고, 앞뒤의 긴 무음을 다듬어요.
+       --word-lists를 주면, 화면에서 · 로 늘어놓은 영어 낱말(radio · robot · room)은 낱말마다 따로 만들어 쉼표만큼(0.4초쯤)
+       쉬고 이어 붙여요 — 엔진이 쉼표에서 거의 쉬지 않아 낱말이 붙어 들리기 때문이에요(voicestudio_common.word_list · join_wavs).
+       발음 튜토리얼처럼 낱말을 늘어놓는 자막이 많을 때 써요. 회화 · 토익 자막의 ‘please · Window, please.’처럼 낱말과 대답이
+       섞인 조각도 낱말 목록으로 보이니, 그런 튜토리얼에는 켜지 마세요.
     3. ffmpeg가 있으면 MP3(48 kbps, 모노), 없으면 macOS의 afconvert로 AAC(.m4a)로 줄여 저장해요.
     4. <폴더>/audio/narration/clips.js를 다시 써요. 페이지는 파일이 있는 조각은 그 목소리로, 없는 조각은 브라우저 음성으로 읽어요.
     이미 만든 파일은 건너뛰니, 중간에 멈춰도 다시 실행하면 이어서 만들어요.
@@ -46,6 +51,7 @@ def main():
     ap.add_argument('--english', action='store_true', help='영어 조각도 한국어와 같은 목소리로 만들기')
     ap.add_argument('--limit', type=int, default=0, help='새로 만들 조각 수 (먼저 들어 보기)')
     ap.add_argument('--force', action='store_true')
+    ap.add_argument('--word-lists', action='store_true', help='· 로 늘어놓은 영어 낱말은 낱말마다 만들어 쉼을 넣기 (발음 튜토리얼)')
     o = ap.parse_args()
 
     slug = o.slug.rstrip('/')
@@ -80,8 +86,15 @@ def main():
     for k, p in enumerate(todo, 1):
         pf = en_prof if p['lang'] == 'en' else prof
         text = vs.readable(p['text']) if p['lang'] == 'en' else vs.bare(p['text'])
+        words = vs.word_list(p['text']) if o.word_lists and p['lang'] == 'en' else None
         try:
-            wav, dur, sd = vs.generate(server, text, p['lang'], pf['id'], o.seed)
+            if words:
+                # 낱말 나열(radio · robot · room): 낱말마다 따로 만들어 쉼표만큼 쉬고 이어 붙여요
+                made = [vs.generate(server, vs.readable(w), 'en', pf['id'], o.seed) for w in words]
+                wav, dur = vs.join_wavs([m[0] for m in made])
+                sd = -1 if any(m[2] < 0 for m in made) else made[0][2]
+            else:
+                wav, dur, sd = vs.generate(server, text, p['lang'], pf['id'], o.seed)
         except (urllib.error.HTTPError, RuntimeError) as e:
             print(f'  [{k}/{len(todo)}] {p["id"]} 실패: {e}')
             continue

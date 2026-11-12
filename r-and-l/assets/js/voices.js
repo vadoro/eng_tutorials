@@ -27,6 +27,9 @@
     um: { re: /^en[-_]US/i, lang: 'en-US', ko: '미국', who: '미국 남성', pitch: 0.8, rate: 1.0 },
     ko: { re: /^ko[-_]KR/i, lang: 'ko-KR', ko: '한국어', who: '한국어식으로 읽기', pitch: 1.0, rate: 1.0 },
   };
+  // 영어 목소리의 보통 빠르기 — 발음을 배우는 곳이라 1배는 조금 빠르게 들려서 살짝 늦춰요(소리 높이는 그대로).
+  // 음성 해설의 영어 조각(EN.narration의 enRate)과 발음 듣기(EN.say.rate)도 app.js에서 이 값을 써요. 천천히는 그대로 0.75배.
+  const EN_RATE = 0.9;
   const PREF = /natural|neural|online|google|premium|enhanced|samantha|daniel|karen|moira|aria|jenny|guy|libby|ryan|natasha|william|clara|liam|serena|catherine|lee/i;
   let V = null;
   function pick() {
@@ -105,7 +108,7 @@
         const fast = slow ? 1 : (it.rate || 1);
         if (c) {
           const a = audio(), base = (window.DIALOGUE_CLIPS.base || '');
-          const r = Math.min(2, (slow ? 0.75 : 1) * fast);
+          const r = Math.min(2, (slow ? 0.75 : it.sp === 'ko' ? 1 : EN_RATE) * fast);
           a.onended = next;
           a.onerror = () => { audioStop(); tts(it, slow, fast, next); };   // 파일을 못 읽으면 이 줄만 브라우저 음성
           a.defaultPlaybackRate = r;
@@ -131,7 +134,7 @@
       const u = new window.SpeechSynthesisUtterance(spoken(it.text));
       u.lang = v.voice && v.voice.lang ? v.voice.lang.replace('_', '-') : A.lang;
       if (v.voice) u.voice = v.voice;
-      u.rate = Math.min(2, (slow ? 0.66 : 0.92) * fast * (v.own ? 1 : A.rate));
+      u.rate = Math.min(2, (slow ? 0.66 : 0.92 * (it.sp === 'ko' ? 1 : EN_RATE)) * fast * (v.own ? 1 : A.rate));
       u.pitch = v.own ? 1 : A.pitch;
       u.apOwner = 'rl';                                 // 확인용 표시 (어느 쪽이 말했는지)
       u.apSp = it.sp;
@@ -166,6 +169,6 @@
     const nm = k => V[k].voice ? V[k].voice.name + (V[k].own ? '' : ' (높낮이를 바꿈)') : '없음';
     return `목소리(브라우저 음성): 밝은 선생님 ${nm('tc')} · 차분한 선생님 ${nm('tf')} · 미국 여성 ${nm('uf')} · 미국 남성 ${nm('um')} · 한국어 ${nm('ko')}.`;
   }
-  window.RLV = { play, stop, status, get supported() { return OK || has(); }, tts: OK, busy: () => speaking || !!cur, voices: () => (V || pick()), ACC, spoken,
+  window.RLV = { play, stop, status, get supported() { return OK || has(); }, tts: OK, busy: () => speaking || !!cur, voices: () => (V || pick()), ACC, spoken, EN_RATE,
     lineId, hasClip: (sp, text) => !!clipOf(sp, text) };
 })();

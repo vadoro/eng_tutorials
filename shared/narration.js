@@ -9,6 +9,7 @@
  *      read: [[/TOEIC/g, '토익']],     // 이 튜토리얼에만 필요한 읽기 바꾸기 (선택)
  *      rate: () => speed,               // 지금 재생 속도 (선택, 기본 1)
  *      holdBefore: 0.05,                // 자막 끝보다 몇 초 앞에서 기다릴지
+ *      enRate: 0.9,                     // 영어 조각만 몇 배 빠르기로 읽을지 (선택, 기본 1 — 1보다 작으면 느리게, 소리 높이는 그대로)
  *    });
  *    // 재생 중 매 프레임
  *    T = narr.hold(T, T + dt * speed);   // 읽는 중이면 시간이 자막 끝을 넘지 않게
@@ -27,6 +28,7 @@
  *    EN.say.supported 가 false이면 단추를 숨기세요. EN.say.stop()으로 멈춥니다.
  *    미리 만든 음성 파일(선택): window.EN_CLIPS(또는 EN.say.clips)에 조각 id EN.narration.pieceId('en', text)의 파일이
  *    있으면 그 파일로 읽어요(음성 해설의 영어 조각과 같은 목록 · 같은 목소리). EN.say.hasClip(text)로 확인.
+ *    EN.say.rate(기본 1)를 0.9처럼 바꾸면 보통 빠르기를 늦춰요(천천히는 그대로 0.75배).
  *
  * 3) EN.splitLang(text) — 글을 [{ lang: 'en' | 'ko', text }] 조각으로 나눕니다(자막의 영어 부분 꾸미기에도 씀).
  */
@@ -109,7 +111,8 @@
     var read = (opts.read || []).concat(BASE_READ);
     var rate = opts.rate || function () { return 1; };
     var holdBefore = opts.holdBefore == null ? 0.05 : opts.holdBefore;
-    var C = opts.clips && opts.clips.clips ? opts.clips : null, CLIPS = C ? C.clips : {}, BASE = C ? (C.base || '') : '';
+    var enRate = clamp(+opts.enRate || 1, 0.5, 1.5);   // 영어 조각만 이 배수로 (재생 속도와 곱해요)
+    var C =opts.clips && opts.clips.clips ? opts.clips : null, CLIPS = C ? C.clips : {}, BASE = C ? (C.base || '') : '';
     var nClips = Object.keys(CLIPS).length, hasClips = nClips > 0 && typeof window.Audio === 'function';
     var clipOf = function (p) { return hasClips ? CLIPS[pieceId(p.lang, p.text)] || null : null; };
     var n = { supported: SUPPORTED || hasClips, on: false, busy: false, idx: -1, since: 0, len: 0, limit: 0, token: 0, clips: hasClips ? nClips : 0 };
@@ -186,10 +189,11 @@
     // 조각을 차례로: 음성 파일이 있으면 파일로, 없으면 브라우저 음성으로 (파일을 못 읽으면 그 조각만 브라우저 음성으로)
     function speakClips(parts, token, r) {
       var i = 0;
-      n.limit = parts.reduce(function (s, p) { var c = clipOf(p); return s + (c ? (c[1] || 3) / clamp(rate() || 1, 0.5, 2) : p.text.length * 0.3 + 1); }, 0) + 6;
+      var pr8 = function (p) { return clamp((rate() || 1) * (p.lang === 'en' ? enRate : 1), 0.5, 2); };
+      n.limit = parts.reduce(function (s, p) { var c = clipOf(p); return s + (c ? (c[1] || 3) / pr8(p) : p.text.length * 0.3 + 1); }, 0) + 6;
       var tts = function (p) {
         if (!SUPPORTED) { next(); return; }
-        var u = utter(p.text, p.lang, p.lang === 'en' ? clamp(r * 0.92, 0.6, 2) : r);
+        var u = utter(p.text, p.lang, p.lang === 'en' ? clamp(r * 0.92 * enRate, 0.6, 2) : r);
         u.onend = u.onerror = function () { if (n.token === token) next(); };
         synth.speak(u);
       };
@@ -201,8 +205,10 @@
         var done = false, fail = function () { if (done || n.token !== token) return; done = true; tts(p); };
         a.onended = function () { if (done || n.token !== token) return; done = true; next(); };
         a.onerror = fail;
+        a.defaultPlaybackRate = pr8(p);
         a.src = BASE + c[0];
-        a.playbackRate = clamp(rate() || 1, 0.5, 2);
+        a.playbackRate = pr8(p);
+        if ('preservesPitch' in a) a.preservesPitch = true;
         var pr = a.play();
         if (pr && pr.catch) pr.catch(fail);
       }
@@ -249,12 +255,12 @@
     var t = sayText(text), C = sayClips(), clip = C ? C.clips[pieceId('en', t)] : null;
     if (!SUPPORTED && !clip) return false;
     EN.say.stop();
-    var token = ++sayToken;
+    var token = ++sayToken, nr = clamp(+EN.say.rate || 1, 0.5, 1.5);
     var done = function () { if (token === sayToken && o.onend) o.onend(); };
     var tts = function () {
       if (!SUPPORTED) { done(); return; }
       pickVoices();
-      var u = utter(t, 'en', o.slow ? 0.62 : 0.9);
+      var u = utter(t, 'en', o.slow ? 0.62 : 0.9 * nr);
       u.onend = u.onerror = done;
       synth.speak(u);
     };
@@ -263,12 +269,13 @@
     var a = SAY_AUD, failed = function () { if (token !== sayToken) return; sayAudioStop(); tts(); };   // 파일을 못 읽으면 브라우저 음성
     a.onended = done; a.onerror = failed;
     a.src = (C.base || '') + clip[0];
-    a.defaultPlaybackRate = a.playbackRate = o.slow ? 0.75 : 1;
+    a.defaultPlaybackRate = a.playbackRate = o.slow ? 0.75 : nr;
     if ('preservesPitch' in a) a.preservesPitch = true;
     var p = a.play();
     if (p && p.catch) p.catch(failed);
     return true;
   };
+  EN.say.rate = 1;   // 보통 빠르기 (튜토리얼마다 바꿀 수 있어요 — 예: 발음 튜토리얼 0.9)
   EN.say.supported = SUPPORTED;
   EN.say.text = sayText;   // 읽을 글 (조각 id를 만들 때 — tools/narration-pieces.cjs)
   EN.say.hasClip = function (text) { var C = sayClips(); return !!(C && C.clips[pieceId('en', sayText(text))]); };

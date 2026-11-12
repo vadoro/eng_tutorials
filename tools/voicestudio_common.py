@@ -126,6 +126,50 @@ def readable(text):
     return s + '.' if s and s[-1] not in '.!?' and not open_end else s
 
 
+def word_list(text):
+    """화면에서 · 로 늘어놓은 영어 낱말(radio · robot · room)이면 낱말 목록을, 아니면 None.
+    음성 해설의 조각에서는 ·가 ' , '로 바뀌어 와요(right , light, read , lead.). 엔진은 쉼표에서 거의 쉬지 않아
+    낱말이 붙어 들리니, 낱말마다 따로 만들어 사이에 쉼을 넣어요(join_wavs). 한 항목이 세 낱말 이상이거나
+    물음표 · 느낌표가 있으면 문장으로 보고 그대로 둬요(Can I have a glass of water, please?).
+    ‘please , Window, please.’처럼 낱말과 대답이 섞인 조각도 목록으로 보이니, 쓰는 쪽에서 켜고 끄게 해요
+    (voicestudio-narration.py --word-lists — 발음 튜토리얼에서만)."""
+    s = bare(str(text))
+    if re.search(r'[?!]', s) or not (' , ' in s or re.search(r'\s·\s', s)):
+        return None
+    items = [re.sub(r'[\s.]+$', '', x).strip() for x in re.split(r'\s*[,·]\s*', s)]
+    items = [x for x in items if x]
+    if len(items) < 2 or any(len(x.split()) > 2 for x in items):
+        return None
+    return items
+
+
+# 낱말 나열의 쉼: 다듬은 낱말 파일은 앞뒤에 0.12초씩 여백이 있어서, 0.18초를 더하면 낱말 사이가 0.4초쯤(쉼표 하나)
+LIST_GAP = 0.18
+
+
+def join_wavs(wavs, gap=LIST_GAP):
+    """다듬은 WAV 여러 개를 gap초 무음을 사이에 두고 이어요(채널 · 표본 크기 · 표본 빈도가 같아야 해요).
+    돌려주는 값: (wav 바이트, 길이 초)"""
+    frames, params = [], None
+    for raw in wavs:
+        with wave.open(io.BytesIO(raw)) as w:
+            p = (w.getnchannels(), w.getsampwidth(), w.getframerate())
+            if params and p != params:
+                raise RuntimeError(f'이어 붙일 WAV의 형식이 달라요: {params} · {p}')
+            params = p
+            frames.append(w.readframes(w.getnframes()))
+    ch, sw, sr = params
+    silence = b'\x00' * (int(gap * sr) * ch * sw)
+    body = silence.join(frames)
+    out = io.BytesIO()
+    with wave.open(out, 'wb') as w:
+        w.setnchannels(ch)
+        w.setsampwidth(sw)
+        w.setframerate(sr)
+        w.writeframes(body)
+    return out.getvalue(), len(body) / (ch * sw * sr)
+
+
 def units(text, lang):
     """말의 길이(영어 낱말 수 · 한국어 음절 수 + 영어 낱말) — 만든 소리가 너무 빠르거나 느린지 볼 때"""
     if lang == 'en':

@@ -21,7 +21,7 @@ shared/components.css   공통 부품 모양: 발음 단추(.en-say), 퀴즈(.en
 tools/render-video.cjs  공통 렌더러: EN_EXPORT 약속을 지킨 튜토리얼을 MP4·SRT·미리보기 그림으로
 tools/narration-pieces.cjs    음성 해설의 읽기 조각 + 발음 듣기 글 목록 → <slug>/audio/narration/pieces.json (미리 만든 음성 파일을 쓸 때)
 tools/say-sweep.js           발음 듣기 글 모으기(영상 칩 · 처음부터 있는 스피커 단추 · 직접 해 보기의 예문) — narration-pieces.cjs가 페이지 안에서 실행
-tools/voicestudio-narration.py  VoiceStudio(주인의 맥, localhost:3900)로 조각마다 음성 파일을 만들고 clips.js를 씀 — 맥에서 실행
+tools/voicestudio-narration.py  VoiceStudio(주인의 맥, localhost:3900)로 조각마다 음성 파일을 만들고 clips.js를 씀 — 맥에서 실행. --word-lists: · 로 늘어놓은 영어 낱말은 낱말마다 만들어 쉼표만큼 쉬고 이음(발음 튜토리얼만)
 tools/dialogue-lines.cjs      대화 목소리를 미리 만들 줄 목록 → <slug>/audio/dialogue/lines.json (페이지의 window.__dialogueLines(), 지금은 directions · restaurant · hotel · cafe · airport · shopping · transit · pharmacy · bank · campus · phone · listening-part1-2 · listening-part3-4 · r-and-l)
 tools/voicestudio-dialogue.py  VoiceStudio로 대화 줄마다 말하는 사람의 목소리 파일을 만들고 clips.js(window.DIALOGUE_CLIPS)를 씀 — 맥에서 실행. voices.json에서 "lang": "ko"인 사람은 한국어 목소리로(발음 튜토리얼의 한국어식 비교 소리)
 tools/voicestudio_common.py   위 두 VoiceStudio 도구가 함께 쓰는 부분(만들기 · 무음 다듬기 · 이상한 소리면 seed 바꿔 다시 · MP3/m4a로 줄이기)
@@ -149,6 +149,7 @@ docs/pron-types.md      영어 발음 영역의 설계도: 한국어 화자가 �
 - **입 옆 단면도**: 공통 부품 `shared/mouth.js`(`EN.mouth`)의 자세(pose)를 쓰고, 새 소리는 부품에 자세를 더해요(고치면 모든 발음 튜토리얼을 확인). ‘닿는다 · 떨어져 있다’는 그림에서 계산(`contact`)해 영상 · 퀴즈가 같은 값을 써요. 그림은 단순하게 그린 것이라는 점을 머리말 · 각주에 밝혀요.
 - **놀이터 = 듣고 가르기 훈련 + 내 발음 확인**: 훈련은 짝 낱말 × 여러 목소리(미리 만든 목소리 넷)를 무작위로, 자리 · 목소리별 기록(`localStorage`, 지우기 단추). 내 발음 확인은 음성 인식의 후보 글(alternatives)을 짝 낱말과 맞출 뿐, 발음의 질은 판정하지 않는다고 화면에 적어요. 음성 인식이 없으면 녹음해서 본보기와 이어 듣기.
 - **짝 낱말 파일 점검**: 짝 낱말은 한 소리만 달라야 하니, 낱말 파일은 받아쓰기(Whisper)로 한 번 더 듣고 짝 낱말로 적히면 seed를 바꿔 다시 만들어요.
+- **영어는 살짝 느리게 · 늘어놓은 낱말은 쉬어 가며**: 1배는 발음을 배우기에 조금 빨라서 영어는 0.9배로 재생해요(`voices.js`의 `EN_RATE` 하나를 낱말 소리 · 음성 해설의 `enRate` · 발음 듣기의 `EN.say.rate`가 함께 씀, 한국어는 1배). 자막에 · 로 늘어놓은 영어 낱말은 `voicestudio-narration.py --word-lists`로 낱말마다 만들어 쉼표만큼 쉬고 이어요(엔진은 쉼표에서 거의 쉬지 않아요). 주인이 들어 보고 정한 것이에요.
 - **글자 칠하기**: 한 글자(r · l)에 칠한 상자를 씌우면 읽기 어려워서, 글자 색 + 밑줄로 칠해요.
 
 ## 공통 부품 (`shared/`)
@@ -163,13 +164,13 @@ docs/pron-types.md      영어 발음 영역의 설계도: 한국어 화자가 �
 <script src="../shared/drill.js"></script>
 ```
 
-- **`EN.narration({ captions, read, rate, holdBefore })`** — `captions`는 `[{ start, end, text }]`(영상 전체 기준 초).
+- **`EN.narration({ captions, read, rate, holdBefore, enRate })`** — `captions`는 `[{ start, end, text }]`(영상 전체 기준 초). `enRate`(선택, 기본 1)는 영어 조각만의 빠르기 배수(발음 튜토리얼 0.9).
   - 재생 중 매 프레임: `T = narr.hold(T, T + dt * speed)` 다음 `narr.sync(T, playing)` / 일시정지·이동·재생 시작: `narr.reset()`
   - 단추: `EN.narration.bind(narr, 단추, 안내문, { onEnable() { if (!started) play(); } })` — 지원하지 않는 브라우저면 단추를 숨김
   - `**`, ①~⑤, →, …, ·, ___(빈칸), (A)~(D) 같은 기호 읽기는 부품이 처리합니다. `read`에는 그 튜토리얼의 약어만(예: `[/TOEIC/g, '토익']`).
   - 화면용 `×`는 ‘곱하기’로 읽히므로 자막에는 쓰지 않습니다(캔버스·해설 글에는 써도 됨).
   - **미리 만든 음성 파일(선택)**: `clips: window.EN_CLIPS`(`<slug>/audio/narration/clips.js`, `index.html`에서 app.js 앞에 불러옴). 자막을 읽기 조각(`narr.parts` → 한국어 · 영어)으로 나눠, 조각 id(`EN.narration.pieceId(lang, text)`)의 파일이 있으면 그 파일을(`<audio>` 하나, V 단추를 누를 때 잠금을 풂 — Safari), 없으면 브라우저 음성으로 읽어요. 파일을 못 읽으면 그 조각만 브라우저 음성으로. 빈 목록이면 예전과 똑같아요. 만드는 법: `node tools/narration-pieces.cjs <slug>`(클라우드에서도 됨) → VoiceStudio가 있는 맥에서 `python3 tools/voicestudio-narration.py <slug>`(기본은 한국어 조각만 — 영어 조각은 학습용 본보기 발음이라 브라우저의 en-US 음성 그대로, `--english`로 영어 조각도 같은 목소리, `--limit 5`로 먼저 들어 보기, 이미 만든 파일은 건너뜀) → `<slug>/audio` 커밋. 자막을 고치면 조각 목록을 다시 만들고 스크립트를 다시 돌리면 바뀐 조각만 새로 만들어요(그 전까지 바뀐 조각은 브라우저 음성). 영어 조각을 다른 목소리로 만들려면 `--en-profile 이름`(clips.js에 `voiceEn`으로 적혀 상태 줄에 보여요 — 회화 · 토익 튜토리얼 모두 밝은 「영어 선생님 (밝은 미국 여성)」. 회화 튜토리얼의 영어 칩(대화 목록의 말하는 사람 `tc`)도 같은 목소리예요. 처음의 차분한 「영어 선생님 (미국 여성)」은 너무 가라앉게 들려 바꿨어요). MP4에는 아직 소리를 넣지 않아요.
-- **`EN.say(text, { slow, onend })`**, `EN.say.button(text, label)`, `EN.say.wire(root, { before })`, `EN.say.stop()` — 영어 음성으로 읽기. 음성을 쓸 수 없는 브라우저면 `<html class="no-say">`가 붙어 단추가 숨겨집니다. `window.EN_CLIPS`(음성 해설과 같은 목록)에 읽을 글의 조각 id(`EN.narration.pieceId('en', EN.say.text(글))`)가 있으면 그 파일로 읽어요(천천히는 같은 파일을 0.75배로, 못 읽으면 브라우저 음성). `EN.say.hasClip(글)`로 확인. 토익 튜토리얼은 `tools/narration-pieces.cjs`가 `tools/say-sweep.js`로 모은 발음 듣기 글을 영어 조각(`from: 'say'`)으로 더해 「영어 선생님 (밝은 미국 여성)」으로 만들어요. 놀이터에서 조각을 골라 만든 문장처럼 조합이 많은 글은 모으지 않아 브라우저 음성으로 읽어요. 회화 튜토리얼은 발음 칩을 대화 목록(말하는 사람 `tc`)으로 만들어서 훑지 않아요.
+- **`EN.say(text, { slow, onend })`**, `EN.say.button(text, label)`, `EN.say.wire(root, { before })`, `EN.say.stop()` — 영어 음성으로 읽기. 음성을 쓸 수 없는 브라우저면 `<html class="no-say">`가 붙어 단추가 숨겨집니다. `window.EN_CLIPS`(음성 해설과 같은 목록)에 읽을 글의 조각 id(`EN.narration.pieceId('en', EN.say.text(글))`)가 있으면 그 파일로 읽어요(천천히는 같은 파일을 0.75배로, 못 읽으면 브라우저 음성). `EN.say.hasClip(글)`로 확인. `EN.say.rate`(기본 1)를 바꾸면 보통 빠르기가 바뀌어요(천천히는 0.75배 그대로). 토익 튜토리얼은 `tools/narration-pieces.cjs`가 `tools/say-sweep.js`로 모은 발음 듣기 글을 영어 조각(`from: 'say'`)으로 더해 「영어 선생님 (밝은 미국 여성)」으로 만들어요. 놀이터에서 조각을 골라 만든 문장처럼 조합이 많은 글은 모으지 않아 브라우저 음성으로 읽어요. 회화 튜토리얼은 발음 칩을 대화 목록(말하는 사람 `tc`)으로 만들어서 훑지 않아요.
 - **`EN.drill({ root, items, before, done })`** — 문제는 `{ q, opts, a, ko, tag, steps: [{ head, text, marks: [{ t, role }] }], notes }`. `q`의 빈칸은 `___`. `marks`의 role: `ante` · `cue` · `trap` · `verb`.
 - **`EN.quiz({ list, score, reset, done, questions })`** — 문제는 `{ q, opts, a, why }`, 그림 문제는 `figure`를 더합니다.
 - **색과 글꼴**: 공통 CSS는 아래 변수만 씁니다. 튜토리얼 `:root`에서 자기 토큰에 연결하면 밝은/어두운 테마를 따라갑니다.
