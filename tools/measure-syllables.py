@@ -73,6 +73,7 @@ F2_BACK_MAX = 2200   # 뒤 모음(u · ʊ)으로 잰 F2가 이보다 크면 측�
 F2_FRONT_MIN = 1000  # 앞 모음(i · ɪ)으로 잰 F2가 이보다 작으면 측정 오류로 봐요
 OP_F1 = 50        # 입 벌림 짝: 크게 벌린 모음(æ · ɑ)의 F1 − 덜 벌린 모음(ɛ · ʌ)의 F1 (Hz) 이상
 OP_F2 = 100       # 입 벌림 뒤 짝: F1 차가 모자라면 덜 벌린 ʌ의 F2 − 크게 벌린 ɑ의 F2 (Hz) 이상이어도 통과
+F1_MAX = 1300     # F1으로 볼 가장 높은 공명(Hz) — 밝은 선생님의 크게 벌린 애(æ)는 F1이 1150~1200Hz까지 올라가요
 
 ONES = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split()
 TENS = {2: 'twenty', 3: 'thirty', 4: 'forty', 5: 'fifty', 6: 'sixty', 7: 'seventy', 8: 'eighty', 9: 'ninety'}
@@ -235,7 +236,7 @@ def nucleus(env, a, b, drop=10.0):
 
 def lpc_formants(y, sr, a, b, ceiling):
     """프레임 a~b(5ms 간격, 가운데 맞춤)마다 LPC(10차, 표본율 = 상한 × 2, 25ms 해밍 창, 앞 강조)로 근을 구해
-    F1 = 180~1100Hz의 가장 낮은 공명, F2 = 그보다 250Hz 넘게 높은 첫 공명(대역폭 600Hz 아래) → 프레임들의 가운데 값(Hz).
+    F1 = 180~F1_MAX(1300)Hz의 가장 낮은 공명, F2 = 그보다 250Hz 넘게 높은 첫 공명(대역폭 600Hz 아래) → 프레임들의 가운데 값(Hz).
     재지 못하면 None"""
     sr2 = int(ceiling * 2)
     y2 = librosa.resample(y, orig_sr=sr, target_sr=sr2)
@@ -258,7 +259,7 @@ def lpc_formants(y, sr, a, b, ceiling):
         rts = rts[np.imag(rts) > 0.01]
         f = np.angle(rts) * sr2 / (2 * np.pi)
         bw = -np.log(np.abs(rts)) * sr2 / np.pi
-        c1 = np.sort(f[(f >= 180) & (f <= 1100) & (bw < 600)])
+        c1 = np.sort(f[(f >= 180) & (f <= F1_MAX) & (bw < 600)])
         if not len(c1):
             continue
         c2 = np.sort(f[(f > c1[0] + 250) & (f >= 600) & (f <= ceiling - 300) & (bw < 600)])
@@ -312,7 +313,10 @@ def file_key(path):
 
 # 소리가 같은 낱말(받아쓰기가 어느 쪽으로 적어도 같은 소리) — 받아쓰기만으로는 가를 수 없어요
 HOMOPHONES = {'heal': 'heel', 'peal': 'peel', 'reed': 'read', 'weak': 'week', 'feat': 'feet', 'meat': 'meet', 'sea': 'see',
-              'knot': 'not', 'won': 'one', 'hole': 'whole', 'steal': 'steel', 'seen': 'scene', 'leek': 'leak'}
+              'knot': 'not', 'won': 'one', 'hole': 'whole', 'steal': 'steel', 'seen': 'scene', 'leek': 'leak',
+              'doc': 'dock', 'sun': 'son', 'scent': 'sent', 'cent': 'sent', 'butt': 'but',
+              # 많은 미국 사람이 아(ɑ)와 오(ɔ)를 같게 말해서(cot · caught) 받아쓰기가 어느 쪽으로 적어도 같은 소리로 봐요
+              'caught': 'cot', 'bought': 'bot', 'caller': 'collar'}
 
 
 def heard_ok(lang, heard, text):
