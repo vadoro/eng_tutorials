@@ -1,0 +1,2310 @@
+{
+ "slug": "f-v-w",
+ "note": "잴 줄의 정보 (tools/dialogue-lines.cjs가 페이지의 window.__measureMeta()로 만듦 — 손으로 고치지 마세요). kind: word = 낱말 하나(n 음절 수 · at 센 음절, 0부터) · ko = 한국어식(n 글자 수) · other = 받아쓰기만. tools/measure-syllables.py가 읽어요",
+ "count": {
+  "word": 196,
+  "ko": 49,
+  "other": 32
+ },
+ "lines": [
+  {
+   "id": "tc-40657821",
+   "sp": "tc",
+   "text": "fan",
+   "kind": "word",
+   "key": "fan",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-4bc6da3b",
+   "sp": "tc",
+   "text": "pan",
+   "kind": "word",
+   "key": "pan",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-7b16866f",
+   "sp": "ko",
+   "text": "팬",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-98fc90f8",
+   "sp": "tc",
+   "text": "very",
+   "kind": "word",
+   "key": "very",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-e4c02d54",
+   "sp": "tc",
+   "text": "berry",
+   "kind": "word",
+   "key": "berry",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-5a1c69b5",
+   "sp": "ko",
+   "text": "베리",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-e6067a8d",
+   "sp": "tc",
+   "text": "wine",
+   "kind": "word",
+   "key": "wine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-b0758f44",
+   "sp": "tc",
+   "text": "vine",
+   "kind": "word",
+   "key": "vine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-b412706c",
+   "sp": "tc",
+   "text": "leaf",
+   "kind": "word",
+   "key": "leaf",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-c2128676",
+   "sp": "tc",
+   "text": "leap",
+   "kind": "word",
+   "key": "leap",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-d397497e",
+   "sp": "tf",
+   "text": "fan",
+   "kind": "word",
+   "key": "fan",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-9861f710",
+   "sp": "tf",
+   "text": "pan",
+   "kind": "word",
+   "key": "pan",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-7f01ed73",
+   "sp": "uf",
+   "text": "fan",
+   "kind": "word",
+   "key": "fan",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-d62b22f9",
+   "sp": "uf",
+   "text": "pan",
+   "kind": "word",
+   "key": "pan",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-b3608726",
+   "sp": "um",
+   "text": "fan",
+   "kind": "word",
+   "key": "fan",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-f32794b8",
+   "sp": "um",
+   "text": "pan",
+   "kind": "word",
+   "key": "pan",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-52981431",
+   "sp": "tc",
+   "text": "van",
+   "kind": "word",
+   "key": "van",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-f49da4b5",
+   "sp": "tc",
+   "text": "ban",
+   "kind": "word",
+   "key": "ban",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-7293d0d7",
+   "sp": "ko",
+   "text": "밴",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-64666769",
+   "sp": "tc",
+   "text": "wood",
+   "kind": "word",
+   "key": "wood",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-68562875",
+   "sp": "ko",
+   "text": "우드",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-3a2ae314",
+   "sp": "tc",
+   "text": "fine",
+   "kind": "word",
+   "key": "fine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-f5dc7ef8",
+   "sp": "tc",
+   "text": "feel",
+   "kind": "word",
+   "key": "feel",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-82aec600",
+   "sp": "tc",
+   "text": "fork",
+   "kind": "word",
+   "key": "fork",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-5a7699f1",
+   "sp": "ko",
+   "text": "리프",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-8e7b8ebd",
+   "sp": "tc",
+   "text": "laugh",
+   "kind": "word",
+   "key": "laugh",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-9d839135",
+   "sp": "ko",
+   "text": "래프",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-22b90cf8",
+   "sp": "tc",
+   "text": "vote",
+   "kind": "word",
+   "key": "vote",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-196c8122",
+   "sp": "tc",
+   "text": "boat",
+   "kind": "word",
+   "key": "boat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-4e43ea7d",
+   "sp": "ko",
+   "text": "보트",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-a7fa69fe",
+   "sp": "tc",
+   "text": "vest",
+   "kind": "word",
+   "key": "vest",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-8b937cc2",
+   "sp": "tc",
+   "text": "best",
+   "kind": "word",
+   "key": "best",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-48d180af",
+   "sp": "ko",
+   "text": "베스트",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "ko-028b58d9",
+   "sp": "ko",
+   "text": "와인",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-0ef06a63",
+   "sp": "tc",
+   "text": "water",
+   "kind": "word",
+   "key": "water",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-549495ed",
+   "sp": "ko",
+   "text": "워터",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-de31d4c3",
+   "sp": "tc",
+   "text": "west",
+   "kind": "word",
+   "key": "west",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-fe9abc47",
+   "sp": "ko",
+   "text": "웨스트",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-dd65a73a",
+   "sp": "tc",
+   "text": "win",
+   "kind": "word",
+   "key": "win",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-5735c9c3",
+   "sp": "ko",
+   "text": "윈",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-0de5aaae",
+   "sp": "tc",
+   "text": "woman",
+   "kind": "word",
+   "key": "woman",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-c864ea95",
+   "sp": "ko",
+   "text": "우먼",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-8089706d",
+   "sp": "tc",
+   "text": "would",
+   "kind": "word",
+   "key": "would",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-356c2295",
+   "sp": "tc",
+   "text": "fly",
+   "kind": "word",
+   "key": "fly",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-c48351c7",
+   "sp": "ko",
+   "text": "플라이",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-a1e7530a",
+   "sp": "tc",
+   "text": "free",
+   "kind": "word",
+   "key": "free",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-15758251",
+   "sp": "ko",
+   "text": "프리",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-382acce0",
+   "sp": "tc",
+   "text": "swim",
+   "kind": "word",
+   "key": "swim",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-94cc8169",
+   "sp": "ko",
+   "text": "스윔",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-16c75cb9",
+   "sp": "tc",
+   "text": "twelve",
+   "kind": "word",
+   "key": "twelve",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-1b63f66f",
+   "sp": "ko",
+   "text": "트웰브",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-bbd0a3cb",
+   "sp": "tc",
+   "text": "quick",
+   "kind": "word",
+   "key": "quick",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-72180b44",
+   "sp": "ko",
+   "text": "퀵",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-d7e4ea18",
+   "sp": "tc",
+   "text": "coffee",
+   "kind": "word",
+   "key": "coffee",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-5cd476a1",
+   "sp": "ko",
+   "text": "커피",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-dee37771",
+   "sp": "tc",
+   "text": "seven",
+   "kind": "word",
+   "key": "seven",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-56ba8b59",
+   "sp": "ko",
+   "text": "세븐",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-c2e82396",
+   "sp": "tc",
+   "text": "away",
+   "kind": "word",
+   "key": "away",
+   "n": 2,
+   "at": 1
+  },
+  {
+   "id": "ko-cb56fb9b",
+   "sp": "ko",
+   "text": "어웨이",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-0a66c1ac",
+   "sp": "tc",
+   "text": "five",
+   "kind": "word",
+   "key": "five",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-94280c57",
+   "sp": "ko",
+   "text": "파이브",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-352fa1e4",
+   "sp": "tc",
+   "text": "love",
+   "kind": "word",
+   "key": "love",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-c486fa99",
+   "sp": "ko",
+   "text": "러브",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-9fd40054",
+   "sp": "tc",
+   "text": "golf",
+   "kind": "word",
+   "key": "golf",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-7c4b4225",
+   "sp": "ko",
+   "text": "골프",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-d78a1e09",
+   "sp": "ko",
+   "text": "파일",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-2e265302",
+   "sp": "tc",
+   "text": "file",
+   "kind": "word",
+   "key": "file",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-c8d39ef9",
+   "sp": "ko",
+   "text": "포크",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-2b5b7ed7",
+   "sp": "ko",
+   "text": "비디오",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-a216b70f",
+   "sp": "tc",
+   "text": "video",
+   "kind": "word",
+   "key": "video",
+   "n": 3,
+   "at": 0
+  },
+  {
+   "id": "ko-c56397bf",
+   "sp": "ko",
+   "text": "서비스",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-ce13edc7",
+   "sp": "tc",
+   "text": "service",
+   "kind": "word",
+   "key": "service",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-e7351973",
+   "sp": "ko",
+   "text": "울",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-6c667401",
+   "sp": "tc",
+   "text": "wool",
+   "kind": "word",
+   "key": "wool",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-70b0df55",
+   "sp": "ko",
+   "text": "울프",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-506a1984",
+   "sp": "tc",
+   "text": "wolf",
+   "kind": "word",
+   "key": "wolf",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-7848cd75",
+   "sp": "ko",
+   "text": "와이파이",
+   "kind": "ko",
+   "n": 4
+  },
+  {
+   "id": "tc-4196130e",
+   "sp": "tc",
+   "text": "Wi-Fi",
+   "kind": "word",
+   "key": "wi-fi",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-1c22f7bb",
+   "sp": "ko",
+   "text": "웨이브",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-4f2b522d",
+   "sp": "tc",
+   "text": "wave",
+   "kind": "word",
+   "key": "wave",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-6c0dec24",
+   "sp": "ko",
+   "text": "페이버릿",
+   "kind": "ko",
+   "n": 4
+  },
+  {
+   "id": "tc-e3aeeca8",
+   "sp": "tc",
+   "text": "favorite",
+   "kind": "word",
+   "key": "favorite",
+   "n": 3,
+   "at": 0
+  },
+  {
+   "id": "tc-414e5410",
+   "sp": "tc",
+   "text": "cup",
+   "kind": "word",
+   "key": "cup",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-32422784",
+   "sp": "ko",
+   "text": "컵",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-44355ddc",
+   "sp": "tc",
+   "text": "cuff",
+   "kind": "word",
+   "key": "cuff",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-24d41e79",
+   "sp": "ko",
+   "text": "커프",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-9a093dc8",
+   "sp": "tc",
+   "text": "A cup of coffee, please.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-fc5317f7",
+   "sp": "tc",
+   "text": "My wife will wipe the table.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-743656a5",
+   "sp": "tc",
+   "text": "Wear a vest when it's cold.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-49f8bb15",
+   "sp": "tc",
+   "text": "Would you like some water?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-114b8012",
+   "sp": "tc",
+   "text": "pine",
+   "kind": "word",
+   "key": "pine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-db8a2455",
+   "sp": "ko",
+   "text": "파인",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-b6889592",
+   "sp": "tc",
+   "text": "fast",
+   "kind": "word",
+   "key": "fast",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-92d5c588",
+   "sp": "tc",
+   "text": "past",
+   "kind": "word",
+   "key": "past",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-ba621807",
+   "sp": "ko",
+   "text": "패스트",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-5a1b8eee",
+   "sp": "tc",
+   "text": "pork",
+   "kind": "word",
+   "key": "pork",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-ccae98b2",
+   "sp": "tc",
+   "text": "peel",
+   "kind": "word",
+   "key": "peel",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-a3203767",
+   "sp": "ko",
+   "text": "필",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-a3cad070",
+   "sp": "tc",
+   "text": "fool",
+   "kind": "word",
+   "key": "fool",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-3f373aea",
+   "sp": "tc",
+   "text": "pool",
+   "kind": "word",
+   "key": "pool",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-df1f02db",
+   "sp": "ko",
+   "text": "풀",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-0f7af0b9",
+   "sp": "tc",
+   "text": "fleas",
+   "kind": "word",
+   "key": "fleas",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-69d8006a",
+   "sp": "tc",
+   "text": "please",
+   "kind": "word",
+   "key": "please",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-0ac7c6c3",
+   "sp": "ko",
+   "text": "플리즈",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-7416581b",
+   "sp": "tc",
+   "text": "suffer",
+   "kind": "word",
+   "key": "suffer",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-c530e587",
+   "sp": "tc",
+   "text": "supper",
+   "kind": "word",
+   "key": "supper",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-03207999",
+   "sp": "ko",
+   "text": "서퍼",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-b5f2a745",
+   "sp": "tc",
+   "text": "wife",
+   "kind": "word",
+   "key": "wife",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-b1bc86ff",
+   "sp": "tc",
+   "text": "wipe",
+   "kind": "word",
+   "key": "wipe",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-9efd3d3b",
+   "sp": "ko",
+   "text": "와이프",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-c3cdbba1",
+   "sp": "tc",
+   "text": "lap",
+   "kind": "word",
+   "key": "lap",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-f5867410",
+   "sp": "ko",
+   "text": "랩",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-688da977",
+   "sp": "tc",
+   "text": "vet",
+   "kind": "word",
+   "key": "vet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-daa80923",
+   "sp": "tc",
+   "text": "bet",
+   "kind": "word",
+   "key": "bet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-ef94959e",
+   "sp": "ko",
+   "text": "벳",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-04361ebf",
+   "sp": "tc",
+   "text": "curve",
+   "kind": "word",
+   "key": "curve",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-4853793c",
+   "sp": "tc",
+   "text": "curb",
+   "kind": "word",
+   "key": "curb",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-2d732a11",
+   "sp": "ko",
+   "text": "커브",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-0cf5329d",
+   "sp": "ko",
+   "text": "바인",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-c3839360",
+   "sp": "tc",
+   "text": "wet",
+   "kind": "word",
+   "key": "wet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-28357fc6",
+   "sp": "ko",
+   "text": "웻",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-844e2ea9",
+   "sp": "tc",
+   "text": "while",
+   "kind": "word",
+   "key": "while",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-a470ff32",
+   "sp": "tc",
+   "text": "vile",
+   "kind": "word",
+   "key": "vile",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-068b5f25",
+   "sp": "ko",
+   "text": "와일",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-08f52c51",
+   "sp": "ko",
+   "text": "바일",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-2876fc83",
+   "sp": "tc",
+   "text": "I feel fine.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-c71e0582",
+   "sp": "tc",
+   "text": "This food is fresh.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-5dcdc11c",
+   "sp": "tc",
+   "text": "My office is on the fourth floor.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-d0b37464",
+   "sp": "tc",
+   "text": "I need a fork.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-448b79f0",
+   "sp": "tc",
+   "text": "Don't laugh at my photo.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-ba9d0a3e",
+   "sp": "tc",
+   "text": "The phone is on the sofa.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-7575ac15",
+   "sp": "tc",
+   "text": "I left it on the shelf.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-5c5eb5b8",
+   "sp": "tc",
+   "text": "Thank you very much.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-518f2baa",
+   "sp": "tc",
+   "text": "I love this video.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-95d8a4b0",
+   "sp": "tc",
+   "text": "I have seven classes.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-36eeff3e",
+   "sp": "tc",
+   "text": "Never give up.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-b0d67091",
+   "sp": "tc",
+   "text": "The service is very good.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-ba9baa8f",
+   "sp": "tc",
+   "text": "Leave it on the stove.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-9f09ffa3",
+   "sp": "tc",
+   "text": "Did you vote?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-70e9a5fc",
+   "sp": "tc",
+   "text": "We walked in the woods.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-689cccae",
+   "sp": "tc",
+   "text": "The woman is waiting.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-3a783d9f",
+   "sp": "tc",
+   "text": "This wool sweater is warm.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-ead02f60",
+   "sp": "tc",
+   "text": "Where were you?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-31a80c20",
+   "sp": "tc",
+   "text": "Swim with me.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-fab1fb1b",
+   "sp": "tc",
+   "text": "That was quick.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-6ab6533a",
+   "sp": "tc",
+   "text": "This berry is very sweet.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-08659adf",
+   "sp": "tc",
+   "text": "Pass me the fan.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-397188ed",
+   "sp": "tc",
+   "text": "Is there free Wi-Fi here?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-b3b3736c",
+   "sp": "tc",
+   "text": "What's your favorite food?",
+   "kind": "other"
+  },
+  {
+   "id": "tf-53ef4c15",
+   "sp": "tf",
+   "text": "very",
+   "kind": "word",
+   "key": "very",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tf-0fe87453",
+   "sp": "tf",
+   "text": "berry",
+   "kind": "word",
+   "key": "berry",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "uf-ddeb509e",
+   "sp": "uf",
+   "text": "very",
+   "kind": "word",
+   "key": "very",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "uf-b509bdea",
+   "sp": "uf",
+   "text": "berry",
+   "kind": "word",
+   "key": "berry",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-7567820d",
+   "sp": "um",
+   "text": "very",
+   "kind": "word",
+   "key": "very",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-6ae550db",
+   "sp": "um",
+   "text": "berry",
+   "kind": "word",
+   "key": "berry",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tf-c06235b0",
+   "sp": "tf",
+   "text": "wine",
+   "kind": "word",
+   "key": "wine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-a3706e49",
+   "sp": "tf",
+   "text": "vine",
+   "kind": "word",
+   "key": "vine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-f099bcbb",
+   "sp": "uf",
+   "text": "wine",
+   "kind": "word",
+   "key": "wine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-158b90ba",
+   "sp": "uf",
+   "text": "vine",
+   "kind": "word",
+   "key": "vine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-a1f94a98",
+   "sp": "um",
+   "text": "wine",
+   "kind": "word",
+   "key": "wine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-85078331",
+   "sp": "um",
+   "text": "vine",
+   "kind": "word",
+   "key": "vine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-a46df7f1",
+   "sp": "tf",
+   "text": "leaf",
+   "kind": "word",
+   "key": "leaf",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-b66e1447",
+   "sp": "tf",
+   "text": "leap",
+   "kind": "word",
+   "key": "leap",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-0f6eb39e",
+   "sp": "uf",
+   "text": "leaf",
+   "kind": "word",
+   "key": "leaf",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-216ecff4",
+   "sp": "uf",
+   "text": "leap",
+   "kind": "word",
+   "key": "leap",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-c0176689",
+   "sp": "um",
+   "text": "leaf",
+   "kind": "word",
+   "key": "leaf",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-b217507f",
+   "sp": "um",
+   "text": "leap",
+   "kind": "word",
+   "key": "leap",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-9b69d399",
+   "sp": "tf",
+   "text": "fine",
+   "kind": "word",
+   "key": "fine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-00296b27",
+   "sp": "tf",
+   "text": "pine",
+   "kind": "word",
+   "key": "pine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-5cc7a9ca",
+   "sp": "uf",
+   "text": "fine",
+   "kind": "word",
+   "key": "fine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-2b78eb8c",
+   "sp": "uf",
+   "text": "pine",
+   "kind": "word",
+   "key": "pine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-3d2d9961",
+   "sp": "um",
+   "text": "fine",
+   "kind": "word",
+   "key": "fine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-fb5ce6ef",
+   "sp": "um",
+   "text": "pine",
+   "kind": "word",
+   "key": "pine",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-0f483213",
+   "sp": "tf",
+   "text": "fast",
+   "kind": "word",
+   "key": "fast",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-4c302d19",
+   "sp": "tf",
+   "text": "past",
+   "kind": "word",
+   "key": "past",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-f14afe80",
+   "sp": "uf",
+   "text": "fast",
+   "kind": "word",
+   "key": "fast",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-b52a4d0a",
+   "sp": "uf",
+   "text": "past",
+   "kind": "word",
+   "key": "past",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-c13c7f3b",
+   "sp": "um",
+   "text": "fast",
+   "kind": "word",
+   "key": "fast",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-996f9a41",
+   "sp": "um",
+   "text": "past",
+   "kind": "word",
+   "key": "past",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-e9fbb035",
+   "sp": "tf",
+   "text": "fork",
+   "kind": "word",
+   "key": "fork",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-cf809183",
+   "sp": "tf",
+   "text": "pork",
+   "kind": "word",
+   "key": "pork",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-75c00f86",
+   "sp": "uf",
+   "text": "fork",
+   "kind": "word",
+   "key": "fork",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-a38658b8",
+   "sp": "uf",
+   "text": "pork",
+   "kind": "word",
+   "key": "pork",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-3be79a7d",
+   "sp": "um",
+   "text": "fork",
+   "kind": "word",
+   "key": "fork",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-ba3d32cb",
+   "sp": "um",
+   "text": "pork",
+   "kind": "word",
+   "key": "pork",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-56ed6cf1",
+   "sp": "tf",
+   "text": "feel",
+   "kind": "word",
+   "key": "feel",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-14a02623",
+   "sp": "tf",
+   "text": "peel",
+   "kind": "word",
+   "key": "peel",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-5ad5fe5a",
+   "sp": "uf",
+   "text": "feel",
+   "kind": "word",
+   "key": "feel",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-e42ffe60",
+   "sp": "uf",
+   "text": "peel",
+   "kind": "word",
+   "key": "peel",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-1abcd889",
+   "sp": "um",
+   "text": "feel",
+   "kind": "word",
+   "key": "feel",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-4fb4c2fb",
+   "sp": "um",
+   "text": "peel",
+   "kind": "word",
+   "key": "peel",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-c8e138c5",
+   "sp": "tf",
+   "text": "fool",
+   "kind": "word",
+   "key": "fool",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-d23db04f",
+   "sp": "tf",
+   "text": "pool",
+   "kind": "word",
+   "key": "pool",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-7ab34b72",
+   "sp": "uf",
+   "text": "fool",
+   "kind": "word",
+   "key": "fool",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-a4798e58",
+   "sp": "uf",
+   "text": "pool",
+   "kind": "word",
+   "key": "pool",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-3af464dd",
+   "sp": "um",
+   "text": "fool",
+   "kind": "word",
+   "key": "fool",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-dd219367",
+   "sp": "um",
+   "text": "pool",
+   "kind": "word",
+   "key": "pool",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-78b7a61e",
+   "sp": "tf",
+   "text": "fleas",
+   "kind": "word",
+   "key": "fleas",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-b96fa1ff",
+   "sp": "tf",
+   "text": "please",
+   "kind": "word",
+   "key": "please",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-08c235a3",
+   "sp": "uf",
+   "text": "fleas",
+   "kind": "word",
+   "key": "fleas",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-4f04d73c",
+   "sp": "uf",
+   "text": "please",
+   "kind": "word",
+   "key": "please",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-77a0fc86",
+   "sp": "um",
+   "text": "fleas",
+   "kind": "word",
+   "key": "fleas",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-911cb1f7",
+   "sp": "um",
+   "text": "please",
+   "kind": "word",
+   "key": "please",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-fd2bb4e2",
+   "sp": "tf",
+   "text": "suffer",
+   "kind": "word",
+   "key": "suffer",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tf-41cdb7f2",
+   "sp": "tf",
+   "text": "supper",
+   "kind": "word",
+   "key": "supper",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "uf-0a4d5521",
+   "sp": "uf",
+   "text": "suffer",
+   "kind": "word",
+   "key": "suffer",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "uf-cb1e173d",
+   "sp": "uf",
+   "text": "supper",
+   "kind": "word",
+   "key": "supper",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-cb90596a",
+   "sp": "um",
+   "text": "suffer",
+   "kind": "word",
+   "key": "suffer",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-ad09f41a",
+   "sp": "um",
+   "text": "supper",
+   "kind": "word",
+   "key": "supper",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tf-b0773738",
+   "sp": "tf",
+   "text": "wife",
+   "kind": "word",
+   "key": "wife",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-b43f908a",
+   "sp": "tf",
+   "text": "wipe",
+   "kind": "word",
+   "key": "wipe",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-e0ad2b43",
+   "sp": "uf",
+   "text": "wife",
+   "kind": "word",
+   "key": "wife",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-f481be21",
+   "sp": "uf",
+   "text": "wipe",
+   "kind": "word",
+   "key": "wipe",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-b1e5dc10",
+   "sp": "um",
+   "text": "wife",
+   "kind": "word",
+   "key": "wife",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-b5afc862",
+   "sp": "um",
+   "text": "wipe",
+   "kind": "word",
+   "key": "wipe",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-17ffd0d9",
+   "sp": "tf",
+   "text": "cuff",
+   "kind": "word",
+   "key": "cuff",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-b69926c3",
+   "sp": "tf",
+   "text": "cup",
+   "kind": "word",
+   "key": "cup",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-4df20a46",
+   "sp": "uf",
+   "text": "cuff",
+   "kind": "word",
+   "key": "cuff",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-4aeee60e",
+   "sp": "uf",
+   "text": "cup",
+   "kind": "word",
+   "key": "cup",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-ec6d2661",
+   "sp": "um",
+   "text": "cuff",
+   "kind": "word",
+   "key": "cuff",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-a664109b",
+   "sp": "um",
+   "text": "cup",
+   "kind": "word",
+   "key": "cup",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-1ea2fde2",
+   "sp": "tf",
+   "text": "laugh",
+   "kind": "word",
+   "key": "laugh",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-a757888e",
+   "sp": "tf",
+   "text": "lap",
+   "kind": "word",
+   "key": "lap",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-e2094623",
+   "sp": "uf",
+   "text": "laugh",
+   "kind": "word",
+   "key": "laugh",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-02fbe5cb",
+   "sp": "uf",
+   "text": "lap",
+   "kind": "word",
+   "key": "lap",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-125bcb9a",
+   "sp": "um",
+   "text": "laugh",
+   "kind": "word",
+   "key": "laugh",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-44edde96",
+   "sp": "um",
+   "text": "lap",
+   "kind": "word",
+   "key": "lap",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-aa29a359",
+   "sp": "tf",
+   "text": "vote",
+   "kind": "word",
+   "key": "vote",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-a84d69df",
+   "sp": "tf",
+   "text": "boat",
+   "kind": "word",
+   "key": "boat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-39c001ce",
+   "sp": "uf",
+   "text": "vote",
+   "kind": "word",
+   "key": "vote",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-cc8dab48",
+   "sp": "uf",
+   "text": "boat",
+   "kind": "word",
+   "key": "boat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-abe7fa11",
+   "sp": "um",
+   "text": "vote",
+   "kind": "word",
+   "key": "vote",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-c4e4ed37",
+   "sp": "um",
+   "text": "boat",
+   "kind": "word",
+   "key": "boat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-44f1730f",
+   "sp": "tf",
+   "text": "vest",
+   "kind": "word",
+   "key": "vest",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-763abf1b",
+   "sp": "tf",
+   "text": "best",
+   "kind": "word",
+   "key": "best",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-d4e903dc",
+   "sp": "uf",
+   "text": "vest",
+   "kind": "word",
+   "key": "vest",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-57edd9a8",
+   "sp": "uf",
+   "text": "best",
+   "kind": "word",
+   "key": "best",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-7669c237",
+   "sp": "um",
+   "text": "vest",
+   "kind": "word",
+   "key": "vest",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-42c865c3",
+   "sp": "um",
+   "text": "best",
+   "kind": "word",
+   "key": "best",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-23ef450e",
+   "sp": "tf",
+   "text": "van",
+   "kind": "word",
+   "key": "van",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-1ebfb92a",
+   "sp": "tf",
+   "text": "ban",
+   "kind": "word",
+   "key": "ban",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-d134ee43",
+   "sp": "uf",
+   "text": "van",
+   "kind": "word",
+   "key": "van",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-ca2a5d1f",
+   "sp": "uf",
+   "text": "ban",
+   "kind": "word",
+   "key": "ban",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-a12deb16",
+   "sp": "um",
+   "text": "van",
+   "kind": "word",
+   "key": "van",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-ff285a92",
+   "sp": "um",
+   "text": "ban",
+   "kind": "word",
+   "key": "ban",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-19e4a7f4",
+   "sp": "tf",
+   "text": "vet",
+   "kind": "word",
+   "key": "vet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-34c8d628",
+   "sp": "tf",
+   "text": "bet",
+   "kind": "word",
+   "key": "bet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-bb2bd145",
+   "sp": "uf",
+   "text": "vet",
+   "kind": "word",
+   "key": "vet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-d4336739",
+   "sp": "uf",
+   "text": "bet",
+   "kind": "word",
+   "key": "bet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-872334cc",
+   "sp": "um",
+   "text": "vet",
+   "kind": "word",
+   "key": "vet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-05315e60",
+   "sp": "um",
+   "text": "bet",
+   "kind": "word",
+   "key": "bet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-7ce59df8",
+   "sp": "tf",
+   "text": "curve",
+   "kind": "word",
+   "key": "curve",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-241c65d1",
+   "sp": "tf",
+   "text": "curb",
+   "kind": "word",
+   "key": "curb",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-2036790d",
+   "sp": "uf",
+   "text": "curve",
+   "kind": "word",
+   "key": "curve",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-5a0e9f3e",
+   "sp": "uf",
+   "text": "curb",
+   "kind": "word",
+   "key": "curb",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-6edfdb50",
+   "sp": "um",
+   "text": "curve",
+   "kind": "word",
+   "key": "curve",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-b88ae999",
+   "sp": "um",
+   "text": "curb",
+   "kind": "word",
+   "key": "curb",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-deb1f0fa",
+   "sp": "tf",
+   "text": "west",
+   "kind": "word",
+   "key": "west",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-ca0f5db1",
+   "sp": "uf",
+   "text": "west",
+   "kind": "word",
+   "key": "west",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-f02a0dc2",
+   "sp": "um",
+   "text": "west",
+   "kind": "word",
+   "key": "west",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-af17474b",
+   "sp": "tf",
+   "text": "wet",
+   "kind": "word",
+   "key": "wet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-260cb9a6",
+   "sp": "uf",
+   "text": "wet",
+   "kind": "word",
+   "key": "wet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-1c55d423",
+   "sp": "um",
+   "text": "wet",
+   "kind": "word",
+   "key": "wet",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-87e571b2",
+   "sp": "tf",
+   "text": "while",
+   "kind": "word",
+   "key": "while",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-9f6beacf",
+   "sp": "tf",
+   "text": "vile",
+   "kind": "word",
+   "key": "vile",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-a5b88fdf",
+   "sp": "uf",
+   "text": "while",
+   "kind": "word",
+   "key": "while",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-e1914f0c",
+   "sp": "uf",
+   "text": "vile",
+   "kind": "word",
+   "key": "vile",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-a7a51eda",
+   "sp": "um",
+   "text": "while",
+   "kind": "word",
+   "key": "while",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-8102ffb7",
+   "sp": "um",
+   "text": "vile",
+   "kind": "word",
+   "key": "vile",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-f7537f86",
+   "sp": "tf",
+   "text": "Can I use the pan?",
+   "kind": "other"
+  },
+  {
+   "id": "uf-33a01ab3",
+   "sp": "uf",
+   "text": "wood",
+   "kind": "word",
+   "key": "wood",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-58950500",
+   "sp": "um",
+   "text": "Can you feel it?",
+   "kind": "other"
+  },
+  {
+   "id": "uf-735346af",
+   "sp": "uf",
+   "text": "would",
+   "kind": "word",
+   "key": "would",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-f31d13e1",
+   "sp": "tc",
+   "text": "Count the votes.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-344ebed1",
+   "sp": "tc",
+   "text": "votes",
+   "kind": "word",
+   "key": "votes",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-56cf9283",
+   "sp": "tc",
+   "text": "boats",
+   "kind": "word",
+   "key": "boats",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-328ff7b3",
+   "sp": "uf",
+   "text": "This vine is old.",
+   "kind": "other"
+  }
+ ]
+}

@@ -316,7 +316,9 @@ HOMOPHONES = {'heal': 'heel', 'peal': 'peel', 'reed': 'read', 'weak': 'week', 'f
               'knot': 'not', 'won': 'one', 'hole': 'whole', 'steal': 'steel', 'seen': 'scene', 'leek': 'leak',
               'doc': 'dock', 'sun': 'son', 'scent': 'sent', 'cent': 'sent', 'butt': 'but',
               # 많은 미국 사람이 아(ɑ)와 오(ɔ)를 같게 말해서(cot · caught) 받아쓰기가 어느 쪽으로 적어도 같은 소리로 봐요
-              'caught': 'cot', 'bought': 'bot', 'caller': 'collar'}
+              'caught': 'cot', 'bought': 'bot', 'caller': 'collar',
+              # wood · would는 소리가 같고, 많은 미국 사람이 Barry · berry를 같게 말해요(Mary · marry · merry)
+              'wood': 'would', 'barry': 'berry'}
 
 
 def heard_ok(lang, heard, text):

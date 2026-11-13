@@ -470,5 +470,18 @@ window.EN_CATALOG = {
       thumb: 'open-vowels/docs/poster.jpg',
       added: '2026-11-13',
     },
+    {
+      slug: 'f-v-w',
+      track: 'pron',
+      title: '입술이 하는 일 — f · v · w',
+      topic: 'f · p(fan · pan) · v · b(very · berry) · w · v(wine · vine) · 윗니를 아랫입술에 · 목 울림 · 우 앞의 w(wood → 우드) · 끝의 f · v · 외래어',
+      summary: '선풍기 · 냄비 → fan · pan, 한국어로 적으면 둘 다 팬이에요. 정말 · 산딸기 → very · berry, 둘 다 베리. 한국어에는 윗니와 아랫입술로 내는 소리가 없어서 f는 ㅍ, v는 ㅂ으로 적어요. 윗니 끝을 아랫입술에 얹는 f · v, 입술을 둥글게 모았다가 푸는 w를 입 옆 단면도로 보고, 우드 · 우먼처럼 우 앞에서 사라지는 w와 끝에 붙는 으도 잡아요. 끝에는 듣고 가르기 훈련 · 내 발음 확인.',
+      length: '6:52',
+      scenes: 10,
+      features: ['음성 해설', '입 옆 단면도', '목소리 넷으로 듣기', '한국어식과 견줘 듣기', '장면별 실습', '듣고 가르기 훈련', '내 발음 확인', '따라 말하기 28', '듣고 고르기 16', '퀴즈'],
+      types: [5, 6, 11],
+      thumb: 'f-v-w/docs/poster.jpg',
+      added: '2026-11-13',
+    },
   ],
 };
