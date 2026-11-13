@@ -1,0 +1,1750 @@
+{
+ "slug": "sentence-rhythm",
+ "note": "잴 줄의 정보 (tools/dialogue-lines.cjs가 페이지의 window.__measureMeta()로 만듦 — 손으로 고치지 마세요). kind: word = 낱말 하나(n 음절 수 · at 센 음절, 0부터) · ko = 한국어식(n 글자 수) · other = 받아쓰기만. tools/measure-syllables.py가 읽어요",
+ "count": {
+  "ko": 3,
+  "other": 60,
+  "word": 83
+ },
+ "lines": [
+  {
+   "id": "ko-78b3c8d7",
+   "sp": "ko",
+   "text": "아이 원트 투 고 투 더 스토어",
+   "kind": "ko",
+   "n": 11,
+   "en": "I want to go to the store."
+  },
+  {
+   "id": "tc-c351349d",
+   "sp": "tc",
+   "text": "I want to go to the store.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-b0171e51",
+   "sp": "tc",
+   "text": "I can go.",
+   "kind": "word",
+   "key": "I can go.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tc-6b01fe9a",
+   "sp": "tc",
+   "text": "I can't go.",
+   "kind": "word",
+   "key": "I can't go.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "tf-4ab4148e",
+   "sp": "tf",
+   "text": "I can go.",
+   "kind": "word",
+   "key": "I can go.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tf-d6eeedd5",
+   "sp": "tf",
+   "text": "I can't go.",
+   "kind": "word",
+   "key": "I can't go.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "uf-7b38e547",
+   "sp": "uf",
+   "text": "I can go.",
+   "kind": "word",
+   "key": "I can go.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "uf-bbf4c3bc",
+   "sp": "uf",
+   "text": "I can't go.",
+   "kind": "word",
+   "key": "I can't go.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "um-3f9f19c6",
+   "sp": "um",
+   "text": "I can go.",
+   "kind": "word",
+   "key": "I can go.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "um-4888feed",
+   "sp": "um",
+   "text": "I can't go.",
+   "kind": "word",
+   "key": "I can't go.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "tc-39e2b845",
+   "sp": "tc",
+   "text": "store",
+   "kind": "other"
+  },
+  {
+   "id": "tc-dfcf2072",
+   "sp": "tc",
+   "text": "bus",
+   "kind": "other"
+  },
+  {
+   "id": "tc-a672c1ba",
+   "sp": "tc",
+   "text": "tea",
+   "kind": "other"
+  },
+  {
+   "id": "tc-dc768ef2",
+   "sp": "tc",
+   "text": "go",
+   "kind": "other"
+  },
+  {
+   "id": "tc-2df08712",
+   "sp": "tc",
+   "text": "want",
+   "kind": "other"
+  },
+  {
+   "id": "tc-2fe3be45",
+   "sp": "tc",
+   "text": "wait",
+   "kind": "other"
+  },
+  {
+   "id": "tc-8df1aa52",
+   "sp": "tc",
+   "text": "new",
+   "kind": "other"
+  },
+  {
+   "id": "tc-10e7a918",
+   "sp": "tc",
+   "text": "late",
+   "kind": "other"
+  },
+  {
+   "id": "tc-d22adc47",
+   "sp": "tc",
+   "text": "black",
+   "kind": "other"
+  },
+  {
+   "id": "tc-ab6d41d2",
+   "sp": "tc",
+   "text": "here",
+   "kind": "other"
+  },
+  {
+   "id": "tc-514c8623",
+   "sp": "tc",
+   "text": "tomorrow",
+   "kind": "other"
+  },
+  {
+   "id": "tc-ade1c41f",
+   "sp": "tc",
+   "text": "where",
+   "kind": "other"
+  },
+  {
+   "id": "tc-33a376b6",
+   "sp": "tc",
+   "text": "what",
+   "kind": "other"
+  },
+  {
+   "id": "tc-be694804",
+   "sp": "tc",
+   "text": "who",
+   "kind": "other"
+  },
+  {
+   "id": "tc-f546dff5",
+   "sp": "tc",
+   "text": "can't",
+   "kind": "other"
+  },
+  {
+   "id": "tc-3138d80f",
+   "sp": "tc",
+   "text": "a",
+   "kind": "other"
+  },
+  {
+   "id": "tc-dd7ca0b3",
+   "sp": "tc",
+   "text": "an",
+   "kind": "other"
+  },
+  {
+   "id": "tc-9e7b03e7",
+   "sp": "tc",
+   "text": "the",
+   "kind": "other"
+  },
+  {
+   "id": "tc-dc48c3bd",
+   "sp": "tc",
+   "text": "to",
+   "kind": "other"
+  },
+  {
+   "id": "tc-3469e26b",
+   "sp": "tc",
+   "text": "for",
+   "kind": "other"
+  },
+  {
+   "id": "tc-d58b9ea5",
+   "sp": "tc",
+   "text": "of",
+   "kind": "other"
+  },
+  {
+   "id": "tc-f77cc9a1",
+   "sp": "tc",
+   "text": "at",
+   "kind": "other"
+  },
+  {
+   "id": "tc-b5d867fc",
+   "sp": "tc",
+   "text": "from",
+   "kind": "other"
+  },
+  {
+   "id": "tc-82313275",
+   "sp": "tc",
+   "text": "and",
+   "kind": "other"
+  },
+  {
+   "id": "tc-e18bb189",
+   "sp": "tc",
+   "text": "or",
+   "kind": "other"
+  },
+  {
+   "id": "tc-dacf1893",
+   "sp": "tc",
+   "text": "but",
+   "kind": "other"
+  },
+  {
+   "id": "tc-5f802016",
+   "sp": "tc",
+   "text": "can",
+   "kind": "other"
+  },
+  {
+   "id": "tc-d901e8e8",
+   "sp": "tc",
+   "text": "will",
+   "kind": "other"
+  },
+  {
+   "id": "tc-903c235a",
+   "sp": "tc",
+   "text": "have",
+   "kind": "other"
+  },
+  {
+   "id": "tc-fc70058d",
+   "sp": "tc",
+   "text": "do",
+   "kind": "other"
+  },
+  {
+   "id": "tc-de7ca246",
+   "sp": "tc",
+   "text": "am",
+   "kind": "other"
+  },
+  {
+   "id": "tc-e89039bc",
+   "sp": "tc",
+   "text": "is",
+   "kind": "other"
+  },
+  {
+   "id": "tc-61762306",
+   "sp": "tc",
+   "text": "are",
+   "kind": "other"
+  },
+  {
+   "id": "tc-d27ab0a1",
+   "sp": "tc",
+   "text": "was",
+   "kind": "other"
+  },
+  {
+   "id": "tc-59391707",
+   "sp": "tc",
+   "text": "I",
+   "kind": "other"
+  },
+  {
+   "id": "tc-1444ab87",
+   "sp": "tc",
+   "text": "you",
+   "kind": "other"
+  },
+  {
+   "id": "tc-05a6923e",
+   "sp": "tc",
+   "text": "them",
+   "kind": "other"
+  },
+  {
+   "id": "tc-dd1ab2af",
+   "sp": "tc",
+   "text": "your",
+   "kind": "other"
+  },
+  {
+   "id": "tc-322686c7",
+   "sp": "tc",
+   "text": "The kids are waiting for the bus.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-6e609740",
+   "sp": "tc",
+   "text": "go to bed",
+   "kind": "word",
+   "key": "go to bed",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-d2c57bee",
+   "sp": "tc",
+   "text": "time for lunch",
+   "kind": "word",
+   "key": "time for lunch",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-586189d0",
+   "sp": "tc",
+   "text": "lots of fun",
+   "kind": "word",
+   "key": "lots of fun",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-285f2c1f",
+   "sp": "tc",
+   "text": "black and white",
+   "kind": "word",
+   "key": "black and white",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-a9e081e0",
+   "sp": "tc",
+   "text": "a book",
+   "kind": "word",
+   "key": "a book",
+   "n": 2,
+   "at": 1,
+   "weak": [
+    0
+   ],
+   "str": [
+    1
+   ]
+  },
+  {
+   "id": "tc-b771af79",
+   "sp": "tc",
+   "text": "the bus",
+   "kind": "word",
+   "key": "the bus",
+   "n": 2,
+   "at": 1,
+   "weak": [
+    0
+   ],
+   "str": [
+    1
+   ]
+  },
+  {
+   "id": "tc-e2470c00",
+   "sp": "tc",
+   "text": "at home",
+   "kind": "word",
+   "key": "at home",
+   "n": 2,
+   "at": 1,
+   "weak": [
+    0
+   ],
+   "str": [
+    1
+   ]
+  },
+  {
+   "id": "tc-40ff13fc",
+   "sp": "tc",
+   "text": "from Seoul",
+   "kind": "word",
+   "key": "from Seoul",
+   "n": 2,
+   "at": 1,
+   "weak": [
+    0
+   ],
+   "str": [
+    1
+   ]
+  },
+  {
+   "id": "tc-cf9d6955",
+   "sp": "tc",
+   "text": "They have left.",
+   "kind": "word",
+   "key": "They have left.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tc-826649fb",
+   "sp": "tc",
+   "text": "I can swim.",
+   "kind": "word",
+   "key": "I can swim.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tc-d6123a98",
+   "sp": "tc",
+   "text": "I can't swim.",
+   "kind": "word",
+   "key": "I can't swim.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "tc-7456a55a",
+   "sp": "tc",
+   "text": "She can drive.",
+   "kind": "word",
+   "key": "She can drive.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tc-a06cdfb7",
+   "sp": "tc",
+   "text": "She can't drive.",
+   "kind": "word",
+   "key": "She can't drive.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "tc-36328fc6",
+   "sp": "tc",
+   "text": "a cup of tea",
+   "kind": "word",
+   "key": "a cup of tea",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0,
+    2
+   ],
+   "str": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "tc-092eee9f",
+   "sp": "tc",
+   "text": "bread and butter",
+   "kind": "word",
+   "key": "bread and butter",
+   "n": 4,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-d7742a63",
+   "sp": "tc",
+   "text": "rock and roll",
+   "kind": "word",
+   "key": "rock and roll",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-e3df4bef",
+   "sp": "tc",
+   "text": "salt and pepper",
+   "kind": "word",
+   "key": "salt and pepper",
+   "n": 4,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-abba4df8",
+   "sp": "tc",
+   "text": "a lot of people",
+   "kind": "word",
+   "key": "a lot of people",
+   "n": 5,
+   "at": 3,
+   "weak": [
+    0,
+    2
+   ],
+   "str": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "tc-d98b9544",
+   "sp": "tc",
+   "text": "I want to go.",
+   "kind": "word",
+   "key": "I want to go.",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0,
+    2
+   ],
+   "str": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "tc-8e10cb23",
+   "sp": "tc",
+   "text": "Cats chase mice.",
+   "kind": "other",
+   "dur": true
+  },
+  {
+   "id": "tc-6de02523",
+   "sp": "tc",
+   "text": "The cats have chased the mice.",
+   "kind": "other",
+   "dur": true
+  },
+  {
+   "id": "tc-03ccbe22",
+   "sp": "tc",
+   "text": "The cats will have been chasing the mice.",
+   "kind": "other",
+   "dur": true
+  },
+  {
+   "id": "ko-79327a75",
+   "sp": "ko",
+   "text": "더 캣츠 윌 해브 빈 체이싱 더 마이스",
+   "kind": "ko",
+   "n": 14,
+   "en": "The cats will have been chasing the mice.",
+   "dur": true
+  },
+  {
+   "id": "tc-0c5077db",
+   "sp": "tc",
+   "text": "Where are you from?",
+   "kind": "word",
+   "key": "Where are you from?",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    1,
+    2
+   ],
+   "str": [
+    0,
+    3
+   ]
+  },
+  {
+   "id": "tc-2daced1c",
+   "sp": "tc",
+   "text": "What are you looking at?",
+   "kind": "word",
+   "key": "What are you looking at?",
+   "n": 6,
+   "at": 3,
+   "weak": [
+    1,
+    2
+   ],
+   "str": [
+    0,
+    3,
+    5
+   ]
+  },
+  {
+   "id": "tc-f6299e7b",
+   "sp": "tc",
+   "text": "Who is it for?",
+   "kind": "word",
+   "key": "Who is it for?",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    1,
+    2
+   ],
+   "str": [
+    0,
+    3
+   ]
+  },
+  {
+   "id": "tc-633732a2",
+   "sp": "tc",
+   "text": "Yes, I can.",
+   "kind": "word",
+   "key": "Yes, I can.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-39bb1b46",
+   "sp": "tc",
+   "text": "Yes, I am.",
+   "kind": "word",
+   "key": "Yes, I am.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-7f664542",
+   "sp": "tc",
+   "text": "I can swim!",
+   "kind": "word",
+   "key": "I can swim!",
+   "n": 3,
+   "at": 1,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "tc-0c30618f",
+   "sp": "tc",
+   "text": "Circle the word “to”.",
+   "kind": "word",
+   "key": "Circle the word “to”.",
+   "n": 5,
+   "at": 4,
+   "weak": [
+    2
+   ],
+   "str": [
+    0,
+    3,
+    4
+   ]
+  },
+  {
+   "id": "tc-7ae95858",
+   "sp": "tc",
+   "text": "Call them.",
+   "kind": "word",
+   "key": "Call them.",
+   "n": 2,
+   "at": 0,
+   "weak": [
+    1
+   ],
+   "str": [
+    0
+   ]
+  },
+  {
+   "id": "tc-b3da338f",
+   "sp": "tc",
+   "text": "See you!",
+   "kind": "word",
+   "key": "See you!",
+   "n": 2,
+   "at": 0,
+   "weak": [
+    1
+   ],
+   "str": [
+    0
+   ]
+  },
+  {
+   "id": "tc-79023489",
+   "sp": "tc",
+   "text": "My sister wants a new bike.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-dc393de8",
+   "sp": "tc",
+   "text": "The students are waiting for the teacher.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-c083f0c5",
+   "sp": "tc",
+   "text": "Can you tell me the way to the station?",
+   "kind": "other"
+  },
+  {
+   "id": "tf-fc35c13c",
+   "sp": "tf",
+   "text": "I can swim.",
+   "kind": "word",
+   "key": "I can swim.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tf-b66cb37f",
+   "sp": "tf",
+   "text": "I can't swim.",
+   "kind": "word",
+   "key": "I can't swim.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "uf-18097371",
+   "sp": "uf",
+   "text": "I can swim.",
+   "kind": "word",
+   "key": "I can swim.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "uf-bbb38762",
+   "sp": "uf",
+   "text": "I can't swim.",
+   "kind": "word",
+   "key": "I can't swim.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "um-61ec8e84",
+   "sp": "um",
+   "text": "I can swim.",
+   "kind": "word",
+   "key": "I can swim.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "um-754afa27",
+   "sp": "um",
+   "text": "I can't swim.",
+   "kind": "word",
+   "key": "I can't swim.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "tf-dcd14aaf",
+   "sp": "tf",
+   "text": "She can drive.",
+   "kind": "word",
+   "key": "She can drive.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tf-1172edca",
+   "sp": "tf",
+   "text": "She can't drive.",
+   "kind": "word",
+   "key": "She can't drive.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "uf-f50514d0",
+   "sp": "uf",
+   "text": "She can drive.",
+   "kind": "word",
+   "key": "She can drive.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "uf-d1e82299",
+   "sp": "uf",
+   "text": "She can't drive.",
+   "kind": "word",
+   "key": "She can't drive.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "um-a61e0677",
+   "sp": "um",
+   "text": "She can drive.",
+   "kind": "word",
+   "key": "She can drive.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "um-7c6fc932",
+   "sp": "um",
+   "text": "She can't drive.",
+   "kind": "word",
+   "key": "She can't drive.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "tc-b0f0c3fb",
+   "sp": "tc",
+   "text": "You can park here.",
+   "kind": "word",
+   "key": "You can park here.",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "tc-1994501a",
+   "sp": "tc",
+   "text": "You can't park here.",
+   "kind": "word",
+   "key": "You can't park here.",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "tf-e145de6e",
+   "sp": "tf",
+   "text": "You can park here.",
+   "kind": "word",
+   "key": "You can park here.",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "tf-962971bf",
+   "sp": "tf",
+   "text": "You can't park here.",
+   "kind": "word",
+   "key": "You can't park here.",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "uf-653a35ad",
+   "sp": "uf",
+   "text": "You can park here.",
+   "kind": "word",
+   "key": "You can park here.",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "uf-ddd80670",
+   "sp": "uf",
+   "text": "You can't park here.",
+   "kind": "word",
+   "key": "You can't park here.",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "um-d7bb1536",
+   "sp": "um",
+   "text": "You can park here.",
+   "kind": "word",
+   "key": "You can park here.",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "um-6abbd167",
+   "sp": "um",
+   "text": "You can't park here.",
+   "kind": "word",
+   "key": "You can't park here.",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "tc-eda1fa5b",
+   "sp": "tc",
+   "text": "We can come today.",
+   "kind": "word",
+   "key": "We can come today.",
+   "n": 5,
+   "at": 4,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2,
+    4
+   ]
+  },
+  {
+   "id": "tc-1a47508c",
+   "sp": "tc",
+   "text": "We can't come today.",
+   "kind": "word",
+   "key": "We can't come today.",
+   "n": 5,
+   "at": 4,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "id": "tf-f90baec2",
+   "sp": "tf",
+   "text": "We can come today.",
+   "kind": "word",
+   "key": "We can come today.",
+   "n": 5,
+   "at": 4,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2,
+    4
+   ]
+  },
+  {
+   "id": "tf-b25d5225",
+   "sp": "tf",
+   "text": "We can't come today.",
+   "kind": "word",
+   "key": "We can't come today.",
+   "n": 5,
+   "at": 4,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "id": "uf-0cdf02fd",
+   "sp": "uf",
+   "text": "We can come today.",
+   "kind": "word",
+   "key": "We can come today.",
+   "n": 5,
+   "at": 4,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2,
+    4
+   ]
+  },
+  {
+   "id": "uf-55354692",
+   "sp": "uf",
+   "text": "We can't come today.",
+   "kind": "word",
+   "key": "We can't come today.",
+   "n": 5,
+   "at": 4,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "id": "um-ebf885ca",
+   "sp": "um",
+   "text": "We can come today.",
+   "kind": "word",
+   "key": "We can come today.",
+   "n": 5,
+   "at": 4,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2,
+    4
+   ]
+  },
+  {
+   "id": "um-96b7b52d",
+   "sp": "um",
+   "text": "We can't come today.",
+   "kind": "word",
+   "key": "We can't come today.",
+   "n": 5,
+   "at": 4,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "id": "tc-77ec5dc3",
+   "sp": "tc",
+   "text": "He can cook.",
+   "kind": "word",
+   "key": "He can cook.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tc-d9e24c0c",
+   "sp": "tc",
+   "text": "He can't cook.",
+   "kind": "word",
+   "key": "He can't cook.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "tf-fead78a2",
+   "sp": "tf",
+   "text": "He can cook.",
+   "kind": "word",
+   "key": "He can cook.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tf-be9a88fd",
+   "sp": "tf",
+   "text": "He can't cook.",
+   "kind": "word",
+   "key": "He can't cook.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "uf-a84a5e0d",
+   "sp": "uf",
+   "text": "He can cook.",
+   "kind": "word",
+   "key": "He can cook.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "uf-12a94dda",
+   "sp": "uf",
+   "text": "He can't cook.",
+   "kind": "word",
+   "key": "He can't cook.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "um-7e63daaa",
+   "sp": "um",
+   "text": "He can cook.",
+   "kind": "word",
+   "key": "He can cook.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "um-00c5dfa5",
+   "sp": "um",
+   "text": "He can't cook.",
+   "kind": "word",
+   "key": "He can't cook.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0
+   ],
+   "str": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "tc-5695e06d",
+   "sp": "tc",
+   "text": "tea or coffee",
+   "kind": "word",
+   "key": "tea or coffee",
+   "n": 4,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-4dcd361e",
+   "sp": "tc",
+   "text": "small but fast",
+   "kind": "word",
+   "key": "small but fast",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-32f3a9a9",
+   "sp": "tc",
+   "text": "It was fun.",
+   "kind": "word",
+   "key": "It was fun.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tc-3f109408",
+   "sp": "tc",
+   "text": "We are late.",
+   "kind": "word",
+   "key": "We are late.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    0,
+    1
+   ],
+   "str": [
+    2
+   ]
+  },
+  {
+   "id": "tc-d96255c4",
+   "sp": "tc",
+   "text": "some",
+   "kind": "other"
+  },
+  {
+   "id": "tc-0edafd4b",
+   "sp": "tc",
+   "text": "some water",
+   "kind": "word",
+   "key": "some water",
+   "n": 3,
+   "at": 1,
+   "weak": [
+    0
+   ],
+   "str": [
+    1
+   ]
+  },
+  {
+   "id": "tc-cc2e2b16",
+   "sp": "tc",
+   "text": "Wash your hands.",
+   "kind": "word",
+   "key": "Wash your hands.",
+   "n": 3,
+   "at": 2,
+   "weak": [
+    1
+   ],
+   "str": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "tc-e2c9f3a1",
+   "sp": "tc",
+   "text": "We are late for class.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-891f64f8",
+   "sp": "tc",
+   "text": "Do you want some water?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-f5525ce3",
+   "sp": "tc",
+   "text": "They have left for work.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-2bb9b2cc",
+   "sp": "tc",
+   "text": "I can swim, but I can't dive.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-95e05c76",
+   "sp": "tc",
+   "text": "A cup of tea, please.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-89b4d6ed",
+   "sp": "tc",
+   "text": "Pass the salt and pepper.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-a85812b0",
+   "sp": "tc",
+   "text": "I love rock and roll.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-8dd2e76b",
+   "sp": "tc",
+   "text": "We ate bread and butter.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-ae4d28e7",
+   "sp": "tc",
+   "text": "There were a lot of people.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-402f4245",
+   "sp": "tc",
+   "text": "I want to go home.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-97705dac",
+   "sp": "tc",
+   "text": "The cat is black and white.",
+   "kind": "other"
+  },
+  {
+   "id": "uf-2e9df190",
+   "sp": "uf",
+   "text": "a cup of tea",
+   "kind": "word",
+   "key": "a cup of tea",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    0,
+    2
+   ],
+   "str": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "uf-ded0795d",
+   "sp": "uf",
+   "text": "Where are you from?",
+   "kind": "word",
+   "key": "Where are you from?",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    1,
+    2
+   ],
+   "str": [
+    0,
+    3
+   ]
+  },
+  {
+   "id": "ko-e0e068d0",
+   "sp": "ko",
+   "text": "어 컵 오브 티",
+   "kind": "ko",
+   "n": 5,
+   "en": "a cup of tea"
+  },
+  {
+   "id": "tf-cf623001",
+   "sp": "tf",
+   "text": "What are you looking at?",
+   "kind": "word",
+   "key": "What are you looking at?",
+   "n": 6,
+   "at": 3,
+   "weak": [
+    1,
+    2
+   ],
+   "str": [
+    0,
+    3,
+    5
+   ]
+  },
+  {
+   "id": "tf-ff80edbb",
+   "sp": "tf",
+   "text": "a lot of people",
+   "kind": "word",
+   "key": "a lot of people",
+   "n": 5,
+   "at": 3,
+   "weak": [
+    0,
+    2
+   ],
+   "str": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "uf-53241853",
+   "sp": "uf",
+   "text": "We are late for class.",
+   "kind": "other"
+  },
+  {
+   "id": "um-7b826742",
+   "sp": "um",
+   "text": "My sister wants a new bike.",
+   "kind": "other"
+  },
+  {
+   "id": "um-adaaf9da",
+   "sp": "um",
+   "text": "Who is it for?",
+   "kind": "word",
+   "key": "Who is it for?",
+   "n": 4,
+   "at": 3,
+   "weak": [
+    1,
+    2
+   ],
+   "str": [
+    0,
+    3
+   ]
+  }
+ ]
+}

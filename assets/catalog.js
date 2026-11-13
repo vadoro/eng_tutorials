@@ -483,5 +483,18 @@ window.EN_CATALOG = {
       thumb: 'f-v-w/docs/poster.jpg',
       added: '2026-11-13',
     },
+    {
+      slug: 'sentence-rhythm',
+      track: 'pron',
+      title: '센 낱말, 약한 낱말 — 문장 리듬',
+      topic: "센 낱말(내용어) · 약한 낱말(기능어) · 약한 형태(to · for · can → 짧게) · can · can't · 붙여서 한 덩어리 · 센 낱말 사이 간격 · 강한 형태로 돌아오는 자리(문장 끝 · 혼자 대답 · 강조)",
+      summary: "가게에 가고 싶어요 → I want to go to the store. 한국어식으로 읽으면 아이 원트 투 고 투 더 스토어, 낱말마다 같은 세기로 또박또박이에요. 영어는 뜻을 나르는 센 낱말(want · go · store)만 길고 크게, 문법을 잇는 약한 낱말(to · the)은 짧고 흐리게 앞뒤에 붙여요. 실제 음성을 재서 그린 음절 공으로 문장 리듬을 보고, t가 아니라 모음과 세기로 가르는 can · can't, 약한 낱말이 강한 형태로 돌아오는 자리(Where are you from?)를 익혀요. 끝에는 can · can't 듣기 시합 · 센 낱말 찾기 · 내 발음 확인.",
+      length: '6:48',
+      scenes: 10,
+      features: ['음성 해설', '잰 음절 공 · 문장 길이 막대', '목소리 넷으로 듣기', '한국어식과 견줘 듣기', '장면별 실습', "can · can't 듣기 시합", '센 낱말 찾기', '내 발음 확인', '따라 말하기 28', '듣고 고르기 16', '퀴즈'],
+      types: [20],
+      thumb: 'sentence-rhythm/docs/poster.jpg',
+      added: '2026-11-13',
+    },
   ],
 };

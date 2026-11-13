@@ -11,7 +11,8 @@
     VoiceStudio의 Python(faster-whisper large-v3 · librosa · scipy · soundfile이 들어 있음), macOS afconvert
 
 하는 일 (줄마다)
-    1) 받아쓰기(Whisper large-v3)로 다른 말로 들리지 않는지 — 영어는 낱말이 모두 같아야(숫자 13 = thirteen), 한국어는 한 글자까지
+    1) 받아쓰기(Whisper large-v3)로 다른 말로 들리지 않는지 — 영어는 낱말이 모두 같아야(숫자 13 = thirteen), 한국어는 한 글자까지.
+       영어 문장을 한글로 적은 한국어식 줄(en: 원래 영어 문장)은 한국어로 듣게 해도 Whisper가 원래 영어 문장으로 적을 때가 있어서, 그때도 통과
     2) 낱말(word) · 한국어식(ko): 울림소리(유성 또는 낮은 띠가 높은 띠보다 센 프레임)의 250~2500Hz 크기에서 봉우리 n개를 찾아
        사이의 골을 음절 경계로 삼고, 음절마다 [시작 ms, 끝 ms, 크기 dB(가장 큰 음절 = 0), 높이 Hz(가운데 부분의 80번째 백분위)]
     3) 낱말: 길이(끝 음절은 ×0.8) · 크기 · 높이 셋 가운데 둘 이상에서 사전의 센 음절이 가장 큰지, 끝이 묻는 말처럼
@@ -318,7 +319,14 @@ HOMOPHONES = {'heal': 'heel', 'peal': 'peel', 'reed': 'read', 'weak': 'week', 'f
               # 많은 미국 사람이 아(ɑ)와 오(ɔ)를 같게 말해서(cot · caught) 받아쓰기가 어느 쪽으로 적어도 같은 소리로 봐요
               'caught': 'cot', 'bought': 'bot', 'caller': 'collar',
               # wood · would는 소리가 같고, 많은 미국 사람이 Barry · berry를 같게 말해요(Mary · marry · merry)
-              'wood': 'would', 'barry': 'berry'}
+              'wood': 'would', 'barry': 'berry',
+              # 기능어를 혼자 강한 형태로 읽으면 이름 · 숫자 · 글자와 소리가 같아요(an = Ann, to = two, for = four, are = R)
+              'ann': 'an', 'anne': 'an', 'two': 'to', 'too': 'to', 'four': 'for', 'r': 'are'}
+
+
+def heard_ok_m(lang, heard, m):
+    """줄 정보 m으로 — 한국어식 줄은 원래 영어 문장(en)으로 적혀도 통과"""
+    return heard_ok(lang, heard, m['text']) or (lang == 'ko' and bool(m.get('en')) and heard_ok('en', heard, m['en']))
 
 
 def heard_ok(lang, heard, text):
@@ -368,13 +376,13 @@ def measure(model, m, path, tmp):
     y, sr = load(path, tmp)
     lang = 'ko' if m['kind'] == 'ko' else 'en'
     heard = PRE.get(file_key(path))
-    ok = heard is not None and heard_ok(lang, heard, m['text'])
+    ok = heard is not None and heard_ok_m(lang, heard, m)
     if not ok:  # 묶음에서 맞지 않았거나 묶지 않은 파일은 하나씩 따로
         pad = np.zeros(int(sr * 0.5), dtype='float32')  # 짧은 낱말은 앞뒤에 무음을 붙여야 Whisper가 잘 들어요
         y16 = librosa.resample(np.concatenate([pad, y, pad]), orig_sr=sr, target_sr=16000)
         segs, _ = model.transcribe(y16, language=lang, beam_size=5, vad_filter=False)
         heard = ' '.join(s.text.strip() for s in segs)
-        ok = heard_ok(lang, heard, m['text'])
+        ok = heard_ok_m(lang, heard, m)
     r = {'heard': heard, 'okHeard': ok}
     if m.get('dur'):
         fdb0 = features(y, sr)[1]

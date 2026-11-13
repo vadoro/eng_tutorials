@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>센 낱말, 약한 낱말 — 문장 리듬 — 영어 튜토리얼</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<meta name="description" content="영어 발음(미국식) 튜토리얼: 문장 리듬. 한국어식으로 읽으면 낱말마다 같은 세기로 또박또박 나오지만, 영어는 뜻을 나르는 센 낱말(내용어)만 길고 크게 말하고 문법을 잇는 약한 낱말(기능어)은 짧게, 모음은 흐린 어(슈와)로 앞뒤에 붙여요. 음절 공으로 리듬을 보고, can · can't를 목소리 넷으로 가르고, 약한 형태 · 덩어리 · 늘어나는 문장 · 강한 형태로 돌아오는 자리(문장 끝 · 혼자 대답 · 강조)를 익혀요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@700;800&family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/components.css">
+<style>
+/* ---------- 디자인 토큰: 밝은 테마 → 어두운 테마(시스템 설정) → 어두운 테마(직접 선택). 영상 무대는 늘 어둡게 ---------- */
+:root{
+  --bg:#F3F2EE; --surface:#FFFFFF; --surface-2:#EFEEE8; --text:#1A1D21; --muted:#5B6168; --line:#DAD8D0;
+  --accent:#1B6B5F; --accent-soft:#DCEEEA; --on-accent:#FFFFFF; --ok:#2E7D4F; --no:#B8432B; --warn:#9A6A00;
+  /* 역할 색 (영상과 같은 뜻): 센 낱말 보라 · 그 낱말의 다른 음절 연보라 · 약한 낱말 민트 · 강한 형태로 돌아온 기능어 노랑 · 한국어식 주황 */
+  --c-r:#A86A00; --c-l:#2266C4; --c-trap:#C2531F; --c-mint:#1F7A55; --c-pol:#6A45C2; --c-pol2:#8A78B8;
+  --c-str:var(--c-pol); --c-str2:var(--c-pol2); --c-weak:var(--c-mint); --c-ret:var(--c-r);
+  --stage:#10151C; --stage-2:#161D26; --stage-line:#26303C; --stage-text:#EEF1F4; --stage-muted:#94A0AE; --stage-accent:#FFC15E;
+  --disp:"Hahmlet","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --mono:"IBM Plex Mono","D2Coding",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+  --en-text:var(--text); --en-muted:var(--muted); --en-surface:var(--surface); --en-surface-2:var(--surface-2);
+  --en-line:var(--line); --en-accent:var(--accent); --en-ok:var(--ok); --en-no:var(--no);
+  --en-display:var(--disp); --en-mono:var(--mono);
+  --en-ante:var(--c-l); --en-cue:var(--c-pol); --en-trap:var(--c-trap);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+    --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+    --c-r:#FFC15E; --c-l:#6EC8FF; --c-trap:#FF9F7A; --c-mint:#7FE0A8; --c-pol:#C9A7FF; --c-pol2:#B3A2D6;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1214; --surface:#161B1E; --surface-2:#1C2327; --text:#E7ECEC; --muted:#9AA6AA; --line:#283236;
+  --accent:#6FD3C1; --accent-soft:#163430; --on-accent:#0E1214; --ok:#74D39A; --no:#FF8A70; --warn:#E8B54A;
+  --c-r:#FFC15E; --c-l:#6EC8FF; --c-trap:#FF9F7A; --c-mint:#7FE0A8; --c-pol:#C9A7FF; --c-pol2:#B3A2D6;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg);color:var(--text)}
+body{margin:0;font-family:var(--body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--accent)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-family:var(--mono);font-size:.9em}
+svg.pi{width:16px;height:16px;flex:none;vertical-align:-3px;margin-right:4px}
+
+.page{max-width:1120px;margin:0 auto;padding:28px 16px 56px;display:flex;flex-direction:column;gap:22px}
+.masthead{display:flex;flex-direction:column;gap:8px}
+.eyebrow{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(27px,4.2vw,42px);line-height:1.2;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.lead{margin:0;max-width:66ch;color:var(--muted);font-size:16px}
+.steps3{display:flex;flex-wrap:wrap;gap:6px 10px;margin:4px 0 0;padding:0;list-style:none}
+.steps3 li{padding:4px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:14px;font-weight:600}
+.steps3 b{font-family:var(--mono);margin-right:4px;color:var(--accent)}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.jump a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:13.5px;font-weight:600;text-decoration:none}
+.jump a:hover{border-color:var(--accent);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px}
+.honest{margin:0;padding:10px 14px;border-left:4px solid var(--warn);border-radius:0 10px 10px 0;background:var(--surface);font-size:14px;color:var(--muted);max-width:84ch}
+.honest b{color:var(--text)}
+.voice-note{display:block;margin-top:4px;font-size:12.5px;font-family:var(--mono)}
+.twokeys{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:4px 0 0;padding:0;list-style:none;max-width:900px}
+.twokeys li{padding:10px 14px;border-radius:12px;background:var(--surface);border:1px solid var(--line);font-size:14px}
+.twokeys li b{display:block;font-size:16px;margin-bottom:2px}
+.twokeys li.str{border-left:4px solid var(--c-str)} .twokeys li.weak{border-left:4px solid var(--c-weak)}
+.twokeys li i{font-style:normal;color:var(--muted)}
+
+/* ---------- 플레이어 ---------- */
+.player{background:var(--stage);color:var(--stage-text);border:1px solid var(--stage-line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.screen{position:relative;width:100%;aspect-ratio:16/9;background:var(--stage)}
+#cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+#bigPlay{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border:0;border-radius:50%;background:var(--stage-accent);color:#1D1305;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.7)}
+#bigPlay svg{width:34px;height:34px;margin-left:4px}
+.cap{min-height:3.6em;margin:0;padding:10px 18px;display:flex;align-items:center;justify-content:center;background:var(--stage-2);font-size:17px;line-height:1.5;text-align:center;text-wrap:balance}
+.cap b{color:var(--stage-accent)}
+.cap .en{color:#BFE3FF}
+.cap b .en{color:inherit}
+.cap.off span{visibility:hidden}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--stage-2);border-top:1px solid var(--stage-line)}
+.ib{height:36px;min-width:36px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--stage-line);border-radius:8px;background:transparent;color:var(--stage-text);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.ib:hover{border-color:var(--stage-muted)}
+.ib svg{width:18px;height:18px;flex:none}
+.ib[aria-pressed="true"]{background:var(--stage-accent);border-color:transparent;color:#1D1305}
+.seek{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+#seek{width:100%;margin:0;accent-color:var(--stage-accent)}
+#ticks{position:absolute;inset:0;pointer-events:none}
+#ticks i{position:absolute;top:50%;width:2px;height:12px;margin-top:-6px;background:var(--stage-text);opacity:.45;border-radius:1px}
+.time{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--stage-muted);white-space:nowrap}
+#speed{height:36px;padding:0 6px;border:1px solid var(--stage-line);border-radius:8px;background:var(--stage);color:var(--stage-text);font-size:13px}
+.ttsnote{margin:0;padding:6px 14px 8px;background:var(--stage-2);color:var(--stage-muted);font-size:13px}
+.player:fullscreen{display:flex;flex-direction:column;justify-content:center;border:0;border-radius:0;background:#000}
+.player:fullscreen .screen{width:min(100vw,calc((100vh - 130px) * 16 / 9));margin:0 auto}
+
+/* ---------- 장면 목록 + 직접 해 보기 ---------- */
+.below{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:16px;align-items:start}
+.chapters{display:flex;flex-direction:column;gap:2px}
+.chapters h2,.lab h2{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+.chap{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;width:100%;padding:6px 12px;border:1px solid transparent;border-radius:10px;background:none;text-align:left;cursor:pointer}
+.chap:hover{border-color:var(--line)}
+.chap[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:inset 3px 0 0 var(--accent)}
+.chap .n{font-family:var(--mono);color:var(--accent);font-size:13px}
+.chap .tt{font-weight:600}
+.chap .tt small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.chap .tm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;position:sticky;top:12px}
+.lab h3{margin:0 0 8px;font-size:16px}
+.lab p{margin:8px 0 0}
+.lab-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 12px}
+.lab-top h3{margin:0}
+.lab > .btn{margin-top:12px}
+.note{font-size:13.5px;color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.lab .seg{margin-top:8px}
+.seg button{display:inline-flex;align-items:center;gap:4px;min-height:34px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.enline{display:flex;align-items:center;flex-wrap:wrap;gap:4px 6px;margin:10px 0 0;font-size:17px;font-weight:600;line-height:1.45}
+.mo{display:inline-flex;flex-wrap:wrap;gap:6px}
+.mo button{min-height:34px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:600;cursor:pointer;text-align:left}
+.mo button:hover:not(:disabled){border-color:var(--accent)}
+.c-ok{color:var(--ok)} .c-no{color:var(--no)} .c-mid{color:var(--warn)}
+.verdict{margin:10px 0 0!important;font-size:14.5px}
+.verdict b{margin-right:6px}
+.cv-row{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:8px;align-items:center;margin-top:8px}
+.cv-row .seg{margin-top:0}
+.cv-row .wrow{margin-top:0}
+.cv-lab{font-weight:700;font-size:13.5px;color:var(--muted)}
+.acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+select.lab-sel{font:inherit;font-size:15px;padding:5px 30px 5px 10px;border-radius:9px;border:1px solid var(--line);background-color:var(--surface);color:var(--text);max-width:100%;min-width:0;appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);background-position:calc(100% - 15px) 52%,calc(100% - 10px) 52%;background-size:5px 5px;background-repeat:no-repeat}
+
+/* ---------- 낱말 단추 · 듣기 단추 ---------- */
+.wrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:8px}
+.wbtn{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:2px 12px 2px 8px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);font-size:16px;font-weight:600;cursor:pointer;line-height:1.4}
+.wbtn svg{width:13px;height:13px;flex:none;color:var(--accent)}
+.wbtn:hover{border-color:var(--accent)}
+.wbtn.saying{border-color:var(--accent);background:var(--accent-soft)}
+.wbtn.ko{font-family:var(--body)}
+.wbtn.off{cursor:default}
+.arr{color:var(--muted);font-weight:700}
+.pickw{min-height:36px;padding:2px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);font-size:15.5px;font-weight:600;cursor:pointer}
+.pickw:hover:not(:disabled){border-color:var(--accent)}
+.pickw.on,.pickw[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:var(--accent-soft)}
+.pickw.right{border-color:var(--ok);color:var(--ok)}
+.pickw.wrong{border-color:var(--no);color:var(--no);text-decoration:line-through}
+.wrow.sel{gap:5px}
+.lp-play{display:inline-grid;place-items:center;flex:none;width:32px;height:32px;padding:0;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--accent);cursor:pointer}
+.lp-play svg{width:15px;height:15px;margin-left:2px}
+.lp-play:hover{border-color:var(--accent)}
+.lp-play.saying{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.lp-play.lp-voice,.lp-play.lp-pair{width:auto;height:32px;display:inline-flex;gap:5px;padding:0 12px 0 9px;border-radius:999px;font-size:13px;font-weight:700}
+.lp-play.lp-voice svg,.lp-play.lp-pair svg{width:14px;height:14px;margin:0}
+.lsn{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:0 0 12px}
+.lbtn{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 12px 0 10px;border:1px solid var(--accent);border-radius:999px;background:var(--surface);color:var(--accent);font-size:13.5px;font-weight:700;cursor:pointer}
+.lbtn svg{width:16px;height:16px;flex:none}
+.lbtn small{font-family:var(--mono);font-weight:500;opacity:.75}
+.lbtn[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.lbtn.tog{border-color:var(--line);color:var(--text);font-weight:600}
+.lbtn:disabled{opacity:.5;cursor:default}
+.ldr-now{font-size:13px;color:var(--muted)}
+.ldr-nosay{margin:0 0 10px;font-size:13.5px;color:var(--warn)}
+
+/* ---------- 칠하기: 센 낱말 보라(센 음절은 굵게 · 밑줄) · 약한 낱말 민트 · 강한 형태로 돌아온 기능어 노랑 · 한국어식 주황 ---------- */
+mark[class^="mk-"]{padding:0;border-radius:3px;background:transparent;color:inherit;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.mk-str{color:var(--c-str);font-weight:800;text-decoration:underline;text-decoration-thickness:.11em;text-underline-offset:.2em}
+mark.mk-str2{color:var(--c-str2)}
+mark.mk-ret{color:var(--c-ret);font-weight:800;text-decoration:underline;text-decoration-thickness:.11em;text-underline-offset:.2em}
+mark.mk-weak{color:var(--c-weak);font-weight:500}
+mark.mk-trap{padding:0 1px;box-shadow:inset 0 -0.42em 0 color-mix(in srgb, var(--c-trap) 34%, transparent)}
+.ipa{font-family:var(--mono);font-size:.92em}
+/* 대문자 띠: i WANT tə GO tə thə STORE */
+.capsb{font-family:var(--mono);font-size:14.5px;letter-spacing:.01em;word-spacing:.15em}
+.capsb b{font-weight:700}
+.capsb .cb-str{color:var(--c-str)} .capsb .cb-ret{color:var(--c-ret)} .capsb .cb-weak{color:var(--c-weak);font-weight:500}
+.capsb.sm{font-size:12.5px;color:var(--muted)}
+.ptag{display:inline-block;padding:0 8px;border-radius:999px;font-size:12px;font-weight:700;vertical-align:1px;white-space:nowrap;background:color-mix(in srgb, var(--c-str) 14%, transparent);color:var(--c-str)}
+.ptag.g-weak{background:color-mix(in srgb, var(--c-weak) 16%, transparent);color:var(--c-weak)}
+.ptag.g-can{background:color-mix(in srgb, var(--c-l) 16%, transparent);color:var(--c-l)}
+.ptag.g-chunk{background:color-mix(in srgb, var(--c-str) 14%, transparent);color:var(--c-str)}
+.ptag.g-strong{background:color-mix(in srgb, var(--c-ret) 18%, transparent);color:var(--c-ret)}
+/* 음절 공 (SVG): 공 하나 = 음절 하나, 크기 = 길이와 크기, 높이 = 소리의 높이 */
+svg.balls{display:block;max-width:100%;height:auto;overflow:visible}
+.bfig{display:inline-flex;flex-direction:column;align-items:flex-start;gap:2px;max-width:100%}
+.bfig .meas{font-size:12px;color:var(--muted)}
+.bl{stroke-width:1.8}
+.bl.str{fill:color-mix(in srgb, var(--c-str) 78%, transparent);stroke:var(--c-str);stroke-width:2.5}
+.bl.ret{fill:color-mix(in srgb, var(--c-ret) 72%, transparent);stroke:var(--c-ret);stroke-width:2.5}
+.bl.sec{fill:color-mix(in srgb, var(--c-str2) 30%, transparent);stroke:var(--c-str2)}
+.bl.weak{fill:color-mix(in srgb, var(--c-weak) 28%, transparent);stroke:var(--c-weak)}
+.bl.ko{fill:color-mix(in srgb, var(--c-trap) 70%, transparent);stroke:var(--c-trap)}
+.bl-pick{fill:none;stroke:var(--warn);stroke-width:2.5;stroke-dasharray:5 4}
+.bl-t{font-family:var(--body);font-size:13px;font-weight:600;fill:var(--muted)}
+.bl-t.str{fill:var(--c-str);font-weight:800} .bl-t.ret{fill:var(--c-ret);font-weight:800} .bl-t.sec{fill:var(--c-str2)}
+.bl-t.weak{fill:var(--c-weak)} .bl-t.ko{fill:var(--c-trap)}
+.cmpballs{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:10px}
+.cmpballs .cb{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:8px 12px;border-radius:10px;background:var(--surface-2);min-width:0;max-width:100%}
+.cmpballs .cb > span{font-size:12.5px;font-weight:700;color:var(--muted)}
+.cmpballs .cb.ko{border-left:4px solid var(--c-trap)} .cmpballs .cb.en{border-left:4px solid var(--c-str)} .cmpballs .cb.weak{border-left:4px solid var(--c-weak)}
+.cmpballs .cb.heard{box-shadow:inset 0 0 0 1.5px var(--accent)}
+.cmpballs.one{gap:10px}
+@media (max-width:520px){.cmpballs:not(.one){flex-direction:column;align-items:stretch}.cmpballs:not(.one) > .arr{align-self:center;transform:rotate(90deg);line-height:1}}
+.ldr-cmp .cmp-w{display:inline-flex;flex-direction:column;align-items:flex-start;gap:4px;padding:6px 10px;border-radius:10px;background:var(--surface-2);max-width:100%}
+.kq{display:block}
+
+/* ---------- 직접 해 보기: 짝 · 표 · 막대 ---------- */
+.pairbox{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+.pb{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:10px 12px;border-radius:10px;background:var(--surface-2);min-width:0}
+.pb.weak{border-left:4px solid var(--c-weak)} .pb.str{border-left:4px solid var(--c-str)}
+.pb .pb-h{font-size:12.5px;font-weight:700;color:var(--muted)}
+.pb small{color:var(--muted);font-size:13px}
+.voices4{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px}
+.voices4 > span,.ldr-cmp > span{width:100%;font-size:13px;font-weight:700;color:var(--muted)}
+table.ftab,table.stab{width:100%;margin-top:10px;border-collapse:collapse;font-size:14px}
+.ftab th,.ftab td,.stab th,.stab td{padding:6px 8px;border-top:1px solid var(--line);text-align:left;vertical-align:middle}
+.ftab thead th,.stab thead th{border-top:0;font-size:12.5px;color:var(--muted)}
+.ftab td.fw{font-weight:700} .ftab td.fw.str{color:var(--c-str)} .ftab td.fw.ret{color:var(--c-ret)} .ftab td.fw.weak{color:var(--c-weak);font-weight:600}
+.stab td:last-child{min-width:9em}
+.sbar{display:inline-block;height:10px;border-radius:4px;vertical-align:middle;margin-right:6px;max-width:calc(100% - 4.5em)}
+.sbar.n{background:color-mix(in srgb, var(--muted) 60%, transparent)} .sbar.d{background:var(--c-str)}
+.stab tr.ko .sbar{background:var(--c-trap)}
+.sv{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.lq{margin-top:4px}
+
+/* ---------- 듣고 고르기 (공통 부품 .edr 모양 + 듣기 줄) ---------- */
+.adr-place{display:inline-flex;align-items:center;gap:2px;padding:1px 10px 1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-family:var(--body);font-weight:700}
+.adr-sit{margin:0 0 10px;padding:8px 12px;border-left:3px solid var(--c-mint);border-radius:0 10px 10px 0;background:var(--surface-2);font-size:15px}
+.adr-sit b{margin-right:8px;color:var(--c-mint)}
+.edr-tag{margin-left:auto;padding:1px 8px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;font-weight:700;white-space:nowrap;color:var(--muted)}
+.ldr-q{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:8px 12px;border-radius:10px;background:var(--surface-2);font-size:clamp(16px,2.1vw,19px);font-weight:500;line-height:1.6}
+.ldr-q small{flex-basis:100%;font-size:13.5px;color:var(--muted)}
+.ldr-opts{display:flex;flex-direction:column;gap:8px}
+.ldr-opts.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.ldr-opts.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.ldr-row{display:flex;align-items:center;gap:8px}
+.ldr-opt{flex:1;min-width:0;min-height:46px;padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);font-size:16px;line-height:1.55;text-align:left;cursor:pointer}
+.ldr-opt.big{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;min-height:64px;font-size:21px;font-weight:600}
+.ldr-opt.big small{flex-basis:100%;font-size:13px;font-weight:400;color:var(--muted)}
+.ldr-opt b{font-family:var(--mono);font-weight:500;font-size:14px;color:var(--muted);margin-right:4px}
+.ldr-opt:hover:not(:disabled){border-color:var(--accent)}
+.ldr-opt:disabled{cursor:default}
+.ldr-row.right .ldr-opt{border-color:var(--ok);box-shadow:inset 0 0 0 1px var(--ok)}
+.ldr-row.wrong .ldr-opt{border-color:var(--no)}
+.ldr-row.wrong .ldr-t{text-decoration:line-through}
+.ldr-row.off .ldr-opt{opacity:.75}
+.ldr-cmp{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px}
+.edr-btn svg{width:15px;height:15px;vertical-align:-2px}
+
+/* ---------- 놀이터: 듣고 가르기 훈련 · 내 발음 확인 ---------- */
+.pg2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
+.pg2 .card > h3{display:flex;align-items:center;gap:6px;margin:0 0 4px;font-size:18px}
+.pg2 .card > p.note{margin:0 0 6px}
+.hv-hello{margin:12px 0 0;color:var(--muted)}
+.hv-top{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px}
+.hv-who{font-size:13.5px;font-weight:700;color:var(--muted)}
+.hv-opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+.hv-opts.n3{grid-template-columns:repeat(3,minmax(0,1fr))} .hv-opts.n4{grid-template-columns:repeat(4,minmax(0,1fr))} .hv-opts.n5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.hv-opts.n4 .hv-opt,.hv-opts.n5 .hv-opt{font-size:22px;padding:10px 4px}
+.hv-opt{display:flex;flex-direction:column;align-items:center;gap:2px;min-height:96px;padding:10px;border:1.5px solid var(--line);border-radius:14px;background:var(--surface-2);font-size:26px;font-weight:700;cursor:pointer;line-height:1.3}
+.hv-opt b{font-family:var(--mono);font-size:12.5px;font-weight:500;color:var(--muted)}
+.hv-opt small{font-size:13px;font-weight:400;color:var(--muted)}
+.hv-opt:hover:not(:disabled){border-color:var(--accent)}
+.hv-opt:disabled{cursor:default}
+.hv-opt.right{border-color:var(--ok);box-shadow:inset 0 0 0 1px var(--ok)}
+.hv-opt.wrong{border-color:var(--no)}
+.hv-opt.wrong span{text-decoration:line-through}
+.hv-opt.off{opacity:.7}
+.hv-tab{width:100%;margin-top:14px;border-collapse:collapse;font-size:14px}
+.hv-tab caption{text-align:left;font-size:12.5px;font-weight:600;color:var(--muted);padding-bottom:4px}
+.hv-tab th,.hv-tab td{padding:5px 6px;border-top:1px solid var(--line);text-align:left;white-space:nowrap}
+.hv-tab th{font-weight:600}
+.hv-tab td:nth-child(2){font-family:var(--mono);font-size:13px}
+.hv-tab tr.all th,.hv-tab tr.all td{font-weight:700}
+.meter{display:inline-block;width:72px;height:8px;margin-right:6px;border-radius:999px;background:var(--surface-2);overflow:hidden;vertical-align:1px}
+.meter i{display:block;height:100%;background:var(--accent)}
+@media (max-width:520px){.hv-tab{font-size:13px}.hv-tab tr>:first-child{white-space:normal}.hv-tab th,.hv-tab td{padding:5px 4px}.hv-tab .meter{width:40px;margin-right:4px}}
+.mp-ctl .cv-row:first-child{margin-top:4px}
+.mp-body{display:grid;grid-template-columns:minmax(0,200px) minmax(0,1fr);gap:12px;align-items:start;margin-top:12px}
+.mp-fig{display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 10px;border-radius:12px;background:var(--surface-2)}
+.mp-fig small{font-size:12.5px;color:var(--muted);text-align:center}
+.mp-big{margin:0!important;font-size:34px;font-weight:700;line-height:1.2}
+.mp-word p{margin:4px 0 0}
+.mp-acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.mp-acts .btn.on{background:var(--no);border-color:var(--no);color:#fff}
+.mp-res:empty{display:none}
+.mp-res .mo{margin-top:8px}
+.alt{font-family:var(--mono);font-size:13px}
+.alt.top{font-weight:700;color:var(--text)}
+.btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:600;cursor:pointer}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn svg{width:16px;height:16px}
+.btn small{font-family:var(--mono);font-weight:500;opacity:.75}
+.btn.saying{box-shadow:0 0 0 3px var(--accent-soft)}
+.okeys{margin:0;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+
+.card.wide{grid-column:1/-1}
+.sf-words{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.sfw{min-height:44px;padding:4px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--surface-2);font-size:19px;font-weight:600;cursor:pointer}
+.sfw:hover:not(:disabled){border-color:var(--accent)}
+.sfw[aria-pressed="true"]{border-color:var(--c-str);background:color-mix(in srgb, var(--c-str) 16%, transparent);color:var(--c-str);font-weight:800}
+.sfw:disabled{cursor:default}
+.sfw.hit{border-color:var(--ok);color:var(--ok);background:color-mix(in srgb, var(--ok) 12%, transparent)}
+.sfw.miss{border-color:var(--no);border-style:dashed;color:var(--no)}
+.sfw.extra{border-color:var(--warn);color:var(--warn);text-decoration:line-through}
+.sfw.rest{opacity:.7}
+.sfw.ret{box-shadow:inset 0 -3px 0 var(--c-ret)}
+.sf-why{margin:8px 0 0;padding-left:20px;font-size:14px;display:flex;flex-direction:column;gap:2px}
+
+/* ---------- 따라 말하기 ---------- */
+.sh-mode{margin:0;padding:10px 14px;border-radius:10px;background:var(--surface);border:1px solid var(--line);font-size:14.5px}
+.sh-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:12px;align-items:start}
+.sh-grp{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.sh-grp h3{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:0 0 8px;font-size:16px}
+.sh-grp ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.sh-row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;align-items:center;padding:8px 10px;border-radius:10px;background:var(--surface-2)}
+.sh-btns{display:flex;gap:6px;grid-row:span 2;align-self:start}
+.sh-btns .lbtn{min-height:32px;padding:0 10px 0 8px;font-size:13px}
+.sh-btns .lbtn span{display:none}
+.sh-mic.on{background:var(--no);border-color:var(--no);color:#fff}
+.sh-t{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px}
+.sh-en{font-weight:600;font-size:16px}
+.sh-t small{flex-basis:100%;color:var(--muted);font-size:13px}
+.sh-res{grid-column:2;font-size:14px}
+.sh-res:empty{display:none}
+.sh-res p{margin:2px 0}
+.sh-cmp{font-size:16px;font-weight:600}
+.w-ok{color:var(--ok);box-shadow:inset 0 -2px 0 var(--ok)} .w-no{color:var(--c-trap);box-shadow:inset 0 -2px 0 var(--c-trap)}
+.sh-err{color:var(--no)}
+.sh-play{display:inline-flex;align-items:center;gap:6px}
+.sh-play svg{width:14px;height:14px}
+.sh-play.saying{border-color:var(--accent);color:var(--accent)}
+@media (min-width:761px){ .sh-btns .lbtn span{display:inline} }
+
+/* ---------- 블록 · 핵심 정리 ---------- */
+.block{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:12px}
+.bhead{display:flex;flex-direction:column;gap:6px;scroll-margin-top:12px}
+.bhead h2{margin:0;font-family:var(--disp);font-weight:800;font-size:clamp(23px,3vw,30px);line-height:1.25;text-wrap:balance}
+.bhead p{margin:0;max-width:70ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;scroll-margin-top:12px}
+table.sum{width:100%;border-collapse:collapse;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.sum th,.sum td{padding:9px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+.sum thead th{border-top:0;background:var(--surface-2);font-size:13px;color:var(--muted)}
+.sum td.pl{font-weight:700;white-space:nowrap}
+.sum td.pl.str{color:var(--c-str)} .sum td.pl.weak{color:var(--c-weak)} .sum td.pl.ret{color:var(--c-ret)} .sum td.pl.a{color:var(--c-l)}
+.sumwrap{overflow-x:auto}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+footer p{margin:0 0 6px;max-width:84ch}
+footer ul{margin:0 0 6px;padding-left:18px;max-width:84ch}
+
+@media (max-width:760px){
+  .below{grid-template-columns:minmax(0,1fr)}
+  .lab{position:static}
+  .chapters{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chapters h2{width:100%}
+  .chap{width:auto;grid-template-columns:auto auto;padding:6px 10px;border-color:var(--line)}
+  .chap .tt small,.chap .tm{display:none}
+  .ib span{display:none}
+  .bar{gap:5px;padding:6px 8px}
+  .time{font-size:11px}
+  #speed{display:none}
+  .cap{font-size:15px}
+  #bigPlay{width:60px;height:60px;margin:-30px 0 0 -30px}
+  #bigPlay svg{width:26px;height:26px}
+  .sum{font-size:14px}
+  .sum th,.sum td{padding:8px}
+  .pg2{grid-template-columns:minmax(0,1fr)}
+  .twokeys{grid-template-columns:minmax(0,1fr)}
+  .cv-row{grid-template-columns:minmax(0,1fr);gap:4px}
+}
+@media (max-width:480px){
+  .mp-body{grid-template-columns:minmax(0,1fr)}
+  .ldr-opts.three{grid-template-columns:minmax(0,1fr)}
+  .ldr-opts.three .ldr-opt.big{min-height:52px}
+  .pairbox{grid-template-columns:minmax(0,1fr)}
+  .sfw{font-size:17px;padding:4px 10px}
+  .capsb{font-size:13px}
+  .ldr-opt.big{font-size:19px}
+  .okeys.kb{display:none}
+}
+
+/* ---------- 영상 추출(#export): 캔버스만 1920×1080으로 ---------- */
+body.export{background:var(--stage);overflow:hidden}
+body.export > :not(.page),body.export .page > :not(.player),body.export .player > :not(.screen),body.export #bigPlay{display:none!important}
+body.export .page{padding:0;max-width:none}
+body.export .player{border:0;border-radius:0}
+body.export .screen{width:1920px;height:1080px;aspect-ratio:auto}
+</style>
+</head>
+<body>
+<script src="../assets/catalog.js"></script>
+<script src="../assets/site-bar.js" data-slug="sentence-rhythm"></script>
+<script src="../assets/to-top.js"></script>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">영어 발음 (미국식) · 문장 리듬 · <span id="durLbl">6분 48초</span></p>
+    <h1><em>센 낱말</em>, <em>약한 낱말</em> — 문장 리듬</h1>
+    <p class="lead">영어 문장 <i lang="en">I want to go to the store.</i>를 한국어식으로 읽으면 낱말마다 같은 세기로 또박또박 나와요. 영어는 뜻을 나르는 <b>센 낱말</b>(<i lang="en">want · go · store</i>)만 길고 크게 말하고, 문법을 잇는 <b>약한 낱말</b>(<i lang="en">to · the</i>)은 짧게, 모음은 흐린 어로 앞뒤에 붙여요. 음절 공으로 리듬을 보고, 목소리 넷으로 <i lang="en">can · can't</i>를 가르고, 약한 형태 · 덩어리 · 늘어나는 문장 · 강한 형태로 돌아오는 자리를 익혀요.</p>
+    <ul class="twokeys" aria-label="센 낱말과 약한 낱말">
+      <li class="str"><b>센 낱말 — 뜻을 나르는 내용어</b><i>명사 · 본동사 · 형용사 · 부사 · 의문사 · 부정의 <span lang="en">can't</span>. 그 낱말의 센 음절을 길게 · 크게 · 높게. 요령 → 센 낱말에서 손뼉을 톡 (<span lang="en">I WANT tə GO</span>)</i></li>
+      <li class="weak"><b>약한 낱말 — 문법을 잇는 기능어</b><i>관사 · 전치사 · 접속사 · 조동사 · be 동사 · 대명사. 짧게, 모음은 흐린 어(슈와). 요령 → 힘을 빼고 앞뒤 센 낱말에 붙여 재빨리 (<span lang="en">ə CUP əv TEA</span>)</i></li>
+    </ul>
+    <ol class="steps3" aria-label="3단계 발음법"><li><b>①</b>듣고 가르기 (센 낱말 · 약한 낱말 · can과 can't)</li><li><b>②</b>소리 만들기 (약한 형태 · 덩어리)</li><li><b>③</b>문장 속에서 (늘어나는 문장 · 강한 형태로 돌아옴 · 긴 문장)</li></ol>
+    <ul class="legend" aria-label="글자 색의 뜻">
+      <li><i style="background:var(--c-str)"></i>센 낱말 (센 음절은 굵게 · 밑줄)</li>
+      <li><i style="background:var(--c-str2)"></i>센 낱말의 다른 음절</li>
+      <li><i style="background:var(--c-weak)"></i>약한 낱말 (약한 형태)</li>
+      <li><i style="background:var(--c-ret)"></i>강한 형태로 돌아온 기능어</li>
+      <li><i style="background:var(--c-trap)"></i>한국어식으로 또박또박 읽은 소리</li>
+    </ul>
+    <p class="honest"><b>먼저 알려 드려요.</b> 이 페이지는 미국 영어(미국식) 발음을 다뤄요. 영어 리듬은 딱 맞는 규칙이 아니라 <b>경향</b>이에요 — 센 낱말 사이 간격을 비슷하게 맞추려는 경향이 있을 뿐, 똑같은 간격이라는 것은 측정으로 뒷받침되지 않았어요. 어느 낱말을 세게 말할지는 뜻과 강조에 따라 달라질 수 있어요. 소리는 녹음이 아니라 합성 음성이에요 — 문장 · 연습 문제처럼 글이 정해진 말은 VoiceStudio로 미리 만든 미국식 목소리 넷(과 한국어식으로 읽는 목소리)으로, 나머지는 브라우저에 들어 있는 음성(speechSynthesis)으로 읽어요. 음절 공의 크기와 높이, 문장 길이는 그 음성 파일을 프로그램으로 재서 그렸어요(자동으로 잰 값이라 음절의 경계가 조금 어긋날 수 있어요. 잰 값이 없으면 엔진의 기본 모양으로 그리고, ‘이 목소리를 잰 값’ 표시를 붙이지 않아요). 이어 말할 때 소리가 바뀌는 연음과 억양은 다른 꼭지에서 다뤄요.<span class="voice-note"></span></p>
+    <nav class="jump" aria-label="페이지 안 이동"><a href="#player">영상</a><a href="#playground">듣기 시합 · 센 낱말 찾기 · 내 발음</a><a href="#shadow">따라 말하기</a><a href="#drill">듣고 고르기</a><a href="#quiz">퀴즈</a><a href="#summary-table">핵심 정리</a></nav>
+  </header>
+
+  <section class="player" id="player" aria-label="문장 리듬 설명 영상">
+    <div class="screen" id="screen">
+      <canvas id="cv" role="img" aria-label="한국어식으로 고르게 읽은 음절 공과 영어 리듬의 음절 공을 견주고, I can go · I can't go의 공 크기, 내용어와 기능어 갈래 표, 강한 형태와 약한 형태 카드, a cup of tea 같은 덩어리, Cats chase mice가 늘어날 때의 음절 수와 문장 길이 막대, 문장 끝 · 혼자 대답 · 강조에서 강한 형태로 돌아오는 낱말, 긴 문장의 대문자 띠가 차례로 그려지는 애니메이션"></canvas>
+      <button id="bigPlay" type="button" aria-label="영상 재생"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+    </div>
+    <p class="cap" id="cap" aria-live="polite"><span id="capText"></span></p>
+    <div class="bar">
+      <button class="ib" id="playBtn" type="button"></button>
+      <span class="time" id="timeLbl">0:00 / 0:00</span>
+      <div class="seek"><input type="range" id="seek" min="0" max="408" step="0.01" value="0" aria-label="재생 위치"><div id="ticks" aria-hidden="true"></div></div>
+      <select id="speed" aria-label="재생 속도"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select>
+      <button class="ib" id="ccBtn" type="button" aria-pressed="true" title="자막 (C)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M10.5 10.2a2.3 2.3 0 1 0 0 3.6M17 10.2a2.3 2.3 0 1 0 0 3.6"/></svg><span>자막</span></button>
+      <button class="ib" id="ttsBtn" type="button" aria-pressed="false" title="음성 해설: 한국어는 한국어 음성, 영어는 영어 음성으로 자막 읽기 (V)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor" stroke-linejoin="round"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>음성 해설</span></button>
+      <button class="ib" id="fsBtn" type="button" aria-label="전체 화면 (F)" title="전체 화면 (F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+    <p class="ttsnote" id="ttsNote" hidden></p>
+  </section>
+
+  <section class="below">
+    <nav class="chapters" id="chapters" aria-label="장면"><h2>장면</h2></nav>
+    <div class="lab" id="lab"></div>
+  </section>
+
+  <section class="block" id="playground" aria-labelledby="pgTitle">
+    <div class="bhead">
+      <p class="eyebrow">놀이터</p>
+      <h2 id="pgTitle">귀로 가르고, 입으로 확인하기</h2>
+      <p>먼저 <b>can · can't 듣기 시합</b>과 <b>센 낱말 찾기</b>로 리듬을 듣는 귀를 열고, 그다음 <b>내 발음 확인</b>으로 내가 말한 문장이 어느 쪽으로 들리는지 확인해요. 듣는 힘이 먼저 자라야 입도 따라와요.</p>
+    </div>
+    <div class="pg2">
+      <div class="card" id="cct" tabindex="-1">
+        <h3>can · can't 듣기 시합</h3>
+        <p class="note">짝 문장 여섯 × 미국식 목소리 넷. 들은 문장이 can인지 can't인지 고르면, 그 목소리의 음절 공 줄이 짝과 나란히 나타나요. 여러 목소리로 들으면 한 사람의 말버릇에 덜 매여요.</p>
+        <div id="ccCtl"></div>
+        <div id="ccMain" aria-live="polite"></div>
+        <div id="ccStats"></div>
+        <div class="acts"><button type="button" class="btn ghost" id="ccReset">기록 지우기</button></div>
+        <p class="okeys kb">키보드: R 듣기 · 1 can · 2 can't · Space/Enter 다음</p>
+      </div>
+      <div class="card" id="sfind" tabindex="-1">
+        <h3>센 낱말 찾기</h3>
+        <p class="note">따라 말하기의 28문장과 긴 문장 셋 가운데 하나를 들려줘요. 길고 크게 들린 낱말을 눌러 표시하고 확인하면, 규칙 엔진의 갈래와 맞춰 맞은 · 빠진 · 더 누른 낱말과 그 까닭을 보여 줘요.</p>
+        <div id="sfMain" aria-live="polite"></div>
+        <p class="okeys kb">키보드: R 듣기 · Enter 확인 / 다음</p>
+      </div>
+      <div class="card wide" id="mypron">
+        <h3>내 발음 확인</h3>
+        <p class="note">짝 문장과 말할 쪽(can · can't)을 고르고 마이크 단추를 눌러 문장을 말해 보세요. 음성 인식이 받아 적은 후보를 보고, 말하려던 쪽으로 들었는지 반대쪽으로 들었는지 알려 줘요. 녹음해서 본보기와 번갈아 들을 수도 있어요.</p>
+        <div id="mpMain"></div>
+        <p class="honest">음성 인식은 <b>발음의 질을 판정하지 않아요</b>. 인식기는 앞뒤 낱말과 흔한 말 쪽으로 기울어 짐작하기 때문에, 정확히 말해도 반대쪽으로 적거나, 흐리게 말해도 맞게 적을 때가 있어요. 한 번의 결과보다 여러 번 해 본 흐름을 보세요. 크롬(Chrome) 같은 브라우저는 소리를 브라우저 회사의 서버로 보내 글로 바꿔요. 이 사이트는 소리도 글도 저장하지 않아요.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="shadow" aria-labelledby="shTitle">
+    <div class="bhead">
+      <p class="eyebrow">따라 말하기</p>
+      <h2 id="shTitle">센 낱말 살려 따라 말하기 — 28문장</h2>
+      <p>약한 형태 · can과 can't · 덩어리 · 강한 형태로 돌아옴, 묶음마다 일곱 문장씩 골랐어요. <b>센 낱말은 보라</b>, <b>약한 낱말은 민트</b>, <b>강한 형태로 돌아온 낱말은 노랑</b>으로 칠했고, 뜻 옆에 대문자 띠를 붙였어요. <b>듣기</b>로 한 번, <b>천천히</b>로 한 번 듣고 따라 말해 보세요. 마이크 단추를 누르면 내가 말한 문장을 원래 문장과 낱말마다 맞춰 봐요.</p>
+    </div>
+    <p class="sh-mode" id="shMode"></p>
+    <div class="sh-list" id="shList"></div>
+    <p class="honest"><b>음성 인식에 대해 정직하게 알려 드려요.</b> 맞춰 보는 것은 <b>낱말</b>뿐이에요. 리듬(센 낱말을 살리고 약한 낱말을 줄였는지)은 판정하지 않고, 약한 낱말은 앞뒤 낱말로 짐작해 맞게 적을 때가 많아요. 녹음으로 연습할 때 녹음은 이 화면에만 잠깐 있다가 페이지를 닫으면 사라져요.</p>
+  </section>
+
+  <section class="block" id="drill" aria-labelledby="drillTitle">
+    <div class="bhead">
+      <p class="eyebrow">듣고 고르기</p>
+      <h2 id="drillTitle">듣고 리듬 가르기 — 16문제</h2>
+      <p>can인지 can't인지 · 센 낱말이 몇 개인지 · 어느 낱말이 세게 들리는지 · 한국어식은 어느 쪽인지 · 끝의 전치사가 강한 형태인지, 다섯 가지 문제를 목소리 넷으로 섞었어요. 소리를 먼저 들려주고(<b>듣기</b> R · <b>천천히</b> S), 글은 답한 뒤에 보여요. 막히면 <b>힌트</b>(H)를 누르세요 — ① 듣고 가르기 → ② 소리 만들기 → ③ 문장 속에서 순서로 열려요. 답하면 보기마다 까닭과 음절 공, 같은 목소리로 견줘 듣기가 나와요.</p>
+      <p class="honest">합성 음성이라 실제 사람의 말소리와 다르게 들릴 수 있어요. 잘 안 들리면 천천히 듣기를 켜 보세요.<span class="voice-note"></span></p>
+    </div>
+    <div id="drillRoot"></div>
+  </section>
+
+  <section class="block" id="quiz" aria-labelledby="quizTitle">
+    <div class="bhead">
+      <p class="eyebrow">퀴즈</p>
+      <h2 id="quizTitle">열 문제로 확인하기</h2>
+      <p>영상 순서대로 나와요. 답을 고르면 바로 해설이 보여요. 그림 문제는 그림을 눌러도 돼요.</p>
+    </div>
+    <ol id="quizList"></ol>
+    <div class="enq-foot"><p id="quizScore" role="status"></p><button class="btn ghost" type="button" id="quizReset">처음부터 다시 풀기</button></div>
+  </section>
+
+  <section class="block" id="summary-table" aria-labelledby="sumTitle">
+    <div class="bhead">
+      <p class="eyebrow">핵심 정리</p>
+      <h2 id="sumTitle">한눈에 보는 문장 리듬</h2>
+      <p>① 센 낱말과 약한 낱말을 듣고 가르고 ② 센 낱말은 길고 크게, 약한 낱말은 짧게 흐린 어로 만들고 ③ 문장 속에서 약한 낱말을 앞뒤에 붙이되, 강한 형태로 돌아오는 자리를 지켜요.</p>
+    </div>
+    <div class="sumwrap">
+      <table class="sum">
+        <thead><tr><th scope="col">무엇</th><th scope="col">소리</th><th scope="col">요령 · 예</th></tr></thead>
+        <tbody>
+          <tr><td class="pl str">센 낱말</td><td>뜻을 나르는 내용어(명사 · 본동사 · 형용사 · 부사 · 의문사 · 부정의 <span lang="en">can't</span>). 그 낱말의 센 음절을 길게 · 크게 · 높게.</td><td><span class="capsb" lang="en"><b class="cb-weak">i</b> <b class="cb-str">WANT</b> <b class="cb-weak">tə</b> <b class="cb-str">GO</b> <b class="cb-weak">tə</b> <b class="cb-weak">thə</b> <b class="cb-str">STORE</b></span></td></tr>
+          <tr><td class="pl weak">약한 낱말 · 약한 형태</td><td>문법을 잇는 기능어(관사 · 전치사 · 접속사 · 조동사 · be 동사 · 대명사). 짧게, 모음은 흐린 어(슈와).</td><td><i lang="en">to</i> → 터 · <i lang="en">for</i> → 퍼 · <i lang="en">of</i> → 어브 · <i lang="en">and</i> → 언 · <i lang="en">can</i> → 컨에 가깝게</td></tr>
+          <tr><td class="pl">덩어리</td><td>약한 낱말은 혼자 서지 않고 앞뒤 센 낱말에 붙어 한 숨에.</td><td><span class="capsb" lang="en"><b class="cb-weak">ə</b> <b class="cb-str">CUP</b> <b class="cb-weak">əv</b> <b class="cb-str">TEA</b></span> · <span class="capsb" lang="en"><b class="cb-str">BREAD</b> <b class="cb-weak">ən</b> <b class="cb-str">BUTter</b></span></td></tr>
+          <tr><td class="pl a">can · can't</td><td>미국 영어에서 can't의 t는 거의 들리지 않을 때가 많아요. 모음과 세기로 갈라요.</td><td><span class="capsb" lang="en"><b class="cb-weak">i</b> <b class="cb-weak">kən</b> <b class="cb-str">GO</b></span>(짧은 흐린 어) · <span class="capsb" lang="en"><b class="cb-weak">i</b> <b class="cb-str">CAN'T</b> <b class="cb-str">GO</b></span>(길고 또렷한 애)</td></tr>
+          <tr><td class="pl ret">강한 형태로 돌아옴</td><td>문장 끝의 전치사 · 혼자 대답(뒤에 동사가 없음) · 강조 · 낱말 자체를 말할 때. 대명사는 끝에서도 보통 약해요.</td><td><i lang="en">Where are you <b>from</b>?</i> · <i lang="en">Yes, I <b>can</b>.</i> · <i lang="en">I <b>can</b> swim!</i> · <i lang="en">the word “<b>to</b>”</i> · <i lang="en">Call them.</i>(약한 채로)</td></tr>
+          <tr><td class="pl">센 낱말 사이 간격</td><td>약한 낱말이 끼면 짧게 줄어드는 <b>경향</b>. 똑같은 간격은 아니에요.</td><td><span class="capsb" lang="en"><b class="cb-str">CATS</b> <b class="cb-str">CHASE</b> <b class="cb-str">MICE</b></span> → <span class="capsb" lang="en"><b class="cb-weak">thə</b> <b class="cb-str">CATS</b> <b class="cb-weak">həv</b> <b class="cb-str">CHASED</b> <b class="cb-weak">thə</b> <b class="cb-str">MICE</b></span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="en-gloss">
+      <section>
+        <h3>① 듣고 가르기</h3>
+        <dl>
+          <dt>내용어 · 센 낱말 <span>content word</span></dt><dd>뜻을 나르는 낱말이에요. 명사 · 본동사 · 형용사 · 부사 · 의문사, 그리고 부정의 <span lang="en">can't</span>. 문장 속에서 보통 세게 말해요.</dd>
+          <dt>기능어 · 약한 낱말 <span>function word</span></dt><dd>문법을 잇는 낱말이에요. 관사 · 전치사 · 접속사 · 조동사 · be 동사 · 대명사. 문장 속에서 보통 짧고 약하게 말해요.</dd>
+          <dt>문장 강세 <span>sentence stress</span></dt><dd>문장 속에서 어느 낱말을 두드러지게 내는지예요. 센 낱말의 센 음절이 길고 크고 높게 나와요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>② 소리 만들기</h3>
+        <dl>
+          <dt>강한 형태 · 약한 형태 <span>strong / weak form</span></dt><dd>기능어를 혼자 말할 때의 또렷한 소리(강한 형태)와 문장 속에서 쓰는 짧은 소리(약한 형태)예요. <i lang="en">to</i> → 강한 형태 <span class="ipa">/tu/</span>, 약한 형태 <span class="ipa">/tə/</span>.</dd>
+          <dt>슈와 <span>schwa, ə</span></dt><dd>약한 형태에서 흔히 나는 짧고 흐린 어 소리예요. 입을 조금만 벌리고 혀와 입술에 힘을 빼면 나요.</dd>
+          <dt>덩어리 <span>chunk</span></dt><dd>센 낱말에 약한 낱말이 붙어 한 숨에 나오는 말 묶음이에요. <i lang="en">a cup of tea</i>는 한 낱말처럼 이어져요.</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>③ 문장 속에서</h3>
+        <dl>
+          <dt>강한 형태로 돌아오는 자리 <span>strong-form contexts</span></dt><dd>문장 끝의 전치사(<i lang="en">Where are you from?</i>), 뒤에 동사가 없는 대답(<i lang="en">Yes, I can.</i>), 강조(<i lang="en">I can swim!</i>), 낱말 자체를 말할 때(<i lang="en">the word “to”</i>).</dd>
+          <dt>센 낱말 사이 간격 <span>stress timing</span></dt><dd>영어는 센 낱말 사이 간격을 비슷하게 맞추려는 경향이 있어, 끼어든 약한 낱말이 짧게 줄어요. 똑같은 간격은 아니에요.</dd>
+          <dt>대문자 띠 <span>this page</span></dt><dd>이 페이지에서 리듬을 글로 적은 것이에요. 센 음절은 대문자, 약한 낱말은 소문자로 짧게 읽는 소리대로 적어요(<span lang="en">tə · thə · kən</span>).</dd>
+        </dl>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <p>무엇이 규칙 계산인가요? 낱말마다 손으로 적은 발음 사전(음절로 나눈 소리 · 강세 표시 · 기능어의 강한 형태와 약한 형태)에서 낱말 갈래(내용어 · 기능어), 강한 형태로 돌아오는 자리와 그 까닭(문장 끝의 전치사 · 혼자 대답 · 강조 · 인용), 음절마다 세기, 센 낱말 수, 센 음절 사이의 약한 음절 수, 대문자 띠, 칠하기, can · can't 받아 적기 가르기, 따라 말하기 맞추기, 연습 문제 · 퀴즈의 정답과 힌트를 이 페이지의 규칙 엔진(<code>assets/js/grammar.js</code>)이 계산해요. 문제에 적어 둔 정답이 규칙 엔진과 다르면 브라우저 콘솔에 경고가 떠요. 내용어의 소리와 기능어의 강한 형태는 공개 발음 사전(misaki의 미국 영어 사전)과 맞춰 봤고, 약한 형태는 그 사전에 없어서 교재의 표준 약한 형태를 손으로 적었어요.</p>
+    <p>잰 값과 단순하게 줄인 부분도 있어요. 음절 공의 크기와 높이, 늘어나는 문장의 길이는 미리 만든 음성 파일을 프로그램으로 재서 그렸어요. 자동으로 잰 값이라 음절의 경계는 어림이에요. 엔진은 소리를 듣지 않아요 — 내 발음 확인은 음성 인식이 적은 후보 글에서 can · can't를 찾아볼 뿐이에요. 강조(<i lang="en">I can swim!</i>)는 말하는 사람의 뜻에 따라 정해져서 문장 데이터에 적었어요. 리듬의 같은 간격은 경향으로만 말해요.</p>
+    <p>참고한 연구 (초록 · 요약으로 확인한 범위)</p>
+    <ul>
+      <li>약한 기능어: <a href="https://scholar.kyobobook.co.kr/article/detail/4010023710842">Yoo 2014, 영어학연구 20(1)</a> — 글 읽기에서 원어민은 약한 기능어의 모음을 고르게 줄였지만, 한국인 학습자는 줄이는 정도가 들쭉날쭉했어요.</li>
+      <li>문장 강세와 리듬: <a href="https://www.cambridge.org/core/product/A178EB2FFB5074628F1D1C0DE81DDD4B">Lee &amp; Song 2019, <i lang="en">Applied Psycholinguistics</i> 40(6)</a> — 한국인 중학생 학습자에서 숙달도가 낮을수록 문장 강세를 더 많은 낱말에 두고 강세 오류가 많았어요. 리듬 단위의 같은 간격은 뒤의 측정 연구에서 뒷받침되지 않았다고 서론에서 정리해요.</li>
+      <li>리듬의 옮겨 옴: <a href="https://koreascience.or.kr/article/JAKO201909255111462.page?lang=en">Choe 2019, <i lang="en">Phonetics and Speech Sciences</i> 11(4)</a> — 부산 화자의 영어에서 말 빠르기를 맞춘 뒤에도 모음 길이 값에 모국어 리듬이 옮겨 온 경향을 보였어요(방언의 영향일 수도 있다고 밝혀요).</li>
+      <li>관사와 명사의 모음 길이: <a href="https://koreascience.kr/article/JAKO202029462558891.page?lang=ko">Park, Mo &amp; Rhee 2020, 말소리와 음성과학 12(3)</a> — 초등학생의 <i lang="en">a cup · the bus</i> 같은 구에서 숙달도가 높을수록 명사 모음이 관사 모음보다 더 길게 나오는 방향을 보였어요.</li>
+    </ul>
+    <p>연구마다 대상 · 방법이 달라, 이 페이지에서는 연구가 보여 준 방향만 말하고 숫자는 옮기지 않았어요. <i lang="en">can · can't</i>는 연구를 인용하지 않고 교재의 표준 설명으로만 다뤄요. 이 페이지는 <a href="../index.html">영어 튜토리얼</a>의 영어 발음(미국식) 꼭지예요.</p>
+  </footer>
+</div>
+
+<script src="../shared/narration.js"></script>
+<script src="../shared/quiz.js"></script>
+<script src="assets/js/grammar.js"></script>
+<script src="assets/js/voices.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="audio/narration/clips.js"></script>
+<script src="audio/dialogue/clips.js"></script>
+<script src="audio/dialogue/measure.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

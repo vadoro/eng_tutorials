@@ -1,0 +1,907 @@
+{
+ "slug": "sentence-rhythm",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 103,
+  "en": 46,
+  "say": 0,
+  "koChars": 2394,
+  "enChars": 775
+ },
+ "pieces": [
+  {
+   "id": "kaff4e39f",
+   "lang": "ko",
+   "text": "영어 문장 하나를 두 가지로 들어 봐요. 먼저 한국어식으로 낱말마다 또박또박 읽은 소리예요.",
+   "cap": 0
+  },
+  {
+   "id": "k32c4779e",
+   "lang": "ko",
+   "text": "이번에는 영어 리듬이에요",
+   "cap": 1
+  },
+  {
+   "id": "ef1e84513",
+   "lang": "en",
+   "text": "I want to go to the store.",
+   "cap": 1
+  },
+  {
+   "id": "ke5980f2a",
+   "lang": "ko",
+   "text": "어떤 낱말은 길고 크게, 어떤 낱말은 짧게 지나가요.",
+   "cap": 1
+  },
+  {
+   "id": "k1a3517a9",
+   "lang": "ko",
+   "text": "뜻을 나르는 낱말은 길고 크게 말해요",
+   "cap": 2
+  },
+  {
+   "id": "edef28cbf",
+   "lang": "en",
+   "text": "want , go , store.",
+   "cap": 2
+  },
+  {
+   "id": "k796f712b",
+   "lang": "ko",
+   "text": "이것을 센 낱말이라고 불러요.",
+   "cap": 2
+  },
+  {
+   "id": "kc574e9ea",
+   "lang": "ko",
+   "text": "문법을 잇는 낱말은 짧고 약하게, 모음은 흐린 어로 말해요",
+   "cap": 3
+  },
+  {
+   "id": "e16fbf74a",
+   "lang": "en",
+   "text": "to , the.",
+   "cap": 3
+  },
+  {
+   "id": "k9527d344",
+   "lang": "ko",
+   "text": "이것은 약한 낱말이에요.",
+   "cap": 3
+  },
+  {
+   "id": "ke14184ee",
+   "lang": "ko",
+   "text": "세 단계로 익혀요. 센 낱말과 약한 낱말을 듣고 가르고, 두 소리를 만들고, 문장 속에서 써요.",
+   "cap": 4
+  },
+  {
+   "id": "k85b10219",
+   "lang": "ko",
+   "text": "미국 표준 발음을 기준으로 해요. 소리는 모두 합성 음성이고, 리듬은 딱 맞는 규칙이 아니라 경향이에요.",
+   "cap": 5
+  },
+  {
+   "id": "kcba18e7f",
+   "lang": "ko",
+   "text": "먼저 귀부터 시험해요. 화면의 두 문장은 낱말 하나만 달라요",
+   "cap": 6
+  },
+  {
+   "id": "e3a2c5d01",
+   "lang": "en",
+   "text": "can , can't.",
+   "cap": 6
+  },
+  {
+   "id": "k12931e13",
+   "lang": "ko",
+   "text": "눌러서 들어 보세요. 미국 영어에서는",
+   "cap": 7
+  },
+  {
+   "id": "e8820e14b",
+   "lang": "en",
+   "text": "can't",
+   "cap": 7
+  },
+  {
+   "id": "kcb64663c",
+   "lang": "ko",
+   "text": "끝의",
+   "cap": 7
+  },
+  {
+   "id": "e8c56fb02",
+   "lang": "en",
+   "text": "t",
+   "cap": 7
+  },
+  {
+   "id": "k5ab44a51",
+   "lang": "ko",
+   "text": "소리가 거의 들리지 않을 때가 많아요.",
+   "cap": 7
+  },
+  {
+   "id": "kef7b1676",
+   "lang": "ko",
+   "text": "그럼 무엇으로 가를까요? 공을 보세요. 공 하나가 음절 하나, 큰 공이 센 음절이에요.",
+   "cap": 8
+  },
+  {
+   "id": "e21b0924b",
+   "lang": "en",
+   "text": "I can go",
+   "cap": 9
+  },
+  {
+   "id": "k6673b553",
+   "lang": "ko",
+   "text": "가운데 공이 작아요.",
+   "cap": 9
+  },
+  {
+   "id": "e9772a1a8",
+   "lang": "en",
+   "text": "can",
+   "cap": 9
+  },
+  {
+   "id": "k4fd81dd5",
+   "lang": "ko",
+   "text": "짧고 약하게, 모음은 흐린 어예요.",
+   "cap": 9
+  },
+  {
+   "id": "ec40c86b2",
+   "lang": "en",
+   "text": "I can't go",
+   "cap": 10
+  },
+  {
+   "id": "k18d1a6e6",
+   "lang": "ko",
+   "text": "가운데 공이 커요.",
+   "cap": 10
+  },
+  {
+   "id": "k3417d844",
+   "lang": "ko",
+   "text": "길고 세게, 모음은 또렷한 애예요.",
+   "cap": 10
+  },
+  {
+   "id": "kddb8c2d7",
+   "lang": "ko",
+   "text": "그래서",
+   "cap": 11
+  },
+  {
+   "id": "k38f9b915",
+   "lang": "ko",
+   "text": "소리를 기다리지 말고 모음과 세기를 들어요. 아래",
+   "cap": 11
+  },
+  {
+   "id": "ee32c93b5",
+   "lang": "en",
+   "text": "can , can't",
+   "cap": 11
+  },
+  {
+   "id": "k50991290",
+   "lang": "ko",
+   "text": "듣기 시합에서 목소리 넷으로 연습해요.",
+   "cap": 11
+  },
+  {
+   "id": "kc7cbca8c",
+   "lang": "ko",
+   "text": "문장의 낱말은 두 갈래예요. 뜻을 나르는 내용어, 그리고 문법을 잇는 기능어예요.",
+   "cap": 12
+  },
+  {
+   "id": "kceabf79d",
+   "lang": "ko",
+   "text": "내용어 , 명사 , 본동사 , 형용사 , 부사 , 의문사, 그리고 부정의",
+   "cap": 13
+  },
+  {
+   "id": "eb0c2d1ff",
+   "lang": "en",
+   "text": "can't.",
+   "cap": 13
+  },
+  {
+   "id": "k971bc3a8",
+   "lang": "ko",
+   "text": "보통 세게 말해요.",
+   "cap": 13
+  },
+  {
+   "id": "k776f9ba9",
+   "lang": "ko",
+   "text": "기능어 , 관사 , 전치사 , 접속사 , 조동사",
+   "cap": 14
+  },
+  {
+   "id": "e4fb60fdf",
+   "lang": "en",
+   "text": "be",
+   "cap": 14
+  },
+  {
+   "id": "ke77b893b",
+   "lang": "ko",
+   "text": "동사 , 대명사. 보통 약하게 말해요.",
+   "cap": 14
+  },
+  {
+   "id": "ka6f71bdf",
+   "lang": "ko",
+   "text": "문장 하나를 갈라 볼까요?",
+   "cap": 15
+  },
+  {
+   "id": "ee81b3409",
+   "lang": "en",
+   "text": "The kids are waiting for the bus.",
+   "cap": 15
+  },
+  {
+   "id": "k17d62c47",
+   "lang": "ko",
+   "text": "센 낱말은 셋이에요",
+   "cap": 16
+  },
+  {
+   "id": "e977f8620",
+   "lang": "en",
+   "text": "kids , waiting , bus.",
+   "cap": 16
+  },
+  {
+   "id": "k440dffba",
+   "lang": "ko",
+   "text": "나머지 넷은 약한 낱말이에요.",
+   "cap": 16
+  },
+  {
+   "id": "k83f19c90",
+   "lang": "ko",
+   "text": "긴 낱말은 센 음절 하나만 커요",
+   "cap": 17
+  },
+  {
+   "id": "e5044491d",
+   "lang": "en",
+   "text": "waiting.",
+   "cap": 17
+  },
+  {
+   "id": "kb5473a77",
+   "lang": "ko",
+   "text": "낱말 강세는 문장 속에서도 그대로예요.",
+   "cap": 17
+  },
+  {
+   "id": "k68e92116",
+   "lang": "ko",
+   "text": "연구에서도 숙달도가 낮은 학습자일수록 문장 강세를 더 많은 낱말에 두는 경향을 보였어요.",
+   "cap": 18
+  },
+  {
+   "id": "k85fc3d98",
+   "lang": "ko",
+   "text": "기능어에는 혼자 말할 때의 강한 형태와, 문장 속에서 쓰는 약한 형태가 있어요.",
+   "cap": 19
+  },
+  {
+   "id": "k04a80d7e",
+   "lang": "ko",
+   "text": "약한 형태는 짧고, 모음이 흐린 어가 돼요. 이 흐린 어를 슈와라고 불러요.",
+   "cap": 20
+  },
+  {
+   "id": "e59edcc97",
+   "lang": "en",
+   "text": "to",
+   "cap": 21
+  },
+  {
+   "id": "kb0957fc6",
+   "lang": "ko",
+   "text": "투가 아니라 터에 가깝게",
+   "cap": 21
+  },
+  {
+   "id": "ed54f9ed1",
+   "lang": "en",
+   "text": "for",
+   "cap": 21
+  },
+  {
+   "id": "k1577d9ec",
+   "lang": "ko",
+   "text": "포가 아니라 퍼에 가깝게 말해요.",
+   "cap": 21
+  },
+  {
+   "id": "e72d69aa3",
+   "lang": "en",
+   "text": "of",
+   "cap": 22
+  },
+  {
+   "id": "k3e4ad041",
+   "lang": "ko",
+   "text": "어브",
+   "cap": 22
+  },
+  {
+   "id": "e6b195323",
+   "lang": "en",
+   "text": "and",
+   "cap": 22
+  },
+  {
+   "id": "ke739d273",
+   "lang": "ko",
+   "text": "언",
+   "cap": 22
+  },
+  {
+   "id": "k20e7662c",
+   "lang": "ko",
+   "text": "컨에 가깝게. 짧게 붙여서 말해요.",
+   "cap": 22
+  },
+  {
+   "id": "k0064af27",
+   "lang": "ko",
+   "text": "카드가 더 있어요",
+   "cap": 23
+  },
+  {
+   "id": "e56f9798d",
+   "lang": "en",
+   "text": "a , the , at , from , have.",
+   "cap": 23
+  },
+  {
+   "id": "kee19fe6e",
+   "lang": "ko",
+   "text": "눌러서 두 형태를 견줘 들어 보세요.",
+   "cap": 23
+  },
+  {
+   "id": "kd7f26078",
+   "lang": "ko",
+   "text": "연구에서도 한국인 학습자는 약한 기능어의 모음을 원어민보다 덜 고르게 줄이는 경향을 보였어요.",
+   "cap": 24
+  },
+  {
+   "id": "k79968d4b",
+   "lang": "ko",
+   "text": "요령 , 약한 낱말에는 힘을 주지 않아요. 입을 조금만 벌리고 재빨리 지나가요.",
+   "cap": 25
+  },
+  {
+   "id": "k3a085049",
+   "lang": "ko",
+   "text": "이번에는",
+   "cap": 26
+  },
+  {
+   "id": "kec933219",
+   "lang": "ko",
+   "text": "무엇이 다른지 하나씩 봐요.",
+   "cap": 26
+  },
+  {
+   "id": "k9479de52",
+   "lang": "ko",
+   "text": "약한 형태예요. 짧고, 모음은 흐린 어라서 캔보다 컨에 가까워요.",
+   "cap": 27
+  },
+  {
+   "id": "k1d2f1b59",
+   "lang": "ko",
+   "text": "센 낱말이에요. 길고 높고, 모음은 또렷한 애예요. 부정은 뜻을 나르니까요.",
+   "cap": 28
+  },
+  {
+   "id": "k19b2cd25",
+   "lang": "ko",
+   "text": "소리는 혀만 대고 터뜨리지 않거나 거의 들리지 않을 때가 많아요. 그 소리에 기대지 마세요.",
+   "cap": 29
+  },
+  {
+   "id": "k14cbafb6",
+   "lang": "ko",
+   "text": "문장으로 들어 봐요",
+   "cap": 30
+  },
+  {
+   "id": "e95294632",
+   "lang": "en",
+   "text": "I can swim , I can't swim, She can drive , She can't drive.",
+   "cap": 30
+  },
+  {
+   "id": "k5bac020e",
+   "lang": "ko",
+   "text": "센 낱말의 수도 달라요.",
+   "cap": 31
+  },
+  {
+   "id": "e06d3270d",
+   "lang": "en",
+   "text": "I can swim",
+   "cap": 31
+  },
+  {
+   "id": "k455f5724",
+   "lang": "ko",
+   "text": "큰 공 하나",
+   "cap": 31
+  },
+  {
+   "id": "eb6c99da0",
+   "lang": "en",
+   "text": "I can't swim",
+   "cap": 31
+  },
+  {
+   "id": "k3c839ac6",
+   "lang": "ko",
+   "text": "큰 공 둘이에요.",
+   "cap": 31
+  },
+  {
+   "id": "k83c32e50",
+   "lang": "ko",
+   "text": "말할 때도 같아요",
+   "cap": 32
+  },
+  {
+   "id": "k6078e9e1",
+   "lang": "ko",
+   "text": "짧게 붙이고",
+   "cap": 32
+  },
+  {
+   "id": "k84f10bc3",
+   "lang": "ko",
+   "text": "길고 세게.",
+   "cap": 32
+  },
+  {
+   "id": "kcd7e625c",
+   "lang": "ko",
+   "text": "약한 낱말은 혼자 서지 않아요. 앞뒤의 센 낱말에 붙어 한 덩어리로 나와요.",
+   "cap": 33
+  },
+  {
+   "id": "e34721688",
+   "lang": "en",
+   "text": "a cup of tea",
+   "cap": 34
+  },
+  {
+   "id": "ke8ac8d3e",
+   "lang": "ko",
+   "text": "한 낱말처럼 이어져요. 센 음절은",
+   "cap": 34
+  },
+  {
+   "id": "e38eede50",
+   "lang": "en",
+   "text": "cup , tea",
+   "cap": 34
+  },
+  {
+   "id": "k11f522d4",
+   "lang": "ko",
+   "text": "두 곳이에요.",
+   "cap": 34
+  },
+  {
+   "id": "e43e47a0d",
+   "lang": "en",
+   "text": "bread and butter , rock and roll , salt and pepper",
+   "cap": 35
+  },
+  {
+   "id": "kb8d3a337",
+   "lang": "ko",
+   "text": "가운데",
+   "cap": 35
+  },
+  {
+   "id": "k621c8e24",
+   "lang": "ko",
+   "text": "짧은 언이에요.",
+   "cap": 35
+  },
+  {
+   "id": "e8ee2987a",
+   "lang": "en",
+   "text": "a lot of people",
+   "cap": 36
+  },
+  {
+   "id": "kf4396283",
+   "lang": "ko",
+   "text": "약한 낱말 둘이 센 낱말 사이에 끼어 아주 짧아져요.",
+   "cap": 36
+  },
+  {
+   "id": "e25da30b9",
+   "lang": "en",
+   "text": "I want to go , to",
+   "cap": 37
+  },
+  {
+   "id": "k6924924a",
+   "lang": "ko",
+   "text": "짧은 터. 두 센 낱말 사이에 가볍게 끼워요.",
+   "cap": 37
+  },
+  {
+   "id": "kb6abfd38",
+   "lang": "ko",
+   "text": "덩어리 테두리를 보세요. 테두리 하나를 한 숨에 이어서 말해요.",
+   "cap": 38
+  },
+  {
+   "id": "kc94a7bd2",
+   "lang": "ko",
+   "text": "이어 말할 때 소리가 바뀌는 연음은 다음 꼭지에서 다뤄요. 여기서는 짧게 붙이기만 해요.",
+   "cap": 39
+  },
+  {
+   "id": "k6de4f944",
+   "lang": "ko",
+   "text": "센 낱말 셋으로 된 문장이에요",
+   "cap": 40
+  },
+  {
+   "id": "e1f8bf3b9",
+   "lang": "en",
+   "text": "Cats chase mice.",
+   "cap": 40
+  },
+  {
+   "id": "kd21ac8b4",
+   "lang": "ko",
+   "text": "음절도 셋이에요.",
+   "cap": 40
+  },
+  {
+   "id": "k448885d2",
+   "lang": "ko",
+   "text": "약한 낱말을 넣어 늘여요",
+   "cap": 41
+  },
+  {
+   "id": "e0dfc6a05",
+   "lang": "en",
+   "text": "The cats have chased the mice.",
+   "cap": 41
+  },
+  {
+   "id": "ka94cf8b2",
+   "lang": "ko",
+   "text": "음절은 여섯이 됐어요.",
+   "cap": 41
+  },
+  {
+   "id": "ke9b63edb",
+   "lang": "ko",
+   "text": "한 번 더",
+   "cap": 42
+  },
+  {
+   "id": "e64c66824",
+   "lang": "en",
+   "text": "The cats will have been chasing the mice.",
+   "cap": 42
+  },
+  {
+   "id": "k26ca33f4",
+   "lang": "ko",
+   "text": "음절은 아홉이에요.",
+   "cap": 42
+  },
+  {
+   "id": "kdfd29ab2",
+   "lang": "ko",
+   "text": "센 낱말은 그대로 셋이에요. 늘어난 것은 약한 낱말과 음절뿐이에요.",
+   "cap": 43
+  },
+  {
+   "id": "k97dcf10a",
+   "lang": "ko",
+   "text": "막대를 보세요. 음절 수, 그리고 잰 값이 있으면 이 목소리의 문장 길이를 나란히 그려요.",
+   "cap": 44
+  },
+  {
+   "id": "k6b0a32b2",
+   "lang": "ko",
+   "text": "영어는 센 낱말 사이 간격을 비슷하게 맞추려는 경향이 있어, 끼어든 약한 낱말이 짧게 줄어요.",
+   "cap": 45
+  },
+  {
+   "id": "k775412d0",
+   "lang": "ko",
+   "text": "맨 아래는 한국어식으로 또박또박 읽은 소리예요. 음절 수와 길이를 견줘 보세요.",
+   "cap": 46
+  },
+  {
+   "id": "kc3263cf0",
+   "lang": "ko",
+   "text": "다만 똑같은 간격은 아니에요. 측정으로 확인된 규칙이 아니라 경향이에요.",
+   "cap": 47
+  },
+  {
+   "id": "k37f9fe0a",
+   "lang": "ko",
+   "text": "약한 낱말도 강한 형태로 돌아오는 자리가 있어요. 세 가지를 기억해요.",
+   "cap": 48
+  },
+  {
+   "id": "k7641e4bf",
+   "lang": "ko",
+   "text": "하나, 문장 끝의 전치사",
+   "cap": 49
+  },
+  {
+   "id": "e65bbf4b5",
+   "lang": "en",
+   "text": "Where are you from?",
+   "cap": 49
+  },
+  {
+   "id": "ee8c2bc46",
+   "lang": "en",
+   "text": "from",
+   "cap": 49
+  },
+  {
+   "id": "k75650908",
+   "lang": "ko",
+   "text": "또렷한 강한 형태예요.",
+   "cap": 49
+  },
+  {
+   "id": "e9678c716",
+   "lang": "en",
+   "text": "What are you looking at?",
+   "cap": 50
+  },
+  {
+   "id": "e4d11184d",
+   "lang": "en",
+   "text": "Who is it for?",
+   "cap": 50
+  },
+  {
+   "id": "k875d9507",
+   "lang": "ko",
+   "text": "끝의 전치사는 약해지지 않아요.",
+   "cap": 50
+  },
+  {
+   "id": "kfe832a72",
+   "lang": "ko",
+   "text": "둘, 혼자 대답할 때",
+   "cap": 51
+  },
+  {
+   "id": "e33027ed4",
+   "lang": "en",
+   "text": "Yes, I can.",
+   "cap": 51
+  },
+  {
+   "id": "ebdd8007c",
+   "lang": "en",
+   "text": "Yes, I am.",
+   "cap": 51
+  },
+  {
+   "id": "kdf78b97c",
+   "lang": "ko",
+   "text": "뒤에 동사가 없으면 강한 형태예요.",
+   "cap": 51
+  },
+  {
+   "id": "kb8ed6d09",
+   "lang": "ko",
+   "text": "셋, 강조할 때",
+   "cap": 52
+  },
+  {
+   "id": "eea66aa44",
+   "lang": "en",
+   "text": "I can swim!",
+   "cap": 52
+  },
+  {
+   "id": "k62a2a06b",
+   "lang": "ko",
+   "text": "할 수 있다고 힘주어 말하면",
+   "cap": 52
+  },
+  {
+   "id": "kc5e47b29",
+   "lang": "ko",
+   "text": "강한 형태예요.",
+   "cap": 52
+  },
+  {
+   "id": "k83df30e4",
+   "lang": "ko",
+   "text": "낱말 자체를 말할 때도 그래요",
+   "cap": 53
+  },
+  {
+   "id": "e035ff6b2",
+   "lang": "en",
+   "text": "Circle the word to.",
+   "cap": 53
+  },
+  {
+   "id": "k5fdd461c",
+   "lang": "ko",
+   "text": "따옴표 속",
+   "cap": 53
+  },
+  {
+   "id": "kf5ae1682",
+   "lang": "ko",
+   "text": "대명사는 문장 끝에서도 보통 약해요",
+   "cap": 54
+  },
+  {
+   "id": "e3c53042e",
+   "lang": "en",
+   "text": "Call them.",
+   "cap": 54
+  },
+  {
+   "id": "e9ab99e45",
+   "lang": "en",
+   "text": "See you!",
+   "cap": 54
+  },
+  {
+   "id": "k21d63f28",
+   "lang": "ko",
+   "text": "끝이라고 모두 세지지는 않아요.",
+   "cap": 54
+  },
+  {
+   "id": "kf10ba27d",
+   "lang": "ko",
+   "text": "이제 긴 문장이에요. 센 낱말을 먼저 찾고, 나머지는 짧게 붙여요.",
+   "cap": 55
+  },
+  {
+   "id": "eb8810677",
+   "lang": "en",
+   "text": "My sister wants a new bike.",
+   "cap": 56
+  },
+  {
+   "id": "k93dc833b",
+   "lang": "ko",
+   "text": "센 낱말은 넷이에요",
+   "cap": 56
+  },
+  {
+   "id": "e00887dee",
+   "lang": "en",
+   "text": "sister , wants , new , bike.",
+   "cap": 56
+  },
+  {
+   "id": "eb510752e",
+   "lang": "en",
+   "text": "The students are waiting for the teacher.",
+   "cap": 57
+  },
+  {
+   "id": "e2352124b",
+   "lang": "en",
+   "text": "students , waiting , teacher.",
+   "cap": 57
+  },
+  {
+   "id": "ebb8dd523",
+   "lang": "en",
+   "text": "Can you tell me the way to the station?",
+   "cap": 58
+  },
+  {
+   "id": "k53da1aa5",
+   "lang": "ko",
+   "text": "질문을 여는",
+   "cap": 58
+  },
+  {
+   "id": "k9e089261",
+   "lang": "ko",
+   "text": "약한 형태예요.",
+   "cap": 58
+  },
+  {
+   "id": "k00286b1e",
+   "lang": "ko",
+   "text": "대문자 띠를 소리 내어 읽어 보세요. 대문자는 길고 크게, 작은 글자는 짧게.",
+   "cap": 59
+  },
+  {
+   "id": "k15e54935",
+   "lang": "ko",
+   "text": "한국어식으로 모든 낱말을 같은 세기로 읽지 말고, 센 낱말만 살려요.",
+   "cap": 60
+  },
+  {
+   "id": "k1338d13b",
+   "lang": "ko",
+   "text": "아래 따라 말하기에 문장 스물여덟 개가 있어요. 묶음마다 일곱 문장이에요.",
+   "cap": 61
+  },
+  {
+   "id": "k42c65454",
+   "lang": "ko",
+   "text": "정리해요. 첫째, 듣고 가르기 , 센 낱말은 큰 공, 약한 낱말은 작은 공이에요.",
+   "cap": 62
+  },
+  {
+   "id": "kc0159037",
+   "lang": "ko",
+   "text": "둘째, 소리 만들기 , 센 낱말은 길고 크고 높게, 약한 낱말은 짧게, 모음은 흐린 어로.",
+   "cap": 63
+  },
+  {
+   "id": "ka0d94529",
+   "lang": "ko",
+   "text": "셋째, 문장 속에서 , 약한 낱말은 앞뒤에 붙이고, 문장 끝 , 혼자 대답 , 강조에서는 강한 형태로.",
+   "cap": 64
+  },
+  {
+   "id": "k752ca057",
+   "lang": "ko",
+   "text": "그리고",
+   "cap": 65
+  },
+  {
+   "id": "k456dfac3",
+   "lang": "ko",
+   "text": "소리가 아니라 모음과 세기로 갈라요.",
+   "cap": 65
+  },
+  {
+   "id": "k564b811f",
+   "lang": "ko",
+   "text": "목표는 원어민과 똑같은 소리가 아니라, 듣는 사람이 뜻을 쉽게 따라오는 리듬이에요.",
+   "cap": 66
+  },
+  {
+   "id": "kf304016d",
+   "lang": "ko",
+   "text": "아래",
+   "cap": 67
+  },
+  {
+   "id": "k89b5b6e6",
+   "lang": "ko",
+   "text": "듣기 시합과 센 낱말 찾기에서 직접 해 보세요.",
+   "cap": 67
+  }
+ ]
+}
