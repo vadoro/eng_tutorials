@@ -301,14 +301,64 @@ def rise(f0, a, b):
     return float(12 * np.log2(np.median(v[-k:]) / np.median(v[:k])))
 
 
+PRE = {}  # 묶어서 미리 받아쓴 글: (경로, 고친 시각, 크기) → 들린 글
+
+
+def file_key(path):
+    return (os.path.abspath(path), int(os.path.getmtime(path)), os.path.getsize(path))
+
+
+def heard_ok(lang, heard, text):
+    return edit(norm_ko(heard), norm_ko(text)) <= 1 if lang == 'ko' else norm_en(heard) == norm_en(text)
+
+
+def prefetch_asr(model, jobs, tmp, max_s=26.0, gap_s=1.0):
+    """받아쓰기를 묶어서 미리 — 낱말 파일 여러 개를 무음(앞뒤 0.5초 + 사이 gap_s초)으로 이어 한 번에 받아쓰고, 낱말의 시각으로
+    파일마다 나눠요. Whisper는 소리를 30초 단위로 들어서, 한 파일씩 들으면 짧은 낱말 하나에도 30초어치를 계산해요.
+    묶어서 들은 글이 맞으면 그대로 쓰고, 맞지 않으면 measure()가 그 파일만 따로 다시 들어 판정해요(묶음 때문에 탈락하는 일은 없어요).
+    jobs: [(경로, 언어)]"""
+    pad = np.zeros(int(16000 * 0.5), dtype='float32')
+    gap = np.zeros(int(16000 * gap_s), dtype='float32')
+    for lang in ('en', 'ko'):
+        batch, spans, t = [], [], 0.0
+        todo = [pth for pth, lg in jobs if lg == lang]
+
+        def flush():
+            if not batch:
+                return
+            y = np.concatenate(batch)
+            segs, _ = model.transcribe(y, language=lang, beam_size=5, vad_filter=False,
+                                       word_timestamps=True, condition_on_previous_text=False)
+            words = [w for sg in segs for w in (sg.words or [])]
+            for pth, a, b in spans:
+                got = [w.word.strip() for w in words if a <= (w.start + w.end) / 2 < b]
+                PRE[file_key(pth)] = ' '.join(got)
+            batch.clear(); spans.clear()
+
+        for pth in todo:
+            y, sr = load(pth, tmp)
+            y16 = np.concatenate([pad, librosa.resample(y, orig_sr=sr, target_sr=16000).astype('float32'), pad])
+            d = len(y16) / 16000
+            if batch and t + d > max_s:
+                flush(); t = 0.0
+            a = t - (gap_s / 2 if batch else 0)
+            batch.append(y16); t += d
+            spans.append((pth, a, t + gap_s / 2))
+            batch.append(gap); t += gap_s
+        flush()
+
+
 def measure(model, m, path, tmp):
     y, sr = load(path, tmp)
     lang = 'ko' if m['kind'] == 'ko' else 'en'
-    pad = np.zeros(int(sr * 0.5), dtype='float32')  # 짧은 낱말은 앞뒤에 무음을 붙여야 Whisper가 잘 들어요
-    y16 = librosa.resample(np.concatenate([pad, y, pad]), orig_sr=sr, target_sr=16000)
-    segs, _ = model.transcribe(y16, language=lang, beam_size=5, vad_filter=False)
-    heard = ' '.join(s.text.strip() for s in segs)
-    ok = edit(norm_ko(heard), norm_ko(m['text'])) <= 1 if lang == 'ko' else norm_en(heard) == norm_en(m['text'])
+    heard = PRE.get(file_key(path))
+    ok = heard is not None and heard_ok(lang, heard, m['text'])
+    if not ok:  # 묶음에서 맞지 않았거나 묶지 않은 파일은 하나씩 따로
+        pad = np.zeros(int(sr * 0.5), dtype='float32')  # 짧은 낱말은 앞뒤에 무음을 붙여야 Whisper가 잘 들어요
+        y16 = librosa.resample(np.concatenate([pad, y, pad]), orig_sr=sr, target_sr=16000)
+        segs, _ = model.transcribe(y16, language=lang, beam_size=5, vad_filter=False)
+        heard = ' '.join(s.text.strip() for s in segs)
+        ok = heard_ok(lang, heard, m['text'])
     r = {'heard': heard, 'okHeard': ok}
     if m.get('dur'):
         fdb0 = features(y, sr)[1]
@@ -541,6 +591,15 @@ def main():
         if mm:
             have[mm.group(1)] = fn
     todo = [m for m in meta if m['id'] in have and (not only or m['id'] in only)]
+    jobs = []
+    for m in todo:  # 지난 결과가 없는 파일만 묶어서 미리 받아쓰기
+        p = os.path.join(d, have[m['id']])
+        c = cache.get(m['id'])
+        if only or not c or c.get('key') != f"{os.path.getmtime(p):.0f}:{os.path.getsize(p)}":
+            jobs.append((p, 'ko' if m['kind'] == 'ko' else 'en'))
+    if jobs:
+        print(f'받아쓰기 묶음: 파일 {len(jobs)}개', flush=True)
+        prefetch_asr(model, jobs, tmp)
     for k, m in enumerate(todo, 1):
         p = os.path.join(d, have[m['id']])
         key = f"{os.path.getmtime(p):.0f}:{os.path.getsize(p)}"

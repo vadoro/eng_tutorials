@@ -431,5 +431,18 @@ window.EN_CATALOG = {
       thumb: 'word-stress/docs/poster.jpg',
       added: '2026-11-12',
     },
+    {
+      slug: 'final-consonants',
+      track: 'pron',
+      title: '없는 ‘으’를 넣지 마세요 — 끝소리와 자음 묶음',
+      topic: '끝 자음 뒤에 넣는 ‘으’ · 자음 묶음 쪼개기(strike) · 박자 = 모음 소리 수 · 끝 유성 · 무성과 앞 모음 길이(bag · back) · -ed · -s의 끝소리 · 외래어 · 이어 말하기',
+      summary: '책상을 데스크라고 하면 세 박자지만 영어 desk → 한 박자예요. 한국어식으로 읽으면 모음 없이 이어지는 자음마다 없는 ‘으’를 넣어 박자가 늘고, sport가 support로 들리기도 해요. 실제 음성을 재서 그린 박자 공 · 소리 덩어리로 박자를 보고, 끝 자음에서 닫고 멈추기 · 자음 묶음 바로 잇기 · 끝 유성과 무성은 모음 길이로(bag · back) · -ed와 -s의 끝소리(worked = 한 박자 · wanted = 두 박자)를 익혀요. 끝에는 박자 세기 훈련과 내 발음 확인.',
+      length: '6:52',
+      scenes: 10,
+      features: ['음성 해설', '잰 박자 공 · 소리 덩어리', '모음 길이 막대', '입 옆 단면도', '목소리 넷으로 듣기', '장면별 실습', '박자 세기', '내 발음 확인', '따라 말하기 28', '듣고 고르기 16', '퀴즈'],
+      types: [1, 2, 3, 4],
+      thumb: 'final-consonants/docs/poster.jpg',
+      added: '2026-11-13',
+    },
   ],
 };

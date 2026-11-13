@@ -8,14 +8,22 @@
  *
  * 자세(pose)는 이름('l' · 'r' · 'flap' …)이나 { T, B, F, D, K, R, U, jaw, round, top } 객체예요.
  *   T 혀끝 · B 혀날 · F 혀 앞 · D 혀 몸통 · K 혀 뒤 · R 혀뿌리 · U 혀끝 아랫면 — 상자 좌표 [x, y]
- *   jaw 턱 벌림 0~1 · round 입술 모으기 0~1 · top 위에서 본 닿는 곳('tip' 혀끝 가운데 · 'sides' 양옆 · 'none')
+ *   jaw 턱 벌림 0~1 · round 입술 모으기 0~1 · close 입술 닫기 0~1(p · b · m) ·
+ *   bite 아랫입술을 윗니 끝에 대기 0~1(f · v, 없으면 0) — 옆모습은 아랫입술이 위 · 뒤로 올라가 윗니 끝 아래에 닿고,
+ *        앞모습(lips)은 윗니가 보이고 그 끝이 아랫입술에 얹혀요 ·
+ *   top 위에서 본 닿는 곳('tip' 혀끝 가운데 · 'sides' 양옆 · 'full' 혀끝과 양옆이 모두 닿아 공기가 막힘 · 'none')
  *   EN.mouth.mix(a, b, k)로 두 자세 사이를 k(0~1)만큼 섞어요(영상에서 자세가 바뀔 때).
+ *   입술 자세: p(두 입술을 닫음 — p · b · m) · f(윗니 끝을 아랫입술에 — f · v, v는 같은 자세 + 목 울림) ·
+ *   w(입술을 동그랗게 모아 내밀고 혀 뒤를 u처럼 올림 — 입술이 이에 닿지 않음)
  *
  * EN.mouth.contact(pose) — 혀가 입천장에 닿는지 계산해요: { touch, at, where: '윗잇몸' | '센입천장' | '여린입천장', gap }
+ * EN.mouth.lipsClosed(pose) — 입술이 닫혔는지(p · b · m)
+ * EN.mouth.lipTeeth(pose) — 아랫입술이 윗니에 닿는지 그림의 모양으로 계산해요: { touch, gap, at }(f · v만 닿음)
  *   그림의 ‘닿음 · 안 닿음’ 표시와 튜토리얼의 데이터 점검(check)이 같은 계산을 써요.
  *
  * opt: { pal: 색(기본은 어두운 무대용), air: 'center' | 'side' | null, voice: 위상(숫자면 목 울림 물결),
- *        mark: 닿는 곳 · 틈 표시 색, labels: true | ['ridge', …], font: (크기, 굵기) => 글꼴 문자열, t: 초(움직임) }
+ *        mark: 닿는 곳 · 틈 표시 색, lipMark: 아랫입술 · 윗니가 닿는 곳(또는 틈) 표시 색,
+ *        labels: true | ['ridge', …] (그 밖에 'teeth' 윗니 · 'llip' 아랫입술), font: (크기, 굵기) => 글꼴 문자열, t: 초(움직임) }
  */
 (function () {
   'use strict';
@@ -55,8 +63,29 @@
     a:     { T: [114, 186], B: [137, 178], F: [172, 172], D: [212, 170], K: [250, 176], R: [266, 214], U: [119, 200], jaw: 0.8, round: 0.05, top: 'none' },
     i:     { T: [112, 160], B: [128, 126], F: [158, 104], D: [198, 104], K: [240, 136], R: [272, 210], U: [116, 178], jaw: 0.12, round: 0, top: 'sides' },
     u:     { T: [114, 176], B: [138, 166], F: [172, 144], D: [216, 118], K: [254, 118], R: [266, 200], U: [119, 192], jaw: 0.15, round: 0.95, top: 'none' },
+    // 느슨한 모음(모음 편) — ɪ: i보다 혀 앞을 조금 내리고 뒤로, 턱을 살짝 · ʊ: u보다 혀 뒤를 조금 내리고 입술을 덜 모음
+    ih:    { T: [113, 166], B: [130, 136], F: [160, 117], D: [202, 115], K: [242, 142], R: [271, 210], U: [117, 183], jaw: 0.22, round: 0.05, top: 'sides' },
+    uh:    { T: [114, 178], B: [137, 168], F: [171, 150], D: [213, 129], K: [250, 130], R: [267, 204], U: [119, 194], jaw: 0.24, round: 0.55, top: 'none' },
+    // 덜 벌린 모음(벌림 편) — ɛ: æ보다 턱을 덜 내리고 혀 앞을 조금 높게 · ʌ: ɑ보다 턱을 덜 내리고 혀 몸통을 가운데 높이로(입술은 둥글리지 않음)
+    eh:    { T: [113, 170], B: [131, 146], F: [162, 130], D: [203, 130], K: [244, 152], R: [270, 210], U: [117, 186], jaw: 0.38, round: 0, top: 'none' },
+    wedge: { T: [114, 180], B: [136, 168], F: [170, 156], D: [211, 146], K: [250, 150], R: [268, 210], U: [118, 194], jaw: 0.45, round: 0, top: 'none' },
     ae:    { T: [113, 180], B: [134, 166], F: [166, 152], D: [206, 152], K: [246, 170], R: [270, 212], U: [118, 196], jaw: 0.65, round: 0, top: 'none' },
     schwa: { T: [113, 174], B: [135, 162], F: [169, 148], D: [209, 140], K: [248, 156], R: [270, 208], U: [118, 190], jaw: 0.35, round: 0.15, top: 'none' },
+    // 끝 자음(끝소리 편) — 막고 멈추는 자세. 목 울림을 더하면 g · d · b
+    // k · g: 혀 뒤를 여린입천장에 붙여 공기를 막음
+    k:     { T: [114, 172], B: [136, 160], F: [176, 140], D: [222, 108], K: [263, 99], R: [272, 200], U: [118, 188], jaw: 0.25, round: 0.1, top: 'none' },
+    // t · d: 혀끝을 윗잇몸에, 혀 양옆도 위 어금니 쪽에 붙여 공기를 막음
+    t:     { T: [120, 107], B: [131, 118], F: [158, 128], D: [200, 132], K: [244, 150], R: [268, 206], U: [121, 125], jaw: 0.2, round: 0.1, top: 'full' },
+    // p · b: 두 입술을 닫아 공기를 막음(혀는 쉼)
+    p:     { T: [112, 172], B: [134, 160], F: [168, 148], D: [208, 142], K: [248, 160], R: [270, 208], U: [117, 188], jaw: 0.1, round: 0.1, close: 1, top: 'none' },
+    // s: 혀끝을 윗잇몸 가까이(닿지 않음), 혀 양옆은 붙이고 가운데 좁은 길로 바람
+    s:     { T: [121, 113], B: [132, 122], F: [160, 128], D: [202, 134], K: [244, 150], R: [268, 206], U: [121, 130], jaw: 0.15, round: 0, top: 'sides' },
+    // 한국어 ㅡ(으) — 혀 몸통을 뒤쪽 위로 올리고 입술은 옆으로(둥글게 하지 않음). 끝 자음 뒤에 넣지 말아야 할 모음
+    eu:    { T: [113, 172], B: [136, 160], F: [172, 138], D: [214, 112], K: [252, 116], R: [268, 200], U: [118, 188], jaw: 0.12, round: 0, top: 'none' },
+    // f · v(입술 편): 윗니 끝을 아랫입술에 가볍게 대고 그 틈으로 바람을 계속(혀는 쉼). v는 같은 자세 + 목 울림
+    f:     { T: [112, 172], B: [134, 160], F: [168, 148], D: [208, 142], K: [248, 160], R: [270, 208], U: [117, 188], jaw: 0.12, round: 0, bite: 1, top: 'none' },
+    // w(입술 편): 입술을 동그랗게 모아 내밀고(이에 닿지 않음) 혀 뒤는 u처럼 올림 — 곧 다음 모음으로 열려요
+    w:     { T: [114, 176], B: [138, 166], F: [172, 144], D: [216, 118], K: [254, 118], R: [266, 200], U: [119, 192], jaw: 0.08, round: 0.95, top: 'none' },
   };
   var KEYS = ['T', 'B', 'F', 'D', 'K', 'R', 'U'];
 
@@ -81,6 +110,8 @@
     KEYS.forEach(function (key) { o[key] = [lerp(a[key][0], b[key][0], k), lerp(a[key][1], b[key][1], k)]; });
     o.jaw = lerp(a.jaw || 0, b.jaw || 0, k);
     o.round = lerp(a.round || 0, b.round || 0, k);
+    o.close = lerp(a.close || 0, b.close || 0, k);
+    if (a.bite || b.bite) o.bite = lerp(a.bite || 0, b.bite || 0, k);
     o.top = k < 0.5 ? a.top : b.top;
     o.topK = { from: a.top, to: b.top, k: k };
     return o;
@@ -156,11 +187,43 @@
   function lipsGeom(p) {
     var j = jawDrop(p), r = p.round || 0;
     var pro = r * 11;                                     // 입술을 앞으로 내밈
-    return {
+    var open = Math.max(0, (151 + j - r * 2) - (145 - r * 3));
+    var c = Math.max(0, Math.min(1, p.close || 0)) * open; // 입술 닫기: 아랫입술을 윗입술까지 올림(턱 쪽은 덜)
+    var G = {
       ul: [[62, 90], [53 - pro * 0.6, 110], [49 - pro, 128], [53 - pro, 141 - r * 2], [68 - pro * 0.5, 145 - r * 3], [84, 144 - r * 2]],   // 윗입술: 앞면 → 아래 가장자리
-      ll: [[84, 152 + j - r * 2], [66 - pro * 0.5, 151 + j - r * 2], [52 - pro, 159 + j], [52 - pro * 0.6, 173 + j], [64, 184 + j], [72, 194 + j * 0.7]],
-      open: Math.max(0, (151 + j - r * 2) - (145 - r * 3)),
+      ll: [[84, 152 + j - r * 2 - c], [66 - pro * 0.5, 151 + j - r * 2 - c], [52 - pro, 159 + j - c], [52 - pro * 0.6, 173 + j - c * 0.6], [64, 184 + j - c * 0.2], [72, 194 + j * 0.7]],
+      open: open - c,
     };
+    // f · v: 아랫입술을 위 · 뒤로 올려 안쪽 윗면이 윗니 끝(97, 154) 바로 아래에 오게(윗입술은 조금 들림). bite가 0이면 그대로
+    var b = Math.max(0, Math.min(1, p.bite || 0));
+    if (b > 0) {
+      var BITE = [[98, 155], [87, 151], [62, 154], [58, 169], [64, 184]];
+      for (var i = 0; i < BITE.length; i++) G.ll[i] = [lerp(G.ll[i][0], BITE[i][0], b), lerp(G.ll[i][1], BITE[i][1], b)];
+      for (i = 3; i < 6; i++) G.ul[i] = [G.ul[i][0], G.ul[i][1] - 3 * b];
+    }
+    return G;
+  }
+  function lipsClosed(p) { return lipsGeom(pose(p)).open < 0.5; }
+
+  // 아랫입술(안쪽 윗면)이 윗니에 닿나: 그림의 아랫입술 선과 윗니 윤곽 사이의 가장 가까운 거리
+  var UPPER_TOOTH = [[96, 111], [92, 128], [93, 146], [97, 154], [101, 151], [106, 137], [111, 117], [108, 110], [96, 111]];
+  function inPoly(pt, poly) {
+    var inside = false;
+    for (var i = 0, k = poly.length - 1; i < poly.length; k = i++) {
+      var a = poly[i], c = poly[k];
+      if ((a[1] > pt[1]) !== (c[1] > pt[1]) && pt[0] < (c[0] - a[0]) * (pt[1] - a[1]) / (c[1] - a[1]) + a[0]) inside = !inside;
+    }
+    return inside;
+  }
+  function lipTeeth(p) {
+    p = pose(p);
+    var lip = spline(lipsGeom(p).ll, false, 6).slice(0, 13);   // 그림과 같은 점(아랫입술 안쪽 → 앞)
+    var best = { d: 1e9 }, from = null;
+    lip.forEach(function (pt) {
+      var n = inPoly(pt, UPPER_TOOTH) ? { d: 0, at: pt } : nearest(pt, UPPER_TOOTH);
+      if (n.d < best.d) { best = n; from = pt; }
+    });
+    return { touch: best.d <= 3, gap: Math.round(best.d), at: best.at, from: from };
   }
 
   function draw(g, x, y, s, p, opt) {
@@ -266,6 +329,22 @@
         g.beginPath(); g.arc(ct.from[0], ct.from[1], 3.5, 0, Math.PI * 2); g.fill();
       }
     }
+    // 7-1) 아랫입술 · 윗니가 닿는 곳(또는 틈) — opt.lipMark가 있을 때만
+    if (opt.lipMark) {
+      var lt = lipTeeth(p);
+      g.fillStyle = opt.lipMark;
+      g.strokeStyle = opt.lipMark;
+      if (lt.touch) {
+        g.beginPath(); g.arc(lt.at[0], lt.at[1], 6, 0, Math.PI * 2); g.fill();
+      } else {
+        g.setLineDash([3, 4]);
+        g.lineWidth = 2;
+        g.beginPath(); g.moveTo(lt.from[0], lt.from[1]); g.lineTo(lt.at[0], lt.at[1]); g.stroke();
+        g.setLineDash([]);
+        g.beginPath(); g.arc(lt.at[0], lt.at[1], 3.5, 0, Math.PI * 2); g.fill();
+        g.beginPath(); g.arc(lt.from[0], lt.from[1], 3.5, 0, Math.PI * 2); g.fill();
+      }
+    }
 
     // 8) 공기 흐름
     if (opt.air) {
@@ -304,6 +383,8 @@
         back: ['혀 뒤', p.K, [228, 214]],
         lips: ['입술', [56, 140], [6, 118]],
         voice: ['목(성대)', [298, 324], [330, 300]],
+        teeth: ['윗니', [95, 124], [86, 40]],
+        llip: ['아랫입술', [58, 168], [6, 210]],
       };
       g.font = font(15, 600);
       g.textBaseline = 'middle';
@@ -342,7 +423,7 @@
     path(g, [[18, 200]].concat(arch).concat([[182, 200]]), true);
     g.fill();
     // 혀(위에서): 둥근 혀끝이 앞(위쪽)
-    var tip = kind === 'tip' ? 42 : kind === 'sides' ? 58 : 66;
+    var tip = kind === 'tip' || kind === 'full' ? 42 : kind === 'sides' ? 58 : 66;
     var tongue = spline([[42, 214], [36, 150], [50, tip + 30], [100, tip], [150, tip + 30], [164, 150], [158, 214]], false, 10);
     g.fillStyle = C.tongue;
     path(g, tongue.concat([[158, 220], [42, 220]]), true);
@@ -351,9 +432,10 @@
     var mark = opt.mark || '#FFC15E';
     g.fillStyle = mark;
     g.globalAlpha = 0.85;
-    if (kind === 'tip') {
+    if (kind === 'tip' || kind === 'full') {
       g.beginPath(); g.ellipse(100, 48, 30, 13, 0, 0, Math.PI * 2); g.fill();
-    } else if (kind === 'sides') {
+    }
+    if (kind === 'sides' || kind === 'full') {
       g.beginPath(); g.ellipse(46, 140, 10, 46, 0.05, 0, Math.PI * 2); g.fill();
       g.beginPath(); g.ellipse(154, 140, 10, 46, -0.05, 0, Math.PI * 2); g.fill();
     }
@@ -389,7 +471,7 @@
       g.stroke();
     }
     // 공기 길
-    if (opt.air !== false) {
+    if (opt.air !== false && kind !== 'full') {
       var t = opt.t || 0;
       g.strokeStyle = C.air;
       g.fillStyle = C.air;
@@ -426,8 +508,10 @@
     var C = Object.assign({}, opt.light ? LIGHT : DARK, opt.pal || {});
     var r = p.round || 0, j = p.jaw || 0;
     var w = 84 - r * 36;                 // 입 너비의 반
-    var oh = 8 + j * 34 + r * 18;        // 벌린 높이
+    var oh = (8 + j * 34 + r * 18) * (1 - Math.max(0, Math.min(1, p.close || 0)));   // 벌린 높이(입술을 닫으면 0)
     var ow = Math.max(12, w - 16 - r * 14);   // 벌린 너비의 반
+    var bt = Math.max(0, Math.min(1, p.bite || 0));
+    if (bt > 0) oh += bt * 8;                 // f · v: 윗입술이 조금 들려 윗니가 보임
     g.save();
     g.translate(x, y);
     g.scale(s, s);
@@ -440,6 +524,13 @@
     g.bezierCurveTo(cx + 14, cy - 34, cx + w * 0.6, cy - 30 - r * 4, cx + w, cy);
     g.bezierCurveTo(cx + w * 0.6, cy + 34 + oh * 0.4, cx - w * 0.6, cy + 34 + oh * 0.4, cx - w, cy);
     g.fill();
+    if (oh < 1.5) {                      // 닫힌 입술: 가운데 선 하나
+      g.strokeStyle = C.inner === '#FFFFFF' ? '#7A3848' : '#5A2030';
+      g.lineWidth = 2.5;
+      g.beginPath(); g.moveTo(cx - w + 10, cy + 2); g.quadraticCurveTo(cx, cy + 6, cx + w - 10, cy + 2); g.stroke();
+      g.restore();
+      return;
+    }
     // 입 안
     g.fillStyle = C.inner === '#FFFFFF' ? '#3A2430' : '#1A0F14';
     g.beginPath();
@@ -451,7 +542,27 @@
     g.clip();
     // 윗니
     g.fillStyle = C.teeth;
-    g.fillRect(cx - ow, cy + 2 - oh / 2 - 2, ow * 2, Math.min(10, oh * 0.45));
+    var th = Math.min(10, oh * 0.45);
+    if (bt > 0) th = lerp(th, oh * 0.62, bt);  // f · v: 윗니가 더 보이고 그 끝이 아랫입술에 얹힘
+    g.fillRect(cx - ow, cy + 2 - oh / 2 - 2, ow * 2, th);
+    if (bt > 0) {
+      var ty = cy + 2 - oh / 2 - 2 + th;      // 윗니 끝
+      g.strokeStyle = C.teethLine;
+      g.lineWidth = 1;
+      for (var tx = -3; tx <= 3; tx++) { g.beginPath(); g.moveTo(cx + tx * 13, ty - th); g.lineTo(cx + tx * 13, ty); g.stroke(); }
+      // 올라온 아랫입술 안쪽(윗니 끝 바로 아래를 덮음)
+      g.fillStyle = opt.innerLipColor || '#B85A6B';
+      g.beginPath();
+      g.moveTo(cx - ow - 4, ty + 6);
+      g.quadraticCurveTo(cx, ty - 3 * bt, cx + ow + 4, ty + 6);
+      g.lineTo(cx + ow + 4, cy + oh + 10);
+      g.lineTo(cx - ow - 4, cy + oh + 10);
+      g.closePath();
+      g.fill();
+      g.restore();
+      g.restore();
+      return;
+    }
     // 혀끝(윗니 뒤에 닿아 보임)
     if (opt.tip) {
       g.fillStyle = C.tongue;
@@ -468,5 +579,5 @@
     g.restore();
   }
 
-  EN.mouth = { POSES: P, pose: pose, mix: mix, draw: draw, top: top, lips: lips, contact: contact, spline: spline, ROOF: ROOF_PTS };
+  EN.mouth = { POSES: P, pose: pose, mix: mix, draw: draw, top: top, lips: lips, contact: contact, lipsClosed: lipsClosed, lipTeeth: lipTeeth, spline: spline, ROOF: ROOF_PTS };
 })();

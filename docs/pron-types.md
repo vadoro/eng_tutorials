@@ -27,7 +27,7 @@
 
 | 갈래 | 유형 | 튜토리얼 |
 | --- | --- | --- |
-| A 음절 · 끝소리 | 1–4 | P01 |
+| A 음절 · 끝소리 | 1–4 | **P01 완료**(1–4) |
 | B 한국어에 없는 자음 | 5–8 | P02 · P03 · P05 |
 | C 한국어에서는 하나인 자음 | 9–11 | **P04 완료**(9) · P02 · P05 |
 | D 모음 | 12–17 | P06 · P07 · P08 |
@@ -92,7 +92,7 @@
 
 | 번호 | 튜토리얼 (가칭) | 다루는 유형 | 놀이터 (안) | 상태 |
 | --- | --- | --- | --- | --- |
-| P01 | 끝소리 — 없는 모음을 넣지 마라 | 1–4 | 음절 세기(박자 누르기), 한국어식 바꾸기 실험 | |
+| P01 | 없는 ‘으’를 넣지 마세요 — 끝소리와 자음 묶음 (`final-consonants`) | 1–4 | 박자 세기 + 내 발음 확인 | **완료** (2026-11-13) |
 | P02 | 입술이 하는 일 — f · v · w | 5, 6, 11 | 듣고 가르기 + 내 발음 확인 | |
 | P03 | 혀끝을 이 사이로 — θ · ð | 7 | 〃 | |
 | P04 | r · l, 혀끝이 닿느냐 마느냐 (`r-and-l`) | 9 | 듣고 가르기 훈련 + 내 발음 확인 | **완료** (2026-11-12) |
@@ -139,6 +139,7 @@
 
 - **P04 r · l**: 연구들이 낱말 속 자리마다 결과가 달라서(아래 근거 자료), 공통으로 나온 것만 강하게 말해요 — **끝의 l(어두운 l)과 world · girl 같은 /rl/이 가장 어렵고**, 낱말 가운데와 앞 자음과 묶인 자리(play · glass)는 상대적으로 쉬워요. 낱말 처음은 연구마다 달라 ‘한국어 ㄹ 하나로 합쳐지는 자리’라는 원리로만 설명해요. 외래어 표기가 묶음 · 가운데 자리에서는 r · l을 가른다는 것(글라스 glass · 그래스 grass, 벨리 belly · 베리 berry)을 출발점으로 써요. 끝의 r(car · work)은 r 모음이라 P08에서 다뤄요.
 - **P09 낱말 강세와 슈와**: 연구 두 편(낱말 강세 오류가 잦고 알아듣기를 가장 잘 설명함 · 약한 모음을 덜 줄이는 경향)이 보여 준 방향만 말하고 숫자는 옮기지 않아요. 센 음절의 신호는 길이 · 크기 · 높이(그리고 또렷한 모음)로 가르치고, 음절 공 · 높낮이 선은 미리 만든 음성 파일을 따로 재서(`measure.js`) 그려요. 잰 값은 그 파일의 센 음절이 사전과 맞는지 고르는 데에도 써요(길이 · 크기 · 높이 셋 가운데 둘 이상). 같은 철자의 명사 · 동사(record · present · object · increase)는 낱말 하나로는 소리를 정할 수 없어 예문으로만 들려주고, 문장 속 강세 이동(THIRteen MEN)과 문장 리듬은 P10 · P12로 미뤄요.
+- **P01 끝소리와 자음 묶음**: 연구 두 편(이어지는 자음 사이에 모음을 넣는 경향 · 끝 유성 · 무성에서 앞 모음 길이가 막는 시간보다 익히기 쉬움)이 보여 준 방향만 말하고 숫자는 옮기지 않아요. ‘박자 = 모음 소리 수’를 손뼉으로 가르치고, 박자 공 · 소리 덩어리(20밀리초마다 잰 크기) · 모음 길이 막대는 미리 만든 음성 파일을 따로 재서 그려요. 측정 도구가 울림 조각 수로 합성 음성이 끝 자음 뒤에 모음을 붙였는지 거르고, 끝 유성 · 무성 짝은 같은 목소리에서 목이 울리는 쪽 모음이 1.15배 이상 길 때만 잰 값을 써요. 한국어식 박자 공 · 띠는 잰 값 대신 표기의 박자 수대로 고르게 그린 그림이에요(합성 음성의 넣은 ‘으’는 무성 자음 사이에서 아주 짧게 재어지기도 해서, 잰 값이 ‘으마다 박자 하나’와 어긋나 보였어요). 소리 덩어리는 잰 음절(모음 자리) 안만 색칠하고 밖(자음 소리)은 회색이에요. 박자 세기 · 연습 문제는 확인을 통과한 소리만 써요. 끝 유성 · 무성은 앞 모음 길이를 중심으로 가르치고(끝 자음 자체의 울림 · 막는 시간은 각주), 한국어 받침이 닫은 채 끝난다는 설명과 미국 영어의 닫은 끝 p · t · k는 쉽게 줄인 설명이라고 밝혀요. 끝의 r · l은 P04 · P08, 이어 말하며 바뀌는 t는 P11로 미뤄요.
 
 ## 다음 단계: 우리 학생의 실제 발음으로 순서 바꾸기
 
@@ -158,8 +159,8 @@
 - 듣고 가르기 훈련(HVPT): [Hwang & Lee 2015](https://researchr.org/publication/HwangL15-8) · [ICPhS 2023](https://guarant.cz/icphs2023/348.pdf) (초록)
 
 A 음절 · 끝소리
-- 모음 넣기: [한국인 영어학습자의 모음삽입현상](https://koreascience.kr/article/JAKO201420947476109.page?lang=ko) (초록)
-- 끝 유성 · 무성: [Baker 2010](https://www.cambridge.org/core/journals/bilingualism-language-and-cognition/article/abs/effects-of-age-and-experience-on-the-production-of-english-wordfinal-stops-by-korean-speakers/85ADB4C5B14B33C690ED0408722FBED8) (초록)
+- 모음 넣기: [한국인 영어학습자의 모음삽입현상](https://koreascience.kr/article/JAKO201420947476109.page?lang=ko) (초록, **P01을 만들며 다시 확인함**)
+- 끝 유성 · 무성: [Baker 2010](https://www.cambridge.org/core/journals/bilingualism-language-and-cognition/article/abs/effects-of-age-and-experience-on-the-production-of-english-wordfinal-stops-by-korean-speakers/85ADB4C5B14B33C690ED0408722FBED8) (초록, **P01을 만들며 다시 확인함**)
 
 B 한국어에 없는 자음
 - 한국인에게 새 소리인 f · v · θ: [Silbert, de Jong & Park](https://lsl.sitehost.iu.edu/projects/papers/SilbertdeJong&Park_05.pdf) · [교육 자료](https://pronunciationstudio.com/korean-speakers-english-pronunciation-errors/)

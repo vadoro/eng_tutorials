@@ -1,0 +1,2371 @@
+{
+ "slug": "final-consonants",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "ko": 36,
+  "tc": 111,
+  "tf": 82,
+  "uf": 82,
+  "um": 82
+ },
+ "lines": [
+  {
+   "id": "ko-d671e183",
+   "sp": "ko",
+   "text": "데스크",
+   "from": "video"
+  },
+  {
+   "id": "tc-497edc4d",
+   "sp": "tc",
+   "text": "desk",
+   "from": "video"
+  },
+  {
+   "id": "tc-6feafde6",
+   "sp": "tc",
+   "text": "sport",
+   "from": "video"
+  },
+  {
+   "id": "tc-ad42ee5b",
+   "sp": "tc",
+   "text": "support",
+   "from": "video"
+  },
+  {
+   "id": "tc-874b699f",
+   "sp": "tc",
+   "text": "milk",
+   "from": "video"
+  },
+  {
+   "id": "tc-c079d830",
+   "sp": "tc",
+   "text": "test",
+   "from": "video"
+  },
+  {
+   "id": "tc-8304817e",
+   "sp": "tc",
+   "text": "strike",
+   "from": "video"
+  },
+  {
+   "id": "ko-19020995",
+   "sp": "ko",
+   "text": "밀크",
+   "from": "video"
+  },
+  {
+   "id": "ko-0733666b",
+   "sp": "ko",
+   "text": "테스트",
+   "from": "video"
+  },
+  {
+   "id": "ko-71ea763b",
+   "sp": "ko",
+   "text": "스트라이크",
+   "from": "video"
+  },
+  {
+   "id": "tf-1d5943cc",
+   "sp": "tf",
+   "text": "desk",
+   "from": "video"
+  },
+  {
+   "id": "tf-6e109943",
+   "sp": "tf",
+   "text": "strike",
+   "from": "video"
+  },
+  {
+   "id": "uf-f73a0c43",
+   "sp": "uf",
+   "text": "desk",
+   "from": "video"
+  },
+  {
+   "id": "uf-6525cda0",
+   "sp": "uf",
+   "text": "strike",
+   "from": "video"
+  },
+  {
+   "id": "um-1384fd84",
+   "sp": "um",
+   "text": "desk",
+   "from": "video"
+  },
+  {
+   "id": "um-f04cc54b",
+   "sp": "um",
+   "text": "strike",
+   "from": "video"
+  },
+  {
+   "id": "tc-d643e27c",
+   "sp": "tc",
+   "text": "stop",
+   "from": "video"
+  },
+  {
+   "id": "tc-55801058",
+   "sp": "tc",
+   "text": "cat",
+   "from": "video"
+  },
+  {
+   "id": "tc-94ab3658",
+   "sp": "tc",
+   "text": "blow",
+   "from": "video"
+  },
+  {
+   "id": "tc-f632e201",
+   "sp": "tc",
+   "text": "below",
+   "from": "video"
+  },
+  {
+   "id": "tc-fb9dafba",
+   "sp": "tc",
+   "text": "bag",
+   "from": "video"
+  },
+  {
+   "id": "tc-d23112df",
+   "sp": "tc",
+   "text": "back",
+   "from": "video"
+  },
+  {
+   "id": "tc-ff3a7384",
+   "sp": "tc",
+   "text": "prize",
+   "from": "video"
+  },
+  {
+   "id": "tc-232352e1",
+   "sp": "tc",
+   "text": "price",
+   "from": "video"
+  },
+  {
+   "id": "tc-520fdde6",
+   "sp": "tc",
+   "text": "eyes",
+   "from": "video"
+  },
+  {
+   "id": "tc-d3e3cecb",
+   "sp": "tc",
+   "text": "ice",
+   "from": "video"
+  },
+  {
+   "id": "tc-a22f32fb",
+   "sp": "tc",
+   "text": "leave",
+   "from": "video"
+  },
+  {
+   "id": "tc-b412706c",
+   "sp": "tc",
+   "text": "leaf",
+   "from": "video"
+  },
+  {
+   "id": "tc-2df08712",
+   "sp": "tc",
+   "text": "want",
+   "from": "video"
+  },
+  {
+   "id": "tc-0d240d23",
+   "sp": "tc",
+   "text": "wanted",
+   "from": "video"
+  },
+  {
+   "id": "tc-b5919828",
+   "sp": "tc",
+   "text": "need",
+   "from": "video"
+  },
+  {
+   "id": "tc-95e655a9",
+   "sp": "tc",
+   "text": "needed",
+   "from": "video"
+  },
+  {
+   "id": "tc-656eb7c1",
+   "sp": "tc",
+   "text": "work",
+   "from": "video"
+  },
+  {
+   "id": "tc-4135a658",
+   "sp": "tc",
+   "text": "worked",
+   "from": "video"
+  },
+  {
+   "id": "tc-8b74268d",
+   "sp": "tc",
+   "text": "ask",
+   "from": "video"
+  },
+  {
+   "id": "tc-6efebdd4",
+   "sp": "tc",
+   "text": "asked",
+   "from": "video"
+  },
+  {
+   "id": "tc-ecc4e455",
+   "sp": "tc",
+   "text": "stopped",
+   "from": "video"
+  },
+  {
+   "id": "tc-03b1e45e",
+   "sp": "tc",
+   "text": "play",
+   "from": "video"
+  },
+  {
+   "id": "tc-7930295f",
+   "sp": "tc",
+   "text": "played",
+   "from": "video"
+  },
+  {
+   "id": "tc-352fa1e4",
+   "sp": "tc",
+   "text": "love",
+   "from": "video"
+  },
+  {
+   "id": "tc-39fb3c80",
+   "sp": "tc",
+   "text": "loved",
+   "from": "video"
+  },
+  {
+   "id": "ko-2c1a3cbd",
+   "sp": "ko",
+   "text": "애스크드",
+   "from": "video"
+  },
+  {
+   "id": "tc-423a3f9e",
+   "sp": "tc",
+   "text": "books",
+   "from": "video"
+  },
+  {
+   "id": "tc-c39973b1",
+   "sp": "tc",
+   "text": "cats",
+   "from": "video"
+  },
+  {
+   "id": "tc-8397a3d7",
+   "sp": "tc",
+   "text": "dogs",
+   "from": "video"
+  },
+  {
+   "id": "tc-3c6d3a32",
+   "sp": "tc",
+   "text": "buses",
+   "from": "video"
+  },
+  {
+   "id": "tc-25f2088f",
+   "sp": "tc",
+   "text": "watches",
+   "from": "video"
+  },
+  {
+   "id": "ko-32664739",
+   "sp": "ko",
+   "text": "버스",
+   "from": "video"
+  },
+  {
+   "id": "tc-dfcf2072",
+   "sp": "tc",
+   "text": "bus",
+   "from": "video"
+  },
+  {
+   "id": "ko-aa24c6a5",
+   "sp": "ko",
+   "text": "베드",
+   "from": "video"
+  },
+  {
+   "id": "tc-caa7eff3",
+   "sp": "tc",
+   "text": "bed",
+   "from": "video"
+  },
+  {
+   "id": "ko-b7a0b043",
+   "sp": "ko",
+   "text": "케이크",
+   "from": "video"
+  },
+  {
+   "id": "tc-c5be47b0",
+   "sp": "tc",
+   "text": "cake",
+   "from": "video"
+  },
+  {
+   "id": "ko-29aaca51",
+   "sp": "ko",
+   "text": "노트",
+   "from": "video"
+  },
+  {
+   "id": "tc-46a702c0",
+   "sp": "tc",
+   "text": "note",
+   "from": "video"
+  },
+  {
+   "id": "ko-693d51ab",
+   "sp": "ko",
+   "text": "마스크",
+   "from": "video"
+  },
+  {
+   "id": "tc-edfe2704",
+   "sp": "tc",
+   "text": "mask",
+   "from": "video"
+  },
+  {
+   "id": "ko-5a0058de",
+   "sp": "ko",
+   "text": "클럽",
+   "from": "video"
+  },
+  {
+   "id": "tc-d3cb5d58",
+   "sp": "tc",
+   "text": "club",
+   "from": "video"
+  },
+  {
+   "id": "ko-a2a088d3",
+   "sp": "ko",
+   "text": "글라스",
+   "from": "video"
+  },
+  {
+   "id": "tc-c1f563a8",
+   "sp": "tc",
+   "text": "glass",
+   "from": "video"
+  },
+  {
+   "id": "ko-f6c76801",
+   "sp": "ko",
+   "text": "스트레스",
+   "from": "video"
+  },
+  {
+   "id": "tc-c817cd00",
+   "sp": "tc",
+   "text": "stress",
+   "from": "video"
+  },
+  {
+   "id": "ko-63d11783",
+   "sp": "ko",
+   "text": "스포츠",
+   "from": "video"
+  },
+  {
+   "id": "tc-c3ed318f",
+   "sp": "tc",
+   "text": "sports",
+   "from": "video"
+  },
+  {
+   "id": "ko-5faea7ef",
+   "sp": "ko",
+   "text": "브랜드",
+   "from": "video"
+  },
+  {
+   "id": "tc-034d6049",
+   "sp": "tc",
+   "text": "brand",
+   "from": "video"
+  },
+  {
+   "id": "ko-d2b639db",
+   "sp": "ko",
+   "text": "크리스마스",
+   "from": "video"
+  },
+  {
+   "id": "tc-1a113b58",
+   "sp": "tc",
+   "text": "Christmas",
+   "from": "video"
+  },
+  {
+   "id": "ko-467debe4",
+   "sp": "ko",
+   "text": "맥도날드",
+   "from": "video"
+  },
+  {
+   "id": "tc-41dee36e",
+   "sp": "tc",
+   "text": "McDonald's",
+   "from": "video"
+  },
+  {
+   "id": "tc-e414f1cc",
+   "sp": "tc",
+   "text": "Let me check it again.",
+   "from": "video"
+  },
+  {
+   "id": "tc-1f397bce",
+   "sp": "tc",
+   "text": "I left my bag on the bus.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2e8ad1dd",
+   "sp": "tc",
+   "text": "We had a test in English.",
+   "from": "video"
+  },
+  {
+   "id": "tc-57f0d4a8",
+   "sp": "tc",
+   "text": "Merry Christmas!",
+   "from": "video"
+  },
+  {
+   "id": "tc-1e7c6129",
+   "sp": "tc",
+   "text": "check it",
+   "from": "video"
+  },
+  {
+   "id": "tc-a7b18857",
+   "sp": "tc",
+   "text": "like",
+   "from": "video"
+  },
+  {
+   "id": "tc-4e594f5e",
+   "sp": "tc",
+   "text": "dog",
+   "from": "video"
+  },
+  {
+   "id": "tc-0c727cd9",
+   "sp": "tc",
+   "text": "book",
+   "from": "video"
+  },
+  {
+   "id": "tc-cc68f897",
+   "sp": "tc",
+   "text": "help",
+   "from": "video"
+  },
+  {
+   "id": "tc-1512dad8",
+   "sp": "tc",
+   "text": "start",
+   "from": "video"
+  },
+  {
+   "id": "tc-84612444",
+   "sp": "tc",
+   "text": "decide",
+   "from": "video"
+  },
+  {
+   "id": "tc-c26ea263",
+   "sp": "tc",
+   "text": "text",
+   "from": "video"
+  },
+  {
+   "id": "tc-cb4f7eb3",
+   "sp": "tc",
+   "text": "street",
+   "from": "video"
+  },
+  {
+   "id": "ko-e09bdd31",
+   "sp": "ko",
+   "text": "스트리트",
+   "from": "video"
+  },
+  {
+   "id": "tc-6b8032fa",
+   "sp": "tc",
+   "text": "cab",
+   "from": "video"
+  },
+  {
+   "id": "tc-598016a4",
+   "sp": "tc",
+   "text": "cap",
+   "from": "video"
+  },
+  {
+   "id": "tc-daa80923",
+   "sp": "tc",
+   "text": "bet",
+   "from": "video"
+  },
+  {
+   "id": "tc-be265421",
+   "sp": "tc",
+   "text": "seed",
+   "from": "video"
+  },
+  {
+   "id": "tc-9e1b9465",
+   "sp": "tc",
+   "text": "seat",
+   "from": "video"
+  },
+  {
+   "id": "tc-52b35d88",
+   "sp": "tc",
+   "text": "pig",
+   "from": "video"
+  },
+  {
+   "id": "tc-3b6605ad",
+   "sp": "tc",
+   "text": "pick",
+   "from": "video"
+  },
+  {
+   "id": "tc-2489fc5b",
+   "sp": "tc",
+   "text": "Can I have some milk?",
+   "from": "video"
+  },
+  {
+   "id": "tc-f66cc799",
+   "sp": "tc",
+   "text": "Put it on the desk.",
+   "from": "video"
+  },
+  {
+   "id": "tc-4707101c",
+   "sp": "tc",
+   "text": "check",
+   "from": "video"
+  },
+  {
+   "id": "tc-7e4422b5",
+   "sp": "tc",
+   "text": "I wrote a note on it.",
+   "from": "video"
+  },
+  {
+   "id": "tc-acd88484",
+   "sp": "tc",
+   "text": "Let's take a break.",
+   "from": "video"
+  },
+  {
+   "id": "tc-990a7c53",
+   "sp": "tc",
+   "text": "break",
+   "from": "video"
+  },
+  {
+   "id": "tc-2e16d433",
+   "sp": "tc",
+   "text": "The street is very busy.",
+   "from": "video"
+  },
+  {
+   "id": "tc-9b3859f4",
+   "sp": "tc",
+   "text": "I'm under a lot of stress.",
+   "from": "video"
+  },
+  {
+   "id": "tc-a124abd5",
+   "sp": "tc",
+   "text": "Can I have a glass of water?",
+   "from": "video"
+  },
+  {
+   "id": "tc-00128644",
+   "sp": "tc",
+   "text": "She plays sports every weekend.",
+   "from": "video"
+  },
+  {
+   "id": "tc-c1d0ab22",
+   "sp": "tc",
+   "text": "I joined a book club.",
+   "from": "video"
+  },
+  {
+   "id": "tc-b5988426",
+   "sp": "tc",
+   "text": "Do you want some ice cream?",
+   "from": "video"
+  },
+  {
+   "id": "tc-7dae5a5a",
+   "sp": "tc",
+   "text": "cream",
+   "from": "video"
+  },
+  {
+   "id": "tc-58f2b2cf",
+   "sp": "tc",
+   "text": "I worked late last night.",
+   "from": "video"
+  },
+  {
+   "id": "tc-36afcc3b",
+   "sp": "tc",
+   "text": "She wanted to go home.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2e400fc0",
+   "sp": "tc",
+   "text": "We played tennis yesterday.",
+   "from": "video"
+  },
+  {
+   "id": "tc-45a64a9a",
+   "sp": "tc",
+   "text": "He asked a question.",
+   "from": "video"
+  },
+  {
+   "id": "tc-64658f46",
+   "sp": "tc",
+   "text": "The buses are late today.",
+   "from": "video"
+  },
+  {
+   "id": "tc-356ef756",
+   "sp": "tc",
+   "text": "My cats are afraid of dogs.",
+   "from": "video"
+  },
+  {
+   "id": "tc-55218963",
+   "sp": "tc",
+   "text": "It took three months.",
+   "from": "video"
+  },
+  {
+   "id": "tc-a59256fb",
+   "sp": "tc",
+   "text": "months",
+   "from": "video"
+  },
+  {
+   "id": "tc-0ee06466",
+   "sp": "tc",
+   "text": "Put it in the bag.",
+   "from": "video"
+  },
+  {
+   "id": "tc-713e3514",
+   "sp": "tc",
+   "text": "I'll be right back.",
+   "from": "video"
+  },
+  {
+   "id": "tc-46e1b78f",
+   "sp": "tc",
+   "text": "Is this seat taken?",
+   "from": "video"
+  },
+  {
+   "id": "tc-77acf97e",
+   "sp": "tc",
+   "text": "She won first prize.",
+   "from": "video"
+  },
+  {
+   "id": "tc-510f582b",
+   "sp": "tc",
+   "text": "What's the price?",
+   "from": "video"
+  },
+  {
+   "id": "tc-d111718a",
+   "sp": "tc",
+   "text": "Please leave it here.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d9e64cc6",
+   "sp": "tc",
+   "text": "I need some ice.",
+   "from": "video"
+  },
+  {
+   "id": "tf-5bc34c96",
+   "sp": "tf",
+   "text": "milk",
+   "from": "lab"
+  },
+  {
+   "id": "uf-9874b899",
+   "sp": "uf",
+   "text": "milk",
+   "from": "lab"
+  },
+  {
+   "id": "um-dcf1dbde",
+   "sp": "um",
+   "text": "milk",
+   "from": "lab"
+  },
+  {
+   "id": "tf-1e8c1a71",
+   "sp": "tf",
+   "text": "test",
+   "from": "lab"
+  },
+  {
+   "id": "uf-8a35343a",
+   "sp": "uf",
+   "text": "test",
+   "from": "lab"
+  },
+  {
+   "id": "um-30525619",
+   "sp": "um",
+   "text": "test",
+   "from": "lab"
+  },
+  {
+   "id": "tf-de8d0ad7",
+   "sp": "tf",
+   "text": "glass",
+   "from": "lab"
+  },
+  {
+   "id": "uf-e94b5c7e",
+   "sp": "uf",
+   "text": "glass",
+   "from": "lab"
+  },
+  {
+   "id": "um-ebd26f1f",
+   "sp": "um",
+   "text": "glass",
+   "from": "lab"
+  },
+  {
+   "id": "tf-c5262fe7",
+   "sp": "tf",
+   "text": "Christmas",
+   "from": "lab"
+  },
+  {
+   "id": "uf-4c82fbb2",
+   "sp": "uf",
+   "text": "Christmas",
+   "from": "lab"
+  },
+  {
+   "id": "um-078a200f",
+   "sp": "um",
+   "text": "Christmas",
+   "from": "lab"
+  },
+  {
+   "id": "tf-17bfae25",
+   "sp": "tf",
+   "text": "bag",
+   "from": "lab"
+  },
+  {
+   "id": "tf-c8b4fd36",
+   "sp": "tf",
+   "text": "back",
+   "from": "lab"
+  },
+  {
+   "id": "uf-d12a6824",
+   "sp": "uf",
+   "text": "bag",
+   "from": "lab"
+  },
+  {
+   "id": "uf-acb7ccc9",
+   "sp": "uf",
+   "text": "back",
+   "from": "lab"
+  },
+  {
+   "id": "um-082868bd",
+   "sp": "um",
+   "text": "bag",
+   "from": "lab"
+  },
+  {
+   "id": "um-a5926eee",
+   "sp": "um",
+   "text": "back",
+   "from": "lab"
+  },
+  {
+   "id": "tf-e07b53cd",
+   "sp": "tf",
+   "text": "cab",
+   "from": "lab"
+  },
+  {
+   "id": "tf-ce7b3777",
+   "sp": "tf",
+   "text": "cap",
+   "from": "lab"
+  },
+  {
+   "id": "uf-410b5864",
+   "sp": "uf",
+   "text": "cab",
+   "from": "lab"
+  },
+  {
+   "id": "uf-530b74ba",
+   "sp": "uf",
+   "text": "cap",
+   "from": "lab"
+  },
+  {
+   "id": "um-9045d8e5",
+   "sp": "um",
+   "text": "cab",
+   "from": "lab"
+  },
+  {
+   "id": "um-9e45eeef",
+   "sp": "um",
+   "text": "cap",
+   "from": "lab"
+  },
+  {
+   "id": "tf-24c8bcf8",
+   "sp": "tf",
+   "text": "bed",
+   "from": "lab"
+  },
+  {
+   "id": "tf-34c8d628",
+   "sp": "tf",
+   "text": "bet",
+   "from": "lab"
+  },
+  {
+   "id": "uf-e4338069",
+   "sp": "uf",
+   "text": "bed",
+   "from": "lab"
+  },
+  {
+   "id": "uf-d4336739",
+   "sp": "uf",
+   "text": "bet",
+   "from": "lab"
+  },
+  {
+   "id": "um-15317790",
+   "sp": "um",
+   "text": "bed",
+   "from": "lab"
+  },
+  {
+   "id": "um-05315e60",
+   "sp": "um",
+   "text": "bet",
+   "from": "lab"
+  },
+  {
+   "id": "tf-276012b8",
+   "sp": "tf",
+   "text": "seed",
+   "from": "lab"
+  },
+  {
+   "id": "tf-2755855c",
+   "sp": "tf",
+   "text": "seat",
+   "from": "lab"
+  },
+  {
+   "id": "uf-e171bdfb",
+   "sp": "uf",
+   "text": "seed",
+   "from": "lab"
+  },
+  {
+   "id": "uf-c166fe3f",
+   "sp": "uf",
+   "text": "seat",
+   "from": "lab"
+  },
+  {
+   "id": "um-52730360",
+   "sp": "um",
+   "text": "seed",
+   "from": "lab"
+  },
+  {
+   "id": "um-7268a864",
+   "sp": "um",
+   "text": "seat",
+   "from": "lab"
+  },
+  {
+   "id": "tf-714e31f3",
+   "sp": "tf",
+   "text": "pig",
+   "from": "lab"
+  },
+  {
+   "id": "tf-fe22ac3c",
+   "sp": "tf",
+   "text": "pick",
+   "from": "lab"
+  },
+  {
+   "id": "uf-ed17bf76",
+   "sp": "uf",
+   "text": "pig",
+   "from": "lab"
+  },
+  {
+   "id": "uf-316c290b",
+   "sp": "uf",
+   "text": "pick",
+   "from": "lab"
+  },
+  {
+   "id": "um-1c3b5cfb",
+   "sp": "um",
+   "text": "pig",
+   "from": "lab"
+  },
+  {
+   "id": "um-e97d1e44",
+   "sp": "um",
+   "text": "pick",
+   "from": "lab"
+  },
+  {
+   "id": "tf-521008f3",
+   "sp": "tf",
+   "text": "prize",
+   "from": "lab"
+  },
+  {
+   "id": "tf-6625eebe",
+   "sp": "tf",
+   "text": "price",
+   "from": "lab"
+  },
+  {
+   "id": "uf-3f0f8036",
+   "sp": "uf",
+   "text": "prize",
+   "from": "lab"
+  },
+  {
+   "id": "uf-4b20dc3b",
+   "sp": "uf",
+   "text": "price",
+   "from": "lab"
+  },
+  {
+   "id": "um-04c9820b",
+   "sp": "um",
+   "text": "prize",
+   "from": "lab"
+  },
+  {
+   "id": "um-f907d7e6",
+   "sp": "um",
+   "text": "price",
+   "from": "lab"
+  },
+  {
+   "id": "tf-e38956bf",
+   "sp": "tf",
+   "text": "eyes",
+   "from": "lab"
+  },
+  {
+   "id": "tf-79bbac04",
+   "sp": "tf",
+   "text": "ice",
+   "from": "lab"
+  },
+  {
+   "id": "uf-48186f78",
+   "sp": "uf",
+   "text": "eyes",
+   "from": "lab"
+  },
+  {
+   "id": "uf-d4844b61",
+   "sp": "uf",
+   "text": "ice",
+   "from": "lab"
+  },
+  {
+   "id": "um-6525dab7",
+   "sp": "um",
+   "text": "eyes",
+   "from": "lab"
+  },
+  {
+   "id": "um-1752020c",
+   "sp": "um",
+   "text": "ice",
+   "from": "lab"
+  },
+  {
+   "id": "tf-4d452e0c",
+   "sp": "tf",
+   "text": "leave",
+   "from": "lab"
+  },
+  {
+   "id": "tf-a46df7f1",
+   "sp": "tf",
+   "text": "leaf",
+   "from": "lab"
+  },
+  {
+   "id": "uf-266c3131",
+   "sp": "uf",
+   "text": "leave",
+   "from": "lab"
+  },
+  {
+   "id": "uf-0f6eb39e",
+   "sp": "uf",
+   "text": "leaf",
+   "from": "lab"
+  },
+  {
+   "id": "um-70ae9574",
+   "sp": "um",
+   "text": "leave",
+   "from": "lab"
+  },
+  {
+   "id": "um-c0176689",
+   "sp": "um",
+   "text": "leaf",
+   "from": "lab"
+  },
+  {
+   "id": "tc-2cfe1127",
+   "sp": "tc",
+   "text": "watch",
+   "from": "lab"
+  },
+  {
+   "id": "tc-12f1eaa6",
+   "sp": "tc",
+   "text": "watched",
+   "from": "lab"
+  },
+  {
+   "id": "tc-c0745a59",
+   "sp": "tc",
+   "text": "started",
+   "from": "lab"
+  },
+  {
+   "id": "tc-5794d1d6",
+   "sp": "tc",
+   "text": "helped",
+   "from": "lab"
+  },
+  {
+   "id": "tc-2f796849",
+   "sp": "tc",
+   "text": "liked",
+   "from": "lab"
+  },
+  {
+   "id": "tc-84ebde60",
+   "sp": "tc",
+   "text": "decided",
+   "from": "lab"
+  },
+  {
+   "id": "tc-16a9558a",
+   "sp": "tc",
+   "text": "month",
+   "from": "lab"
+  },
+  {
+   "id": "tc-24291f30",
+   "sp": "tc",
+   "text": "texts",
+   "from": "lab"
+  },
+  {
+   "id": "tc-f0b4b59a",
+   "sp": "tc",
+   "text": "desks",
+   "from": "lab"
+  },
+  {
+   "id": "tf-3beff09d",
+   "sp": "tf",
+   "text": "bus",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d55c0b3c",
+   "sp": "uf",
+   "text": "bus",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-0c0a59f5",
+   "sp": "um",
+   "text": "bus",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-fe0ed845",
+   "sp": "tf",
+   "text": "cake",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-99ca924e",
+   "sp": "uf",
+   "text": "cake",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b2053a1d",
+   "sp": "um",
+   "text": "cake",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-0889ca71",
+   "sp": "tf",
+   "text": "note",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-0ee1e186",
+   "sp": "uf",
+   "text": "note",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-343b1df9",
+   "sp": "um",
+   "text": "note",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-cd1311d5",
+   "sp": "tf",
+   "text": "mask",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-59b32fa2",
+   "sp": "uf",
+   "text": "mask",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-7e2115fd",
+   "sp": "um",
+   "text": "mask",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-83657c71",
+   "sp": "tf",
+   "text": "club",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-1d35fb06",
+   "sp": "uf",
+   "text": "club",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-02d5b649",
+   "sp": "um",
+   "text": "club",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-40676e89",
+   "sp": "tf",
+   "text": "stress",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-27e9ec46",
+   "sp": "uf",
+   "text": "stress",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b0967af1",
+   "sp": "um",
+   "text": "stress",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-f600ff1e",
+   "sp": "tf",
+   "text": "sports",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-f883ee25",
+   "sp": "uf",
+   "text": "sports",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-2b6aa936",
+   "sp": "um",
+   "text": "sports",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-98db7152",
+   "sp": "tf",
+   "text": "brand",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-30ba2617",
+   "sp": "uf",
+   "text": "brand",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-28563b5a",
+   "sp": "um",
+   "text": "brand",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-430146c7",
+   "sp": "tf",
+   "text": "McDonald's",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-5f57e170",
+   "sp": "uf",
+   "text": "McDonald's",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-0986464f",
+   "sp": "um",
+   "text": "McDonald's",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-20731065",
+   "sp": "tf",
+   "text": "worked",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-a769cff4",
+   "sp": "tf",
+   "text": "work",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-2a2f0d1e",
+   "sp": "uf",
+   "text": "worked",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-40cdfa5f",
+   "sp": "uf",
+   "text": "work",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-05371d4d",
+   "sp": "um",
+   "text": "worked",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-98d9ee9c",
+   "sp": "um",
+   "text": "work",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-17d57a1f",
+   "sp": "ko",
+   "text": "워크드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-a5cd081a",
+   "sp": "tf",
+   "text": "wanted",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-2821c09b",
+   "sp": "tf",
+   "text": "want",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c67e3291",
+   "sp": "uf",
+   "text": "wanted",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-688be090",
+   "sp": "uf",
+   "text": "want",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-e25c7012",
+   "sp": "um",
+   "text": "wanted",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-39c0ecd3",
+   "sp": "um",
+   "text": "want",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-b4bf4de7",
+   "sp": "ko",
+   "text": "원티드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-b10e87ee",
+   "sp": "tf",
+   "text": "played",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-0d434b2f",
+   "sp": "tf",
+   "text": "play",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-61a127d5",
+   "sp": "uf",
+   "text": "played",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-264b9064",
+   "sp": "uf",
+   "text": "play",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-98c50fd6",
+   "sp": "um",
+   "text": "played",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-16238697",
+   "sp": "um",
+   "text": "play",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-9ebd1c2d",
+   "sp": "ko",
+   "text": "플레이드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-9dcc90a8",
+   "sp": "tf",
+   "text": "needed",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-c7370c51",
+   "sp": "tf",
+   "text": "need",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-e3def20b",
+   "sp": "uf",
+   "text": "needed",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c944987a",
+   "sp": "uf",
+   "text": "need",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-61905e00",
+   "sp": "um",
+   "text": "needed",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-e2e07ae9",
+   "sp": "um",
+   "text": "need",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-981bf2cb",
+   "sp": "ko",
+   "text": "니디드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-73df1f9f",
+   "sp": "tf",
+   "text": "asked",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-d679929e",
+   "sp": "tf",
+   "text": "ask",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-25e115c6",
+   "sp": "uf",
+   "text": "asked",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-3543cb47",
+   "sp": "uf",
+   "text": "ask",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b591f4c7",
+   "sp": "um",
+   "text": "asked",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b6446346",
+   "sp": "um",
+   "text": "ask",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-dc2c311a",
+   "sp": "tf",
+   "text": "stopped",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-ed47a4a9",
+   "sp": "tf",
+   "text": "stop",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d8fe5a97",
+   "sp": "uf",
+   "text": "stopped",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-03d82522",
+   "sp": "uf",
+   "text": "stop",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-9e516302",
+   "sp": "um",
+   "text": "stopped",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-3a5e6f61",
+   "sp": "um",
+   "text": "stop",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-7e94587a",
+   "sp": "ko",
+   "text": "스톱드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-5ca680e5",
+   "sp": "tf",
+   "text": "watched",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-128eac74",
+   "sp": "tf",
+   "text": "watch",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-788cee58",
+   "sp": "uf",
+   "text": "watched",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d452bfc1",
+   "sp": "uf",
+   "text": "watch",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-ce486bad",
+   "sp": "um",
+   "text": "watched",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-659e17fc",
+   "sp": "um",
+   "text": "watch",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-210063cb",
+   "sp": "ko",
+   "text": "워치드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-2fcfe893",
+   "sp": "tf",
+   "text": "loved",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-553cdd65",
+   "sp": "tf",
+   "text": "love",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-bc7c5c32",
+   "sp": "uf",
+   "text": "loved",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-b0411a22",
+   "sp": "uf",
+   "text": "love",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-9ddd54ab",
+   "sp": "um",
+   "text": "loved",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-5eb3afed",
+   "sp": "um",
+   "text": "love",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-a46d369f",
+   "sp": "ko",
+   "text": "러브드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-d5e1377a",
+   "sp": "tf",
+   "text": "started",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-596ba2fb",
+   "sp": "tf",
+   "text": "start",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-01b4b973",
+   "sp": "uf",
+   "text": "started",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-a5872722",
+   "sp": "uf",
+   "text": "start",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-e53713d2",
+   "sp": "um",
+   "text": "started",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-1e7ec793",
+   "sp": "um",
+   "text": "start",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-587986c9",
+   "sp": "ko",
+   "text": "스타티드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-2d35ecbf",
+   "sp": "tf",
+   "text": "helped",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-a26639be",
+   "sp": "tf",
+   "text": "help",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-a4bbe644",
+   "sp": "uf",
+   "text": "helped",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-9dd3c4fd",
+   "sp": "uf",
+   "text": "help",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-e9203507",
+   "sp": "um",
+   "text": "helped",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-9de86686",
+   "sp": "um",
+   "text": "help",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-73acfb17",
+   "sp": "ko",
+   "text": "헬프드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-b04aaf5a",
+   "sp": "tf",
+   "text": "liked",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-10a4131a",
+   "sp": "tf",
+   "text": "like",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d0ef21af",
+   "sp": "uf",
+   "text": "liked",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c75fe091",
+   "sp": "uf",
+   "text": "like",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-16a031c2",
+   "sp": "um",
+   "text": "liked",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-bc6da812",
+   "sp": "um",
+   "text": "like",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-3e72ce41",
+   "sp": "ko",
+   "text": "라이크드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-9f104503",
+   "sp": "tf",
+   "text": "decided",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-4e0294b5",
+   "sp": "tf",
+   "text": "decide",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-f37d1fc6",
+   "sp": "uf",
+   "text": "decided",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-03dad486",
+   "sp": "uf",
+   "text": "decide",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-3d71576b",
+   "sp": "um",
+   "text": "decided",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-bb0c59ad",
+   "sp": "um",
+   "text": "decide",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-0363d047",
+   "sp": "ko",
+   "text": "디사이디드",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-17eead88",
+   "sp": "tf",
+   "text": "cats",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-ca7b312b",
+   "sp": "tf",
+   "text": "cat",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8bfe57a7",
+   "sp": "uf",
+   "text": "cats",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-4f0b6e6e",
+   "sp": "uf",
+   "text": "cat",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-ac0d7f70",
+   "sp": "um",
+   "text": "cats",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-9a45e8a3",
+   "sp": "um",
+   "text": "cat",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-547718aa",
+   "sp": "ko",
+   "text": "캣츠",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-c34d98da",
+   "sp": "tf",
+   "text": "dogs",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-236d738d",
+   "sp": "tf",
+   "text": "dog",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-acbf84f1",
+   "sp": "uf",
+   "text": "dogs",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-5f218198",
+   "sp": "uf",
+   "text": "dog",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-dbaa74d2",
+   "sp": "um",
+   "text": "dogs",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-f1348355",
+   "sp": "um",
+   "text": "dog",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-1d2a0c9f",
+   "sp": "ko",
+   "text": "도그즈",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-1077451d",
+   "sp": "tf",
+   "text": "books",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-c53e8cfc",
+   "sp": "tf",
+   "text": "book",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d3d6e314",
+   "sp": "uf",
+   "text": "books",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-db9ccd6f",
+   "sp": "uf",
+   "text": "book",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-7851dda5",
+   "sp": "um",
+   "text": "books",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-d1fd0694",
+   "sp": "um",
+   "text": "book",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-c067bd84",
+   "sp": "ko",
+   "text": "북스",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-eacbdae6",
+   "sp": "tf",
+   "text": "months",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-51baa131",
+   "sp": "tf",
+   "text": "month",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-b687af9d",
+   "sp": "uf",
+   "text": "months",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-1379087c",
+   "sp": "uf",
+   "text": "month",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b214b28e",
+   "sp": "um",
+   "text": "months",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-867dd389",
+   "sp": "um",
+   "text": "month",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-5321a401",
+   "sp": "ko",
+   "text": "먼스",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-fbd055cb",
+   "sp": "tf",
+   "text": "texts",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-1ca1dd9a",
+   "sp": "tf",
+   "text": "text",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-f77f7d46",
+   "sp": "uf",
+   "text": "texts",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8c1f7111",
+   "sp": "uf",
+   "text": "text",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-71622873",
+   "sp": "um",
+   "text": "texts",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-2e4109d2",
+   "sp": "um",
+   "text": "text",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-f285a5ad",
+   "sp": "tf",
+   "text": "desks",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-60612f90",
+   "sp": "uf",
+   "text": "desks",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b15bcbd5",
+   "sp": "um",
+   "text": "desks",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-532f8c81",
+   "sp": "tf",
+   "text": "buses",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-f9db8ab8",
+   "sp": "uf",
+   "text": "buses",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-050d79f9",
+   "sp": "um",
+   "text": "buses",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-65a68f10",
+   "sp": "tf",
+   "text": "watches",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8f8d128d",
+   "sp": "uf",
+   "text": "watches",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b7484778",
+   "sp": "um",
+   "text": "watches",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-e2a66f59",
+   "sp": "tf",
+   "text": "sport",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-8d914b2c",
+   "sp": "tf",
+   "text": "support",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-4aaf0414",
+   "sp": "uf",
+   "text": "sport",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-bb142419",
+   "sp": "uf",
+   "text": "support",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-e96ecbc1",
+   "sp": "um",
+   "text": "sport",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-12e11914",
+   "sp": "um",
+   "text": "support",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-4a8b83ad",
+   "sp": "tf",
+   "text": "blow",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-5955d55e",
+   "sp": "tf",
+   "text": "below",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-878993aa",
+   "sp": "uf",
+   "text": "blow",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-1467be67",
+   "sp": "uf",
+   "text": "below",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-49749b35",
+   "sp": "um",
+   "text": "blow",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-11e6f936",
+   "sp": "um",
+   "text": "below",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-ee759f09",
+   "sp": "tc",
+   "text": "prayed",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-6f72358d",
+   "sp": "tc",
+   "text": "parade",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-6dab9f7c",
+   "sp": "tf",
+   "text": "prayed",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-2978152c",
+   "sp": "tf",
+   "text": "parade",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-9ce3f2c3",
+   "sp": "uf",
+   "text": "prayed",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8c25009f",
+   "sp": "uf",
+   "text": "parade",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-f2c5f114",
+   "sp": "um",
+   "text": "prayed",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b9098334",
+   "sp": "um",
+   "text": "parade",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-60a302f0",
+   "sp": "tc",
+   "text": "plight",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-cf5456f5",
+   "sp": "tc",
+   "text": "polite",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-e87c9395",
+   "sp": "tf",
+   "text": "plight",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-09b29458",
+   "sp": "tf",
+   "text": "polite",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-5c041bc2",
+   "sp": "uf",
+   "text": "plight",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8200b527",
+   "sp": "uf",
+   "text": "polite",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-a9e594ad",
+   "sp": "um",
+   "text": "plight",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-a7b7ac50",
+   "sp": "um",
+   "text": "polite",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-afbf418b",
+   "sp": "tc",
+   "text": "claps",
+   "from": "hvpt"
+  },
+  {
+   "id": "tc-fc8243bb",
+   "sp": "tc",
+   "text": "collapse",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-d77677f4",
+   "sp": "tf",
+   "text": "claps",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-f55a70a2",
+   "sp": "tf",
+   "text": "collapse",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-f3727b75",
+   "sp": "uf",
+   "text": "claps",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8f30506d",
+   "sp": "uf",
+   "text": "collapse",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-2a97541c",
+   "sp": "um",
+   "text": "claps",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-1218a8da",
+   "sp": "um",
+   "text": "collapse",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-459d9062",
+   "sp": "tf",
+   "text": "street",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-2f1583e9",
+   "sp": "uf",
+   "text": "street",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b5cc9cca",
+   "sp": "um",
+   "text": "street",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-e0e2008b",
+   "sp": "tf",
+   "text": "check",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-41f4dd2a",
+   "sp": "uf",
+   "text": "check",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-0fcba283",
+   "sp": "um",
+   "text": "check",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-2f67aae1",
+   "sp": "ko",
+   "text": "체크",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-75a1c75c",
+   "sp": "tf",
+   "text": "break",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-90f87d21",
+   "sp": "uf",
+   "text": "break",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b80d3dc4",
+   "sp": "um",
+   "text": "break",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-82c8511d",
+   "sp": "ko",
+   "text": "브레이크",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-448b9bf1",
+   "sp": "tf",
+   "text": "cream",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8a2d4fd4",
+   "sp": "uf",
+   "text": "cream",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-272390d9",
+   "sp": "um",
+   "text": "cream",
+   "from": "hvpt"
+  },
+  {
+   "id": "ko-1b022c69",
+   "sp": "ko",
+   "text": "크림",
+   "from": "hvpt"
+  }
+ ]
+}
