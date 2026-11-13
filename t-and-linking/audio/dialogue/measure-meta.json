@@ -1,0 +1,2846 @@
+{
+ "slug": "t-and-linking",
+ "note": "잴 줄의 정보 (tools/dialogue-lines.cjs가 페이지의 window.__measureMeta()로 만듦 — 손으로 고치지 마세요). kind: word = 낱말 하나(n 음절 수 · at 센 음절, 0부터) · ko = 한국어식(n 글자 수) · other = 받아쓰기만. tools/measure-syllables.py가 읽어요",
+ "count": {
+  "ko": 17,
+  "word": 176,
+  "other": 34
+ },
+ "lines": [
+  {
+   "id": "ko-549495ed",
+   "sp": "ko",
+   "text": "워터",
+   "kind": "ko",
+   "n": 2,
+   "en": "water",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-0ef06a63",
+   "sp": "tc",
+   "text": "water",
+   "kind": "word",
+   "key": "water",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-10254a47",
+   "sp": "tc",
+   "text": "metal",
+   "kind": "word",
+   "key": "metal",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-bdf0b677",
+   "sp": "tc",
+   "text": "medal",
+   "kind": "word",
+   "key": "medal",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-c5ebe548",
+   "sp": "tf",
+   "text": "metal",
+   "kind": "word",
+   "key": "metal",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-75957cb8",
+   "sp": "tf",
+   "text": "medal",
+   "kind": "word",
+   "key": "medal",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-1cb69b01",
+   "sp": "uf",
+   "text": "metal",
+   "kind": "word",
+   "key": "metal",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-ccfe0331",
+   "sp": "uf",
+   "text": "medal",
+   "kind": "word",
+   "key": "medal",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-828e8f20",
+   "sp": "um",
+   "text": "metal",
+   "kind": "word",
+   "key": "metal",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-705a6010",
+   "sp": "um",
+   "text": "medal",
+   "kind": "word",
+   "key": "medal",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-99ef7543",
+   "sp": "tc",
+   "text": "writer",
+   "kind": "word",
+   "key": "writer",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-f2d2a394",
+   "sp": "tc",
+   "text": "rider",
+   "kind": "word",
+   "key": "rider",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-6d9cb396",
+   "sp": "tf",
+   "text": "writer",
+   "kind": "word",
+   "key": "writer",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-3e258853",
+   "sp": "tf",
+   "text": "rider",
+   "kind": "word",
+   "key": "rider",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-9c1121d5",
+   "sp": "uf",
+   "text": "writer",
+   "kind": "word",
+   "key": "writer",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-bd3ab236",
+   "sp": "uf",
+   "text": "rider",
+   "kind": "word",
+   "key": "rider",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-0597714e",
+   "sp": "um",
+   "text": "writer",
+   "kind": "word",
+   "key": "writer",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-0b40da9b",
+   "sp": "um",
+   "text": "rider",
+   "kind": "word",
+   "key": "rider",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-e1679e76",
+   "sp": "tc",
+   "text": "hotel",
+   "kind": "word",
+   "key": "hotel",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tf-0c8a25d4",
+   "sp": "tf",
+   "text": "water",
+   "kind": "word",
+   "key": "water",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-b82aef59",
+   "sp": "tf",
+   "text": "hotel",
+   "kind": "word",
+   "key": "hotel",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "uf-c261adf5",
+   "sp": "uf",
+   "text": "water",
+   "kind": "word",
+   "key": "water",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-125c3cac",
+   "sp": "uf",
+   "text": "hotel",
+   "kind": "word",
+   "key": "hotel",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "um-4f99782c",
+   "sp": "um",
+   "text": "water",
+   "kind": "word",
+   "key": "water",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-9c78a801",
+   "sp": "um",
+   "text": "hotel",
+   "kind": "word",
+   "key": "hotel",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-938c3bb7",
+   "sp": "tc",
+   "text": "top",
+   "kind": "word",
+   "key": "top",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-9972ad43",
+   "sp": "tc",
+   "text": "ten",
+   "kind": "word",
+   "key": "ten",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-d643e27c",
+   "sp": "tc",
+   "text": "stop",
+   "kind": "word",
+   "key": "stop",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-2e362179",
+   "sp": "tc",
+   "text": "style",
+   "kind": "word",
+   "key": "style",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-e32bf20d",
+   "sp": "tc",
+   "text": "stay",
+   "kind": "word",
+   "key": "stay",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-20304adb",
+   "sp": "tc",
+   "text": "city",
+   "kind": "word",
+   "key": "city",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-841de438",
+   "sp": "tc",
+   "text": "party",
+   "kind": "word",
+   "key": "party",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-4afad4b0",
+   "sp": "tc",
+   "text": "button",
+   "kind": "word",
+   "key": "button",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-48c9450f",
+   "sp": "tc",
+   "text": "mountain",
+   "kind": "word",
+   "key": "mountain",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-04051a69",
+   "sp": "tc",
+   "text": "twenty",
+   "kind": "word",
+   "key": "twenty",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-1a5f38a1",
+   "sp": "tc",
+   "text": "internet",
+   "kind": "word",
+   "key": "internet",
+   "n": 3,
+   "at": 0
+  },
+  {
+   "id": "tc-55801058",
+   "sp": "tc",
+   "text": "cat",
+   "kind": "word",
+   "key": "cat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-68b43d4f",
+   "sp": "tc",
+   "text": "hot",
+   "kind": "word",
+   "key": "hot",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-16f26266",
+   "sp": "tc",
+   "text": "better",
+   "kind": "word",
+   "key": "better",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-a48abcac",
+   "sp": "tc",
+   "text": "getting",
+   "kind": "word",
+   "key": "getting",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-1b2e4d48",
+   "sp": "tc",
+   "text": "photo",
+   "kind": "word",
+   "key": "photo",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-683b3a78",
+   "sp": "tc",
+   "text": "ladder",
+   "kind": "word",
+   "key": "ladder",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-7a35d61f",
+   "sp": "tc",
+   "text": "Italy",
+   "kind": "word",
+   "key": "italy",
+   "n": 3,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-b076654c",
+   "sp": "tc",
+   "text": "Italian",
+   "kind": "word",
+   "key": "italian",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-fef6ba65",
+   "sp": "tc",
+   "text": "atom",
+   "kind": "word",
+   "key": "atom",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-06f37485",
+   "sp": "tc",
+   "text": "atomic",
+   "kind": "word",
+   "key": "atomic",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-5efd2a1b",
+   "sp": "tc",
+   "text": "photographer",
+   "kind": "word",
+   "key": "photographer",
+   "n": 4,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-f8a08c24",
+   "sp": "tc",
+   "text": "thirty",
+   "kind": "word",
+   "key": "thirty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-b7a46db3",
+   "sp": "tc",
+   "text": "thirteen",
+   "kind": "word",
+   "key": "thirteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-705cef6e",
+   "sp": "tc",
+   "text": "certain",
+   "kind": "word",
+   "key": "certain",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-66cb1863",
+   "sp": "tc",
+   "text": "written",
+   "kind": "word",
+   "key": "written",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-85e8761d",
+   "sp": "tc",
+   "text": "center",
+   "kind": "word",
+   "key": "center",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-b493f79d",
+   "sp": "tc",
+   "text": "winter",
+   "kind": "word",
+   "key": "winter",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-a6abce1f",
+   "sp": "tc",
+   "text": "interview",
+   "kind": "word",
+   "key": "interview",
+   "n": 3,
+   "at": 0
+  },
+  {
+   "id": "tc-90b16130",
+   "sp": "tc",
+   "text": "get",
+   "kind": "word",
+   "key": "get",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-e99bbebd",
+   "sp": "tc",
+   "text": "get it",
+   "kind": "word",
+   "key": "get it",
+   "n": 2,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "ko-ff8165c3",
+   "sp": "ko",
+   "text": "겟 잇",
+   "kind": "ko",
+   "n": 2,
+   "en": "get it",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-b746827b",
+   "sp": "tc",
+   "text": "what about",
+   "kind": "word",
+   "key": "what about",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "ko-feea743b",
+   "sp": "ko",
+   "text": "왓 어바웃",
+   "kind": "ko",
+   "n": 4,
+   "en": "what about",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-e92fbfd1",
+   "sp": "tc",
+   "text": "a lot of",
+   "kind": "word",
+   "key": "a lot of",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "ko-fa8fa103",
+   "sp": "ko",
+   "text": "어 로트 오브",
+   "kind": "ko",
+   "n": 5,
+   "en": "a lot of",
+   "t": [
+    {
+     "k": 2,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-1900be0d",
+   "sp": "tc",
+   "text": "not at all",
+   "kind": "word",
+   "key": "not at all",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    },
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "ko-0816b8a6",
+   "sp": "ko",
+   "text": "낫 애트 올",
+   "kind": "ko",
+   "n": 4,
+   "en": "not at all",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    },
+    {
+     "k": 2,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-e92f31c7",
+   "sp": "tc",
+   "text": "put it on",
+   "kind": "word",
+   "key": "put it on",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    },
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "ko-3b0ab5df",
+   "sp": "ko",
+   "text": "풋 잇 온",
+   "kind": "ko",
+   "n": 3,
+   "en": "put it on",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    },
+    {
+     "k": 1,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "ko-d01a571a",
+   "sp": "ko",
+   "text": "픽 잇 업",
+   "kind": "ko",
+   "n": 3,
+   "en": "pick it up",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    },
+    {
+     "k": 1,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-e70c8b53",
+   "sp": "tc",
+   "text": "pick it up",
+   "kind": "word",
+   "key": "pick it up",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-6d784f3b",
+   "sp": "tc",
+   "text": "an apple",
+   "kind": "word",
+   "key": "an apple",
+   "n": 3,
+   "at": 0,
+   "stress": false
+  },
+  {
+   "id": "ko-e260e425",
+   "sp": "ko",
+   "text": "언 애플",
+   "kind": "ko",
+   "n": 3,
+   "en": "an apple",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-1bb4fb96",
+   "sp": "tc",
+   "text": "turn off",
+   "kind": "word",
+   "key": "turn off",
+   "n": 2,
+   "at": 0,
+   "stress": false
+  },
+  {
+   "id": "ko-8c24a125",
+   "sp": "ko",
+   "text": "턴 오프",
+   "kind": "ko",
+   "n": 3,
+   "en": "turn off",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-07449f9d",
+   "sp": "tc",
+   "text": "check it out",
+   "kind": "word",
+   "key": "check it out",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "ko-c2012c49",
+   "sp": "ko",
+   "text": "체크 잇 아웃",
+   "kind": "ko",
+   "n": 5,
+   "en": "check it out",
+   "t": [
+    {
+     "k": 1,
+     "want": "gap"
+    },
+    {
+     "k": 2,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-6ae9c365",
+   "sp": "tc",
+   "text": "come on",
+   "kind": "word",
+   "key": "come on",
+   "n": 2,
+   "at": 0,
+   "stress": false
+  },
+  {
+   "id": "ko-31108e87",
+   "sp": "ko",
+   "text": "컴 온",
+   "kind": "ko",
+   "n": 2,
+   "en": "come on",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-6504277e",
+   "sp": "tc",
+   "text": "did you",
+   "kind": "word",
+   "key": "did you",
+   "n": 2,
+   "at": 0,
+   "stress": false
+  },
+  {
+   "id": "tc-ec5de3fe",
+   "sp": "tc",
+   "text": "would you",
+   "kind": "word",
+   "key": "would you",
+   "n": 2,
+   "at": 0,
+   "stress": false
+  },
+  {
+   "id": "tc-b1339c31",
+   "sp": "tc",
+   "text": "don't you",
+   "kind": "word",
+   "key": "don't you",
+   "n": 2,
+   "at": 0,
+   "stress": false
+  },
+  {
+   "id": "tc-ac977110",
+   "sp": "tc",
+   "text": "what about you",
+   "kind": "word",
+   "key": "what about you",
+   "n": 4,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-de4842c9",
+   "sp": "tc",
+   "text": "What about a party at the hotel?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-73e86149",
+   "sp": "tc",
+   "text": "Put it on the computer.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-49f8bb15",
+   "sp": "tc",
+   "text": "Would you like some water?",
+   "kind": "other"
+  },
+  {
+   "id": "ko-b83dbd67",
+   "sp": "ko",
+   "text": "컴퓨터",
+   "kind": "ko",
+   "n": 3,
+   "en": "computer",
+   "t": [
+    {
+     "k": 1,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-0ecaafdd",
+   "sp": "tc",
+   "text": "computer",
+   "kind": "word",
+   "key": "computer",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "ko-0c10690a",
+   "sp": "ko",
+   "text": "인터넷",
+   "kind": "ko",
+   "n": 3,
+   "en": "internet"
+  },
+  {
+   "id": "ko-6376836d",
+   "sp": "ko",
+   "text": "파티",
+   "kind": "ko",
+   "n": 2,
+   "en": "party",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "ko-a1b6e48b",
+   "sp": "ko",
+   "text": "토마토",
+   "kind": "ko",
+   "n": 3,
+   "en": "tomato"
+  },
+  {
+   "id": "tc-760b8a0e",
+   "sp": "tc",
+   "text": "tomato",
+   "kind": "word",
+   "key": "tomato",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "ko-da2c7cb7",
+   "sp": "ko",
+   "text": "배터리",
+   "kind": "ko",
+   "n": 3,
+   "en": "battery"
+  },
+  {
+   "id": "tc-709f60b1",
+   "sp": "tc",
+   "text": "battery",
+   "kind": "word",
+   "key": "battery",
+   "n": 3,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "ko-8b4c343d",
+   "sp": "ko",
+   "text": "시티",
+   "kind": "ko",
+   "n": 2,
+   "en": "city",
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-f7e374c0",
+   "sp": "tc",
+   "text": "attack",
+   "kind": "word",
+   "key": "attack",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-3a6e5d5c",
+   "sp": "tc",
+   "text": "forty",
+   "kind": "word",
+   "key": "forty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-41f43b54",
+   "sp": "tc",
+   "text": "fourteen",
+   "kind": "word",
+   "key": "fourteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-56996e7a",
+   "sp": "tc",
+   "text": "eighty",
+   "kind": "word",
+   "key": "eighty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-2657b075",
+   "sp": "tc",
+   "text": "eighteen",
+   "kind": "word",
+   "key": "eighteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tc-c89bbfc1",
+   "sp": "tc",
+   "text": "Can I have some water?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-da2f8a3a",
+   "sp": "tc",
+   "text": "This is a big city.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-a9ca4ead",
+   "sp": "tc",
+   "text": "Your English is getting better.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-be768f7b",
+   "sp": "tc",
+   "text": "The party was great.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-5075f373",
+   "sp": "tc",
+   "text": "I won a medal.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-a1a6f00b",
+   "sp": "tc",
+   "text": "My computer is new.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-0c8d6c16",
+   "sp": "tc",
+   "text": "Pass me a tomato.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-76af06f0",
+   "sp": "tc",
+   "text": "I love Italy.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-f128baec",
+   "sp": "tc",
+   "text": "She is Italian.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-24ecaef2",
+   "sp": "tc",
+   "text": "Take a photo.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-f0db7cc9",
+   "sp": "tc",
+   "text": "He is a photographer.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-28532579",
+   "sp": "tc",
+   "text": "The hotel is new.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-aa20690d",
+   "sp": "tc",
+   "text": "She is thirteen.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-9d378943",
+   "sp": "tc",
+   "text": "He is thirty.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-32b268fe",
+   "sp": "tc",
+   "text": "Press the button.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-af436e38",
+   "sp": "tc",
+   "text": "I see a mountain.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-989d26fc",
+   "sp": "tc",
+   "text": "Are you certain?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-f7644287",
+   "sp": "tc",
+   "text": "I have twenty dollars.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-179c92fe",
+   "sp": "tc",
+   "text": "I use the internet.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-92ddbab4",
+   "sp": "tc",
+   "text": "Meet me in the center.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-94329bbb",
+   "sp": "tc",
+   "text": "I like winter.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-9c37e427",
+   "sp": "tc",
+   "text": "Pick it up.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-5c495529",
+   "sp": "tc",
+   "text": "Check it out.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-7656f0f9",
+   "sp": "tc",
+   "text": "Not at all.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-175b3b42",
+   "sp": "tc",
+   "text": "A lot of people.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-d9bf94a8",
+   "sp": "tc",
+   "text": "I ate an apple.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-6dd6a63e",
+   "sp": "tc",
+   "text": "Come on in.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-4343b0dd",
+   "sp": "tc",
+   "text": "Did you eat?",
+   "kind": "other"
+  },
+  {
+   "id": "tf-9b11aa33",
+   "sp": "tf",
+   "text": "forty",
+   "kind": "word",
+   "key": "forty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-614e0c3d",
+   "sp": "tf",
+   "text": "fourteen",
+   "kind": "word",
+   "key": "fourteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tf-ab080b4e",
+   "sp": "tf",
+   "text": "city",
+   "kind": "word",
+   "key": "city",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-1f19486d",
+   "sp": "uf",
+   "text": "city",
+   "kind": "word",
+   "key": "city",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-1cf427f6",
+   "sp": "um",
+   "text": "city",
+   "kind": "word",
+   "key": "city",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-bf0aad03",
+   "sp": "tf",
+   "text": "better",
+   "kind": "word",
+   "key": "better",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-e1bb7e6c",
+   "sp": "uf",
+   "text": "better",
+   "kind": "word",
+   "key": "better",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-8340e68b",
+   "sp": "um",
+   "text": "better",
+   "kind": "word",
+   "key": "better",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-e340244b",
+   "sp": "tf",
+   "text": "party",
+   "kind": "word",
+   "key": "party",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-13948426",
+   "sp": "uf",
+   "text": "party",
+   "kind": "word",
+   "key": "party",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-56187c53",
+   "sp": "um",
+   "text": "party",
+   "kind": "word",
+   "key": "party",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-f2fcd723",
+   "sp": "tf",
+   "text": "getting",
+   "kind": "word",
+   "key": "getting",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-c546af6a",
+   "sp": "uf",
+   "text": "getting",
+   "kind": "word",
+   "key": "getting",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-e3d4d51b",
+   "sp": "um",
+   "text": "getting",
+   "kind": "word",
+   "key": "getting",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-24df46d7",
+   "sp": "tf",
+   "text": "photo",
+   "kind": "word",
+   "key": "photo",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-d9157282",
+   "sp": "uf",
+   "text": "photo",
+   "kind": "word",
+   "key": "photo",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-2f4bb37f",
+   "sp": "um",
+   "text": "photo",
+   "kind": "word",
+   "key": "photo",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-4d95c808",
+   "sp": "tf",
+   "text": "Italy",
+   "kind": "word",
+   "key": "italy",
+   "n": 3,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-9a918df9",
+   "sp": "uf",
+   "text": "Italy",
+   "kind": "word",
+   "key": "italy",
+   "n": 3,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-e0424b10",
+   "sp": "um",
+   "text": "Italy",
+   "kind": "word",
+   "key": "italy",
+   "n": 3,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-dd430764",
+   "sp": "tf",
+   "text": "atom",
+   "kind": "word",
+   "key": "atom",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-44f8de77",
+   "sp": "uf",
+   "text": "atom",
+   "kind": "word",
+   "key": "atom",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-818a94ec",
+   "sp": "um",
+   "text": "atom",
+   "kind": "word",
+   "key": "atom",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-d5a459e9",
+   "sp": "tf",
+   "text": "thirty",
+   "kind": "word",
+   "key": "thirty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-33416956",
+   "sp": "uf",
+   "text": "thirty",
+   "kind": "word",
+   "key": "thirty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-2c6e8341",
+   "sp": "um",
+   "text": "thirty",
+   "kind": "word",
+   "key": "thirty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-5c9c145a",
+   "sp": "uf",
+   "text": "forty",
+   "kind": "word",
+   "key": "forty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-499b394b",
+   "sp": "um",
+   "text": "forty",
+   "kind": "word",
+   "key": "forty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-82e08f27",
+   "sp": "tf",
+   "text": "eighty",
+   "kind": "word",
+   "key": "eighty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-02da9f8c",
+   "sp": "uf",
+   "text": "eighty",
+   "kind": "word",
+   "key": "eighty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-22cc851f",
+   "sp": "um",
+   "text": "eighty",
+   "kind": "word",
+   "key": "eighty",
+   "n": 2,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-b474da54",
+   "sp": "tf",
+   "text": "computer",
+   "kind": "word",
+   "key": "computer",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-291ad477",
+   "sp": "uf",
+   "text": "computer",
+   "kind": "word",
+   "key": "computer",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-f10bc63c",
+   "sp": "um",
+   "text": "computer",
+   "kind": "word",
+   "key": "computer",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-f3205fc2",
+   "sp": "tf",
+   "text": "battery",
+   "kind": "word",
+   "key": "battery",
+   "n": 3,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-8e09edf3",
+   "sp": "uf",
+   "text": "battery",
+   "kind": "word",
+   "key": "battery",
+   "n": 3,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-6e50fe4a",
+   "sp": "um",
+   "text": "battery",
+   "kind": "word",
+   "key": "battery",
+   "n": 3,
+   "at": 0,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-69045f61",
+   "sp": "tf",
+   "text": "attack",
+   "kind": "word",
+   "key": "attack",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "uf-db07e6b6",
+   "sp": "uf",
+   "text": "attack",
+   "kind": "word",
+   "key": "attack",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "um-16621139",
+   "sp": "um",
+   "text": "attack",
+   "kind": "word",
+   "key": "attack",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tf-851afccf",
+   "sp": "tf",
+   "text": "Italian",
+   "kind": "word",
+   "key": "italian",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "uf-3c05b702",
+   "sp": "uf",
+   "text": "Italian",
+   "kind": "word",
+   "key": "italian",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "um-e9c06ec7",
+   "sp": "um",
+   "text": "Italian",
+   "kind": "word",
+   "key": "italian",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tf-4af37a7c",
+   "sp": "tf",
+   "text": "atomic",
+   "kind": "word",
+   "key": "atomic",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "uf-3329971b",
+   "sp": "uf",
+   "text": "atomic",
+   "kind": "word",
+   "key": "atomic",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "um-f0a81574",
+   "sp": "um",
+   "text": "atomic",
+   "kind": "word",
+   "key": "atomic",
+   "n": 3,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tf-67c60b36",
+   "sp": "tf",
+   "text": "photographer",
+   "kind": "word",
+   "key": "photographer",
+   "n": 4,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "uf-d972640d",
+   "sp": "uf",
+   "text": "photographer",
+   "kind": "word",
+   "key": "photographer",
+   "n": 4,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "um-f09260be",
+   "sp": "um",
+   "text": "photographer",
+   "kind": "word",
+   "key": "photographer",
+   "n": 4,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tf-625a0672",
+   "sp": "tf",
+   "text": "thirteen",
+   "kind": "word",
+   "key": "thirteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "uf-e212d129",
+   "sp": "uf",
+   "text": "thirteen",
+   "kind": "word",
+   "key": "thirteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "um-d6009b8a",
+   "sp": "um",
+   "text": "thirteen",
+   "kind": "word",
+   "key": "thirteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "uf-9974e6e2",
+   "sp": "uf",
+   "text": "fourteen",
+   "kind": "word",
+   "key": "fourteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "um-6601b265",
+   "sp": "um",
+   "text": "fourteen",
+   "kind": "word",
+   "key": "fourteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tf-565ae4c4",
+   "sp": "tf",
+   "text": "eighteen",
+   "kind": "word",
+   "key": "eighteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "uf-adcd0ffb",
+   "sp": "uf",
+   "text": "eighteen",
+   "kind": "word",
+   "key": "eighteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "um-d88c7c5c",
+   "sp": "um",
+   "text": "eighteen",
+   "kind": "word",
+   "key": "eighteen",
+   "n": 2,
+   "at": 1,
+   "t": [
+    {
+     "k": 0,
+     "want": "gap"
+    }
+   ]
+  },
+  {
+   "id": "tf-7f5d4edb",
+   "sp": "tf",
+   "text": "get",
+   "kind": "word",
+   "key": "get",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-f33c1a76",
+   "sp": "uf",
+   "text": "get",
+   "kind": "word",
+   "key": "get",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-4cad9d53",
+   "sp": "um",
+   "text": "get",
+   "kind": "word",
+   "key": "get",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-ec720544",
+   "sp": "tf",
+   "text": "get it",
+   "kind": "word",
+   "key": "get it",
+   "n": 2,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-af71fa3f",
+   "sp": "uf",
+   "text": "get it",
+   "kind": "word",
+   "key": "get it",
+   "n": 2,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-4a1e753c",
+   "sp": "um",
+   "text": "get it",
+   "kind": "word",
+   "key": "get it",
+   "n": 2,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-33a376b6",
+   "sp": "tc",
+   "text": "what",
+   "kind": "word",
+   "key": "what",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-44837123",
+   "sp": "tf",
+   "text": "what",
+   "kind": "word",
+   "key": "what",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-3bedecb0",
+   "sp": "uf",
+   "text": "what",
+   "kind": "word",
+   "key": "what",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-441710bb",
+   "sp": "um",
+   "text": "what",
+   "kind": "word",
+   "key": "what",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-67040d22",
+   "sp": "tf",
+   "text": "what about",
+   "kind": "word",
+   "key": "what about",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-c5bd1a85",
+   "sp": "uf",
+   "text": "what about",
+   "kind": "word",
+   "key": "what about",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-bd8e4c0a",
+   "sp": "um",
+   "text": "what about",
+   "kind": "word",
+   "key": "what about",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-b3c79243",
+   "sp": "tc",
+   "text": "lot",
+   "kind": "word",
+   "key": "lot",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-9734dd1c",
+   "sp": "tf",
+   "text": "lot",
+   "kind": "word",
+   "key": "lot",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-fb13de19",
+   "sp": "uf",
+   "text": "lot",
+   "kind": "word",
+   "key": "lot",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-54f274f4",
+   "sp": "um",
+   "text": "lot",
+   "kind": "word",
+   "key": "lot",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-9e5f30c8",
+   "sp": "tf",
+   "text": "a lot of",
+   "kind": "word",
+   "key": "a lot of",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-1d90ede3",
+   "sp": "uf",
+   "text": "a lot of",
+   "kind": "word",
+   "key": "a lot of",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-f9811aa0",
+   "sp": "um",
+   "text": "a lot of",
+   "kind": "word",
+   "key": "a lot of",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-45e4e5dd",
+   "sp": "tc",
+   "text": "put",
+   "kind": "word",
+   "key": "put",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-92938a6a",
+   "sp": "tf",
+   "text": "put",
+   "kind": "word",
+   "key": "put",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-dbf98f9f",
+   "sp": "uf",
+   "text": "put",
+   "kind": "word",
+   "key": "put",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-fd594142",
+   "sp": "um",
+   "text": "put",
+   "kind": "word",
+   "key": "put",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-190385b4",
+   "sp": "tf",
+   "text": "put it on",
+   "kind": "word",
+   "key": "put it on",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    },
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-4c639721",
+   "sp": "uf",
+   "text": "put it on",
+   "kind": "word",
+   "key": "put it on",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    },
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-b5572e9c",
+   "sp": "um",
+   "text": "put it on",
+   "kind": "word",
+   "key": "put it on",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    },
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tc-90d9aa25",
+   "sp": "tc",
+   "text": "not",
+   "kind": "word",
+   "key": "not",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-870f960e",
+   "sp": "tf",
+   "text": "not",
+   "kind": "word",
+   "key": "not",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-2e532447",
+   "sp": "uf",
+   "text": "not",
+   "kind": "word",
+   "key": "not",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-247d49a6",
+   "sp": "um",
+   "text": "not",
+   "kind": "word",
+   "key": "not",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-c5546c7c",
+   "sp": "tf",
+   "text": "not at all",
+   "kind": "word",
+   "key": "not at all",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    },
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "uf-d4953cdb",
+   "sp": "uf",
+   "text": "not at all",
+   "kind": "word",
+   "key": "not at all",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    },
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "um-863a9784",
+   "sp": "um",
+   "text": "not at all",
+   "kind": "word",
+   "key": "not at all",
+   "n": 3,
+   "at": 0,
+   "stress": false,
+   "t": [
+    {
+     "k": 0,
+     "want": "flap"
+    },
+    {
+     "k": 1,
+     "want": "flap"
+    }
+   ]
+  },
+  {
+   "id": "tf-32ae9e10",
+   "sp": "tf",
+   "text": "winter",
+   "kind": "word",
+   "key": "winter",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "uf-ac4263cf",
+   "sp": "uf",
+   "text": "winter",
+   "kind": "word",
+   "key": "winter",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-8f068d38",
+   "sp": "um",
+   "text": "winter",
+   "kind": "word",
+   "key": "winter",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tf-75ea83d8",
+   "sp": "tf",
+   "text": "center",
+   "kind": "word",
+   "key": "center",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "uf-ed92a82f",
+   "sp": "uf",
+   "text": "center",
+   "kind": "word",
+   "key": "center",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-1b080150",
+   "sp": "um",
+   "text": "center",
+   "kind": "word",
+   "key": "center",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tf-726c4fe4",
+   "sp": "tf",
+   "text": "twenty",
+   "kind": "word",
+   "key": "twenty",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "uf-7aaea407",
+   "sp": "uf",
+   "text": "twenty",
+   "kind": "word",
+   "key": "twenty",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-d39b9b4c",
+   "sp": "um",
+   "text": "twenty",
+   "kind": "word",
+   "key": "twenty",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-3dc08be8",
+   "sp": "um",
+   "text": "Pick it up.",
+   "kind": "other"
+  },
+  {
+   "id": "tf-b91e2db4",
+   "sp": "tf",
+   "text": "Come on.",
+   "kind": "other"
+  },
+  {
+   "id": "uf-bbeb1037",
+   "sp": "uf",
+   "text": "Check it out.",
+   "kind": "other"
+  }
+ ]
+}

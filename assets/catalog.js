@@ -496,5 +496,18 @@ window.EN_CATALOG = {
       thumb: 'sentence-rhythm/docs/poster.jpg',
       added: '2026-11-13',
     },
+    {
+      slug: 't-and-linking',
+      track: 'pron',
+      title: '워러가 되는 t — 미국식 t와 이어 말하기',
+      topic: "숨이 터지는 t · s 뒤의 t · 짧은 ㄹ 같은 t(water · city · medal) · 강세가 정하는 t(Italy · Italian, thirty · thirteen) · 목에서 막는 t(button) · 사라지는 t(twenty) · 끝의 t · 낱말 사이의 t(get it) · 이어 말하기(pick it up) · t · d + you(did you)",
+      summary: "물 → water를 한국어식으로 읽으면 워터, t 자리에서 소리가 끊겨요. 미국 영어는 모음 사이 · 약한 음절 앞의 t를 혀끝으로 한 번 톡 치는 짧은 ㄹ로 내서 워러에 가깝게 들려요. 센 음절 앞(hotel · Italian)에서는 숨과 함께 터뜨리고, button의 t는 목에서 막고, twenty의 t는 빠지기 쉬워요. 실제 음성을 재서 그린 목 울림 띠로 t 자리를 보고, 목소리 넷으로 가르고, get it · pick it up처럼 낱말 사이에서 이어 말해요. 끝에는 t 듣고 가르기 훈련 · t 바꾸기 실험실 · 내 목 울림 띠.",
+      length: '6:48',
+      scenes: 10,
+      features: ['음성 해설', '잰 목 울림 띠', '목소리 넷으로 듣기', '한국어식과 견줘 듣기', '장면별 실습', 't 듣고 가르기 훈련', 't 바꾸기 실험실', '내 목 울림 띠(시험 기능)', '따라 말하기 28', '듣고 고르기 16', '퀴즈'],
+      types: [21],
+      thumb: 't-and-linking/docs/poster.jpg',
+      added: '2026-11-14',
+    },
   ],
 };

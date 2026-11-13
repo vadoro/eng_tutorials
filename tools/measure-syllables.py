@@ -34,6 +34,11 @@
                    모두 센 음절보다 짧아야 해요(끝 음절은 ×0.8). str이 없으면 weak가 아닌 음절을 모두 센 음절로 봐요.
                    at의 표(센 음절 확인)는 하지 않아요 — 센 낱말이 둘 이상인 구는 어느 쪽이 가장 센지가 목소리마다 달라서
       dur: true    문장 길이(앞뒤 무음을 뺀 ms, 가장 큰 크기에서 35dB 안쪽의 처음 ~ 끝)를 dur로 적어요 — 받아쓰기만 하는 문장(other) · 한국어식 줄도
+      t: [{k: 음절 경계(0 = 첫째와 둘째 음절 사이), want: flap | gap}]  t 자리의 목 울림(미국식 t와 이어 말하기 t-and-linking):
+                   두 음절 핵의 가운데 사이에서 낮은 띠(60~500Hz, 목 울림)의 크기가 핵보다 얼마나 떨어지나(dB). 짧은 ㄹ 같은 t(flap)는
+                   10dB 이하로 이어져야, 숨이 터지는 t · 한국어식으로 끊어 읽은 t(gap)는 15dB 이상 떨어져야 통과해요.
+                   tk: [[k, dB]] · vb: 10ms마다 낮은 띠의 크기 dB(가장 큰 곳 = 0, −50까지)를 적어요(목 울림 띠)
+      stress: false  짧은 구(낱말 둘 이상, pick it up · get it)는 센 음절 확인(at의 표)을 하지 않아요 — 받아쓰기 · 끝 올림 · t 자리만
     문장(other)은 받아쓰기만 해요 — 문장 속 낱말의 시각은 Whisper가 어림으로만 알려 줘서 음절을 재지 않아요.
 
 --narration: 음성 해설에서 영어 낱말만 읽는 조각(낱말 하나 · · 로 늘어놓은 낱말)을, 통과한 밝은 선생님(tc) 낱말 파일을
@@ -75,6 +80,8 @@ F2_FRONT_MIN = 1000  # 앞 모음(i · ɪ)으로 잰 F2가 이보다 작으면 �
 OP_F1 = 50        # 입 벌림 짝: 크게 벌린 모음(æ · ɑ)의 F1 − 덜 벌린 모음(ɛ · ʌ)의 F1 (Hz) 이상
 OP_F2 = 100       # 입 벌림 뒤 짝: F1 차가 모자라면 덜 벌린 ʌ의 F2 − 크게 벌린 ɑ의 F2 (Hz) 이상이어도 통과
 F1_MAX = 1300     # F1으로 볼 가장 높은 공명(Hz) — 밝은 선생님의 크게 벌린 애(æ)는 F1이 1150~1200Hz까지 올라가요
+FLAP_MAX = 10.0   # t 자리: 짧은 ㄹ(flap)이면 낮은 띠(목 울림)가 두 핵보다 이만큼(dB) 이하로만 떨어져야 해요
+GAP_MIN = 15.0    # t 자리: 숨이 터지는 t · 한국어식으로 끊어 읽은 t(gap)면 이만큼(dB) 이상 떨어져야 해요
 
 ONES = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split()
 TENS = {2: 'twenty', 3: 'thirty', 4: 'forty', 5: 'fifty', 6: 'sixty', 7: 'seventy', 8: 'eighty', 9: 'ninety'}
@@ -217,6 +224,43 @@ def syl_values(segs, fdb, f0):
     return out
 
 
+def t_dips(y, sr, env, sg, marks):
+    """t 자리의 목 울림: 음절 경계 k마다 두 핵의 가운데 사이에서 낮은 띠(60~500Hz) 크기가 낮은 쪽 핵보다 얼마나 떨어지나(dB) +
+    10ms마다 낮은 띠의 크기(가장 큰 곳 = 0, −50까지) — 목 울림 띠"""
+    hop = int(round(sr * HOP))
+    nfft = 2048 if sr > 32000 else 1024
+    S = np.abs(librosa.stft(y, n_fft=nfft, hop_length=hop, win_length=int(sr * 0.025), center=True)) ** 2
+    fr = librosa.fft_frequencies(sr=sr, n_fft=nfft)
+    lo = smooth(10 * np.log10(S[(fr >= 60) & (fr <= 500)].sum(0) + 1e-10), 3)[:len(env)]
+    out = []
+    for mk in marks:
+        k = mk['k']
+        if k + 1 >= len(sg):
+            out.append([k, None]); continue
+        (a0, b0), (a1, b1) = sg[k], sg[k + 1]
+        na, nb = nucleus(env, a0, b0); ma, mb = nucleus(env, a1, b1)
+        c0, c1 = (na + nb) // 2, (ma + mb) // 2
+        if c1 <= c0 + 1:
+            out.append([k, None]); continue
+        ref = min(lo[c0], lo[c1])
+        out.append([k, round(float(ref - lo[c0:c1].min()), 1)])
+    step = int(round(0.01 / HOP))
+    top = float(lo.max())
+    vb = [int(round(max(-50.0, float(x) - top))) for x in lo[::step]]
+    return out, vb
+
+
+def t_ok(marks, tk):
+    for mk, (_, d) in zip(marks, tk):
+        if d is None:
+            return False
+        if mk['want'] == 'flap' and d > FLAP_MAX:
+            return False
+        if mk['want'] == 'gap' and d < GAP_MIN:
+            return False
+    return True
+
+
 def nucleus(env, a, b, drop=10.0):
     """음절 [a, b] 안에서 크기가 가장 큰 곳보다 drop dB 안쪽으로 이어진 가장 긴 조각(모음의 핵) → (처음, 끝) 프레임"""
     seg = env[a:b + 1]
@@ -320,6 +364,8 @@ HOMOPHONES = {'heal': 'heel', 'peal': 'peel', 'reed': 'read', 'weak': 'week', 'f
               'caught': 'cot', 'bought': 'bot', 'caller': 'collar',
               # wood · would는 소리가 같고, 많은 미국 사람이 Barry · berry를 같게 말해요(Mary · marry · merry)
               'wood': 'would', 'barry': 'berry',
+              # 미국 영어는 모음 사이의 t · d를 둘 다 짧은 ㄹ로 내서 metal · medal, writer · rider, atom · Adam이 거의 같은 소리예요(t-and-linking)
+              'metal': 'medal', 'writer': 'rider', 'ryder': 'rider', 'latter': 'ladder', 'atom': 'adam',
               # 기능어를 혼자 강한 형태로 읽으면 이름 · 숫자 · 글자와 소리가 같아요(an = Ann, to = two, for = four, are = R)
               'ann': 'an', 'anne': 'an', 'two': 'to', 'too': 'to', 'four': 'for', 'r': 'are'}
 
@@ -399,9 +445,14 @@ def measure(model, m, path, tmp):
         return r
     sv = syl_values(sg, fdb, f0)
     r['s'] = [[int(round(a)), int(round(b)), round(db, 1), int(round(hz))] for a, b, db, hz in sv]
+    if m.get('t'):
+        r['tk'], r['vb'] = t_dips(y, sr, env, sg, m['t'])
+        r['okT'] = t_ok(m['t'], r['tk'])
     if m['kind'] == 'word':
         r['votes'] = stress_votes(sv)
-        if m.get('weak') is not None:
+        if m.get('stress') is False:
+            r['okStress'] = True  # 짧은 구(pick it up): 센 음절은 보지 않고 받아쓰기 · t 자리만
+        elif m.get('weak') is not None:
             r['wk'] = weak_gap(sv, m['weak'], m.get('str'))
             r['okStress'] = r['wk'] is not None and r['wk'][0] < r['wk'][1]
         else:
@@ -471,6 +522,8 @@ def fpair_check(m, r, res):
 def passes(m, r, res=None):
     if not r.get('okHeard'):
         return False
+    if m.get('t') and not r.get('okT'):
+        return False
     if m['kind'] == 'word':
         if m.get('count') and r.get('runs', 0) > m['n']:
             return False
@@ -500,6 +553,8 @@ def tag(m, r, res=None):
             t += f" 센 음절≠(표 {r['votes']} · 사전 {m['at']})"
     if r.get('why'):
         t += ' ' + r['why']
+    if m.get('t') and 'tk' in r and not r.get('okT'):
+        t += ' t 자리 목 울림 ' + ' · '.join(f"{mk['want']} {d}dB" for mk, (_, d) in zip(m['t'], r['tk']))
     if r.get('rise', 0) > RISE_MAX:
         t += f" 끝 올림 {r['rise']:+.1f}"
     if m.get('count') and r.get('runs', 0) > m['n']:
@@ -521,7 +576,7 @@ def write_measure_js(path, meta, res):
         if not r or not passes(m, r, res) or ('s' not in r and 'dur' not in r):
             continue
         e = {}
-        for x in ('s', 'f', 'e', 'F', 'vd', 'dur'):
+        for x in ('s', 'f', 'e', 'F', 'vd', 'dur', 'tk', 'vb'):
             if x in r:
                 e[x] = r[x]
         out[m['id']] = e
@@ -531,6 +586,8 @@ def write_measure_js(path, meta, res):
         f.write('// f · e: 20ms마다 높이 Hz(0 = 소리 없음, 밝은 선생님 tc만) · 크기 dB(tc와 env 줄). 통과한 줄만 적어요.\n')
         if any('F' in v for v in out.values()):
             f.write('// F: 센 음절 모음 가운데의 [F1, F2] Hz(LPC) · vd: 그 모음의 길이 ms(크기가 가장 큰 곳에서 10dB 안쪽, 어림)\n')
+        if any('tk' in v for v in out.values()):
+            f.write('// tk: t 자리(음절 경계 k)마다 [k, 낮은 띠(60~500Hz, 목 울림)가 두 음절 핵보다 떨어진 dB] · vb: 10ms마다 낮은 띠의 크기 dB(가장 큰 곳 = 0)\n')
         if any('dur' in v for v in out.values()):
             f.write('// dur: 앞뒤 무음을 뺀 줄 전체의 길이 ms(가장 큰 크기에서 35dB 안쪽의 처음 ~ 끝)\n')
         f.write('window.PRON_MEASURE = ' + json.dumps(out, ensure_ascii=False, separators=(',', ':')) + ';\n')
@@ -679,7 +736,7 @@ def main():
             if passes(m, res[m['id']], res):   # 짝을 다시 만들어 이제 통과해요
                 continue
             lang = voices[m['sp']].get('lang', 'en')
-            text = vs.bare(m['text']) if lang == 'ko' else vs.readable(m['text'])
+            text = vs.line_text(m['text'], voices[m['sp']])
             got = None
             for sd in seeds:
                 try:

@@ -97,6 +97,14 @@ def encoder():
     return 'wav', lambda src, dst: shutil.copyfile(src, dst)
 
 
+def line_text(text, voice):
+    """대화 줄을 만들 때 읽을 글: 한국어(lang ko) 사람은 bare, 영어는 readable.
+    "pauseWords": true면 낱말 사이에 쉼표를 넣어 끊어 읽어요 — 발음 튜토리얼의 한국어식 비교 소리를 낱말마다 끊어 읽게
+    (한국어 목소리도 받침을 다음 모음에 이어 읽어서: 턴 오프 → 터노프). 파일 이름 = 줄 id는 원래 글로 정하니 바뀌지 않아요"""
+    s = bare(text) if voice.get('lang', 'en') == 'ko' else readable(text)
+    return re.sub(r'\s+', ', ', s.strip()) if voice.get('pauseWords') else s
+
+
 def bare(text):
     """자막이 괄호 안의 영어에서 나뉘면 조각 앞에 ')' · 끝에 '('가 남아요(누구에 대한 문제인지( · ), 무엇을 묻는지.).
     엔진은 앞의 ')'를 '픽'처럼 짧은 소리로 읽어서 떼어요(파일 이름 = 조각 id는 원래 글로 정하니 바뀌지 않아요)"""

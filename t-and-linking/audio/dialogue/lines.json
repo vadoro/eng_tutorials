@@ -1,0 +1,1375 @@
+{
+ "slug": "t-and-linking",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "ko": 17,
+  "tc": 93,
+  "tf": 39,
+  "uf": 39,
+  "um": 39
+ },
+ "lines": [
+  {
+   "id": "ko-549495ed",
+   "sp": "ko",
+   "text": "워터",
+   "from": "video"
+  },
+  {
+   "id": "tc-0ef06a63",
+   "sp": "tc",
+   "text": "water",
+   "from": "video"
+  },
+  {
+   "id": "tc-10254a47",
+   "sp": "tc",
+   "text": "metal",
+   "from": "video"
+  },
+  {
+   "id": "tc-bdf0b677",
+   "sp": "tc",
+   "text": "medal",
+   "from": "video"
+  },
+  {
+   "id": "tf-c5ebe548",
+   "sp": "tf",
+   "text": "metal",
+   "from": "video"
+  },
+  {
+   "id": "tf-75957cb8",
+   "sp": "tf",
+   "text": "medal",
+   "from": "video"
+  },
+  {
+   "id": "uf-1cb69b01",
+   "sp": "uf",
+   "text": "metal",
+   "from": "video"
+  },
+  {
+   "id": "uf-ccfe0331",
+   "sp": "uf",
+   "text": "medal",
+   "from": "video"
+  },
+  {
+   "id": "um-828e8f20",
+   "sp": "um",
+   "text": "metal",
+   "from": "video"
+  },
+  {
+   "id": "um-705a6010",
+   "sp": "um",
+   "text": "medal",
+   "from": "video"
+  },
+  {
+   "id": "tc-99ef7543",
+   "sp": "tc",
+   "text": "writer",
+   "from": "video"
+  },
+  {
+   "id": "tc-f2d2a394",
+   "sp": "tc",
+   "text": "rider",
+   "from": "video"
+  },
+  {
+   "id": "tf-6d9cb396",
+   "sp": "tf",
+   "text": "writer",
+   "from": "video"
+  },
+  {
+   "id": "tf-3e258853",
+   "sp": "tf",
+   "text": "rider",
+   "from": "video"
+  },
+  {
+   "id": "uf-9c1121d5",
+   "sp": "uf",
+   "text": "writer",
+   "from": "video"
+  },
+  {
+   "id": "uf-bd3ab236",
+   "sp": "uf",
+   "text": "rider",
+   "from": "video"
+  },
+  {
+   "id": "um-0597714e",
+   "sp": "um",
+   "text": "writer",
+   "from": "video"
+  },
+  {
+   "id": "um-0b40da9b",
+   "sp": "um",
+   "text": "rider",
+   "from": "video"
+  },
+  {
+   "id": "tc-e1679e76",
+   "sp": "tc",
+   "text": "hotel",
+   "from": "video"
+  },
+  {
+   "id": "tf-0c8a25d4",
+   "sp": "tf",
+   "text": "water",
+   "from": "video"
+  },
+  {
+   "id": "tf-b82aef59",
+   "sp": "tf",
+   "text": "hotel",
+   "from": "video"
+  },
+  {
+   "id": "uf-c261adf5",
+   "sp": "uf",
+   "text": "water",
+   "from": "video"
+  },
+  {
+   "id": "uf-125c3cac",
+   "sp": "uf",
+   "text": "hotel",
+   "from": "video"
+  },
+  {
+   "id": "um-4f99782c",
+   "sp": "um",
+   "text": "water",
+   "from": "video"
+  },
+  {
+   "id": "um-9c78a801",
+   "sp": "um",
+   "text": "hotel",
+   "from": "video"
+  },
+  {
+   "id": "tc-938c3bb7",
+   "sp": "tc",
+   "text": "top",
+   "from": "video"
+  },
+  {
+   "id": "tc-9972ad43",
+   "sp": "tc",
+   "text": "ten",
+   "from": "video"
+  },
+  {
+   "id": "tc-d643e27c",
+   "sp": "tc",
+   "text": "stop",
+   "from": "video"
+  },
+  {
+   "id": "tc-2e362179",
+   "sp": "tc",
+   "text": "style",
+   "from": "video"
+  },
+  {
+   "id": "tc-e32bf20d",
+   "sp": "tc",
+   "text": "stay",
+   "from": "video"
+  },
+  {
+   "id": "tc-20304adb",
+   "sp": "tc",
+   "text": "city",
+   "from": "video"
+  },
+  {
+   "id": "tc-841de438",
+   "sp": "tc",
+   "text": "party",
+   "from": "video"
+  },
+  {
+   "id": "tc-4afad4b0",
+   "sp": "tc",
+   "text": "button",
+   "from": "video"
+  },
+  {
+   "id": "tc-48c9450f",
+   "sp": "tc",
+   "text": "mountain",
+   "from": "video"
+  },
+  {
+   "id": "tc-04051a69",
+   "sp": "tc",
+   "text": "twenty",
+   "from": "video"
+  },
+  {
+   "id": "tc-1a5f38a1",
+   "sp": "tc",
+   "text": "internet",
+   "from": "video"
+  },
+  {
+   "id": "tc-55801058",
+   "sp": "tc",
+   "text": "cat",
+   "from": "video"
+  },
+  {
+   "id": "tc-68b43d4f",
+   "sp": "tc",
+   "text": "hot",
+   "from": "video"
+  },
+  {
+   "id": "tc-16f26266",
+   "sp": "tc",
+   "text": "better",
+   "from": "video"
+  },
+  {
+   "id": "tc-a48abcac",
+   "sp": "tc",
+   "text": "getting",
+   "from": "video"
+  },
+  {
+   "id": "tc-1b2e4d48",
+   "sp": "tc",
+   "text": "photo",
+   "from": "video"
+  },
+  {
+   "id": "tc-683b3a78",
+   "sp": "tc",
+   "text": "ladder",
+   "from": "video"
+  },
+  {
+   "id": "tc-7a35d61f",
+   "sp": "tc",
+   "text": "Italy",
+   "from": "video"
+  },
+  {
+   "id": "tc-b076654c",
+   "sp": "tc",
+   "text": "Italian",
+   "from": "video"
+  },
+  {
+   "id": "tc-fef6ba65",
+   "sp": "tc",
+   "text": "atom",
+   "from": "video"
+  },
+  {
+   "id": "tc-06f37485",
+   "sp": "tc",
+   "text": "atomic",
+   "from": "video"
+  },
+  {
+   "id": "tc-5efd2a1b",
+   "sp": "tc",
+   "text": "photographer",
+   "from": "video"
+  },
+  {
+   "id": "tc-f8a08c24",
+   "sp": "tc",
+   "text": "thirty",
+   "from": "video"
+  },
+  {
+   "id": "tc-b7a46db3",
+   "sp": "tc",
+   "text": "thirteen",
+   "from": "video"
+  },
+  {
+   "id": "tc-705cef6e",
+   "sp": "tc",
+   "text": "certain",
+   "from": "video"
+  },
+  {
+   "id": "tc-66cb1863",
+   "sp": "tc",
+   "text": "written",
+   "from": "video"
+  },
+  {
+   "id": "tc-85e8761d",
+   "sp": "tc",
+   "text": "center",
+   "from": "video"
+  },
+  {
+   "id": "tc-b493f79d",
+   "sp": "tc",
+   "text": "winter",
+   "from": "video"
+  },
+  {
+   "id": "tc-a6abce1f",
+   "sp": "tc",
+   "text": "interview",
+   "from": "video"
+  },
+  {
+   "id": "tc-90b16130",
+   "sp": "tc",
+   "text": "get",
+   "from": "video"
+  },
+  {
+   "id": "tc-e99bbebd",
+   "sp": "tc",
+   "text": "get it",
+   "from": "video"
+  },
+  {
+   "id": "ko-ff8165c3",
+   "sp": "ko",
+   "text": "겟 잇",
+   "from": "video"
+  },
+  {
+   "id": "tc-b746827b",
+   "sp": "tc",
+   "text": "what about",
+   "from": "video"
+  },
+  {
+   "id": "ko-feea743b",
+   "sp": "ko",
+   "text": "왓 어바웃",
+   "from": "video"
+  },
+  {
+   "id": "tc-e92fbfd1",
+   "sp": "tc",
+   "text": "a lot of",
+   "from": "video"
+  },
+  {
+   "id": "ko-fa8fa103",
+   "sp": "ko",
+   "text": "어 로트 오브",
+   "from": "video"
+  },
+  {
+   "id": "tc-1900be0d",
+   "sp": "tc",
+   "text": "not at all",
+   "from": "video"
+  },
+  {
+   "id": "ko-0816b8a6",
+   "sp": "ko",
+   "text": "낫 애트 올",
+   "from": "video"
+  },
+  {
+   "id": "tc-e92f31c7",
+   "sp": "tc",
+   "text": "put it on",
+   "from": "video"
+  },
+  {
+   "id": "ko-3b0ab5df",
+   "sp": "ko",
+   "text": "풋 잇 온",
+   "from": "video"
+  },
+  {
+   "id": "ko-d01a571a",
+   "sp": "ko",
+   "text": "픽 잇 업",
+   "from": "video"
+  },
+  {
+   "id": "tc-e70c8b53",
+   "sp": "tc",
+   "text": "pick it up",
+   "from": "video"
+  },
+  {
+   "id": "tc-6d784f3b",
+   "sp": "tc",
+   "text": "an apple",
+   "from": "video"
+  },
+  {
+   "id": "ko-e260e425",
+   "sp": "ko",
+   "text": "언 애플",
+   "from": "video"
+  },
+  {
+   "id": "tc-1bb4fb96",
+   "sp": "tc",
+   "text": "turn off",
+   "from": "video"
+  },
+  {
+   "id": "ko-8c24a125",
+   "sp": "ko",
+   "text": "턴 오프",
+   "from": "video"
+  },
+  {
+   "id": "tc-07449f9d",
+   "sp": "tc",
+   "text": "check it out",
+   "from": "video"
+  },
+  {
+   "id": "ko-c2012c49",
+   "sp": "ko",
+   "text": "체크 잇 아웃",
+   "from": "video"
+  },
+  {
+   "id": "tc-6ae9c365",
+   "sp": "tc",
+   "text": "come on",
+   "from": "video"
+  },
+  {
+   "id": "ko-31108e87",
+   "sp": "ko",
+   "text": "컴 온",
+   "from": "video"
+  },
+  {
+   "id": "tc-6504277e",
+   "sp": "tc",
+   "text": "did you",
+   "from": "video"
+  },
+  {
+   "id": "tc-ec5de3fe",
+   "sp": "tc",
+   "text": "would you",
+   "from": "video"
+  },
+  {
+   "id": "tc-b1339c31",
+   "sp": "tc",
+   "text": "don't you",
+   "from": "video"
+  },
+  {
+   "id": "tc-ac977110",
+   "sp": "tc",
+   "text": "what about you",
+   "from": "video"
+  },
+  {
+   "id": "tc-de4842c9",
+   "sp": "tc",
+   "text": "What about a party at the hotel?",
+   "from": "video"
+  },
+  {
+   "id": "tc-73e86149",
+   "sp": "tc",
+   "text": "Put it on the computer.",
+   "from": "video"
+  },
+  {
+   "id": "tc-49f8bb15",
+   "sp": "tc",
+   "text": "Would you like some water?",
+   "from": "video"
+  },
+  {
+   "id": "ko-b83dbd67",
+   "sp": "ko",
+   "text": "컴퓨터",
+   "from": "video"
+  },
+  {
+   "id": "tc-0ecaafdd",
+   "sp": "tc",
+   "text": "computer",
+   "from": "video"
+  },
+  {
+   "id": "ko-0c10690a",
+   "sp": "ko",
+   "text": "인터넷",
+   "from": "video"
+  },
+  {
+   "id": "ko-6376836d",
+   "sp": "ko",
+   "text": "파티",
+   "from": "video"
+  },
+  {
+   "id": "ko-a1b6e48b",
+   "sp": "ko",
+   "text": "토마토",
+   "from": "video"
+  },
+  {
+   "id": "tc-760b8a0e",
+   "sp": "tc",
+   "text": "tomato",
+   "from": "video"
+  },
+  {
+   "id": "ko-da2c7cb7",
+   "sp": "ko",
+   "text": "배터리",
+   "from": "video"
+  },
+  {
+   "id": "tc-709f60b1",
+   "sp": "tc",
+   "text": "battery",
+   "from": "video"
+  },
+  {
+   "id": "ko-8b4c343d",
+   "sp": "ko",
+   "text": "시티",
+   "from": "video"
+  },
+  {
+   "id": "tc-f7e374c0",
+   "sp": "tc",
+   "text": "attack",
+   "from": "video"
+  },
+  {
+   "id": "tc-3a6e5d5c",
+   "sp": "tc",
+   "text": "forty",
+   "from": "video"
+  },
+  {
+   "id": "tc-41f43b54",
+   "sp": "tc",
+   "text": "fourteen",
+   "from": "video"
+  },
+  {
+   "id": "tc-56996e7a",
+   "sp": "tc",
+   "text": "eighty",
+   "from": "video"
+  },
+  {
+   "id": "tc-2657b075",
+   "sp": "tc",
+   "text": "eighteen",
+   "from": "video"
+  },
+  {
+   "id": "tc-c89bbfc1",
+   "sp": "tc",
+   "text": "Can I have some water?",
+   "from": "video"
+  },
+  {
+   "id": "tc-da2f8a3a",
+   "sp": "tc",
+   "text": "This is a big city.",
+   "from": "video"
+  },
+  {
+   "id": "tc-a9ca4ead",
+   "sp": "tc",
+   "text": "Your English is getting better.",
+   "from": "video"
+  },
+  {
+   "id": "tc-be768f7b",
+   "sp": "tc",
+   "text": "The party was great.",
+   "from": "video"
+  },
+  {
+   "id": "tc-5075f373",
+   "sp": "tc",
+   "text": "I won a medal.",
+   "from": "video"
+  },
+  {
+   "id": "tc-a1a6f00b",
+   "sp": "tc",
+   "text": "My computer is new.",
+   "from": "video"
+  },
+  {
+   "id": "tc-0c8d6c16",
+   "sp": "tc",
+   "text": "Pass me a tomato.",
+   "from": "video"
+  },
+  {
+   "id": "tc-76af06f0",
+   "sp": "tc",
+   "text": "I love Italy.",
+   "from": "video"
+  },
+  {
+   "id": "tc-f128baec",
+   "sp": "tc",
+   "text": "She is Italian.",
+   "from": "video"
+  },
+  {
+   "id": "tc-24ecaef2",
+   "sp": "tc",
+   "text": "Take a photo.",
+   "from": "video"
+  },
+  {
+   "id": "tc-f0db7cc9",
+   "sp": "tc",
+   "text": "He is a photographer.",
+   "from": "video"
+  },
+  {
+   "id": "tc-28532579",
+   "sp": "tc",
+   "text": "The hotel is new.",
+   "from": "video"
+  },
+  {
+   "id": "tc-aa20690d",
+   "sp": "tc",
+   "text": "She is thirteen.",
+   "from": "video"
+  },
+  {
+   "id": "tc-9d378943",
+   "sp": "tc",
+   "text": "He is thirty.",
+   "from": "video"
+  },
+  {
+   "id": "tc-32b268fe",
+   "sp": "tc",
+   "text": "Press the button.",
+   "from": "video"
+  },
+  {
+   "id": "tc-af436e38",
+   "sp": "tc",
+   "text": "I see a mountain.",
+   "from": "video"
+  },
+  {
+   "id": "tc-989d26fc",
+   "sp": "tc",
+   "text": "Are you certain?",
+   "from": "video"
+  },
+  {
+   "id": "tc-f7644287",
+   "sp": "tc",
+   "text": "I have twenty dollars.",
+   "from": "video"
+  },
+  {
+   "id": "tc-179c92fe",
+   "sp": "tc",
+   "text": "I use the internet.",
+   "from": "video"
+  },
+  {
+   "id": "tc-92ddbab4",
+   "sp": "tc",
+   "text": "Meet me in the center.",
+   "from": "video"
+  },
+  {
+   "id": "tc-94329bbb",
+   "sp": "tc",
+   "text": "I like winter.",
+   "from": "video"
+  },
+  {
+   "id": "tc-9c37e427",
+   "sp": "tc",
+   "text": "Pick it up.",
+   "from": "video"
+  },
+  {
+   "id": "tc-5c495529",
+   "sp": "tc",
+   "text": "Check it out.",
+   "from": "video"
+  },
+  {
+   "id": "tc-7656f0f9",
+   "sp": "tc",
+   "text": "Not at all.",
+   "from": "video"
+  },
+  {
+   "id": "tc-175b3b42",
+   "sp": "tc",
+   "text": "A lot of people.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d9bf94a8",
+   "sp": "tc",
+   "text": "I ate an apple.",
+   "from": "video"
+  },
+  {
+   "id": "tc-6dd6a63e",
+   "sp": "tc",
+   "text": "Come on in.",
+   "from": "video"
+  },
+  {
+   "id": "tc-4343b0dd",
+   "sp": "tc",
+   "text": "Did you eat?",
+   "from": "video"
+  },
+  {
+   "id": "tf-9b11aa33",
+   "sp": "tf",
+   "text": "forty",
+   "from": "lab"
+  },
+  {
+   "id": "tf-614e0c3d",
+   "sp": "tf",
+   "text": "fourteen",
+   "from": "lab"
+  },
+  {
+   "id": "tf-ab080b4e",
+   "sp": "tf",
+   "text": "city",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-1f19486d",
+   "sp": "uf",
+   "text": "city",
+   "from": "hvt"
+  },
+  {
+   "id": "um-1cf427f6",
+   "sp": "um",
+   "text": "city",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-bf0aad03",
+   "sp": "tf",
+   "text": "better",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-e1bb7e6c",
+   "sp": "uf",
+   "text": "better",
+   "from": "hvt"
+  },
+  {
+   "id": "um-8340e68b",
+   "sp": "um",
+   "text": "better",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-e340244b",
+   "sp": "tf",
+   "text": "party",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-13948426",
+   "sp": "uf",
+   "text": "party",
+   "from": "hvt"
+  },
+  {
+   "id": "um-56187c53",
+   "sp": "um",
+   "text": "party",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-f2fcd723",
+   "sp": "tf",
+   "text": "getting",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-c546af6a",
+   "sp": "uf",
+   "text": "getting",
+   "from": "hvt"
+  },
+  {
+   "id": "um-e3d4d51b",
+   "sp": "um",
+   "text": "getting",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-24df46d7",
+   "sp": "tf",
+   "text": "photo",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-d9157282",
+   "sp": "uf",
+   "text": "photo",
+   "from": "hvt"
+  },
+  {
+   "id": "um-2f4bb37f",
+   "sp": "um",
+   "text": "photo",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-4d95c808",
+   "sp": "tf",
+   "text": "Italy",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-9a918df9",
+   "sp": "uf",
+   "text": "Italy",
+   "from": "hvt"
+  },
+  {
+   "id": "um-e0424b10",
+   "sp": "um",
+   "text": "Italy",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-dd430764",
+   "sp": "tf",
+   "text": "atom",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-44f8de77",
+   "sp": "uf",
+   "text": "atom",
+   "from": "hvt"
+  },
+  {
+   "id": "um-818a94ec",
+   "sp": "um",
+   "text": "atom",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-d5a459e9",
+   "sp": "tf",
+   "text": "thirty",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-33416956",
+   "sp": "uf",
+   "text": "thirty",
+   "from": "hvt"
+  },
+  {
+   "id": "um-2c6e8341",
+   "sp": "um",
+   "text": "thirty",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-5c9c145a",
+   "sp": "uf",
+   "text": "forty",
+   "from": "hvt"
+  },
+  {
+   "id": "um-499b394b",
+   "sp": "um",
+   "text": "forty",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-82e08f27",
+   "sp": "tf",
+   "text": "eighty",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-02da9f8c",
+   "sp": "uf",
+   "text": "eighty",
+   "from": "hvt"
+  },
+  {
+   "id": "um-22cc851f",
+   "sp": "um",
+   "text": "eighty",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-b474da54",
+   "sp": "tf",
+   "text": "computer",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-291ad477",
+   "sp": "uf",
+   "text": "computer",
+   "from": "hvt"
+  },
+  {
+   "id": "um-f10bc63c",
+   "sp": "um",
+   "text": "computer",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-f3205fc2",
+   "sp": "tf",
+   "text": "battery",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-8e09edf3",
+   "sp": "uf",
+   "text": "battery",
+   "from": "hvt"
+  },
+  {
+   "id": "um-6e50fe4a",
+   "sp": "um",
+   "text": "battery",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-69045f61",
+   "sp": "tf",
+   "text": "attack",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-db07e6b6",
+   "sp": "uf",
+   "text": "attack",
+   "from": "hvt"
+  },
+  {
+   "id": "um-16621139",
+   "sp": "um",
+   "text": "attack",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-851afccf",
+   "sp": "tf",
+   "text": "Italian",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-3c05b702",
+   "sp": "uf",
+   "text": "Italian",
+   "from": "hvt"
+  },
+  {
+   "id": "um-e9c06ec7",
+   "sp": "um",
+   "text": "Italian",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-4af37a7c",
+   "sp": "tf",
+   "text": "atomic",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-3329971b",
+   "sp": "uf",
+   "text": "atomic",
+   "from": "hvt"
+  },
+  {
+   "id": "um-f0a81574",
+   "sp": "um",
+   "text": "atomic",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-67c60b36",
+   "sp": "tf",
+   "text": "photographer",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-d972640d",
+   "sp": "uf",
+   "text": "photographer",
+   "from": "hvt"
+  },
+  {
+   "id": "um-f09260be",
+   "sp": "um",
+   "text": "photographer",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-625a0672",
+   "sp": "tf",
+   "text": "thirteen",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-e212d129",
+   "sp": "uf",
+   "text": "thirteen",
+   "from": "hvt"
+  },
+  {
+   "id": "um-d6009b8a",
+   "sp": "um",
+   "text": "thirteen",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-9974e6e2",
+   "sp": "uf",
+   "text": "fourteen",
+   "from": "hvt"
+  },
+  {
+   "id": "um-6601b265",
+   "sp": "um",
+   "text": "fourteen",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-565ae4c4",
+   "sp": "tf",
+   "text": "eighteen",
+   "from": "hvt"
+  },
+  {
+   "id": "uf-adcd0ffb",
+   "sp": "uf",
+   "text": "eighteen",
+   "from": "hvt"
+  },
+  {
+   "id": "um-d88c7c5c",
+   "sp": "um",
+   "text": "eighteen",
+   "from": "hvt"
+  },
+  {
+   "id": "tf-7f5d4edb",
+   "sp": "tf",
+   "text": "get",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-f33c1a76",
+   "sp": "uf",
+   "text": "get",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-4cad9d53",
+   "sp": "um",
+   "text": "get",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-ec720544",
+   "sp": "tf",
+   "text": "get it",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-af71fa3f",
+   "sp": "uf",
+   "text": "get it",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-4a1e753c",
+   "sp": "um",
+   "text": "get it",
+   "from": "tswitch"
+  },
+  {
+   "id": "tc-33a376b6",
+   "sp": "tc",
+   "text": "what",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-44837123",
+   "sp": "tf",
+   "text": "what",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-3bedecb0",
+   "sp": "uf",
+   "text": "what",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-441710bb",
+   "sp": "um",
+   "text": "what",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-67040d22",
+   "sp": "tf",
+   "text": "what about",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-c5bd1a85",
+   "sp": "uf",
+   "text": "what about",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-bd8e4c0a",
+   "sp": "um",
+   "text": "what about",
+   "from": "tswitch"
+  },
+  {
+   "id": "tc-b3c79243",
+   "sp": "tc",
+   "text": "lot",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-9734dd1c",
+   "sp": "tf",
+   "text": "lot",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-fb13de19",
+   "sp": "uf",
+   "text": "lot",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-54f274f4",
+   "sp": "um",
+   "text": "lot",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-9e5f30c8",
+   "sp": "tf",
+   "text": "a lot of",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-1d90ede3",
+   "sp": "uf",
+   "text": "a lot of",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-f9811aa0",
+   "sp": "um",
+   "text": "a lot of",
+   "from": "tswitch"
+  },
+  {
+   "id": "tc-45e4e5dd",
+   "sp": "tc",
+   "text": "put",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-92938a6a",
+   "sp": "tf",
+   "text": "put",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-dbf98f9f",
+   "sp": "uf",
+   "text": "put",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-fd594142",
+   "sp": "um",
+   "text": "put",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-190385b4",
+   "sp": "tf",
+   "text": "put it on",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-4c639721",
+   "sp": "uf",
+   "text": "put it on",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-b5572e9c",
+   "sp": "um",
+   "text": "put it on",
+   "from": "tswitch"
+  },
+  {
+   "id": "tc-90d9aa25",
+   "sp": "tc",
+   "text": "not",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-870f960e",
+   "sp": "tf",
+   "text": "not",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-2e532447",
+   "sp": "uf",
+   "text": "not",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-247d49a6",
+   "sp": "um",
+   "text": "not",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-c5546c7c",
+   "sp": "tf",
+   "text": "not at all",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-d4953cdb",
+   "sp": "uf",
+   "text": "not at all",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-863a9784",
+   "sp": "um",
+   "text": "not at all",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-32ae9e10",
+   "sp": "tf",
+   "text": "winter",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-ac4263cf",
+   "sp": "uf",
+   "text": "winter",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-8f068d38",
+   "sp": "um",
+   "text": "winter",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-75ea83d8",
+   "sp": "tf",
+   "text": "center",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-ed92a82f",
+   "sp": "uf",
+   "text": "center",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-1b080150",
+   "sp": "um",
+   "text": "center",
+   "from": "tswitch"
+  },
+  {
+   "id": "tf-726c4fe4",
+   "sp": "tf",
+   "text": "twenty",
+   "from": "tswitch"
+  },
+  {
+   "id": "uf-7aaea407",
+   "sp": "uf",
+   "text": "twenty",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-d39b9b4c",
+   "sp": "um",
+   "text": "twenty",
+   "from": "tswitch"
+  },
+  {
+   "id": "um-3dc08be8",
+   "sp": "um",
+   "text": "Pick it up.",
+   "from": "drill"
+  },
+  {
+   "id": "tf-b91e2db4",
+   "sp": "tf",
+   "text": "Come on.",
+   "from": "drill"
+  },
+  {
+   "id": "uf-bbeb1037",
+   "sp": "uf",
+   "text": "Check it out.",
+   "from": "drill"
+  }
+ ]
+}
