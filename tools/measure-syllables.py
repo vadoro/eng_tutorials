@@ -69,6 +69,8 @@ RISE_MAX = 3.0
 PAIR_MIN = 1.15   # 목이 울리는 끝 앞 모음 ÷ 울리지 않는 끝 앞 모음 (같은 목소리)
 FP_F2 = 80        # 앞 모음 짝: 긴장한 i의 F2 − 느슨한 ɪ의 F2 (Hz) 이상
 FP_F1 = 25        # 뒤 모음 짝: 느슨한 ʊ의 F1 − 긴장한 u의 F1 (Hz) 이상 · 앞 짝은 ɪ의 F1이 i보다 이만큼 넘게 낮으면 안 돼요
+F2_BACK_MAX = 2200   # 뒤 모음(u · ʊ)으로 잰 F2가 이보다 크면 측정 오류로 봐요
+F2_FRONT_MIN = 1000  # 앞 모음(i · ɪ)으로 잰 F2가 이보다 작으면 측정 오류로 봐요
 OP_F1 = 50        # 입 벌림 짝: 크게 벌린 모음(æ · ɑ)의 F1 − 덜 벌린 모음(ɛ · ʌ)의 F1 (Hz) 이상
 OP_F2 = 100       # 입 벌림 뒤 짝: F1 차가 모자라면 덜 벌린 ʌ의 F2 − 크게 벌린 ɑ의 F2 (Hz) 이상이어도 통과
 
@@ -308,8 +310,16 @@ def file_key(path):
     return (os.path.abspath(path), int(os.path.getmtime(path)), os.path.getsize(path))
 
 
+# 소리가 같은 낱말(받아쓰기가 어느 쪽으로 적어도 같은 소리) — 받아쓰기만으로는 가를 수 없어요
+HOMOPHONES = {'heal': 'heel', 'peal': 'peel', 'reed': 'read', 'weak': 'week', 'feat': 'feet', 'meat': 'meet', 'sea': 'see',
+              'knot': 'not', 'won': 'one', 'hole': 'whole', 'steal': 'steel', 'seen': 'scene', 'leek': 'leak'}
+
+
 def heard_ok(lang, heard, text):
-    return edit(norm_ko(heard), norm_ko(text)) <= 1 if lang == 'ko' else norm_en(heard) == norm_en(text)
+    if lang == 'ko':
+        return edit(norm_ko(heard), norm_ko(text)) <= 1
+    h = lambda s: [HOMOPHONES.get(w, w) for w in norm_en(s)]
+    return h(heard) == h(text)
 
 
 def prefetch_asr(model, jobs, tmp, max_s=26.0, gap_s=1.0):
@@ -414,6 +424,19 @@ def pair_ratio(m, r, res):
     return a / b if m.get('long') else b / a
 
 
+def f_odd(m, r):
+    """잰 F2가 그 모음에 있을 수 없는 자리면 이유 글(자동 측정 오류 — 지도에 엉뚱한 점이 찍혀요), 아니면 ''.
+    뒤 모음(u · ʊ)의 F2가 2200Hz 넘음 · 앞 모음(i · ɪ)의 F2가 1000Hz 못 됨. 앞뒤를 아는 줄(front)만 봐요."""
+    if 'front' not in m or 'F' not in r:
+        return ''
+    f2 = r['F'][1]
+    if m['front'] and f2 < F2_FRONT_MIN:
+        return f' F2 {f2}Hz < {F2_FRONT_MIN}(앞 모음)'
+    if not m['front'] and f2 > F2_BACK_MAX:
+        return f' F2 {f2}Hz > {F2_BACK_MAX}(뒤 모음)'
+    return ''
+
+
 def fpair_check(m, r, res):
     """모음 짝(fpair)이 있으면 (통과?, F1 차 = 느슨 − 긴장, F2 차 = 긴장 − 느슨), 잴 수 없으면 None
     입 벌림 짝(open)이면 (통과?, F1 차 = 크게 − 덜, F2 차 = 덜 − 크게)"""
@@ -443,6 +466,8 @@ def passes(m, r, res=None):
                 return False
         if m.get('formant') and 'F' not in r:
             return False
+        if f_odd(m, r):
+            return False
         if m.get('fpair') and res is not None:
             q = fpair_check(m, r, res)
             if q is not None and not q[0]:
@@ -468,6 +493,7 @@ def tag(m, r, res=None):
     q = pair_ratio(m, r, res) if m.get('pair') and res is not None else None
     if q is not None and q < PAIR_MIN:
         t += f" 짝과 모음 길이 비 {q:.2f} < {PAIR_MIN}"
+    t += f_odd(m, r)
     q = fpair_check(m, r, res) if m.get('fpair') and res is not None else None
     if q is not None and not q[0]:
         t += f" 짝과 모음 자리 F1차 {q[1]:+d} · F2차 {q[2]:+d}"
