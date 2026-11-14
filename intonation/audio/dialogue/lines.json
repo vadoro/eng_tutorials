@@ -1,0 +1,1164 @@
+{
+ "slug": "intonation",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "tc": 48,
+  "tf": 48,
+  "uf": 48,
+  "um": 48
+ },
+ "lines": [
+  {
+   "id": "tc-cf6177fd",
+   "sp": "tc",
+   "text": "It's raining.",
+   "from": "video"
+  },
+  {
+   "id": "tc-de618f9a",
+   "sp": "tc",
+   "text": "It's raining?",
+   "from": "video"
+  },
+  {
+   "id": "tc-e8138325",
+   "sp": "tc",
+   "text": "You're a student.",
+   "from": "video"
+  },
+  {
+   "id": "tc-f7139ac2",
+   "sp": "tc",
+   "text": "You're a student?",
+   "from": "video"
+  },
+  {
+   "id": "tc-2d2d3d9e",
+   "sp": "tc",
+   "text": "She's at home.",
+   "from": "video"
+  },
+  {
+   "id": "tc-3e2d5861",
+   "sp": "tc",
+   "text": "She's at home?",
+   "from": "video"
+  },
+  {
+   "id": "tc-c1353c11",
+   "sp": "tc",
+   "text": "He likes coffee.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d03553ae",
+   "sp": "tc",
+   "text": "He likes coffee?",
+   "from": "video"
+  },
+  {
+   "id": "uf-52754ed8",
+   "sp": "uf",
+   "text": "She's at home.",
+   "from": "video"
+  },
+  {
+   "id": "uf-6375699b",
+   "sp": "uf",
+   "text": "She's at home?",
+   "from": "video"
+  },
+  {
+   "id": "um-91944a13",
+   "sp": "um",
+   "text": "She's at home.",
+   "from": "video"
+  },
+  {
+   "id": "um-a09461b0",
+   "sp": "um",
+   "text": "She's at home?",
+   "from": "video"
+  },
+  {
+   "id": "tc-7e1b90cb",
+   "sp": "tc",
+   "text": "Are you ready?",
+   "from": "video"
+  },
+  {
+   "id": "tc-9f45a945",
+   "sp": "tc",
+   "text": "Where are you going?",
+   "from": "video"
+  },
+  {
+   "id": "tc-52d5b942",
+   "sp": "tc",
+   "text": "Is it red or blue?",
+   "from": "video"
+  },
+  {
+   "id": "tc-c2a79660",
+   "sp": "tc",
+   "text": "Do you like coffee?",
+   "from": "video"
+  },
+  {
+   "id": "tc-8d1066b3",
+   "sp": "tc",
+   "text": "Is it far from here?",
+   "from": "video"
+  },
+  {
+   "id": "tc-f2d6e628",
+   "sp": "tc",
+   "text": "How was your weekend?",
+   "from": "video"
+  },
+  {
+   "id": "tc-46e1b78f",
+   "sp": "tc",
+   "text": "Is this seat taken?",
+   "from": "video"
+  },
+  {
+   "id": "tc-97e0c279",
+   "sp": "tc",
+   "text": "Have you been to Canada?",
+   "from": "video"
+  },
+  {
+   "id": "tf-04b658be",
+   "sp": "tf",
+   "text": "Are you ready?",
+   "from": "video"
+  },
+  {
+   "id": "uf-1cbdb8a9",
+   "sp": "uf",
+   "text": "Are you ready?",
+   "from": "video"
+  },
+  {
+   "id": "um-23ddbaa6",
+   "sp": "um",
+   "text": "Are you ready?",
+   "from": "video"
+  },
+  {
+   "id": "tc-06f8efc7",
+   "sp": "tc",
+   "text": "Can you help me?",
+   "from": "video"
+  },
+  {
+   "id": "tc-6fbc0b9d",
+   "sp": "tc",
+   "text": "Did you call me?",
+   "from": "video"
+  },
+  {
+   "id": "tc-7c03a79b",
+   "sp": "tc",
+   "text": "What time is it?",
+   "from": "video"
+  },
+  {
+   "id": "tc-2709f8b2",
+   "sp": "tc",
+   "text": "Why are you late?",
+   "from": "video"
+  },
+  {
+   "id": "tf-80df7fae",
+   "sp": "tf",
+   "text": "What time is it?",
+   "from": "video"
+  },
+  {
+   "id": "uf-1417a3a5",
+   "sp": "uf",
+   "text": "What time is it?",
+   "from": "video"
+  },
+  {
+   "id": "um-6909f316",
+   "sp": "um",
+   "text": "What time is it?",
+   "from": "video"
+  },
+  {
+   "id": "tc-9fb3ba9f",
+   "sp": "tc",
+   "text": "Would you like coffee or tea?",
+   "from": "video"
+  },
+  {
+   "id": "tc-4127bda1",
+   "sp": "tc",
+   "text": "Is it today or tomorrow?",
+   "from": "video"
+  },
+  {
+   "id": "tc-35db04b2",
+   "sp": "tc",
+   "text": "You're leaving?",
+   "from": "video"
+  },
+  {
+   "id": "tc-46db1f75",
+   "sp": "tc",
+   "text": "You're leaving.",
+   "from": "video"
+  },
+  {
+   "id": "tc-accea7fb",
+   "sp": "tc",
+   "text": "The store is closed?",
+   "from": "video"
+  },
+  {
+   "id": "tc-9d3b12b2",
+   "sp": "tc",
+   "text": "I said Tuesday, not Monday.",
+   "from": "video"
+  },
+  {
+   "id": "tc-7790b93d",
+   "sp": "tc",
+   "text": "It's ten dollars, not twenty.",
+   "from": "video"
+  },
+  {
+   "id": "tc-2dc3e1c5",
+   "sp": "tc",
+   "text": "We meet at seven, not eight.",
+   "from": "video"
+  },
+  {
+   "id": "tf-d4ff04fe",
+   "sp": "tf",
+   "text": "You're a student.",
+   "from": "video"
+  },
+  {
+   "id": "tf-e5ff1fc1",
+   "sp": "tf",
+   "text": "You're a student?",
+   "from": "video"
+  },
+  {
+   "id": "tf-aa281f74",
+   "sp": "tf",
+   "text": "He likes coffee.",
+   "from": "video"
+  },
+  {
+   "id": "tf-9b2807d7",
+   "sp": "tf",
+   "text": "He likes coffee?",
+   "from": "video"
+  },
+  {
+   "id": "uf-5389e867",
+   "sp": "uf",
+   "text": "You're a student.",
+   "from": "video"
+  },
+  {
+   "id": "uf-4289cda4",
+   "sp": "uf",
+   "text": "You're a student?",
+   "from": "video"
+  },
+  {
+   "id": "uf-189106b3",
+   "sp": "uf",
+   "text": "He likes coffee.",
+   "from": "video"
+  },
+  {
+   "id": "uf-27911e50",
+   "sp": "uf",
+   "text": "He likes coffee?",
+   "from": "video"
+  },
+  {
+   "id": "um-38a6b6fc",
+   "sp": "um",
+   "text": "He likes coffee.",
+   "from": "video"
+  },
+  {
+   "id": "um-29a69f5f",
+   "sp": "um",
+   "text": "He likes coffee?",
+   "from": "video"
+  },
+  {
+   "id": "tf-f7080091",
+   "sp": "tf",
+   "text": "Coffee or tea?",
+   "from": "video"
+  },
+  {
+   "id": "tc-9bce8d38",
+   "sp": "tc",
+   "text": "The store is closed.",
+   "from": "video"
+  },
+  {
+   "id": "tc-049711e0",
+   "sp": "tc",
+   "text": "Where do you live?",
+   "from": "video"
+  },
+  {
+   "id": "tf-4240856c",
+   "sp": "tf",
+   "text": "When does it start?",
+   "from": "video"
+  },
+  {
+   "id": "tc-b086cd90",
+   "sp": "tc",
+   "text": "Do you want to walk or drive?",
+   "from": "video"
+  },
+  {
+   "id": "tc-137a5a85",
+   "sp": "tc",
+   "text": "Should I call you or text you?",
+   "from": "video"
+  },
+  {
+   "id": "uf-636e58b1",
+   "sp": "uf",
+   "text": "I ordered tea, not coffee.",
+   "from": "video"
+  },
+  {
+   "id": "um-6a38f8e0",
+   "sp": "um",
+   "text": "It's black, not brown.",
+   "from": "video"
+  },
+  {
+   "id": "uf-115fa193",
+   "sp": "uf",
+   "text": "It's raining.",
+   "from": "lab"
+  },
+  {
+   "id": "uf-205fb930",
+   "sp": "uf",
+   "text": "It's raining?",
+   "from": "lab"
+  },
+  {
+   "id": "uf-a9fe8346",
+   "sp": "uf",
+   "text": "The store is closed.",
+   "from": "lab"
+  },
+  {
+   "id": "uf-bafe9e09",
+   "sp": "uf",
+   "text": "The store is closed?",
+   "from": "lab"
+  },
+  {
+   "id": "uf-03d467db",
+   "sp": "uf",
+   "text": "You're leaving.",
+   "from": "lab"
+  },
+  {
+   "id": "uf-f2d44d18",
+   "sp": "uf",
+   "text": "You're leaving?",
+   "from": "lab"
+  },
+  {
+   "id": "um-f7e4cc4a",
+   "sp": "um",
+   "text": "It's raining.",
+   "from": "lab"
+  },
+  {
+   "id": "um-08e4e70d",
+   "sp": "um",
+   "text": "It's raining?",
+   "from": "lab"
+  },
+  {
+   "id": "um-9cf04392",
+   "sp": "um",
+   "text": "You're leaving.",
+   "from": "lab"
+  },
+  {
+   "id": "um-adf05e55",
+   "sp": "um",
+   "text": "You're leaving?",
+   "from": "lab"
+  },
+  {
+   "id": "tf-da956452",
+   "sp": "tf",
+   "text": "It's raining.",
+   "from": "all"
+  },
+  {
+   "id": "tf-eb957f15",
+   "sp": "tf",
+   "text": "It's raining?",
+   "from": "all"
+  },
+  {
+   "id": "um-3e0dc156",
+   "sp": "um",
+   "text": "You're a student.",
+   "from": "all"
+  },
+  {
+   "id": "um-2f0da9b9",
+   "sp": "um",
+   "text": "You're a student?",
+   "from": "all"
+  },
+  {
+   "id": "tf-fa1ba59b",
+   "sp": "tf",
+   "text": "She's at home.",
+   "from": "all"
+  },
+  {
+   "id": "tf-e91b8ad8",
+   "sp": "tf",
+   "text": "She's at home?",
+   "from": "all"
+  },
+  {
+   "id": "tf-7ad3e389",
+   "sp": "tf",
+   "text": "The store is closed.",
+   "from": "all"
+  },
+  {
+   "id": "um-90748d71",
+   "sp": "um",
+   "text": "The store is closed.",
+   "from": "all"
+  },
+  {
+   "id": "tf-69d3c8c6",
+   "sp": "tf",
+   "text": "The store is closed?",
+   "from": "all"
+  },
+  {
+   "id": "um-9f74a50e",
+   "sp": "um",
+   "text": "The store is closed?",
+   "from": "all"
+  },
+  {
+   "id": "tf-6b2a213a",
+   "sp": "tf",
+   "text": "You're leaving.",
+   "from": "all"
+  },
+  {
+   "id": "tf-5c2a099d",
+   "sp": "tf",
+   "text": "You're leaving?",
+   "from": "all"
+  },
+  {
+   "id": "tf-bbc3fe07",
+   "sp": "tf",
+   "text": "Do you like coffee?",
+   "from": "all"
+  },
+  {
+   "id": "uf-f6c9f892",
+   "sp": "uf",
+   "text": "Do you like coffee?",
+   "from": "all"
+  },
+  {
+   "id": "um-f89e0b9f",
+   "sp": "um",
+   "text": "Do you like coffee?",
+   "from": "all"
+  },
+  {
+   "id": "tf-b27cca5a",
+   "sp": "tf",
+   "text": "Is it far from here?",
+   "from": "all"
+  },
+  {
+   "id": "uf-9a7ce0e9",
+   "sp": "uf",
+   "text": "Is it far from here?",
+   "from": "all"
+  },
+  {
+   "id": "um-5bd8fa62",
+   "sp": "um",
+   "text": "Is it far from here?",
+   "from": "all"
+  },
+  {
+   "id": "tf-79b524d6",
+   "sp": "tf",
+   "text": "Can you help me?",
+   "from": "all"
+  },
+  {
+   "id": "uf-47fb8f15",
+   "sp": "uf",
+   "text": "Can you help me?",
+   "from": "all"
+  },
+  {
+   "id": "um-6aae7aae",
+   "sp": "um",
+   "text": "Can you help me?",
+   "from": "all"
+  },
+  {
+   "id": "tf-3ed591fc",
+   "sp": "tf",
+   "text": "Is this seat taken?",
+   "from": "all"
+  },
+  {
+   "id": "uf-4e7a3a49",
+   "sp": "uf",
+   "text": "Is this seat taken?",
+   "from": "all"
+  },
+  {
+   "id": "um-3ced86d4",
+   "sp": "um",
+   "text": "Is this seat taken?",
+   "from": "all"
+  },
+  {
+   "id": "tf-30f47df8",
+   "sp": "tf",
+   "text": "Have you been to Canada?",
+   "from": "all"
+  },
+  {
+   "id": "uf-d321aea7",
+   "sp": "uf",
+   "text": "Have you been to Canada?",
+   "from": "all"
+  },
+  {
+   "id": "um-9a072450",
+   "sp": "um",
+   "text": "Have you been to Canada?",
+   "from": "all"
+  },
+  {
+   "id": "tf-1299cdbc",
+   "sp": "tf",
+   "text": "Did you call me?",
+   "from": "all"
+  },
+  {
+   "id": "uf-24138187",
+   "sp": "uf",
+   "text": "Did you call me?",
+   "from": "all"
+  },
+  {
+   "id": "um-662ddb74",
+   "sp": "um",
+   "text": "Did you call me?",
+   "from": "all"
+  },
+  {
+   "id": "tc-5fcad754",
+   "sp": "tc",
+   "text": "Are you going?",
+   "from": "all"
+  },
+  {
+   "id": "tf-fc793991",
+   "sp": "tf",
+   "text": "Are you going?",
+   "from": "all"
+  },
+  {
+   "id": "uf-18e8f9ce",
+   "sp": "uf",
+   "text": "Are you going?",
+   "from": "all"
+  },
+  {
+   "id": "um-b45a37d9",
+   "sp": "um",
+   "text": "Are you going?",
+   "from": "all"
+  },
+  {
+   "id": "tc-7273e11d",
+   "sp": "tc",
+   "text": "Is it far?",
+   "from": "all"
+  },
+  {
+   "id": "tf-445b12d0",
+   "sp": "tf",
+   "text": "Is it far?",
+   "from": "all"
+  },
+  {
+   "id": "uf-c1ab1993",
+   "sp": "uf",
+   "text": "Is it far?",
+   "from": "all"
+  },
+  {
+   "id": "um-59e54288",
+   "sp": "um",
+   "text": "Is it far?",
+   "from": "all"
+  },
+  {
+   "id": "tc-f2e06b73",
+   "sp": "tc",
+   "text": "Do you like it?",
+   "from": "all"
+  },
+  {
+   "id": "tf-4007d794",
+   "sp": "tf",
+   "text": "Do you like it?",
+   "from": "all"
+  },
+  {
+   "id": "uf-48f8f375",
+   "sp": "uf",
+   "text": "Do you like it?",
+   "from": "all"
+  },
+  {
+   "id": "um-e2dddb6c",
+   "sp": "um",
+   "text": "Do you like it?",
+   "from": "all"
+  },
+  {
+   "id": "tc-33705813",
+   "sp": "tc",
+   "text": "Did you call?",
+   "from": "all"
+  },
+  {
+   "id": "tf-edda9dc4",
+   "sp": "tf",
+   "text": "Did you call?",
+   "from": "all"
+  },
+  {
+   "id": "uf-bb0c49e1",
+   "sp": "uf",
+   "text": "Did you call?",
+   "from": "all"
+  },
+  {
+   "id": "um-d189c0bc",
+   "sp": "um",
+   "text": "Did you call?",
+   "from": "all"
+  },
+  {
+   "id": "tc-2367b2c0",
+   "sp": "tc",
+   "text": "Would you like coffee?",
+   "from": "all"
+  },
+  {
+   "id": "tf-5a7ea20d",
+   "sp": "tf",
+   "text": "Would you like coffee?",
+   "from": "all"
+  },
+  {
+   "id": "uf-b4e22452",
+   "sp": "uf",
+   "text": "Would you like coffee?",
+   "from": "all"
+  },
+  {
+   "id": "um-3967de05",
+   "sp": "um",
+   "text": "Would you like coffee?",
+   "from": "all"
+  },
+  {
+   "id": "tc-1a548d3f",
+   "sp": "tc",
+   "text": "Is it red?",
+   "from": "all"
+  },
+  {
+   "id": "tf-981dc71a",
+   "sp": "tf",
+   "text": "Is it red?",
+   "from": "all"
+  },
+  {
+   "id": "uf-9c5927a9",
+   "sp": "uf",
+   "text": "Is it red?",
+   "from": "all"
+  },
+  {
+   "id": "um-014018d2",
+   "sp": "um",
+   "text": "Is it red?",
+   "from": "all"
+  },
+  {
+   "id": "tc-7b008b71",
+   "sp": "tc",
+   "text": "Is it today?",
+   "from": "all"
+  },
+  {
+   "id": "tf-664a8f94",
+   "sp": "tf",
+   "text": "Is it today?",
+   "from": "all"
+  },
+  {
+   "id": "uf-08a9ddc3",
+   "sp": "uf",
+   "text": "Is it today?",
+   "from": "all"
+  },
+  {
+   "id": "um-2ea03dac",
+   "sp": "um",
+   "text": "Is it today?",
+   "from": "all"
+  },
+  {
+   "id": "tc-0a5511fb",
+   "sp": "tc",
+   "text": "Do you want to walk?",
+   "from": "all"
+  },
+  {
+   "id": "tf-778d969a",
+   "sp": "tf",
+   "text": "Do you want to walk?",
+   "from": "all"
+  },
+  {
+   "id": "uf-79fe2511",
+   "sp": "uf",
+   "text": "Do you want to walk?",
+   "from": "all"
+  },
+  {
+   "id": "um-4d3589e2",
+   "sp": "um",
+   "text": "Do you want to walk?",
+   "from": "all"
+  },
+  {
+   "id": "tf-21dff754",
+   "sp": "tf",
+   "text": "Where are you going?",
+   "from": "all"
+  },
+  {
+   "id": "uf-1c8eb5f7",
+   "sp": "uf",
+   "text": "Where are you going?",
+   "from": "all"
+  },
+  {
+   "id": "um-58ac6ccc",
+   "sp": "um",
+   "text": "Where are you going?",
+   "from": "all"
+  },
+  {
+   "id": "tf-8b9f6097",
+   "sp": "tf",
+   "text": "How was your weekend?",
+   "from": "all"
+  },
+  {
+   "id": "uf-1abd7f62",
+   "sp": "uf",
+   "text": "How was your weekend?",
+   "from": "all"
+  },
+  {
+   "id": "um-3c7501df",
+   "sp": "um",
+   "text": "How was your weekend?",
+   "from": "all"
+  },
+  {
+   "id": "tf-35ab8ced",
+   "sp": "tf",
+   "text": "Where do you live?",
+   "from": "all"
+  },
+  {
+   "id": "uf-1892258e",
+   "sp": "uf",
+   "text": "Where do you live?",
+   "from": "all"
+  },
+  {
+   "id": "um-934df1a5",
+   "sp": "um",
+   "text": "Where do you live?",
+   "from": "all"
+  },
+  {
+   "id": "tf-1a34894d",
+   "sp": "tf",
+   "text": "Why are you late?",
+   "from": "all"
+  },
+  {
+   "id": "uf-bc86ff9c",
+   "sp": "uf",
+   "text": "Why are you late?",
+   "from": "all"
+  },
+  {
+   "id": "um-1cf49925",
+   "sp": "um",
+   "text": "Why are you late?",
+   "from": "all"
+  },
+  {
+   "id": "tc-859d103f",
+   "sp": "tc",
+   "text": "When does it start?",
+   "from": "all"
+  },
+  {
+   "id": "uf-3a56e8ad",
+   "sp": "uf",
+   "text": "When does it start?",
+   "from": "all"
+  },
+  {
+   "id": "um-b903bdb4",
+   "sp": "um",
+   "text": "When does it start?",
+   "from": "all"
+  },
+  {
+   "id": "tc-f3a1e8ab",
+   "sp": "tc",
+   "text": "How far is it?",
+   "from": "all"
+  },
+  {
+   "id": "tf-6c4043ee",
+   "sp": "tf",
+   "text": "How far is it?",
+   "from": "all"
+  },
+  {
+   "id": "uf-fca78a11",
+   "sp": "uf",
+   "text": "How far is it?",
+   "from": "all"
+  },
+  {
+   "id": "um-e5ee1906",
+   "sp": "um",
+   "text": "How far is it?",
+   "from": "all"
+  },
+  {
+   "id": "tc-181bc198",
+   "sp": "tc",
+   "text": "What do you like?",
+   "from": "all"
+  },
+  {
+   "id": "tf-ec23c27f",
+   "sp": "tf",
+   "text": "What do you like?",
+   "from": "all"
+  },
+  {
+   "id": "uf-36ac233e",
+   "sp": "uf",
+   "text": "What do you like?",
+   "from": "all"
+  },
+  {
+   "id": "um-7bfec757",
+   "sp": "um",
+   "text": "What do you like?",
+   "from": "all"
+  },
+  {
+   "id": "tc-bbfcff5b",
+   "sp": "tc",
+   "text": "Who did you call?",
+   "from": "all"
+  },
+  {
+   "id": "tf-923f956c",
+   "sp": "tf",
+   "text": "Who did you call?",
+   "from": "all"
+  },
+  {
+   "id": "uf-d7e04a29",
+   "sp": "uf",
+   "text": "Who did you call?",
+   "from": "all"
+  },
+  {
+   "id": "um-5a067c84",
+   "sp": "um",
+   "text": "Who did you call?",
+   "from": "all"
+  },
+  {
+   "id": "tf-9c0b3840",
+   "sp": "tf",
+   "text": "Would you like coffee or tea?",
+   "from": "all"
+  },
+  {
+   "id": "uf-5da528ed",
+   "sp": "uf",
+   "text": "Would you like coffee or tea?",
+   "from": "all"
+  },
+  {
+   "id": "um-f9cae478",
+   "sp": "um",
+   "text": "Would you like coffee or tea?",
+   "from": "all"
+  },
+  {
+   "id": "tc-0e9839b8",
+   "sp": "tc",
+   "text": "Coffee or tea?",
+   "from": "all"
+  },
+  {
+   "id": "uf-6d97dcca",
+   "sp": "uf",
+   "text": "Coffee or tea?",
+   "from": "all"
+  },
+  {
+   "id": "um-63f118c9",
+   "sp": "um",
+   "text": "Coffee or tea?",
+   "from": "all"
+  },
+  {
+   "id": "tf-3d9bd3e3",
+   "sp": "tf",
+   "text": "Is it red or blue?",
+   "from": "all"
+  },
+  {
+   "id": "uf-e2ddb560",
+   "sp": "uf",
+   "text": "Is it red or blue?",
+   "from": "all"
+  },
+  {
+   "id": "um-438d337b",
+   "sp": "um",
+   "text": "Is it red or blue?",
+   "from": "all"
+  },
+  {
+   "id": "tf-e40b07a0",
+   "sp": "tf",
+   "text": "Is it today or tomorrow?",
+   "from": "all"
+  },
+  {
+   "id": "uf-5fde160b",
+   "sp": "uf",
+   "text": "Is it today or tomorrow?",
+   "from": "all"
+  },
+  {
+   "id": "um-974c5308",
+   "sp": "um",
+   "text": "Is it today or tomorrow?",
+   "from": "all"
+  },
+  {
+   "id": "tf-3648648f",
+   "sp": "tf",
+   "text": "Do you want to walk or drive?",
+   "from": "all"
+  },
+  {
+   "id": "uf-8b002a62",
+   "sp": "uf",
+   "text": "Do you want to walk or drive?",
+   "from": "all"
+  },
+  {
+   "id": "um-3006e2e7",
+   "sp": "um",
+   "text": "Do you want to walk or drive?",
+   "from": "all"
+  },
+  {
+   "id": "tf-9ee5c79c",
+   "sp": "tf",
+   "text": "Should I call you or text you?",
+   "from": "all"
+  },
+  {
+   "id": "uf-1273ac63",
+   "sp": "uf",
+   "text": "Should I call you or text you?",
+   "from": "all"
+  },
+  {
+   "id": "um-1627c434",
+   "sp": "um",
+   "text": "Should I call you or text you?",
+   "from": "all"
+  },
+  {
+   "id": "tc-5997a0bc",
+   "sp": "tc",
+   "text": "Is your bag black or brown?",
+   "from": "all"
+  },
+  {
+   "id": "tf-ecd950d3",
+   "sp": "tf",
+   "text": "Is your bag black or brown?",
+   "from": "all"
+  },
+  {
+   "id": "uf-90d4f7b6",
+   "sp": "uf",
+   "text": "Is your bag black or brown?",
+   "from": "all"
+  },
+  {
+   "id": "um-b3e3313b",
+   "sp": "um",
+   "text": "Is your bag black or brown?",
+   "from": "all"
+  },
+  {
+   "id": "tf-17bbb031",
+   "sp": "tf",
+   "text": "I said Tuesday, not Monday.",
+   "from": "all"
+  },
+  {
+   "id": "uf-2d94f970",
+   "sp": "uf",
+   "text": "I said Tuesday, not Monday.",
+   "from": "all"
+  },
+  {
+   "id": "um-004be999",
+   "sp": "um",
+   "text": "I said Tuesday, not Monday.",
+   "from": "all"
+  },
+  {
+   "id": "tf-c160f02e",
+   "sp": "tf",
+   "text": "It's ten dollars, not twenty.",
+   "from": "all"
+  },
+  {
+   "id": "uf-068b74e3",
+   "sp": "uf",
+   "text": "It's ten dollars, not twenty.",
+   "from": "all"
+  },
+  {
+   "id": "um-637e3376",
+   "sp": "um",
+   "text": "It's ten dollars, not twenty.",
+   "from": "all"
+  },
+  {
+   "id": "tc-1a429983",
+   "sp": "tc",
+   "text": "I ordered tea, not coffee.",
+   "from": "all"
+  },
+  {
+   "id": "tf-4fb10cc6",
+   "sp": "tf",
+   "text": "I ordered tea, not coffee.",
+   "from": "all"
+  },
+  {
+   "id": "um-a553055e",
+   "sp": "um",
+   "text": "I ordered tea, not coffee.",
+   "from": "all"
+  },
+  {
+   "id": "tf-cdaa964c",
+   "sp": "tf",
+   "text": "We meet at seven, not eight.",
+   "from": "all"
+  },
+  {
+   "id": "uf-fdac63c3",
+   "sp": "uf",
+   "text": "We meet at seven, not eight.",
+   "from": "all"
+  },
+  {
+   "id": "um-3bd21fd4",
+   "sp": "um",
+   "text": "We meet at seven, not eight.",
+   "from": "all"
+  },
+  {
+   "id": "tc-22af3305",
+   "sp": "tc",
+   "text": "It's black, not brown.",
+   "from": "all"
+  },
+  {
+   "id": "tf-788c3ac8",
+   "sp": "tf",
+   "text": "It's black, not brown.",
+   "from": "all"
+  },
+  {
+   "id": "uf-b9880e4f",
+   "sp": "uf",
+   "text": "It's black, not brown.",
+   "from": "all"
+  }
+ ]
+}

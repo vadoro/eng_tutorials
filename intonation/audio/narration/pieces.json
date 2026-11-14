@@ -1,0 +1,721 @@
+{
+ "slug": "intonation",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 80,
+  "en": 38,
+  "say": 0,
+  "koChars": 2408,
+  "enChars": 607
+ },
+ "pieces": [
+  {
+   "id": "kfc88c563",
+   "lang": "ko",
+   "text": "같은 낱말을 두 번 들어 봐요",
+   "cap": 0
+  },
+  {
+   "id": "e3fb567ab",
+   "lang": "en",
+   "text": "It's raining.",
+   "cap": 0
+  },
+  {
+   "id": "k752ca057",
+   "lang": "ko",
+   "text": "그리고",
+   "cap": 0
+  },
+  {
+   "id": "e4eb57f48",
+   "lang": "en",
+   "text": "It's raining?",
+   "cap": 0
+  },
+  {
+   "id": "k2fa618e0",
+   "lang": "ko",
+   "text": "첫째는 비가 온다고 알려 주는 말이고, 둘째는 비가 온다고요? 하고 되묻는 말이에요.",
+   "cap": 1
+  },
+  {
+   "id": "k4e51cdcf",
+   "lang": "ko",
+   "text": "아래 선은 목소리의 높낮이예요. 첫째는 끝이 내려가고, 둘째는 끝이 올라가요.",
+   "cap": 2
+  },
+  {
+   "id": "k475611bc",
+   "lang": "ko",
+   "text": "영어는 높낮이로 뜻을 더해요. 묻는 말인지 알리는 말인지, 어느 낱말이 새 정보인지를 높낮이가 알려 줘요.",
+   "cap": 3
+  },
+  {
+   "id": "kac7dedda",
+   "lang": "ko",
+   "text": "세 단계로 익혀요. 끝의 움직임을 듣고 가르고, 꺾이는 곳에서 높낮이를 만들고, 문장 속에서 초점을 살려요.",
+   "cap": 4
+  },
+  {
+   "id": "k1b2c6f20",
+   "lang": "ko",
+   "text": "미국 표준 발음을 기준으로 해요. 소리는 모두 합성 음성이고, 규칙은 경향이에요 — 사람과 상황에 따라 달라져요.",
+   "cap": 5
+  },
+  {
+   "id": "k8d6e7560",
+   "lang": "ko",
+   "text": "먼저 귀부터 시험해요. 두 문장은 낱말이 똑같고, 끝의 마침표와 물음표만 달라요.",
+   "cap": 6
+  },
+  {
+   "id": "kd249e5a5",
+   "lang": "ko",
+   "text": "눌러서 들어 보세요",
+   "cap": 7
+  },
+  {
+   "id": "ee55be2df",
+   "lang": "en",
+   "text": "You're a student.",
+   "cap": 7
+  },
+  {
+   "id": "ef45bfa7c",
+   "lang": "en",
+   "text": "You're a student?",
+   "cap": 7
+  },
+  {
+   "id": "k96b58a25",
+   "lang": "ko",
+   "text": "끝에서 소리가 어디로 가나요?",
+   "cap": 7
+  },
+  {
+   "id": "kad48652c",
+   "lang": "ko",
+   "text": "마침표 쪽은 끝이 내려가고, 물음표 쪽은 끝이 올라가요. 낱말은 같고 끝의 방향만 달라요.",
+   "cap": 8
+  },
+  {
+   "id": "k913e8f90",
+   "lang": "ko",
+   "text": "이 짝도 들어 봐요",
+   "cap": 9
+  },
+  {
+   "id": "e162beb70",
+   "lang": "en",
+   "text": "She's at home.",
+   "cap": 9
+  },
+  {
+   "id": "e072bd3d3",
+   "lang": "en",
+   "text": "She's at home?",
+   "cap": 9
+  },
+  {
+   "id": "k095b9d1e",
+   "lang": "ko",
+   "text": "목소리를 바꿔 들어도 끝의 방향은 같아요.",
+   "cap": 9
+  },
+  {
+   "id": "ke2ca4c52",
+   "lang": "ko",
+   "text": "이렇게 평서문 꼴 그대로 끝만 올리면 되묻는 말이 돼요. 놀랐거나 확인하고 싶을 때 써요.",
+   "cap": 10
+  },
+  {
+   "id": "k710a35fa",
+   "lang": "ko",
+   "text": "아래 끝 올림 , 내림 듣기 훈련에서 목소리 넷으로 연습해요.",
+   "cap": 11
+  },
+  {
+   "id": "kbd96e916",
+   "lang": "ko",
+   "text": "문장의 모양에 따라 끝의 움직임이 정해져요. 다섯 가지를 지도에 놓아 봐요.",
+   "cap": 12
+  },
+  {
+   "id": "ka16a254a",
+   "lang": "ko",
+   "text": "첫째",
+   "cap": 13
+  },
+  {
+   "id": "eeaf7e61c",
+   "lang": "en",
+   "text": "Yes No",
+   "cap": 13
+  },
+  {
+   "id": "k7b5a8ed5",
+   "lang": "ko",
+   "text": "질문 , 예나 아니오로 답하는 질문이에요. 끝을 올려요",
+   "cap": 13
+  },
+  {
+   "id": "eb6d7f331",
+   "lang": "en",
+   "text": "Are you ready?",
+   "cap": 13
+  },
+  {
+   "id": "k03d68a2c",
+   "lang": "ko",
+   "text": "둘째, 정보 질문 , 의문사로 묻는 질문이에요. 끝을 내려요",
+   "cap": 14
+  },
+  {
+   "id": "e12c0db6f",
+   "lang": "en",
+   "text": "Where are you going?",
+   "cap": 14
+  },
+  {
+   "id": "k2a877ee0",
+   "lang": "ko",
+   "text": "셋째, 고르는 질문 , 둘 중 하나를 고르라는 질문이에요. 앞은 올리고 마지막은 내려요",
+   "cap": 15
+  },
+  {
+   "id": "ee1962998",
+   "lang": "en",
+   "text": "Is it red or blue?",
+   "cap": 15
+  },
+  {
+   "id": "kc2d998c0",
+   "lang": "ko",
+   "text": "넷째, 평서문 , 알려 주는 말이에요. 끝을 내려요",
+   "cap": 16
+  },
+  {
+   "id": "e6e7a1d0e",
+   "lang": "en",
+   "text": "The store is closed.",
+   "cap": 16
+  },
+  {
+   "id": "k1c5d3d27",
+   "lang": "ko",
+   "text": "다섯째, 되묻는 말 , 평서문 꼴 그대로 끝만 올려 물어요",
+   "cap": 17
+  },
+  {
+   "id": "e1431f9d0",
+   "lang": "en",
+   "text": "You're leaving?",
+   "cap": 17
+  },
+  {
+   "id": "k9fa5e99c",
+   "lang": "ko",
+   "text": "정리하면",
+   "cap": 18
+  },
+  {
+   "id": "k7409612c",
+   "lang": "ko",
+   "text": "질문과 되묻는 말은 끝을 올리고, 정보 질문과 평서문은 끝을 내려요.",
+   "cap": 18
+  },
+  {
+   "id": "k7ddb47c1",
+   "lang": "ko",
+   "text": "높낮이는 아무 데서나 크게 움직이지 않아요. 크게 꺾이는 곳이 있어요.",
+   "cap": 19
+  },
+  {
+   "id": "k64a7fabb",
+   "lang": "ko",
+   "text": "꺾이는 곳은 보통 마지막 내용어의 센 음절이에요.",
+   "cap": 20
+  },
+  {
+   "id": "ke0208e74",
+   "lang": "ko",
+   "text": "꺾이는 곳",
+   "cap": 20
+  },
+  {
+   "id": "e0d707845",
+   "lang": "en",
+   "text": "ready.",
+   "cap": 20
+  },
+  {
+   "id": "k150cde4c",
+   "lang": "ko",
+   "text": "질문은 끝이 올라가요",
+   "cap": 21
+  },
+  {
+   "id": "e3fb90eca",
+   "lang": "en",
+   "text": "Do you like coffee?",
+   "cap": 21
+  },
+  {
+   "id": "e5b02ba90",
+   "lang": "en",
+   "text": "coffee.",
+   "cap": 21
+  },
+  {
+   "id": "k00b94bb8",
+   "lang": "ko",
+   "text": "뒤에 기능어가 붙어도 꺾이는 곳은 그대로예요",
+   "cap": 22
+  },
+  {
+   "id": "e2133fd31",
+   "lang": "en",
+   "text": "Is it far from here?",
+   "cap": 22
+  },
+  {
+   "id": "e8d8d6b23",
+   "lang": "en",
+   "text": "far.",
+   "cap": 22
+  },
+  {
+   "id": "k6d3c41bc",
+   "lang": "ko",
+   "text": "정보 질문도 마찬가지예요",
+   "cap": 23
+  },
+  {
+   "id": "e27093e0a",
+   "lang": "en",
+   "text": "How was your weekend?",
+   "cap": 23
+  },
+  {
+   "id": "e516d3fbb",
+   "lang": "en",
+   "text": "weekend",
+   "cap": 23
+  },
+  {
+   "id": "k64d54872",
+   "lang": "ko",
+   "text": "끝은 내려가요.",
+   "cap": 23
+  },
+  {
+   "id": "k2a1f584f",
+   "lang": "ko",
+   "text": "내용어는 뜻을 싣는 낱말이에요. 명사 , 동사 , 형용사 , 부사처럼요. 기능어는 그 사이를 잇는 짧은 낱말이에요.",
+   "cap": 24
+  },
+  {
+   "id": "k4d933194",
+   "lang": "ko",
+   "text": "요령 , 꺾이는 곳을 먼저 찾고, 그 음절을 길고 또렷하게 말한 뒤 거기서 올리거나 내려요.",
+   "cap": 25
+  },
+  {
+   "id": "ke273c700",
+   "lang": "ko",
+   "text": "질문을 자세히 봐요. 조동사로 시작하고, 예나 아니오로 답하는 질문이에요.",
+   "cap": 26
+  },
+  {
+   "id": "k1da26f6a",
+   "lang": "ko",
+   "text": "거기서부터 끝을 올려요.",
+   "cap": 27
+  },
+  {
+   "id": "k13c1e1ca",
+   "lang": "ko",
+   "text": "이 질문들도 같아요",
+   "cap": 28
+  },
+  {
+   "id": "ec2c75fa1",
+   "lang": "en",
+   "text": "Is this seat taken?",
+   "cap": 28
+  },
+  {
+   "id": "edd9fd9df",
+   "lang": "en",
+   "text": "Have you been to Canada?",
+   "cap": 28
+  },
+  {
+   "id": "k4ebfb2a8",
+   "lang": "ko",
+   "text": "목소리 넷으로 들어 보세요. 올라가는 폭은 목소리마다 다르지만 방향은 같아요.",
+   "cap": 29
+  },
+  {
+   "id": "kec1f494e",
+   "lang": "ko",
+   "text": "끝 음절 하나만 살짝 올리지 말고, 꺾이는 곳에서부터 그 뒤를 함께 올려요.",
+   "cap": 30
+  },
+  {
+   "id": "ke4833a21",
+   "lang": "ko",
+   "text": "아래 따라 말하기의",
+   "cap": 31
+  },
+  {
+   "id": "k2878f141",
+   "lang": "ko",
+   "text": "질문 일곱 문장으로 연습해요. 꺾이는 곳은 노란 글자예요.",
+   "cap": 31
+  },
+  {
+   "id": "k75b83910",
+   "lang": "ko",
+   "text": "정보 질문은",
+   "cap": 32
+  },
+  {
+   "id": "e3a16eeb5",
+   "lang": "en",
+   "text": "what , where , when , why , who , how",
+   "cap": 32
+  },
+  {
+   "id": "ke337557b",
+   "lang": "ko",
+   "text": "같은 의문사로 시작해요.",
+   "cap": 32
+  },
+  {
+   "id": "e7d4bf002",
+   "lang": "en",
+   "text": "going.",
+   "cap": 33
+  },
+  {
+   "id": "k55c8bcb6",
+   "lang": "ko",
+   "text": "의문사에서 높게 시작해, 끝으로 갈수록 낮아져요.",
+   "cap": 33
+  },
+  {
+   "id": "e92b1c16d",
+   "lang": "en",
+   "text": "What time is it?",
+   "cap": 34
+  },
+  {
+   "id": "e4526de54",
+   "lang": "en",
+   "text": "Why are you late?",
+   "cap": 34
+  },
+  {
+   "id": "kbf9bbe86",
+   "lang": "ko",
+   "text": "끝을 내려요.",
+   "cap": 34
+  },
+  {
+   "id": "k2865bad2",
+   "lang": "ko",
+   "text": "목소리 넷으로 들어 보세요. 모두 끝이 내려가요. 예나 아니오가 아니라 정보로 답하는 질문이에요.",
+   "cap": 35
+  },
+  {
+   "id": "kb8e720d5",
+   "lang": "ko",
+   "text": "묻는 말이니까 끝을 올려야 한다고 생각하기 쉬워요. 그렇게 올리면 되묻는 말처럼 들릴 수 있어요.",
+   "cap": 36
+  },
+  {
+   "id": "kc788cb68",
+   "lang": "ko",
+   "text": "다만 부드럽게 묻거나 다정하게 말할 때는 정보 질문도 끝을 올리기도 해요. 기본은 내림이에요.",
+   "cap": 37
+  },
+  {
+   "id": "k10e6b618",
+   "lang": "ko",
+   "text": "둘 중 하나를 고르라는 질문이에요",
+   "cap": 38
+  },
+  {
+   "id": "e0a9b67c5",
+   "lang": "en",
+   "text": "Would you like coffee or tea?",
+   "cap": 38
+  },
+  {
+   "id": "kecf7aa3f",
+   "lang": "ko",
+   "text": "선택지마다 한 번씩 꺾여요.",
+   "cap": 38
+  },
+  {
+   "id": "k50ce9b90",
+   "lang": "ko",
+   "text": "앞 선택지",
+   "cap": 39
+  },
+  {
+   "id": "e53f5351e",
+   "lang": "en",
+   "text": "coffee",
+   "cap": 39
+  },
+  {
+   "id": "k8043c195",
+   "lang": "ko",
+   "text": "높게 두고, 마지막 선택지",
+   "cap": 39
+  },
+  {
+   "id": "e634a640c",
+   "lang": "en",
+   "text": "tea",
+   "cap": 39
+  },
+  {
+   "id": "k7610be23",
+   "lang": "ko",
+   "text": "내려요. 내리는 끝이 선택지가 여기까지라는 신호예요.",
+   "cap": 39
+  },
+  {
+   "id": "e4af06f93",
+   "lang": "en",
+   "text": "Is it today or tomorrow?",
+   "cap": 40
+  },
+  {
+   "id": "k19508001",
+   "lang": "ko",
+   "text": "끝까지 올리면 뜻이 바뀌어요. 커피나 차 같은 마실 것을 원하느냐는",
+   "cap": 41
+  },
+  {
+   "id": "k5bd18031",
+   "lang": "ko",
+   "text": "질문이 돼요.",
+   "cap": 41
+  },
+  {
+   "id": "k16402994",
+   "lang": "ko",
+   "text": "그래서 대답도 달라져요. 마지막을 내리면 둘 중 하나를 고르고, 끝까지 올리면 예나 아니오로 답해요.",
+   "cap": 42
+  },
+  {
+   "id": "kb7491f99",
+   "lang": "ko",
+   "text": "요령 , 선택지 사이에 살짝 쉬고, 앞은 올리고 마지막은 내려요",
+   "cap": 43
+  },
+  {
+   "id": "ka234bd58",
+   "lang": "ko",
+   "text": "평서문 꼴 그대로 끝만 올리면 묻는 말이 돼요",
+   "cap": 44
+  },
+  {
+   "id": "kef863d36",
+   "lang": "ko",
+   "text": "벌써 가신다고요?",
+   "cap": 44
+  },
+  {
+   "id": "kc0ed132a",
+   "lang": "ko",
+   "text": "놀랐을 때나, 들은 것을 확인할 때 써요. 낱말 순서는 바꾸지 않아요.",
+   "cap": 45
+  },
+  {
+   "id": "keb006056",
+   "lang": "ko",
+   "text": "두 선을 겹쳐 봐요",
+   "cap": 46
+  },
+  {
+   "id": "e0531e233",
+   "lang": "en",
+   "text": "You're leaving.",
+   "cap": 46
+  },
+  {
+   "id": "k788d706d",
+   "lang": "ko",
+   "text": "끝이 어디로 가나요?",
+   "cap": 46
+  },
+  {
+   "id": "e52419acc",
+   "lang": "en",
+   "text": "leaving.",
+   "cap": 47
+  },
+  {
+   "id": "k06cf8579",
+   "lang": "ko",
+   "text": "거기서 하나는 내려가고, 하나는 올라가요.",
+   "cap": 47
+  },
+  {
+   "id": "k0fcaee2a",
+   "lang": "ko",
+   "text": "이 문장들도 들어 보세요",
+   "cap": 48
+  },
+  {
+   "id": "e5f7a0571",
+   "lang": "en",
+   "text": "The store is closed?",
+   "cap": 48
+  },
+  {
+   "id": "ed5fb0ef8",
+   "lang": "en",
+   "text": "He likes coffee?",
+   "cap": 48
+  },
+  {
+   "id": "ke7359a95",
+   "lang": "ko",
+   "text": "요령 , 되묻는 말은 낱말 순서를 그대로 두고, 꺾이는 곳에서부터 크게 올려요.",
+   "cap": 49
+  },
+  {
+   "id": "k46f1e920",
+   "lang": "ko",
+   "text": "꺾이는 곳은 옮길 수 있어요. 고쳐 말하거나 견줄 때는 새 정보인 낱말로 옮겨요.",
+   "cap": 50
+  },
+  {
+   "id": "ef145a558",
+   "lang": "en",
+   "text": "I said Tuesday, not Monday.",
+   "cap": 51
+  },
+  {
+   "id": "k2597786a",
+   "lang": "ko",
+   "text": "월요일이 아니라 화요일이라고 했다는 말이에요. 꺾이는 곳",
+   "cap": 51
+  },
+  {
+   "id": "ead9bd40d",
+   "lang": "en",
+   "text": "tuesday.",
+   "cap": 51
+  },
+  {
+   "id": "k5b658c34",
+   "lang": "ko",
+   "text": "선을 보세요. 가장 높이 솟는 곳",
+   "cap": 52
+  },
+  {
+   "id": "kdc73b30d",
+   "lang": "ko",
+   "text": "뒤의",
+   "cap": 52
+  },
+  {
+   "id": "e36481d21",
+   "lang": "en",
+   "text": "not Monday",
+   "cap": 52
+  },
+  {
+   "id": "kec1e5095",
+   "lang": "ko",
+   "text": "낮게 눌러 말해요.",
+   "cap": 52
+  },
+  {
+   "id": "kbbe37191",
+   "lang": "ko",
+   "text": "이 문장들도 같아요",
+   "cap": 53
+  },
+  {
+   "id": "e5e96b6ab",
+   "lang": "en",
+   "text": "It's ten dollars, not twenty.",
+   "cap": 53
+  },
+  {
+   "id": "e6b1d27ab",
+   "lang": "en",
+   "text": "We meet at seven, not eight.",
+   "cap": 53
+  },
+  {
+   "id": "kc65025cb",
+   "lang": "ko",
+   "text": "연구에서 원어민은",
+   "cap": 54
+  },
+  {
+   "id": "k421ded99",
+   "lang": "ko",
+   "text": "질문의 초점 낱말을 낮게 시작해 끝을 올렸고, 한국인 화자는 초점 낱말에 높은 소리를 얹는 경향을 보였어요.",
+   "cap": 54
+  },
+  {
+   "id": "kbdd61892",
+   "lang": "ko",
+   "text": "한국인 청자는 낮게 시작하는 초점을 알아듣기 어려워했어요. 억양 곡선으로 설명하자 알아듣기가 나아졌다는 연구도 있어요.",
+   "cap": 55
+  },
+  {
+   "id": "k37058336",
+   "lang": "ko",
+   "text": "요령 , 고쳐 말하는 낱말을 가장 높고 길게 말하고, 그 뒤는 낮게 눌러요.",
+   "cap": 56
+  },
+  {
+   "id": "kf9d7e2b9",
+   "lang": "ko",
+   "text": "정리해요. 첫째, 듣고 가르기 , 끝이 올라가나 내려가나를 들어요.",
+   "cap": 57
+  },
+  {
+   "id": "k133ba1aa",
+   "lang": "ko",
+   "text": "둘째, 높낮이 만들기 , 꺾이는 곳은 마지막 내용어의 센 음절이에요. 거기서부터 올리거나 거기서 내려요.",
+   "cap": 58
+  },
+  {
+   "id": "kb244dd47",
+   "lang": "ko",
+   "text": "질문과 되묻는 말은 올리고, 정보 질문과 평서문은 내려요. 고르는 질문은 앞을 올리고 마지막을 내려요.",
+   "cap": 59
+  },
+  {
+   "id": "k59f5be18",
+   "lang": "ko",
+   "text": "셋째, 문장 속에서 , 고쳐 말하는 낱말로 꺾이는 곳을 옮기고, 그 뒤는 낮게 눌러요.",
+   "cap": 60
+  },
+  {
+   "id": "k38dc888e",
+   "lang": "ko",
+   "text": "목표는 원어민과 똑같은 선이 아니라, 묻는 말인지 알리는 말인지가 또렷하게 들리는 말이에요.",
+   "cap": 61
+  },
+  {
+   "id": "k56e7ac7d",
+   "lang": "ko",
+   "text": "아래 끝 올림 , 내림 듣기 훈련과 억양 바꾸기 실험실에서 직접 해 보세요.",
+   "cap": 62
+  }
+ ]
+}

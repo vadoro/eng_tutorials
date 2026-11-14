@@ -1,0 +1,3569 @@
+{
+ "slug": "intonation",
+ "note": "잴 줄의 정보 (tools/dialogue-lines.cjs가 페이지의 window.__measureMeta()로 만듦 — 손으로 고치지 마세요). kind: word = 낱말 하나(n 음절 수 · at 센 음절, 0부터) · ko = 한국어식(n 글자 수) · other = 받아쓰기만. tools/measure-syllables.py가 읽어요",
+ "count": {
+  "tune": 192
+ },
+ "lines": [
+  {
+   "id": "tc-cf6177fd",
+   "sp": "tc",
+   "text": "It's raining.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "raining"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-de618f9a",
+   "sp": "tc",
+   "text": "It's raining?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "it's",
+    "raining"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-e8138325",
+   "sp": "tc",
+   "text": "You're a student.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "you're",
+    "a",
+    "student"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-f7139ac2",
+   "sp": "tc",
+   "text": "You're a student?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "you're",
+    "a",
+    "student"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-2d2d3d9e",
+   "sp": "tc",
+   "text": "She's at home.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "she's",
+    "at",
+    "home"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-3e2d5861",
+   "sp": "tc",
+   "text": "She's at home?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "she's",
+    "at",
+    "home"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-c1353c11",
+   "sp": "tc",
+   "text": "He likes coffee.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "he",
+    "likes",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-d03553ae",
+   "sp": "tc",
+   "text": "He likes coffee?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "he",
+    "likes",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-52754ed8",
+   "sp": "uf",
+   "text": "She's at home.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "she's",
+    "at",
+    "home"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-6375699b",
+   "sp": "uf",
+   "text": "She's at home?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "she's",
+    "at",
+    "home"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-91944a13",
+   "sp": "um",
+   "text": "She's at home.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "she's",
+    "at",
+    "home"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-a09461b0",
+   "sp": "um",
+   "text": "She's at home?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "she's",
+    "at",
+    "home"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-7e1b90cb",
+   "sp": "tc",
+   "text": "Are you ready?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "are",
+    "you",
+    "ready"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-9f45a945",
+   "sp": "tc",
+   "text": "Where are you going?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "where",
+    "are",
+    "you",
+    "going"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-52d5b942",
+   "sp": "tc",
+   "text": "Is it red or blue?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "it",
+    "red",
+    "or",
+    "blue"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "tc-c2a79660",
+   "sp": "tc",
+   "text": "Do you like coffee?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "like",
+    "coffee"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-8d1066b3",
+   "sp": "tc",
+   "text": "Is it far from here?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "far",
+    "from",
+    "here"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-f2d6e628",
+   "sp": "tc",
+   "text": "How was your weekend?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "how",
+    "was",
+    "your",
+    "weekend"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-46e1b78f",
+   "sp": "tc",
+   "text": "Is this seat taken?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "this",
+    "seat",
+    "taken"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-97e0c279",
+   "sp": "tc",
+   "text": "Have you been to Canada?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "have",
+    "you",
+    "been",
+    "to",
+    "canada"
+   ],
+   "cw": [
+    4
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-04b658be",
+   "sp": "tf",
+   "text": "Are you ready?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "are",
+    "you",
+    "ready"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-1cbdb8a9",
+   "sp": "uf",
+   "text": "Are you ready?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "are",
+    "you",
+    "ready"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-23ddbaa6",
+   "sp": "um",
+   "text": "Are you ready?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "are",
+    "you",
+    "ready"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-06f8efc7",
+   "sp": "tc",
+   "text": "Can you help me?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "can",
+    "you",
+    "help",
+    "me"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-6fbc0b9d",
+   "sp": "tc",
+   "text": "Did you call me?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "did",
+    "you",
+    "call",
+    "me"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-7c03a79b",
+   "sp": "tc",
+   "text": "What time is it?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "what",
+    "time",
+    "is",
+    "it"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-2709f8b2",
+   "sp": "tc",
+   "text": "Why are you late?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "why",
+    "are",
+    "you",
+    "late"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-80df7fae",
+   "sp": "tf",
+   "text": "What time is it?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "what",
+    "time",
+    "is",
+    "it"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-1417a3a5",
+   "sp": "uf",
+   "text": "What time is it?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "what",
+    "time",
+    "is",
+    "it"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-6909f316",
+   "sp": "um",
+   "text": "What time is it?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "what",
+    "time",
+    "is",
+    "it"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-9fb3ba9f",
+   "sp": "tc",
+   "text": "Would you like coffee or tea?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "would",
+    "you",
+    "like",
+    "coffee",
+    "or",
+    "tea"
+   ],
+   "cw": [
+    2,
+    3,
+    5
+   ],
+   "focus": null,
+   "alt": 3
+  },
+  {
+   "id": "tc-4127bda1",
+   "sp": "tc",
+   "text": "Is it today or tomorrow?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "it",
+    "today",
+    "or",
+    "tomorrow"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "tc-35db04b2",
+   "sp": "tc",
+   "text": "You're leaving?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "you're",
+    "leaving"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-46db1f75",
+   "sp": "tc",
+   "text": "You're leaving.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "you're",
+    "leaving"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-accea7fb",
+   "sp": "tc",
+   "text": "The store is closed?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "the",
+    "store",
+    "is",
+    "closed"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-9d3b12b2",
+   "sp": "tc",
+   "text": "I said Tuesday, not Monday.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "i",
+    "said",
+    "tuesday",
+    "not",
+    "monday"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 2,
+   "alt": null
+  },
+  {
+   "id": "tc-7790b93d",
+   "sp": "tc",
+   "text": "It's ten dollars, not twenty.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "ten",
+    "dollars",
+    "not",
+    "twenty"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 1,
+   "alt": null
+  },
+  {
+   "id": "tc-2dc3e1c5",
+   "sp": "tc",
+   "text": "We meet at seven, not eight.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "we",
+    "meet",
+    "at",
+    "seven",
+    "not",
+    "eight"
+   ],
+   "cw": [
+    1,
+    3,
+    5
+   ],
+   "focus": 3,
+   "alt": null
+  },
+  {
+   "id": "tf-d4ff04fe",
+   "sp": "tf",
+   "text": "You're a student.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "you're",
+    "a",
+    "student"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-e5ff1fc1",
+   "sp": "tf",
+   "text": "You're a student?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "you're",
+    "a",
+    "student"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-aa281f74",
+   "sp": "tf",
+   "text": "He likes coffee.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "he",
+    "likes",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-9b2807d7",
+   "sp": "tf",
+   "text": "He likes coffee?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "he",
+    "likes",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-5389e867",
+   "sp": "uf",
+   "text": "You're a student.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "you're",
+    "a",
+    "student"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-4289cda4",
+   "sp": "uf",
+   "text": "You're a student?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "you're",
+    "a",
+    "student"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-189106b3",
+   "sp": "uf",
+   "text": "He likes coffee.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "he",
+    "likes",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-27911e50",
+   "sp": "uf",
+   "text": "He likes coffee?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "he",
+    "likes",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-38a6b6fc",
+   "sp": "um",
+   "text": "He likes coffee.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "he",
+    "likes",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-29a69f5f",
+   "sp": "um",
+   "text": "He likes coffee?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "he",
+    "likes",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-f7080091",
+   "sp": "tf",
+   "text": "Coffee or tea?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "coffee",
+    "or",
+    "tea"
+   ],
+   "cw": [
+    0,
+    2
+   ],
+   "focus": null,
+   "alt": 0
+  },
+  {
+   "id": "tc-9bce8d38",
+   "sp": "tc",
+   "text": "The store is closed.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "the",
+    "store",
+    "is",
+    "closed"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-049711e0",
+   "sp": "tc",
+   "text": "Where do you live?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "where",
+    "do",
+    "you",
+    "live"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-4240856c",
+   "sp": "tf",
+   "text": "When does it start?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "when",
+    "does",
+    "it",
+    "start"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-b086cd90",
+   "sp": "tc",
+   "text": "Do you want to walk or drive?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "do",
+    "you",
+    "want",
+    "to",
+    "walk",
+    "or",
+    "drive"
+   ],
+   "cw": [
+    2,
+    4,
+    6
+   ],
+   "focus": null,
+   "alt": 4
+  },
+  {
+   "id": "tc-137a5a85",
+   "sp": "tc",
+   "text": "Should I call you or text you?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "should",
+    "i",
+    "call",
+    "you",
+    "or",
+    "text",
+    "you"
+   ],
+   "cw": [
+    2,
+    5
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "uf-636e58b1",
+   "sp": "uf",
+   "text": "I ordered tea, not coffee.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "i",
+    "ordered",
+    "tea",
+    "not",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 2,
+   "alt": null
+  },
+  {
+   "id": "um-6a38f8e0",
+   "sp": "um",
+   "text": "It's black, not brown.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "black",
+    "not",
+    "brown"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": 1,
+   "alt": null
+  },
+  {
+   "id": "uf-115fa193",
+   "sp": "uf",
+   "text": "It's raining.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "raining"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-205fb930",
+   "sp": "uf",
+   "text": "It's raining?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "it's",
+    "raining"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-a9fe8346",
+   "sp": "uf",
+   "text": "The store is closed.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "the",
+    "store",
+    "is",
+    "closed"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-bafe9e09",
+   "sp": "uf",
+   "text": "The store is closed?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "the",
+    "store",
+    "is",
+    "closed"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-03d467db",
+   "sp": "uf",
+   "text": "You're leaving.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "you're",
+    "leaving"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-f2d44d18",
+   "sp": "uf",
+   "text": "You're leaving?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "you're",
+    "leaving"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-f7e4cc4a",
+   "sp": "um",
+   "text": "It's raining.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "raining"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-08e4e70d",
+   "sp": "um",
+   "text": "It's raining?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "it's",
+    "raining"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-9cf04392",
+   "sp": "um",
+   "text": "You're leaving.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "you're",
+    "leaving"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-adf05e55",
+   "sp": "um",
+   "text": "You're leaving?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "you're",
+    "leaving"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-da956452",
+   "sp": "tf",
+   "text": "It's raining.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "raining"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-eb957f15",
+   "sp": "tf",
+   "text": "It's raining?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "it's",
+    "raining"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-3e0dc156",
+   "sp": "um",
+   "text": "You're a student.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "you're",
+    "a",
+    "student"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-2f0da9b9",
+   "sp": "um",
+   "text": "You're a student?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "you're",
+    "a",
+    "student"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-fa1ba59b",
+   "sp": "tf",
+   "text": "She's at home.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "she's",
+    "at",
+    "home"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-e91b8ad8",
+   "sp": "tf",
+   "text": "She's at home?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "she's",
+    "at",
+    "home"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-7ad3e389",
+   "sp": "tf",
+   "text": "The store is closed.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "the",
+    "store",
+    "is",
+    "closed"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-90748d71",
+   "sp": "um",
+   "text": "The store is closed.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "the",
+    "store",
+    "is",
+    "closed"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-69d3c8c6",
+   "sp": "tf",
+   "text": "The store is closed?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "the",
+    "store",
+    "is",
+    "closed"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-9f74a50e",
+   "sp": "um",
+   "text": "The store is closed?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "the",
+    "store",
+    "is",
+    "closed"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-6b2a213a",
+   "sp": "tf",
+   "text": "You're leaving.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "you're",
+    "leaving"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-5c2a099d",
+   "sp": "tf",
+   "text": "You're leaving?",
+   "kind": "tune",
+   "shape": "decl",
+   "toks": [
+    "you're",
+    "leaving"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-bbc3fe07",
+   "sp": "tf",
+   "text": "Do you like coffee?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "like",
+    "coffee"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-f6c9f892",
+   "sp": "uf",
+   "text": "Do you like coffee?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "like",
+    "coffee"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-f89e0b9f",
+   "sp": "um",
+   "text": "Do you like coffee?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "like",
+    "coffee"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-b27cca5a",
+   "sp": "tf",
+   "text": "Is it far from here?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "far",
+    "from",
+    "here"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-9a7ce0e9",
+   "sp": "uf",
+   "text": "Is it far from here?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "far",
+    "from",
+    "here"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-5bd8fa62",
+   "sp": "um",
+   "text": "Is it far from here?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "far",
+    "from",
+    "here"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-79b524d6",
+   "sp": "tf",
+   "text": "Can you help me?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "can",
+    "you",
+    "help",
+    "me"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-47fb8f15",
+   "sp": "uf",
+   "text": "Can you help me?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "can",
+    "you",
+    "help",
+    "me"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-6aae7aae",
+   "sp": "um",
+   "text": "Can you help me?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "can",
+    "you",
+    "help",
+    "me"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-3ed591fc",
+   "sp": "tf",
+   "text": "Is this seat taken?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "this",
+    "seat",
+    "taken"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-4e7a3a49",
+   "sp": "uf",
+   "text": "Is this seat taken?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "this",
+    "seat",
+    "taken"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-3ced86d4",
+   "sp": "um",
+   "text": "Is this seat taken?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "this",
+    "seat",
+    "taken"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-30f47df8",
+   "sp": "tf",
+   "text": "Have you been to Canada?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "have",
+    "you",
+    "been",
+    "to",
+    "canada"
+   ],
+   "cw": [
+    4
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-d321aea7",
+   "sp": "uf",
+   "text": "Have you been to Canada?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "have",
+    "you",
+    "been",
+    "to",
+    "canada"
+   ],
+   "cw": [
+    4
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-9a072450",
+   "sp": "um",
+   "text": "Have you been to Canada?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "have",
+    "you",
+    "been",
+    "to",
+    "canada"
+   ],
+   "cw": [
+    4
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-1299cdbc",
+   "sp": "tf",
+   "text": "Did you call me?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "did",
+    "you",
+    "call",
+    "me"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-24138187",
+   "sp": "uf",
+   "text": "Did you call me?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "did",
+    "you",
+    "call",
+    "me"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-662ddb74",
+   "sp": "um",
+   "text": "Did you call me?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "did",
+    "you",
+    "call",
+    "me"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-5fcad754",
+   "sp": "tc",
+   "text": "Are you going?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "are",
+    "you",
+    "going"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-fc793991",
+   "sp": "tf",
+   "text": "Are you going?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "are",
+    "you",
+    "going"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-18e8f9ce",
+   "sp": "uf",
+   "text": "Are you going?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "are",
+    "you",
+    "going"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-b45a37d9",
+   "sp": "um",
+   "text": "Are you going?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "are",
+    "you",
+    "going"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-7273e11d",
+   "sp": "tc",
+   "text": "Is it far?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "far"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-445b12d0",
+   "sp": "tf",
+   "text": "Is it far?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "far"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-c1ab1993",
+   "sp": "uf",
+   "text": "Is it far?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "far"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-59e54288",
+   "sp": "um",
+   "text": "Is it far?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "far"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-f2e06b73",
+   "sp": "tc",
+   "text": "Do you like it?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "like",
+    "it"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-4007d794",
+   "sp": "tf",
+   "text": "Do you like it?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "like",
+    "it"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-48f8f375",
+   "sp": "uf",
+   "text": "Do you like it?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "like",
+    "it"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-e2dddb6c",
+   "sp": "um",
+   "text": "Do you like it?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "like",
+    "it"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-33705813",
+   "sp": "tc",
+   "text": "Did you call?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "did",
+    "you",
+    "call"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-edda9dc4",
+   "sp": "tf",
+   "text": "Did you call?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "did",
+    "you",
+    "call"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-bb0c49e1",
+   "sp": "uf",
+   "text": "Did you call?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "did",
+    "you",
+    "call"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-d189c0bc",
+   "sp": "um",
+   "text": "Did you call?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "did",
+    "you",
+    "call"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-2367b2c0",
+   "sp": "tc",
+   "text": "Would you like coffee?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "would",
+    "you",
+    "like",
+    "coffee"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-5a7ea20d",
+   "sp": "tf",
+   "text": "Would you like coffee?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "would",
+    "you",
+    "like",
+    "coffee"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-b4e22452",
+   "sp": "uf",
+   "text": "Would you like coffee?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "would",
+    "you",
+    "like",
+    "coffee"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-3967de05",
+   "sp": "um",
+   "text": "Would you like coffee?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "would",
+    "you",
+    "like",
+    "coffee"
+   ],
+   "cw": [
+    2,
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-1a548d3f",
+   "sp": "tc",
+   "text": "Is it red?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "red"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-981dc71a",
+   "sp": "tf",
+   "text": "Is it red?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "red"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-9c5927a9",
+   "sp": "uf",
+   "text": "Is it red?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "red"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-014018d2",
+   "sp": "um",
+   "text": "Is it red?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "red"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-7b008b71",
+   "sp": "tc",
+   "text": "Is it today?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "today"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-664a8f94",
+   "sp": "tf",
+   "text": "Is it today?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "today"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-08a9ddc3",
+   "sp": "uf",
+   "text": "Is it today?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "today"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-2ea03dac",
+   "sp": "um",
+   "text": "Is it today?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "is",
+    "it",
+    "today"
+   ],
+   "cw": [
+    2
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-0a5511fb",
+   "sp": "tc",
+   "text": "Do you want to walk?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "want",
+    "to",
+    "walk"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-778d969a",
+   "sp": "tf",
+   "text": "Do you want to walk?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "want",
+    "to",
+    "walk"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-79fe2511",
+   "sp": "uf",
+   "text": "Do you want to walk?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "want",
+    "to",
+    "walk"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-4d3589e2",
+   "sp": "um",
+   "text": "Do you want to walk?",
+   "kind": "tune",
+   "shape": "yn",
+   "toks": [
+    "do",
+    "you",
+    "want",
+    "to",
+    "walk"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-21dff754",
+   "sp": "tf",
+   "text": "Where are you going?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "where",
+    "are",
+    "you",
+    "going"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-1c8eb5f7",
+   "sp": "uf",
+   "text": "Where are you going?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "where",
+    "are",
+    "you",
+    "going"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-58ac6ccc",
+   "sp": "um",
+   "text": "Where are you going?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "where",
+    "are",
+    "you",
+    "going"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-8b9f6097",
+   "sp": "tf",
+   "text": "How was your weekend?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "how",
+    "was",
+    "your",
+    "weekend"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-1abd7f62",
+   "sp": "uf",
+   "text": "How was your weekend?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "how",
+    "was",
+    "your",
+    "weekend"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-3c7501df",
+   "sp": "um",
+   "text": "How was your weekend?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "how",
+    "was",
+    "your",
+    "weekend"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-35ab8ced",
+   "sp": "tf",
+   "text": "Where do you live?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "where",
+    "do",
+    "you",
+    "live"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-1892258e",
+   "sp": "uf",
+   "text": "Where do you live?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "where",
+    "do",
+    "you",
+    "live"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-934df1a5",
+   "sp": "um",
+   "text": "Where do you live?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "where",
+    "do",
+    "you",
+    "live"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-1a34894d",
+   "sp": "tf",
+   "text": "Why are you late?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "why",
+    "are",
+    "you",
+    "late"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-bc86ff9c",
+   "sp": "uf",
+   "text": "Why are you late?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "why",
+    "are",
+    "you",
+    "late"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-1cf49925",
+   "sp": "um",
+   "text": "Why are you late?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "why",
+    "are",
+    "you",
+    "late"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-859d103f",
+   "sp": "tc",
+   "text": "When does it start?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "when",
+    "does",
+    "it",
+    "start"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-3a56e8ad",
+   "sp": "uf",
+   "text": "When does it start?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "when",
+    "does",
+    "it",
+    "start"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-b903bdb4",
+   "sp": "um",
+   "text": "When does it start?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "when",
+    "does",
+    "it",
+    "start"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-f3a1e8ab",
+   "sp": "tc",
+   "text": "How far is it?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "how",
+    "far",
+    "is",
+    "it"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-6c4043ee",
+   "sp": "tf",
+   "text": "How far is it?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "how",
+    "far",
+    "is",
+    "it"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-fca78a11",
+   "sp": "uf",
+   "text": "How far is it?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "how",
+    "far",
+    "is",
+    "it"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-e5ee1906",
+   "sp": "um",
+   "text": "How far is it?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "how",
+    "far",
+    "is",
+    "it"
+   ],
+   "cw": [
+    1
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-181bc198",
+   "sp": "tc",
+   "text": "What do you like?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "what",
+    "do",
+    "you",
+    "like"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-ec23c27f",
+   "sp": "tf",
+   "text": "What do you like?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "what",
+    "do",
+    "you",
+    "like"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-36ac233e",
+   "sp": "uf",
+   "text": "What do you like?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "what",
+    "do",
+    "you",
+    "like"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-7bfec757",
+   "sp": "um",
+   "text": "What do you like?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "what",
+    "do",
+    "you",
+    "like"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tc-bbfcff5b",
+   "sp": "tc",
+   "text": "Who did you call?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "who",
+    "did",
+    "you",
+    "call"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-923f956c",
+   "sp": "tf",
+   "text": "Who did you call?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "who",
+    "did",
+    "you",
+    "call"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "uf-d7e04a29",
+   "sp": "uf",
+   "text": "Who did you call?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "who",
+    "did",
+    "you",
+    "call"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "um-5a067c84",
+   "sp": "um",
+   "text": "Who did you call?",
+   "kind": "tune",
+   "shape": "wh",
+   "toks": [
+    "who",
+    "did",
+    "you",
+    "call"
+   ],
+   "cw": [
+    3
+   ],
+   "focus": null,
+   "alt": null
+  },
+  {
+   "id": "tf-9c0b3840",
+   "sp": "tf",
+   "text": "Would you like coffee or tea?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "would",
+    "you",
+    "like",
+    "coffee",
+    "or",
+    "tea"
+   ],
+   "cw": [
+    2,
+    3,
+    5
+   ],
+   "focus": null,
+   "alt": 3
+  },
+  {
+   "id": "uf-5da528ed",
+   "sp": "uf",
+   "text": "Would you like coffee or tea?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "would",
+    "you",
+    "like",
+    "coffee",
+    "or",
+    "tea"
+   ],
+   "cw": [
+    2,
+    3,
+    5
+   ],
+   "focus": null,
+   "alt": 3
+  },
+  {
+   "id": "um-f9cae478",
+   "sp": "um",
+   "text": "Would you like coffee or tea?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "would",
+    "you",
+    "like",
+    "coffee",
+    "or",
+    "tea"
+   ],
+   "cw": [
+    2,
+    3,
+    5
+   ],
+   "focus": null,
+   "alt": 3
+  },
+  {
+   "id": "tc-0e9839b8",
+   "sp": "tc",
+   "text": "Coffee or tea?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "coffee",
+    "or",
+    "tea"
+   ],
+   "cw": [
+    0,
+    2
+   ],
+   "focus": null,
+   "alt": 0
+  },
+  {
+   "id": "uf-6d97dcca",
+   "sp": "uf",
+   "text": "Coffee or tea?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "coffee",
+    "or",
+    "tea"
+   ],
+   "cw": [
+    0,
+    2
+   ],
+   "focus": null,
+   "alt": 0
+  },
+  {
+   "id": "um-63f118c9",
+   "sp": "um",
+   "text": "Coffee or tea?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "coffee",
+    "or",
+    "tea"
+   ],
+   "cw": [
+    0,
+    2
+   ],
+   "focus": null,
+   "alt": 0
+  },
+  {
+   "id": "tf-3d9bd3e3",
+   "sp": "tf",
+   "text": "Is it red or blue?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "it",
+    "red",
+    "or",
+    "blue"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "uf-e2ddb560",
+   "sp": "uf",
+   "text": "Is it red or blue?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "it",
+    "red",
+    "or",
+    "blue"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "um-438d337b",
+   "sp": "um",
+   "text": "Is it red or blue?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "it",
+    "red",
+    "or",
+    "blue"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "tf-e40b07a0",
+   "sp": "tf",
+   "text": "Is it today or tomorrow?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "it",
+    "today",
+    "or",
+    "tomorrow"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "uf-5fde160b",
+   "sp": "uf",
+   "text": "Is it today or tomorrow?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "it",
+    "today",
+    "or",
+    "tomorrow"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "um-974c5308",
+   "sp": "um",
+   "text": "Is it today or tomorrow?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "it",
+    "today",
+    "or",
+    "tomorrow"
+   ],
+   "cw": [
+    2,
+    4
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "tf-3648648f",
+   "sp": "tf",
+   "text": "Do you want to walk or drive?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "do",
+    "you",
+    "want",
+    "to",
+    "walk",
+    "or",
+    "drive"
+   ],
+   "cw": [
+    2,
+    4,
+    6
+   ],
+   "focus": null,
+   "alt": 4
+  },
+  {
+   "id": "uf-8b002a62",
+   "sp": "uf",
+   "text": "Do you want to walk or drive?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "do",
+    "you",
+    "want",
+    "to",
+    "walk",
+    "or",
+    "drive"
+   ],
+   "cw": [
+    2,
+    4,
+    6
+   ],
+   "focus": null,
+   "alt": 4
+  },
+  {
+   "id": "um-3006e2e7",
+   "sp": "um",
+   "text": "Do you want to walk or drive?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "do",
+    "you",
+    "want",
+    "to",
+    "walk",
+    "or",
+    "drive"
+   ],
+   "cw": [
+    2,
+    4,
+    6
+   ],
+   "focus": null,
+   "alt": 4
+  },
+  {
+   "id": "tf-9ee5c79c",
+   "sp": "tf",
+   "text": "Should I call you or text you?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "should",
+    "i",
+    "call",
+    "you",
+    "or",
+    "text",
+    "you"
+   ],
+   "cw": [
+    2,
+    5
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "uf-1273ac63",
+   "sp": "uf",
+   "text": "Should I call you or text you?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "should",
+    "i",
+    "call",
+    "you",
+    "or",
+    "text",
+    "you"
+   ],
+   "cw": [
+    2,
+    5
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "um-1627c434",
+   "sp": "um",
+   "text": "Should I call you or text you?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "should",
+    "i",
+    "call",
+    "you",
+    "or",
+    "text",
+    "you"
+   ],
+   "cw": [
+    2,
+    5
+   ],
+   "focus": null,
+   "alt": 2
+  },
+  {
+   "id": "tc-5997a0bc",
+   "sp": "tc",
+   "text": "Is your bag black or brown?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "your",
+    "bag",
+    "black",
+    "or",
+    "brown"
+   ],
+   "cw": [
+    2,
+    3,
+    5
+   ],
+   "focus": null,
+   "alt": 3
+  },
+  {
+   "id": "tf-ecd950d3",
+   "sp": "tf",
+   "text": "Is your bag black or brown?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "your",
+    "bag",
+    "black",
+    "or",
+    "brown"
+   ],
+   "cw": [
+    2,
+    3,
+    5
+   ],
+   "focus": null,
+   "alt": 3
+  },
+  {
+   "id": "uf-90d4f7b6",
+   "sp": "uf",
+   "text": "Is your bag black or brown?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "your",
+    "bag",
+    "black",
+    "or",
+    "brown"
+   ],
+   "cw": [
+    2,
+    3,
+    5
+   ],
+   "focus": null,
+   "alt": 3
+  },
+  {
+   "id": "um-b3e3313b",
+   "sp": "um",
+   "text": "Is your bag black or brown?",
+   "kind": "tune",
+   "shape": "alt",
+   "toks": [
+    "is",
+    "your",
+    "bag",
+    "black",
+    "or",
+    "brown"
+   ],
+   "cw": [
+    2,
+    3,
+    5
+   ],
+   "focus": null,
+   "alt": 3
+  },
+  {
+   "id": "tf-17bbb031",
+   "sp": "tf",
+   "text": "I said Tuesday, not Monday.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "i",
+    "said",
+    "tuesday",
+    "not",
+    "monday"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 2,
+   "alt": null
+  },
+  {
+   "id": "uf-2d94f970",
+   "sp": "uf",
+   "text": "I said Tuesday, not Monday.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "i",
+    "said",
+    "tuesday",
+    "not",
+    "monday"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 2,
+   "alt": null
+  },
+  {
+   "id": "um-004be999",
+   "sp": "um",
+   "text": "I said Tuesday, not Monday.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "i",
+    "said",
+    "tuesday",
+    "not",
+    "monday"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 2,
+   "alt": null
+  },
+  {
+   "id": "tf-c160f02e",
+   "sp": "tf",
+   "text": "It's ten dollars, not twenty.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "ten",
+    "dollars",
+    "not",
+    "twenty"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 1,
+   "alt": null
+  },
+  {
+   "id": "uf-068b74e3",
+   "sp": "uf",
+   "text": "It's ten dollars, not twenty.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "ten",
+    "dollars",
+    "not",
+    "twenty"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 1,
+   "alt": null
+  },
+  {
+   "id": "um-637e3376",
+   "sp": "um",
+   "text": "It's ten dollars, not twenty.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "ten",
+    "dollars",
+    "not",
+    "twenty"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 1,
+   "alt": null
+  },
+  {
+   "id": "tc-1a429983",
+   "sp": "tc",
+   "text": "I ordered tea, not coffee.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "i",
+    "ordered",
+    "tea",
+    "not",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 2,
+   "alt": null
+  },
+  {
+   "id": "tf-4fb10cc6",
+   "sp": "tf",
+   "text": "I ordered tea, not coffee.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "i",
+    "ordered",
+    "tea",
+    "not",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 2,
+   "alt": null
+  },
+  {
+   "id": "um-a553055e",
+   "sp": "um",
+   "text": "I ordered tea, not coffee.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "i",
+    "ordered",
+    "tea",
+    "not",
+    "coffee"
+   ],
+   "cw": [
+    1,
+    2,
+    4
+   ],
+   "focus": 2,
+   "alt": null
+  },
+  {
+   "id": "tf-cdaa964c",
+   "sp": "tf",
+   "text": "We meet at seven, not eight.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "we",
+    "meet",
+    "at",
+    "seven",
+    "not",
+    "eight"
+   ],
+   "cw": [
+    1,
+    3,
+    5
+   ],
+   "focus": 3,
+   "alt": null
+  },
+  {
+   "id": "uf-fdac63c3",
+   "sp": "uf",
+   "text": "We meet at seven, not eight.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "we",
+    "meet",
+    "at",
+    "seven",
+    "not",
+    "eight"
+   ],
+   "cw": [
+    1,
+    3,
+    5
+   ],
+   "focus": 3,
+   "alt": null
+  },
+  {
+   "id": "um-3bd21fd4",
+   "sp": "um",
+   "text": "We meet at seven, not eight.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "we",
+    "meet",
+    "at",
+    "seven",
+    "not",
+    "eight"
+   ],
+   "cw": [
+    1,
+    3,
+    5
+   ],
+   "focus": 3,
+   "alt": null
+  },
+  {
+   "id": "tc-22af3305",
+   "sp": "tc",
+   "text": "It's black, not brown.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "black",
+    "not",
+    "brown"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": 1,
+   "alt": null
+  },
+  {
+   "id": "tf-788c3ac8",
+   "sp": "tf",
+   "text": "It's black, not brown.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "black",
+    "not",
+    "brown"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": 1,
+   "alt": null
+  },
+  {
+   "id": "uf-b9880e4f",
+   "sp": "uf",
+   "text": "It's black, not brown.",
+   "kind": "tune",
+   "shape": "stmt",
+   "toks": [
+    "it's",
+    "black",
+    "not",
+    "brown"
+   ],
+   "cw": [
+    1,
+    3
+   ],
+   "focus": 1,
+   "alt": null
+  }
+ ]
+}

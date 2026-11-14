@@ -7,7 +7,7 @@
 
 필요한 것
     <폴더>/audio/dialogue/measure-meta.json   잴 줄의 정보 — node tools/dialogue-lines.cjs <폴더>가 페이지의
-        window.__measureMeta()로 함께 써요. 줄마다 { id, sp, text, kind: word | ko | other, n: 음절 수, at: 센 음절(0부터) }
+        window.__measureMeta()로 함께 써요. 줄마다 { id, sp, text, kind: word | ko | tune | other, n: 음절 수, at: 센 음절(0부터) }
     VoiceStudio의 Python(faster-whisper large-v3 · librosa · scipy · soundfile이 들어 있음), macOS afconvert
 
 하는 일 (줄마다)
@@ -40,10 +40,21 @@
                    tk: [[k, dB]] · vb: 10ms마다 낮은 띠의 크기 dB(가장 큰 곳 = 0, −50까지)를 적어요(목 울림 띠)
       stress: false  짧은 구(낱말 둘 이상, pick it up · get it)는 센 음절 확인(at의 표)을 하지 않아요 — 받아쓰기 · 끝 올림 · t 자리만
     문장(other)은 받아쓰기만 해요 — 문장 속 낱말의 시각은 Whisper가 어림으로만 알려 줘서 음절을 재지 않아요.
+    문장의 높낮이(tune, 억양 intonation): { shape: yn | wh | alt | stmt | decl, toks: 낱말(소문자), cw: 내용어 자리, focus: 초점 낱말 자리,
+                   alt: 고르는 질문의 앞 선택지(or 앞 꺾이는 낱말) 자리 }
+                   f: 20ms마다 높이 Hz(25ms 가운데값으로 튀는 값을 누름, 모든 목소리) · w: 낱말마다 [시작 ms, 끝 ms](Whisper 낱말 시각 — 어림) ·
+                   end: 끝 움직임(반음) = 마지막 울림 0.15초의 가운데값 − 그 앞 0.25~0.6초의 가운데값 · pk: 낱말마다 꼭대기(반음, 문장 가운데값 기준)
+                   통과: Yes/No 질문 · 되묻는 말 end ≥ +3 · 정보 질문 · 평서문 · 고르는 질문 end ≤ −2 ·
+                   고르는 질문은 앞 선택지의 꼭대기가 문장 가운데값보다 2반음 이상 높아야 ·
+                   초점 줄은 초점 낱말의 꼭대기가 다른 내용어보다 1반음 이상 높고, 기능어(not 등)까지 모든 낱말 가운데 가장 높고,
+                   초점 뒤의 낱말은 모두 초점보다 2반음 이상 낮고, 끝이 +1반음 넘게 올라가지 않아야(끝 ≤ −2 대신 — 초점 뒤는 이미 낮게 눌려 있어요)
+                   높이: 배음 더하기에서 pYIN과 한 옥타브 가까이(5반음 넘게) 다른 프레임과 짧게 튄 조각을 지운 값(tune_f0)
+                   (합성 음성은 문장 앞쪽이 높고 점점 내려가서 첫 낱말은 초점으로 쓰지 않아요)
 
 --narration: 음성 해설에서 영어 낱말만 읽는 조각(낱말 하나 · · 로 늘어놓은 낱말)을, 통과한 밝은 선생님(tc) 낱말 파일을
     그대로 이어(쉼표만큼 쉬고) 다시 만들어요 — 해설 속 낱말도 받아쓰기 · 센 음절 확인을 거친 소리가 되게(해설의 영어 목소리 = tc).
-    낱말 하나라도 통과하지 못했으면 그 조각은 그대로 둬요. audio/narration/clips.js의 길이를 고쳐요.
+    낱말 하나라도 통과하지 못했으면 그 조각은 그대로 둬요. 영어 문장 하나뿐인 조각은 글이 똑같은 tc 문장(tune) 파일이 통과했으면
+    그 파일로 바꿔요(해설 속 문장도 끝 올림 · 내림을 잰 소리). audio/narration/clips.js의 길이를 고쳐요.
 
 --regen: 통과하지 못한 줄을 seed 11 · 23 · 37 · 51 · 67 · 83으로 차례로 다시 만들어 통과하는 첫 소리로 바꾸고
     clips.js의 길이를 고쳐요(옛 파일은 임시 폴더의 old_takes/로). 끝내 통과하지 못하면 파일은 그대로 두고 잰 값만 빼요.
@@ -82,6 +93,14 @@ OP_F2 = 100       # 입 벌림 뒤 짝: F1 차가 모자라면 덜 벌린 ʌ의 
 F1_MAX = 1300     # F1으로 볼 가장 높은 공명(Hz) — 밝은 선생님의 크게 벌린 애(æ)는 F1이 1150~1200Hz까지 올라가요
 FLAP_MAX = 10.0   # t 자리: 짧은 ㄹ(flap)이면 낮은 띠(목 울림)가 두 핵보다 이만큼(dB) 이하로만 떨어져야 해요
 GAP_MIN = 15.0    # t 자리: 숨이 터지는 t · 한국어식으로 끊어 읽은 t(gap)면 이만큼(dB) 이상 떨어져야 해요
+TUNE_UP = 3.0     # 문장(tune): Yes/No 질문 · 되묻는 말은 끝이 이만큼(반음) 이상 올라가야
+TUNE_DOWN = -2.0  # 정보 질문 · 평서문 · 고르는 질문은 끝이 이만큼(반음) 이하로 내려가야
+ALT_PEAK = 2.0    # 고르는 질문: 앞 선택지의 꼭대기가 문장 가운데값보다 이만큼(반음) 이상 높아야
+FOCUS_GAP = 1.0   # 초점 줄: 초점 낱말의 꼭대기가 다른 내용어의 꼭대기보다 이만큼(반음) 이상 높고, 모든 낱말 가운데 가장 높아야
+POST_LOW = 2.0    # 초점 줄: 초점 뒤의 낱말은 모두 초점의 꼭대기보다 이만큼(반음) 이상 낮아야(낮게 눌러 말함)
+FOCUS_END = 1.0   # 초점 줄: 끝이 이만큼(반음) 넘게 올라가지 않아야 — 초점 뒤는 이미 낮게 눌려 있어 끝에서 더 내려가지 않기도 해요
+OCT_DIFF = 5.0    # 문장 높낮이: 배음 더하기와 pYIN이 이만큼(반음) 넘게 다른 프레임은 한 옥타브 잘못 고른 것으로 보고 지워요
+F0_RANGE = {'um': (60, 300)}  # pYIN이 찾는 높이의 범위(Hz) — 그 밖의 목소리는 (110, 560)
 
 ONES = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split()
 TENS = {2: 'twenty', 3: 'thirty', 4: 'forty', 5: 'fifty', 6: 'sixty', 7: 'seventy', 8: 'eighty', 9: 'ninety'}
@@ -97,7 +116,7 @@ def num_words(n):
 
 def norm_en(s):
     s = s.lower().replace('’', "'").replace('cannot', "can't")
-    s = re.sub(r'\$(\d+)', r'\1 dollars', s)
+    s = re.sub(r'\$(\d+)', r'\1 dollarsx', s)  # $20: 받아쓰기는 글에 없는 dollars를 붙이기도 해서 dollarsx = 있어도 없어도 되는 dollars
     s = re.sub(r'(\d+)%', r'\1 percent', s)
     s = re.sub(r'\b(\d{1,2})\b', lambda m: num_words(m.group(1)), s)
     s = s.replace('-', ' ')
@@ -378,8 +397,27 @@ def heard_ok_m(lang, heard, m):
 def heard_ok(lang, heard, text):
     if lang == 'ko':
         return edit(norm_ko(heard), norm_ko(text)) <= 1
-    h = lambda s: [HOMOPHONES.get(w, w) for w in norm_en(s)]
-    return h(heard) == h(text)
+    return align_en(norm_en(heard), norm_en(text)) is not None
+
+
+def align_en(heard, text):
+    """받아쓴 낱말 heard를 글의 낱말 text에 맞춰 — 맞으면 heard마다 글의 낱말(빠지는 dollarsx는 None), 다르면 None"""
+    T = [HOMOPHONES.get(w, w) for w in text]
+    T = [('dollars' if w == 'dollarsx' else w) for w in T]   # 글에 적은 $는 dollars를 꼭 읽어야
+    out, j = [], 0
+    for w in heard:
+        if w == 'dollarsx':
+            if j < len(T) and T[j] == 'dollars':
+                out.append('dollars'); j += 1
+            else:
+                out.append(None)
+            continue
+        w = HOMOPHONES.get(w, w)
+        if j < len(T) and w == T[j]:
+            out.append(w); j += 1
+        else:
+            return None
+    return out if j == len(T) else None
 
 
 def prefetch_asr(model, jobs, tmp, max_s=26.0, gap_s=1.0):
@@ -434,6 +472,8 @@ def measure(model, m, path, tmp):
         fdb0 = features(y, sr)[1]
         on = np.where(fdb0 > fdb0.max() - 35)[0]
         r['dur'] = int(round((on[-1] - on[0] + 1) * HOP * 1000)) if len(on) else 0
+    if m['kind'] == 'tune':
+        return measure_tune(model, m, y, sr, r)
     if m['kind'] not in ('word', 'ko'):
         return r
     env, fdb, f0, v = features(y, sr, mask=True)
@@ -476,6 +516,150 @@ def measure(model, m, path, tmp):
         else:
             r['why'] = (r.get('why', '') + ' 모음을 재지 못함').strip()
     return r
+
+
+def drop_jumps(f0, step=2.5, short=0.1, far=4.0):
+    """짧은 튐을 지워요 — 배음을 잘못 골라 한 옥타브 위 · 아래로 튄 조각(소리 끝이 갈라질 때 흔해요).
+    이웃 프레임 사이가 step반음 넘게 뛰거나 끊기면 조각을 나누고, short초보다 짧은 조각의 가운데값이
+    가장 가까운 앞 · 뒤의 긴 조각(없으면 문장 전체의 가운데값)과 far반음 넘게 다르면 지워요(높이를 재지 않은 프레임으로)"""
+    x = f0.copy()
+    idx = np.where(~np.isnan(x))[0]
+    if len(idx) < 3:
+        return x
+    segs, s, prev = [], idx[0], idx[0]
+    for i in idx[1:]:
+        if i - prev > 1 or abs(12 * np.log2(x[i] / x[prev])) > step:
+            segs.append((s, prev))
+            s = i
+        prev = i
+    segs.append((s, prev))
+    meds = [float(np.median(x[a:b + 1])) for a, b in segs]
+    long_ = [k for k, (a, b) in enumerate(segs) if (b - a + 1) * HOP >= short]
+    gmed = float(np.median(x[idx]))
+    for k, (a, b) in enumerate(segs):
+        if (b - a + 1) * HOP >= short:
+            continue
+        before = [j for j in long_ if j < k]
+        after = [j for j in long_ if j > k]
+        nb = ([meds[before[-1]]] if before else []) + ([meds[after[0]]] if after else [])
+        ref = float(np.median(nb)) if nb else gmed
+        if abs(12 * np.log2(meds[k] / ref)) > far:
+            x[a:b + 1] = np.nan
+    return x
+
+
+def tune_f0(y, sr, sp):
+    """문장 높낮이용 높이(5ms마다): 배음 더하기(shs_f0, 5프레임 가운데값)에서 한 옥타브 잘못 고른 프레임을 지워요 —
+    pYIN(librosa, 울린 프레임)과 OCT_DIFF반음 넘게 다르면 지우고, 남은 것에서 짧게 튄 조각을 지워요(drop_jumps).
+    소리 끝이 갈라지는(목이 긁히는) 곳에서 배음 더하기가 한 옥타브 위 · 아래로 튀는 일이 잦았어요"""
+    g = median_nan(features(y, sr)[2], 5)
+    lo, hi = F0_RANGE.get(sp, (110, 560))
+    p, vf, _ = librosa.pyin(y, fmin=lo, fmax=hi, sr=sr, frame_length=int(sr * 0.05) // 2 * 2, hop_length=int(round(sr * HOP)))
+    p = np.where(vf, p, np.nan)
+    n = min(len(g), len(p))
+    g, p = g[:n], p[:n]
+    both = ~np.isnan(g) & ~np.isnan(p)
+    bad = np.zeros(n, bool)
+    bad[both] = np.abs(12 * np.log2(g[both] / p[both])) > OCT_DIFF
+    return drop_jumps(np.where(bad, np.nan, g))
+
+
+def median_nan(x, k):
+    """울린 프레임만 k프레임 가운데값으로 — 한두 프레임 튀는 높이(배음을 잘못 고름)를 눌러요"""
+    out = x.copy()
+    h = k // 2
+    for i in np.where(~np.isnan(x))[0]:
+        v = x[max(0, i - h):i + h + 1]
+        out[i] = np.median(v[~np.isnan(v)])
+    return out
+
+
+def tune_words(model, y, sr, m):
+    """Whisper 낱말 시각(어림)을 문장 낱말(m['toks'])에 맞춰 [[시작 ms, 끝 ms]…] — 숫자($10 = ten dollars)는 시각을 나눠 맞추고,
+    낱말이 하나라도 다르면 None"""
+    pad = 0.5
+    z = np.zeros(int(sr * pad), dtype='float32')
+    y16 = librosa.resample(np.concatenate([z, y, z]), orig_sr=sr, target_sr=16000)
+    segs, _ = model.transcribe(y16, language='en', beam_size=5, vad_filter=False, word_timestamps=True, condition_on_previous_text=False)
+    ws = [(norm_en(w.word), w.start, w.end) for sg in segs for w in (sg.words or [])]
+    ws = [x for x in ws if x[0]]
+    got = align_en([p for parts, _, _ in ws for p in parts], m['toks'])
+    if got is None:
+        return None
+    seq, i = [], 0
+    for parts, s0, s1 in ws:
+        keep = [g for g in got[i:i + len(parts)] if g is not None]   # 빠지는 dollarsx를 뺀 낱말끼리 시각을 나눠요
+        i += len(parts)
+        a, b = (s0 - pad) * 1000, (s1 - pad) * 1000
+        st = (b - a) / max(1, len(keep))
+        for k in range(len(keep)):
+            seq.append((a + k * st, a + (k + 1) * st))
+    return [[max(0, int(round(a))), int(round(b))] for a, b in seq]
+
+
+def measure_tune(model, m, y, sr, r):
+    """문장의 높낮이(tune): f · end · w · pk (머리말)"""
+    f0 = tune_f0(y, sr, m['sp'])
+    idx = np.where(~np.isnan(f0))[0]
+    if len(idx) < 20:
+        r['why'] = '높이를 재지 못함'
+        return r
+    ref = float(np.median(f0[idx]))
+    r['ref'] = int(round(ref))
+    k = int(round(0.02 / HOP))
+    r['f'] = [0 if np.all(np.isnan(f0[i:i + k])) else int(round(np.nanmedian(f0[i:i + k]))) for i in range(0, len(f0), k)]
+    end = idx[-1]
+    last = f0[max(0, end - int(0.15 / HOP)):end + 1]
+    prev = f0[max(0, end - int(0.6 / HOP)):max(0, end - int(0.25 / HOP))]
+    last, prev = last[~np.isnan(last)], prev[~np.isnan(prev)]
+    if len(last) >= 5 and len(prev) >= 5:
+        r['end'] = round(float(12 * np.log2(np.median(last) / np.median(prev))), 1)
+    w = tune_words(model, y, sr, m)
+    if w is None:
+        r['why'] = '낱말 시각을 맞추지 못함'
+        return r
+    r['w'] = w
+    pk = []
+    for a, b in w:
+        v = f0[int(a / 1000 / HOP):int(b / 1000 / HOP) + 1]
+        v = v[~np.isnan(v)]
+        pk.append(round(float(12 * np.log2(np.max(v) / ref)), 1) if len(v) else None)
+    r['pk'] = pk
+    return r
+
+
+def tune_check(m, r):
+    """문장(tune)의 (통과?, 이유)"""
+    why = []
+    e, sh, pk = r.get('end'), m.get('shape'), r.get('pk')
+    if e is None:
+        why.append('끝 움직임을 재지 못함')
+    elif sh in ('yn', 'decl') and e < TUNE_UP:
+        why.append(f'끝 {e:+.1f} < +{TUNE_UP:.0f}')
+    elif m.get('focus') is not None:
+        if e > FOCUS_END:
+            why.append(f'끝 {e:+.1f} > +{FOCUS_END:.0f}')
+    elif sh in ('wh', 'stmt', 'alt') and e > TUNE_DOWN:
+        why.append(f'끝 {e:+.1f} > {TUNE_DOWN:.0f}')
+    if sh == 'alt' and m.get('alt') is not None:
+        x = pk[m['alt']] if pk else None
+        if x is None or x < ALT_PEAK:
+            why.append(f'앞 선택지 꼭대기 {x if x is not None else "?"} < +{ALT_PEAK:.0f}')
+    if m.get('focus') is not None:
+        x = pk[m['focus']] if pk else None
+        oth = [pk[i] for i in m.get('cw', []) if pk and i != m['focus'] and pk[i] is not None]
+        if x is None or not oth or x < max(oth) + FOCUS_GAP:
+            why.append(f"초점 꼭대기 {x if x is not None else '?'} · 다른 내용어 최고 {max(oth) if oth else '?'}")
+        else:   # 기능어(not 등)까지 모든 낱말 가운데서도 가장 높아야 — 화면에 ‘가장 높이 솟는 곳’으로 보여 줘요
+            allo = [v for i, v in enumerate(pk) if i != m['focus'] and v is not None]
+            post = [v for v in pk[m['focus'] + 1:] if v is not None]
+            if allo and x <= max(allo):
+                why.append(f'초점 꼭대기 {x} ≤ 다른 낱말 최고 {max(allo)}')
+            elif post and max(post) > x - POST_LOW:
+                why.append(f'초점 뒤 최고 {max(post)} > 초점 {x} − {POST_LOW:.0f}')
+    if r.get('why'):
+        why.append(r['why'])
+    return not why, ' '.join(why)
 
 
 def pair_ratio(m, r, res):
@@ -540,11 +724,15 @@ def passes(m, r, res=None):
             if q is not None and not q[0]:
                 return False
         return bool(r.get('okStress')) and r.get('rise', 0) <= RISE_MAX
+    if m['kind'] == 'tune':
+        return tune_check(m, r)[0]
     return True  # 한국어식 · 문장은 받아쓰기만 (한국어식은 음절을 나누지 못하면 잰 값만 빠져요)
 
 
 def tag(m, r, res=None):
     t = '' if r.get('okHeard') else f" 받아쓰기≠({r.get('heard', '')[:30]})"
+    if m['kind'] == 'tune':
+        return t + ' ' + tune_check(m, r)[1] if not tune_check(m, r)[0] else t
     if 'okStress' in r and not r['okStress']:
         if m.get('weak') is not None:
             wk = r.get('wk') or ['?', '?']
@@ -573,10 +761,10 @@ def write_measure_js(path, meta, res):
     out = {}
     for m in meta:
         r = res.get(m['id'])
-        if not r or not passes(m, r, res) or ('s' not in r and 'dur' not in r):
+        if not r or not passes(m, r, res) or not any(x in r for x in ('s', 'dur', 'f')):
             continue
         e = {}
-        for x in ('s', 'f', 'e', 'F', 'vd', 'dur', 'tk', 'vb'):
+        for x in ('s', 'f', 'e', 'F', 'vd', 'dur', 'tk', 'vb', 'w', 'end', 'pk'):
             if x in r:
                 e[x] = r[x]
         out[m['id']] = e
@@ -590,6 +778,9 @@ def write_measure_js(path, meta, res):
             f.write('// tk: t 자리(음절 경계 k)마다 [k, 낮은 띠(60~500Hz, 목 울림)가 두 음절 핵보다 떨어진 dB] · vb: 10ms마다 낮은 띠의 크기 dB(가장 큰 곳 = 0)\n')
         if any('dur' in v for v in out.values()):
             f.write('// dur: 앞뒤 무음을 뺀 줄 전체의 길이 ms(가장 큰 크기에서 35dB 안쪽의 처음 ~ 끝)\n')
+        if any('end' in v for v in out.values()):
+            f.write('// 문장(tune): f는 모든 목소리 · w: 낱말마다 [시작 ms, 끝 ms](Whisper 낱말 시각, 어림) · end: 끝 움직임 반음\n')
+            f.write('//   (마지막 울림 0.15초 − 그 앞 0.25~0.6초, 가운데값) · pk: 낱말마다 꼭대기 반음(문장 가운데값 기준)\n')
         f.write('window.PRON_MEASURE = ' + json.dumps(out, ensure_ascii=False, separators=(',', ':')) + ';\n')
     return len(out)
 
@@ -616,6 +807,7 @@ def narration_from_words(slug, meta, res, tmp):
     dd = os.path.join(ROOT, slug, 'audio', 'dialogue')
     pieces = json.load(open(os.path.join(nd, 'pieces.json'), encoding='utf-8'))['pieces']
     tc = {m['text'].lower(): m for m in meta if m['sp'] == 'tc' and m['kind'] == 'word'}
+    tune = {m['text']: m for m in meta if m['sp'] == 'tc' and m['kind'] == 'tune'}
     cj = os.path.join(nd, 'clips.js')
     cl = vs.read_clips_js(cj, 'EN_CLIPS')
     ext, enc = vs.encoder()
@@ -625,13 +817,17 @@ def narration_from_words(slug, meta, res, tmp):
     for p in pieces:
         if p['lang'] != 'en':
             continue
-        words = vs.word_list(p['text'])
-        if not words:
-            one = re.sub(r'[.\s]+$', '', p['text'].strip())
-            words = [one] if re.fullmatch(r"[A-Za-z]+", one) else None
-        if not words:
-            continue
-        lines = [tc.get(w.lower()) for w in words]
+        if p['text'].strip() in tune:   # 영어 문장 하나 = 글이 똑같은 tc 문장 파일
+            words = [p['text'].strip()]
+            lines = [tune[words[0]]]
+        else:
+            words = vs.word_list(p['text'])
+            if not words:
+                one = re.sub(r'[.\s]+$', '', p['text'].strip())
+                words = [one] if re.fullmatch(r"[A-Za-z]+", one) else None
+            if not words:
+                continue
+            lines = [tc.get(w.lower()) for w in words]
         bad = [w for w, m in zip(words, lines) if not m or not passes(m, res.get(m['id'], {}), res)]
         if bad:
             skip.append(f"{p['text']}({', '.join(bad)})")
@@ -776,8 +972,8 @@ def main():
     n = write_measure_js(os.path.join(d, 'measure.js'), meta, res)
     if o.narration:
         narration_from_words(slug, meta, res, tmp)
-    words = [m for m in meta if m['kind'] in ('word', 'ko') and m['id'] in res]
-    print(f'\nmeasure.js: 잰 값 {n}개 / 낱말 · 한국어식 {len(words)}개 · 받아쓰기한 줄 {len(todo)}개')
+    words = [m for m in meta if m['kind'] in ('word', 'ko', 'tune') and m['id'] in res]
+    print(f'\nmeasure.js: 잰 값 {n}개 / 낱말 · 한국어식 · 문장 높낮이 {len(words)}개 · 받아쓰기한 줄 {len(todo)}개')
     if replaced:
         print(f"다시 만들어 바꾼 줄 {len(replaced)}개: " + ' '.join(f"{m['id']}({m['text'][:16]})" for m in replaced))
     if still:

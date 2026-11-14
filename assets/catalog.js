@@ -511,5 +511,18 @@ window.EN_CATALOG = {
       thumb: 't-and-linking/docs/poster.jpg',
       added: '2026-11-14',
     },
+    {
+      slug: 'intonation',
+      track: 'pron',
+      title: '올리고 내리기 — 억양과 초점',
+      topic: "Yes/No 질문 ↗(Are you ready?) · 정보 질문 ↘(Where are you going?) · 고르는 질문 ↗↘(Coffee or tea?) · 평서문 ↘ · 되묻는 말 ↗(It's raining?) · 꺾이는 곳(마지막 센 음절) · 초점(I said Tuesday, not Monday.)",
+      summary: "같은 낱말도 끝을 내리면 말하는 문장, 끝만 올리면 되묻는 말이에요(It's raining. · It's raining?). Yes/No 질문은 끝을 올리고, 정보 질문과 평서문은 내리고, 고르는 질문은 앞은 올리고 마지막은 내려요. 높낮이가 크게 움직이는 곳은 마지막 센 음절이고, 고쳐 말하는 낱말이 있으면 그 낱말이 가장 높아요. 실제 음성을 재서 그린 높낮이 선으로 끝의 방향을 보고, 목소리 넷으로 가르고, 문장 속에서 꺾이는 곳을 옮겨요. 끝에는 끝 올림 · 내림 듣기 훈련 · 억양 바꾸기 실험실 · 내 높낮이 선.",
+      length: '6:42',
+      scenes: 10,
+      features: ['음성 해설', '잰 높낮이 선', '목소리 넷으로 듣기', '한국어식 억양 그림', '장면별 실습', '끝 올림 · 내림 듣기 훈련', '억양 바꾸기 실험실', '내 높낮이 선(시험 기능)', '따라 말하기 28', '듣고 가르기 16', '퀴즈'],
+      types: [22],
+      thumb: 'intonation/docs/poster.jpg',
+      added: '2026-11-14',
+    },
   ],
 };
