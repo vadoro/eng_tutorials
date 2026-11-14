@@ -27,6 +27,8 @@ window.EN_CATALOG = {
   site: {
     title: '영어 튜토리얼',
     org: '한림대학교 영어영문학과',
+    // 방문자 통계 (assets/stats.js): 구글 애널리틱스(GA4) 측정 ID와 셀 사이트 주소들 (김용수 사이트 · DH 튜토리얼과 같은 ID)
+    stats: { ga: { id: 'G-9W6JM2ECKR', hosts: ['engtutorials.vercel.app', 'vadoro.github.io'] } },
   },
   tracks: [
     {

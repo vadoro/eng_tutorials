@@ -69,6 +69,7 @@ index.html              사이트 첫 화면 (영역별 튜토리얼 카드)
 assets/catalog.js       영역(tracks)과 튜토리얼 목록 — 새 튜토리얼은 여기에 한 항목 추가
 assets/site-bar.js      각 튜토리얼 위에 붙는 공통 상단 바
 assets/to-top.js        모든 페이지 오른쪽 아래의 ‘맨 위로’ 단추
+assets/stats.js         방문자 통계 (구글 애널리틱스 GA4 — catalog.js의 site.stats.ga에 적은 사이트 주소에서만 셈)
 assets/site.css         첫 화면 디자인
 assets/favicon.svg      파비콘
 shared/narration.js     공통 부품: 음성 해설(한·영 나눠 읽기) + 발음 듣기 (EN.narration, EN.say)

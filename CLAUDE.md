@@ -10,6 +10,7 @@
 index.html              사이트 첫 화면 (영역별 카드, assets/catalog.js를 읽어 그림)
 assets/catalog.js       영역(tracks)과 튜토리얼(tutorials) 목록 — 첫 화면과 상단 바가 함께 씀 (단일 출처)
 assets/site-bar.js      각 튜토리얼 위에 붙는 공통 상단 바 (섀도 DOM, 추출 화면에서는 안 붙음)
+assets/stats.js         방문자 통계 (구글 애널리틱스 GA4). catalog.js의 site.stats.ga에 측정 ID와 사이트 주소를 적으면 켜짐. 그 주소에서만 세고 file://·미리보기·추출 화면은 안 셈 (첫 화면 · 튜토리얼마다 to-top.js 앞 줄에서 불러옴)
 assets/to-top.js        모든 페이지 오른쪽 아래의 ‘맨 위로’ 단추 (첫 화면 · 튜토리얼마다 site-bar.js 다음 줄에서 불러옴, 섀도 DOM, 추출 화면에서는 안 붙음)
 assets/site.css         첫 화면 디자인 토큰(밝은/어두운 테마)
 assets/favicon.svg      파비콘 — 청록 둥근 사각형에 흰 EN(글자는 도형으로 그려 글꼴과 무관)
@@ -90,7 +91,7 @@ docs/pron-types.md      영어 발음 영역의 설계도: 한국어 화자가 �
   - 경로는 모두 상대 경로. 튜토리얼 안에서 사이트 공통 파일은 `../assets/…`, 공통 부품은 `../shared/…`.
   - 링크는 폴더가 아니라 `…/index.html`까지 적습니다(로컬 파일로 열 때 폴더 목록이 뜨지 않도록).
 - **사이트에 GitHub 링크를 두지 않습니다.** 방문자가 사이트 안에서 튜토리얼을 보게 하려는 것입니다. 외부 자료의 출처 링크는 괜찮습니다.
-- **외부 자원은 Google Fonts 글꼴만.** 스크립트·그림은 저장소 안에 둡니다. 글꼴이 없어도 깨지지 않게 대체 글꼴을 꼭 적습니다.
+- **외부 자원은 Google Fonts 글꼴만.** 스크립트·그림은 저장소 안에 둡니다. 글꼴이 없어도 깨지지 않게 대체 글꼴을 꼭 적습니다. 예외는 방문 통계 스크립트(구글 애널리틱스)뿐이고, `assets/stats.js`가 사이트 주소에서만 불러옵니다.
 - **누구나 이해할 수 있는 쉬운 한국어.** 문장은 짧게, 문법 용어는 처음 나올 때 풀어서, 영어 이름은 괄호로 함께. 말투는 "~예요/~해요".
   - 영어 낱말 바로 뒤에 조사를 붙이는 문장은 소리 내어 읽을 때 어색하므로(예: ‘The hotel’는) 되도록 피하고 `→`, `=`로 잇습니다.
 - **규칙 엔진과 단순화를 구분해 밝히기.** 맞고 틀림은 튜토리얼의 규칙 엔진(`grammar.js`)이 정하고, 영상·놀이터·연습 문제·퀴즈가 모두 그 결과를 씁니다. 문제 데이터에 적은 정답과 규칙 엔진이 어긋나면 콘솔 경고를 냅니다. 시험 기준으로 단순하게 줄인 부분(예: 목적어 자리의 who)은 README와 화면 각주에 적습니다.
@@ -103,7 +104,7 @@ docs/pron-types.md      영어 발음 영역의 설계도: 한국어 화자가 �
 
 1. 가장 가까운 튜토리얼을 복사합니다: `cp -r relative-pronouns <slug>`. slug는 영어 소문자와 `-` (예: `subject-verb-agreement`, `airport`).
 2. `index.html`에서 바꿀 곳
-   - `<script src="../assets/site-bar.js" data-slug="<slug>">`의 `data-slug`
+   - `<script src="../assets/site-bar.js" data-slug="<slug>">`의 `data-slug` (바로 다음 두 줄의 `../assets/stats.js` · `../assets/to-top.js`는 그대로 둠)
    - `<title>`, 머리말, 문장 색 범례, 놀이터·연습 문제·퀴즈 머리말, 핵심 정리(표와 `.en-gloss`), 각주
 3. `assets/js/grammar.js` — 이 주제의 규칙 엔진(`judge`), 3단계 풀이 문장, 예문, 연습 문제(16문제 안팎), 데이터 점검(`check`)
 4. `assets/js/scenes.js` — `CHAPTERS`(장마다 `caps`에 그 장 기준 자막), `SCENES`, `POSTER`
