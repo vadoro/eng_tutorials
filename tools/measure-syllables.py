@@ -39,6 +39,9 @@
                    10dB 이하로 이어져야, 숨이 터지는 t · 한국어식으로 끊어 읽은 t(gap)는 15dB 이상 떨어져야 통과해요.
                    tk: [[k, dB]] · vb: 10ms마다 낮은 띠의 크기 dB(가장 큰 곳 = 0, −50까지)를 적어요(목 울림 띠)
       stress: false  짧은 구(낱말 둘 이상, pick it up · get it)는 센 음절 확인(at의 표)을 하지 않아요 — 받아쓰기 · 끝 올림 · t 자리만
+      fric: s | sh, cpair: id   s · sh 짝 낱말(see · she, ㅅ · ㅈ 너머 s-sh-z-j): 바람 소리(1~11kHz 띠가 낮은 띠보다 10dB 넘게 세고
+                   그 띠의 크기가 가장 큰 곳에서 20dB 안쪽인 가장 긴 조각, 30ms 이상)의 가운데 절반에서 평균 스펙트럼의 무게중심을 fc(Hz)로 적어요.
+                   같은 목소리의 짝 줄(cpair)과 견줘 s 쪽이 sh 쪽보다 1000Hz 이상 높아야 통과(sh는 혀가 조금 뒤 + 둥근 입술이라 낮아요)
     문장(other)은 받아쓰기만 해요 — 문장 속 낱말의 시각은 Whisper가 어림으로만 알려 줘서 음절을 재지 않아요.
     문장의 높낮이(tune, 억양 intonation): { shape: yn | wh | alt | stmt | decl, toks: 낱말(소문자), cw: 내용어 자리, focus: 초점 낱말 자리,
                    alt: 고르는 질문의 앞 선택지(or 앞 꺾이는 낱말) 자리 }
@@ -99,6 +102,7 @@ ALT_PEAK = 2.0    # 고르는 질문: 앞 선택지의 꼭대기가 문장 가�
 FOCUS_GAP = 1.0   # 초점 줄: 초점 낱말의 꼭대기가 다른 내용어의 꼭대기보다 이만큼(반음) 이상 높고, 모든 낱말 가운데 가장 높아야
 POST_LOW = 2.0    # 초점 줄: 초점 뒤의 낱말은 모두 초점의 꼭대기보다 이만큼(반음) 이상 낮아야(낮게 눌러 말함)
 FOCUS_END = 1.0   # 초점 줄: 끝이 이만큼(반음) 넘게 올라가지 않아야 — 초점 뒤는 이미 낮게 눌려 있어 끝에서 더 내려가지 않기도 해요
+FC_GAP = 1000    # s · sh 짝: s 쪽 바람 소리의 무게중심 − sh 쪽 (Hz) 이상
 OCT_DIFF = 5.0    # 문장 높낮이: 배음 더하기와 pYIN이 이만큼(반음) 넘게 다른 프레임은 한 옥타브 잘못 고른 것으로 보고 지워요
 F0_RANGE = {'um': (60, 300)}  # pYIN이 찾는 높이의 범위(Hz) — 그 밖의 목소리는 (110, 560)
 
@@ -120,7 +124,7 @@ def norm_en(s):
     s = re.sub(r'(\d+)%', r'\1 percent', s)
     s = re.sub(r'\b(\d{1,2})\b', lambda m: num_words(m.group(1)), s)
     s = s.replace('-', ' ')
-    return re.findall(r"[a-z']+", s)
+    return [x for w in re.findall(r"[a-z']+", s) for x in COMPOUNDS.get(w, w).split()]
 
 
 def norm_ko(s):
@@ -386,7 +390,11 @@ HOMOPHONES = {'heal': 'heel', 'peal': 'peel', 'reed': 'read', 'weak': 'week', 'f
               # 미국 영어는 모음 사이의 t · d를 둘 다 짧은 ㄹ로 내서 metal · medal, writer · rider, atom · Adam이 거의 같은 소리예요(t-and-linking)
               'metal': 'medal', 'writer': 'rider', 'ryder': 'rider', 'latter': 'ladder', 'atom': 'adam',
               # 기능어를 혼자 강한 형태로 읽으면 이름 · 숫자 · 글자와 소리가 같아요(an = Ann, to = two, for = four, are = R)
-              'ann': 'an', 'anne': 'an', 'two': 'to', 'too': 'to', 'four': 'for', 'r': 'are'}
+              'ann': 'an', 'anne': 'an', 'two': 'to', 'too': 'to', 'four': 'for', 'r': 'are',
+              # 낱말 하나만 들으면 받아쓰기가 글자 이름으로 적기도 해요(see → C.) — 소리가 같아요(s-sh-z-j)
+              'c': 'see'}
+# 붙여 쓰거나 띄어 쓰는 합성어(sea shells = seashells) — 글과 받아쓰기 모두 띄어 쓴 꼴로 맞춰요
+COMPOUNDS = {'seashells': 'sea shells', 'seashell': 'sea shell'}
 
 
 def heard_ok_m(lang, heard, m):
@@ -504,6 +512,12 @@ def measure(model, m, path, tmp):
     if (m['kind'] == 'word' and m['sp'] == 'tc') or m.get('env'):
         er = fdb[::k]
         r['e'] = [int(round(max(-60.0, x - float(np.max(er))))) for x in er]
+    if m.get('fric'):
+        fc = fric_centroid(y, sr)
+        if fc:
+            r['fc'] = fc
+        else:
+            r['why'] = (r.get('why', '') + ' 바람 소리를 찾지 못함').strip()
     if m.get('formant'):
         a, b = sg[m.get('at', 0)]
         na, nb = nucleus(env, a, b)
@@ -662,6 +676,51 @@ def tune_check(m, r):
     return not why, ' '.join(why)
 
 
+def fric_centroid(y, sr):
+    """s · sh 바람 소리의 무게중심 Hz — 바람 조각을 찾지 못하면 None
+    바람 조각: 1~11kHz 띠가 낮은 띠(80~900Hz, 목 울림)보다 10dB 넘게 세고, 그 띠의 크기가 가장 큰 곳에서 20dB 안쪽인 프레임이
+    이어진 가장 긴 조각(15ms 이하의 틈은 메움, 30ms 이상). 그 가운데 절반의 평균 파워 스펙트럼에서 1~11kHz의 무게중심"""
+    hop = int(round(sr * HOP))
+    nfft = 2048 if sr > 32000 else 1024
+    S = np.abs(librosa.stft(y, n_fft=nfft, hop_length=hop, win_length=int(sr * 0.025), center=True)) ** 2
+    fr = librosa.fft_frequencies(sr=sr, n_fft=nfft)
+    band = (fr >= 1000) & (fr <= min(11000.0, sr / 2 - 500))
+    hb = S[band].sum(0) + 1e-12
+    lo = S[(fr >= 80) & (fr <= 900)].sum(0) + 1e-12
+    hdb = 10 * np.log10(hb)
+    on = (10 * np.log10(hb / lo) > 10) & (hdb > hdb.max() - 20)
+    idx = np.where(on)[0]
+    for a, b in zip(idx[:-1], idx[1:]):
+        if 1 < b - a <= 3:
+            on[a:b] = True
+    best, i, n = None, 0, len(on)
+    while i < n:
+        if on[i]:
+            j = i
+            while j < n and on[j]:
+                j += 1
+            if j - i >= 6 and (best is None or j - i > best[1] - best[0]):
+                best = (i, j)
+            i = j
+        else:
+            i += 1
+    if best is None:
+        return None
+    a, b = best
+    q = (b - a) // 4
+    sp = S[band][:, a + q:b - q].mean(1)
+    return int(round(float((fr[band] * sp).sum() / sp.sum())))
+
+
+def fric_check(m, r, res):
+    """s · sh 짝 줄(cpair)이 있으면 (통과?, s 쪽 fc − sh 쪽 fc), 잴 수 없으면 None"""
+    o = (res or {}).get(m.get('cpair') or '')
+    if not o or not r.get('fc') or not o.get('fc'):
+        return None
+    d = r['fc'] - o['fc'] if m.get('fric') == 's' else o['fc'] - r['fc']
+    return d >= FC_GAP, d
+
+
 def pair_ratio(m, r, res):
     """짝 줄(pair)이 있으면 (목이 울리는 쪽 ÷ 울리지 않는 쪽) 마지막 음절 길이의 비, 잴 수 없으면 None"""
     o = (res or {}).get(m.get('pair') or '')
@@ -717,6 +776,12 @@ def passes(m, r, res=None):
                 return False
         if m.get('formant') and 'F' not in r:
             return False
+        if m.get('fric') and 'fc' not in r:
+            return False
+        if m.get('cpair') and res is not None:
+            q = fric_check(m, r, res)
+            if q is not None and not q[0]:
+                return False
         if f_odd(m, r):
             return False
         if m.get('fpair') and res is not None:
@@ -751,6 +816,9 @@ def tag(m, r, res=None):
     if q is not None and q < PAIR_MIN:
         t += f" 짝과 모음 길이 비 {q:.2f} < {PAIR_MIN}"
     t += f_odd(m, r)
+    q = fric_check(m, r, res) if m.get('cpair') and res is not None else None
+    if q is not None and not q[0]:
+        t += f" s · sh 바람 소리 무게중심 차 {q[1]:+d}Hz < {FC_GAP}"
     q = fpair_check(m, r, res) if m.get('fpair') and res is not None else None
     if q is not None and not q[0]:
         t += f" 짝과 모음 자리 F1차 {q[1]:+d} · F2차 {q[2]:+d}"
@@ -764,7 +832,7 @@ def write_measure_js(path, meta, res):
         if not r or not passes(m, r, res) or not any(x in r for x in ('s', 'dur', 'f')):
             continue
         e = {}
-        for x in ('s', 'f', 'e', 'F', 'vd', 'dur', 'tk', 'vb', 'w', 'end', 'pk'):
+        for x in ('s', 'f', 'e', 'F', 'vd', 'fc', 'dur', 'tk', 'vb', 'w', 'end', 'pk'):
             if x in r:
                 e[x] = r[x]
         out[m['id']] = e
@@ -774,6 +842,8 @@ def write_measure_js(path, meta, res):
         f.write('// f · e: 20ms마다 높이 Hz(0 = 소리 없음, 밝은 선생님 tc만) · 크기 dB(tc와 env 줄). 통과한 줄만 적어요.\n')
         if any('F' in v for v in out.values()):
             f.write('// F: 센 음절 모음 가운데의 [F1, F2] Hz(LPC) · vd: 그 모음의 길이 ms(크기가 가장 큰 곳에서 10dB 안쪽, 어림)\n')
+        if any('fc' in v for v in out.values()):
+            f.write('// fc: s · sh 짝 낱말의 바람 소리 무게중심 Hz(바람 조각 가운데 절반의 평균 스펙트럼, 1~11kHz)\n')
         if any('tk' in v for v in out.values()):
             f.write('// tk: t 자리(음절 경계 k)마다 [k, 낮은 띠(60~500Hz, 목 울림)가 두 음절 핵보다 떨어진 dB] · vb: 10ms마다 낮은 띠의 크기 dB(가장 큰 곳 = 0)\n')
         if any('dur' in v for v in out.values()):
@@ -897,7 +967,8 @@ def main():
         p = os.path.join(d, have[m['id']])
         key = f"{os.path.getmtime(p):.0f}:{os.path.getsize(p)}"
         c = cache.get(m['id'])
-        r = c['r'] if c and c.get('key') == key and not only else measure(model, m, p, tmp)
+        fresh = c and c.get('key') == key and not only and not (m.get('fric') and 'fc' not in c['r'] and 'why' not in c['r'])
+        r = c['r'] if fresh else measure(model, m, p, tmp)
         cache[m['id']] = {'key': key, 'r': r}
         res[m['id']] = r
         if not passes(m, r):
@@ -912,7 +983,8 @@ def main():
     for m in todo:  # 짝 비교는 두 줄을 모두 잰 뒤에
         q = pair_ratio(m, res[m['id']], res) if m.get('pair') and passes(m, res[m['id']]) else None
         fq = fpair_check(m, res[m['id']], res) if m.get('fpair') and passes(m, res[m['id']]) else None
-        if (q is not None and q < PAIR_MIN) or (fq is not None and not fq[0]):
+        cq = fric_check(m, res[m['id']], res) if m.get('cpair') and passes(m, res[m['id']]) else None
+        if (q is not None and q < PAIR_MIN) or (fq is not None and not fq[0]) or (cq is not None and not cq[0]):
             print(f"  {m['id']} {m['text'][:40]!r}{tag(m, res[m['id']], res)}", flush=True)
     fail = [m for m in todo if not passes(m, res[m['id']], res)]
     replaced, still = [], []

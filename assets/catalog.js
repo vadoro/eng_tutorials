@@ -524,5 +524,18 @@ window.EN_CATALOG = {
       thumb: 'intonation/docs/poster.jpg',
       added: '2026-11-14',
     },
+    {
+      slug: 's-sh-z-j',
+      track: 'pron',
+      title: 'ㅅ · ㅈ 너머 — s · sh · z · zh · y',
+      topic: 's · sh(see · she, sip · ship) · z · j(zest · jest) · zh · j(lesion · legion) · y가 있고 없음(year · ear) · 혀끝은 앞에 · 조금 뒤 + 둥근 입술 · 혀를 띄우고 목 울림 · 이 앞의 시 · 외래어(시티 · 제로 · 비전)',
+      summary: '보다 · 그녀 → see · she, 한국어로 적으면 둘 다 시예요. 해 · 귀 → year · ear, 둘 다 이어. 한국어는 ㅅ 하나로 s · sh 소리를, ㅈ 하나로 z · zh · j 소리를 적고 이 앞의 y는 빼고 적어요. 혀끝을 앞에 두는 s · z, 조금 뒤로 빼고 입술을 내미는 sh · zh, 혀가 닿는 j, 혀를 먼저 올리는 y를 입 옆 단면도와 위에서 본 혀로 보고, 바람 소리의 높이를 잰 막대로 s · sh를 견줘요. 끝에는 듣고 가르기 훈련 · 내 발음 확인.',
+      length: '7:34',
+      scenes: 11,
+      features: ['음성 해설', '입 옆 단면도', '위에서 본 혀', '잰 바람 소리 높이', '목소리 넷으로 듣기', '한국어식과 견줘 듣기', '장면별 실습', '듣고 가르기 훈련', '내 발음 확인', '따라 말하기 28', '듣고 고르기 16', '퀴즈'],
+      types: [8, 10, 11],
+      thumb: 's-sh-z-j/docs/poster.jpg',
+      added: '2026-11-14',
+    },
   ],
 };
