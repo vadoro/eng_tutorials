@@ -74,6 +74,9 @@
 
 --regen: 통과하지 못한 줄을 seed 11 · 23 · 37 · 51 · 67 · 83으로 차례로 다시 만들어 통과하는 첫 소리로 바꾸고
     clips.js의 길이를 고쳐요(옛 파일은 임시 폴더의 old_takes/로). 끝내 통과하지 못하면 파일은 그대로 두고 잰 값만 빼요.
+    만드는 쪽의 길이 어림(글자 수에 견준 빠르기 — voicestudio_common.badness)에 걸린 후보도 소리가 있으면 버리지 않고 재요.
+    fought · theater처럼 글자 수에 비해 소리가 짧은 낱말은 어느 seed로 만들어도 걸리기 때문이에요. 걸리지 않은 후보가 통과하면
+    그것을 쓰고, 없으면 걸린 채 통과한 첫 후보를 써요(세 후보가 모두 걸렸으면 거기서 멈춤). 그렇게 바꾼 줄은 끝에 따로 적어요.
 """
 import argparse
 import io
@@ -1187,7 +1190,7 @@ def main():
                 or (gq is not None and not gq[0]) or (rq is not None and not rq[0]) or (wq is not None and not wq[0]):
             print(f"  {m['id']} {m['text'][:40]!r}{tag(m, res[m['id']], res)}", flush=True)
     fail = [m for m in todo if not passes(m, res[m['id']], res)]
-    replaced, still = [], []
+    replaced, still, flagged = [], [], []
     if o.regen and fail:
         voices = json.load(open(os.path.join(d, 'voices.json'), encoding='utf-8'))
         server = o.server.rstrip('/')
@@ -1205,22 +1208,38 @@ def main():
                 continue
             lang = voices[m['sp']].get('lang', 'en')
             text = vs.line_text(m['text'], voices[m['sp']])
-            got = None
+            got = held = None
+            tried = odd = 0
             for sd in seeds:
                 try:
                     wav, dur, used = vs.generate(server, text, lang, prof[m['sp']]['id'], sd)
                 except Exception as e:  # noqa: BLE001 — 한 줄 실패는 넘어가요
                     print(f'    {m["id"]} seed {sd} 실패: {e}', flush=True)
                     continue
+                note = ''
                 if used < 0:
-                    continue
+                    # 길이 어림(글자 수에 견준 빠르기, vs.badness)에 걸린 후보예요. fought · theater처럼 글자 수에 비해
+                    # 소리가 짧은 낱말은 어느 seed로 만들어도 걸려요. 소리가 있으면 버리지 않고 재서 판정해요
+                    if dur < 0.25 or not vs.trim_wav(wav)[2]:
+                        print(f"  [{k}/{len(fail)}] {m['id']} {m['text'][:30]!r} seed {sd} → 소리가 없어 재지 않음", flush=True)
+                        continue
+                    note = f' (길이 어림에 걸림 · {dur:.2f}초)'
+                tried += 1
+                odd += 1 if note else 0
                 cand = os.path.join(tmp, f"{m['id']}-{sd}.{ext}")
                 vs.save(wav, cand, enc)
                 r = measure(model, m, cand, tmp)
-                print(f"  [{k}/{len(fail)}] {m['id']} {m['text'][:30]!r} seed {sd}{tag(m, r, res) or ' → 통과'}", flush=True)
+                print(f"  [{k}/{len(fail)}] {m['id']} {m['text'][:30]!r} seed {sd}{note}{tag(m, r, res) or ' → 통과'}", flush=True)
                 if passes(m, r, res):
-                    got = (cand, r)
-                    break
+                    if not note:
+                        got = (cand, r)
+                        break
+                    held = held or (cand, r)   # 길이 어림에 걸린 채 통과한 첫 후보는 잡아 두고, 걸리지 않는 후보를 더 찾아봐요
+                if held and odd == tried and tried >= 3:
+                    break                      # 세 후보가 모두 걸렸으면 길이 어림이 맞지 않는 낱말이에요
+            if not got and held:
+                got = held
+                flagged.append(m)
             if not got:
                 still.append(m)
                 continue
@@ -1248,6 +1267,9 @@ def main():
     print(f'\nmeasure.js: 잰 값 {n}개 / 낱말 · 한국어식 · 문장 높낮이 {len(words)}개 · 받아쓰기한 줄 {len(todo)}개')
     if replaced:
         print(f"다시 만들어 바꾼 줄 {len(replaced)}개: " + ' '.join(f"{m['id']}({m['text'][:16]})" for m in replaced))
+    if flagged:
+        print(f"그 가운데 길이 어림에 걸렸지만 받아쓰기 · 잰 값으로 통과한 줄 {len(flagged)}개(귀로 들어 보면 좋아요): "
+              + ' '.join(f"{m['id']}({m['text'][:16]})" for m in flagged))
     if still:
         print(f"통과하지 못한 줄 {len(still)}개(잰 값을 빼요): " + ' '.join(f"{m['id']}({m['text'][:16]}{tag(m, res[m['id']], res)})" for m in still))
 
