@@ -38,6 +38,15 @@
                    두 음절 핵의 가운데 사이에서 낮은 띠(60~500Hz, 목 울림)의 크기가 핵보다 얼마나 떨어지나(dB). 짧은 ㄹ 같은 t(flap)는
                    10dB 이하로 이어져야, 숨이 터지는 t · 한국어식으로 끊어 읽은 t(gap)는 15dB 이상 떨어져야 통과해요.
                    tk: [[k, dB]] · vb: 10ms마다 낮은 띠의 크기 dB(가장 큰 곳 = 0, −50까지)를 적어요(목 울림 띠)
+      tat: 음절 번호  formant · track · f3를 잴 음절(없으면 at) — 약한 끝 음절의 모음(water의 ɚ)
+      track: true  모음 핵(크기가 가장 큰 곳에서 10dB 안쪽)의 처음(15–35%) · 끝(65–85%)에서 [F1, F2]를 G로, 앞쪽(15–45%)의
+                   세 번째 공명(LPC 12차, F2보다 150Hz 넘게 높은 첫 공명)을 F3로 적어요(오 · r 모음 o-and-r-vowels — 미끄러짐 화살표 ·
+                   r 울림 막대). 각 구간 3프레임 이상의 가운데 값. 핵 안의 F2 값이 900Hz 넘게 떨어진 두 무리로 갈리면 낮은 무리만 써요
+                   (뒤 모음에서 F1 · F2가 붙어 F3를 F2로 잡은 프레임 거르기). 한국어식 줄은 f3: true로 F3만(tat 음절)
+      gpair: id, glide: true|false   같은 목소리의 미끄러짐 짝(coat · caught): 미끄러지는 쪽(oʊ)의 F2 내려감(처음 − 끝)이 80Hz 이상이고,
+                   짝(ɑ · ɔ)의 F2 내려감은 그보다 100Hz 이상 작아야 해요. G를 재지 못하면 통과하지 못해요
+      rpair: id, rv: true|false      같은 목소리의 r 짝(work · walk): r 모음 쪽(ɝ)의 F3가 짝보다 400Hz 이상 낮아야 해요(혀를 r 모양으로 하면
+                   세 번째 공명이 내려가요). F3를 재지 못하면 통과하지 못해요
       stress: false  짧은 구(낱말 둘 이상, pick it up · get it)는 센 음절 확인(at의 표)을 하지 않아요 — 받아쓰기 · 끝 올림 · t 자리만
       fric: s | sh, cpair: id   s · sh 짝 낱말(see · she, ㅅ · ㅈ 너머 s-sh-z-j): 바람 소리(1~11kHz 띠가 낮은 띠보다 10dB 넘게 세고
                    그 띠의 크기가 가장 큰 곳에서 20dB 안쪽인 가장 긴 조각, 30ms 이상)의 가운데 절반에서 평균 스펙트럼의 무게중심을 fc(Hz)로 적어요.
@@ -103,6 +112,9 @@ FOCUS_GAP = 1.0   # 초점 줄: 초점 낱말의 꼭대기가 다른 내용어�
 POST_LOW = 2.0    # 초점 줄: 초점 뒤의 낱말은 모두 초점의 꼭대기보다 이만큼(반음) 이상 낮아야(낮게 눌러 말함)
 FOCUS_END = 1.0   # 초점 줄: 끝이 이만큼(반음) 넘게 올라가지 않아야 — 초점 뒤는 이미 낮게 눌려 있어 끝에서 더 내려가지 않기도 해요
 FC_GAP = 1000    # s · sh 짝: s 쪽 바람 소리의 무게중심 − sh 쪽 (Hz) 이상
+GL_MIN = 80      # 미끄러짐 짝: 미끄러지는 쪽(oʊ)의 F2 내려감(처음 − 끝) (Hz) 이상
+GL_GAP = 100     # 미끄러짐 짝: 짝(ɑ · ɔ)의 F2 내려감은 oʊ보다 이만큼(Hz) 이상 작아야
+R_F3 = 400       # r 짝: r 모음 쪽(ɝ)의 F3가 짝보다 이만큼(Hz) 이상 낮아야
 OCT_DIFF = 5.0    # 문장 높낮이: 배음 더하기와 pYIN이 이만큼(반음) 넘게 다른 프레임은 한 옥타브 잘못 고른 것으로 보고 지워요
 F0_RANGE = {'um': (60, 300)}  # pYIN이 찾는 높이의 범위(Hz) — 그 밖의 목소리는 (110, 560)
 
@@ -339,6 +351,76 @@ def lpc_formants(y, sr, a, b, ceiling):
     return float(np.median(f1s)), float(np.median(f2s))
 
 
+def lpc_frames(y, sr, a, b, ceiling, order=10):
+    """프레임 a~b(5ms 간격)마다 (프레임, F1, F2, F3 또는 None) — F1 · F2는 lpc_formants와 같은 규칙,
+    F3 = F2보다 150Hz 넘게 높은 첫 공명(대역폭 700Hz 아래, 상한 − 200Hz까지)"""
+    sr2 = int(ceiling * 2)
+    y2 = librosa.resample(y, orig_sr=sr, target_sr=sr2)
+    y2 = np.append(y2[0], y2[1:] - 0.97 * y2[:-1]).astype('float64')
+    win = int(0.025 * sr2)
+    ham = np.hamming(win)
+    out = []
+    for fi in range(a, b + 1):
+        s0 = int(fi * HOP * sr2) - win // 2
+        if s0 < 0 or s0 + win > len(y2):
+            continue
+        fr = y2[s0:s0 + win] * ham
+        if np.max(np.abs(fr)) < 1e-5:
+            continue
+        try:
+            A = librosa.lpc(fr, order=order)
+        except Exception:  # noqa: BLE001 — 그 프레임만 건너뜀
+            continue
+        rts = np.roots(A)
+        rts = rts[np.imag(rts) > 0.01]
+        f = np.angle(rts) * sr2 / (2 * np.pi)
+        bw = -np.log(np.abs(rts)) * sr2 / np.pi
+        c1 = np.sort(f[(f >= 180) & (f <= F1_MAX) & (bw < 600)])
+        if not len(c1):
+            continue
+        c2 = np.sort(f[(f > c1[0] + 250) & (f >= 600) & (f <= ceiling - 300) & (bw < 600)])
+        if not len(c2):
+            continue
+        c3 = np.sort(f[(f > c2[0] + 150) & (f <= ceiling - 200) & (bw < 700)])
+        out.append((fi, float(c1[0]), float(c2[0]), float(c3[0]) if len(c3) else None))
+    return out
+
+
+def track(y, sr, na, nb, ceiling, f3_only=False):
+    """모음 핵 [na, nb](프레임) → (G, F3). G = [[F1, F2] 처음 15–35%, [F1, F2] 끝 65–85%],
+    F3 = 앞쪽 15–45%의 세 번째 공명(LPC 12차) — 구간마다 3프레임 이상의 가운데 값(Hz). 재지 못한 것은 None"""
+    L = nb - na
+    if L < 8:
+        return None, None
+    win = lambda p, q: (na + int(round(L * p)), na + int(round(L * q)))  # noqa: E731
+    G = None
+    if not f3_only:
+        fr = lpc_frames(y, sr, na, nb, ceiling, 10)
+        # 뒤 모음(ɑ · ɔ)에서는 F1 · F2가 한 봉우리로 붙어 F3를 F2로 잡는 프레임이 섞여요 — F2 값이 900Hz 넘게 떨어진 두 무리로
+        # 갈리면 낮은 무리만 써요(낮은 무리가 프레임의 30% 이상일 때)
+        if len(fr) > 3:
+            f2 = np.sort(np.array([x[2] for x in fr]))
+            gaps = np.diff(f2)
+            if gaps.max() > 900:
+                cut = f2[int(gaps.argmax())]
+                low = [x for x in fr if x[2] <= cut]
+                if len(low) >= 0.3 * len(fr):
+                    fr = low
+
+        def med(p, q):
+            a, b = win(p, q)
+            xs = [x for x in fr if a <= x[0] <= b]
+            if len(xs) < 3:
+                return None
+            return [int(round(np.median([x[1] for x in xs]))), int(round(np.median([x[2] for x in xs])))]
+        st, en = med(0.15, 0.35), med(0.65, 0.85)
+        G = [st, en] if st and en else None
+    a, b = win(0.15, 0.45)
+    f3s = [x[3] for x in lpc_frames(y, sr, a, b, ceiling, 12) if x[3]]
+    F3 = int(round(np.median(f3s))) if len(f3s) >= 3 else None
+    return G, F3
+
+
 def stress_votes(sv):
     """길이(끝 음절은 ×0.8 — 끝에서 늘어나는 만큼) · 크기 · 높이에서 가장 큰 음절에 한 표씩"""
     durs = np.array([o[1] - o[0] for o in sv], dtype=float)
@@ -392,7 +474,9 @@ HOMOPHONES = {'heal': 'heel', 'peal': 'peel', 'reed': 'read', 'weak': 'week', 'f
               # 기능어를 혼자 강한 형태로 읽으면 이름 · 숫자 · 글자와 소리가 같아요(an = Ann, to = two, for = four, are = R)
               'ann': 'an', 'anne': 'an', 'two': 'to', 'too': 'to', 'four': 'for', 'r': 'are',
               # 낱말 하나만 들으면 받아쓰기가 글자 이름으로 적기도 해요(see → C.) — 소리가 같아요(s-sh-z-j)
-              'c': 'see'}
+              'c': 'see',
+              # curt는 이름 Kurt와 소리가 같아요(o-and-r-vowels)
+              'kurt': 'curt'}
 # 붙여 쓰거나 띄어 쓰는 합성어(sea shells = seashells) — 글과 받아쓰기 모두 띄어 쓴 꼴로 맞춰요
 COMPOUNDS = {'seashells': 'sea shells', 'seashell': 'sea shell'}
 
@@ -519,7 +603,7 @@ def measure(model, m, path, tmp):
         else:
             r['why'] = (r.get('why', '') + ' 바람 소리를 찾지 못함').strip()
     if m.get('formant'):
-        a, b = sg[m.get('at', 0)]
+        a, b = sg[m.get('tat', m.get('at', 0))]
         na, nb = nucleus(env, a, b)
         r['vd'] = int(round((nb - na + 1) * HOP * 1000))
         ca, cb = nucleus(env, na, nb, 6.0)   # F1 · F2는 더 센 가운데(6dB 안쪽)의 가운데 절반에서
@@ -529,6 +613,18 @@ def measure(model, m, path, tmp):
             r['F'] = [int(round(fm[0])), int(round(fm[1]))]
         else:
             r['why'] = (r.get('why', '') + ' 모음을 재지 못함').strip()
+    if m.get('track') or m.get('f3'):
+        a, b = sg[m.get('tat', m.get('at', 0))]
+        na, nb = nucleus(env, a, b)
+        G, F3 = track(y, sr, na, nb, 5000 if m['sp'] == 'um' else 5500, f3_only=not m.get('track'))
+        if G:
+            r['G'] = G
+        elif m.get('gpair'):
+            r['why'] = (r.get('why', '') + ' 미끄러짐을 재지 못함').strip()
+        if F3:
+            r['F3'] = F3
+        elif m.get('rpair'):
+            r['why'] = (r.get('why', '') + ' 세 번째 공명을 재지 못함').strip()
     return r
 
 
@@ -762,6 +858,25 @@ def fpair_check(m, r, res):
     return ok, d1, d2
 
 
+def glide_check(m, r, res):
+    """미끄러짐 짝(gpair)이 있으면 (통과?, oʊ의 F2 내려감, 짝의 F2 내려감), 잴 수 없으면 None"""
+    o = (res or {}).get(m.get('gpair') or '')
+    if not o or 'G' not in r or 'G' not in o:
+        return None
+    a, b = (r['G'], o['G']) if m.get('glide') else (o['G'], r['G'])
+    da, db = a[0][1] - a[1][1], b[0][1] - b[1][1]
+    return da >= GL_MIN and da - db >= GL_GAP, da, db
+
+
+def r_check(m, r, res):
+    """r 짝(rpair)이 있으면 (통과?, 짝 F3 − r 모음 F3), 잴 수 없으면 None"""
+    o = (res or {}).get(m.get('rpair') or '')
+    if not o or 'F3' not in r or 'F3' not in o:
+        return None
+    a, b = (r['F3'], o['F3']) if m.get('rv') else (o['F3'], r['F3'])
+    return b - a >= R_F3, b - a
+
+
 def passes(m, r, res=None):
     if not r.get('okHeard'):
         return False
@@ -786,6 +901,18 @@ def passes(m, r, res=None):
             return False
         if m.get('fpair') and res is not None:
             q = fpair_check(m, r, res)
+            if q is not None and not q[0]:
+                return False
+        if m.get('gpair') and 'G' not in r:
+            return False
+        if m.get('rpair') and 'F3' not in r:
+            return False
+        if m.get('gpair') and res is not None:
+            q = glide_check(m, r, res)
+            if q is not None and not q[0]:
+                return False
+        if m.get('rpair') and res is not None:
+            q = r_check(m, r, res)
             if q is not None and not q[0]:
                 return False
         return bool(r.get('okStress')) and r.get('rise', 0) <= RISE_MAX
@@ -822,6 +949,12 @@ def tag(m, r, res=None):
     q = fpair_check(m, r, res) if m.get('fpair') and res is not None else None
     if q is not None and not q[0]:
         t += f" 짝과 모음 자리 F1차 {q[1]:+d} · F2차 {q[2]:+d}"
+    q = glide_check(m, r, res) if m.get('gpair') and res is not None else None
+    if q is not None and not q[0]:
+        t += f" 미끄러짐 F2 내려감 oʊ {q[1]:+d} · 짝 {q[2]:+d}Hz(oʊ ≥ {GL_MIN}, 차 ≥ {GL_GAP})"
+    q = r_check(m, r, res) if m.get('rpair') and res is not None else None
+    if q is not None and not q[0]:
+        t += f" r 짝 F3 차 {q[1]:+d}Hz < {R_F3}"
     return t
 
 
@@ -832,7 +965,7 @@ def write_measure_js(path, meta, res):
         if not r or not passes(m, r, res) or not any(x in r for x in ('s', 'dur', 'f')):
             continue
         e = {}
-        for x in ('s', 'f', 'e', 'F', 'vd', 'fc', 'dur', 'tk', 'vb', 'w', 'end', 'pk'):
+        for x in ('s', 'f', 'e', 'F', 'vd', 'G', 'F3', 'fc', 'dur', 'tk', 'vb', 'w', 'end', 'pk'):
             if x in r:
                 e[x] = r[x]
         out[m['id']] = e
@@ -842,6 +975,9 @@ def write_measure_js(path, meta, res):
         f.write('// f · e: 20ms마다 높이 Hz(0 = 소리 없음, 밝은 선생님 tc만) · 크기 dB(tc와 env 줄). 통과한 줄만 적어요.\n')
         if any('F' in v for v in out.values()):
             f.write('// F: 센 음절 모음 가운데의 [F1, F2] Hz(LPC) · vd: 그 모음의 길이 ms(크기가 가장 큰 곳에서 10dB 안쪽, 어림)\n')
+        if any('G' in v or 'F3' in v for v in out.values()):
+            f.write('// G: 목표 모음 핵(10dB 안쪽)의 [[F1, F2] 처음 15–35%, [F1, F2] 끝 65–85%] Hz(미끄러짐) ·\n')
+            f.write('//   F3: 그 앞쪽 15–45%의 세 번째 공명 Hz(LPC 12차, r 울림) — 목표 모음은 tat 음절(없으면 센 음절)\n')
         if any('fc' in v for v in out.values()):
             f.write('// fc: s · sh 짝 낱말의 바람 소리 무게중심 Hz(바람 조각 가운데 절반의 평균 스펙트럼, 1~11kHz)\n')
         if any('tk' in v for v in out.values()):
@@ -984,7 +1120,10 @@ def main():
         q = pair_ratio(m, res[m['id']], res) if m.get('pair') and passes(m, res[m['id']]) else None
         fq = fpair_check(m, res[m['id']], res) if m.get('fpair') and passes(m, res[m['id']]) else None
         cq = fric_check(m, res[m['id']], res) if m.get('cpair') and passes(m, res[m['id']]) else None
-        if (q is not None and q < PAIR_MIN) or (fq is not None and not fq[0]) or (cq is not None and not cq[0]):
+        gq = glide_check(m, res[m['id']], res) if m.get('gpair') and passes(m, res[m['id']]) else None
+        rq = r_check(m, res[m['id']], res) if m.get('rpair') and passes(m, res[m['id']]) else None
+        if (q is not None and q < PAIR_MIN) or (fq is not None and not fq[0]) or (cq is not None and not cq[0]) \
+                or (gq is not None and not gq[0]) or (rq is not None and not rq[0]):
             print(f"  {m['id']} {m['text'][:40]!r}{tag(m, res[m['id']], res)}", flush=True)
     fail = [m for m in todo if not passes(m, res[m['id']], res)]
     replaced, still = [], []

@@ -537,5 +537,18 @@ window.EN_CATALOG = {
       thumb: 's-sh-z-j/docs/poster.jpg',
       added: '2026-11-14',
     },
+    {
+      slug: 'o-and-r-vowels',
+      track: 'pron',
+      title: '미끄러지는 오, r을 품은 어 — oʊ · ɝ · ɚ',
+      topic: 'oʊ · ɑ ɔ(coat · caught, boat · bought) · ɝ · ʌ(work · walk, bird · bud) · hut · hurt · heart · 오에서 우로 미끄러지기 · 혀를 처음부터 r 모양으로 · 약한 r 모음(water · doctor) · 외래어(홈 · 볼 · 버거 · 워터)',
+      summary: '외투 · 잡았다 → coat · caught, 한국어로 적으면 둘 다 코트예요. 일 · 걷다 → work · walk, 둘 다 워크. 영어에서는 끝에서 우 쪽으로 미끄러지는 오와 미끄러지지 않는 크게 벌린 아, 모음 내내 혀를 r 모양으로 하는 r을 품은 어와 r 없는 모음이 낱말을 갈라요. 입 옆 단면도가 오에서 우로 움직이고, 잰 모음 지도의 화살표와 r 울림 막대로 목소리마다 견줘요. 끝에는 듣고 가르기 훈련 · 내 발음 확인 · 내 모음 찍기.',
+      length: '6:52',
+      scenes: 10,
+      features: ['음성 해설', '입 옆 단면도', '잰 미끄러짐 화살표', '잰 r 울림 막대', '목소리 넷으로 듣기', '한국어식과 견줘 듣기', '장면별 실습', '듣고 가르기 훈련', '내 발음 확인', '내 모음 찍기(시험)', '따라 말하기 28', '듣고 고르기 16', '퀴즈'],
+      types: [16, 17],
+      thumb: 'o-and-r-vowels/docs/poster.jpg',
+      added: '2026-11-15',
+    },
   ],
 };

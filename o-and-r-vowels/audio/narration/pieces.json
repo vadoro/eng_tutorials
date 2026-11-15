@@ -1,0 +1,769 @@
+{
+ "slug": "o-and-r-vowels",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 86,
+  "en": 40,
+  "say": 0,
+  "koChars": 2555,
+  "enChars": 624
+ },
+ "pieces": [
+  {
+   "id": "kced00d2d",
+   "lang": "ko",
+   "text": "외투와 잡았다를 영어로 말해 보세요. 한국어로 적으면 둘 다 코트예요.",
+   "cap": 0
+  },
+  {
+   "id": "kc8ac8f34",
+   "lang": "ko",
+   "text": "영어",
+   "cap": 1
+  },
+  {
+   "id": "e8db27bc1",
+   "lang": "en",
+   "text": "coat",
+   "cap": 1
+  },
+  {
+   "id": "k80e39afb",
+   "lang": "ko",
+   "text": "미끄러지는 오",
+   "cap": 1
+  },
+  {
+   "id": "ecb8e56e6",
+   "lang": "en",
+   "text": "caught",
+   "cap": 1
+  },
+  {
+   "id": "k5e420c52",
+   "lang": "ko",
+   "text": "크게 벌린 아예요. 끝에서 우 쪽으로 미끄러지느냐가 두 낱말을 갈라요.",
+   "cap": 1
+  },
+  {
+   "id": "ke56970da",
+   "lang": "ko",
+   "text": "일과 걷다도 그래요.",
+   "cap": 2
+  },
+  {
+   "id": "ebbdd851c",
+   "lang": "en",
+   "text": "work , walk",
+   "cap": 2
+  },
+  {
+   "id": "k71144a4f",
+   "lang": "ko",
+   "text": "한국어로 적으면 둘 다 워크예요.",
+   "cap": 2
+  },
+  {
+   "id": "eecafe9a7",
+   "lang": "en",
+   "text": "work",
+   "cap": 3
+  },
+  {
+   "id": "k41cc14f7",
+   "lang": "ko",
+   "text": "알을 품은 어",
+   "cap": 3
+  },
+  {
+   "id": "ed91860fb",
+   "lang": "en",
+   "text": "walk",
+   "cap": 3
+  },
+  {
+   "id": "k999f18a7",
+   "lang": "ko",
+   "text": "크게 벌린 아. 혀를 알 모양으로 하느냐가 두 낱말을 갈라요.",
+   "cap": 3
+  },
+  {
+   "id": "kd551593e",
+   "lang": "ko",
+   "text": "세 단계로 익혀요. 두 소리를 듣고 가르고, 입술과 혀의 모양을 만들고, 낱말과 문장 속에서 써요.",
+   "cap": 4
+  },
+  {
+   "id": "k7770b223",
+   "lang": "ko",
+   "text": "미국 표준 발음을 기준으로 해요. 소리는 모두 합성 음성이에요.",
+   "cap": 5
+  },
+  {
+   "id": "k18a178b1",
+   "lang": "ko",
+   "text": "먼저 귀부터 시험해요. 짝 낱말을 눌러 들어 보세요. 모음 하나만 달라요.",
+   "cap": 6
+  },
+  {
+   "id": "ecd5ded5e",
+   "lang": "en",
+   "text": "coat , caught, boat , bought.",
+   "cap": 7
+  },
+  {
+   "id": "k89768a90",
+   "lang": "ko",
+   "text": "끝에서 우 쪽으로 미끄러지는 쪽은 어느 것인가요?",
+   "cap": 7
+  },
+  {
+   "id": "ec278c7f6",
+   "lang": "en",
+   "text": "work , walk, bird , bud.",
+   "cap": 8
+  },
+  {
+   "id": "kf8746602",
+   "lang": "ko",
+   "text": "모음 내내 알 울림이 이어지는 쪽은 어느 것인가요?",
+   "cap": 8
+  },
+  {
+   "id": "kf8483868",
+   "lang": "ko",
+   "text": "작은 그림은 이 목소리를 재서 그렸어요. 화살표는 미끄러지는 오, 막대는 알 울림이에요.",
+   "cap": 9
+  },
+  {
+   "id": "k7790e76d",
+   "lang": "ko",
+   "text": "한국어식으로는 코트 , 코트, 보트 , 보트, 워크 , 워크, 버드 , 버드 , 짝마다 표기가 같아요.",
+   "cap": 10
+  },
+  {
+   "id": "k3d078a92",
+   "lang": "ko",
+   "text": "여러 목소리로 듣고 가르는 연습이 도움이 돼요. 아래 놀이터의 듣고 가르기 훈련이 그 연습이에요.",
+   "cap": 11
+  },
+  {
+   "id": "k5e985999",
+   "lang": "ko",
+   "text": "미끄러지는 오부터 만들어요. 입술을 둥글게 모으고, 한국어 오처럼 시작해요.",
+   "cap": 12
+  },
+  {
+   "id": "k9a94a092",
+   "lang": "ko",
+   "text": "그다음 혀 뒤를 조금 올리고 입술을 더 모으며 우 쪽으로 미끄러져요. 한 모음 안에서 움직여요.",
+   "cap": 13
+  },
+  {
+   "id": "kedea1231",
+   "lang": "ko",
+   "text": "한국어 오는 처음부터 끝까지 한 모양이에요. 그래서 오 하나로 끝내기 쉬워요.",
+   "cap": 14
+  },
+  {
+   "id": "kbe8dfa67",
+   "lang": "ko",
+   "text": "오른쪽은 이 목소리를 잰 지도예요. 화살표가 모음의 처음에서 끝으로 움직인 길이에요.",
+   "cap": 15
+  },
+  {
+   "id": "k523c9916",
+   "lang": "ko",
+   "text": "연구에서도 한국 대학생은 이 소리의 뒤쪽, 우 부분을 자주 빼곤 했어요. 듣기도 어려운 소리였어요.",
+   "cap": 16
+  },
+  {
+   "id": "ec131ffa3",
+   "lang": "en",
+   "text": "boat , home , phone , go.",
+   "cap": 17
+  },
+  {
+   "id": "kb6eb61ed",
+   "lang": "ko",
+   "text": "끝을 우 쪽으로 살짝 닫아 보세요.",
+   "cap": 17
+  },
+  {
+   "id": "k97cc64ab",
+   "lang": "ko",
+   "text": "요령 , 오와 우를 두 박자로 끊지 말고, 한 박자 안에서 미끄러지듯 이어요.",
+   "cap": 18
+  },
+  {
+   "id": "k668ce8a8",
+   "lang": "ko",
+   "text": "짝 소리는 크게 벌린 아예요. 턱을 크게 내리고, 끝까지 미끄러지지 않아요.",
+   "cap": 19
+  },
+  {
+   "id": "efc106132",
+   "lang": "en",
+   "text": "caught , bought , law , saw.",
+   "cap": 20
+  },
+  {
+   "id": "k609edad3",
+   "lang": "ko",
+   "text": "사전에는 다른 기호로 적지만, 많은 미국 사람이 크게 벌린 아로 말해요.",
+   "cap": 20
+  },
+  {
+   "id": "k718c79b9",
+   "lang": "ko",
+   "text": "입술을 조금 둥글려 말하는 사람도 있어요. 어느 쪽이든 끝에서 우로 미끄러지지 않아요.",
+   "cap": 21
+  },
+  {
+   "id": "k0ccac37e",
+   "lang": "ko",
+   "text": "한국어 표기는 이 두 소리를 자주 같은 글자로 적어요. 열 쌍 가운데 여섯 쌍이 같은 표기예요.",
+   "cap": 22
+  },
+  {
+   "id": "e3ae1aba3",
+   "lang": "en",
+   "text": "note , not",
+   "cap": 23
+  },
+  {
+   "id": "k61ca7f84",
+   "lang": "ko",
+   "text": "노트 , 낫",
+   "cap": 23
+  },
+  {
+   "id": "e7864841f",
+   "lang": "en",
+   "text": "hope , hop",
+   "cap": 23
+  },
+  {
+   "id": "k8f7c7bac",
+   "lang": "ko",
+   "text": "호프 , 합처럼 다른 표기도 있어요.",
+   "cap": 23
+  },
+  {
+   "id": "kd37089c8",
+   "lang": "ko",
+   "text": "연구에서는 한국 대학생이 미국 영어의",
+   "cap": 24
+  },
+  {
+   "id": "e759972e7",
+   "lang": "en",
+   "text": "boat , bought",
+   "cap": 24
+  },
+  {
+   "id": "k9e3917c3",
+   "lang": "ko",
+   "text": "짝을 자주 헷갈렸어요. 미끄러짐이 들리는지가 열쇠예요.",
+   "cap": 24
+  },
+  {
+   "id": "k9cca6357",
+   "lang": "ko",
+   "text": "이제 알을 품은 어예요. 어를 내는 동안 혀를 처음부터 알 모양으로 둬요.",
+   "cap": 25
+  },
+  {
+   "id": "kc176e228",
+   "lang": "ko",
+   "text": "알 모양은 두 가지예요. 혀 몸통을 뭉쳐 올리거나, 혀끝을 살짝 젖혀요. 혀끝은 입천장에 닿지 않아요.",
+   "cap": 26
+  },
+  {
+   "id": "kab273c33",
+   "lang": "ko",
+   "text": "입술은 조금 모아요. 어 다음에 리을을 붙이는 게 아니라, 모음 전체가 알 소리예요.",
+   "cap": 27
+  },
+  {
+   "id": "e91f698cf",
+   "lang": "en",
+   "text": "work , bird , hurt , girl.",
+   "cap": 28
+  },
+  {
+   "id": "k457abafd",
+   "lang": "ko",
+   "text": "한국어 표기는 모두 어로 적어서 알이 보이지 않아요.",
+   "cap": 28
+  },
+  {
+   "id": "k3b2156cf",
+   "lang": "ko",
+   "text": "오른쪽 막대는 세 번째 울림의 높이예요. 혀를 알 모양으로 하면 이 울림이 뚝 내려가요.",
+   "cap": 29
+  },
+  {
+   "id": "k340add8c",
+   "lang": "ko",
+   "text": "막대는",
+   "cap": 30
+  },
+  {
+   "id": "kac3d2f68",
+   "lang": "ko",
+   "text": "막대보다 훨씬 낮아요.",
+   "cap": 30
+  },
+  {
+   "id": "ebce20792",
+   "lang": "en",
+   "text": "bird , bud",
+   "cap": 30
+  },
+  {
+   "id": "k752bb6d3",
+   "lang": "ko",
+   "text": "짝도 마찬가지예요. 이 목소리를 재서 그렸어요.",
+   "cap": 30
+  },
+  {
+   "id": "kc1fbc11e",
+   "lang": "ko",
+   "text": "한 연구에서 중상급 학습자는",
+   "cap": 31
+  },
+  {
+   "id": "eee29ee8f",
+   "lang": "en",
+   "text": "bird , word",
+   "cap": 31
+  },
+  {
+   "id": "kda03812e",
+   "lang": "ko",
+   "text": "같은 낱말에서 원어민처럼 이 울림을 낮췄어요. 연습하면 낼 수 있는 소리예요.",
+   "cap": 31
+  },
+  {
+   "id": "k37e9a8ad",
+   "lang": "ko",
+   "text": "셋을 한꺼번에 들어 봐요. 자음은 같고 모음만 달라요.",
+   "cap": 32
+  },
+  {
+   "id": "e7cb934b4",
+   "lang": "en",
+   "text": "hut , hurt , heart",
+   "cap": 33
+  },
+  {
+   "id": "k06957421",
+   "lang": "ko",
+   "text": "알 없는 어, 알을 품은 어, 아 다음에 알이에요.",
+   "cap": 33
+  },
+  {
+   "id": "ed7867085",
+   "lang": "en",
+   "text": "bun , burn , barn, cub , curb , carb.",
+   "cap": 34
+  },
+  {
+   "id": "kda66057b",
+   "lang": "ko",
+   "text": "셋의 뜻이 모두 달라요.",
+   "cap": 34
+  },
+  {
+   "id": "k87ea1fbe",
+   "lang": "ko",
+   "text": "한국어식으로는 헛 , 허트 , 하트 , 어와 아는 갈리지만, 알은 어디에도 없어요.",
+   "cap": 35
+  },
+  {
+   "id": "k7a6f1865",
+   "lang": "ko",
+   "text": "알을 품은 어는 처음부터 알이에요. 아 다음 알은 아로 시작해 끝에서 알로 옮겨 가요.",
+   "cap": 36
+  },
+  {
+   "id": "k1001073f",
+   "lang": "ko",
+   "text": "아래 띠는 알 울림이 모음의 어디에 있는지 그린 그림이에요. 잰 값이 아니에요.",
+   "cap": 37
+  },
+  {
+   "id": "k4943974a",
+   "lang": "ko",
+   "text": "요령",
+   "cap": 38
+  },
+  {
+   "id": "ed70a6eb7",
+   "lang": "en",
+   "text": "hurt",
+   "cap": 38
+  },
+  {
+   "id": "kcd97d75f",
+   "lang": "ko",
+   "text": "혀를 알 모양으로 둔 채 시작",
+   "cap": 38
+  },
+  {
+   "id": "ee3eccc66",
+   "lang": "en",
+   "text": "heart",
+   "cap": 38
+  },
+  {
+   "id": "kd3288a7a",
+   "lang": "ko",
+   "text": "입을 크게 연 다음 알로.",
+   "cap": 38
+  },
+  {
+   "id": "k2dd391ee",
+   "lang": "ko",
+   "text": "약한 음절에도 알 모음이 있어요.",
+   "cap": 39
+  },
+  {
+   "id": "e96f8e732",
+   "lang": "en",
+   "text": "water , doctor , center , computer",
+   "cap": 39
+  },
+  {
+   "id": "kbc13221a",
+   "lang": "ko",
+   "text": "끝소리예요.",
+   "cap": 39
+  },
+  {
+   "id": "kd320b2e1",
+   "lang": "ko",
+   "text": "한국어 표기는 워터 , 닥터 , 센터 , 컴퓨터 , 끝을 어로 적어요.",
+   "cap": 40
+  },
+  {
+   "id": "k7a3f17c1",
+   "lang": "ko",
+   "text": "영어에서는 짧고 약하게 내지만, 혀는 여전히 알 모양이에요.",
+   "cap": 41
+  },
+  {
+   "id": "kb5f1173a",
+   "lang": "ko",
+   "text": "막대는 끝 음절의 세 번째 울림이에요. 영어",
+   "cap": 42
+  },
+  {
+   "id": "e86bf9f8d",
+   "lang": "en",
+   "text": "water",
+   "cap": 42
+  },
+  {
+   "id": "k8714f3fd",
+   "lang": "ko",
+   "text": "막대는 한국어식 워터 막대보다 훨씬 낮아요.",
+   "cap": 42
+  },
+  {
+   "id": "e1415f8ea",
+   "lang": "en",
+   "text": "teacher , sister , paper",
+   "cap": 43
+  },
+  {
+   "id": "k5e69dbab",
+   "lang": "ko",
+   "text": "모두 같아요. 끝을 어로 툭 끊지 말고, 혀를 알 모양으로 둬요.",
+   "cap": 43
+  },
+  {
+   "id": "k91559b37",
+   "lang": "ko",
+   "text": "외래어 표기는 끝의 알을 적지 않아요. 한국어의 소리 체계 때문이라는 설명이 있어요.",
+   "cap": 44
+  },
+  {
+   "id": "k9a2ab4c4",
+   "lang": "ko",
+   "text": "외래어는 한글이 소리를 감출 때가 많아요. 칠한 글자가 목표 모음이에요.",
+   "cap": 45
+  },
+  {
+   "id": "e0e9e1e71",
+   "lang": "en",
+   "text": "home , phone , show , toast.",
+   "cap": 46
+  },
+  {
+   "id": "kdf28a662",
+   "lang": "ko",
+   "text": "홈 , 폰 , 쇼 , 토스트 , 오 하나로 적어요.",
+   "cap": 46
+  },
+  {
+   "id": "k2056ae2b",
+   "lang": "ko",
+   "text": "크게 벌린 아",
+   "cap": 47
+  },
+  {
+   "id": "e3ca3ab6e",
+   "lang": "en",
+   "text": "ball , talk , sauce , shopping.",
+   "cap": 47
+  },
+  {
+   "id": "k38e20699",
+   "lang": "ko",
+   "text": "볼 , 토크 , 소스 , 쇼핑도 오로 적지만, 미끄러지지 않아요.",
+   "cap": 47
+  },
+  {
+   "id": "e0049e8dc",
+   "lang": "en",
+   "text": "nurse , first , world , burger.",
+   "cap": 48
+  },
+  {
+   "id": "k77f84e84",
+   "lang": "ko",
+   "text": "너스 , 퍼스트 , 월드 , 버거 , 어로 적어 알이 보이지 않아요.",
+   "cap": 48
+  },
+  {
+   "id": "kd11df330",
+   "lang": "ko",
+   "text": "약한 알 모음",
+   "cap": 49
+  },
+  {
+   "id": "ec5d3d114",
+   "lang": "en",
+   "text": "water , doctor , center , computer.",
+   "cap": 49
+  },
+  {
+   "id": "k2ab28d8d",
+   "lang": "ko",
+   "text": "끝 음절에서도 혀는 알 모양이에요.",
+   "cap": 49
+  },
+  {
+   "id": "kfd9024bc",
+   "lang": "ko",
+   "text": "같은 오라도",
+   "cap": 50
+  },
+  {
+   "id": "e57b1163d",
+   "lang": "en",
+   "text": "home",
+   "cap": 50
+  },
+  {
+   "id": "k703e0fd3",
+   "lang": "ko",
+   "text": "미끄러지고",
+   "cap": 50
+  },
+  {
+   "id": "e506af593",
+   "lang": "en",
+   "text": "ball",
+   "cap": 50
+  },
+  {
+   "id": "kd857e1bb",
+   "lang": "ko",
+   "text": "미끄러지지 않아요. 한글만 보고는 알 수 없어요.",
+   "cap": 50
+  },
+  {
+   "id": "k3dcdfc8b",
+   "lang": "ko",
+   "text": "흔한 외래어부터 바꿔 보세요.",
+   "cap": 51
+  },
+  {
+   "id": "e68f794e2",
+   "lang": "en",
+   "text": "phone",
+   "cap": 51
+  },
+  {
+   "id": "k76b4131d",
+   "lang": "ko",
+   "text": "오에서 우로",
+   "cap": 51
+  },
+  {
+   "id": "k5c2defb4",
+   "lang": "ko",
+   "text": "턱을 크게",
+   "cap": 51
+  },
+  {
+   "id": "e16c361d7",
+   "lang": "en",
+   "text": "burger",
+   "cap": 51
+  },
+  {
+   "id": "kb0ae697a",
+   "lang": "ko",
+   "text": "혀를 알 모양으로.",
+   "cap": 51
+  },
+  {
+   "id": "k48203347",
+   "lang": "ko",
+   "text": "문장 속에서도 자주 나와요. 노란 글자가 미끄러지는 오와 알 모음, 하늘색 글자가 짝 소리예요.",
+   "cap": 52
+  },
+  {
+   "id": "eb1d135ab",
+   "lang": "en",
+   "text": "I bought a boat.",
+   "cap": 53
+  },
+  {
+   "id": "ef4d0e451",
+   "lang": "en",
+   "text": "bought",
+   "cap": 53
+  },
+  {
+   "id": "e4ae94940",
+   "lang": "en",
+   "text": "boat",
+   "cap": 53
+  },
+  {
+   "id": "k956f62ab",
+   "lang": "ko",
+   "text": "미끄러지는 오예요.",
+   "cap": 53
+  },
+  {
+   "id": "e9d055685",
+   "lang": "en",
+   "text": "Don't walk on the road.",
+   "cap": 54
+  },
+  {
+   "id": "e267f66fa",
+   "lang": "en",
+   "text": "don't , road",
+   "cap": 54
+  },
+  {
+   "id": "k53ecc365",
+   "lang": "ko",
+   "text": "미끄러지지 않아요.",
+   "cap": 54
+  },
+  {
+   "id": "e17101aa1",
+   "lang": "en",
+   "text": "I work on Sunday.",
+   "cap": 55
+  },
+  {
+   "id": "ecbcd579e",
+   "lang": "en",
+   "text": "Sunday",
+   "cap": 55
+  },
+  {
+   "id": "k9d17f6bb",
+   "lang": "ko",
+   "text": "알 없는 어예요.",
+   "cap": 55
+  },
+  {
+   "id": "e1e0d4689",
+   "lang": "en",
+   "text": "The nurse called the doctor.",
+   "cap": 56
+  },
+  {
+   "id": "k1f666060",
+   "lang": "ko",
+   "text": "한 문장에 세 가지가 함께 있어요.",
+   "cap": 56
+  },
+  {
+   "id": "k9228c247",
+   "lang": "ko",
+   "text": "짧은 낱말도 조심해요.",
+   "cap": 57
+  },
+  {
+   "id": "ef07ace14",
+   "lang": "en",
+   "text": "so , go , don't",
+   "cap": 57
+  },
+  {
+   "id": "eb9dd5a1b",
+   "lang": "en",
+   "text": "her , first",
+   "cap": 57
+  },
+  {
+   "id": "k41ef1d4f",
+   "lang": "ko",
+   "text": "알을 품은 어예요.",
+   "cap": 57
+  },
+  {
+   "id": "k1338d13b",
+   "lang": "ko",
+   "text": "아래 따라 말하기에 문장 스물여덟 개가 있어요. 묶음마다 일곱 문장이에요.",
+   "cap": 58
+  },
+  {
+   "id": "kde83185b",
+   "lang": "ko",
+   "text": "정리해요. 첫째, 듣고 가르기 , 끝에서 우로 미끄러지나, 모음 내내 알 울림이 있나.",
+   "cap": 59
+  },
+  {
+   "id": "kf4678f7e",
+   "lang": "ko",
+   "text": "둘째, 만들기 , 오는 입술을 모으며 우까지, 알 모음은 혀를 알 모양으로 처음부터 끝까지.",
+   "cap": 60
+  },
+  {
+   "id": "kfc3611fa",
+   "lang": "ko",
+   "text": "셋째, 낱말 , 문장 속에서 , 한글의 오 , 어는 미끄러짐과 알을 감춰요. 사전에서 확인해요.",
+   "cap": 61
+  },
+  {
+   "id": "k5a863a2a",
+   "lang": "ko",
+   "text": "입 그림은 쉽게 줄여 그린 것이에요. 알 모양은 사람마다 달라서, 뭉친 혀와 젖힌 혀 모두 괜찮아요.",
+   "cap": 62
+  },
+  {
+   "id": "kfa6042a4",
+   "lang": "ko",
+   "text": "목표는 원어민과 똑같은 소리가 아니라, 듣는 사람이 낱말을 쉽게 알아듣는 소리예요.",
+   "cap": 63
+  },
+  {
+   "id": "k83cb9ab9",
+   "lang": "ko",
+   "text": "아래 듣고 가르기 훈련과 내 모음 찍기에서 직접 해 보세요.",
+   "cap": 64
+  }
+ ]
+}
