@@ -47,6 +47,10 @@
                    짝(ɑ · ɔ)의 F2 내려감은 그보다 100Hz 이상 작아야 해요. G를 재지 못하면 통과하지 못해요
       rpair: id, rv: true|false      같은 목소리의 r 짝(work · walk): r 모음 쪽(ɝ)의 F3가 짝보다 400Hz 이상 낮아야 해요(혀를 r 모양으로 하면
                    세 번째 공명이 내려가요). F3를 재지 못하면 통과하지 못해요
+      wind: on | off, wrole: th | s | f, wpair: id, wgap: true   th · s 짝과 th · f 짝 낱말(think · sink, thin · fin, 혀끝을 이 사이로 th-sounds):
+                   첫 자음(on — 목이 울리기 전) 또는 끝 자음(off — 목 울림이 끝난 뒤)의 바람 조각에서 1~11kHz 띠의 평균 세기를
+                   그 낱말에서 가장 큰 프레임의 세기에 견줘 wl(dB, 0 = 가장 큰 곳만큼 셈)로 적어요. th · s 짝(wgap)은 같은 목소리의
+                   짝 줄(wpair)과 견줘 s 쪽이 th 쪽보다 10dB 이상 세야 통과(th는 약한 바람, s는 센 바람). th · f 짝은 재기만 해요
       stress: false  짧은 구(낱말 둘 이상, pick it up · get it)는 센 음절 확인(at의 표)을 하지 않아요 — 받아쓰기 · 끝 올림 · t 자리만
       fric: s | sh, cpair: id   s · sh 짝 낱말(see · she, ㅅ · ㅈ 너머 s-sh-z-j): 바람 소리(1~11kHz 띠가 낮은 띠보다 10dB 넘게 세고
                    그 띠의 크기가 가장 큰 곳에서 20dB 안쪽인 가장 긴 조각, 30ms 이상)의 가운데 절반에서 평균 스펙트럼의 무게중심을 fc(Hz)로 적어요.
@@ -112,6 +116,7 @@ FOCUS_GAP = 1.0   # 초점 줄: 초점 낱말의 꼭대기가 다른 내용어�
 POST_LOW = 2.0    # 초점 줄: 초점 뒤의 낱말은 모두 초점의 꼭대기보다 이만큼(반음) 이상 낮아야(낮게 눌러 말함)
 FOCUS_END = 1.0   # 초점 줄: 끝이 이만큼(반음) 넘게 올라가지 않아야 — 초점 뒤는 이미 낮게 눌려 있어 끝에서 더 내려가지 않기도 해요
 FC_GAP = 1000    # s · sh 짝: s 쪽 바람 소리의 무게중심 − sh 쪽 (Hz) 이상
+WL_GAP = 10      # th · s 짝: s 쪽 바람 소리의 세기 − th 쪽 (dB) 이상
 GL_MIN = 80      # 미끄러짐 짝: 미끄러지는 쪽(oʊ)의 F2 내려감(처음 − 끝) (Hz) 이상
 GL_GAP = 100     # 미끄러짐 짝: 짝(ɑ · ɔ)의 F2 내려감은 oʊ보다 이만큼(Hz) 이상 작아야
 R_F3 = 400       # r 짝: r 모음 쪽(ɝ)의 F3가 짝보다 이만큼(Hz) 이상 낮아야
@@ -476,7 +481,11 @@ HOMOPHONES = {'heal': 'heel', 'peal': 'peel', 'reed': 'read', 'weak': 'week', 'f
               # 낱말 하나만 들으면 받아쓰기가 글자 이름으로 적기도 해요(see → C.) — 소리가 같아요(s-sh-z-j)
               'c': 'see',
               # curt는 이름 Kurt와 소리가 같아요(o-and-r-vowels)
-              'kurt': 'curt'}
+              'kurt': 'curt',
+              # sink = sync, thyme = time, sum = some, fin = 이름 Finn — 소리가 같아요(th-sounds)
+              'sync': 'sink', 'thyme': 'time', 'some': 'sum', 'finn': 'fin',
+              # 받아쓰기가 영국식 철자로 적기도 해요(theater = theatre)
+              'theatre': 'theater'}
 # 붙여 쓰거나 띄어 쓰는 합성어(sea shells = seashells) — 글과 받아쓰기 모두 띄어 쓴 꼴로 맞춰요
 COMPOUNDS = {'seashells': 'sea shells', 'seashell': 'sea shell'}
 
@@ -602,6 +611,12 @@ def measure(model, m, path, tmp):
             r['fc'] = fc
         else:
             r['why'] = (r.get('why', '') + ' 바람 소리를 찾지 못함').strip()
+    if m.get('wind'):
+        wl = wind_level(y, sr, m['wind'])
+        if wl is not None:
+            r['wl'] = wl
+        else:
+            r['why'] = (r.get('why', '') + ' 바람 조각을 찾지 못함').strip()
     if m.get('formant'):
         a, b = sg[m.get('tat', m.get('at', 0))]
         na, nb = nucleus(env, a, b)
@@ -808,6 +823,39 @@ def fric_centroid(y, sr):
     return int(round(float((fr[band] * sp).sum() / sp.sum())))
 
 
+def wind_level(y, sr, side):
+    """첫(side 'on') · 끝('off') 자음의 바람 소리 세기 dB(그 낱말에서 가장 큰 프레임 = 0) — 바람 조각을 찾지 못하면 None
+    목 울림: 낮은 띠(80~900Hz)가 그 띠의 가장 큰 곳에서 15dB 안쪽인 프레임. 바람 조각: 첫 목 울림 앞(on) · 마지막 목 울림 뒤(off)에서
+    1~11kHz 띠가 가장 큰 프레임보다 55dB 넘게 작지 않은 프레임(20ms 이상). 그 프레임들의 1~11kHz 평균 파워 − 가장 큰 프레임의 파워"""
+    hop = int(round(sr * HOP))
+    nfft = 2048 if sr > 32000 else 1024
+    S = np.abs(librosa.stft(y, n_fft=nfft, hop_length=hop, win_length=int(sr * 0.025), center=True)) ** 2
+    fr = librosa.fft_frequencies(sr=sr, n_fft=nfft)
+    hb = S[(fr >= 1000) & (fr <= min(11000.0, sr / 2 - 500))].sum(0) + 1e-12
+    lo = S[(fr >= 80) & (fr <= 900)].sum(0) + 1e-12
+    tot = S[fr >= 80].sum(0) + 1e-12
+    peak = float(10 * np.log10(tot).max())
+    ldb = 10 * np.log10(lo)
+    voiced = np.where(ldb > ldb.max() - 15)[0]
+    if not len(voiced):
+        return None
+    seg = np.arange(0, voiced[0]) if side == 'on' else np.arange(voiced[-1] + 1, len(hb))
+    if len(seg):
+        seg = seg[10 * np.log10(hb[seg]) > peak - 55]
+    if len(seg) < 4:
+        return None
+    return round(float(10 * np.log10(hb[seg].mean()) - peak), 1)
+
+
+def wind_check(m, r, res):
+    """th · s 짝 줄(wgap · wpair)이 있으면 (통과?, s 쪽 wl − th 쪽 wl), 잴 수 없으면 None"""
+    o = (res or {}).get(m.get('wpair') or '')
+    if not m.get('wgap') or not o or r.get('wl') is None or o.get('wl') is None:
+        return None
+    d = r['wl'] - o['wl'] if m.get('wrole') == 's' else o['wl'] - r['wl']
+    return d >= WL_GAP, round(d, 1)
+
+
 def fric_check(m, r, res):
     """s · sh 짝 줄(cpair)이 있으면 (통과?, s 쪽 fc − sh 쪽 fc), 잴 수 없으면 None"""
     o = (res or {}).get(m.get('cpair') or '')
@@ -897,6 +945,12 @@ def passes(m, r, res=None):
             q = fric_check(m, r, res)
             if q is not None and not q[0]:
                 return False
+        if m.get('wind') and 'wl' not in r:
+            return False
+        if m.get('wgap') and res is not None:
+            q = wind_check(m, r, res)
+            if q is not None and not q[0]:
+                return False
         if f_odd(m, r):
             return False
         if m.get('fpair') and res is not None:
@@ -946,6 +1000,9 @@ def tag(m, r, res=None):
     q = fric_check(m, r, res) if m.get('cpair') and res is not None else None
     if q is not None and not q[0]:
         t += f" s · sh 바람 소리 무게중심 차 {q[1]:+d}Hz < {FC_GAP}"
+    q = wind_check(m, r, res) if m.get('wgap') and res is not None else None
+    if q is not None and not q[0]:
+        t += f" th · s 바람 소리 세기 차 {q[1]:+.1f}dB < {WL_GAP}"
     q = fpair_check(m, r, res) if m.get('fpair') and res is not None else None
     if q is not None and not q[0]:
         t += f" 짝과 모음 자리 F1차 {q[1]:+d} · F2차 {q[2]:+d}"
@@ -965,7 +1022,7 @@ def write_measure_js(path, meta, res):
         if not r or not passes(m, r, res) or not any(x in r for x in ('s', 'dur', 'f')):
             continue
         e = {}
-        for x in ('s', 'f', 'e', 'F', 'vd', 'G', 'F3', 'fc', 'dur', 'tk', 'vb', 'w', 'end', 'pk'):
+        for x in ('s', 'f', 'e', 'F', 'vd', 'G', 'F3', 'fc', 'wl', 'dur', 'tk', 'vb', 'w', 'end', 'pk'):
             if x in r:
                 e[x] = r[x]
         out[m['id']] = e
@@ -980,6 +1037,8 @@ def write_measure_js(path, meta, res):
             f.write('//   F3: 그 앞쪽 15–45%의 세 번째 공명 Hz(LPC 12차, r 울림) — 목표 모음은 tat 음절(없으면 센 음절)\n')
         if any('fc' in v for v in out.values()):
             f.write('// fc: s · sh 짝 낱말의 바람 소리 무게중심 Hz(바람 조각 가운데 절반의 평균 스펙트럼, 1~11kHz)\n')
+        if any('wl' in v for v in out.values()):
+            f.write('// wl: th · s · f 짝 낱말의 첫(끝) 자음 바람 소리 세기 dB(1~11kHz, 그 낱말에서 가장 큰 프레임 = 0 — 0에 가까울수록 센 바람)\n')
         if any('tk' in v for v in out.values()):
             f.write('// tk: t 자리(음절 경계 k)마다 [k, 낮은 띠(60~500Hz, 목 울림)가 두 음절 핵보다 떨어진 dB] · vb: 10ms마다 낮은 띠의 크기 dB(가장 큰 곳 = 0)\n')
         if any('dur' in v for v in out.values()):
@@ -1103,7 +1162,8 @@ def main():
         p = os.path.join(d, have[m['id']])
         key = f"{os.path.getmtime(p):.0f}:{os.path.getsize(p)}"
         c = cache.get(m['id'])
-        fresh = c and c.get('key') == key and not only and not (m.get('fric') and 'fc' not in c['r'] and 'why' not in c['r'])
+        fresh = c and c.get('key') == key and not only and not (m.get('fric') and 'fc' not in c['r'] and 'why' not in c['r']) \
+            and not (m.get('wind') and 'wl' not in c['r'] and 'why' not in c['r'])
         r = c['r'] if fresh else measure(model, m, p, tmp)
         cache[m['id']] = {'key': key, 'r': r}
         res[m['id']] = r
@@ -1122,8 +1182,9 @@ def main():
         cq = fric_check(m, res[m['id']], res) if m.get('cpair') and passes(m, res[m['id']]) else None
         gq = glide_check(m, res[m['id']], res) if m.get('gpair') and passes(m, res[m['id']]) else None
         rq = r_check(m, res[m['id']], res) if m.get('rpair') and passes(m, res[m['id']]) else None
+        wq = wind_check(m, res[m['id']], res) if m.get('wgap') and passes(m, res[m['id']]) else None
         if (q is not None and q < PAIR_MIN) or (fq is not None and not fq[0]) or (cq is not None and not cq[0]) \
-                or (gq is not None and not gq[0]) or (rq is not None and not rq[0]):
+                or (gq is not None and not gq[0]) or (rq is not None and not rq[0]) or (wq is not None and not wq[0]):
             print(f"  {m['id']} {m['text'][:40]!r}{tag(m, res[m['id']], res)}", flush=True)
     fail = [m for m in todo if not passes(m, res[m['id']], res)]
     replaced, still = [], []

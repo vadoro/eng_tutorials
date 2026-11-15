@@ -1,0 +1,937 @@
+{
+ "slug": "th-sounds",
+ "note": "음성 해설의 읽기 조각 (tools/narration-pieces.cjs가 만듦 — 손으로 고치지 마세요). id = EN.narration.pieceId(lang, text)",
+ "count": {
+  "ko": 107,
+  "en": 47,
+  "say": 0,
+  "koChars": 3007,
+  "enChars": 769
+ },
+ "pieces": [
+  {
+   "id": "k0569b9db",
+   "lang": "ko",
+   "text": "생각하다",
+   "cap": 0
+  },
+  {
+   "id": "ec8b57dfe",
+   "lang": "en",
+   "text": "think",
+   "cap": 0
+  },
+  {
+   "id": "k4f214ee0",
+   "lang": "ko",
+   "text": "가라앉다",
+   "cap": 0
+  },
+  {
+   "id": "edca72bbd",
+   "lang": "en",
+   "text": "sink.",
+   "cap": 0
+  },
+  {
+   "id": "k64848d78",
+   "lang": "ko",
+   "text": "한국어로 적으면 둘 다 싱크예요.",
+   "cap": 0
+  },
+  {
+   "id": "kbca8d375",
+   "lang": "ko",
+   "text": "그들",
+   "cap": 1
+  },
+  {
+   "id": "e012b96c8",
+   "lang": "en",
+   "text": "they",
+   "cap": 1
+  },
+  {
+   "id": "k737aef61",
+   "lang": "ko",
+   "text": "하루",
+   "cap": 1
+  },
+  {
+   "id": "ea397b910",
+   "lang": "en",
+   "text": "day",
+   "cap": 1
+  },
+  {
+   "id": "k6ef079ad",
+   "lang": "ko",
+   "text": "둘 다 데이예요. 한국어에는 티에이치 소리가 없어서 가까운 소리로 바꿔 적어요.",
+   "cap": 1
+  },
+  {
+   "id": "k42545e1d",
+   "lang": "ko",
+   "text": "티에이치 소리는 둘이에요 , 바람만 내는 티에이치 소리와 목을 울리는 티에이치 소리. 한글로는 시옷과 디귿이 맡아요.",
+   "cap": 2
+  },
+  {
+   "id": "k2311c745",
+   "lang": "ko",
+   "text": "세 단계로 익혀요. 듣고 가르고, 혀끝의 자리를 만들고, 낱말과 문장 속에서 써요.",
+   "cap": 3
+  },
+  {
+   "id": "kbcc99ca1",
+   "lang": "ko",
+   "text": "미국 표준 발음을 기준으로 해요. 소리는 모두 합성 음성이고, 입 그림은 쉽게 줄여 그렸어요.",
+   "cap": 4
+  },
+  {
+   "id": "kd6eb1b31",
+   "lang": "ko",
+   "text": "먼저 귀부터 시험해요. 짝 낱말 둘은 소리 하나만 달라요",
+   "cap": 5
+  },
+  {
+   "id": "eb5de8f1b",
+   "lang": "en",
+   "text": "think , sink, mouth , mouse.",
+   "cap": 5
+  },
+  {
+   "id": "kbf090515",
+   "lang": "ko",
+   "text": "화면의 낱말을 눌러 들어 보세요. 같은 낱말을 곧바로 다시 누르면 천천히 들려줘요.",
+   "cap": 6
+  },
+  {
+   "id": "kf30379d8",
+   "lang": "ko",
+   "text": "에프 소리와도 짝이 있어요",
+   "cap": 7
+  },
+  {
+   "id": "e9ea02dda",
+   "lang": "en",
+   "text": "three , free.",
+   "cap": 7
+  },
+  {
+   "id": "k9c8cdd53",
+   "lang": "ko",
+   "text": "셋과 공짜예요.",
+   "cap": 7
+  },
+  {
+   "id": "k22442d73",
+   "lang": "ko",
+   "text": "목을 울리는 티에이치 소리는 디 소리와 짝이 돼요",
+   "cap": 8
+  },
+  {
+   "id": "e447c5ec0",
+   "lang": "en",
+   "text": "they , day.",
+   "cap": 8
+  },
+  {
+   "id": "k6dc962a1",
+   "lang": "ko",
+   "text": "그들과 하루예요.",
+   "cap": 8
+  },
+  {
+   "id": "k7984f85a",
+   "lang": "ko",
+   "text": "듣기 연구에서 한국어를 쓰는 학습자는 바람 티에이치 소리를 에프 소리로, 울림 티에이치 소리를 디 소리로 듣는 일이 많았어요.",
+   "cap": 9
+  },
+  {
+   "id": "k96be2a75",
+   "lang": "ko",
+   "text": "여러 목소리로 짝을 듣고 고르는 연습이 도움이 돼요. 아래 놀이터의 듣고 가르기 훈련이 그 연습이에요.",
+   "cap": 10
+  },
+  {
+   "id": "kcc3e7220",
+   "lang": "ko",
+   "text": "외래어 표기법은 바람 티에이치 소리를 시옷으로 적어요. 그래서",
+   "cap": 11
+  },
+  {
+   "id": "e7f52468d",
+   "lang": "en",
+   "text": "think , sink",
+   "cap": 11
+  },
+  {
+   "id": "k09729b3c",
+   "lang": "ko",
+   "text": "싱크",
+   "cap": 11
+  },
+  {
+   "id": "e556af946",
+   "lang": "en",
+   "text": "mouth , mouse",
+   "cap": 11
+  },
+  {
+   "id": "ka63f1b3b",
+   "lang": "ko",
+   "text": "마우스.",
+   "cap": 11
+  },
+  {
+   "id": "kdef2407f",
+   "lang": "ko",
+   "text": "울림 티에이치 소리는 디귿으로 적어요. 그래서",
+   "cap": 12
+  },
+  {
+   "id": "efd785e6e",
+   "lang": "en",
+   "text": "they , day",
+   "cap": 12
+  },
+  {
+   "id": "k21708751",
+   "lang": "ko",
+   "text": "둘 다 데이",
+   "cap": 12
+  },
+  {
+   "id": "e51769e29",
+   "lang": "en",
+   "text": "breathe , breed",
+   "cap": 12
+  },
+  {
+   "id": "kaca0daa3",
+   "lang": "ko",
+   "text": "브리드.",
+   "cap": 12
+  },
+  {
+   "id": "k7bbda902",
+   "lang": "ko",
+   "text": "에스 소리는 혀끝이 윗잇몸 가까이 있어요. 티에이치 소리는 혀끝이 더 앞으로 나와 윗니 끝에 닿아요.",
+   "cap": 13
+  },
+  {
+   "id": "k1bed2b50",
+   "lang": "ko",
+   "text": "그래서 마우스라고 말하면, 듣는 사람에게는",
+   "cap": 14
+  },
+  {
+   "id": "e68a5a2e1",
+   "lang": "en",
+   "text": "mouse",
+   "cap": 14
+  },
+  {
+   "id": "k7c9e9d20",
+   "lang": "ko",
+   "text": "쥐로 들리기 쉬워요. 입이 쥐가 돼요.",
+   "cap": 14
+  },
+  {
+   "id": "k321fc95d",
+   "lang": "ko",
+   "text": "디귿은 혀끝으로 막았다가 떼는 소리예요. 영어 디 소리와 비슷해요. 울림 티에이치 소리는 막지 않아요.",
+   "cap": 15
+  },
+  {
+   "id": "kf911217b",
+   "lang": "ko",
+   "text": "끝에서는 으가 붙어요",
+   "cap": 16
+  },
+  {
+   "id": "e65adeced",
+   "lang": "en",
+   "text": "mouth",
+   "cap": 16
+  },
+  {
+   "id": "k3a652897",
+   "lang": "ko",
+   "text": "마우스",
+   "cap": 16
+  },
+  {
+   "id": "e5f2a4313",
+   "lang": "en",
+   "text": "breathe",
+   "cap": 16
+  },
+  {
+   "id": "kec86dff1",
+   "lang": "ko",
+   "text": "브리드. 영어는 으 없이 끝내요.",
+   "cap": 16
+  },
+  {
+   "id": "ke67b660a",
+   "lang": "ko",
+   "text": "오늘의 작전 , 혀끝을 윗니 끝에 대고, 막지 않고 바람을 흘려요.",
+   "cap": 17
+  },
+  {
+   "id": "kb45ab38e",
+   "lang": "ko",
+   "text": "바람 티에이치 소리부터 만들어요. 턱을 조금 내리고, 혀끝을 윗니 끝에 가볍게 대요.",
+   "cap": 18
+  },
+  {
+   "id": "kec836718",
+   "lang": "ko",
+   "text": "혀끝이 이 사이로 살짝 보여도 좋아요. 세게 물지 않아요. 그 틈으로 바람을 흘려요.",
+   "cap": 19
+  },
+  {
+   "id": "k3ae77994",
+   "lang": "ko",
+   "text": "에스 소리는 혀끝이 이에 닿지 않아요. 윗잇몸 가까이의 좁은 길로 센 바람을 보내요.",
+   "cap": 20
+  },
+  {
+   "id": "k5117427b",
+   "lang": "ko",
+   "text": "그래서 티에이치 소리는 에스 소리보다 훨씬 약하고 부드러워요. 목소리 넷의 바람 소리를 재어 보면 이렇게 달라요.",
+   "cap": 21
+  },
+  {
+   "id": "k6eac8526",
+   "lang": "ko",
+   "text": "함정은 시옷이에요. 혀끝을 잇몸 쪽에 두면 에스 소리가 나요. 그러면",
+   "cap": 22
+  },
+  {
+   "id": "k5ed788ef",
+   "lang": "ko",
+   "text": "같은 낱말로 들려요.",
+   "cap": 22
+  },
+  {
+   "id": "k96fe101e",
+   "lang": "ko",
+   "text": "요령 , 거울을 봐요. 윗니 아래로 혀끝이 살짝 보이면 맞아요. 바람은 약하게, 길게 내요.",
+   "cap": 23
+  },
+  {
+   "id": "k2343f90f",
+   "lang": "ko",
+   "text": "들어 봐요",
+   "cap": 24
+  },
+  {
+   "id": "e4cf83f04",
+   "lang": "en",
+   "text": "think , thank , three , thing.",
+   "cap": 24
+  },
+  {
+   "id": "k287b22b9",
+   "lang": "ko",
+   "text": "혀끝을 먼저 대고 소리를 시작해요.",
+   "cap": 24
+  },
+  {
+   "id": "k0a8f8d40",
+   "lang": "ko",
+   "text": "짝으로 들어 봐요",
+   "cap": 25
+  },
+  {
+   "id": "e0d64c8d6",
+   "lang": "en",
+   "text": "think , sink, thick , sick, mouth , mouse.",
+   "cap": 25
+  },
+  {
+   "id": "kc7d8b77e",
+   "lang": "ko",
+   "text": "티에이치 소리와 가장 헷갈리는 소리는 에프 소리예요. 둘 다 약하고 부드러운 바람 소리예요.",
+   "cap": 26
+  },
+  {
+   "id": "k0810bc88",
+   "lang": "ko",
+   "text": "에프 소리는 윗니 끝을 아랫입술에 얹어요. 티에이치 소리는 입술이 아니라 혀끝을 윗니 끝에 대요.",
+   "cap": 27
+  },
+  {
+   "id": "k5021949b",
+   "lang": "ko",
+   "text": "바람의 세기는 비슷해요. 그래서 귀로는 가르기 어려워요. 재어 보면 둘 다 에스 소리보다 훨씬 약해요.",
+   "cap": 28
+  },
+  {
+   "id": "e206b6c9e",
+   "lang": "en",
+   "text": "three , free, thin , fin, death , deaf.",
+   "cap": 29
+  },
+  {
+   "id": "kfc550629",
+   "lang": "ko",
+   "text": "티 소리는 혀끝을 윗잇몸에 붙여 막았다가 터뜨려요. 티에이치 소리는 막지 않아요. 바람이 이어져요.",
+   "cap": 30
+  },
+  {
+   "id": "e8a9ee959",
+   "lang": "en",
+   "text": "three , tree, thank , tank, both , boat.",
+   "cap": 31
+  },
+  {
+   "id": "k1ce88bdb",
+   "lang": "ko",
+   "text": "눈으로는 쉬워요. 아랫입술이 올라오면 에프 소리, 혀끝이 보이면 티에이치 소리예요. 거울로 확인해요.",
+   "cap": 32
+  },
+  {
+   "id": "k8b20a8aa",
+   "lang": "ko",
+   "text": "울림 티에이치 소리는 바람 티에이치 소리와 혀의 자리가 같아요. 혀끝을 윗니 끝에 가볍게 대요.",
+   "cap": 33
+  },
+  {
+   "id": "k20566609",
+   "lang": "ko",
+   "text": "다른 점은 하나, 목을 울려요. 바람 티에이치 소리를 길게 내다가 목소리를 켜요.",
+   "cap": 34
+  },
+  {
+   "id": "kc3704ef8",
+   "lang": "ko",
+   "text": "아주 흔한 낱말에 들어 있어요",
+   "cap": 35
+  },
+  {
+   "id": "ef4d9f39c",
+   "lang": "en",
+   "text": "the , this , that , they.",
+   "cap": 35
+  },
+  {
+   "id": "k1ecef0d0",
+   "lang": "ko",
+   "text": "문장마다 나오는 소리예요.",
+   "cap": 35
+  },
+  {
+   "id": "k711d23ce",
+   "lang": "ko",
+   "text": "디 소리와 한국어 디귿은 혀끝으로 막았다가 떼요. 울림 티에이치 소리는 막지 않아요. 떨림이 이어져요.",
+   "cap": 36
+  },
+  {
+   "id": "ka9c2ae87",
+   "lang": "ko",
+   "text": "그래서 데이라고 말하면 혀끝이 막아요.",
+   "cap": 37
+  },
+  {
+   "id": "k5915bc15",
+   "lang": "ko",
+   "text": "혀끝을 윗니 끝에 댄 채 떨림부터 시작해요.",
+   "cap": 37
+  },
+  {
+   "id": "e8be3b939",
+   "lang": "en",
+   "text": "they , day, then , den, breathe , breed.",
+   "cap": 38
+  },
+  {
+   "id": "kf8909b12",
+   "lang": "ko",
+   "text": "모음 사이에서도 같아요",
+   "cap": 39
+  },
+  {
+   "id": "e54009b57",
+   "lang": "en",
+   "text": "mother , brother , weather , together.",
+   "cap": 39
+  },
+  {
+   "id": "k2ef61a2c",
+   "lang": "ko",
+   "text": "혀끝이 윗니 끝을 스쳐요.",
+   "cap": 39
+  },
+  {
+   "id": "k827b6f9e",
+   "lang": "ko",
+   "text": "울림 티에이치 소리는 제트 소리와도 짝이 돼요. 제트 소리는 혀끝이 윗잇몸 가까이 있고, 이에 닿지 않아요.",
+   "cap": 40
+  },
+  {
+   "id": "ke81dc116",
+   "lang": "ko",
+   "text": "울림 티에이치 소리는 혀끝이 윗니 끝에 닿아요. 떨림이 제트 소리보다 약하고 부드러워요.",
+   "cap": 41
+  },
+  {
+   "id": "e7892df31",
+   "lang": "en",
+   "text": "breathe , breeze, clothing , closing.",
+   "cap": 42
+  },
+  {
+   "id": "k169bc01a",
+   "lang": "ko",
+   "text": "한국어식으로는 표기가 달라요 , 브리드, 브리즈. 그래도 소리는 혀끝의 자리로 갈라요.",
+   "cap": 43
+  },
+  {
+   "id": "k21d55077",
+   "lang": "ko",
+   "text": "듣기 연구에서 티에이치 소리는 낱말 끝과 센 음절 뒤에서 더 알아듣기 어려웠어요.",
+   "cap": 44
+  },
+  {
+   "id": "k8670467e",
+   "lang": "ko",
+   "text": "끝에서도 혀끝을 윗니 끝에 댄 채 끝내요",
+   "cap": 45
+  },
+  {
+   "id": "e4290ad0d",
+   "lang": "en",
+   "text": "breathe , with.",
+   "cap": 45
+  },
+  {
+   "id": "k7e4c3916",
+   "lang": "ko",
+   "text": "으를 붙이지 않아요.",
+   "cap": 45
+  },
+  {
+   "id": "kd4780ccd",
+   "lang": "ko",
+   "text": "혀끝이 앞으로 나오느냐, 이것 하나로 갈려요.",
+   "cap": 46
+  },
+  {
+   "id": "kc33779d4",
+   "lang": "ko",
+   "text": "이제 낱말 속에서 써요. 소리가 놓이는 자리는 넷이에요 , 처음, 묶음, 가운데, 끝.",
+   "cap": 47
+  },
+  {
+   "id": "kf9d7b4cb",
+   "lang": "ko",
+   "text": "처음 자리",
+   "cap": 48
+  },
+  {
+   "id": "ed7288fcc",
+   "lang": "en",
+   "text": "think , thank , this.",
+   "cap": 48
+  },
+  {
+   "id": "kf3f19a65",
+   "lang": "ko",
+   "text": "혀끝을 윗니 끝에 먼저 대고 소리를 시작해요.",
+   "cap": 48
+  },
+  {
+   "id": "k31fc6be5",
+   "lang": "ko",
+   "text": "묶음 자리",
+   "cap": 49
+  },
+  {
+   "id": "e8d6ee5d4",
+   "lang": "en",
+   "text": "three , throat , thriller.",
+   "cap": 49
+  },
+  {
+   "id": "k2de2ebc0",
+   "lang": "ko",
+   "text": "티에이치 소리 뒤에 알 소리가 바로 와요. 스리처럼 으를 넣지 않아요.",
+   "cap": 49
+  },
+  {
+   "id": "e377774a2",
+   "lang": "en",
+   "text": "three",
+   "cap": 50
+  },
+  {
+   "id": "k55b6c6e0",
+   "lang": "ko",
+   "text": "혀끝을 이에서 떼면서 곧바로 뒤로 당겨 알 모양을 만들어요. 한 박자예요.",
+   "cap": 50
+  },
+  {
+   "id": "k89ac95e9",
+   "lang": "ko",
+   "text": "가운데 자리",
+   "cap": 51
+  },
+  {
+   "id": "e0b2d2f23",
+   "lang": "en",
+   "text": "nothing , method , mother.",
+   "cap": 51
+  },
+  {
+   "id": "kf053d99f",
+   "lang": "ko",
+   "text": "모음 사이에서는 짧게 지나가요. 혀끝이 윗니 끝을 스쳐요.",
+   "cap": 51
+  },
+  {
+   "id": "k408a8230",
+   "lang": "ko",
+   "text": "끝 자리",
+   "cap": 52
+  },
+  {
+   "id": "e8c90a640",
+   "lang": "en",
+   "text": "bath , teeth , with , breathe.",
+   "cap": 52
+  },
+  {
+   "id": "k44754ed1",
+   "lang": "ko",
+   "text": "한국어식으로는 끝에 으를 붙여요 , 배스 , 티스 , 위드 , 브리드.",
+   "cap": 52
+  },
+  {
+   "id": "k14b4c57e",
+   "lang": "ko",
+   "text": "영어는 약한 바람이나 떨림으로 끝내요. 끝 자음 이야기는 끝소리 튜토리얼에서 더 자세히 다뤄요.",
+   "cap": 53
+  },
+  {
+   "id": "kfebb61d7",
+   "lang": "ko",
+   "text": "외래어는 한국어식 발음이 입에 붙어 있어 더 조심해요. 네 가지를 봐요.",
+   "cap": 54
+  },
+  {
+   "id": "k0389eef6",
+   "lang": "ko",
+   "text": "처음의 티에이치 소리 , 시옷.",
+   "cap": 55
+  },
+  {
+   "id": "ea27e632c",
+   "lang": "en",
+   "text": "thriller",
+   "cap": 55
+  },
+  {
+   "id": "kc7e4e8bf",
+   "lang": "ko",
+   "text": "스릴러",
+   "cap": 55
+  },
+  {
+   "id": "e132c1dab",
+   "lang": "en",
+   "text": "theater",
+   "cap": 55
+  },
+  {
+   "id": "k14757693",
+   "lang": "ko",
+   "text": "시어터",
+   "cap": 55
+  },
+  {
+   "id": "e6e39934a",
+   "lang": "en",
+   "text": "thumbnail",
+   "cap": 55
+  },
+  {
+   "id": "ke984a997",
+   "lang": "ko",
+   "text": "섬네일",
+   "cap": 55
+  },
+  {
+   "id": "ec383d953",
+   "lang": "en",
+   "text": "third",
+   "cap": 55
+  },
+  {
+   "id": "k54bffdb5",
+   "lang": "ko",
+   "text": "서드.",
+   "cap": 55
+  },
+  {
+   "id": "kdd6935f7",
+   "lang": "ko",
+   "text": "가운데와 끝의 티에이치 소리 , 시옷.",
+   "cap": 56
+  },
+  {
+   "id": "e620ee768",
+   "lang": "en",
+   "text": "health",
+   "cap": 56
+  },
+  {
+   "id": "k2159fd51",
+   "lang": "ko",
+   "text": "헬스",
+   "cap": 56
+  },
+  {
+   "id": "e3f03bf44",
+   "lang": "en",
+   "text": "Bluetooth",
+   "cap": 56
+  },
+  {
+   "id": "k022a7a35",
+   "lang": "ko",
+   "text": "블루투스",
+   "cap": 56
+  },
+  {
+   "id": "e97728b1f",
+   "lang": "en",
+   "text": "method",
+   "cap": 56
+  },
+  {
+   "id": "kc3c93097",
+   "lang": "ko",
+   "text": "메서드",
+   "cap": 56
+  },
+  {
+   "id": "e311d0b2b",
+   "lang": "en",
+   "text": "birthday",
+   "cap": 56
+  },
+  {
+   "id": "k0ad41ad9",
+   "lang": "ko",
+   "text": "버스데이.",
+   "cap": 56
+  },
+  {
+   "id": "kec64d1c4",
+   "lang": "ko",
+   "text": "울림 티에이치 소리 , 디귿.",
+   "cap": 57
+  },
+  {
+   "id": "e3c45ce9e",
+   "lang": "en",
+   "text": "rhythm",
+   "cap": 57
+  },
+  {
+   "id": "k72a91fb9",
+   "lang": "ko",
+   "text": "리듬",
+   "cap": 57
+  },
+  {
+   "id": "e35cd670e",
+   "lang": "en",
+   "text": "smoothie",
+   "cap": 57
+  },
+  {
+   "id": "k840bd9e7",
+   "lang": "ko",
+   "text": "스무디",
+   "cap": 57
+  },
+  {
+   "id": "e3dcdf2a2",
+   "lang": "en",
+   "text": "weather",
+   "cap": 57
+  },
+  {
+   "id": "k1fa80295",
+   "lang": "ko",
+   "text": "웨더",
+   "cap": 57
+  },
+  {
+   "id": "e26dd91cf",
+   "lang": "en",
+   "text": "leather",
+   "cap": 57
+  },
+  {
+   "id": "k49a96e01",
+   "lang": "ko",
+   "text": "레더.",
+   "cap": 57
+  },
+  {
+   "id": "k5ef52993",
+   "lang": "ko",
+   "text": "거꾸로, 철자는 티에이치인데 티 소리로 읽는 낱말도 있어요",
+   "cap": 58
+  },
+  {
+   "id": "e4159123e",
+   "lang": "en",
+   "text": "Thomas, Thailand, thyme, Thames.",
+   "cap": 58
+  },
+  {
+   "id": "k9a88c69d",
+   "lang": "ko",
+   "text": "모든 짝이 같은 표기가 되지는 않아요",
+   "cap": 59
+  },
+  {
+   "id": "k2ccf03b1",
+   "lang": "ko",
+   "text": "스리",
+   "cap": 59
+  },
+  {
+   "id": "eecdac778",
+   "lang": "en",
+   "text": "free",
+   "cap": 59
+  },
+  {
+   "id": "kd67541e2",
+   "lang": "ko",
+   "text": "프리. 그래도 소리는 혀끝의 자리로 갈라요.",
+   "cap": 59
+  },
+  {
+   "id": "ke0d65e50",
+   "lang": "ko",
+   "text": "외래어를 영어로 말할 때는 한국어 표기를 잠시 잊고, 혀끝을 윗니 끝에 먼저 대요.",
+   "cap": 60
+  },
+  {
+   "id": "k8eb36ba3",
+   "lang": "ko",
+   "text": "문장 속에서는 소리가 빨리 지나가요. 먼저 티에이치 소리가 어디 있는지 찾아요.",
+   "cap": 61
+  },
+  {
+   "id": "e043ef410",
+   "lang": "en",
+   "text": "Thank you so much.",
+   "cap": 62
+  },
+  {
+   "id": "k507c57ec",
+   "lang": "ko",
+   "text": "첫소리가 바람 티에이치 소리예요. 혀끝을 대고 시작해요.",
+   "cap": 62
+  },
+  {
+   "id": "e6fc32640",
+   "lang": "en",
+   "text": "This is my brother.",
+   "cap": 63
+  },
+  {
+   "id": "kf9e0e2c5",
+   "lang": "ko",
+   "text": "울림 티에이치 소리가 둘이에요. 처음에 하나, 가운데에 하나.",
+   "cap": 63
+  },
+  {
+   "id": "e12a709cc",
+   "lang": "en",
+   "text": "Take a deep breath.",
+   "cap": 64
+  },
+  {
+   "id": "k47907dc4",
+   "lang": "ko",
+   "text": "끝의 티에이치 소리예요. 약한 바람으로 끝내요.",
+   "cap": 64
+  },
+  {
+   "id": "ec352f5fb",
+   "lang": "en",
+   "text": "There are three things.",
+   "cap": 65
+  },
+  {
+   "id": "kfd884385",
+   "lang": "ko",
+   "text": "울림 티에이치 소리 하나, 바람 티에이치 소리 둘이에요.",
+   "cap": 65
+  },
+  {
+   "id": "kad91801c",
+   "lang": "ko",
+   "text": "약하게 지나가는 낱말에서도 같아요",
+   "cap": 66
+  },
+  {
+   "id": "eadd79052",
+   "lang": "en",
+   "text": "the , this , that.",
+   "cap": 66
+  },
+  {
+   "id": "kd64bf0f5",
+   "lang": "ko",
+   "text": "아래 따라 말하기에 문장 스물여덟 개가 있어요. 네 묶음, 묶음마다 일곱 문장이에요.",
+   "cap": 67
+  },
+  {
+   "id": "k515bdbd2",
+   "lang": "ko",
+   "text": "정리해요. 첫째, 듣고 가르기 , 티에이치 소리는 에스 소리보다 훨씬 약한 바람이에요. 에프 소리와는 비슷해서 더 조심해요.",
+   "cap": 68
+  },
+  {
+   "id": "k61d21afa",
+   "lang": "ko",
+   "text": "둘째, 혀끝의 자리 , 혀끝을 윗니 끝에 가볍게. 막지 않아요. 목을 울리면 울림 티에이치 소리예요.",
+   "cap": 69
+  },
+  {
+   "id": "k03110d76",
+   "lang": "ko",
+   "text": "셋째, 낱말 속에서 , 시옷과 디귿으로 바꾸지 않고, 끝에 으를 붙이지 않아요.",
+   "cap": 70
+  },
+  {
+   "id": "k5338020d",
+   "lang": "ko",
+   "text": "연구에서는 티에이치 소리를 다른 소리로 바꿔 말해도, 알아듣는 데 주는 영향이 작은 편이었어요.",
+   "cap": 71
+  },
+  {
+   "id": "kd95e2c27",
+   "lang": "ko",
+   "text": "그러니 너무 긴장하지 않아도 돼요. 목표는 듣는 사람이 헷갈리지 않는 소리예요.",
+   "cap": 72
+  },
+  {
+   "id": "k2f302b7d",
+   "lang": "ko",
+   "text": "아래 듣고 가르기 훈련과 내 발음 확인에서 직접 해 보세요.",
+   "cap": 73
+  }
+ ]
+}

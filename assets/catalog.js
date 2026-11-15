@@ -550,5 +550,18 @@ window.EN_CATALOG = {
       thumb: 'o-and-r-vowels/docs/poster.jpg',
       added: '2026-11-15',
     },
+    {
+      slug: 'th-sounds',
+      track: 'pron',
+      title: '혀끝을 이 사이로 — th 소리 둘',
+      topic: 'θ · ð(think · sink, mouth · mouse, three · free, they · day, breathe · breeze) · 혀끝을 윗니 끝에 가볍게 · 막지 않기 · 목 울림 · 낱말 속 자리(처음 · 묶음 · 가운데 · 끝) · 외래어(스릴러 · 헬스 · 리듬 · 토머스)',
+      summary: '생각하다 · 가라앉다 → think · sink, 한국어로 적으면 둘 다 싱크예요. 그들 · 하루 → they · day, 둘 다 데이. 한국어에 없는 th 소리 둘을 외래어 표기는 ㅅ과 ㄷ으로 적어요. 영어에서는 혀끝을 윗니 끝에 가볍게 대고, 막지 않고 바람을 흘려요. 입 옆 단면도로 th · s · f · t 소리의 혀끝과 입술을 견주고, 잰 바람 소리의 세기로 th 소리가 s 소리보다 훨씬 약하고 f 소리와 비슷하다는 것을 봐요. 끝에는 듣고 가르기 훈련 · 내 발음 확인.',
+      length: '7:34',
+      scenes: 11,
+      features: ['음성 해설', '입 옆 단면도', '위에서 본 혀 · 입술 앞모습', '잰 바람 소리 세기', '목소리 넷으로 듣기', '한국어식과 견줘 듣기', '장면별 실습', '듣고 가르기 훈련', '내 발음 확인', '따라 말하기 28', '듣고 고르기 16', '퀴즈'],
+      types: [7],
+      thumb: 'th-sounds/docs/poster.jpg',
+      added: '2026-11-15',
+    },
   ],
 };

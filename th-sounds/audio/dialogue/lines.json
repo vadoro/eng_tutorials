@@ -1,0 +1,1573 @@
+{
+ "slug": "th-sounds",
+ "note": "미리 만들 대화 줄 (tools/dialogue-lines.cjs가 페이지의 window.__dialogueLines()로 만듦 — 손으로 고치지 마세요). id = voices.js의 lineId(sp, text), text = 읽을 글(spoken), from = 나오는 곳",
+ "count": {
+  "ko": 48,
+  "tc": 94,
+  "tf": 40,
+  "uf": 39,
+  "um": 39
+ },
+ "lines": [
+  {
+   "id": "tc-215596b4",
+   "sp": "tc",
+   "text": "think",
+   "from": "video"
+  },
+  {
+   "id": "tc-d296feef",
+   "sp": "tc",
+   "text": "sink",
+   "from": "video"
+  },
+  {
+   "id": "ko-09729b3c",
+   "sp": "ko",
+   "text": "싱크",
+   "from": "video"
+  },
+  {
+   "id": "tc-19a6b1ba",
+   "sp": "tc",
+   "text": "they",
+   "from": "video"
+  },
+  {
+   "id": "tc-5436c68e",
+   "sp": "tc",
+   "text": "day",
+   "from": "video"
+  },
+  {
+   "id": "ko-f1b5502d",
+   "sp": "ko",
+   "text": "데이",
+   "from": "video"
+  },
+  {
+   "id": "tc-418ea95f",
+   "sp": "tc",
+   "text": "mouth",
+   "from": "video"
+  },
+  {
+   "id": "tc-447d64f7",
+   "sp": "tc",
+   "text": "mouse",
+   "from": "video"
+  },
+  {
+   "id": "tc-f70aa66c",
+   "sp": "tc",
+   "text": "three",
+   "from": "video"
+  },
+  {
+   "id": "tc-a1e7530a",
+   "sp": "tc",
+   "text": "free",
+   "from": "video"
+  },
+  {
+   "id": "tf-f41b0ed7",
+   "sp": "tf",
+   "text": "think",
+   "from": "video"
+  },
+  {
+   "id": "tf-6a2d00be",
+   "sp": "tf",
+   "text": "sink",
+   "from": "video"
+  },
+  {
+   "id": "uf-4c080246",
+   "sp": "uf",
+   "text": "think",
+   "from": "video"
+  },
+  {
+   "id": "uf-bd754fa9",
+   "sp": "uf",
+   "text": "sink",
+   "from": "video"
+  },
+  {
+   "id": "um-cd44d18f",
+   "sp": "um",
+   "text": "think",
+   "from": "video"
+  },
+  {
+   "id": "um-94c16456",
+   "sp": "um",
+   "text": "sink",
+   "from": "video"
+  },
+  {
+   "id": "ko-3a652897",
+   "sp": "ko",
+   "text": "마우스",
+   "from": "video"
+  },
+  {
+   "id": "tc-9b52e9c9",
+   "sp": "tc",
+   "text": "breathe",
+   "from": "video"
+  },
+  {
+   "id": "tc-c60035ce",
+   "sp": "tc",
+   "text": "breed",
+   "from": "video"
+  },
+  {
+   "id": "ko-39cbac9f",
+   "sp": "ko",
+   "text": "브리드",
+   "from": "video"
+  },
+  {
+   "id": "tc-68630c8c",
+   "sp": "tc",
+   "text": "thank",
+   "from": "video"
+  },
+  {
+   "id": "tc-155583d0",
+   "sp": "tc",
+   "text": "thing",
+   "from": "video"
+  },
+  {
+   "id": "tc-f9350411",
+   "sp": "tc",
+   "text": "thick",
+   "from": "video"
+  },
+  {
+   "id": "tc-b29010ca",
+   "sp": "tc",
+   "text": "sick",
+   "from": "video"
+  },
+  {
+   "id": "ko-0a2f048c",
+   "sp": "ko",
+   "text": "식",
+   "from": "video"
+  },
+  {
+   "id": "ko-2ccf03b1",
+   "sp": "ko",
+   "text": "스리",
+   "from": "video"
+  },
+  {
+   "id": "ko-15758251",
+   "sp": "ko",
+   "text": "프리",
+   "from": "video"
+  },
+  {
+   "id": "tc-048a0e97",
+   "sp": "tc",
+   "text": "thin",
+   "from": "video"
+  },
+  {
+   "id": "tc-2078cd79",
+   "sp": "tc",
+   "text": "fin",
+   "from": "video"
+  },
+  {
+   "id": "ko-3f2f57fb",
+   "sp": "ko",
+   "text": "신",
+   "from": "video"
+  },
+  {
+   "id": "ko-9f20311b",
+   "sp": "ko",
+   "text": "핀",
+   "from": "video"
+  },
+  {
+   "id": "tc-fd2d7296",
+   "sp": "tc",
+   "text": "death",
+   "from": "video"
+  },
+  {
+   "id": "tc-2c5c1c64",
+   "sp": "tc",
+   "text": "deaf",
+   "from": "video"
+  },
+  {
+   "id": "ko-a1ae863d",
+   "sp": "ko",
+   "text": "데스",
+   "from": "video"
+  },
+  {
+   "id": "ko-0199135d",
+   "sp": "ko",
+   "text": "데프",
+   "from": "video"
+  },
+  {
+   "id": "tc-49588b64",
+   "sp": "tc",
+   "text": "tree",
+   "from": "video"
+  },
+  {
+   "id": "ko-a5490b0d",
+   "sp": "ko",
+   "text": "트리",
+   "from": "video"
+  },
+  {
+   "id": "tc-0d641264",
+   "sp": "tc",
+   "text": "tank",
+   "from": "video"
+  },
+  {
+   "id": "ko-ee40eea0",
+   "sp": "ko",
+   "text": "생크",
+   "from": "video"
+  },
+  {
+   "id": "ko-e6c0dd3c",
+   "sp": "ko",
+   "text": "탱크",
+   "from": "video"
+  },
+  {
+   "id": "tc-2b3d3f43",
+   "sp": "tc",
+   "text": "both",
+   "from": "video"
+  },
+  {
+   "id": "tc-196c8122",
+   "sp": "tc",
+   "text": "boat",
+   "from": "video"
+  },
+  {
+   "id": "ko-525d20c9",
+   "sp": "ko",
+   "text": "보스",
+   "from": "video"
+  },
+  {
+   "id": "ko-4e43ea7d",
+   "sp": "ko",
+   "text": "보트",
+   "from": "video"
+  },
+  {
+   "id": "tc-9e7b03e7",
+   "sp": "tc",
+   "text": "the",
+   "from": "video"
+  },
+  {
+   "id": "tc-078a1350",
+   "sp": "tc",
+   "text": "this",
+   "from": "video"
+  },
+  {
+   "id": "tc-1e9dbf3d",
+   "sp": "tc",
+   "text": "that",
+   "from": "video"
+  },
+  {
+   "id": "tc-04a690ab",
+   "sp": "tc",
+   "text": "then",
+   "from": "video"
+  },
+  {
+   "id": "tc-473fac73",
+   "sp": "tc",
+   "text": "den",
+   "from": "video"
+  },
+  {
+   "id": "ko-b27fbe97",
+   "sp": "ko",
+   "text": "덴",
+   "from": "video"
+  },
+  {
+   "id": "tc-11839c87",
+   "sp": "tc",
+   "text": "mother",
+   "from": "video"
+  },
+  {
+   "id": "tc-7118c362",
+   "sp": "tc",
+   "text": "brother",
+   "from": "video"
+  },
+  {
+   "id": "tc-1c261248",
+   "sp": "tc",
+   "text": "weather",
+   "from": "video"
+  },
+  {
+   "id": "tc-6d210d26",
+   "sp": "tc",
+   "text": "together",
+   "from": "video"
+  },
+  {
+   "id": "tc-591e5beb",
+   "sp": "tc",
+   "text": "breeze",
+   "from": "video"
+  },
+  {
+   "id": "ko-05c6a1c3",
+   "sp": "ko",
+   "text": "브리즈",
+   "from": "video"
+  },
+  {
+   "id": "tc-5c0cbd18",
+   "sp": "tc",
+   "text": "clothing",
+   "from": "video"
+  },
+  {
+   "id": "tc-f2eecde3",
+   "sp": "tc",
+   "text": "closing",
+   "from": "video"
+  },
+  {
+   "id": "ko-2110eea8",
+   "sp": "ko",
+   "text": "클로딩",
+   "from": "video"
+  },
+  {
+   "id": "ko-ad7b440c",
+   "sp": "ko",
+   "text": "클로징",
+   "from": "video"
+  },
+  {
+   "id": "tc-bcc592ac",
+   "sp": "tc",
+   "text": "with",
+   "from": "video"
+  },
+  {
+   "id": "ko-a81379a1",
+   "sp": "ko",
+   "text": "위드",
+   "from": "video"
+  },
+  {
+   "id": "ko-bfa88d29",
+   "sp": "ko",
+   "text": "디스",
+   "from": "video"
+  },
+  {
+   "id": "tc-af7a86f6",
+   "sp": "tc",
+   "text": "throat",
+   "from": "video"
+  },
+  {
+   "id": "ko-16c2397b",
+   "sp": "ko",
+   "text": "스로트",
+   "from": "video"
+  },
+  {
+   "id": "tc-1890e046",
+   "sp": "tc",
+   "text": "thriller",
+   "from": "video"
+  },
+  {
+   "id": "ko-c7e4e8bf",
+   "sp": "ko",
+   "text": "스릴러",
+   "from": "video"
+  },
+  {
+   "id": "tc-93c13401",
+   "sp": "tc",
+   "text": "nothing",
+   "from": "video"
+  },
+  {
+   "id": "tc-c7a5bc5d",
+   "sp": "tc",
+   "text": "method",
+   "from": "video"
+  },
+  {
+   "id": "ko-c3c93097",
+   "sp": "ko",
+   "text": "메서드",
+   "from": "video"
+  },
+  {
+   "id": "tc-f510f64d",
+   "sp": "tc",
+   "text": "bath",
+   "from": "video"
+  },
+  {
+   "id": "ko-4075e1fd",
+   "sp": "ko",
+   "text": "배스",
+   "from": "video"
+  },
+  {
+   "id": "tc-386c7df2",
+   "sp": "tc",
+   "text": "teeth",
+   "from": "video"
+  },
+  {
+   "id": "ko-8fe3d2bd",
+   "sp": "ko",
+   "text": "티스",
+   "from": "video"
+  },
+  {
+   "id": "ko-14757693",
+   "sp": "ko",
+   "text": "시어터",
+   "from": "video"
+  },
+  {
+   "id": "tc-4cdc2b45",
+   "sp": "tc",
+   "text": "theater",
+   "from": "video"
+  },
+  {
+   "id": "ko-e984a997",
+   "sp": "ko",
+   "text": "섬네일",
+   "from": "video"
+  },
+  {
+   "id": "tc-94b28540",
+   "sp": "tc",
+   "text": "thumbnail",
+   "from": "video"
+  },
+  {
+   "id": "ko-62eeb0b9",
+   "sp": "ko",
+   "text": "서드",
+   "from": "video"
+  },
+  {
+   "id": "tc-f85e5085",
+   "sp": "tc",
+   "text": "third",
+   "from": "video"
+  },
+  {
+   "id": "ko-2159fd51",
+   "sp": "ko",
+   "text": "헬스",
+   "from": "video"
+  },
+  {
+   "id": "tc-35ae9562",
+   "sp": "tc",
+   "text": "health",
+   "from": "video"
+  },
+  {
+   "id": "ko-022a7a35",
+   "sp": "ko",
+   "text": "블루투스",
+   "from": "video"
+  },
+  {
+   "id": "tc-8c7cb1a6",
+   "sp": "tc",
+   "text": "Bluetooth",
+   "from": "video"
+  },
+  {
+   "id": "ko-2ec9e54d",
+   "sp": "ko",
+   "text": "버스데이",
+   "from": "video"
+  },
+  {
+   "id": "tc-e657f545",
+   "sp": "tc",
+   "text": "birthday",
+   "from": "video"
+  },
+  {
+   "id": "ko-72a91fb9",
+   "sp": "ko",
+   "text": "리듬",
+   "from": "video"
+  },
+  {
+   "id": "tc-0a0282e4",
+   "sp": "tc",
+   "text": "rhythm",
+   "from": "video"
+  },
+  {
+   "id": "ko-840bd9e7",
+   "sp": "ko",
+   "text": "스무디",
+   "from": "video"
+  },
+  {
+   "id": "tc-a7e9faec",
+   "sp": "tc",
+   "text": "smoothie",
+   "from": "video"
+  },
+  {
+   "id": "ko-1fa80295",
+   "sp": "ko",
+   "text": "웨더",
+   "from": "video"
+  },
+  {
+   "id": "ko-d869deb5",
+   "sp": "ko",
+   "text": "레더",
+   "from": "video"
+  },
+  {
+   "id": "tc-8d6cdaa9",
+   "sp": "tc",
+   "text": "leather",
+   "from": "video"
+  },
+  {
+   "id": "tc-0fcd15c8",
+   "sp": "tc",
+   "text": "Thomas",
+   "from": "video"
+  },
+  {
+   "id": "ko-77f74125",
+   "sp": "ko",
+   "text": "타일랜드",
+   "from": "video"
+  },
+  {
+   "id": "tc-a55c04f7",
+   "sp": "tc",
+   "text": "Thailand",
+   "from": "video"
+  },
+  {
+   "id": "ko-14b584cd",
+   "sp": "ko",
+   "text": "타임",
+   "from": "video"
+  },
+  {
+   "id": "tc-57afa7ed",
+   "sp": "tc",
+   "text": "thyme",
+   "from": "video"
+  },
+  {
+   "id": "ko-336661e1",
+   "sp": "ko",
+   "text": "템스",
+   "from": "video"
+  },
+  {
+   "id": "tc-db4d7b82",
+   "sp": "tc",
+   "text": "Thames",
+   "from": "video"
+  },
+  {
+   "id": "tc-681ff276",
+   "sp": "tc",
+   "text": "Thank you so much.",
+   "from": "video"
+  },
+  {
+   "id": "tc-48ec9762",
+   "sp": "tc",
+   "text": "This is my brother.",
+   "from": "video"
+  },
+  {
+   "id": "tc-c3709fda",
+   "sp": "tc",
+   "text": "Take a deep breath.",
+   "from": "video"
+  },
+  {
+   "id": "tc-93de0bfd",
+   "sp": "tc",
+   "text": "There are three things.",
+   "from": "video"
+  },
+  {
+   "id": "tc-d697053b",
+   "sp": "tc",
+   "text": "sing",
+   "from": "video"
+  },
+  {
+   "id": "ko-2e2f3d38",
+   "sp": "ko",
+   "text": "싱",
+   "from": "video"
+  },
+  {
+   "id": "tc-540a66a4",
+   "sp": "tc",
+   "text": "thumb",
+   "from": "video"
+  },
+  {
+   "id": "tc-90d10207",
+   "sp": "tc",
+   "text": "sum",
+   "from": "video"
+  },
+  {
+   "id": "ko-7b32dc6f",
+   "sp": "ko",
+   "text": "섬",
+   "from": "video"
+  },
+  {
+   "id": "tc-98d39063",
+   "sp": "tc",
+   "text": "path",
+   "from": "video"
+  },
+  {
+   "id": "tc-99d5d08d",
+   "sp": "tc",
+   "text": "pass",
+   "from": "video"
+  },
+  {
+   "id": "ko-ff0aba85",
+   "sp": "ko",
+   "text": "패스",
+   "from": "video"
+  },
+  {
+   "id": "tc-8a2449f8",
+   "sp": "tc",
+   "text": "faith",
+   "from": "video"
+  },
+  {
+   "id": "tc-a7af8d65",
+   "sp": "tc",
+   "text": "face",
+   "from": "video"
+  },
+  {
+   "id": "ko-58af1813",
+   "sp": "ko",
+   "text": "페이스",
+   "from": "video"
+  },
+  {
+   "id": "tc-a6e5f079",
+   "sp": "tc",
+   "text": "thought",
+   "from": "video"
+  },
+  {
+   "id": "tc-c6f7dd9b",
+   "sp": "tc",
+   "text": "fought",
+   "from": "video"
+  },
+  {
+   "id": "ko-4946c995",
+   "sp": "ko",
+   "text": "소트",
+   "from": "video"
+  },
+  {
+   "id": "ko-1cd5b635",
+   "sp": "ko",
+   "text": "포트",
+   "from": "video"
+  },
+  {
+   "id": "tc-b7d4bd37",
+   "sp": "tc",
+   "text": "though",
+   "from": "video"
+  },
+  {
+   "id": "tc-d6f223af",
+   "sp": "tc",
+   "text": "dough",
+   "from": "video"
+  },
+  {
+   "id": "ko-22806ee7",
+   "sp": "ko",
+   "text": "도",
+   "from": "video"
+  },
+  {
+   "id": "tc-b477b3ef",
+   "sp": "tc",
+   "text": "I think so.",
+   "from": "video"
+  },
+  {
+   "id": "tc-98e03b6f",
+   "sp": "tc",
+   "text": "Three tickets, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-c32376d5",
+   "sp": "tc",
+   "text": "See you on Thursday.",
+   "from": "video"
+  },
+  {
+   "id": "tc-8227e583",
+   "sp": "tc",
+   "text": "I have a sore throat.",
+   "from": "video"
+  },
+  {
+   "id": "tc-a7aac7e1",
+   "sp": "tc",
+   "text": "Let me think about it.",
+   "from": "video"
+  },
+  {
+   "id": "tc-f5e54b04",
+   "sp": "tc",
+   "text": "It costs thirty dollars.",
+   "from": "video"
+  },
+  {
+   "id": "tc-51276832",
+   "sp": "tc",
+   "text": "What's that?",
+   "from": "video"
+  },
+  {
+   "id": "tc-4061fd0e",
+   "sp": "tc",
+   "text": "They live over there.",
+   "from": "video"
+  },
+  {
+   "id": "tc-cd1919fc",
+   "sp": "tc",
+   "text": "Is this the right bus?",
+   "from": "video"
+  },
+  {
+   "id": "tc-7c109f8f",
+   "sp": "tc",
+   "text": "How's the weather today?",
+   "from": "video"
+  },
+  {
+   "id": "tc-0b6eced8",
+   "sp": "tc",
+   "text": "I'll take these, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-3cb7394f",
+   "sp": "tc",
+   "text": "My mother and father are teachers.",
+   "from": "video"
+  },
+  {
+   "id": "tc-dd15fe9d",
+   "sp": "tc",
+   "text": "Brush your teeth.",
+   "from": "video"
+  },
+  {
+   "id": "tc-5f233d50",
+   "sp": "tc",
+   "text": "Open your mouth, please.",
+   "from": "video"
+  },
+  {
+   "id": "tc-dc48adb4",
+   "sp": "tc",
+   "text": "Come with me.",
+   "from": "video"
+  },
+  {
+   "id": "tc-89fc0c9e",
+   "sp": "tc",
+   "text": "It's worth it.",
+   "from": "video"
+  },
+  {
+   "id": "tc-5877edc7",
+   "sp": "tc",
+   "text": "Both are fine.",
+   "from": "video"
+  },
+  {
+   "id": "tc-c6624eb2",
+   "sp": "tc",
+   "text": "Happy birthday!",
+   "from": "video"
+  },
+  {
+   "id": "tc-6f9ca459",
+   "sp": "tc",
+   "text": "I thought they were together.",
+   "from": "video"
+  },
+  {
+   "id": "tc-b7b599d2",
+   "sp": "tc",
+   "text": "Thanks for the birthday gift.",
+   "from": "video"
+  },
+  {
+   "id": "tc-ee0d98c7",
+   "sp": "tc",
+   "text": "My brother is thirty years old.",
+   "from": "video"
+  },
+  {
+   "id": "tc-89a2d760",
+   "sp": "tc",
+   "text": "The math test is on the third.",
+   "from": "video"
+  },
+  {
+   "id": "tc-c7723715",
+   "sp": "tc",
+   "text": "Is there a bathroom on this floor?",
+   "from": "video"
+  },
+  {
+   "id": "tc-0c610f70",
+   "sp": "tc",
+   "text": "Nothing is better than this.",
+   "from": "video"
+  },
+  {
+   "id": "ko-927f8c37",
+   "sp": "ko",
+   "text": "더",
+   "from": "lab"
+  },
+  {
+   "id": "tf-3a58d2b8",
+   "sp": "tf",
+   "text": "mouth",
+   "from": "lab"
+  },
+  {
+   "id": "tf-376a1720",
+   "sp": "tf",
+   "text": "mouse",
+   "from": "lab"
+  },
+  {
+   "id": "uf-75cf1fa5",
+   "sp": "uf",
+   "text": "mouth",
+   "from": "lab"
+  },
+  {
+   "id": "uf-88c6eec9",
+   "sp": "uf",
+   "text": "mouse",
+   "from": "lab"
+  },
+  {
+   "id": "um-e428eaa0",
+   "sp": "um",
+   "text": "mouth",
+   "from": "lab"
+  },
+  {
+   "id": "um-f13a4838",
+   "sp": "um",
+   "text": "mouse",
+   "from": "lab"
+  },
+  {
+   "id": "tf-927cbd67",
+   "sp": "tf",
+   "text": "three",
+   "from": "lab"
+  },
+  {
+   "id": "tf-43cb91e7",
+   "sp": "tf",
+   "text": "free",
+   "from": "lab"
+  },
+  {
+   "id": "uf-98be531a",
+   "sp": "uf",
+   "text": "three",
+   "from": "lab"
+  },
+  {
+   "id": "uf-a1515bb0",
+   "sp": "uf",
+   "text": "free",
+   "from": "lab"
+  },
+  {
+   "id": "um-6bd6ee4f",
+   "sp": "um",
+   "text": "three",
+   "from": "lab"
+  },
+  {
+   "id": "um-d5bfacaf",
+   "sp": "um",
+   "text": "free",
+   "from": "lab"
+  },
+  {
+   "id": "tf-956023f3",
+   "sp": "tf",
+   "text": "they",
+   "from": "lab"
+  },
+  {
+   "id": "tf-0968cd71",
+   "sp": "tf",
+   "text": "day",
+   "from": "lab"
+  },
+  {
+   "id": "uf-f2fdbec0",
+   "sp": "uf",
+   "text": "they",
+   "from": "lab"
+  },
+  {
+   "id": "uf-61308f48",
+   "sp": "uf",
+   "text": "day",
+   "from": "lab"
+  },
+  {
+   "id": "um-e95ada3b",
+   "sp": "um",
+   "text": "they",
+   "from": "lab"
+  },
+  {
+   "id": "um-e75705d9",
+   "sp": "um",
+   "text": "day",
+   "from": "lab"
+  },
+  {
+   "id": "tf-143b94e2",
+   "sp": "tf",
+   "text": "thick",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-6a21c7cb",
+   "sp": "tf",
+   "text": "sick",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-6c227823",
+   "sp": "uf",
+   "text": "thick",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c56d0d7c",
+   "sp": "uf",
+   "text": "sick",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-ad3de36a",
+   "sp": "um",
+   "text": "thick",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-74dd0873",
+   "sp": "um",
+   "text": "sick",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-e81afbf3",
+   "sp": "tf",
+   "text": "thing",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-662cfa72",
+   "sp": "tf",
+   "text": "sing",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-5808152a",
+   "sp": "uf",
+   "text": "thing",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c975628d",
+   "sp": "uf",
+   "text": "sing",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-d144d7db",
+   "sp": "um",
+   "text": "thing",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-a0c1773a",
+   "sp": "um",
+   "text": "sing",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-9f31f6a7",
+   "sp": "tf",
+   "text": "thumb",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-041bd194",
+   "sp": "tf",
+   "text": "sum",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-0cd2a96a",
+   "sp": "uf",
+   "text": "thumb",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8a717ad5",
+   "sp": "uf",
+   "text": "sum",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-58b4979f",
+   "sp": "um",
+   "text": "thumb",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-7ee1a19c",
+   "sp": "um",
+   "text": "sum",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-66299a42",
+   "sp": "tf",
+   "text": "path",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-4d302eac",
+   "sp": "tf",
+   "text": "pass",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-bb1f1d89",
+   "sp": "uf",
+   "text": "path",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-b02a452b",
+   "sp": "uf",
+   "text": "pass",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-a3675b3a",
+   "sp": "um",
+   "text": "path",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-9a6f9bd4",
+   "sp": "um",
+   "text": "pass",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-45e063c3",
+   "sp": "tf",
+   "text": "faith",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-fe2107e0",
+   "sp": "tf",
+   "text": "face",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-89ed82ce",
+   "sp": "uf",
+   "text": "faith",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-e223d773",
+   "sp": "uf",
+   "text": "face",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-717f061b",
+   "sp": "um",
+   "text": "faith",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-d0158768",
+   "sp": "um",
+   "text": "face",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-8a571846",
+   "sp": "tf",
+   "text": "thin",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-d383c1c6",
+   "sp": "tf",
+   "text": "fin",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-0a1bf809",
+   "sp": "uf",
+   "text": "thin",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-7f15752b",
+   "sp": "uf",
+   "text": "fin",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-de78ddfe",
+   "sp": "um",
+   "text": "thin",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-b375a1de",
+   "sp": "um",
+   "text": "fin",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-56b515b6",
+   "sp": "tf",
+   "text": "thought",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-4a4f3e36",
+   "sp": "tf",
+   "text": "fought",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-cf51540b",
+   "sp": "uf",
+   "text": "thought",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c2f2ea8d",
+   "sp": "uf",
+   "text": "fought",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-c9c1e29e",
+   "sp": "um",
+   "text": "thought",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-9fd64dfe",
+   "sp": "um",
+   "text": "fought",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-e120c5b1",
+   "sp": "tf",
+   "text": "death",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-1236a039",
+   "sp": "tf",
+   "text": "deaf",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-ce9966c8",
+   "sp": "uf",
+   "text": "death",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d20e4566",
+   "sp": "uf",
+   "text": "deaf",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-ada3ab79",
+   "sp": "um",
+   "text": "death",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-38611281",
+   "sp": "um",
+   "text": "deaf",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-85f27291",
+   "sp": "tf",
+   "text": "tree",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-60c14d76",
+   "sp": "uf",
+   "text": "tree",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-349045d9",
+   "sp": "um",
+   "text": "tree",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-7ad9378f",
+   "sp": "tf",
+   "text": "thank",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-bc089bbd",
+   "sp": "tf",
+   "text": "tank",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-04f8f96e",
+   "sp": "uf",
+   "text": "thank",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-c31f4ef2",
+   "sp": "uf",
+   "text": "tank",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-4686a8d7",
+   "sp": "um",
+   "text": "thank",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-dda7e125",
+   "sp": "um",
+   "text": "tank",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-be7ceab6",
+   "sp": "tf",
+   "text": "both",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-a84d69df",
+   "sp": "tf",
+   "text": "boat",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-b6addc51",
+   "sp": "uf",
+   "text": "both",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-cc8dab48",
+   "sp": "uf",
+   "text": "boat",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-ab14227e",
+   "sp": "um",
+   "text": "both",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-c4e4ed37",
+   "sp": "um",
+   "text": "boat",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-aa604502",
+   "sp": "tf",
+   "text": "then",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-fa5e2878",
+   "sp": "tf",
+   "text": "den",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-09fde2f5",
+   "sp": "uf",
+   "text": "then",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-583b0e79",
+   "sp": "uf",
+   "text": "den",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-de5ac8ea",
+   "sp": "um",
+   "text": "then",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-d84c60e0",
+   "sp": "um",
+   "text": "den",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-82507d46",
+   "sp": "tf",
+   "text": "though",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-78146548",
+   "sp": "tf",
+   "text": "dough",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-9e44cedd",
+   "sp": "uf",
+   "text": "though",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-14ef0cf9",
+   "sp": "uf",
+   "text": "dough",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-76de2dde",
+   "sp": "um",
+   "text": "though",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-ba924560",
+   "sp": "um",
+   "text": "dough",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-ac5c0b5a",
+   "sp": "tf",
+   "text": "breathe",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-6c98bed5",
+   "sp": "tf",
+   "text": "breed",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-8712ff0b",
+   "sp": "uf",
+   "text": "breathe",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-9a0185a8",
+   "sp": "uf",
+   "text": "breed",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-cb50f1a2",
+   "sp": "um",
+   "text": "breathe",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-df02edcd",
+   "sp": "um",
+   "text": "breed",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-985189ea",
+   "sp": "tf",
+   "text": "breeze",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-5138a195",
+   "sp": "uf",
+   "text": "breeze",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-cd529d42",
+   "sp": "um",
+   "text": "breeze",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-aee2ac19",
+   "sp": "tf",
+   "text": "clothing",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-72d46120",
+   "sp": "tf",
+   "text": "closing",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-d3657c6e",
+   "sp": "uf",
+   "text": "clothing",
+   "from": "hvpt"
+  },
+  {
+   "id": "uf-b0b019d1",
+   "sp": "uf",
+   "text": "closing",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-f5d51031",
+   "sp": "um",
+   "text": "clothing",
+   "from": "hvpt"
+  },
+  {
+   "id": "um-d11d26b8",
+   "sp": "um",
+   "text": "closing",
+   "from": "hvpt"
+  },
+  {
+   "id": "tf-12cba6c7",
+   "sp": "tf",
+   "text": "Look at the mouse.",
+   "from": "drill"
+  },
+  {
+   "id": "um-9b63818a",
+   "sp": "um",
+   "text": "Take the path.",
+   "from": "drill"
+  },
+  {
+   "id": "tc-579c5caf",
+   "sp": "tc",
+   "text": "I lost faith.",
+   "from": "drill"
+  },
+  {
+   "id": "uf-aaaf7df8",
+   "sp": "uf",
+   "text": "They are three.",
+   "from": "drill"
+  },
+  {
+   "id": "tf-ea33bebd",
+   "sp": "tf",
+   "text": "some",
+   "from": "drill"
+  }
+ ]
+}

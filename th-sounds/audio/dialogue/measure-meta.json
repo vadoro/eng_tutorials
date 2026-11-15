@@ -1,0 +1,2479 @@
+{
+ "slug": "th-sounds",
+ "note": "잴 줄의 정보 (tools/dialogue-lines.cjs가 페이지의 window.__measureMeta()로 만듦 — 손으로 고치지 마세요). kind: word = 낱말 하나(n 음절 수 · at 센 음절, 0부터) · ko = 한국어식(n 글자 수) · other = 받아쓰기만. tools/measure-syllables.py가 읽어요",
+ "count": {
+  "word": 180,
+  "ko": 48,
+  "other": 32
+ },
+ "lines": [
+  {
+   "id": "tc-215596b4",
+   "sp": "tc",
+   "text": "think",
+   "kind": "word",
+   "key": "think",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tc-d296feef",
+   "wgap": true
+  },
+  {
+   "id": "tc-d296feef",
+   "sp": "tc",
+   "text": "sink",
+   "kind": "word",
+   "key": "sink",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "tc-215596b4",
+   "wgap": true
+  },
+  {
+   "id": "ko-09729b3c",
+   "sp": "ko",
+   "text": "싱크",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-19a6b1ba",
+   "sp": "tc",
+   "text": "they",
+   "kind": "word",
+   "key": "they",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-5436c68e",
+   "sp": "tc",
+   "text": "day",
+   "kind": "word",
+   "key": "day",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-f1b5502d",
+   "sp": "ko",
+   "text": "데이",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-418ea95f",
+   "sp": "tc",
+   "text": "mouth",
+   "kind": "word",
+   "key": "mouth",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "tc-447d64f7",
+   "wgap": true
+  },
+  {
+   "id": "tc-447d64f7",
+   "sp": "tc",
+   "text": "mouse",
+   "kind": "word",
+   "key": "mouse",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "tc-418ea95f",
+   "wgap": true
+  },
+  {
+   "id": "tc-f70aa66c",
+   "sp": "tc",
+   "text": "three",
+   "kind": "word",
+   "key": "three",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tc-a1e7530a"
+  },
+  {
+   "id": "tc-a1e7530a",
+   "sp": "tc",
+   "text": "free",
+   "kind": "word",
+   "key": "free",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "tc-f70aa66c"
+  },
+  {
+   "id": "tf-f41b0ed7",
+   "sp": "tf",
+   "text": "think",
+   "kind": "word",
+   "key": "think",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tf-6a2d00be",
+   "wgap": true
+  },
+  {
+   "id": "tf-6a2d00be",
+   "sp": "tf",
+   "text": "sink",
+   "kind": "word",
+   "key": "sink",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "tf-f41b0ed7",
+   "wgap": true
+  },
+  {
+   "id": "uf-4c080246",
+   "sp": "uf",
+   "text": "think",
+   "kind": "word",
+   "key": "think",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "uf-bd754fa9",
+   "wgap": true
+  },
+  {
+   "id": "uf-bd754fa9",
+   "sp": "uf",
+   "text": "sink",
+   "kind": "word",
+   "key": "sink",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "uf-4c080246",
+   "wgap": true
+  },
+  {
+   "id": "um-cd44d18f",
+   "sp": "um",
+   "text": "think",
+   "kind": "word",
+   "key": "think",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "um-94c16456",
+   "wgap": true
+  },
+  {
+   "id": "um-94c16456",
+   "sp": "um",
+   "text": "sink",
+   "kind": "word",
+   "key": "sink",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "um-cd44d18f",
+   "wgap": true
+  },
+  {
+   "id": "ko-3a652897",
+   "sp": "ko",
+   "text": "마우스",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-9b52e9c9",
+   "sp": "tc",
+   "text": "breathe",
+   "kind": "word",
+   "key": "breathe",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-c60035ce",
+   "sp": "tc",
+   "text": "breed",
+   "kind": "word",
+   "key": "breed",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-39cbac9f",
+   "sp": "ko",
+   "text": "브리드",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-68630c8c",
+   "sp": "tc",
+   "text": "thank",
+   "kind": "word",
+   "key": "thank",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-155583d0",
+   "sp": "tc",
+   "text": "thing",
+   "kind": "word",
+   "key": "thing",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tc-d697053b",
+   "wgap": true
+  },
+  {
+   "id": "tc-f9350411",
+   "sp": "tc",
+   "text": "thick",
+   "kind": "word",
+   "key": "thick",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tc-b29010ca",
+   "wgap": true
+  },
+  {
+   "id": "tc-b29010ca",
+   "sp": "tc",
+   "text": "sick",
+   "kind": "word",
+   "key": "sick",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "tc-f9350411",
+   "wgap": true
+  },
+  {
+   "id": "ko-0a2f048c",
+   "sp": "ko",
+   "text": "식",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "ko-2ccf03b1",
+   "sp": "ko",
+   "text": "스리",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-15758251",
+   "sp": "ko",
+   "text": "프리",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-048a0e97",
+   "sp": "tc",
+   "text": "thin",
+   "kind": "word",
+   "key": "thin",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tc-2078cd79"
+  },
+  {
+   "id": "tc-2078cd79",
+   "sp": "tc",
+   "text": "fin",
+   "kind": "word",
+   "key": "fin",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "tc-048a0e97"
+  },
+  {
+   "id": "ko-3f2f57fb",
+   "sp": "ko",
+   "text": "신",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "ko-9f20311b",
+   "sp": "ko",
+   "text": "핀",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-fd2d7296",
+   "sp": "tc",
+   "text": "death",
+   "kind": "word",
+   "key": "death",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "tc-2c5c1c64"
+  },
+  {
+   "id": "tc-2c5c1c64",
+   "sp": "tc",
+   "text": "deaf",
+   "kind": "word",
+   "key": "deaf",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "f",
+   "wpair": "tc-fd2d7296"
+  },
+  {
+   "id": "ko-a1ae863d",
+   "sp": "ko",
+   "text": "데스",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-0199135d",
+   "sp": "ko",
+   "text": "데프",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-49588b64",
+   "sp": "tc",
+   "text": "tree",
+   "kind": "word",
+   "key": "tree",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-a5490b0d",
+   "sp": "ko",
+   "text": "트리",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-0d641264",
+   "sp": "tc",
+   "text": "tank",
+   "kind": "word",
+   "key": "tank",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-ee40eea0",
+   "sp": "ko",
+   "text": "생크",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-e6c0dd3c",
+   "sp": "ko",
+   "text": "탱크",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-2b3d3f43",
+   "sp": "tc",
+   "text": "both",
+   "kind": "word",
+   "key": "both",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-196c8122",
+   "sp": "tc",
+   "text": "boat",
+   "kind": "word",
+   "key": "boat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-525d20c9",
+   "sp": "ko",
+   "text": "보스",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-4e43ea7d",
+   "sp": "ko",
+   "text": "보트",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-9e7b03e7",
+   "sp": "tc",
+   "text": "the",
+   "kind": "word",
+   "key": "the",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-078a1350",
+   "sp": "tc",
+   "text": "this",
+   "kind": "word",
+   "key": "this",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-1e9dbf3d",
+   "sp": "tc",
+   "text": "that",
+   "kind": "word",
+   "key": "that",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-04a690ab",
+   "sp": "tc",
+   "text": "then",
+   "kind": "word",
+   "key": "then",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-473fac73",
+   "sp": "tc",
+   "text": "den",
+   "kind": "word",
+   "key": "den",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-b27fbe97",
+   "sp": "ko",
+   "text": "덴",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-11839c87",
+   "sp": "tc",
+   "text": "mother",
+   "kind": "word",
+   "key": "mother",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-7118c362",
+   "sp": "tc",
+   "text": "brother",
+   "kind": "word",
+   "key": "brother",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-1c261248",
+   "sp": "tc",
+   "text": "weather",
+   "kind": "word",
+   "key": "weather",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-6d210d26",
+   "sp": "tc",
+   "text": "together",
+   "kind": "word",
+   "key": "together",
+   "n": 3,
+   "at": 1
+  },
+  {
+   "id": "tc-591e5beb",
+   "sp": "tc",
+   "text": "breeze",
+   "kind": "word",
+   "key": "breeze",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-05c6a1c3",
+   "sp": "ko",
+   "text": "브리즈",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-5c0cbd18",
+   "sp": "tc",
+   "text": "clothing",
+   "kind": "word",
+   "key": "clothing",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-f2eecde3",
+   "sp": "tc",
+   "text": "closing",
+   "kind": "word",
+   "key": "closing",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-2110eea8",
+   "sp": "ko",
+   "text": "클로딩",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "ko-ad7b440c",
+   "sp": "ko",
+   "text": "클로징",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-bcc592ac",
+   "sp": "tc",
+   "text": "with",
+   "kind": "word",
+   "key": "with",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-a81379a1",
+   "sp": "ko",
+   "text": "위드",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-bfa88d29",
+   "sp": "ko",
+   "text": "디스",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-af7a86f6",
+   "sp": "tc",
+   "text": "throat",
+   "kind": "word",
+   "key": "throat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-16c2397b",
+   "sp": "ko",
+   "text": "스로트",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-1890e046",
+   "sp": "tc",
+   "text": "thriller",
+   "kind": "word",
+   "key": "thriller",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-c7e4e8bf",
+   "sp": "ko",
+   "text": "스릴러",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-93c13401",
+   "sp": "tc",
+   "text": "nothing",
+   "kind": "word",
+   "key": "nothing",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-c7a5bc5d",
+   "sp": "tc",
+   "text": "method",
+   "kind": "word",
+   "key": "method",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-c3c93097",
+   "sp": "ko",
+   "text": "메서드",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-f510f64d",
+   "sp": "tc",
+   "text": "bath",
+   "kind": "word",
+   "key": "bath",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-4075e1fd",
+   "sp": "ko",
+   "text": "배스",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-386c7df2",
+   "sp": "tc",
+   "text": "teeth",
+   "kind": "word",
+   "key": "teeth",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-8fe3d2bd",
+   "sp": "ko",
+   "text": "티스",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-14757693",
+   "sp": "ko",
+   "text": "시어터",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-4cdc2b45",
+   "sp": "tc",
+   "text": "theater",
+   "kind": "word",
+   "key": "theater",
+   "n": 3,
+   "at": 0
+  },
+  {
+   "id": "ko-e984a997",
+   "sp": "ko",
+   "text": "섬네일",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-94b28540",
+   "sp": "tc",
+   "text": "thumbnail",
+   "kind": "word",
+   "key": "thumbnail",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-62eeb0b9",
+   "sp": "ko",
+   "text": "서드",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-f85e5085",
+   "sp": "tc",
+   "text": "third",
+   "kind": "word",
+   "key": "third",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-2159fd51",
+   "sp": "ko",
+   "text": "헬스",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-35ae9562",
+   "sp": "tc",
+   "text": "health",
+   "kind": "word",
+   "key": "health",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-022a7a35",
+   "sp": "ko",
+   "text": "블루투스",
+   "kind": "ko",
+   "n": 4
+  },
+  {
+   "id": "tc-8c7cb1a6",
+   "sp": "tc",
+   "text": "Bluetooth",
+   "kind": "word",
+   "key": "bluetooth",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-2ec9e54d",
+   "sp": "ko",
+   "text": "버스데이",
+   "kind": "ko",
+   "n": 4
+  },
+  {
+   "id": "tc-e657f545",
+   "sp": "tc",
+   "text": "birthday",
+   "kind": "word",
+   "key": "birthday",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-72a91fb9",
+   "sp": "ko",
+   "text": "리듬",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-0a0282e4",
+   "sp": "tc",
+   "text": "rhythm",
+   "kind": "word",
+   "key": "rhythm",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-840bd9e7",
+   "sp": "ko",
+   "text": "스무디",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-a7e9faec",
+   "sp": "tc",
+   "text": "smoothie",
+   "kind": "word",
+   "key": "smoothie",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-1fa80295",
+   "sp": "ko",
+   "text": "웨더",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-d869deb5",
+   "sp": "ko",
+   "text": "레더",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-8d6cdaa9",
+   "sp": "tc",
+   "text": "leather",
+   "kind": "word",
+   "key": "leather",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tc-0fcd15c8",
+   "sp": "tc",
+   "text": "Thomas",
+   "kind": "word",
+   "key": "thomas",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-77f74125",
+   "sp": "ko",
+   "text": "타일랜드",
+   "kind": "ko",
+   "n": 4
+  },
+  {
+   "id": "tc-a55c04f7",
+   "sp": "tc",
+   "text": "Thailand",
+   "kind": "word",
+   "key": "thailand",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "ko-14b584cd",
+   "sp": "ko",
+   "text": "타임",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-57afa7ed",
+   "sp": "tc",
+   "text": "thyme",
+   "kind": "word",
+   "key": "thyme",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-336661e1",
+   "sp": "ko",
+   "text": "템스",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-db4d7b82",
+   "sp": "tc",
+   "text": "Thames",
+   "kind": "word",
+   "key": "thames",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-681ff276",
+   "sp": "tc",
+   "text": "Thank you so much.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-48ec9762",
+   "sp": "tc",
+   "text": "This is my brother.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-c3709fda",
+   "sp": "tc",
+   "text": "Take a deep breath.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-93de0bfd",
+   "sp": "tc",
+   "text": "There are three things.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-d697053b",
+   "sp": "tc",
+   "text": "sing",
+   "kind": "word",
+   "key": "sing",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "tc-155583d0",
+   "wgap": true
+  },
+  {
+   "id": "ko-2e2f3d38",
+   "sp": "ko",
+   "text": "싱",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-540a66a4",
+   "sp": "tc",
+   "text": "thumb",
+   "kind": "word",
+   "key": "thumb",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tc-90d10207",
+   "wgap": true
+  },
+  {
+   "id": "tc-90d10207",
+   "sp": "tc",
+   "text": "sum",
+   "kind": "word",
+   "key": "sum",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "tc-540a66a4",
+   "wgap": true
+  },
+  {
+   "id": "ko-7b32dc6f",
+   "sp": "ko",
+   "text": "섬",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-98d39063",
+   "sp": "tc",
+   "text": "path",
+   "kind": "word",
+   "key": "path",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "tc-99d5d08d",
+   "wgap": true
+  },
+  {
+   "id": "tc-99d5d08d",
+   "sp": "tc",
+   "text": "pass",
+   "kind": "word",
+   "key": "pass",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "tc-98d39063",
+   "wgap": true
+  },
+  {
+   "id": "ko-ff0aba85",
+   "sp": "ko",
+   "text": "패스",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-8a2449f8",
+   "sp": "tc",
+   "text": "faith",
+   "kind": "word",
+   "key": "faith",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "tc-a7af8d65",
+   "wgap": true
+  },
+  {
+   "id": "tc-a7af8d65",
+   "sp": "tc",
+   "text": "face",
+   "kind": "word",
+   "key": "face",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "tc-8a2449f8",
+   "wgap": true
+  },
+  {
+   "id": "ko-58af1813",
+   "sp": "ko",
+   "text": "페이스",
+   "kind": "ko",
+   "n": 3
+  },
+  {
+   "id": "tc-a6e5f079",
+   "sp": "tc",
+   "text": "thought",
+   "kind": "word",
+   "key": "thought",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tc-c6f7dd9b"
+  },
+  {
+   "id": "tc-c6f7dd9b",
+   "sp": "tc",
+   "text": "fought",
+   "kind": "word",
+   "key": "fought",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "tc-a6e5f079"
+  },
+  {
+   "id": "ko-4946c995",
+   "sp": "ko",
+   "text": "소트",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "ko-1cd5b635",
+   "sp": "ko",
+   "text": "포트",
+   "kind": "ko",
+   "n": 2
+  },
+  {
+   "id": "tc-b7d4bd37",
+   "sp": "tc",
+   "text": "though",
+   "kind": "word",
+   "key": "though",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tc-d6f223af",
+   "sp": "tc",
+   "text": "dough",
+   "kind": "word",
+   "key": "dough",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "ko-22806ee7",
+   "sp": "ko",
+   "text": "도",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tc-b477b3ef",
+   "sp": "tc",
+   "text": "I think so.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-98e03b6f",
+   "sp": "tc",
+   "text": "Three tickets, please.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-c32376d5",
+   "sp": "tc",
+   "text": "See you on Thursday.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-8227e583",
+   "sp": "tc",
+   "text": "I have a sore throat.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-a7aac7e1",
+   "sp": "tc",
+   "text": "Let me think about it.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-f5e54b04",
+   "sp": "tc",
+   "text": "It costs thirty dollars.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-51276832",
+   "sp": "tc",
+   "text": "What's that?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-4061fd0e",
+   "sp": "tc",
+   "text": "They live over there.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-cd1919fc",
+   "sp": "tc",
+   "text": "Is this the right bus?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-7c109f8f",
+   "sp": "tc",
+   "text": "How's the weather today?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-0b6eced8",
+   "sp": "tc",
+   "text": "I'll take these, please.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-3cb7394f",
+   "sp": "tc",
+   "text": "My mother and father are teachers.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-dd15fe9d",
+   "sp": "tc",
+   "text": "Brush your teeth.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-5f233d50",
+   "sp": "tc",
+   "text": "Open your mouth, please.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-dc48adb4",
+   "sp": "tc",
+   "text": "Come with me.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-89fc0c9e",
+   "sp": "tc",
+   "text": "It's worth it.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-5877edc7",
+   "sp": "tc",
+   "text": "Both are fine.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-c6624eb2",
+   "sp": "tc",
+   "text": "Happy birthday!",
+   "kind": "other"
+  },
+  {
+   "id": "tc-6f9ca459",
+   "sp": "tc",
+   "text": "I thought they were together.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-b7b599d2",
+   "sp": "tc",
+   "text": "Thanks for the birthday gift.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-ee0d98c7",
+   "sp": "tc",
+   "text": "My brother is thirty years old.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-89a2d760",
+   "sp": "tc",
+   "text": "The math test is on the third.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-c7723715",
+   "sp": "tc",
+   "text": "Is there a bathroom on this floor?",
+   "kind": "other"
+  },
+  {
+   "id": "tc-0c610f70",
+   "sp": "tc",
+   "text": "Nothing is better than this.",
+   "kind": "other"
+  },
+  {
+   "id": "ko-927f8c37",
+   "sp": "ko",
+   "text": "더",
+   "kind": "ko",
+   "n": 1
+  },
+  {
+   "id": "tf-3a58d2b8",
+   "sp": "tf",
+   "text": "mouth",
+   "kind": "word",
+   "key": "mouth",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "tf-376a1720",
+   "wgap": true
+  },
+  {
+   "id": "tf-376a1720",
+   "sp": "tf",
+   "text": "mouse",
+   "kind": "word",
+   "key": "mouse",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "tf-3a58d2b8",
+   "wgap": true
+  },
+  {
+   "id": "uf-75cf1fa5",
+   "sp": "uf",
+   "text": "mouth",
+   "kind": "word",
+   "key": "mouth",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "uf-88c6eec9",
+   "wgap": true
+  },
+  {
+   "id": "uf-88c6eec9",
+   "sp": "uf",
+   "text": "mouse",
+   "kind": "word",
+   "key": "mouse",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "uf-75cf1fa5",
+   "wgap": true
+  },
+  {
+   "id": "um-e428eaa0",
+   "sp": "um",
+   "text": "mouth",
+   "kind": "word",
+   "key": "mouth",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "um-f13a4838",
+   "wgap": true
+  },
+  {
+   "id": "um-f13a4838",
+   "sp": "um",
+   "text": "mouse",
+   "kind": "word",
+   "key": "mouse",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "um-e428eaa0",
+   "wgap": true
+  },
+  {
+   "id": "tf-927cbd67",
+   "sp": "tf",
+   "text": "three",
+   "kind": "word",
+   "key": "three",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tf-43cb91e7"
+  },
+  {
+   "id": "tf-43cb91e7",
+   "sp": "tf",
+   "text": "free",
+   "kind": "word",
+   "key": "free",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "tf-927cbd67"
+  },
+  {
+   "id": "uf-98be531a",
+   "sp": "uf",
+   "text": "three",
+   "kind": "word",
+   "key": "three",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "uf-a1515bb0"
+  },
+  {
+   "id": "uf-a1515bb0",
+   "sp": "uf",
+   "text": "free",
+   "kind": "word",
+   "key": "free",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "uf-98be531a"
+  },
+  {
+   "id": "um-6bd6ee4f",
+   "sp": "um",
+   "text": "three",
+   "kind": "word",
+   "key": "three",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "um-d5bfacaf"
+  },
+  {
+   "id": "um-d5bfacaf",
+   "sp": "um",
+   "text": "free",
+   "kind": "word",
+   "key": "free",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "um-6bd6ee4f"
+  },
+  {
+   "id": "tf-956023f3",
+   "sp": "tf",
+   "text": "they",
+   "kind": "word",
+   "key": "they",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-0968cd71",
+   "sp": "tf",
+   "text": "day",
+   "kind": "word",
+   "key": "day",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-f2fdbec0",
+   "sp": "uf",
+   "text": "they",
+   "kind": "word",
+   "key": "they",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-61308f48",
+   "sp": "uf",
+   "text": "day",
+   "kind": "word",
+   "key": "day",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-e95ada3b",
+   "sp": "um",
+   "text": "they",
+   "kind": "word",
+   "key": "they",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-e75705d9",
+   "sp": "um",
+   "text": "day",
+   "kind": "word",
+   "key": "day",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-143b94e2",
+   "sp": "tf",
+   "text": "thick",
+   "kind": "word",
+   "key": "thick",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tf-6a21c7cb",
+   "wgap": true
+  },
+  {
+   "id": "tf-6a21c7cb",
+   "sp": "tf",
+   "text": "sick",
+   "kind": "word",
+   "key": "sick",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "tf-143b94e2",
+   "wgap": true
+  },
+  {
+   "id": "uf-6c227823",
+   "sp": "uf",
+   "text": "thick",
+   "kind": "word",
+   "key": "thick",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "uf-c56d0d7c",
+   "wgap": true
+  },
+  {
+   "id": "uf-c56d0d7c",
+   "sp": "uf",
+   "text": "sick",
+   "kind": "word",
+   "key": "sick",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "uf-6c227823",
+   "wgap": true
+  },
+  {
+   "id": "um-ad3de36a",
+   "sp": "um",
+   "text": "thick",
+   "kind": "word",
+   "key": "thick",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "um-74dd0873",
+   "wgap": true
+  },
+  {
+   "id": "um-74dd0873",
+   "sp": "um",
+   "text": "sick",
+   "kind": "word",
+   "key": "sick",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "um-ad3de36a",
+   "wgap": true
+  },
+  {
+   "id": "tf-e81afbf3",
+   "sp": "tf",
+   "text": "thing",
+   "kind": "word",
+   "key": "thing",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tf-662cfa72",
+   "wgap": true
+  },
+  {
+   "id": "tf-662cfa72",
+   "sp": "tf",
+   "text": "sing",
+   "kind": "word",
+   "key": "sing",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "tf-e81afbf3",
+   "wgap": true
+  },
+  {
+   "id": "uf-5808152a",
+   "sp": "uf",
+   "text": "thing",
+   "kind": "word",
+   "key": "thing",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "uf-c975628d",
+   "wgap": true
+  },
+  {
+   "id": "uf-c975628d",
+   "sp": "uf",
+   "text": "sing",
+   "kind": "word",
+   "key": "sing",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "uf-5808152a",
+   "wgap": true
+  },
+  {
+   "id": "um-d144d7db",
+   "sp": "um",
+   "text": "thing",
+   "kind": "word",
+   "key": "thing",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "um-a0c1773a",
+   "wgap": true
+  },
+  {
+   "id": "um-a0c1773a",
+   "sp": "um",
+   "text": "sing",
+   "kind": "word",
+   "key": "sing",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "um-d144d7db",
+   "wgap": true
+  },
+  {
+   "id": "tf-9f31f6a7",
+   "sp": "tf",
+   "text": "thumb",
+   "kind": "word",
+   "key": "thumb",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tf-041bd194",
+   "wgap": true
+  },
+  {
+   "id": "tf-041bd194",
+   "sp": "tf",
+   "text": "sum",
+   "kind": "word",
+   "key": "sum",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "tf-9f31f6a7",
+   "wgap": true
+  },
+  {
+   "id": "uf-0cd2a96a",
+   "sp": "uf",
+   "text": "thumb",
+   "kind": "word",
+   "key": "thumb",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "uf-8a717ad5",
+   "wgap": true
+  },
+  {
+   "id": "uf-8a717ad5",
+   "sp": "uf",
+   "text": "sum",
+   "kind": "word",
+   "key": "sum",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "uf-0cd2a96a",
+   "wgap": true
+  },
+  {
+   "id": "um-58b4979f",
+   "sp": "um",
+   "text": "thumb",
+   "kind": "word",
+   "key": "thumb",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "um-7ee1a19c",
+   "wgap": true
+  },
+  {
+   "id": "um-7ee1a19c",
+   "sp": "um",
+   "text": "sum",
+   "kind": "word",
+   "key": "sum",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "s",
+   "wpair": "um-58b4979f",
+   "wgap": true
+  },
+  {
+   "id": "tf-66299a42",
+   "sp": "tf",
+   "text": "path",
+   "kind": "word",
+   "key": "path",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "tf-4d302eac",
+   "wgap": true
+  },
+  {
+   "id": "tf-4d302eac",
+   "sp": "tf",
+   "text": "pass",
+   "kind": "word",
+   "key": "pass",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "tf-66299a42",
+   "wgap": true
+  },
+  {
+   "id": "uf-bb1f1d89",
+   "sp": "uf",
+   "text": "path",
+   "kind": "word",
+   "key": "path",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "uf-b02a452b",
+   "wgap": true
+  },
+  {
+   "id": "uf-b02a452b",
+   "sp": "uf",
+   "text": "pass",
+   "kind": "word",
+   "key": "pass",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "uf-bb1f1d89",
+   "wgap": true
+  },
+  {
+   "id": "um-a3675b3a",
+   "sp": "um",
+   "text": "path",
+   "kind": "word",
+   "key": "path",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "um-9a6f9bd4",
+   "wgap": true
+  },
+  {
+   "id": "um-9a6f9bd4",
+   "sp": "um",
+   "text": "pass",
+   "kind": "word",
+   "key": "pass",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "um-a3675b3a",
+   "wgap": true
+  },
+  {
+   "id": "tf-45e063c3",
+   "sp": "tf",
+   "text": "faith",
+   "kind": "word",
+   "key": "faith",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "tf-fe2107e0",
+   "wgap": true
+  },
+  {
+   "id": "tf-fe2107e0",
+   "sp": "tf",
+   "text": "face",
+   "kind": "word",
+   "key": "face",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "tf-45e063c3",
+   "wgap": true
+  },
+  {
+   "id": "uf-89ed82ce",
+   "sp": "uf",
+   "text": "faith",
+   "kind": "word",
+   "key": "faith",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "uf-e223d773",
+   "wgap": true
+  },
+  {
+   "id": "uf-e223d773",
+   "sp": "uf",
+   "text": "face",
+   "kind": "word",
+   "key": "face",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "uf-89ed82ce",
+   "wgap": true
+  },
+  {
+   "id": "um-717f061b",
+   "sp": "um",
+   "text": "faith",
+   "kind": "word",
+   "key": "faith",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "um-d0158768",
+   "wgap": true
+  },
+  {
+   "id": "um-d0158768",
+   "sp": "um",
+   "text": "face",
+   "kind": "word",
+   "key": "face",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "s",
+   "wpair": "um-717f061b",
+   "wgap": true
+  },
+  {
+   "id": "tf-8a571846",
+   "sp": "tf",
+   "text": "thin",
+   "kind": "word",
+   "key": "thin",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tf-d383c1c6"
+  },
+  {
+   "id": "tf-d383c1c6",
+   "sp": "tf",
+   "text": "fin",
+   "kind": "word",
+   "key": "fin",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "tf-8a571846"
+  },
+  {
+   "id": "uf-0a1bf809",
+   "sp": "uf",
+   "text": "thin",
+   "kind": "word",
+   "key": "thin",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "uf-7f15752b"
+  },
+  {
+   "id": "uf-7f15752b",
+   "sp": "uf",
+   "text": "fin",
+   "kind": "word",
+   "key": "fin",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "uf-0a1bf809"
+  },
+  {
+   "id": "um-de78ddfe",
+   "sp": "um",
+   "text": "thin",
+   "kind": "word",
+   "key": "thin",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "um-b375a1de"
+  },
+  {
+   "id": "um-b375a1de",
+   "sp": "um",
+   "text": "fin",
+   "kind": "word",
+   "key": "fin",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "um-de78ddfe"
+  },
+  {
+   "id": "tf-56b515b6",
+   "sp": "tf",
+   "text": "thought",
+   "kind": "word",
+   "key": "thought",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "tf-4a4f3e36"
+  },
+  {
+   "id": "tf-4a4f3e36",
+   "sp": "tf",
+   "text": "fought",
+   "kind": "word",
+   "key": "fought",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "tf-56b515b6"
+  },
+  {
+   "id": "uf-cf51540b",
+   "sp": "uf",
+   "text": "thought",
+   "kind": "word",
+   "key": "thought",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "uf-c2f2ea8d"
+  },
+  {
+   "id": "uf-c2f2ea8d",
+   "sp": "uf",
+   "text": "fought",
+   "kind": "word",
+   "key": "fought",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "uf-cf51540b"
+  },
+  {
+   "id": "um-c9c1e29e",
+   "sp": "um",
+   "text": "thought",
+   "kind": "word",
+   "key": "thought",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "th",
+   "wpair": "um-9fd64dfe"
+  },
+  {
+   "id": "um-9fd64dfe",
+   "sp": "um",
+   "text": "fought",
+   "kind": "word",
+   "key": "fought",
+   "n": 1,
+   "at": 0,
+   "wind": "on",
+   "wrole": "f",
+   "wpair": "um-c9c1e29e"
+  },
+  {
+   "id": "tf-e120c5b1",
+   "sp": "tf",
+   "text": "death",
+   "kind": "word",
+   "key": "death",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "tf-1236a039"
+  },
+  {
+   "id": "tf-1236a039",
+   "sp": "tf",
+   "text": "deaf",
+   "kind": "word",
+   "key": "deaf",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "f",
+   "wpair": "tf-e120c5b1"
+  },
+  {
+   "id": "uf-ce9966c8",
+   "sp": "uf",
+   "text": "death",
+   "kind": "word",
+   "key": "death",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "uf-d20e4566"
+  },
+  {
+   "id": "uf-d20e4566",
+   "sp": "uf",
+   "text": "deaf",
+   "kind": "word",
+   "key": "deaf",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "f",
+   "wpair": "uf-ce9966c8"
+  },
+  {
+   "id": "um-ada3ab79",
+   "sp": "um",
+   "text": "death",
+   "kind": "word",
+   "key": "death",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "th",
+   "wpair": "um-38611281"
+  },
+  {
+   "id": "um-38611281",
+   "sp": "um",
+   "text": "deaf",
+   "kind": "word",
+   "key": "deaf",
+   "n": 1,
+   "at": 0,
+   "wind": "off",
+   "wrole": "f",
+   "wpair": "um-ada3ab79"
+  },
+  {
+   "id": "tf-85f27291",
+   "sp": "tf",
+   "text": "tree",
+   "kind": "word",
+   "key": "tree",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-60c14d76",
+   "sp": "uf",
+   "text": "tree",
+   "kind": "word",
+   "key": "tree",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-349045d9",
+   "sp": "um",
+   "text": "tree",
+   "kind": "word",
+   "key": "tree",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-7ad9378f",
+   "sp": "tf",
+   "text": "thank",
+   "kind": "word",
+   "key": "thank",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-bc089bbd",
+   "sp": "tf",
+   "text": "tank",
+   "kind": "word",
+   "key": "tank",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-04f8f96e",
+   "sp": "uf",
+   "text": "thank",
+   "kind": "word",
+   "key": "thank",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-c31f4ef2",
+   "sp": "uf",
+   "text": "tank",
+   "kind": "word",
+   "key": "tank",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-4686a8d7",
+   "sp": "um",
+   "text": "thank",
+   "kind": "word",
+   "key": "thank",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-dda7e125",
+   "sp": "um",
+   "text": "tank",
+   "kind": "word",
+   "key": "tank",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-be7ceab6",
+   "sp": "tf",
+   "text": "both",
+   "kind": "word",
+   "key": "both",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-a84d69df",
+   "sp": "tf",
+   "text": "boat",
+   "kind": "word",
+   "key": "boat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-b6addc51",
+   "sp": "uf",
+   "text": "both",
+   "kind": "word",
+   "key": "both",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-cc8dab48",
+   "sp": "uf",
+   "text": "boat",
+   "kind": "word",
+   "key": "boat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-ab14227e",
+   "sp": "um",
+   "text": "both",
+   "kind": "word",
+   "key": "both",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-c4e4ed37",
+   "sp": "um",
+   "text": "boat",
+   "kind": "word",
+   "key": "boat",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-aa604502",
+   "sp": "tf",
+   "text": "then",
+   "kind": "word",
+   "key": "then",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-fa5e2878",
+   "sp": "tf",
+   "text": "den",
+   "kind": "word",
+   "key": "den",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-09fde2f5",
+   "sp": "uf",
+   "text": "then",
+   "kind": "word",
+   "key": "then",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-583b0e79",
+   "sp": "uf",
+   "text": "den",
+   "kind": "word",
+   "key": "den",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-de5ac8ea",
+   "sp": "um",
+   "text": "then",
+   "kind": "word",
+   "key": "then",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-d84c60e0",
+   "sp": "um",
+   "text": "den",
+   "kind": "word",
+   "key": "den",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-82507d46",
+   "sp": "tf",
+   "text": "though",
+   "kind": "word",
+   "key": "though",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-78146548",
+   "sp": "tf",
+   "text": "dough",
+   "kind": "word",
+   "key": "dough",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-9e44cedd",
+   "sp": "uf",
+   "text": "though",
+   "kind": "word",
+   "key": "though",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-14ef0cf9",
+   "sp": "uf",
+   "text": "dough",
+   "kind": "word",
+   "key": "dough",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-76de2dde",
+   "sp": "um",
+   "text": "though",
+   "kind": "word",
+   "key": "though",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-ba924560",
+   "sp": "um",
+   "text": "dough",
+   "kind": "word",
+   "key": "dough",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-ac5c0b5a",
+   "sp": "tf",
+   "text": "breathe",
+   "kind": "word",
+   "key": "breathe",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-6c98bed5",
+   "sp": "tf",
+   "text": "breed",
+   "kind": "word",
+   "key": "breed",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-8712ff0b",
+   "sp": "uf",
+   "text": "breathe",
+   "kind": "word",
+   "key": "breathe",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-9a0185a8",
+   "sp": "uf",
+   "text": "breed",
+   "kind": "word",
+   "key": "breed",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-cb50f1a2",
+   "sp": "um",
+   "text": "breathe",
+   "kind": "word",
+   "key": "breathe",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-df02edcd",
+   "sp": "um",
+   "text": "breed",
+   "kind": "word",
+   "key": "breed",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-985189ea",
+   "sp": "tf",
+   "text": "breeze",
+   "kind": "word",
+   "key": "breeze",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "uf-5138a195",
+   "sp": "uf",
+   "text": "breeze",
+   "kind": "word",
+   "key": "breeze",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "um-cd529d42",
+   "sp": "um",
+   "text": "breeze",
+   "kind": "word",
+   "key": "breeze",
+   "n": 1,
+   "at": 0
+  },
+  {
+   "id": "tf-aee2ac19",
+   "sp": "tf",
+   "text": "clothing",
+   "kind": "word",
+   "key": "clothing",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tf-72d46120",
+   "sp": "tf",
+   "text": "closing",
+   "kind": "word",
+   "key": "closing",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "uf-d3657c6e",
+   "sp": "uf",
+   "text": "clothing",
+   "kind": "word",
+   "key": "clothing",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "uf-b0b019d1",
+   "sp": "uf",
+   "text": "closing",
+   "kind": "word",
+   "key": "closing",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-f5d51031",
+   "sp": "um",
+   "text": "clothing",
+   "kind": "word",
+   "key": "clothing",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "um-d11d26b8",
+   "sp": "um",
+   "text": "closing",
+   "kind": "word",
+   "key": "closing",
+   "n": 2,
+   "at": 0
+  },
+  {
+   "id": "tf-12cba6c7",
+   "sp": "tf",
+   "text": "Look at the mouse.",
+   "kind": "other"
+  },
+  {
+   "id": "um-9b63818a",
+   "sp": "um",
+   "text": "Take the path.",
+   "kind": "other"
+  },
+  {
+   "id": "tc-579c5caf",
+   "sp": "tc",
+   "text": "I lost faith.",
+   "kind": "other"
+  },
+  {
+   "id": "uf-aaaf7df8",
+   "sp": "uf",
+   "text": "They are three.",
+   "kind": "other"
+  },
+  {
+   "id": "tf-ea33bebd",
+   "sp": "tf",
+   "text": "some",
+   "kind": "word",
+   "key": "some",
+   "n": 1,
+   "at": 0
+  }
+ ]
+}
