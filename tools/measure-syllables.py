@@ -77,6 +77,8 @@
     만드는 쪽의 길이 어림(글자 수에 견준 빠르기 — voicestudio_common.badness)에 걸린 후보도 소리가 있으면 버리지 않고 재요.
     fought · theater처럼 글자 수에 비해 소리가 짧은 낱말은 어느 seed로 만들어도 걸리기 때문이에요. 걸리지 않은 후보가 통과하면
     그것을 쓰고, 없으면 걸린 채 통과한 첫 후보를 써요(세 후보가 모두 걸렸으면 거기서 멈춤). 그렇게 바꾼 줄은 끝에 따로 적어요.
+    다만 걸린 채 통과한 후보가 같은 목소리 · 같은 종류의 이미 쓰는(통과한) 어느 소리보다도 빠르면(글자/초) 쓰지 않아요 —
+    받아쓰기와 잰 값은 맞아도 뭉개 읽은 소리일 수 있어서요(미국 남성의 internet은 세 음절을 0.2초에 읽은 후보가 통과했어요).
 """
 import argparse
 import io
@@ -1124,6 +1126,12 @@ def narration_from_words(slug, meta, res, tmp):
     print(f'옛 파일: {old_dir}')
 
 
+def speech_rate(text, dur):
+    """말 빠르기(글자/초) — 앞뒤 여백(0.12초씩)을 뺀 길이로. 숫자는 한 자리를 글자 넷으로 쳐요(vs.badness와 같게)"""
+    n = sum(ch.isalpha() for ch in text) + 4 * sum(ch.isdigit() for ch in text)
+    return n / max(dur - 0.24, 0.05)
+
+
 def main():
     ap = argparse.ArgumentParser(description='낱말 파일을 재서 measure.js 쓰기')
     ap.add_argument('slug')
@@ -1210,6 +1218,11 @@ def main():
             text = vs.line_text(m['text'], voices[m['sp']])
             got = held = None
             tried = odd = 0
+            # 같은 목소리 · 같은 종류(낱말 · 문장 …)의 통과한 줄 가운데 가장 빠른 것 — 길이 어림에 걸린 후보가 이보다 빠르면 쓰지 않아요
+            used_rates = [speech_rate(x['text'], cl['clips'][x['id']][1]) for x in meta
+                          if x['sp'] == m['sp'] and x['kind'] == m['kind'] and x['id'] != m['id'] and x['id'] in res
+                          and x['id'] in (cl.get('clips') or {}) and passes(x, res[x['id']], res)]
+            top = max(used_rates) if used_rates else None
             for sd in seeds:
                 try:
                     wav, dur, used = vs.generate(server, text, lang, prof[m['sp']]['id'], sd)
@@ -1234,7 +1247,11 @@ def main():
                     if not note:
                         got = (cand, r)
                         break
-                    held = held or (cand, r)   # 길이 어림에 걸린 채 통과한 첫 후보는 잡아 두고, 걸리지 않는 후보를 더 찾아봐요
+                    rate = speech_rate(m['text'], dur)
+                    if top is not None and rate > top:
+                        print(f"      ↳ 쓰지 않음: 1초에 {rate:.1f}글자 — 이 목소리에서 이미 쓰는 가장 빠른 소리({top:.1f}글자)보다 빨라요", flush=True)
+                    else:
+                        held = held or (cand, r)   # 길이 어림에 걸린 채 통과한 첫 후보는 잡아 두고, 걸리지 않는 후보를 더 찾아봐요
                 if held and odd == tried and tried >= 3:
                     break                      # 세 후보가 모두 걸렸으면 길이 어림이 맞지 않는 낱말이에요
             if not got and held:

@@ -92,7 +92,9 @@ python3 tools/voicestudio-dialogue.py t-and-linking
   - 음절을 나누지 못함 2줄(*battery*)
 - seed를 여섯 번 바꿔 19줄을 바꿨어요.
 - 측정 도구의 소리가 같은 낱말에 *atom = Adam*을 더해(*metal = medal · writer = rider*와 같은 까닭) 3줄이 통과했어요.
-- **끝내 통과하지 못한 13줄**: 밝은 선생님의 *fourteen*, 차분한 선생님의 *computer*, 미국 여성의 *computer · attack · fourteen*, 미국 남성의 *photo · battery · fourteen · twenty · what about · lot · not · not at all*. 소리 파일은 그대로 두고 잰 값만 뺐어요.
+- 그 뒤에도 13줄이 남았어요 — 밝은 선생님의 *fourteen*, 차분한 선생님의 *computer*, 미국 여성의 *computer · attack · fourteen*, 미국 남성의 *photo · battery · fourteen · twenty · what about · lot · not · not at all*.
+- **다시 돌림(2026-11-16)**: 다시 만들기가 ‘글자 수에 견줘 너무 빠른 소리’로 본 후보를 재지 않고 버리던 것을 고친 뒤(`tools/measure-syllables.py`) 통과하지 못한 줄을 seed 여섯 개로 다시 만들었어요. 미국 남성의 *photo · battery · twenty · what about · not at all* 5줄이 통과했어요(0.48~0.62초). 모두 그렇게 걸렸던 후보라 받아쓰기와 잰 값으로 판정했고 귀로 들어 보지는 않았어요.
+- **끝내 통과하지 못한 8줄**: 밝은 선생님의 *fourteen*, 차분한 선생님의 *computer*, 미국 여성의 *computer · attack · fourteen*, 미국 남성의 *fourteen · lot · not*. 소리 파일은 그대로 두고 잰 값만 뺐어요.
   - t 듣고 가르기 훈련 · t 바꾸기 실험실 · 강세 짝 고르기는 낱말(짝이면 둘 다)이 통과한 목소리로만 들려줘요. 그래서 *fourteen*은 차분한 선생님 목소리로만 나오고, 강세 짝 고르기의 *forty · fourteen*도 차분한 선생님 목소리예요(나머지 짝은 밝은 선생님).
   - 한국어식 17줄은 모두 통과했어요(끊겨야 하는 자리마다 22~70dB 떨어짐 — 낱말 사이 쉼표로 읽게 한 까닭은 위의 ‘미리 만든 목소리’).
 
